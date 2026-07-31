@@ -1,0 +1,6 @@
+---
+pid: 2136
+cwd: |
+  C:\Users\DELL Latitude
+---
+PS C:\Users\DELL Latitude>

@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========== BASE STYLES ========== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-cosmic-900 text-white min-h-screen font-sans;
+    background: linear-gradient(180deg, #050010 0%, #090016 15%, #17042b 50%, #220742 85%, #17042b 100%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-cosmic-500/40 text-white;
+  }
+
+  a {
+    @apply text-cosmic-300 hover:text-cosmic-200 transition-colors duration-200;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+/* ========== COMPONENT CLASSES ========== */
+@layer components {
+  /* Container */
+  .container-main {
+    @apply mx-auto max-w-6xl px-4 py-6;
+  }
+
+  /* Glass Cards */
+  .glass-card {
+    @apply relative rounded-2xl border border-cosmic-400/20 p-6;
+    background: linear-gradient(135deg, rgba(23, 4, 43, 0.8) 0%, rgba(9, 0, 22, 0.6) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(124, 92, 231, 0.1);
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300;
+  }
+
+  .glass-card-hover:hover {
+    border-color: rgba(124, 92, 231, 0.4);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(124, 92, 231, 0.15), inset 0 1px 0 rgba(124, 92, 231, 0.2);
+    transform: translateY(-2px);
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #a78bfa, #818cf8, #c084fc);
+  }
+
+  .gradient-text-gold {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #f59e0b, #fbbf24, #d97706);
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold text-white transition-all duration-300;
+    background: linear-gradient(135deg, #5f3fd6, #7c5ce7);
+    box-shadow: 0 4px 15px rgba(95, 63, 214, 0.3);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 25px rgba(95, 63, 214, 0.5), 0 0 40px rgba(124, 92, 231, 0.2);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  .btn-secondary {
+    @apply relative inline-flex items-center justify-center rounded-xl border border-cosmic-400/30 px-6 py-3 font-semibold text-cosmic-200 transition-all duration-300;
+    background: rgba(23, 4, 43, 0.5);
+    backdrop-filter: blur(10px);
+  }
+
+  .btn-secondary:hover {
+    border-color: rgba(124, 92, 231, 0.5);
+    background: rgba(95, 63, 214, 0.15);
+    transform: translateY(-1px);
+  }
+
+  .btn-glow {
+    @apply btn-primary animate-pulse-glow;
+  }
+
+  /* Form Inputs */
+  .input-cosmic {
+    @apply w-full rounded-xl border border-cosmic-400/20 px-4 py-3 text-white placeholder-cosmic-300/50 transition-all duration-200;
+    background: rgba(9, 0, 22, 0.6);
+    backdrop-filter: blur(10px);
+  }
+
+  .input-cosmic:focus {
+    @apply outline-none ring-2 ring-cosmic-500/50 border-cosmic-400/40;
+    box-shadow: 0 0 20px rgba(124, 92, 231, 0.15);
+  }
+
+  /* Cosmic Section Divider */
+  .section-divider {
+    @apply relative my-12;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(124, 92, 231, 0.4), transparent);
+  }
+
+  /* Shimmer Effect */
+  .shimmer {
+    background: linear-gradient(90deg, transparent, rgba(124, 92, 231, 0.1), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2.5s linear infinite;
+  }
+
+  /* Badge */
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium;
+    background: rgba(95, 63, 214, 0.2);
+    border: 1px solid rgba(124, 92, 231, 0.3);
+  }
+
+  .badge-gold {
+    @apply badge;
+    background: rgba(245, 158, 11, 0.15);
+    border-color: rgba(245, 158, 11, 0.3);
+    color: #fbbf24;
+  }
+
+  .badge-emerald {
+    @apply badge;
+    background: rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
+    color: #34d399;
+  }
+
+  /* Stars background */
+  .stars-bg {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stars-bg::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image:
+      radial-gradient(1px 1px at 10% 20%, rgba(167, 139, 250, 0.6) 0%, transparent 100%),
+      radial-gradient(1px 1px at 30% 60%, rgba(129, 140, 248, 0.4) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 50% 10%, rgba(192, 132, 252, 0.7) 0%, transparent 100%),
+      radial-gradient(1px 1px at 70% 40%, rgba(167, 139, 250, 0.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 90% 80%, rgba(129, 140, 248, 0.3) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 20% 90%, rgba(192, 132, 252, 0.6) 0%, transparent 100%),
+      radial-gradient(1px 1px at 60% 70%, rgba(167, 139, 250, 0.4) 0%, transparent 100%),
+      radial-gradient(1px 1px at 80% 15%, rgba(129, 140, 248, 0.5) 0%, transparent 100%),
+      radial-gradient(1px 1px at 40% 45%, rgba(192, 132, 252, 0.3) 0%, transparent 100%),
+      radial-gradient(1.5px 1.5px at 15% 55%, rgba(167, 139, 250, 0.6) 0%, transparent 100%),
+      radial-gradient(1px 1px at 85% 35%, rgba(129, 140, 248, 0.4) 0%, transparent 100%),
+      radial-gradient(1px 1px at 55% 85%, rgba(192, 132, 252, 0.5) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Glow Orb Decoration */
+  .glow-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.15;
+    pointer-events: none;
+  }
+
+  .glow-orb-purple {
+    @apply glow-orb;
+    background: #7c5ce7;
+  }
+
+  .glow-orb-blue {
+    @apply glow-orb;
+    background: #818cf8;
+  }
+
+  .glow-orb-pink {
+    @apply glow-orb;
+    background: #c084fc;
+  }
+}
+
+/* ========== ENHANCED PROSE ========== */
+.prose {
+  @apply leading-relaxed;
+}
+
+.prose h2 {
+  @apply font-display text-cosmic-200 mt-8 mb-4;
+}
+
+.prose h3 {
+  @apply font-display text-cosmic-300 mt-6 mb-3;
+}
+
+.prose p {
+  @apply text-cosmic-100/80 mb-4;
+}
+
+.prose strong {
+  @apply text-white font-semibold;
+}
+
+.prose a {
+  @apply text-cosmic-400 hover:text-cosmic-300 underline decoration-cosmic-400/30 underline-offset-2 transition-colors;
+}
+
+/* ========== SCROLLBAR ========== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090016;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(124, 92, 231, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 92, 231, 0.5);
+}
+
+/* ========== UTILITIES ========== */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+}
