@@ -37,13 +37,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
-      <body className="stars-bg min-h-screen flex flex-col font-sans text-cosmic-100 bg-cosmic-950">
-        <Navbar />
-        <main className="container-main flex-grow">{children}</main>
-        
-        <div className="border-t border-indigo-400/30 my-8"></div>
-        
-        <footer className="glass-card stars-bg mt-auto border-t-0 border-indigo-400/30">
+      <body className="min-h-screen font-sans text-cosmic-100 bg-cosmic-950">
+        <div className="stars-bg min-h-screen flex flex-col w-full relative">
+          <Navbar />
+          <main className="container-main flex-grow w-full">{children}</main>
+          
+          <div className="border-t border-indigo-400/30 my-8"></div>
+          
+          <footer className="glass-card stars-bg mt-auto border-t-0 border-indigo-400/30">
           <div className="container-main py-12 flex flex-wrap gap-8 justify-between md:grid md:grid-cols-4">
             
             {/* Column 1 */}
@@ -87,7 +88,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             
           </div>
         </footer>
-      </body>
-    </html>
-  );
+      </div>
+    </body>
+  </html>
+);
 }

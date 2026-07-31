@@ -10,16 +10,12 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-    overflow-y: auto;
   }
 
   body {
     @apply bg-cosmic-900 text-white min-h-screen font-sans;
     background: linear-gradient(180deg, #050010 0%, #090016 15%, #17042b 50%, #220742 85%, #17042b 100%);
     background-attachment: fixed;
-    overflow-x: hidden;
-    overflow-y: auto;
   }
 
   ::selection {
