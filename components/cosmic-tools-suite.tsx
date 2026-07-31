@@ -10,125 +10,204 @@ import { TarotReader } from "@/components/tarot-reader";
 import { GemstoneFinder } from "@/components/gemstone-finder";
 import { NakshatraFinder } from "@/components/nakshatra-finder";
 import { RahuKaalTracker } from "@/components/rahu-kaal";
+import { VenusCalculator } from "@/components/venus-calculator";
+import { MercuryCalculator } from "@/components/mercury-calculator";
+import { ChironCalculator } from "@/components/chiron-calculator";
+
+type CategoryKey = "planetary" | "vedic" | "guidance";
+type ToolKey = 
+  | "bigthree" | "venus" | "mercury" | "chiron" | "nakshatra"
+  | "kundali" | "love" | "gemstone" | "rahu"
+  | "numerology" | "horoscope" | "tarot";
 
 export function CosmicToolsSuite() {
-  const [activeTool, setActiveTool] = useState<"bigthree" | "kundali" | "love" | "numerology" | "horoscope" | "tarot" | "gemstone" | "nakshatra" | "rahu">("bigthree");
+  const [activeCategory, setActiveCategory] = useState<CategoryKey>("planetary");
+  const [activeTool, setActiveTool] = useState<ToolKey>("bigthree");
+
+  const categories = [
+    { key: "planetary", name: "🌟 Birth Chart & Planetary Signs", icon: "🌌" },
+    { key: "vedic", name: "🕉️ Vedic Astrology & Compatibility", icon: "🕉️" },
+    { key: "guidance", name: "🔮 Numerology, Tarot & Guidance", icon: "🎴" }
+  ];
 
   return (
     <div className="w-full space-y-6">
-      {/* Tool Selector Tabs */}
-      <div className="flex flex-wrap justify-center gap-2.5 mb-4">
-        <button
-          onClick={() => setActiveTool("bigthree")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "bigthree"
-              ? "btn-primary shadow-xl shadow-purple-900/40 border border-white/20"
-              : "btn-secondary hover:border-accent-gold"
-          }`}
-        >
-          <span>🔮</span> Big Three
-        </button>
+      {/* Group-Wise Category Tabs */}
+      <div className="flex flex-wrap justify-center gap-3 p-2 rounded-2xl bg-black/60 border border-cosmic-500/30 max-w-4xl mx-auto">
+        {categories.map((cat) => (
+          <button
+            key={cat.key}
+            onClick={() => {
+              setActiveCategory(cat.key as CategoryKey);
+              if (cat.key === "planetary") setActiveTool("bigthree");
+              if (cat.key === "vedic") setActiveTool("kundali");
+              if (cat.key === "guidance") setActiveTool("numerology");
+            }}
+            className={`px-5 py-3 rounded-xl font-display font-bold text-xs sm:text-sm transition-all duration-300 flex items-center gap-2 ${
+              activeCategory === cat.key
+                ? "bg-gradient-to-r from-purple-600 via-indigo-600 to-purple-700 text-white shadow-lg shadow-purple-900/50 border border-white/20"
+                : "text-cosmic-200 hover:text-white hover:bg-white/10"
+            }`}
+          >
+            <span>{cat.icon}</span> {cat.name}
+          </button>
+        ))}
+      </div>
 
-        <button
-          onClick={() => setActiveTool("kundali")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "kundali"
-              ? "bg-accent-gold text-black font-bold shadow-xl shadow-amber-900/50 border border-yellow-300"
-              : "btn-secondary hover:border-accent-gold"
-          }`}
-        >
-          <span>🕉️</span> Kundali Milan (36 Gunas)
-        </button>
+      {/* Tools Sub-Selector Buttons under Active Category */}
+      <div className="flex flex-wrap justify-center gap-2.5 max-w-5xl mx-auto py-2">
+        {activeCategory === "planetary" && (
+          <>
+            <button
+              onClick={() => setActiveTool("bigthree")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "bigthree"
+                  ? "bg-accent-gold text-black font-bold shadow-md border border-yellow-300"
+                  : "btn-secondary hover:border-accent-gold"
+              }`}
+            >
+              <span>🔮</span> Big Three (Sun/Moon/Rising)
+            </button>
+            <button
+              onClick={() => setActiveTool("venus")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "venus"
+                  ? "bg-accent-rose text-white font-bold shadow-md border border-rose-300"
+                  : "btn-secondary hover:border-accent-rose"
+              }`}
+            >
+              <span>♀️</span> Venus Sign (Love)
+            </button>
+            <button
+              onClick={() => setActiveTool("mercury")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "mercury"
+                  ? "bg-accent-cyan text-black font-bold shadow-md border border-cyan-300"
+                  : "btn-secondary hover:border-accent-cyan"
+              }`}
+            >
+              <span>☿️</span> Mercury Sign (Mind)
+            </button>
+            <button
+              onClick={() => setActiveTool("chiron")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "chiron"
+                  ? "bg-accent-emerald text-black font-bold shadow-md border border-emerald-300"
+                  : "btn-secondary hover:border-accent-emerald"
+              }`}
+            >
+              <span>⚕️</span> Chiron (Soul Healing)
+            </button>
+            <button
+              onClick={() => setActiveTool("nakshatra")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "nakshatra"
+                  ? "bg-accent-cyan text-black font-bold shadow-md border border-cyan-300"
+                  : "btn-secondary hover:border-accent-cyan"
+              }`}
+            >
+              <span>⭐</span> Birth Star (Nakshatra)
+            </button>
+          </>
+        )}
 
-        <button
-          onClick={() => setActiveTool("love")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "love"
-              ? "btn-primary shadow-xl shadow-rose-900/40 border border-white/20"
-              : "btn-secondary hover:border-accent-rose"
-          }`}
-        >
-          <span>💖</span> Love Match
-        </button>
+        {activeCategory === "vedic" && (
+          <>
+            <button
+              onClick={() => setActiveTool("kundali")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "kundali"
+                  ? "bg-accent-gold text-black font-bold shadow-md border border-yellow-300"
+                  : "btn-secondary hover:border-accent-gold"
+              }`}
+            >
+              <span>🕉️</span> Kundali Milan (36 Gunas)
+            </button>
+            <button
+              onClick={() => setActiveTool("love")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "love"
+                  ? "bg-accent-rose text-white font-bold shadow-md border border-rose-300"
+                  : "btn-secondary hover:border-accent-rose"
+              }`}
+            >
+              <span>💖</span> Zodiac Love Matcher
+            </button>
+            <button
+              onClick={() => setActiveTool("gemstone")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "gemstone"
+                  ? "bg-accent-emerald text-black font-bold shadow-md border border-emerald-300"
+                  : "btn-secondary hover:border-accent-emerald"
+              }`}
+            >
+              <span>💎</span> Gemstone & Remedy Finder
+            </button>
+            <button
+              onClick={() => setActiveTool("rahu")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "rahu"
+                  ? "bg-accent-gold text-black font-bold shadow-md border border-yellow-300"
+                  : "btn-secondary hover:border-accent-gold"
+              }`}
+            >
+              <span>🕒</span> Rahu Kaal & Muhurat
+            </button>
+          </>
+        )}
 
-        <button
-          onClick={() => setActiveTool("numerology")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "numerology"
-              ? "btn-primary shadow-xl shadow-amber-900/40 border border-white/20"
-              : "btn-secondary hover:border-accent-gold"
-          }`}
-        >
-          <span>🔢</span> Numerology
-        </button>
-
-        <button
-          onClick={() => setActiveTool("horoscope")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "horoscope"
-              ? "btn-primary shadow-xl shadow-cyan-900/40 border border-white/20"
-              : "btn-secondary hover:border-accent-cyan"
-          }`}
-        >
-          <span>🌟</span> Horoscope
-        </button>
-
-        <button
-          onClick={() => setActiveTool("tarot")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "tarot"
-              ? "bg-accent-rose text-white font-bold shadow-xl shadow-rose-900/50 border border-rose-300"
-              : "btn-secondary hover:border-accent-rose"
-          }`}
-        >
-          <span>🎴</span> Tarot Reader
-        </button>
-
-        <button
-          onClick={() => setActiveTool("gemstone")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "gemstone"
-              ? "bg-accent-emerald text-black font-bold shadow-xl shadow-emerald-900/50 border border-emerald-300"
-              : "btn-secondary hover:border-accent-emerald"
-          }`}
-        >
-          <span>💎</span> Gemstones
-        </button>
-
-        <button
-          onClick={() => setActiveTool("nakshatra")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "nakshatra"
-              ? "bg-accent-cyan text-black font-bold shadow-xl shadow-cyan-900/50 border border-cyan-300"
-              : "btn-secondary hover:border-accent-cyan"
-          }`}
-        >
-          <span>⭐</span> Nakshatra
-        </button>
-
-        <button
-          onClick={() => setActiveTool("rahu")}
-          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
-            activeTool === "rahu"
-              ? "bg-accent-gold text-black font-bold shadow-xl shadow-amber-900/50 border border-yellow-300"
-              : "btn-secondary hover:border-accent-gold"
-          }`}
-        >
-          <span>🕒</span> Rahu Kaal
-        </button>
+        {activeCategory === "guidance" && (
+          <>
+            <button
+              onClick={() => setActiveTool("numerology")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "numerology"
+                  ? "bg-accent-gold text-black font-bold shadow-md border border-yellow-300"
+                  : "btn-secondary hover:border-accent-gold"
+              }`}
+            >
+              <span>🔢</span> Life Path Numerology
+            </button>
+            <button
+              onClick={() => setActiveTool("horoscope")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "horoscope"
+                  ? "bg-accent-cyan text-black font-bold shadow-md border border-cyan-300"
+                  : "btn-secondary hover:border-accent-cyan"
+              }`}
+            >
+              <span>🌟</span> Daily Horoscope
+            </button>
+            <button
+              onClick={() => setActiveTool("tarot")}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "tarot"
+                  ? "bg-accent-rose text-white font-bold shadow-md border border-rose-300"
+                  : "btn-secondary hover:border-accent-rose"
+              }`}
+            >
+              <span>🎴</span> 3-Card Tarot Reader
+            </button>
+          </>
+        )}
       </div>
 
       {/* Render Active Tool */}
       <div className="transition-all duration-300">
         {activeTool === "bigthree" && <BigThreeCalculator />}
+        {activeTool === "venus" && <VenusCalculator />}
+        {activeTool === "mercury" && <MercuryCalculator />}
+        {activeTool === "chiron" && <ChironCalculator />}
+        {activeTool === "nakshatra" && <NakshatraFinder />}
+
         {activeTool === "kundali" && <KundaliMilanCalculator />}
         {activeTool === "love" && <LoveCompatibilityCalculator />}
+        {activeTool === "gemstone" && <GemstoneFinder />}
+        {activeTool === "rahu" && <RahuKaalTracker />}
+
         {activeTool === "numerology" && <NumerologyCalculator />}
         {activeTool === "horoscope" && <DailyHoroscope />}
         {activeTool === "tarot" && <TarotReader />}
-        {activeTool === "gemstone" && <GemstoneFinder />}
-        {activeTool === "nakshatra" && <NakshatraFinder />}
-        {activeTool === "rahu" && <RahuKaalTracker />}
       </div>
     </div>
   );
