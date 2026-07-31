@@ -19,9 +19,9 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
-  title: "BIGThreeAstrology",
-  description: "Big Three calculator, astrology blog, and astrologer marketplace.",
-  keywords: ["astrology", "big three", "sun sign", "moon sign", "rising sign", "calculator"],
+  title: "BIGThreeAstrology | Free Astrology & Numerology Calculators",
+  description: "Free Sun Moon Rising sign calculator, Vedic 36 Gunas Kundali Milan, Love Matcher, Numerology, Daily Tarot & Horoscope.",
+  keywords: ["astrology", "big three", "kundali milan", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope"],
   authors: [{ name: "BIGThreeAstrology" }],
   openGraph: {
     siteName: "BIGThreeAstrology",
@@ -51,7 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="flex flex-col gap-4">
                 <span className="text-xl font-display font-bold gradient-text">✨ BIGThreeAstrology</span>
                 <p className="text-sm text-cosmic-200">
-                  Discover your cosmic identity through your sun, moon, and rising signs.
+                  Discover your cosmic blueprint through authentic Vedic & Western astrology tools. 100% Free & Frictionless.
                 </p>
                 <p className="text-xs text-cosmic-400 mt-2">
                   &copy; {new Date().getFullYear()} BIGThreeAstrology. All rights reserved.
@@ -60,27 +60,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               
               {/* Column 2 */}
               <div className="flex flex-col gap-3 text-sm">
-                <h3 className="font-semibold text-cosmic-100">Quick Links</h3>
-                <Link href="/" className="text-cosmic-300 hover:text-accent-gold transition-colors">Home</Link>
-                <Link href="/#calculator" className="text-cosmic-300 hover:text-accent-gold transition-colors">Calculator</Link>
-                <Link href="/blog" className="text-cosmic-300 hover:text-accent-gold transition-colors">Blog</Link>
-                <Link href="/astrologers" className="text-cosmic-300 hover:text-accent-gold transition-colors">Astrologers</Link>
+                <h3 className="font-semibold text-cosmic-100">Free Tools Suite</h3>
+                <Link href="/#tools" className="text-cosmic-300 hover:text-accent-gold transition-colors">🔮 Big Three Calculator</Link>
+                <Link href="/tools/kundali-milan" className="text-cosmic-300 hover:text-accent-gold transition-colors">🕉️ Kundali Milan (36 Gunas)</Link>
+                <Link href="/tools/love-compatibility" className="text-cosmic-300 hover:text-accent-gold transition-colors">💖 Zodiac Love Matcher</Link>
+                <Link href="/tools/numerology" className="text-cosmic-300 hover:text-accent-gold transition-colors">🔢 Numerology Calculator</Link>
               </div>
               
               {/* Column 3 */}
               <div className="flex flex-col gap-3 text-sm">
-                <h3 className="font-semibold text-cosmic-100">Resources</h3>
-                <Link href="/about" className="text-cosmic-300 hover:text-accent-gold transition-colors">About</Link>
-                <Link href="/contact" className="text-cosmic-300 hover:text-accent-gold transition-colors">Contact</Link>
+                <h3 className="font-semibold text-cosmic-100">Resources & Legal</h3>
+                <Link href="/blog" className="text-cosmic-300 hover:text-accent-gold transition-colors">Blog & Guides</Link>
+                <Link href="/about" className="text-cosmic-300 hover:text-accent-gold transition-colors">About Us</Link>
+                <Link href="/contact" className="text-cosmic-300 hover:text-accent-gold transition-colors">Contact Support</Link>
                 <Link href="/privacy-policy" className="text-cosmic-300 hover:text-accent-gold transition-colors">Privacy Policy</Link>
-                <Link href="/terms-and-conditions" className="text-cosmic-300 hover:text-accent-gold transition-colors">Terms & Conditions</Link>
+                <Link href="/terms-and-conditions" className="text-cosmic-300 hover:text-accent-gold transition-colors">Terms of Service</Link>
                 <Link href="/disclaimer" className="text-cosmic-300 hover:text-accent-gold transition-colors">Disclaimer</Link>
               </div>
               
               {/* Column 4 */}
               <div className="flex flex-col gap-3 text-sm">
-                <h3 className="font-semibold text-cosmic-100">Connect</h3>
-                <p className="text-cosmic-300 mb-2">Reach out for support or inquiries.</p>
+                <h3 className="font-semibold text-cosmic-100">Support & Connect</h3>
+                <p className="text-cosmic-300 mb-2">Free cosmic calculations for users worldwide.</p>
                 <a href="mailto:support@bigthreeastrology.com" className="text-accent-cyan hover:text-accent-gold transition-colors">
                   support@bigthreeastrology.com
                 </a>
