@@ -8,14 +8,16 @@ import { NumerologyCalculator } from "@/components/numerology-calculator";
 import { DailyHoroscope } from "@/components/daily-horoscope";
 import { TarotReader } from "@/components/tarot-reader";
 import { GemstoneFinder } from "@/components/gemstone-finder";
+import { NakshatraFinder } from "@/components/nakshatra-finder";
+import { RahuKaalTracker } from "@/components/rahu-kaal";
 
 export function CosmicToolsSuite() {
-  const [activeTool, setActiveTool] = useState<"bigthree" | "kundali" | "love" | "numerology" | "horoscope" | "tarot" | "gemstone">("bigthree");
+  const [activeTool, setActiveTool] = useState<"bigthree" | "kundali" | "love" | "numerology" | "horoscope" | "tarot" | "gemstone" | "nakshatra" | "rahu">("bigthree");
 
   return (
     <div className="w-full space-y-6">
       {/* Tool Selector Tabs */}
-      <div className="flex flex-wrap justify-center gap-3 mb-4">
+      <div className="flex flex-wrap justify-center gap-2.5 mb-4">
         <button
           onClick={() => setActiveTool("bigthree")}
           className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
@@ -92,6 +94,28 @@ export function CosmicToolsSuite() {
         >
           <span>💎</span> Gemstones
         </button>
+
+        <button
+          onClick={() => setActiveTool("nakshatra")}
+          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
+            activeTool === "nakshatra"
+              ? "bg-accent-cyan text-black font-bold shadow-xl shadow-cyan-900/50 border border-cyan-300"
+              : "btn-secondary hover:border-accent-cyan"
+          }`}
+        >
+          <span>⭐</span> Nakshatra
+        </button>
+
+        <button
+          onClick={() => setActiveTool("rahu")}
+          className={`px-4 py-2.5 rounded-2xl font-display font-semibold transition-all text-xs sm:text-sm flex items-center gap-2 ${
+            activeTool === "rahu"
+              ? "bg-accent-gold text-black font-bold shadow-xl shadow-amber-900/50 border border-yellow-300"
+              : "btn-secondary hover:border-accent-gold"
+          }`}
+        >
+          <span>🕒</span> Rahu Kaal
+        </button>
       </div>
 
       {/* Render Active Tool */}
@@ -103,6 +127,8 @@ export function CosmicToolsSuite() {
         {activeTool === "horoscope" && <DailyHoroscope />}
         {activeTool === "tarot" && <TarotReader />}
         {activeTool === "gemstone" && <GemstoneFinder />}
+        {activeTool === "nakshatra" && <NakshatraFinder />}
+        {activeTool === "rahu" && <RahuKaalTracker />}
       </div>
     </div>
   );
