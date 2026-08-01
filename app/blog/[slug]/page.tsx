@@ -5,10 +5,13 @@ import html from "remark-html";
 import { prisma } from "@/lib/prisma";
 import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import Link from "next/link";
-
 import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 
 type Props = { params: { slug: string } };
+
+export async function generateStaticParams() {
+  return SAMPLE_BLOG_POSTS.map((p) => ({ slug: p.slug }));
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   let post = null;
