@@ -82,8 +82,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="flex flex-col gap-3 text-sm">
                 <h3 className="font-semibold text-cosmic-100">Support & Connect</h3>
                 <p className="text-cosmic-300 mb-2">Free cosmic calculations for users worldwide.</p>
-                <a href="mailto:support@bigthreeastrology.com" className="text-accent-cyan hover:text-accent-gold transition-colors">
-                  support@bigthreeastrology.com
+                <a href="mailto:monashwamcalculator@gmail.com" className="text-accent-cyan hover:text-accent-gold transition-colors">
+                  monashwamcalculator@gmail.com
                 </a>
               </div>
               
