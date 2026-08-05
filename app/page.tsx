@@ -112,13 +112,15 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       
-      {/* 1. Hero Section with Photorealistic Background Visual */}
+      {/* 1. Hero Section with Optimized Photorealistic Background Visual */}
       <section className="relative flex flex-col items-center text-center pt-8 pb-16 px-4 min-h-[70vh] justify-center overflow-hidden rounded-3xl border border-emerald-500/30 bg-black/60">
         <div className="absolute inset-0 z-0 opacity-25">
           <Image
             src="/home/hero-cosmic-wheel.jpg"
             alt="Cosmic Zodiac Wheel"
             fill
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            quality={80}
             className="object-cover"
             priority
           />
@@ -209,6 +211,8 @@ export default function HomePage() {
               src="/home/spouse-banner.jpg"
               alt="Future Spouse Stargazing Soulmate"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              quality={80}
               className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -238,6 +242,8 @@ export default function HomePage() {
               src="/home/vedic-astrology.jpg"
               alt="Vedic Kundali Milan & Timing"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              quality={80}
               className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -293,6 +299,8 @@ export default function HomePage() {
               src="/home/numerology-tarot.jpg"
               alt="Numerology & Tarot Cards"
               fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              quality={80}
               className="object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>

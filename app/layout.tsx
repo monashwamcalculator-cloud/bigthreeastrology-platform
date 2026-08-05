@@ -10,12 +10,14 @@ const inter = Inter({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--font-inter",
+  display: "swap",
 });
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-space-grotesk",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -62,7 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="flex flex-col gap-4">
                 <div className="flex items-center gap-2">
                   <div className="relative w-7 h-7 rounded-full overflow-hidden border border-emerald-400/40 bg-white">
-                    <Image src="/logo.jpg" alt="Logo" fill className="object-cover" />
+                    <Image src="/logo.jpg" alt="Logo" fill sizes="28px" className="object-cover" />
                   </div>
                   <span className="text-xl font-display font-bold gradient-text">BIGThreeAstrology</span>
                 </div>
