@@ -147,18 +147,18 @@ export default function HomePage() {
       {/* Quick Access Featured Cards Grid (16 Tools) */}
       <section className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-3 sm:gap-4 max-w-6xl mx-auto px-2">
         {[
-          { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "🔮", link: "#calculator" },
+          { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "🔮", link: "/tools/big-three" },
           { name: "Kundali Milan", desc: "36 Ashta Koota Gunas", icon: "🕉️", link: "/tools/kundali-milan" },
           { name: "Love Compatibility", desc: "Zodiac Synastry Chemistry", icon: "💖", link: "/tools/love-compatibility" },
           { name: "Life Path Numerology", desc: "Pythagorean Name & Date", icon: "🔢", link: "/tools/numerology" },
-          { name: "Choghadia Muhurat", desc: "Auspicious Timing Windows", icon: "🔮", link: "#calculator" },
-          { name: "Sade Sati Phase", desc: "Saturn Transit & Remedies", icon: "🪐", link: "#calculator" },
-          { name: "Brand Numerology", desc: "Chaldean Business Math", icon: "📜", link: "#calculator" },
-          { name: "12 Kundali Houses", desc: "Bhavas & Lagna Snapshot", icon: "🏛️", link: "#calculator" },
-          { name: "Venus Sign", desc: "Love & Attraction Style", icon: "♀️", link: "#calculator" },
-          { name: "Mercury Sign", desc: "Mind & Communication", icon: "☿️", link: "#calculator" },
-          { name: "Chiron Healing", desc: "Soul Wounded Healer", icon: "⚕️", link: "#calculator" },
-          { name: "Birth Star Nakshatra", desc: "27 Vedic Stars & Deity", icon: "⭐", link: "#calculator" }
+          { name: "Choghadia Muhurat", desc: "Auspicious Timing Windows", icon: "🔮", link: "/tools/choghadia" },
+          { name: "Sade Sati Phase", desc: "Saturn Transit & Remedies", icon: "🪐", link: "/tools/sade-sati" },
+          { name: "Brand Numerology", desc: "Chaldean Business Math", icon: "📜", link: "/tools/brand-numerology" },
+          { name: "12 Kundali Houses", desc: "Bhavas & Lagna Snapshot", icon: "🏛️", link: "/tools/kundali-houses" },
+          { name: "Venus Sign", desc: "Love & Attraction Style", icon: "♀️", link: "/tools/venus-sign" },
+          { name: "Mercury Sign", desc: "Mind & Communication", icon: "☿️", link: "/tools/mercury-sign" },
+          { name: "Chiron Healing", desc: "Soul Wounded Healer", icon: "⚕️", link: "/tools/chiron" },
+          { name: "Birth Star Nakshatra", desc: "27 Vedic Stars & Deity", icon: "⭐", link: "/tools/nakshatra" }
         ].map((tool, idx) => (
           <Link
             key={idx}

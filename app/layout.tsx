@@ -61,8 +61,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {/* Column 2 */}
               <div className="flex flex-col gap-3 text-sm">
                 <h3 className="font-semibold text-emerald-100">Popular Tools</h3>
-                <Link href="/#tools" className="text-emerald-300 hover:text-emerald-100 transition-colors">🔮 Big Three Calculator</Link>
+                <Link href="/tools/big-three" className="text-emerald-300 hover:text-emerald-100 transition-colors">🔮 Big Three Calculator</Link>
                 <Link href="/tools/kundali-milan" className="text-emerald-300 hover:text-emerald-100 transition-colors">🕉️ Kundali Milan (36 Gunas)</Link>
+                <Link href="/tools/choghadia" className="text-emerald-300 hover:text-emerald-100 transition-colors">🔮 Daily Choghadia Muhurat</Link>
+                <Link href="/tools/sade-sati" className="text-emerald-300 hover:text-emerald-100 transition-colors">🪐 Sade Sati Phase Checker</Link>
                 <Link href="/tools/love-compatibility" className="text-emerald-300 hover:text-emerald-100 transition-colors">💖 Zodiac Love Matcher</Link>
                 <Link href="/tools/numerology" className="text-emerald-300 hover:text-emerald-100 transition-colors">🔢 Life Path Numerology</Link>
               </div>
