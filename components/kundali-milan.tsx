@@ -43,6 +43,9 @@ const NAKSHATRAS: Nakshatra[] = [
   { name: "Revati", rashi: "Pisces", gana: "Deva", nadi: "Antya", varna: "Shudra", yoni: "Elephant" }
 ];
 
+// All 60 Minutes (00 through 59)
+const ALL_MINUTES = Array.from({ length: 60 }, (_, i) => i.toString().padStart(2, "0"));
+
 // Helper to derive Nakshatra based on Birth Date & Time
 function getNakshatra(dateStr: string, hour24: number): Nakshatra {
   if (!dateStr) return NAKSHATRAS[0];
@@ -232,7 +235,7 @@ export function KundaliMilanCalculator() {
               />
             </div>
 
-            {/* Boy Time Picker with AM / PM */}
+            {/* Boy Time Picker with AM / PM & All 60 Minutes (00-59) */}
             <div>
               <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
               <div className="flex items-center gap-1">
@@ -255,7 +258,7 @@ export function KundaliMilanCalculator() {
                   onChange={(e) => setBoyMinute(e.target.value)}
                   className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
                 >
-                  {["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"].map((m) => (
+                  {ALL_MINUTES.map((m) => (
                     <option key={m} value={m} className="bg-emerald-950 text-white">
                       {m}
                     </option>
@@ -313,7 +316,7 @@ export function KundaliMilanCalculator() {
               />
             </div>
 
-            {/* Girl Time Picker with AM / PM */}
+            {/* Girl Time Picker with AM / PM & All 60 Minutes (00-59) */}
             <div>
               <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
               <div className="flex items-center gap-1">
@@ -336,7 +339,7 @@ export function KundaliMilanCalculator() {
                   onChange={(e) => setGirlMinute(e.target.value)}
                   className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
                 >
-                  {["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"].map((m) => (
+                  {ALL_MINUTES.map((m) => (
                     <option key={m} value={m} className="bg-emerald-950 text-white">
                       {m}
                     </option>

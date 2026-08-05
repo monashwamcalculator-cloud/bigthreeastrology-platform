@@ -30,6 +30,9 @@ const SUN_SIGNS = [
   "Sagittarius", "Capricorn", "Aquarius", "Pisces"
 ];
 
+// All 60 Minutes (00 through 59)
+const ALL_MINUTES = Array.from({ length: 60 }, (_, i) => i.toString().padStart(2, "0"));
+
 export function BigThreeCalculator() {
   const [name, setName] = useState("");
   const [birthDate, setBirthDate] = useState("");
@@ -154,13 +157,13 @@ export function BigThreeCalculator() {
 
               <span className="text-emerald-200 font-bold">:</span>
 
-              {/* Minute Dropdown */}
+              {/* Minute Dropdown (All 60 Minutes 00-59) */}
               <select
                 value={birthMinute}
                 onChange={(e) => setBirthMinute(e.target.value)}
                 className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
               >
-                {["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"].map((m) => (
+                {ALL_MINUTES.map((m) => (
                   <option key={m} value={m} className="bg-emerald-950 text-white">
                     {m}
                   </option>
