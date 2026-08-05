@@ -3,16 +3,17 @@ import Image from "next/image";
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-emerald-500/30 bg-emerald-950/90 backdrop-blur-xl relative">
-      <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-emerald-400/50 to-transparent"></div>
+    <header className="sticky top-0 z-50 border-b border-sky-500/25 bg-[#040714]/90 backdrop-blur-xl relative">
+      <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-sky-400/50 to-transparent"></div>
       
       <div className="container-main flex flex-wrap items-center justify-between gap-4 py-2.5 md:py-3">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border border-emerald-400/40 shadow-md group-hover:scale-105 transition-transform bg-white">
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border border-sky-400/40 shadow-md group-hover:scale-105 transition-transform bg-white">
             <Image
               src="/logo.jpg"
               alt="BIGThreeAstrology Logo"
               fill
+              sizes="40px"
               className="object-cover"
               priority
             />
@@ -23,9 +24,9 @@ export function Navbar() {
           </span>
         </Link>
         
-        <nav className="flex flex-wrap items-center gap-3 md:gap-5 text-xs sm:text-sm font-medium text-emerald-100">
+        <nav className="flex flex-wrap items-center gap-3 md:gap-5 text-xs sm:text-sm font-medium text-sky-100">
           <Link href="/" className="hover:text-white transition-colors duration-200">Home</Link>
-          <Link href="/tools/big-three" className="hover:text-amber-300 transition-colors duration-200 flex items-center gap-1 font-semibold text-emerald-300">
+          <Link href="/tools/big-three" className="hover:text-amber-300 transition-colors duration-200 flex items-center gap-1 font-semibold text-sky-300">
             <span>🔮</span> All Tools
           </Link>
           <Link href="/tools/kundali-milan" className="hover:text-amber-300 transition-colors duration-200 hidden sm:flex items-center gap-1">
