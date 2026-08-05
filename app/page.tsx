@@ -134,7 +134,7 @@ export default function HomePage() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto animate-slide-up animate-delay-300">
-            <Link href="#calculator" className="btn-glow px-8 py-3.5 text-base sm:text-lg font-bold w-full sm:w-auto text-center">
+            <Link href="/tools/big-three" className="btn-glow px-8 py-3.5 text-base sm:text-lg font-bold w-full sm:w-auto text-center">
               Explore 16 Free Tools ✨
             </Link>
             <Link href="/tools/kundali-milan" className="btn-secondary px-8 py-3.5 text-base sm:text-lg font-bold w-full sm:w-auto text-center border-amber-400/40 text-amber-300 hover:bg-amber-400/10">
@@ -144,7 +144,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Access Featured Cards Grid (16 Tools) */}
+      {/* Quick Access Featured Cards Grid (16 Clean SEO URLs) */}
       <section className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-3 sm:gap-4 max-w-6xl mx-auto px-2">
         {[
           { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "🔮", link: "/tools/big-three" },
@@ -180,7 +180,7 @@ export default function HomePage() {
       </section>
 
       {/* Main Interactive Tools Suite */}
-      <section id="calculator" className="stars-bg rounded-3xl p-4 sm:p-8 md:p-10 shadow-2xl relative overflow-hidden border border-emerald-500/40 scroll-mt-24 bg-black/50">
+      <section className="stars-bg rounded-3xl p-4 sm:p-8 md:p-10 shadow-2xl relative overflow-hidden border border-emerald-500/40 bg-black/50">
         <div className="relative z-10">
           <div className="text-center mb-8">
             <div className="badge badge-emerald mb-2">⚡ 16-in-1 Interactive Suite</div>
@@ -293,7 +293,7 @@ export default function HomePage() {
           <p className="text-base text-emerald-200 mb-8 max-w-xl">
             Calculate your Kundali match, Big Three, or Numerology and share the report with your partner, friends, and family!
           </p>
-          <Link href="#calculator" className="btn-glow px-10 py-3.5 text-lg font-bold">
+          <Link href="/tools/big-three" className="btn-glow px-10 py-3.5 text-lg font-bold">
             Start Free Calculation Now 🔮
           </Link>
         </div>
