@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { CosmicToolsSuite } from "@/components/cosmic-tools-suite";
 import { AdSlot } from "@/components/ad-slot";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
@@ -9,7 +10,7 @@ import { Testimonials } from "@/components/testimonials";
 export const metadata: Metadata = buildMetadata({
   title: "BIGThreeAstrology | 20 Free Astrology & Numerology Calculators",
   description:
-    "Free online astrology & numerology suite. Calculate Sun, Moon, Rising signs, Vedic 36 Guna Kundali Milan, Spouse Predictor, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot, and Gemstones.",
+    "Free online astrology & numerology suite. Calculate Sun, Moon, Rising signs, Spouse Predictor, Vedic 36 Guna Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot, and Gemstones.",
   path: "/"
 });
 
@@ -58,7 +59,7 @@ export default function HomePage() {
         name: "How accurate is the Sun Moon Rising calculator on BIGThreeAstrology?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Accuracy depends on your exact birth date, birth time, and birth location. Our algorithms cross-reference astronomical ephemeris positioning to deliver high-precision Western Tropical and Vedic Sidereal sign placements."
+          text: "Accuracy depends on your exact birth date, birth time (with AM/PM and 60 minutes precision), and birth location. Our algorithms cross-reference astronomical ephemeris positioning to deliver high-precision Western Tropical and Vedic Sidereal sign placements."
         }
       },
       {
@@ -66,7 +67,7 @@ export default function HomePage() {
         name: "How does the Future Spouse & Soulmate Predictor work?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The Spouse Predictor analyzes your Sun sign, Venus placement, and 7th House planetary ruler to predict your future partner's personality traits, physical appearance, lucky initials, and likely meeting environment."
+          text: "The Spouse Predictor analyzes your Sun sign, Venus placement, Darakaraka planet, and 7th House ruler to predict your future partner's physical appearance, personality traits, lucky initials, and likely meeting environment."
         }
       },
       {
@@ -82,7 +83,7 @@ export default function HomePage() {
         name: "What is Daily Choghadia Muhurat and how is it used?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Choghadia is an ancient Vedic timing framework dividing day and night into 8 time windows each. Auspicious slots like Amrit (Nectar), Shubh (Good), and Labh (Gain) are ideal for purchasing assets, starting a business, traveling, or conducting auspicious ceremonies."
+          text: "Choghadia is an ancient Vedic timing framework dividing day and night into 8 time windows each. Auspicious slots like Amrit (Nectar), Shubh (Good), and Labh (Gain) are ideal for purchasing assets, starting a business, traveling, or conducting ceremonies."
         }
       },
       {
@@ -111,11 +112,18 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(appSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       
-      {/* Hero Section */}
-      <section className="relative flex flex-col items-center text-center pt-10 pb-16 px-4 min-h-[65vh] justify-center overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-emerald-500/20 rounded-full blur-[110px] pointer-events-none animate-pulse-glow" />
-        <div className="absolute top-1/3 right-1/4 w-80 h-80 bg-teal-400/20 rounded-full blur-[110px] pointer-events-none animate-pulse-glow animate-delay-300" />
-        <div className="absolute bottom-1/4 left-1/2 w-96 h-96 bg-amber-400/20 rounded-full blur-[130px] pointer-events-none animate-pulse-glow animate-delay-500" />
+      {/* 1. Hero Section with Photorealistic Background Visual */}
+      <section className="relative flex flex-col items-center text-center pt-8 pb-16 px-4 min-h-[70vh] justify-center overflow-hidden rounded-3xl border border-emerald-500/30 bg-black/60">
+        <div className="absolute inset-0 z-0 opacity-25">
+          <Image
+            src="/home/hero-cosmic-wheel.jpg"
+            alt="Cosmic Zodiac Wheel"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/80 via-black/80 to-emerald-950/90 pointer-events-none" />
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
           <div className="badge badge-emerald mb-6 animate-slide-up text-xs sm:text-sm py-1.5 px-4">
@@ -144,7 +152,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Access Featured Cards Grid (20 Clean SEO URLs) */}
+      {/* 2. Quick Access Featured Cards Grid (20 Clean SEO URLs) */}
       <section className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-3 sm:gap-4 max-w-6xl mx-auto px-2">
         {[
           { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "🔮", link: "/tools/big-three" },
@@ -178,12 +186,36 @@ export default function HomePage() {
         ))}
       </section>
 
-      {/* Stats Section */}
-      <section className="w-full">
-        <StatsCounter />
+      {/* 3. Photorealistic Feature Showcase Banner 1: Spouse Prediction */}
+      <section className="glass-card p-6 md:p-10 max-w-6xl mx-auto rounded-3xl bg-black/50 border-emerald-500/30 overflow-hidden relative">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="space-y-4 text-left">
+            <div className="badge badge-gold">💖 Viral High-Demand Tool</div>
+            <h2 className="text-2xl sm:text-4xl font-display font-bold text-white leading-tight">
+              Future Spouse & Soulmate Predictor
+            </h2>
+            <p className="text-emerald-100 text-sm sm:text-base leading-relaxed">
+              Curious about your future life partner? Our advanced Spouse Predictor combines your Sun placement, Venus sign, Darakaraka planet, and 7th House ruler to calculate your partner's physical features, personality archetype, lucky initials, and probable meeting environment.
+            </p>
+            <div className="pt-2">
+              <Link href="/tools/spouse-predictor" className="btn-glow px-6 py-3 text-sm font-bold inline-flex items-center gap-2">
+                <span>💖</span> Predict Your Future Spouse Now
+              </Link>
+            </div>
+          </div>
+
+          <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden border border-emerald-500/40 shadow-2xl">
+            <Image
+              src="/home/spouse-banner.jpg"
+              alt="Future Spouse Stargazing Soulmate"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        </div>
       </section>
 
-      {/* Main Interactive Tools Suite */}
+      {/* 4. Main Interactive Tools Suite */}
       <section className="stars-bg rounded-3xl p-4 sm:p-8 md:p-10 shadow-2xl relative overflow-hidden border border-emerald-500/40 bg-black/50">
         <div className="relative z-10">
           <div className="text-center mb-8">
@@ -198,12 +230,81 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Value Proposition Grid */}
+      {/* 5. Photorealistic Feature Showcase Banner 2: Vedic Kundali & Timing */}
+      <section className="glass-card p-6 md:p-10 max-w-6xl mx-auto rounded-3xl bg-black/50 border-emerald-500/30 overflow-hidden relative">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden border border-emerald-500/40 shadow-2xl order-2 md:order-1">
+            <Image
+              src="/home/vedic-astrology.jpg"
+              alt="Vedic Kundali Milan & Timing"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div className="space-y-4 text-left order-1 md:order-2">
+            <div className="badge badge-emerald">🕉️ Authentic Jyotish Wisdom</div>
+            <h2 className="text-2xl sm:text-4xl font-display font-bold text-white leading-tight">
+              36 Guna Kundali Milan & Choghadia Timing
+            </h2>
+            <p className="text-emerald-100 text-sm sm:text-base leading-relaxed">
+              Experience authentic 3,000-year-old Vedic Jyotish calculations. Match marriage horoscopes using Ashta Koota 36 Gunas, track Saturn's 7.5-year Sade Sati phase, analyze your 120-year Vimshottari Mahadasha timeline, and pick auspicious daily Choghadia slots.
+            </p>
+            <div className="pt-2 flex flex-wrap gap-3">
+              <Link href="/tools/kundali-milan" className="btn-glow px-6 py-3 text-sm font-bold inline-flex items-center gap-2">
+                <span>🕉️</span> 36 Guna Kundali Milan
+              </Link>
+              <Link href="/tools/choghadia" className="btn-secondary px-6 py-3 text-sm font-bold inline-flex items-center gap-2">
+                <span>🔮</span> Choghadia Muhurat
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. Stats Counter Section */}
+      <section className="w-full">
+        <StatsCounter />
+      </section>
+
+      {/* 7. Photorealistic Feature Showcase Banner 3: Numerology & Tarot */}
+      <section className="glass-card p-6 md:p-10 max-w-6xl mx-auto rounded-3xl bg-black/50 border-emerald-500/30 overflow-hidden relative">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="space-y-4 text-left">
+            <div className="badge badge-gold">⚡ Sacred Frequency & Numerology</div>
+            <h2 className="text-2xl sm:text-4xl font-display font-bold text-white leading-tight">
+              Pythagorean & Chaldean Brand Numerology
+            </h2>
+            <p className="text-emerald-100 text-sm sm:text-base leading-relaxed">
+              Numbers hold universal vibrations. Calculate your Life Path and Destiny numbers, optimize your business or personal brand name using Chaldean numerology math, and decode recurring Angel Numbers (111, 222, 444, 777, 888) for daily manifestation.
+            </p>
+            <div className="pt-2 flex flex-wrap gap-3">
+              <Link href="/tools/numerology" className="btn-glow px-6 py-3 text-sm font-bold inline-flex items-center gap-2">
+                <span>🔢</span> Life Path Numerology
+              </Link>
+              <Link href="/tools/angel-numbers" className="btn-secondary px-6 py-3 text-sm font-bold inline-flex items-center gap-2">
+                <span>⚡</span> Angel Numbers Decoder
+              </Link>
+            </div>
+          </div>
+
+          <div className="relative w-full h-64 sm:h-80 rounded-2xl overflow-hidden border border-emerald-500/40 shadow-2xl">
+            <Image
+              src="/home/numerology-tarot.jpg"
+              alt="Numerology & Tarot Cards"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* 8. Value Proposition Grid */}
       <section className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {[
           { title: "⚡ 100% Free & Frictionless", desc: "Zero registration required. Enter details and receive instant deep calculations.", icon: "🚀" },
           { title: "🕉️ Vedic & Western Harmony", desc: "Supports both Western Tropical and Vedic Sidereal Jyotish calculation systems.", icon: "🌌" },
-          { title: "🌍 Global Timezone Precision", desc: "Timezone-immune date parsing supporting cities across India, USA, Europe & Asia.", icon: "📍" },
+          { title: "🌍 Global Timezone Precision", desc: "Auto-suggest geocoding supporting cities across India, USA, Europe & Asia.", icon: "📍" },
           { title: "📜 Shareable Match Reports", desc: "1-click export and copy your Kundali match certificate and Big Three snapshots.", icon: "📜" }
         ].map((feature, idx) => (
           <div key={idx} className="glass-card-hover p-6 border-emerald-500/20 text-center bg-black/40 flex flex-col items-center">
@@ -214,8 +315,8 @@ export default function HomePage() {
         ))}
       </section>
 
-      {/* Expanded Educational & Guide Section */}
-      <section className="glass-card p-6 sm:p-12 prose prose-invert max-w-4xl mx-auto rounded-3xl shadow-xl bg-black/50 border-emerald-500/30 space-y-8">
+      {/* 9. Expanded Educational Manual Section (3,000+ Words Depth) */}
+      <section className="glass-card p-6 sm:p-12 prose prose-invert max-w-5xl mx-auto rounded-3xl shadow-xl bg-black/50 border-emerald-500/30 space-y-8">
         <div>
           <h2 className="text-2xl sm:text-4xl font-display font-bold gradient-text mb-4">
             Mastering Your Astrological & Numerological Blueprint
@@ -258,7 +359,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FAQ Visual Cards */}
+      {/* 10. FAQ Visual Cards */}
       <section className="max-w-4xl mx-auto py-4">
         <h3 className="text-3xl font-display font-bold text-center text-white mb-8">Frequently Asked Questions 🔮</h3>
         <div className="grid gap-4">
@@ -273,12 +374,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* 11. Testimonials */}
       <section className="py-4">
         <Testimonials />
       </section>
 
-      {/* Virality & Social Share CTA Banner */}
+      {/* 12. Virality & Social Share CTA Banner */}
       <section className="relative overflow-hidden rounded-3xl p-8 sm:p-14 text-center my-8 bg-gradient-to-r from-emerald-950/80 via-teal-950/90 to-emerald-900/80 border border-emerald-500/40">
         <div className="absolute inset-0 stars-bg opacity-40" />
         <div className="relative z-10 flex flex-col items-center">
