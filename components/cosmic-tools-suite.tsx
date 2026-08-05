@@ -21,12 +21,16 @@ import { SpousePredictor } from "@/components/spouse-predictor";
 import { DashaCalculator } from "@/components/dasha-calculator";
 import { NorthNodeCalculator } from "@/components/north-node-calculator";
 import { AngelNumberCalculator } from "@/components/angel-number-calculator";
+import { SoulmateInitialsCalculator } from "@/components/soulmate-initials";
+import { LifePathCompatibilityCalculator } from "@/components/life-path-compatibility";
+import { SaturnReturnCalculator } from "@/components/saturn-return-calculator";
+import { RisingSignCalculator } from "@/components/rising-sign-calculator";
 
 type CategoryKey = "planetary" | "vedic" | "numerology" | "guidance";
 type ToolKey = 
-  | "bigthree" | "venus" | "mercury" | "chiron" | "nakshatra" | "spouse"
-  | "kundali" | "love" | "gemstone" | "rahu" | "choghadia" | "sadesati" | "houses" | "dasha"
-  | "numerology" | "brand" | "angel"
+  | "bigthree" | "spouse" | "initials" | "rising" | "venus" | "mercury" | "chiron" | "nakshatra"
+  | "kundali" | "dasha" | "choghadia" | "sadesati" | "saturnreturn" | "houses" | "love" | "gemstone" | "rahu"
+  | "numerology" | "lifepathcomp" | "brand" | "angel"
   | "horoscope" | "tarot" | "northnode";
 
 export function CosmicToolsSuite() {
@@ -34,7 +38,7 @@ export function CosmicToolsSuite() {
   const [activeTool, setActiveTool] = useState<ToolKey>("bigthree");
 
   const categories = [
-    { key: "planetary", name: "🌟 Birth Chart & Planets", icon: "🌌" },
+    { key: "planetary", name: "🌟 Birth Chart & Signs", icon: "🌌" },
     { key: "vedic", name: "🕉️ Vedic Kundali & Timing", icon: "🕉️" },
     { key: "numerology", name: "🔢 Numerology & Brand Math", icon: "📜" },
     { key: "guidance", name: "🔮 Tarot & Soul Purpose", icon: "🎴" }
@@ -43,7 +47,7 @@ export function CosmicToolsSuite() {
   return (
     <div className="w-full space-y-6">
       {/* Group-Wise Category Tabs */}
-      <div className="flex flex-wrap justify-center gap-2.5 p-2 rounded-2xl bg-black/60 border border-emerald-500/30 max-w-4xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-2.5 p-2 rounded-2xl bg-black/60 border border-sky-500/30 max-w-4xl mx-auto">
         {categories.map((cat) => (
           <button
             key={cat.key}
@@ -56,8 +60,8 @@ export function CosmicToolsSuite() {
             }}
             className={`px-4 py-2.5 rounded-xl font-display font-bold text-xs sm:text-sm transition-all duration-300 flex items-center gap-2 ${
               activeCategory === cat.key
-                ? "bg-gradient-to-r from-emerald-500 via-teal-600 to-emerald-600 text-emerald-950 shadow-lg shadow-emerald-900/50 border border-emerald-300"
-                : "text-emerald-200 hover:text-white hover:bg-emerald-500/20"
+                ? "bg-gradient-to-r from-sky-500 via-cyan-600 to-sky-600 text-sky-950 shadow-lg shadow-sky-900/50 border border-sky-300"
+                : "text-sky-200 hover:text-white hover:bg-sky-500/20"
             }`}
           >
             <span>{cat.icon}</span> {cat.name}
@@ -66,68 +70,72 @@ export function CosmicToolsSuite() {
       </div>
 
       {/* Tools Sub-Selector Buttons */}
-      <div className="flex flex-wrap justify-center gap-2 max-w-5xl mx-auto py-2">
+      <div className="flex flex-wrap justify-center gap-2 max-w-5xl mx-auto py-1">
         {activeCategory === "planetary" && (
           <>
             <button
               onClick={() => setActiveTool("bigthree")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "bigthree"
-                  ? "bg-emerald-400 text-emerald-950 font-bold shadow-md border border-emerald-300"
-                  : "btn-secondary hover:border-emerald-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "bigthree" ? "bg-sky-400 text-sky-950 font-bold border border-sky-300" : "btn-secondary"
               }`}
             >
-              <span>🔮</span> Big Three
+              🔮 Big Three
             </button>
             <button
               onClick={() => setActiveTool("spouse")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "spouse"
-                  ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
-                  : "btn-secondary hover:border-amber-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "spouse" ? "bg-amber-400 text-black font-bold border border-amber-300" : "btn-secondary"
               }`}
             >
-              <span>💖</span> Spouse Predictor
+              💖 Spouse Predictor
+            </button>
+            <button
+              onClick={() => setActiveTool("initials")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "initials" ? "bg-amber-300 text-black font-bold border border-amber-200" : "btn-secondary"
+              }`}
+            >
+              🔤 Soulmate Initials
+            </button>
+            <button
+              onClick={() => setActiveTool("rising")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "rising" ? "bg-sky-300 text-sky-950 font-bold border border-sky-200" : "btn-secondary"
+              }`}
+            >
+              🌅 Rising Sign Reader
             </button>
             <button
               onClick={() => setActiveTool("venus")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "venus"
-                  ? "bg-amber-300 text-black font-bold shadow-md border border-amber-200"
-                  : "btn-secondary hover:border-amber-300"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "venus" ? "bg-amber-300 text-black font-bold border border-amber-200" : "btn-secondary"
               }`}
             >
-              <span>♀️</span> Venus Sign
+              ♀️ Venus Sign
             </button>
             <button
               onClick={() => setActiveTool("mercury")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "mercury"
-                  ? "bg-cyan-400 text-black font-bold shadow-md border border-cyan-300"
-                  : "btn-secondary hover:border-cyan-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "mercury" ? "bg-cyan-400 text-black font-bold border border-cyan-300" : "btn-secondary"
               }`}
             >
-              <span>☿️</span> Mercury Sign
+              ☿️ Mercury Sign
             </button>
             <button
               onClick={() => setActiveTool("chiron")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "chiron"
-                  ? "bg-emerald-300 text-emerald-950 font-bold shadow-md border border-emerald-200"
-                  : "btn-secondary hover:border-emerald-300"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "chiron" ? "bg-teal-300 text-teal-950 font-bold border border-teal-200" : "btn-secondary"
               }`}
             >
-              <span>⚕️</span> Chiron Healing
+              ⚕️ Chiron Healing
             </button>
             <button
               onClick={() => setActiveTool("nakshatra")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "nakshatra"
-                  ? "bg-teal-400 text-black font-bold shadow-md border border-teal-300"
-                  : "btn-secondary hover:border-teal-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "nakshatra" ? "bg-sky-400 text-sky-950 font-bold border border-sky-300" : "btn-secondary"
               }`}
             >
-              <span>⭐</span> Birth Star (Nakshatra)
+              ⭐ Birth Star Nakshatra
             </button>
           </>
         )}
@@ -136,83 +144,75 @@ export function CosmicToolsSuite() {
           <>
             <button
               onClick={() => setActiveTool("kundali")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "kundali"
-                  ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
-                  : "btn-secondary hover:border-amber-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "kundali" ? "bg-amber-400 text-black font-bold border border-amber-300" : "btn-secondary"
               }`}
             >
-              <span>🕉️</span> Kundali Milan (36 Gunas)
+              🕉️ Kundali Milan (36 Gunas)
             </button>
             <button
               onClick={() => setActiveTool("dasha")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "dasha"
-                  ? "bg-emerald-400 text-emerald-950 font-bold shadow-md border border-emerald-300"
-                  : "btn-secondary hover:border-emerald-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "dasha" ? "bg-sky-400 text-sky-950 font-bold border border-sky-300" : "btn-secondary"
               }`}
             >
-              <span>⏳</span> Dasha Period (120 Yrs)
+              ⏳ Vimshottari Dasha
             </button>
             <button
               onClick={() => setActiveTool("choghadia")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "choghadia"
-                  ? "bg-teal-400 text-black font-bold shadow-md border border-teal-300"
-                  : "btn-secondary hover:border-teal-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "choghadia" ? "bg-cyan-400 text-black font-bold border border-cyan-300" : "btn-secondary"
               }`}
             >
-              <span>🔮</span> Choghadia Muhurat
+              🔮 Choghadia Muhurat
             </button>
             <button
               onClick={() => setActiveTool("sadesati")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "sadesati"
-                  ? "bg-amber-300 text-black font-bold shadow-md border border-amber-200"
-                  : "btn-secondary hover:border-amber-300"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "sadesati" ? "bg-amber-300 text-black font-bold border border-amber-200" : "btn-secondary"
               }`}
             >
-              <span>🪐</span> Sade Sati Phase
+              🪐 Sade Sati Phase
+            </button>
+            <button
+              onClick={() => setActiveTool("saturnreturn")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "saturnreturn" ? "bg-amber-400 text-black font-bold border border-amber-300" : "btn-secondary"
+              }`}
+            >
+              🪐 Saturn Return Age
             </button>
             <button
               onClick={() => setActiveTool("houses")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "houses"
-                  ? "bg-emerald-300 text-emerald-950 font-bold shadow-md border border-emerald-200"
-                  : "btn-secondary hover:border-emerald-300"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "houses" ? "bg-sky-300 text-sky-950 font-bold border border-sky-200" : "btn-secondary"
               }`}
             >
-              <span>🏛️</span> 12 Houses (Bhavas)
+              🏛️ 12 Kundali Houses
             </button>
             <button
               onClick={() => setActiveTool("love")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "love"
-                  ? "bg-rose-400 text-black font-bold shadow-md border border-rose-300"
-                  : "btn-secondary hover:border-rose-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "love" ? "bg-rose-400 text-black font-bold border border-rose-300" : "btn-secondary"
               }`}
             >
-              <span>💖</span> Love Matcher
+              💖 Zodiac Love Match
             </button>
             <button
               onClick={() => setActiveTool("gemstone")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "gemstone"
-                  ? "bg-emerald-400 text-emerald-950 font-bold shadow-md border border-emerald-300"
-                  : "btn-secondary hover:border-emerald-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "gemstone" ? "bg-emerald-400 text-emerald-950 font-bold border border-emerald-300" : "btn-secondary"
               }`}
             >
-              <span>💎</span> Gemstone Finder
+              💎 Gemstone Finder
             </button>
             <button
               onClick={() => setActiveTool("rahu")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "rahu"
-                  ? "bg-cyan-400 text-black font-bold shadow-md border border-cyan-300"
-                  : "btn-secondary hover:border-cyan-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "rahu" ? "bg-cyan-400 text-black font-bold border border-cyan-300" : "btn-secondary"
               }`}
             >
-              <span>🕒</span> Rahu Kaal
+              🕒 Rahu Kaal Tracker
             </button>
           </>
         )}
@@ -221,33 +221,35 @@ export function CosmicToolsSuite() {
           <>
             <button
               onClick={() => setActiveTool("numerology")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "numerology"
-                  ? "bg-emerald-400 text-emerald-950 font-bold shadow-md border border-emerald-300"
-                  : "btn-secondary hover:border-emerald-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "numerology" ? "bg-sky-400 text-sky-950 font-bold border border-sky-300" : "btn-secondary"
               }`}
             >
-              <span>🔢</span> Life Path Numerology
+              🔢 Life Path Numerology
+            </button>
+            <button
+              onClick={() => setActiveTool("lifepathcomp")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "lifepathcomp" ? "bg-amber-400 text-black font-bold border border-amber-300" : "btn-secondary"
+              }`}
+            >
+              🔢 Life Path Matcher
             </button>
             <button
               onClick={() => setActiveTool("brand")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "brand"
-                  ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
-                  : "btn-secondary hover:border-amber-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "brand" ? "bg-amber-300 text-black font-bold border border-amber-200" : "btn-secondary"
               }`}
             >
-              <span>📜</span> Brand & Name Numerology
+              📜 Brand & Name Math
             </button>
             <button
               onClick={() => setActiveTool("angel")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "angel"
-                  ? "bg-cyan-400 text-black font-bold shadow-md border border-cyan-300"
-                  : "btn-secondary hover:border-cyan-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "angel" ? "bg-cyan-400 text-black font-bold border border-cyan-300" : "btn-secondary"
               }`}
             >
-              <span>⚡</span> Angel Numbers (111, 444, 777)
+              ⚡ Angel Numbers (111, 444, 777)
             </button>
           </>
         )}
@@ -256,33 +258,27 @@ export function CosmicToolsSuite() {
           <>
             <button
               onClick={() => setActiveTool("horoscope")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "horoscope"
-                  ? "bg-cyan-400 text-black font-bold shadow-md border border-cyan-300"
-                  : "btn-secondary hover:border-cyan-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "horoscope" ? "bg-cyan-400 text-black font-bold border border-cyan-300" : "btn-secondary"
               }`}
             >
-              <span>🌟</span> Daily Horoscope
+              🌟 Daily Horoscope
             </button>
             <button
               onClick={() => setActiveTool("tarot")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "tarot"
-                  ? "bg-rose-400 text-white font-bold shadow-md border border-rose-300"
-                  : "btn-secondary hover:border-rose-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "tarot" ? "bg-rose-400 text-white font-bold border border-rose-300" : "btn-secondary"
               }`}
             >
-              <span>🎴</span> 3-Card Tarot Reader
+              🎴 3-Card Tarot Reader
             </button>
             <button
               onClick={() => setActiveTool("northnode")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "northnode"
-                  ? "bg-emerald-400 text-emerald-950 font-bold shadow-md border border-emerald-300"
-                  : "btn-secondary hover:border-emerald-400"
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "northnode" ? "bg-sky-400 text-sky-950 font-bold border border-sky-300" : "btn-secondary"
               }`}
             >
-              <span>🚀</span> North Node Purpose
+              🚀 North Node Purpose
             </button>
           </>
         )}
@@ -292,6 +288,8 @@ export function CosmicToolsSuite() {
       <div className="transition-all duration-300">
         {activeTool === "bigthree" && <BigThreeCalculator />}
         {activeTool === "spouse" && <SpousePredictor />}
+        {activeTool === "initials" && <SoulmateInitialsCalculator />}
+        {activeTool === "rising" && <RisingSignCalculator />}
         {activeTool === "venus" && <VenusCalculator />}
         {activeTool === "mercury" && <MercuryCalculator />}
         {activeTool === "chiron" && <ChironCalculator />}
@@ -299,14 +297,16 @@ export function CosmicToolsSuite() {
 
         {activeTool === "kundali" && <KundaliMilanCalculator />}
         {activeTool === "dasha" && <DashaCalculator />}
+        {activeTool === "choghadia" && <ChoghadiaCalculator />}
+        {activeTool === "sadesati" && <SadeSatiChecker />}
+        {activeTool === "saturnreturn" && <SaturnReturnCalculator />}
+        {activeTool === "houses" && <KundaliHouseCalculator />}
         {activeTool === "love" && <LoveCompatibilityCalculator />}
         {activeTool === "gemstone" && <GemstoneFinder />}
         {activeTool === "rahu" && <RahuKaalTracker />}
-        {activeTool === "choghadia" && <ChoghadiaCalculator />}
-        {activeTool === "sadesati" && <SadeSatiChecker />}
-        {activeTool === "houses" && <KundaliHouseCalculator />}
 
         {activeTool === "numerology" && <NumerologyCalculator />}
+        {activeTool === "lifepathcomp" && <LifePathCompatibilityCalculator />}
         {activeTool === "brand" && <BrandNumerologyCalculator />}
         {activeTool === "angel" && <AngelNumberCalculator />}
 
