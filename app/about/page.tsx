@@ -2,63 +2,49 @@ import { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "About BIGThreeAstrology",
-  description: "Learn how BIGThreeAstrology blends practical astrology education, calculator tools, and trusted astrologer discovery.",
+  title: "About Us | BIGThreeAstrology",
+  description: "Learn about BIGThreeAstrology, our authentic calculation methodology, and 16 free astrology & numerology tools.",
   path: "/about"
 });
 
 export default function AboutPage() {
   return (
-    <div className="prose prose-invert max-w-3xl">
-      <h1>About BIGThreeAstrology</h1>
-      <p>
-        BIGThreeAstrology was created for one simple reason: most people asking astrology questions are looking for clear, useful guidance, not
-        complicated terminology. Visitors often come here after searching phrases like sun moon rising sign calculator free, rising sign calculator,
-        or what is my moon and rising sign. Those searches reveal strong intent. People want to understand themselves better, communicate more clearly,
-        and make grounded decisions in relationships, work, and personal growth.
-      </p>
-      <p>
-        Our platform combines three focused experiences. First, we provide an accessible big-three calculator that helps users quickly discover their
-        core placements. Second, we publish practical educational content in our blog with readable structure and semantic topic coverage. Third, we
-        maintain a vetted astrologer directory that allows users to move from self-learning to professional support when they need deeper analysis.
-        This structure keeps the user journey straightforward from first search to meaningful action.
-      </p>
-      <h2>Our Content Philosophy</h2>
-      <p>
-        We write for clarity before complexity. Astrology can be inspiring, but it can also become overwhelming when explanations are not grounded in
-        daily life. That is why our articles are built around real user questions: how to interpret the big three together, why emotional responses may
-        differ from identity traits, how rising signs shape first impressions, and how to choose an astrologer for a specific goal. We avoid keyword
-        dumping and instead map search intent naturally into educational sections that are easy to follow.
-      </p>
-      <p>
-        We also believe transparency improves trust. Astrology content should explain context, limits, and practical application. It should never imply
-        guaranteed outcomes or replace medical, legal, or financial judgment. On BIGThreeAstrology, we frame interpretations as reflective tools that
-        support better communication, self-awareness, and thoughtful planning.
-      </p>
-      <h2>How the Directory Supports Quality</h2>
-      <p>
-        Our astrologer listing system is intentionally simple. Each owner has an account dashboard to update profile details, services, and location.
-        Listings receive reminder emails at regular intervals so profiles remain current. If a profile is not refreshed within the staleness threshold,
-        it is marked as non-indexable until the owner logs in and updates details. This lifecycle keeps search-facing pages fresher and improves the
-        experience for users who need accurate contact and service information.
-      </p>
-      <p>
-        City-based discovery pages are designed to match local intent while preserving quality controls. Users can browse by city, compare
-        specializations, and connect directly through profile contact options. This setup supports both discoverability and accountability while keeping
-        the interface focused and lightweight.
-      </p>
-      <h2>Our Promise to Users</h2>
-      <p>
-        We are committed to keeping BIGThreeAstrology fast, useful, and trustworthy. We continuously improve technical SEO, structured data coverage,
-        and content readability so every major page is understandable to both users and search engines. We keep the CMS intentionally publishing-focused
-        so editorial workflows stay stable over time. Most importantly, we prioritize meaningful guidance that respects user intent instead of chasing
-        short-term traffic patterns.
-      </p>
-      <p>
-        If you are new to astrology, start with the calculator and read one or two core guides. If you are experienced, use the directory to find
-        practitioners aligned with your goals. Either way, our mission remains the same: make astrology more accessible, practical, and responsible for
-        everyday users.
-      </p>
+    <div className="glass-card max-w-4xl mx-auto p-8 md:p-12 space-y-8 my-8 bg-black/40">
+      <div className="text-center space-y-3">
+        <div className="badge badge-emerald">✨ Authentic Astrological Precision</div>
+        <h1 className="text-3xl md:text-5xl font-display font-bold gradient-text">About BIGThreeAstrology</h1>
+        <p className="text-emerald-200 text-base max-w-2xl mx-auto leading-relaxed">
+          The premier free, instant, and frictionless platform delivering 16 Western & Vedic astrology tools and numerology calculators for seekers worldwide.
+        </p>
+      </div>
+
+      <div className="grid md:grid-cols-2 gap-6">
+        <div className="p-6 rounded-2xl bg-emerald-950/60 border border-emerald-500/30">
+          <span className="text-3xl mb-2 block">🔮</span>
+          <h3 className="text-lg font-display font-bold text-white mb-2">Our Mission</h3>
+          <p className="text-sm text-emerald-100/90 leading-relaxed">
+            To democratize access to authentic astrological insights and numerological self-awareness without paywalls, mandatory account sign-ups, or invasive data collection.
+          </p>
+        </div>
+
+        <div className="p-6 rounded-2xl bg-emerald-950/60 border border-emerald-500/30">
+          <span className="text-3xl mb-2 block">🕉️</span>
+          <h3 className="text-lg font-display font-bold text-white mb-2">Dual Ephemeris Accuracy</h3>
+          <p className="text-sm text-emerald-100/90 leading-relaxed">
+            We bridge Western Tropical astrology with authentic Vedic Sidereal Jyotish, including the Ashta Koota 36 Gunas Milan system, Choghadia Muhurat, and Sade Sati transits.
+          </p>
+        </div>
+      </div>
+
+      <div className="space-y-4 border-t border-emerald-500/30 pt-6">
+        <h2 className="text-2xl font-display font-bold text-white">Contact & Inquiries</h2>
+        <p className="text-emerald-200 text-sm leading-relaxed">
+          For business partnerships, advertising inquiries, or technical feedback, reach out to our official support team at{" "}
+          <a href="mailto:asbusiness276@gmail.com" className="text-amber-300 font-bold hover:underline">
+            asbusiness276@gmail.com
+          </a>.
+        </p>
+      </div>
     </div>
   );
 }
