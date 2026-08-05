@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { CityAutocomplete } from "@/components/city-autocomplete";
 
 // 27 Vedic Nakshatras & their properties
 type Nakshatra = {
@@ -116,13 +117,13 @@ function calculateKundaliMatch(boyNak: Nakshatra, girlNak: Nakshatra) {
 
   if (totalGuna >= 28) {
     verdict = "Outstanding & Highly Auspicious Match! (Uttam)";
-    verdictColor = "text-accent-emerald border-accent-emerald/40 bg-accent-emerald/10";
+    verdictColor = "text-emerald-300 border-emerald-400/40 bg-emerald-950/60";
   } else if (totalGuna >= 18) {
     verdict = "Good & Compatible Match! (Madhyam)";
-    verdictColor = "text-accent-gold border-accent-gold/40 bg-accent-gold/10";
+    verdictColor = "text-amber-300 border-amber-400/40 bg-amber-950/60";
   } else {
     verdict = "Low Guna Score - Astrological Remedies Recommended (Ordinary)";
-    verdictColor = "text-accent-rose border-accent-rose/40 bg-accent-rose/10";
+    verdictColor = "text-rose-300 border-rose-400/40 bg-rose-950/60";
   }
 
   return {
@@ -199,20 +200,20 @@ export function KundaliMilanCalculator() {
       <div className="text-center mb-8">
         <div className="badge badge-gold mb-3">🕉️ Vedic Ashta Koota 36 Guna Milan System</div>
         <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Authentic Kundali Matching</h2>
-        <p className="mt-2 text-cosmic-100 text-sm max-w-xl mx-auto">
+        <p className="mt-2 text-emerald-100 text-sm max-w-xl mx-auto">
           Enter exact birth details (date, time with AM/PM, and place) of the Boy and Girl to calculate the 36 Guna Milan score with genuine Vedic calculations.
         </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-8">
         {/* Boy Form */}
-        <div className="glass-card-hover p-6 border-accent-cyan/30 bg-black/40">
-          <h3 className="text-lg font-display font-semibold text-accent-cyan mb-4 flex items-center gap-2">
+        <div className="glass-card-hover p-6 border-cyan-500/30 bg-black/40">
+          <h3 className="text-lg font-display font-semibold text-cyan-300 mb-4 flex items-center gap-2">
             <span>👦</span> Groom's Details (Ladka)
           </h3>
           <div className="space-y-4">
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Full Name</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Full Name</label>
               <input
                 className="input-cosmic"
                 placeholder="e.g. Rohan Sharma"
@@ -222,7 +223,7 @@ export function KundaliMilanCalculator() {
             </div>
 
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Date *</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Date *</label>
               <input
                 type="date"
                 className="input-cosmic"
@@ -233,7 +234,7 @@ export function KundaliMilanCalculator() {
 
             {/* Boy Time Picker with AM / PM */}
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
               <div className="flex items-center gap-1">
                 <select
                   value={boyHour}
@@ -241,13 +242,13 @@ export function KundaliMilanCalculator() {
                   className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
                 >
                   {Array.from({ length: 12 }, (_, i) => (i + 1).toString().padStart(2, "0")).map((h) => (
-                    <option key={h} value={h} className="bg-cosmic-900 text-white">
+                    <option key={h} value={h} className="bg-emerald-950 text-white">
                       {h}
                     </option>
                   ))}
                 </select>
 
-                <span className="text-cosmic-200 font-bold">:</span>
+                <span className="text-emerald-200 font-bold">:</span>
 
                 <select
                   value={boyMinute}
@@ -255,7 +256,7 @@ export function KundaliMilanCalculator() {
                   className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
                 >
                   {["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"].map((m) => (
-                    <option key={m} value={m} className="bg-cosmic-900 text-white">
+                    <option key={m} value={m} className="bg-emerald-950 text-white">
                       {m}
                     </option>
                   ))}
@@ -266,8 +267,8 @@ export function KundaliMilanCalculator() {
                   onClick={() => setBoyPeriod((prev) => (prev === "AM" ? "PM" : "AM"))}
                   className={`px-2.5 py-2 rounded-xl text-xs font-bold transition-all border w-1/3 ${
                     boyPeriod === "AM"
-                      ? "bg-accent-cyan/20 text-accent-cyan border-accent-cyan/40"
-                      : "bg-accent-rose/20 text-accent-rose border-accent-rose/40"
+                      ? "bg-teal-500/30 text-teal-200 border-teal-400/40"
+                      : "bg-rose-500/30 text-rose-200 border-rose-400/40"
                   }`}
                 >
                   {boyPeriod}
@@ -276,25 +277,24 @@ export function KundaliMilanCalculator() {
             </div>
 
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Place (City, Country)</label>
-              <input
-                className="input-cosmic"
-                placeholder="e.g. Delhi, India / NY, USA"
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Place (Auto-Suggest 📍)</label>
+              <CityAutocomplete
                 value={boyPlace}
-                onChange={(e) => setBoyPlace(e.target.value)}
+                onChange={setBoyPlace}
+                placeholder="Type e.g., Delhi, Mumbai, NY"
               />
             </div>
           </div>
         </div>
 
         {/* Girl Form */}
-        <div className="glass-card-hover p-6 border-accent-rose/30 bg-black/40">
-          <h3 className="text-lg font-display font-semibold text-accent-rose mb-4 flex items-center gap-2">
+        <div className="glass-card-hover p-6 border-rose-500/30 bg-black/40">
+          <h3 className="text-lg font-display font-semibold text-rose-300 mb-4 flex items-center gap-2">
             <span>👧</span> Bride's Details (Ladki)
           </h3>
           <div className="space-y-4">
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Full Name</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Full Name</label>
               <input
                 className="input-cosmic"
                 placeholder="e.g. Ananya Verma"
@@ -304,7 +304,7 @@ export function KundaliMilanCalculator() {
             </div>
 
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Date *</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Date *</label>
               <input
                 type="date"
                 className="input-cosmic"
@@ -315,7 +315,7 @@ export function KundaliMilanCalculator() {
 
             {/* Girl Time Picker with AM / PM */}
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
               <div className="flex items-center gap-1">
                 <select
                   value={girlHour}
@@ -323,13 +323,13 @@ export function KundaliMilanCalculator() {
                   className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
                 >
                   {Array.from({ length: 12 }, (_, i) => (i + 1).toString().padStart(2, "0")).map((h) => (
-                    <option key={h} value={h} className="bg-cosmic-900 text-white">
+                    <option key={h} value={h} className="bg-emerald-950 text-white">
                       {h}
                     </option>
                   ))}
                 </select>
 
-                <span className="text-cosmic-200 font-bold">:</span>
+                <span className="text-emerald-200 font-bold">:</span>
 
                 <select
                   value={girlMinute}
@@ -337,7 +337,7 @@ export function KundaliMilanCalculator() {
                   className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
                 >
                   {["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"].map((m) => (
-                    <option key={m} value={m} className="bg-cosmic-900 text-white">
+                    <option key={m} value={m} className="bg-emerald-950 text-white">
                       {m}
                     </option>
                   ))}
@@ -348,8 +348,8 @@ export function KundaliMilanCalculator() {
                   onClick={() => setGirlPeriod((prev) => (prev === "AM" ? "PM" : "AM"))}
                   className={`px-2.5 py-2 rounded-xl text-xs font-bold transition-all border w-1/3 ${
                     girlPeriod === "AM"
-                      ? "bg-accent-cyan/20 text-accent-cyan border-accent-cyan/40"
-                      : "bg-accent-rose/20 text-accent-rose border-accent-rose/40"
+                      ? "bg-teal-500/30 text-teal-200 border-teal-400/40"
+                      : "bg-rose-500/30 text-rose-200 border-rose-400/40"
                   }`}
                 >
                   {girlPeriod}
@@ -358,12 +358,11 @@ export function KundaliMilanCalculator() {
             </div>
 
             <div>
-              <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Place (City, Country)</label>
-              <input
-                className="input-cosmic"
-                placeholder="e.g. Mumbai, India / London, UK"
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Place (Auto-Suggest 📍)</label>
+              <CityAutocomplete
                 value={girlPlace}
-                onChange={(e) => setGirlPlace(e.target.value)}
+                onChange={setGirlPlace}
+                placeholder="Type e.g., Mumbai, London, NY"
               />
             </div>
           </div>
@@ -371,19 +370,19 @@ export function KundaliMilanCalculator() {
       </div>
 
       {matchResult && (
-        <div className="mt-10 border-t border-cosmic-700/50 pt-8 animate-slide-up">
-          <div className="glass-card-hover p-6 md:p-8 text-center max-w-3xl mx-auto border-accent-gold/40 relative overflow-hidden">
-            <div className="text-xs uppercase tracking-widest font-semibold text-cosmic-200 mb-1">Vedic Kundali Matching Result</div>
+        <div className="mt-10 border-t border-emerald-500/30 pt-8 animate-slide-up">
+          <div className="glass-card-hover p-6 md:p-8 text-center max-w-3xl mx-auto border-amber-400/40 relative overflow-hidden">
+            <div className="text-xs uppercase tracking-widest font-semibold text-emerald-200 mb-1">Vedic Kundali Matching Result</div>
             <h3 className="text-xl font-display font-bold text-white mb-2">
               {boyName || "Groom"} & {girlName || "Bride"}
             </h3>
-            <p className="text-xs text-cosmic-300 mb-4">
+            <p className="text-xs text-emerald-300 mb-4">
               Groom: {boyHour}:{boyMinute} {boyPeriod} ({boyPlace || "N/A"}) | Bride: {girlHour}:{girlMinute} {girlPeriod} ({girlPlace || "N/A"})
             </p>
 
             <div className="flex flex-col items-center justify-center my-4">
-              <div className="text-6xl font-display font-extrabold gradient-text-gold animate-pulse-glow px-8 py-3 rounded-2xl bg-black/60 border border-accent-gold/40 mb-3">
-                {matchResult.totalGuna} <span className="text-2xl font-normal text-cosmic-200">/ 36 Gunas</span>
+              <div className="text-6xl font-display font-extrabold gradient-text-gold animate-pulse-glow px-8 py-3 rounded-2xl bg-black/60 border border-amber-400/40 mb-3">
+                {matchResult.totalGuna} <span className="text-2xl font-normal text-emerald-200">/ 36 Gunas</span>
               </div>
               <div className={`px-4 py-2 rounded-xl text-sm font-semibold border ${matchResult.verdictColor}`}>
                 {matchResult.verdict}
@@ -391,17 +390,17 @@ export function KundaliMilanCalculator() {
             </div>
 
             {/* Ashta Koota Breakdown Table */}
-            <div className="mt-8 text-left border-t border-cosmic-700/40 pt-6">
+            <div className="mt-8 text-left border-t border-emerald-500/30 pt-6">
               <h4 className="text-lg font-display font-semibold text-white mb-4 flex items-center justify-between">
                 <span>📊 Ashta Koota Score Breakdown</span>
-                <span className="text-xs font-normal text-cosmic-300">Max Score: 36 Points</span>
+                <span className="text-xs font-normal text-emerald-300">Max Score: 36 Points</span>
               </h4>
 
               <div className="grid gap-3 sm:grid-cols-2">
                 {matchResult.breakdown.map((item, idx) => (
                   <div key={idx} className="p-3 rounded-xl bg-black/40 border border-white/5 flex items-center justify-between">
-                    <div className="text-xs text-cosmic-200 font-medium">{item.name}</div>
-                    <div className="text-sm font-display font-bold text-accent-gold ml-2">
+                    <div className="text-xs text-emerald-200 font-medium">{item.name}</div>
+                    <div className="text-sm font-display font-bold text-amber-300 ml-2">
                       {item.obtained} / {item.max}
                     </div>
                   </div>

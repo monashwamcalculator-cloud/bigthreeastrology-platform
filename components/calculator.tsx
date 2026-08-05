@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { CityAutocomplete } from "@/components/city-autocomplete";
 
 type ZodiacData = {
   emoji: string;
@@ -96,8 +97,8 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("western")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "western"
-                ? "bg-cosmic-500 text-white shadow-lg border border-cosmic-300/40"
-                : "bg-black/30 text-cosmic-200 border border-white/10 hover:bg-white/10"
+                ? "bg-emerald-500 text-emerald-950 font-bold shadow-lg border border-emerald-300"
+                : "bg-black/30 text-emerald-200 border border-white/10 hover:bg-white/10"
             }`}
           >
             🌍 Western (Tropical)
@@ -106,8 +107,8 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("vedic")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "vedic"
-                ? "bg-accent-gold text-black font-bold shadow-lg border border-yellow-300"
-                : "bg-black/30 text-cosmic-200 border border-white/10 hover:bg-white/10"
+                ? "bg-amber-400 text-black font-bold shadow-lg border border-yellow-300"
+                : "bg-black/30 text-emerald-200 border border-white/10 hover:bg-white/10"
             }`}
           >
             🕉️ Vedic / Indian (Sidereal)
@@ -116,7 +117,7 @@ export function BigThreeCalculator() {
 
         <div className="text-center mb-8">
           <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Global Cosmic Blueprint</h2>
-          <p className="mt-2 text-cosmic-100 text-sm">
+          <p className="mt-2 text-emerald-100 text-sm">
             Enter your birth date, time (with AM/PM), and location worldwide.
           </p>
         </div>
@@ -124,19 +125,19 @@ export function BigThreeCalculator() {
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 mb-8">
           {/* Name */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-cosmic-100 pl-1">Your Name</label>
+            <label className="text-xs font-medium text-emerald-100 pl-1">Your Name</label>
             <input className="input-cosmic" placeholder="e.g. Rahul / Sarah" value={name} onChange={(e) => setName(e.target.value)} />
           </div>
 
           {/* Birth Date */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-cosmic-100 pl-1">Birth Date *</label>
+            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Date *</label>
             <input className="input-cosmic" type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} />
           </div>
 
           {/* Birth Time with Explicit AM / PM Picker */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-cosmic-100 pl-1">Birth Time (12-Hr AM/PM)</label>
+            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Time (12-Hr AM/PM)</label>
             <div className="flex items-center gap-1">
               {/* Hour Dropdown */}
               <select
@@ -145,13 +146,13 @@ export function BigThreeCalculator() {
                 className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
               >
                 {Array.from({ length: 12 }, (_, i) => (i + 1).toString().padStart(2, "0")).map((h) => (
-                  <option key={h} value={h} className="bg-cosmic-900 text-white">
+                  <option key={h} value={h} className="bg-emerald-950 text-white">
                     {h}
                   </option>
                 ))}
               </select>
 
-              <span className="text-cosmic-200 font-bold">:</span>
+              <span className="text-emerald-200 font-bold">:</span>
 
               {/* Minute Dropdown */}
               <select
@@ -160,7 +161,7 @@ export function BigThreeCalculator() {
                 className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
               >
                 {["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"].map((m) => (
-                  <option key={m} value={m} className="bg-cosmic-900 text-white">
+                  <option key={m} value={m} className="bg-emerald-950 text-white">
                     {m}
                   </option>
                 ))}
@@ -172,8 +173,8 @@ export function BigThreeCalculator() {
                 onClick={() => setBirthPeriod((prev) => (prev === "AM" ? "PM" : "AM"))}
                 className={`px-2.5 py-2 rounded-xl text-xs font-bold transition-all border w-1/3 ${
                   birthPeriod === "AM"
-                    ? "bg-accent-cyan/20 text-accent-cyan border-accent-cyan/40"
-                    : "bg-accent-rose/20 text-accent-rose border-accent-rose/40"
+                    ? "bg-teal-500/30 text-teal-200 border-teal-400/40"
+                    : "bg-rose-500/30 text-rose-200 border-rose-400/40"
                 }`}
               >
                 {birthPeriod}
@@ -181,15 +182,15 @@ export function BigThreeCalculator() {
             </div>
           </div>
 
-          {/* Location */}
+          {/* Location with Auto Dropdown */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-cosmic-100 pl-1">Birth City & Country</label>
-            <input className="input-cosmic" placeholder="e.g. Mumbai, India / NY, USA" value={birthLocation} onChange={(e) => setBirthLocation(e.target.value)} />
+            <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest 📍)</label>
+            <CityAutocomplete value={birthLocation} onChange={setBirthLocation} placeholder="Type e.g., Mumbai, NY, London" />
           </div>
         </div>
 
         {result && (
-          <div className="mt-10 border-t border-cosmic-700/50 pt-8 animate-slide-up">
+          <div className="mt-10 border-t border-emerald-500/30 pt-8 animate-slide-up">
             <div className="text-center mb-6">
               <span className="badge badge-gold mb-2">
                 {system === "vedic" ? "Vedic / Indian Jyotish Chart" : "Western Tropical Chart"}
@@ -197,7 +198,7 @@ export function BigThreeCalculator() {
               <h3 className="text-xl font-semibold gradient-text">
                 {name || "Your"} Cosmic Signature {birthLocation ? `(${birthLocation})` : ""}
               </h3>
-              <p className="text-xs text-cosmic-300 mt-1">
+              <p className="text-xs text-emerald-300 mt-1">
                 Calculated for {birthHour}:{birthMinute} {birthPeriod}
               </p>
             </div>
@@ -209,21 +210,21 @@ export function BigThreeCalculator() {
                 { label: "Rising Sign", sign: result.rising, delay: "animate-delay-300", title: "Ascendant (Lagna)" }
               ].map((placement, idx) => {
                 const data = ZODIAC_DATA[placement.sign];
-                const elementClass = data.element === "Fire" ? "bg-accent-rose/20 text-accent-rose border-accent-rose/30" :
-                                   data.element === "Earth" ? "bg-accent-emerald/20 text-accent-emerald border-accent-emerald/30" :
-                                   data.element === "Air" ? "bg-accent-cyan/20 text-accent-cyan border-accent-cyan/30" :
-                                   "bg-cosmic-400/20 text-cosmic-400 border-cosmic-400/30";
+                const elementClass = data.element === "Fire" ? "bg-rose-500/20 text-rose-300 border-rose-400/30" :
+                                   data.element === "Earth" ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/30" :
+                                   data.element === "Air" ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/30" :
+                                   "bg-teal-500/20 text-teal-300 border-teal-400/30";
                 
                 return (
                   <div key={idx} className={`glass-card-hover p-5 flex flex-col items-center text-center animate-slide-up ${placement.delay}`}>
-                    <div className="text-sm text-cosmic-200 uppercase tracking-widest font-semibold mb-1">{placement.label}</div>
-                    <div className="text-xs text-cosmic-300 mb-3">{placement.title}</div>
+                    <div className="text-sm text-emerald-200 uppercase tracking-widest font-semibold mb-1">{placement.label}</div>
+                    <div className="text-xs text-emerald-300 mb-3">{placement.title}</div>
                     <div className="text-5xl mb-3 drop-shadow-md">{data.emoji}</div>
                     <div className="text-xl font-display font-bold text-white mb-2">{placement.sign}</div>
                     <div className={`text-xs px-3 py-1 rounded-full border mb-3 font-medium ${elementClass}`}>
                       {data.element}
                     </div>
-                    <p className="text-sm text-cosmic-200 leading-relaxed italic">
+                    <p className="text-sm text-emerald-200 leading-relaxed italic">
                       "{data.desc}"
                     </p>
                   </div>
