@@ -25,13 +25,17 @@ import { SoulmateInitialsCalculator } from "@/components/soulmate-initials";
 import { LifePathCompatibilityCalculator } from "@/components/life-path-compatibility";
 import { SaturnReturnCalculator } from "@/components/saturn-return-calculator";
 import { RisingSignCalculator } from "@/components/rising-sign-calculator";
+import { JupiterTransitCalculator } from "@/components/jupiter-transit-calculator";
+import { MarsSignCalculator } from "@/components/mars-sign-calculator";
+import { DestinyNumberCalculator } from "@/components/destiny-number-calculator";
+import { MoonPhaseCalculator } from "@/components/moon-phase-calculator";
 
 type CategoryKey = "planetary" | "vedic" | "numerology" | "guidance";
 type ToolKey = 
-  | "bigthree" | "spouse" | "initials" | "rising" | "venus" | "mercury" | "chiron" | "nakshatra"
-  | "kundali" | "dasha" | "choghadia" | "sadesati" | "saturnreturn" | "houses" | "love" | "gemstone" | "rahu"
-  | "numerology" | "lifepathcomp" | "brand" | "angel"
-  | "horoscope" | "tarot" | "northnode";
+  | "bigthree" | "spouse" | "initials" | "rising" | "venus" | "mercury" | "mars" | "chiron" | "nakshatra"
+  | "kundali" | "dasha" | "choghadia" | "sadesati" | "saturnreturn" | "jupitertransit" | "houses" | "love" | "gemstone" | "rahu"
+  | "numerology" | "lifepathcomp" | "destiny" | "brand" | "angel"
+  | "horoscope" | "tarot" | "northnode" | "moonphase";
 
 export function CosmicToolsSuite() {
   const [activeCategory, setActiveCategory] = useState<CategoryKey>("planetary");
@@ -106,6 +110,14 @@ export function CosmicToolsSuite() {
               🌅 Rising Sign Reader
             </button>
             <button
+              onClick={() => setActiveTool("mars")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "mars" ? "bg-rose-500 text-white font-bold border border-rose-300" : "btn-secondary"
+              }`}
+            >
+              ♂️ Mars Sign Drive
+            </button>
+            <button
               onClick={() => setActiveTool("venus")}
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
                 activeTool === "venus" ? "bg-amber-300 text-black font-bold border border-amber-200" : "btn-secondary"
@@ -157,6 +169,14 @@ export function CosmicToolsSuite() {
               }`}
             >
               ⏳ Vimshottari Dasha
+            </button>
+            <button
+              onClick={() => setActiveTool("jupitertransit")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "jupitertransit" ? "bg-amber-300 text-black font-bold border border-amber-200" : "btn-secondary"
+              }`}
+            >
+              🪐 Jupiter Luck Finder
             </button>
             <button
               onClick={() => setActiveTool("choghadia")}
@@ -228,6 +248,14 @@ export function CosmicToolsSuite() {
               🔢 Life Path Numerology
             </button>
             <button
+              onClick={() => setActiveTool("destiny")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "destiny" ? "bg-amber-300 text-black font-bold border border-amber-200" : "btn-secondary"
+              }`}
+            >
+              📜 Destiny Number Math
+            </button>
+            <button
               onClick={() => setActiveTool("lifepathcomp")}
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
                 activeTool === "lifepathcomp" ? "bg-amber-400 text-black font-bold border border-amber-300" : "btn-secondary"
@@ -265,6 +293,14 @@ export function CosmicToolsSuite() {
               🌟 Daily Horoscope
             </button>
             <button
+              onClick={() => setActiveTool("moonphase")}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
+                activeTool === "moonphase" ? "bg-sky-300 text-sky-950 font-bold border border-sky-200" : "btn-secondary"
+              }`}
+            >
+              🌖 Birth Moon Phase
+            </button>
+            <button
               onClick={() => setActiveTool("tarot")}
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
                 activeTool === "tarot" ? "bg-rose-400 text-white font-bold border border-rose-300" : "btn-secondary"
@@ -290,6 +326,7 @@ export function CosmicToolsSuite() {
         {activeTool === "spouse" && <SpousePredictor />}
         {activeTool === "initials" && <SoulmateInitialsCalculator />}
         {activeTool === "rising" && <RisingSignCalculator />}
+        {activeTool === "mars" && <MarsSignCalculator />}
         {activeTool === "venus" && <VenusCalculator />}
         {activeTool === "mercury" && <MercuryCalculator />}
         {activeTool === "chiron" && <ChironCalculator />}
@@ -297,6 +334,7 @@ export function CosmicToolsSuite() {
 
         {activeTool === "kundali" && <KundaliMilanCalculator />}
         {activeTool === "dasha" && <DashaCalculator />}
+        {activeTool === "jupitertransit" && <JupiterTransitCalculator />}
         {activeTool === "choghadia" && <ChoghadiaCalculator />}
         {activeTool === "sadesati" && <SadeSatiChecker />}
         {activeTool === "saturnreturn" && <SaturnReturnCalculator />}
@@ -306,11 +344,13 @@ export function CosmicToolsSuite() {
         {activeTool === "rahu" && <RahuKaalTracker />}
 
         {activeTool === "numerology" && <NumerologyCalculator />}
+        {activeTool === "destiny" && <DestinyNumberCalculator />}
         {activeTool === "lifepathcomp" && <LifePathCompatibilityCalculator />}
         {activeTool === "brand" && <BrandNumerologyCalculator />}
         {activeTool === "angel" && <AngelNumberCalculator />}
 
         {activeTool === "horoscope" && <DailyHoroscope />}
+        {activeTool === "moonphase" && <MoonPhaseCalculator />}
         {activeTool === "tarot" && <TarotReader />}
         {activeTool === "northnode" && <NorthNodeCalculator />}
       </div>
