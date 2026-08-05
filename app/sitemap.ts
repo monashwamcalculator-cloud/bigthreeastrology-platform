@@ -1,68 +1,39 @@
-import { MetadataRoute } from 'next';
-import { prisma } from '@/lib/prisma';
-import { getSiteUrl } from '@/lib/seo';
-import { supportedCitySlugs } from '@/lib/cities';
-import { ListingStatus } from '@prisma/client';
+import { MetadataRoute } from "next";
+import { getSiteUrl } from "@/lib/seo";
+import { MASTER_TOOLS_LIST } from "@/lib/all-tools-registry";
+import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUrl = getSiteUrl();
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = getSiteUrl();
 
-  // Static routes
-  const staticRoutes = [
-    '',
-    '/about',
-    '/contact',
-    '/blog',
-    '/astrologers',
-    '/privacy-policy',
-    '/terms-and-conditions',
-    '/disclaimer',
+  const staticPages = [
+    "",
+    "/about",
+    "/contact",
+    "/privacy-policy",
+    "/terms-and-conditions",
+    "/disclaimer",
+    "/blog"
   ].map((route) => ({
-    url: `${siteUrl}${route}`,
+    url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1 : 0.8,
+    changeFrequency: "daily" as const,
+    priority: route === "" ? 1.0 : 0.8
   }));
 
-  // City pages
-  const cityRoutes = supportedCitySlugs.map((slug) => ({
-    url: `${siteUrl}/astrologers-in-${slug}`,
+  const toolPages = MASTER_TOOLS_LIST.map((tool) => ({
+    url: `${baseUrl}/tools/${tool.slug}`,
     lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
+    changeFrequency: "weekly" as const,
+    priority: 0.9
   }));
 
-  // Dynamic blog posts & astrologer profiles
-  let blogRoutes: MetadataRoute.Sitemap = [];
-  let astrologerRoutes: MetadataRoute.Sitemap = [];
+  const blogPages = SAMPLE_BLOG_POSTS.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7
+  }));
 
-  try {
-    const blogPosts = await prisma.blogPost.findMany({
-      where: { published: true },
-      select: { slug: true, updatedAt: true },
-    });
-
-    blogRoutes = blogPosts.map((post) => ({
-      url: `${siteUrl}/blog/${post.slug}`,
-      lastModified: post.updatedAt,
-      changeFrequency: 'weekly' as const,
-      priority: 0.7,
-    }));
-
-    const astrologers = await prisma.astrologerProfile.findMany({
-      where: { status: ListingStatus.APPROVED },
-      select: { id: true, updatedAt: true },
-    });
-
-    astrologerRoutes = astrologers.map((profile) => ({
-      url: `${siteUrl}/astrologers/${profile.id}`,
-      lastModified: profile.updatedAt,
-      changeFrequency: 'weekly' as const,
-      priority: 0.7,
-    }));
-  } catch (e) {
-    console.error("Sitemap DB fetch warning:", e);
-  }
-
-  return [...staticRoutes, ...cityRoutes, ...blogRoutes, ...astrologerRoutes];
+  return [...staticPages, ...toolPages, ...blogPages];
 }
