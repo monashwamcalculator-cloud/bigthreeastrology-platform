@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
@@ -19,17 +20,24 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
-  title: "BIGThreeAstrology | 16 Free Astrology & Numerology Calculators",
-  description: "Free Sun Moon Rising sign calculator, Vedic 36 Gunas Kundali Milan, Choghadia Muhurat, Sade Sati Checker, Love Matcher, Numerology & Daily Tarot.",
-  keywords: ["astrology", "big three", "kundali milan", "choghadia", "sade sati", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope"],
+  title: "BIGThreeAstrology | 20 Free Astrology & Numerology Calculators",
+  description: "Free Sun Moon Rising sign calculator, Vedic 36 Gunas Kundali Milan, Spouse Predictor, Choghadia Muhurat, Sade Sati Checker, Love Matcher, Numerology & Daily Tarot.",
+  keywords: ["astrology", "big three", "spouse predictor", "kundali milan", "choghadia", "sade sati", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope"],
   authors: [{ name: "BIGThreeAstrology" }],
+  icons: {
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg"
+  },
   openGraph: {
     siteName: "BIGThreeAstrology",
     locale: "en_US",
     type: "website",
+    images: [{ url: "/logo.jpg" }]
   },
   twitter: {
     card: "summary_large_image",
+    images: ["/logo.jpg"]
   },
   verification: {
     google: "0OJ_c67fBhW1yxl5fGk5nXeqZT4juAaD_ffmOU3-Hdk"
@@ -52,9 +60,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               
               {/* Column 1 */}
               <div className="flex flex-col gap-4">
-                <span className="text-xl font-display font-bold gradient-text">✨ BIGThreeAstrology</span>
+                <div className="flex items-center gap-2">
+                  <div className="relative w-7 h-7 rounded-full overflow-hidden border border-emerald-400/40 bg-white">
+                    <Image src="/logo.jpg" alt="Logo" fill className="object-cover" />
+                  </div>
+                  <span className="text-xl font-display font-bold gradient-text">BIGThreeAstrology</span>
+                </div>
                 <p className="text-sm text-emerald-200">
-                  Discover your cosmic blueprint through 16 authentic Vedic & Western astrology tools. 100% Free & Frictionless.
+                  Discover your cosmic blueprint through 20 authentic Vedic & Western astrology tools. 100% Free & Frictionless.
                 </p>
                 <p className="text-xs text-emerald-400 mt-2">
                   &copy; {new Date().getFullYear()} BIGThreeAstrology. All rights reserved.
@@ -65,11 +78,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="flex flex-col gap-3 text-sm">
                 <h3 className="font-semibold text-emerald-100">Popular Tools</h3>
                 <Link href="/tools/big-three" className="text-emerald-300 hover:text-emerald-100 transition-colors">🔮 Big Three Calculator</Link>
+                <Link href="/tools/spouse-predictor" className="text-emerald-300 hover:text-emerald-100 transition-colors">💖 Spouse Predictor</Link>
                 <Link href="/tools/kundali-milan" className="text-emerald-300 hover:text-emerald-100 transition-colors">🕉️ Kundali Milan (36 Gunas)</Link>
                 <Link href="/tools/choghadia" className="text-emerald-300 hover:text-emerald-100 transition-colors">🔮 Daily Choghadia Muhurat</Link>
                 <Link href="/tools/sade-sati" className="text-emerald-300 hover:text-emerald-100 transition-colors">🪐 Sade Sati Phase Checker</Link>
                 <Link href="/tools/love-compatibility" className="text-emerald-300 hover:text-emerald-100 transition-colors">💖 Zodiac Love Matcher</Link>
-                <Link href="/tools/numerology" className="text-emerald-300 hover:text-emerald-100 transition-colors">🔢 Life Path Numerology</Link>
               </div>
               
               {/* Column 3 */}
