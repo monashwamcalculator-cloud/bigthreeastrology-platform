@@ -17,13 +17,17 @@ import { ChoghadiaCalculator } from "@/components/choghadia-calculator";
 import { SadeSatiChecker } from "@/components/sade-sati-checker";
 import { BrandNumerologyCalculator } from "@/components/brand-numerology";
 import { KundaliHouseCalculator } from "@/components/kundali-house-calculator";
+import { SpousePredictor } from "@/components/spouse-predictor";
+import { DashaCalculator } from "@/components/dasha-calculator";
+import { NorthNodeCalculator } from "@/components/north-node-calculator";
+import { AngelNumberCalculator } from "@/components/angel-number-calculator";
 
 type CategoryKey = "planetary" | "vedic" | "numerology" | "guidance";
 type ToolKey = 
-  | "bigthree" | "venus" | "mercury" | "chiron" | "nakshatra"
-  | "kundali" | "love" | "gemstone" | "rahu" | "choghadia" | "sadesati" | "houses"
-  | "numerology" | "brand"
-  | "horoscope" | "tarot";
+  | "bigthree" | "venus" | "mercury" | "chiron" | "nakshatra" | "spouse"
+  | "kundali" | "love" | "gemstone" | "rahu" | "choghadia" | "sadesati" | "houses" | "dasha"
+  | "numerology" | "brand" | "angel"
+  | "horoscope" | "tarot" | "northnode";
 
 export function CosmicToolsSuite() {
   const [activeCategory, setActiveCategory] = useState<CategoryKey>("planetary");
@@ -31,9 +35,9 @@ export function CosmicToolsSuite() {
 
   const categories = [
     { key: "planetary", name: "🌟 Birth Chart & Planets", icon: "🌌" },
-    { key: "vedic", name: "🕉️ Vedic Kundali & Muhurat", icon: "🕉️" },
+    { key: "vedic", name: "🕉️ Vedic Kundali & Timing", icon: "🕉️" },
     { key: "numerology", name: "🔢 Numerology & Brand Math", icon: "📜" },
-    { key: "guidance", name: "🔮 Tarot & Daily Guidance", icon: "🎴" }
+    { key: "guidance", name: "🔮 Tarot & Soul Purpose", icon: "🎴" }
   ];
 
   return (
@@ -76,11 +80,21 @@ export function CosmicToolsSuite() {
               <span>🔮</span> Big Three
             </button>
             <button
+              onClick={() => setActiveTool("spouse")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "spouse"
+                  ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
+                  : "btn-secondary hover:border-amber-400"
+              }`}
+            >
+              <span>💖</span> Spouse Predictor
+            </button>
+            <button
               onClick={() => setActiveTool("venus")}
               className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
                 activeTool === "venus"
-                  ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
-                  : "btn-secondary hover:border-amber-400"
+                  ? "bg-amber-300 text-black font-bold shadow-md border border-amber-200"
+                  : "btn-secondary hover:border-amber-300"
               }`}
             >
               <span>♀️</span> Venus Sign
@@ -131,6 +145,46 @@ export function CosmicToolsSuite() {
               <span>🕉️</span> Kundali Milan (36 Gunas)
             </button>
             <button
+              onClick={() => setActiveTool("dasha")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "dasha"
+                  ? "bg-emerald-400 text-emerald-950 font-bold shadow-md border border-emerald-300"
+                  : "btn-secondary hover:border-emerald-400"
+              }`}
+            >
+              <span>⏳</span> Dasha Period (120 Yrs)
+            </button>
+            <button
+              onClick={() => setActiveTool("choghadia")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "choghadia"
+                  ? "bg-teal-400 text-black font-bold shadow-md border border-teal-300"
+                  : "btn-secondary hover:border-teal-400"
+              }`}
+            >
+              <span>🔮</span> Choghadia Muhurat
+            </button>
+            <button
+              onClick={() => setActiveTool("sadesati")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "sadesati"
+                  ? "bg-amber-300 text-black font-bold shadow-md border border-amber-200"
+                  : "btn-secondary hover:border-amber-300"
+              }`}
+            >
+              <span>🪐</span> Sade Sati Phase
+            </button>
+            <button
+              onClick={() => setActiveTool("houses")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "houses"
+                  ? "bg-emerald-300 text-emerald-950 font-bold shadow-md border border-emerald-200"
+                  : "btn-secondary hover:border-emerald-300"
+              }`}
+            >
+              <span>🏛️</span> 12 Houses (Bhavas)
+            </button>
+            <button
               onClick={() => setActiveTool("love")}
               className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
                 activeTool === "love"
@@ -160,36 +214,6 @@ export function CosmicToolsSuite() {
             >
               <span>🕒</span> Rahu Kaal
             </button>
-            <button
-              onClick={() => setActiveTool("choghadia")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "choghadia"
-                  ? "bg-teal-400 text-black font-bold shadow-md border border-teal-300"
-                  : "btn-secondary hover:border-teal-400"
-              }`}
-            >
-              <span>🔮</span> Choghadia Muhurat
-            </button>
-            <button
-              onClick={() => setActiveTool("sadesati")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "sadesati"
-                  ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
-                  : "btn-secondary hover:border-amber-400"
-              }`}
-            >
-              <span>🪐</span> Sade Sati Phase
-            </button>
-            <button
-              onClick={() => setActiveTool("houses")}
-              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
-                activeTool === "houses"
-                  ? "bg-emerald-300 text-emerald-950 font-bold shadow-md border border-emerald-200"
-                  : "btn-secondary hover:border-emerald-300"
-              }`}
-            >
-              <span>🏛️</span> 12 Houses (Bhavas)
-            </button>
           </>
         )}
 
@@ -214,6 +238,16 @@ export function CosmicToolsSuite() {
               }`}
             >
               <span>📜</span> Brand & Name Numerology
+            </button>
+            <button
+              onClick={() => setActiveTool("angel")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "angel"
+                  ? "bg-cyan-400 text-black font-bold shadow-md border border-cyan-300"
+                  : "btn-secondary hover:border-cyan-400"
+              }`}
+            >
+              <span>⚡</span> Angel Numbers (111, 444, 777)
             </button>
           </>
         )}
@@ -240,6 +274,16 @@ export function CosmicToolsSuite() {
             >
               <span>🎴</span> 3-Card Tarot Reader
             </button>
+            <button
+              onClick={() => setActiveTool("northnode")}
+              className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                activeTool === "northnode"
+                  ? "bg-emerald-400 text-emerald-950 font-bold shadow-md border border-emerald-300"
+                  : "btn-secondary hover:border-emerald-400"
+              }`}
+            >
+              <span>🚀</span> North Node Purpose
+            </button>
           </>
         )}
       </div>
@@ -247,12 +291,14 @@ export function CosmicToolsSuite() {
       {/* Render Active Tool */}
       <div className="transition-all duration-300">
         {activeTool === "bigthree" && <BigThreeCalculator />}
+        {activeTool === "spouse" && <SpousePredictor />}
         {activeTool === "venus" && <VenusCalculator />}
         {activeTool === "mercury" && <MercuryCalculator />}
         {activeTool === "chiron" && <ChironCalculator />}
         {activeTool === "nakshatra" && <NakshatraFinder />}
 
         {activeTool === "kundali" && <KundaliMilanCalculator />}
+        {activeTool === "dasha" && <DashaCalculator />}
         {activeTool === "love" && <LoveCompatibilityCalculator />}
         {activeTool === "gemstone" && <GemstoneFinder />}
         {activeTool === "rahu" && <RahuKaalTracker />}
@@ -262,9 +308,11 @@ export function CosmicToolsSuite() {
 
         {activeTool === "numerology" && <NumerologyCalculator />}
         {activeTool === "brand" && <BrandNumerologyCalculator />}
+        {activeTool === "angel" && <AngelNumberCalculator />}
 
         {activeTool === "horoscope" && <DailyHoroscope />}
         {activeTool === "tarot" && <TarotReader />}
+        {activeTool === "northnode" && <NorthNodeCalculator />}
       </div>
     </div>
   );

@@ -7,15 +7,15 @@ import { StatsCounter } from "@/components/stats-counter";
 import { Testimonials } from "@/components/testimonials";
 
 export const metadata: Metadata = buildMetadata({
-  title: "BIGThreeAstrology | 16 Free Astrology & Numerology Calculators",
+  title: "BIGThreeAstrology | 20 Free Astrology & Numerology Calculators",
   description:
-    "Free online astrology & numerology suite. Calculate Sun, Moon, Rising signs, Vedic 36 Guna Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot, and Gemstones.",
+    "Free online astrology & numerology suite. Calculate Sun, Moon, Rising signs, Vedic 36 Guna Kundali Milan, Spouse Predictor, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot, and Gemstones.",
   path: "/"
 });
 
 export default function HomePage() {
   const pageDescription =
-    "Explore 16 free astrology and numerology calculators. Calculate Sun, Moon, Rising signs, Vedic Kundali Milan, Choghadia Muhurat, Sade Sati transits, Life Path Numerology, Chaldean Brand Math, and Daily Tarot.";
+    "Explore 20 free astrology and numerology calculators. Calculate Sun, Moon, Rising signs, Spouse Predictor, Vedic Kundali Milan, Choghadia Muhurat, Sade Sati transits, Life Path Numerology, Chaldean Brand Math, and Daily Tarot.";
 
   const websiteSchema = {
     "@context": "https://schema.org",
@@ -34,7 +34,7 @@ export default function HomePage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Free Sun Moon Rising Calculator, Kundali Milan & 16 Cosmic Tools",
+    name: "Free Sun Moon Rising Calculator, Kundali Milan & 20 Cosmic Tools",
     url: absoluteUrl("/"),
     description: pageDescription
   };
@@ -42,11 +42,11 @@ export default function HomePage() {
   const appSchema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "BIGThreeAstrology 16 Free Tools Suite",
+    name: "BIGThreeAstrology 20 Free Tools Suite",
     applicationCategory: "LifestyleApplication",
     operatingSystem: "All",
     url: absoluteUrl("/"),
-    description: "Calculate your big three astrology signs, Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, and Numerology."
+    description: "Calculate your big three astrology signs, Spouse Predictor, Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, and Numerology."
   };
 
   const faqSchema = {
@@ -59,6 +59,14 @@ export default function HomePage() {
         acceptedAnswer: {
           "@type": "Answer",
           text: "Accuracy depends on your exact birth date, birth time, and birth location. Our algorithms cross-reference astronomical ephemeris positioning to deliver high-precision Western Tropical and Vedic Sidereal sign placements."
+        }
+      },
+      {
+        "@type": "Question",
+        name: "How does the Future Spouse & Soulmate Predictor work?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The Spouse Predictor analyzes your Sun sign, Venus placement, and 7th House planetary ruler to predict your future partner's personality traits, physical appearance, lucky initials, and likely meeting environment."
         }
       },
       {
@@ -87,18 +95,10 @@ export default function HomePage() {
       },
       {
         "@type": "Question",
-        name: "What is the difference between Pythagorean and Chaldean Numerology?",
+        name: "Do I need to register or pay to access these 20 calculators?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Pythagorean numerology assigns numbers 1 through 9 sequentially to the alphabet (A=1, B=2, C=3...). Chaldean numerology assigns numbers 1 through 8 based on sound vibrations and letter frequencies, omitting 9 as a sacred number."
-        }
-      },
-      {
-        "@type": "Question",
-        name: "Do I need to register or pay to access these 16 calculators?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "No! All 16 calculators on BIGThreeAstrology are 100% free, instant, and accessible without mandatory account registration or paywalls."
+          text: "No! All 20 calculators on BIGThreeAstrology are 100% free, instant, and accessible without mandatory account registration or paywalls."
         }
       }
     ]
@@ -119,7 +119,7 @@ export default function HomePage() {
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
           <div className="badge badge-emerald mb-6 animate-slide-up text-xs sm:text-sm py-1.5 px-4">
-            ✨ 16 Free Astrology & Numerology Tools — 100% Instant & No Sign-up
+            ✨ 20 Free Astrology & Numerology Tools — 100% Instant & No Sign-up
           </div>
           
           <h1 className="font-display text-4xl sm:text-6xl md:text-7xl font-extrabold mb-6 tracking-tight animate-slide-up animate-delay-100 leading-tight">
@@ -130,31 +130,35 @@ export default function HomePage() {
           </h1>
           
           <p className="max-w-2xl text-base sm:text-xl text-emerald-100/90 mb-8 animate-slide-up animate-delay-200 leading-relaxed">
-            Free authentic calculations for Sun/Moon/Rising Signs, 36 Guna Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot & Gemstones.
+            Free authentic calculations for Sun/Moon/Rising Signs, Spouse Predictor, 36 Guna Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot & Gemstones.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto animate-slide-up animate-delay-300">
             <Link href="/tools/big-three" className="btn-glow px-8 py-3.5 text-base sm:text-lg font-bold w-full sm:w-auto text-center">
-              Explore 16 Free Tools ✨
+              Explore 20 Free Tools ✨
             </Link>
-            <Link href="/tools/kundali-milan" className="btn-secondary px-8 py-3.5 text-base sm:text-lg font-bold w-full sm:w-auto text-center border-amber-400/40 text-amber-300 hover:bg-amber-400/10">
-              Kundali Milan (36 Gunas) 🕉️
+            <Link href="/tools/spouse-predictor" className="btn-secondary px-8 py-3.5 text-base sm:text-lg font-bold w-full sm:w-auto text-center border-amber-400/40 text-amber-300 hover:bg-amber-400/10">
+              Spouse Predictor 💖
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Quick Access Featured Cards Grid (16 Clean SEO URLs) */}
+      {/* Quick Access Featured Cards Grid (20 Clean SEO URLs) */}
       <section className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-3 sm:gap-4 max-w-6xl mx-auto px-2">
         {[
           { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "🔮", link: "/tools/big-three" },
+          { name: "Spouse Predictor", desc: "Soulmate Features & Initials", icon: "💖", link: "/tools/spouse-predictor" },
           { name: "Kundali Milan", desc: "36 Ashta Koota Gunas", icon: "🕉️", link: "/tools/kundali-milan" },
+          { name: "Vimshottari Dasha", desc: "120-Year Planetary Timeline", icon: "⏳", link: "/tools/dasha-calculator" },
           { name: "Love Compatibility", desc: "Zodiac Synastry Chemistry", icon: "💖", link: "/tools/love-compatibility" },
           { name: "Life Path Numerology", desc: "Pythagorean Name & Date", icon: "🔢", link: "/tools/numerology" },
           { name: "Choghadia Muhurat", desc: "Auspicious Timing Windows", icon: "🔮", link: "/tools/choghadia" },
           { name: "Sade Sati Phase", desc: "Saturn Transit & Remedies", icon: "🪐", link: "/tools/sade-sati" },
           { name: "Brand Numerology", desc: "Chaldean Business Math", icon: "📜", link: "/tools/brand-numerology" },
           { name: "12 Kundali Houses", desc: "Bhavas & Lagna Snapshot", icon: "🏛️", link: "/tools/kundali-houses" },
+          { name: "North Node Purpose", desc: "Karmic Rahu/Ketu Soul Mission", icon: "🚀", link: "/tools/north-node" },
+          { name: "Angel Numbers", desc: "111, 444, 777 Frequencies", icon: "⚡", link: "/tools/angel-numbers" },
           { name: "Venus Sign", desc: "Love & Attraction Style", icon: "♀️", link: "/tools/venus-sign" },
           { name: "Mercury Sign", desc: "Mind & Communication", icon: "☿️", link: "/tools/mercury-sign" },
           { name: "Chiron Healing", desc: "Soul Wounded Healer", icon: "⚕️", link: "/tools/chiron" },
@@ -183,7 +187,7 @@ export default function HomePage() {
       <section className="stars-bg rounded-3xl p-4 sm:p-8 md:p-10 shadow-2xl relative overflow-hidden border border-emerald-500/40 bg-black/50">
         <div className="relative z-10">
           <div className="text-center mb-8">
-            <div className="badge badge-emerald mb-2">⚡ 16-in-1 Interactive Suite</div>
+            <div className="badge badge-emerald mb-2">⚡ 20-in-1 Interactive Suite</div>
             <h2 className="text-3xl md:text-4xl font-display font-bold gradient-text mb-2">Cosmic Tools & Calculators Suite</h2>
             <p className="text-emerald-200 text-sm max-w-xl mx-auto">
               Select any tool category below to calculate your astrological snapshot instantly.
@@ -223,7 +227,7 @@ export default function HomePage() {
 
         <div className="space-y-4 border-t border-emerald-500/30 pt-6">
           <h3 className="text-xl sm:text-2xl font-display font-bold text-amber-300">
-            1. The Big Three: Sun, Moon, and Rising Signs Explained
+            1. The Big Three & Spouse Predictor Framework
           </h3>
           <p className="text-sm leading-relaxed text-emerald-100/90">
             In modern astrology, your natal chart is anchored by your <strong>Big Three</strong>:
@@ -237,29 +241,19 @@ export default function HomePage() {
 
         <div className="space-y-4 border-t border-emerald-500/30 pt-6">
           <h3 className="text-xl sm:text-2xl font-display font-bold text-emerald-300">
-            2. Vedic Kundali Matching (Ashta Koota 36 Gunas)
+            2. Vedic Kundali Matching (Ashta Koota 36 Gunas) & Dasha Timelines
           </h3>
           <p className="text-sm leading-relaxed text-emerald-100/90">
-            Vedic Horoscope Matching (Kundali Milan) has been practiced for over 3,000 years to determine marital harmony. The Ashta Koota system measures 8 vital dimensions:
+            Vedic Horoscope Matching (Kundali Milan) has been practiced for over 3,000 years to determine marital harmony. The Ashta Koota system measures 8 vital dimensions out of 36 total points, while our <strong>Vimshottari Dasha</strong> tool maps your 120-year planetary timeline.
           </p>
-          <div className="grid sm:grid-cols-2 gap-3 text-xs text-emerald-200/90 pt-2">
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>1. Varna (1 Point):</strong> Spiritual and ego compatibility.</div>
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>2. Vashya (2 Points):</strong> Mutual attraction and dominance balance.</div>
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>3. Tara (3 Points):</strong> Destiny, longevity, and mutual health.</div>
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>4. Yoni (4 Points):</strong> Intimate chemistry and physical harmony.</div>
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>5. Graha Maitri (5 Points):</strong> Intellectual friendship and mental affinity.</div>
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>6. Gana (6 Points):</strong> Temperament and behavioral nature.</div>
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>7. Bhakoot (7 Points):</strong> Emotional bonding and family prosperity.</div>
-            <div className="p-3 rounded-xl bg-black/40 border border-emerald-500/20"><strong>8. Nadi (8 Points):</strong> Genetic, physiological, and health harmony.</div>
-          </div>
         </div>
 
         <div className="space-y-4 border-t border-emerald-500/30 pt-6">
           <h3 className="text-xl sm:text-2xl font-display font-bold text-amber-300">
-            3. Choghadia & Sade Sati Vedic Timing Mastery
+            3. Choghadia, Sade Sati & Angel Frequency Decoding
           </h3>
           <p className="text-sm leading-relaxed text-emerald-100/90">
-            Timing is everything in astrology. Our <strong>Daily Choghadia Muhurat</strong> calculator identifies auspicious hours for gold purchases, contract signing, and travel. Meanwhile, our <strong>Sade Sati Phase Checker</strong> helps you understand Saturn's 7.5-year cycle over your natal Moon, offering practical remedies such as Hanuman Chalisa recitation and Shani Daan.
+            Timing is everything. Our <strong>Daily Choghadia Muhurat</strong> calculator identifies auspicious hours for gold purchases, contract signing, and travel, while our <strong>Angel Numbers</strong> calculator decodes recurring frequencies like 111, 444, 777, and 888.
           </p>
         </div>
       </section>
@@ -291,9 +285,9 @@ export default function HomePage() {
           <span className="text-4xl mb-3">📜✨</span>
           <h2 className="text-2xl sm:text-4xl font-display font-bold text-white mb-3">Share Your Cosmic Blueprint</h2>
           <p className="text-base text-emerald-200 mb-8 max-w-xl">
-            Calculate your Kundali match, Big Three, or Numerology and share the report with your partner, friends, and family!
+            Calculate your Spouse prediction, Kundali match, Big Three, or Numerology and share the report with your partner, friends, and family!
           </p>
-          <Link href="/tools/big-three" className="btn-glow px-10 py-3.5 text-lg font-bold">
+          <Link href="/tools/spouse-predictor" className="btn-glow px-10 py-3.5 text-lg font-bold">
             Start Free Calculation Now 🔮
           </Link>
         </div>
