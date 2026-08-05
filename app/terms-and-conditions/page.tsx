@@ -3,49 +3,51 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Terms and Conditions | BIGThreeAstrology",
-  description: "Terms governing use of BIGThreeAstrology tools, content, accounts, and listings.",
+  description: "Terms of service and user agreement for BIGThreeAstrology.",
   path: "/terms-and-conditions"
 });
 
 export default function TermsPage() {
   return (
-    <div className="prose prose-invert max-w-3xl">
-      <h1>Terms and Conditions</h1>
-      <p>
-        By accessing or using BIGThreeAstrology, you agree to these Terms and Conditions. If you do not agree, please do not use the platform. These
-        terms apply to all features, including calculator tools, blog content, account dashboards, astrologer listings, and inquiry forms.
-      </p>
-      <p>
-        You agree to use the platform lawfully, respectfully, and with accurate information. Account owners are responsible for maintaining secure login
-        credentials and for all activity under their account. You must not impersonate another person, submit misleading service claims, scrape private
-        data, or attempt to disrupt site operations.
-      </p>
-      <h2>Content and Service Scope</h2>
-      <p>
-        Astrology content on this platform is provided for educational, reflective, and entertainment purposes. It does not constitute medical, legal,
-        financial, or psychological advice. Users should consult qualified professionals for those domains. BIGThreeAstrology provides access tools and
-        discovery infrastructure; it does not guarantee specific personal outcomes from reading content or consulting a listed astrologer.
-      </p>
-      <p>
-        Blog publishing workflows are intentionally simple to support stable editorial operations. Editors and admins are responsible for ensuring that
-        published material is accurate, readable, and compliant with applicable law. We may moderate, unpublish, or remove content that violates policy
-        or creates legal risk.
-      </p>
-      <h2>Listing and Dashboard Responsibilities</h2>
-      <p>
-        Astrologer listing owners must keep profile details current. The platform may send reminder emails at regular intervals. Listings that are not
-        refreshed within the configured threshold may be marked non-indexable and removed from public indexable listing pages until updated through the
-        owner dashboard. This process helps maintain search quality and user trust.
-      </p>
-      <h2>Limitation of Liability</h2>
-      <p>
-        To the fullest extent permitted by law, BIGThreeAstrology is not liable for indirect, incidental, special, or consequential damages arising from
-        use of the platform. We provide the service on an "as available" basis and do not warrant uninterrupted operation or error-free access.
-      </p>
-      <p>
-        We may update these terms over time to reflect product changes, legal updates, or safety requirements. Continued use after updates indicates
-        acceptance of revised terms.
-      </p>
+    <div className="glass-card max-w-4xl mx-auto p-8 md:p-14 space-y-8 my-8 bg-black/40 border-emerald-500/30">
+      <div className="space-y-3">
+        <div className="badge badge-emerald mb-2">📜 Terms & User Agreement</div>
+        <h1 className="text-3xl md:text-4xl font-display font-bold gradient-text">Terms and Conditions</h1>
+        <p className="text-xs text-emerald-300">Effective Date: August 5, 2026</p>
+      </div>
+
+      <div className="space-y-6 text-sm text-emerald-100/90 leading-relaxed">
+        <section className="space-y-2">
+          <h2 className="text-xl font-display font-semibold text-white">1. Acceptance of Terms</h2>
+          <p>
+            By accessing and using BIGThreeAstrology (<strong>https://bigthreeastrology.online</strong>), you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you should discontinue using the website.
+          </p>
+        </section>
+
+        <section className="space-y-2">
+          <h2 className="text-xl font-display font-semibold text-white">2. Free Educational & Entertainment Service</h2>
+          <p>
+            BIGThreeAstrology provides 16 interactive astrology and numerology calculators for personal, educational, self-awareness, and entertainment purposes. Calculator outputs do not constitute professional legal, financial, medical, or psychological advice.
+          </p>
+        </section>
+
+        <section className="space-y-2">
+          <h2 className="text-xl font-display font-semibold text-white">3. Intellectual Property Rights</h2>
+          <p>
+            All website design, logos, custom calculator engines, text content, and UI components are the exclusive property of BIGThreeAstrology. You may share report snapshots for personal or social media use with attribution.
+          </p>
+        </section>
+
+        <section className="space-y-2">
+          <h2 className="text-xl font-display font-semibold text-white">4. Support & Inquiries</h2>
+          <p>
+            For questions regarding these Terms and Conditions, please contact us at:{" "}
+            <a href="mailto:asbusiness276@gmail.com" className="text-amber-300 font-bold hover:underline">
+              asbusiness276@gmail.com
+            </a>.
+          </p>
+        </section>
+      </div>
     </div>
   );
 }
