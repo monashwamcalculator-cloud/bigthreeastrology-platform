@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #09090b;
+  background-color: #060608;
   color: #f8f6f0;
   font-family: var(--font-inter), sans-serif;
   overflow-x: hidden;
@@ -128,17 +128,9 @@ body {
   border: 1px solid rgba(250, 204, 21, 0.5);
 }
 
-/* Sankofa Mystical Sacred Geometry Starlight Backdrop */
+/* Transparent container class to reveal 3D canvas */
 .stars-bg {
-  background-color: #09090b;
-  background-image: 
-    radial-gradient(circle at 50% 25%, rgba(60, 48, 16, 0.4) 0%, rgba(9, 9, 11, 0.98) 75%),
-    radial-gradient(1px 1px at 30px 40px, rgba(255, 255, 255, 0.5), rgba(0,0,0,0)),
-    radial-gradient(1.5px 1.5px at 110px 180px, rgba(253, 224, 71, 0.6), rgba(0,0,0,0)),
-    radial-gradient(1px 1px at 210px 90px, rgba(255, 255, 255, 0.4), rgba(0,0,0,0)),
-    radial-gradient(2px 2px at 290px 240px, rgba(212, 175, 55, 0.5), rgba(0,0,0,0));
-  background-repeat: repeat;
-  background-size: 100% 100%, 320px 320px, 320px 320px, 320px 320px, 320px 320px;
+  background: transparent !important;
 }
 
 .container-main {
