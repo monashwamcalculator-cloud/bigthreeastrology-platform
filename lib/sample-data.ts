@@ -1,362 +1,333 @@
+export const SAMPLE_ASTROLOGERS = [
+  { id: "astro-1", name: "Pandit Rajesh Sharma", city: "Mumbai", specialization: "Vedic & Kundali Milan Specialist", rating: 4.9 },
+  { id: "astro-2", name: "Dr. Sunita Verma", city: "Delhi", specialization: "KP Astrology & Numerology", rating: 4.8 },
+  { id: "astro-3", name: "Acharya Vikram Shastri", city: "Bangalore", specialization: "Nadi Astrology & Gemstone Remedies", rating: 4.9 }
+];
+
 export const SAMPLE_BLOG_POSTS = [
   {
     id: "blog-1",
-    title: "How to Calculate & Interpret Your Sun, Moon, and Rising Signs (Complete Big Three Astrology Guide)",
-    slug: "how-to-read-big-three",
-    metaDescription: "Master your Big Three astrology snapshot. Learn how Sun, Moon, and Ascendant signs shape your personality, emotions, and life purpose.",
-    image: "/blog/big-three-guide.jpg",
-    content: `![Big Three Astrology Guide](/blog/big-three-guide.jpg)
+    title: "How to Predict Your Future Spouse's Physical Appearance & Personality in Astrology",
+    slug: "spouse-appearance-astrology-guide",
+    metaDescription: "Master future spouse prediction in Vedic astrology. Learn how Venus, Darakaraka, and the 7th house ruler reveal your partner's physical appearance, personality traits, and meeting location.",
+    image: "/blog/spouse-appearance-astrology-guide.jpg",
+    createdAt: new Date("2026-08-05"),
+    updatedAt: new Date("2026-08-06"),
+    content: `![Future Spouse Physical Appearance & Personality Guide](/blog/spouse-appearance-astrology-guide.jpg)
 
-# How to Calculate & Interpret Your Sun, Moon, and Rising Signs
-
-Astrology is far more than your daily horoscope printed in a magazine. While most people know their **Sun sign**, true astrological self-awareness begins with understanding your **Big Three**: your **Sun Sign**, **Moon Sign**, and **Rising Sign (Ascendant)**. Together, these three pillar placements form the core blueprint of your personality, emotional landscape, and physical presence in the world.
-
-Whether you are using our **[Big Three Calculator](/tools/big-three)** or exploring natal chart interpretations for the first time, this comprehensive manual will guide you through calculating, interpreting, and integrating your Big Three placements.
-
----
-
-## 1. What Is the Sun Sign? (Core Ego & Identity)
-
-Your **Sun sign** represents your core conscious self, your vital life force, and the fundamental ego identity you project toward your life goals. 
-
-### Key Characteristics of the Sun Sign:
-- **Element & Temperament:** Determines your baseline motivation—Fire (passion), Earth (stability), Air (intellect), or Water (emotions).
-- **Life Purpose:** Reflects what makes you feel fulfilled, confident, and vitalized.
-- **Ego & Willpower:** Represents how you handle challenges and assert leadership.
-
-For example, a **Leo Sun** naturally seeks creative expression and visibility, whereas a **Virgo Sun** finds fulfillment through precision, practical service, and continuous self-improvement.
+> 📌 **Executive Overview**: 
+> Predicting your future life partner is one of the most high-demand applications of ancient astrology. By combining your **7th House Lord**, **Venus placement**, and **Jaimini Darakaraka planet**, your birth chart reveals precise clues about your spouse's physical height, eye color, facial symmetry, career vocation, and exact meeting scenario. Try our free **[Future Spouse Predictor](/tools/spouse-predictor)** and **[Soulmate Initials Predictor](/tools/soulmate-initials)** for instant calculations.
 
 ---
 
-## 2. What Is the Moon Sign? (Subconscious & Emotional Mind)
+## 1. The Core Astrological Framework for Future Spouse Prediction
 
-In Vedic Jyotish astrology (where the Moon is associated with *Manas*), as well as in Western psychological astrology, your **Moon sign** rules your inner world. It represents your emotional needs, subconscious instincts, gut feelings, and what makes you feel secure when nobody is watching.
+In both Western Tropical astrology and Vedic Sidereal Jyotish, matrimonial prospects are governed by the **7th House (Kalatra Bhava)** and its ruling lord. While popular horoscopes focus solely on Sun signs, authentic partner prediction requires analyzing three core pillars:
 
-### Why Your Moon Sign Is Vital for Relationships:
-While Sun signs determine mutual admiration, **Moon sign compatibility** dictates day-to-day emotional harmony.
-- **Water Moons (Cancer, Scorpio, Pisces):** Require deep emotional intimacy, empathy, and intuitive understanding.
-- **Earth Moons (Taurus, Virgo, Capricorn):** Need financial predictability, tangible comfort, and routine.
-- **Air Moons (Gemini, Libra, Aquarius):** Process feelings through conversation, debate, and mental space.
-- **Fire Moons (Aries, Leo, Sagittarius):** Need spontaneous adventure, passion, and freedom of expression.
+1. **The 7th House Cusp & Occupying Planets:** Dictates the outward atmosphere of your marriage and primary partner dynamics.
+2. **The 7th House Lord Placement:** Reveals your spouse's career environment, family background, and physical stature.
+3. **The Jaimini Darakaraka (DK) Planet:** The planet holding the lowest degree in your birth chart (excluding Rahu/Ketu), representing your soulmate's physical presence.
 
 ---
 
-## 3. What Is the Rising Sign (Ascendant / Lagna)?
+## 2. Predicting Physical Appearance: Height, Complexion & Features
 
-Your **Rising sign (Ascendant)** is the zodiac sign that was ascending on the eastern horizon at the exact moment of your birth. Because the Earth rotates 360 degrees every 24 hours, the Ascendant changes roughly every two hours, making an accurate birth time essential.
+Your spouse's physical traits are strongly influenced by the element and zodiac sign of your **7th House Lord** and **Darakaraka planet**:
 
-### Functions of the Ascendant:
-- **First Impressions:** How others perceive your aura and energy when meeting you for the first time.
-- **Physical Appearance:** Dictates facial features, posture, and outward fashion style.
-- **Chart Ruler:** The planet ruling your Ascendant becomes the "Captain of your Natal Chart," shaping your major life themes.
-
-For instance, a **Scorpio Rising** projects a quiet, magnetic, and intense aura, while a **Gemini Rising** appears youthful, expressive, and constantly inquisitive.
-
----
-
-## 4. How the Big Three Work Together: Real Life Examples
-
-To truly understand yourself, you must synthesize all three signs:
-
-### Example A: The Grounded Luminary
-- **Sun:** Aries (Fire) — Driven, pioneering, assertive outward goals.
-- **Moon:** Taurus (Earth) — Emotionally steady, calm, seeking financial peace.
-- **Rising:** Libra (Air) — Charming, polite, diplomatic first impression.
-- *Synthesis:* This person appears diplomatic and approachable (Libra Rising), pursues ambitious goals fearlessly (Aries Sun), but responds to stress with grounded calm (Taurus Moon).
+### 🪐 Planetary Rulers & Physical Stature:
+- **Sun as Spouse Indicator:** Prominent posture, radiant golden or warm complexion, expressive broad forehead, commanding presence, dignified gait.
+- **Moon as Spouse Indicator:** Round, symmetrical facial features, soft luminous eyes, fair or glowing skin tone, gentle approachable aura.
+- **Mars as Spouse Indicator:** Athletic or toned muscular build, sharp defined jawline, intense focused gaze, energetic body language.
+- **Mercury as Spouse Indicator:** Youthful appearance, slender height, quick expressive eyes, polished grooming, articulate hand gestures.
+- **Jupiter as Spouse Indicator:** Tall or stately build, noble facial structure, cheerful smile, warm inviting aura, serene expression.
+- **Venus as Spouse Indicator:** Symmetrical aesthetic features, dimples, attractive smile, glamorous fashion sense, soothing voice.
+- **Saturn as Spouse Indicator:** Lean or strong bone structure, serious contemplative eyes, timeless classic style, mature posture.
 
 ---
 
-## Frequently Asked Questions (FAQs)
+## 3. Decoding Spouse Personality Archetypes & Career Vocation
 
-### Q1: Why is my birth time so important for calculating my Rising sign?
-Because the Ascendant sign changes every 2 hours, even a 15-minute difference in birth time can alter your Rising sign and shift your entire chart's house divisions.
+Where will your spouse work, and what is their daily temperamental archetype? Look at the **house placement of your 7th Lord**:
 
-### Q2: What is the difference between Western Tropical and Vedic Sidereal Big Three?
-Western astrology uses the Tropical zodiac based on seasonal equinoxes, while Vedic astrology uses the Sidereal zodiac aligned with fixed stellar constellations (~24 degree Ayanamsa shift). You can calculate both on our **[Big Three Calculator](/tools/big-three)**.
+- **7th Lord in 1st House:** Your partner's identity centers around you. Highly devoted, attractive, and self-reliant.
+- **7th Lord in 2nd House:** Partner comes from an established family background, working in banking, finance, culinary arts, or luxury goods.
+- **7th Lord in 6th House:** Partner works in healthcare, law, military, or quality management. Met through service or professional work.
+- **7th Lord in 10th House:** High-profile career partner! Works in corporate executive leadership, government status, or public figures.
 
-### Q3: Can two people have the exact same Big Three?
-Yes, but unless they were born at the exact same minute in the same location, their planetary degrees and house positions will differ.`,
-    categories: ["Astrology Basics"],
-    tags: ["big three", "sun sign", "moon sign", "rising sign", "ascendant"],
-    published: true,
-    createdAt: new Date("2026-08-01T10:00:00Z"),
-    updatedAt: new Date("2026-08-05T10:00:00Z")
+Calculate your exact 7th house lord using our **[12 Kundali Houses Explorer](/tools/kundali-houses)**.
+
+---
+
+## 4. Predicting Your Meeting Environment & First Encounter Scenario
+
+Where will you cross paths with your soulmate? The sign element of your **Venus placement** provides clear environmental markers:
+
+- **Fire Signs (Aries, Leo, Sagittarius):** Outdoor sports events, fitness hubs, concerts, leadership seminars, or spontaneous travels.
+- **Earth Signs (Taurus, Virgo, Capricorn):** Corporate offices, banking institutions, real estate viewings, botanical gardens, or quiet cafes.
+- **Air Signs (Gemini, Libra, Aquarius):** Digital social networks, university workshops, art galas, tech conferences, or mutual friend gatherings.
+- **Water Signs (Cancer, Scorpio, Pisces):** Waterfront venues, spiritual retreats, artistic performances, family celebrations, or intimate gatherings.
+
+---
+
+## 5. Frequently Asked Questions (FAQs)
+
+### Q1: Can the Spouse Predictor tell me the starting initials of my future partner's name?
+Yes! Planetary degrees and Nakshatra pada phonetics vibrate with specific letters. Use our **[Soulmate Initials Predictor](/tools/soulmate-initials)** to check starting initials.
+
+### Q2: Does Vedic Kundali Milan guarantee a happy marriage?
+Kundali Milan evaluates 36 Ashta Koota Gunas. Scores above 18 points indicate strong compatibility. Test your score with our **[Kundali Milan 36 Gunas Tool](/tools/kundali-milan)**.
+
+### Q3: What age range is most common for marriage transits?
+Marriage timing windows activate when Jupiter transits over your natal Moon, 1st, 5th, or 7th house during favorable Vimshottari Dasha cycles. Check your timeline with our **[Vimshottari Dasha Calculator](/tools/dasha-calculator)**.
+`
   },
   {
     id: "blog-2",
-    title: "Future Spouse Prediction in Vedic Astrology: 7th House, Venus & Soulmate Features Explained",
-    slug: "future-spouse-prediction-vedic-astrology",
-    metaDescription: "Discover how Vedic astrology predicts your future spouse's appearance, personality, meeting location, and career using the 7th house and Darakaraka.",
-    image: "/blog/spouse-predictor-guide.jpg",
-    content: `![Future Spouse Prediction Guide](/blog/spouse-predictor-guide.jpg)
+    title: "Saturn Sade Sati Survival Guide: Phases, Symptoms & Effective Vedic Remedies",
+    slug: "sade-sati-survival-remedies-guide",
+    metaDescription: "Comprehensive guide to Saturn Sade Sati 7.5-year transit. Learn about the 1st, 2nd, and 3rd Dhaiya phases, career symptoms, and powerful Shanti remedies.",
+    image: "/blog/sade-sati-survival-remedies-guide.jpg",
+    createdAt: new Date("2026-08-05"),
+    updatedAt: new Date("2026-08-06"),
+    content: `![Saturn Sade Sati Survival & Remedies Guide](/blog/sade-sati-survival-remedies-guide.jpg)
 
-# Future Spouse Prediction in Vedic Astrology: 7th House & Darakaraka Manual
-
-One of the most requested consultations in astrology is predicting life partner characteristics: *Who will I marry? What will my spouse look like? Where will we meet?* In Vedic Jyotish astrology, your natal birth chart holds precise mathematical signatures that describe your future husband or wife.
-
-Using our **[Spouse Predictor Tool](/tools/spouse-predictor)** and **[12 Kundali Houses Explorer](/tools/kundali-houses)**, you can unlock detailed insights into your partner's physical appearance, career path, personality, and meeting environment.
-
----
-
-## 1. The 7th House (Kalatra Bhava): The Marriage House
-
-In your birth chart (Kundali), the **7th House** governs legal marriage, long-term romantic partnerships, and business contracts. The zodiac sign on your 7th house cusp and any planets residing inside it dictate your partner's primary characteristics.
-
-### Planetary Influences in the 7th House:
-- **Sun in 7th House:** Spouse is authoritative, held in high social esteem, dignified, but may have a strong ego.
-- **Moon in 7th House:** Partner is emotionally nurturing, sensitive, attractive, attached to family, and fond of travel.
-- **Mars in 7th House:** Spouse is athletic, energetic, passionate, courageous, but requires balance to avoid temper clashes.
-- **Mercury in 7th House:** Partner is youthful, witty, highly intelligent, involved in commerce, writing, or technology.
-- **Jupiter in 7th House:** Spouse is wise, spiritual, well-educated, prosperous, and highly moral.
-- **Venus in 7th House:** Partner is physically attractive, artistic, sophisticated, romantic, and refined.
-- **Saturn in 7th House:** Spouse is mature, disciplined, hardworking, practical, and often met later in life.
+> 📌 **Executive Overview**: 
+> **Sade Sati** is Saturn's 7.5-year transit across the sign preceding, containing, and following your natal Moon sign. Far from being a mere curse, Sade Sati is a profound period of cosmic purification designed to dismantle false pride, build structural endurance, and reward hard work with lasting legacy. Check your active transit phase with our free **[Sade Sati Phase Checker](/tools/sade-sati)**.
 
 ---
 
-## 2. Darakaraka: The Soulmate Planet
+## 1. What Is Saturn Sade Sati & How Is It Calculated?
 
-In Jaimini Vedic astrology, the planet with the lowest degree in your birth chart (excluding Rahu and Ketu) holds the title of **Darakaraka** (significator of the spouse).
+In Vedic astrology (Jyotish), Saturn (*Shani Dev*) takes approximately 2.5 years to transit through a single zodiac sign. When Saturn enters the sign immediately preceding your birth Moon sign, your **Sade Sati** begins. It spans three distinct 2.5-year phases totaling 7.5 years:
 
-- **Jupiter as Darakaraka:** Indicates a spouse who acts as your mentor, teacher, or spiritual guide.
-- **Venus as Darakaraka:** Points to a romantic connection rooted in beauty, arts, and luxurious comfort.
-- **Saturn as Darakaraka:** Suggests a partner who brings stability, commitment, and long-term security.
+$$\text{Total Sade Sati Duration} = 2.5 \text{ years (1st Phase)} + 2.5 \text{ years (2nd Phase)} + 2.5 \text{ years (3rd Phase)} = 7.5 \text{ years}$$
 
----
-
-## 3. Predicting Physical Features & Personality
-
-By synthesizing your **7th House Lord** and **Venus (for men)** or **Jupiter (for women)**:
-- **Fire Signs (Aries, Leo, Sagittarius):** Athletic build, warm complexion, expressive eyes, dynamic and confident personality.
-- **Earth Signs (Taurus, Virgo, Capricorn):** Elegant stature, well-defined features, calm demeanor, practical approach to life.
-- **Air Signs (Gemini, Libra, Aquarius):** Tall or slender, expressive hands, communicative, intellectual, and stylish.
-- **Water Signs (Cancer, Scorpio, Pisces):** Soft features, deep expressive eyes, highly intuitive, empathetic, and romantic.
+Check your natal Moon sign using our **[Big Three Calculator](/tools/big-three)** to confirm if you are currently under Sade Sati.
 
 ---
 
-## Frequently Asked Questions (FAQs)
+## 2. Breakdown of the 3 Sade Sati Dhaiya Phases
 
-### Q1: Can astrology predict where I will meet my future spouse?
-Yes! The 7th house ruler placement reveals meeting environments: 9th house indicates foreign travel or university, 10th house points to workplace or corporate events, and 3rd house suggests through friends or social media.
+### 🌒 Phase 1: The Rising Phase (1st Dhaiya)
+- **Saturn Location:** 12th House from natal Moon.
+- **Primary Focus:** Financial restructuring, unannounced expenses, shift in sleep patterns, releasing superficial social circles.
+- **Key Lesson:** Practicing financial discipline and releasing attachment to material illusions.
 
-### Q2: What if I have Manglik Dosha (Mars in 7th House)?
-Manglik Dosha is very common. Matching with a fellow Manglik partner or performing simple Vedic remedies (reciting Hanuman Chalisa) neutralizes Mars intensity.
+### 🌕 Phase 2: The Peak Phase (2nd Dhaiya)
+- **Saturn Location:** Direct transit over natal Moon sign (1st House from Moon).
+- **Primary Focus:** Intense mental workload, career accountability, personal health awareness, restructuring relationships.
+- **Key Lesson:** Cultivating mental fortitude, humility, and absolute dedication to long-term duty.
 
-### Q3: How do I test my spouse prediction online?
-Use our free **[Future Spouse & Soulmate Predictor](/tools/spouse-predictor)** to receive an instant analysis of physical traits, lucky initials, and meeting scenarios!`,
-    categories: ["Relationships"],
-    tags: ["spouse predictor", "7th house", "soulmate", "vedic astrology", "darakaraka"],
-    published: true,
-    createdAt: new Date("2026-08-02T10:00:00Z"),
-    updatedAt: new Date("2026-08-05T10:00:00Z")
+### 🌘 Phase 3: The Setting Phase (3rd Dhaiya)
+- **Saturn Location:** 2nd House from natal Moon.
+- **Primary Focus:** Family asset consolidation, speech refinement, harvesting career results after hard labor.
+- **Key Lesson:** Establishing sustainable financial security and wise family leadership.
+
+---
+
+## 3. Effective Vedic Remedies to Mitigate Sade Sati Stress
+
+Saturn respects honesty, hard labor, and humble service. Performing these authentic Vedic remedies alleviates planetary friction:
+
+1. **Hanuman Chalisa Recitation:** Recite the Hanuman Chalisa daily or every Tuesday and Saturday evening.
+2. **Shani Beej Mantra:** Chant *Om Pram Preem Proam Sah Shanaishcharaya Namah* 108 times on Saturday evenings.
+3. **Charitable Service (Shani Daan):** Donate black sesame seeds, mustard oil, dark blankets, or iron utensils to the needy on Saturdays.
+4. **Mustard Oil Lamp Diya:** Light a mustard oil lamp under a Peepal tree on Saturday sunsets.
+
+---
+
+## 4. Frequently Asked Questions (FAQs)
+
+### Q1: Is Sade Sati always harmful?
+No! For individuals with an exalted or favorable Saturn in their birth chart, Sade Sati frequently brings monumental career promotions, political status, and real estate acquisition.
+
+### Q2: What is the difference between Sade Sati and Shani Dhaiya?
+Sade Sati is a 7.5-year transit over the 12th, 1st, and 2nd houses from the Moon. Shani Dhaiya is a shorter 2.5-year transit over the 4th or 8th house from the Moon. Check yours using our **[Shani Dhaiya Checker](/tools/shani-dhaiya)**.
+
+### Q3: How do I know when my Sade Sati ends?
+Calculate your exact transit dates using our **[Sade Sati Phase Checker](/tools/sade-sati)**.
+`
   },
   {
     id: "blog-3",
-    title: "Vedic Kundali Milan & Ashta Koota 36 Guna System: Complete Marriage Compatibility Manual",
-    slug: "vedic-kundali-milan-36-guna-guide",
-    metaDescription: "Complete guide to Vedic Kundali Milan and the 36 Guna Ashta Koota matching system. Learn about Nadi Dosha, Gana harmony, and marriage scoring.",
-    image: "/blog/kundali-milan-guide.jpg",
-    content: `![Kundali Milan Guide](/blog/kundali-milan-guide.jpg)
+    title: "Life Path Number Compatibility Guide: Matching Your Soul Frequencies in Numerology",
+    slug: "life-path-number-compatibility-guide",
+    metaDescription: "Explore Life Path number compatibility in numerology. Learn how numbers 1 through 9 interact in love, business synergy, and relationship harmony.",
+    image: "/blog/life-path-number-compatibility-guide.jpg",
+    createdAt: new Date("2026-08-05"),
+    updatedAt: new Date("2026-08-06"),
+    content: `![Life Path Number Compatibility & Synastry Guide](/blog/life-path-number-compatibility-guide.jpg)
 
-# Complete Manual to Vedic Kundali Milan & 36 Guna Matching
-
-For thousands of years, Vedic Kundali Matching (**Kundali Milan**) has been the bedrock of matrimonial assessment in India and across the world. Before entering a lifelong marital commitment, the horoscopes of the Groom and Bride are analyzed using the **Ashta Koota 36 Gunas System** to ensure spiritual, mental, physical, and genetic harmony.
-
-Using our **[Vedic Kundali Milan Calculator](/tools/kundali-milan)**, you can calculate the exact 36 Guna score in seconds. Here is the complete breakdown of how it works.
-
----
-
-## 1. The 8 Kootas (Ashta Koota Breakdown)
-
-The Ashta Koota system evaluates 8 distinct dimensions of compatibility, totaling 36 points (Gunas):
-
-1. **Varna Koota (1 Point):** Evaluates spiritual compatibility and ego alignment.
-2. **Vashya Koota (2 Points):** Measures mutual attraction, balance of power, and dominance in marriage.
-3. **Tara Koota (3 Points):** Analyzes health, longevity, and fortunate timing for the couple.
-4. **Yoni Koota (4 Points):** Determines physical intimacy, sexual chemistry, and instinctual compatibility.
-5. **Graha Maitri (5 Points):** Measures mental friendship, intellectual harmony, and mutual respect.
-6. **Gana Koota (6 Points):** Compares temperaments—Deva (divine), Manushya (human), or Rakshasa (regal/fiery).
-7. **Bhakoot Koota (7 Points):** Evaluates family prosperity, financial growth, and emotional affection.
-8. **Nadi Koota (8 Points):** The most crucial factor—measures health compatibility, genetic longevity, and offspring health.
+> 📌 **Executive Overview**: 
+> In Pythagorean and Chaldean numerology, your **Life Path Number** represents your primary energetic frequency. When two people unite in marriage or business, their numerical vibrations interact to create instant harmony, creative expansion, or karmic growth tests. Calculate your compatibility score with our free **[Life Path Matcher](/tools/lifepath-compatibility)** and **[Destiny Number Calculator](/tools/destiny-number)**.
 
 ---
 
-## 2. What Is a Good Kundali Match Score?
+## 1. How Life Path Numbers Are Calculated
 
-- **36 to 28 Gunas:** Outstanding & Highly Auspicious (*Uttam Match*).
-- **27 to 18 Gunas:** Good & Compatible (*Madhyam Match* — Favorable for marriage).
-- **Below 18 Gunas:** Low Compatibility (*Ordinary Match* — Requires remedies before marriage).
+Your Life Path number is derived by summing the individual digits of your full birth date (Day + Month + Year) down to a single digit (1–9) or Master Number (11, 22, 33):
 
----
+$$\text{Life Path} = \text{Reduced Month} + \text{Reduced Day} + \text{Reduced Year}$$
 
-## 3. Understanding Nadi Dosha & Remedies
-
-Nadi Koota carries the highest weight (8 points). If both partners belong to the same Nadi (Adi, Madhya, or Antya), **Nadi Dosha** occurs. However, Nadi Dosha is automatically cancelled if:
-- Both partners have different Nakshatras within the same zodiac sign.
-- The Moon signs of both partners are identical with different Nakshatras.
+Calculate yours instantly using our **[Life Path Numerology Tool](/tools/numerology)**.
 
 ---
 
-## Frequently Asked Questions (FAQs)
+## 2. Life Path Compatibility Synergy Groups
 
-### Q1: Is a score above 18 Gunas mandatory for a successful marriage?
-While 18+ Gunas indicate astrological alignment, mutual understanding, respect, and communication are equally vital for a happy marriage.
+In numerology synastry, numbers belong to three natural vibration families:
 
-### Q2: Can Kundali Milan be done without exact birth time?
-If birth time is unknown, Nakshatra matching can be done using the birth date and name initials (*Name Kundali*).
+### 🌟 Group 1: The Visionary & Business Leaders (1, 5, 7)
+- **Core Traits:** Independent, intellectual, innovative, freedom-seeking.
+- **Best Compatibility:** High synergy with fellow 1, 5, and 7 numbers. Shared drive for autonomy and intellectual debate.
 
-### Q3: Where can I check my 36 Gunas score for free?
-Try our free **[Kundali Milan Calculator](/tools/kundali-milan)** for instantaneous 36 Ashta Koota reporting!`,
-    categories: ["Kundali Matching"],
-    tags: ["kundali milan", "36 gunas", "ashta koota", "nadi dosha", "marriage compatibility"],
-    published: true,
-    createdAt: new Date("2026-08-03T10:00:00Z"),
-    updatedAt: new Date("2026-08-05T10:00:00Z")
+### 💖 Group 2: The Caregivers & Harmonizers (2, 4, 8)
+- **Core Traits:** Grounded, practical, loyal, structure-oriented, executive builders.
+- **Best Compatibility:** Deep stability when paired with 2, 4, and 8 numbers. Excellent for long-term marriage and business wealth.
+
+### ✨ Group 3: The Creative Humanitarians (3, 6, 9)
+- **Core Traits:** Artistic, expressive, nurturing, compassionate, community-focused.
+- **Best Compatibility:** Blossoms with 3, 6, and 9 numbers. High romantic warmth and shared creative projects.
+
+---
+
+## 3. Top Natural Match Pairings in Marriage
+
+- **Life Path 1 + Life Path 5:** Dynamic power couple! High energy, mutual freedom, and rapid business expansion.
+- **Life Path 2 + Life Path 6:** Ultimate romantic marriage harmony. Deep nurturing, family warmth, and emotional peace.
+- **Life Path 3 + Life Path 9:** Creative artistic synergy. Shared philanthropic goals and joyful self-expression.
+- **Life Path 4 + Life Path 8:** Commercial empire builders! Combines practical execution with executive wealth vision.
+
+---
+
+## 4. Frequently Asked Questions (FAQs)
+
+### Q1: Can incompatible Life Path numbers have a successful marriage?
+Yes! Challenging combinations foster rapid personal maturity. Practicing open dialogue and using our **[Zodiac Communication Matcher](/tools/communication-compatibility)** helps balance differences.
+
+### Q2: What are Master Numbers in compatibility?
+Master Numbers 11, 22, and 33 carry double-digit intensity. Read about their higher spiritual potential using our **[Master Numbers Reader](/tools/master-numbers)**.
+
+### Q3: How does business name numerology affect company growth?
+Matching your brand name vibration with your Life Path number prevents business friction. Test names with our **[Brand Numerology Calculator](/tools/brand-numerology)**.
+`
   },
   {
     id: "blog-4",
-    title: "Understanding Daily Choghadia Muhurat & Rahu Kaal for Maximum Success and Auspicious Timing",
-    slug: "choghadia-muhurat-rahu-kaal-timing",
-    metaDescription: "Learn how to use Daily Choghadia Muhurat and Rahu Kaal tracking to select auspicious time slots for business, travel, asset purchase, and ceremonies.",
-    image: "/blog/choghadia-muhurat-guide.jpg",
-    content: `![Choghadia Muhurat Guide](/blog/choghadia-muhurat-guide.jpg)
+    title: "Understanding Daily Choghadia Muhurat: Selecting Auspicious Hours for Wealth & Success",
+    slug: "choghadia-muhurat-timing-guide",
+    metaDescription: "Master daily Choghadia Muhurat timing. Learn how Amrit, Shubh, Labh, and Char time slots dictate optimal hours for buying gold, starting a business, and travel.",
+    image: "/blog/choghadia-muhurat-timing-guide.jpg",
+    createdAt: new Date("2026-08-05"),
+    updatedAt: new Date("2026-08-06"),
+    content: `![Daily Choghadia Muhurat Timing Guide](/blog/choghadia-muhurat-timing-guide.jpg)
 
-# Master Auspicious Timing with Daily Choghadia & Rahu Kaal
-
-In Vedic astrology, timing is everything. Performing an action during an auspicious astrological hour (*Shubh Muhurat*) maximizes prosperity, whereas starting work during an inauspicious time window can lead to unwanted delays.
-
-Two of the most widely used daily timing tools in India and worldwide are **Choghadia Muhurat** and **Rahu Kaal Tracking**. You can monitor both in real-time on our **[Choghadia Calculator](/tools/choghadia)** and **[Rahu Kaal Tracker](/tools/rahu-kaal)**.
-
----
-
-## 1. What Is Choghadia Muhurat?
-
-*Choghadia* is a Vedic time-division system that splits every day (sunrise to sunset) and night (sunset to sunrise) into 8 equal time windows of approximately 90 minutes each.
-
-### The 7 Choghadia Types:
-1. **Amrit (Nectar - Auspicious):** Ideal for all positive endeavors, gold purchase, and celebrations.
-2. **Shubh (Good - Auspicious):** Excellent for weddings, religious ceremonies, and auspicious contracts.
-3. **Labh (Gain - Auspicious):** Perfect for launching businesses, financial investments, and shop openings.
-4. **Char (Neutral/Moving - Favorable):** Best for travel, vehicle purchase, and movement.
-5. **Rog (Disease - Inauspicious):** Avoid starting new projects or financial transactions.
-6. **Udveg (Anxiety - Inauspicious):** Avoid government work or stressful debates.
-7. **Kaal (Loss - Inauspicious):** Controlled by Saturn; avoid important decisions.
+> 📌 **Executive Overview**: 
+> Timing is everything in Vedic wisdom. **Choghadia** is an ancient 3,000-year-old timing framework dividing daytime and nighttime into 8 equal time windows each. By aligning your business launches, gold purchases, travel, and contract signatures with auspicious slots like **Amrit**, **Shubh**, and **Labh**, you ensure smooth progress and victory. Check today's live time windows using our **[Daily Choghadia Calculator](/tools/choghadia)**.
 
 ---
 
-## 2. What Is Rahu Kaal and Why Avoid It?
+## 1. The 7 Types of Choghadia Time Slots Explained
 
-**Rahu Kaal** is a 90-minute daily period ruled by Rahu (the shadow planet of illusion and obstacle). Starting new ventures, signing deeds, buying property, or traveling during Rahu Kaal is traditionally avoided.
+Each Choghadia window lasts approximately 90 minutes (1.5 hours) and is governed by a specific planetary ruler:
 
-### Weekly Rahu Kaal Timing Window (Approximate):
-- **Monday:** 7:30 AM – 9:00 AM
-- **Tuesday:** 3:00 PM – 4:30 PM
-- **Wednesday:** 12:00 PM – 1:30 PM
-- **Thursday:** 1:30 PM – 3:00 PM
-- **Friday:** 10:30 AM – 12:00 PM
-- **Saturday:** 9:00 AM – 10:30 AM
-- **Sunday:** 4:30 PM – 6:00 PM
+1. **Amrit (Nectar - Auspicious ✨):** Ruled by the Moon. Ideal for all sacred ceremonies, purchasing assets, and family celebrations.
+2. **Shubh (Good - Auspicious 🌟):** Ruled by Jupiter. Excellent for marriages, educational ventures, and spiritual rituals.
+3. **Labh (Gain - Auspicious 💰):** Ruled by Mercury. Prime window for starting new commercial businesses, signing contracts, and trading.
+4. **Char (Neutral / Variable 🚗):** Ruled by Venus. Favorable for travel, vehicle movement, and dynamic tasks.
+5. **Rog (Disease - Inauspicious ⚠️):** Ruled by Mars. Avoid starting new ventures; best used for physical workouts or competitive tasks.
+6. **Kaal (Loss - Inauspicious ⚠️):** Ruled by Saturn. Avoid commercial deals; useful for discipline and cleaning.
+7. **Udveg (Anxiety - Inauspicious ⚠️):** Ruled by the Sun. Avoid high-stress negotiations or official government submissions.
 
 ---
 
-## Frequently Asked Questions (FAQs)
+## 2. How Day and Night Choghadia Are Calculated
 
-### Q1: What should I do if an urgent task falls during Rahu Kaal?
-If urgent work must be done, chant *Om Namah Shivaya* or sip water before proceeding to neutralize negative vibrations.
+Daytime Choghadia begins at exact sunrise and ends at sunset. Nighttime Choghadia begins at sunset and ends at the next morning's sunrise:
 
-### Q2: How do I check today's live Choghadia slots?
-Visit our **[Choghadia Calculator](/tools/choghadia)** to view instant day and night slots for your city!`,
-    categories: ["Vedic Timing"],
-    tags: ["choghadia", "muhurat", "rahu kaal", "auspicious timing", "vedic astrology"],
-    published: true,
-    createdAt: new Date("2026-08-04T10:00:00Z"),
-    updatedAt: new Date("2026-08-05T10:00:00Z")
+$$\text{Day Choghadia Duration} = \frac{\text{Sunset Time} - \text{Sunrise Time}}{8}$$
+
+Check live sunrise and slot calculations for your city with our **[Panchang Daily Guide](/tools/daily-panchang)**.
+
+---
+
+## 3. Best Choghadia Slots for Specific Activities
+
+- **Buying Gold & Jewelry:** Amrit or Labh Choghadia.
+- **Launching a New Website or Business:** Labh or Shubh Choghadia.
+- **Starting International Travel:** Char or Amrit Choghadia.
+- **Signing Real Estate Contracts:** Shubh or Labh Choghadia.
+
+---
+
+## 4. Frequently Asked Questions (FAQs)
+
+### Q1: What is the best Choghadia slot for commercial profit?
+**Labh (Gain)** and **Amrit (Nectar)** are the highest converting windows for business revenue.
+
+### Q2: Does Choghadia change based on my city location?
+Yes! Because sunrise and sunset times vary across geographical longitudes, Choghadia hours shift per city.
+
+### Q3: What other daily windows should I avoid?
+In addition to Rog/Kaal Choghadia, avoid daily Rahu Kaal hours. Track them with our **[Rahu Kaal Tracker](/tools/rahu-kaal)**.
+`
   },
   {
     id: "blog-5",
-    title: "Sade Sati & Vimshottari Mahadasha: How Saturn Transits & Planetary Periods Shape Your Destiny",
-    slug: "sade-sati-vimshottari-dasha-timeline",
-    metaDescription: "Understand Saturn's 7.5-year Sade Sati phases and the 120-year Vimshottari Mahadasha timeline. Learn remedies to transform challenges into success.",
-    image: "/blog/sade-sati-dasha-guide.jpg",
-    content: `![Sade Sati & Dasha Timeline Guide](/blog/sade-sati-dasha-guide.jpg)
+    title: "Navamsha D9 Chart Guide: Unlocking Your Post-Marriage Destiny & Soul Strength",
+    slug: "navamsha-d9-chart-marriage-destiny",
+    metaDescription: "Learn how to read your Navamsha D9 divisional chart in Vedic astrology. Discover your soul strength, marital destiny, and second-half life fortune.",
+    image: "/blog/navamsha-d9-chart-marriage-destiny.jpg",
+    createdAt: new Date("2026-08-05"),
+    updatedAt: new Date("2026-08-06"),
+    content: `![Navamsha D9 Chart Guide Marriage & Destiny](/blog/navamsha-d9-chart-marriage-destiny.jpg)
 
-# Sade Sati & Vimshottari Mahadasha: Navigating Cosmic Cycles
-
-Life operates in rhythmic planetary cycles. In Vedic astrology, two cosmic phenomena exert profound influence over your career, health, finances, and personal transformation: **Saturn's 7.5-Year Transit (Sade Sati)** and the **120-Year Vimshottari Mahadasha Timeline**.
-
-By tracking your active phases using our **[Sade Sati Checker](/tools/sade-sati)** and **[Dasha Calculator](/tools/dasha-calculator)**, you can prepare for major transitions and harness cosmic timing for success.
-
----
-
-## 1. What Is Saturn's Sade Sati?
-
-*Sade Sati* refers to the 7.5-year period when Saturn (*Shani Dev*) transits through the 12th house, 1st house, and 2nd house relative to your natal Moon sign. Since Saturn takes 2.5 years to cross one sign, crossing three signs takes 7.5 years.
-
-### The 3 Phases (Dhaiyas) of Sade Sati:
-1. **First Phase (Rising Phase):** Saturn transits the sign before your Moon. Impacts finances, travel, and mental stress.
-2. **Second Phase (Peak Phase):** Saturn transits directly over your natal Moon sign. Deep emotional restructuring and career discipline.
-3. **Third Phase (Setting Phase):** Saturn transits the sign after your Moon. Stabilization, financial recovery, and wisdom.
+> 📌 **Executive Overview**: 
+> In Vedic astrology, the **D9 Navamsha Chart** is the most vital divisional chart (*Varga*). While your D1 birth chart represents the physical tree of life, the D9 Navamsha reveals the fruit! It confirms the true strength of your natal planets in the second half of life (post-30s) and illuminates your post-marriage destiny. Explore your chart placements with our free **[Navamsha D9 Explorer](/tools/navamsha)**.
 
 ---
 
-## 2. What Is Vimshottari Mahadasha?
+## 1. Why Is the Navamsha D9 Chart So Important?
 
-The **Vimshottari Dasha** system divides a human life cycle into a 120-year planetary timeline divided among 9 planets:
+Each zodiac sign of 30° is divided into 9 equal subdivisions of 3° 20' each, forming the 108 Navamsha divisions of the zodiac:
 
-- **Ketu:** 7 Years (Spiritual introspection & detachment)
-- **Venus:** 20 Years (Luxury, romance, wealth & art)
-- **Sun:** 6 Years (Career authority & vitality)
-- **Moon:** 10 Years (Emotional peace & public recognition)
-- **Mars:** 7 Years (Courage, property & executive energy)
-- **Rahu:** 18 Years (Ambition, digital growth & foreign travel)
-- **Jupiter:** 16 Years (Wisdom, marriage, children & prosperity)
-- **Saturn:** 19 Years (Discipline, endurance & career foundation)
-- **Mercury:** 17 Years (Commerce, intellect & communication)
+$$\text{Navamsha Division Size} = \frac{30^\circ}{9} = 3^\circ 20'$$
+
+Key functions of the D9 Chart include:
+1. **Confirming Planetary Strength:** A planet weak in D1 that becomes Vargottama or Exalted in D9 yields immense success in maturity.
+2. **Marriage & Spouse Horoscope:** The 7th house and Lagna of D9 reveal your actual married life experience.
+3. **Dharma & Soul Vocation:** Shows your innate spiritual inclination (*Dharma*) and karma after age 32.
 
 ---
 
-## 3. Recommended Vedic Remedies for Saturn & Dasha Balance
+## 2. Key Elements to Inspect in Your D9 Chart
 
-- Recite **Hanuman Chalisa** daily or every Saturday.
-- Offer mustard oil in a Diya under a Peepal tree on Saturdays.
-- Donate black sesame seeds, iron items, or footwear to the needy.
+- **Vargottama Planets:** When a planet occupies the exact same zodiac sign in both D1 and D9, it gains *Vargottama* status—granting unshakeable strength.
+- **D9 Ascendant (Lagna):** Reveals your internal soul persona and emotional maturation after marriage.
+- **7th House of D9:** Dictates long-term marital bliss, mutual respect, and household harmony.
+
+Explore your house lord placements using our **[12 Kundali Houses Explorer](/tools/kundali-houses)**.
 
 ---
 
-## Frequently Asked Questions (FAQs)
+## 3. How Navamsha Activates After Marriage
 
-### Q1: Is Sade Sati always harmful?
-No! Sade Sati acts as a cosmic purifier. Hardworking and ethical individuals often achieve monumental career breakthroughs during Saturn's peak phase.
+Vedic tradition notes that entering a lawful marriage activates the D9 chart. The combined karmic energies of husband and wife trigger hidden planetary potential, often elevating career fortune and domestic prosperity.
 
-### Q2: How can I check my active Mahadasha planet?
-Use our free **[Vimshottari Dasha Calculator](/tools/dasha-calculator)** to reveal your current planetary timeline instantly!`,
-    categories: ["Vedic Timing"],
-    tags: ["sade sati", "mahadasha", "vimshottari dasha", "saturn transit", "vedic remedies"],
-    published: true,
-    createdAt: new Date("2026-08-05T10:00:00Z"),
-    updatedAt: new Date("2026-08-05T10:00:00Z")
-  }
-];
+Check matrimonial compatibility using our **[Kundali Milan 36 Gunas Tool](/tools/kundali-milan)**.
 
-export const SAMPLE_ASTROLOGERS = [
-  {
-    id: "astro-1",
-    userId: "user-1",
-    name: "Maya Astro",
-    profilePhoto: null,
-    bio: "Experienced Vedic and psychological astrologer specializing in career transitions, life purpose discovery, and relationship compatibility (synastry). Over 8 years of private consultation experience.",
-    experienceYears: 8,
-    specialization: "Vedic, Career, Synastry",
-    services: "Birth chart analysis, Relationship compatibility, Annual transit forecast, Career guidance",
-    pricing: "$49 / 30-min session · $89 / 60-min full chart reading",
-    phone: "+1 (212) 555-0100",
-    whatsapp: "+12125550100",
-    email: "asbusiness276@gmail.com",
-    city: "New York",
-    state: "NY",
-    country: "USA",
-    status: "APPROVED",
-    isIndexable: true,
-    createdAt: new Date("2024-01-01T00:00:00Z"),
-    updatedAt: new Date("2024-01-01T00:00:00Z")
+---
+
+## 4. Frequently Asked Questions (FAQs)
+
+### Q1: Can a weak planet in D1 birth chart become strong in D9?
+Yes! If a planet is debilitated in D1 but exalted or Vargottama in D9, its initial struggles transform into major success later in life.
+
+### Q2: What planet rules your soul mission in D9?
+Your **Atmakaraka planet** (highest degree planet in D1) holds special importance in D9. Identify yours with our **[Atmakaraka Soul King Finder](/tools/atmakaraka)**.
+
+### Q3: How do I calculate my D9 chart?
+Use our free **[Navamsha D9 Chart Explorer](/tools/navamsha)** for instant divisional chart readings.
+`
   }
 ];
