@@ -15,64 +15,68 @@ export const SAMPLE_BLOG_POSTS = [
     createdAt: new Date("2026-08-01"),
     updatedAt: new Date("2026-08-06"),
     content: `> 📌 **Executive Overview**: 
-> In Western Tropical and Vedic Sidereal astrology, your **Big Three**—consisting of your **Sun Sign**, **Moon Sign**, and **Rising Sign (Ascendant)**—form the core pillar of your cosmic chart. While your Sun sign represents your conscious ego drive, your Moon sign reveals your hidden emotional core, and your Rising sign dictates how the external world perceives your presence. Explore your exact placements using our free **[Big Three Calculator](/tools/big-three)**.
+> In Western Tropical and Vedic Sidereal astrology, your **Big Three**—consisting of your **Sun Sign**, **Moon Sign**, and **Rising Sign (Ascendant)**—form the core foundation of your psychological blueprint. While your Sun sign represents your conscious ego drive, your Moon sign reveals your private emotional world, and your Rising sign dictates your outward social presence and body constitution. Explore your exact placements using our free **[Big Three Calculator](/tools/big-three)**.
 
 ---
 
 ## 1. What Are the Big Three Astrology Signs?
 
-When people ask *"What's your sign?"*, they are almost always referring to your Sun sign. However, two individuals born with the exact same Sun sign in Aries can act completely differently! Why? Because their Moon sign and Rising sign create a unique energetic blend.
+When people ask *"What's your sign?"*, they are almost always referring to your Sun sign. However, two individuals born with the exact same Sun sign in Aries can act completely differently! Why? Because their Moon sign and Rising sign create a unique energetic triad.
 
-| Cosmic Element | Astrological Celestial Body | Primary Personality Role | Key Psychological Dimension |
+| Cosmic Element | Celestial Body | Primary Psychological Function | Life Area Governed |
 | :--- | :--- | :--- | :--- |
-| **Sun Sign** | The Core Luminary | Conscious Ego & Vitality | Core identity, outer ambitions, vitality, life purpose |
-| **Moon Sign** | The Inner Luminary | Subconscious & Emotional World | Deep emotional needs, instincts, memory, private reactions |
-| **Rising Sign** | The Ascendant (Lagna) | Physical Mask & First Impression | Physical appearance, social demeanor, life perspective |
+| **Sun Sign** | Solar Luminary | Conscious Ego & Willpower | Core purpose, vitality, outer identity |
+| **Moon Sign** | Lunar Luminary | Subconscious & Emotion | Emotional needs, instincts, inner peace |
+| **Rising Sign** | Eastern Horizon (Lagna) | Social Filter & Physical Vessel | First impressions, body structure, life path |
 
-Calculate your exact Big Three signs in under 10 seconds with our free **[Big Three Calculator](/tools/big-three)**.
+Calculate your exact Big Three triad in seconds using our free **[Big Three Calculator](/tools/big-three)**.
 
 ---
 
-## 2. The Sun Sign: Your Core Life Force & Ambition
+## 2. The Sun Sign: Your Core Life Force, Vitality & Ambition
 
-Your **Sun Sign** is calculated based on the position of the Sun at your exact minute of birth. It represents your fundamental identity, creative drive, and conscious willpower.
+Your **Sun Sign** is calculated based on the position of the Sun at your exact minute of birth. The Sun spends approximately 30 days in each zodiac sign as it completes its annual 360-degree journey around the ecliptic.
 
-### 🌟 Key Dimensions of the Sun Sign:
-- **Core Life Purpose:** Dictates what energizes you and where you seek accomplishment.
-- **Ego Expression:** Governs how you assert yourself in public leadership and creative projects.
-- **Vitality & Health:** In traditional astrology, the Sun governs overall bodily constitution and solar vitality.
+### 🌟 Key Dimensions of the Solar Ego:
+- **Core Purpose & Drive:** The Sun indicates where you seek fulfillment, creative expression, and public recognition.
+- **Conscious Mind:** Governs your logical decision-making, pride, leadership qualities, and personal boundary setting.
+- **Father & Authority Figure:** In birth chart analysis, the Sun reflects your psychological relationship with father figures and authority.
 
-> 💡 *Example:* A person with a Sun in Leo thrives in creative leadership roles, possessing natural charisma and a desire for warm recognition.
+### ♈ Fire, Earth, Air & Water Solar Archetypes:
+- **Fire Suns (Aries, Leo, Sagittarius):** Driven by passion, enthusiasm, courage, and independent action.
+- **Earth Suns (Taurus, Virgo, Capricorn):** Grounded in practical results, financial security, tangible mastery, and loyalty.
+- **Air Suns (Gemini, Libra, Aquarius):** Fueled by intellectual curiosity, social connection, debate, and innovative ideas.
+- **Water Suns (Cancer, Scorpio, Pisces):** Guided by emotional depth, empathy, artistic imagination, and intuitive understanding.
 
 Calculate your exact Sun sign degrees with our **[Sun Sign Calculator](/tools/sun-sign-calculator)**.
 
 ---
 
-## 3. The Moon Sign: Your Subconscious & Emotional World
+## 3. The Moon Sign: Your Subconscious, Attachment Style & Inner Soul
 
-While the Sun represents your daylight self, your **Moon Sign** represents your private nighttime persona. It rules your emotional instincts, attachment style, and how you process stress.
+While the Sun represents your public daylight self, your **Moon Sign** represents your private nighttime persona. The Moon moves rapidly, spending only 2.5 days in each zodiac sign, making it a highly specific psychological marker.
 
-### 🌙 Key Dimensions of the Moon Sign:
-- **Emotional Safety & Needs:** Dictates what makes you feel secure, comforted, and emotionally fulfilled in relationships.
-- **Intuition & Dreams:** Governs gut feelings, psychic sensitivity, and memory storage.
-- **Private Self:** The side of you only your closest loved ones, family, and partner get to experience.
+### 🌙 Key Dimensions of the Lunar Soul:
+- **Emotional Safety & Conditioning:** Dictates how you react when threatened, stressed, or seeking comfort.
+- **Mother & Nurturing Lineage:** Reflects your early childhood environment, maternal bond, and emotional memory storage.
+- **Attachment Style in Love:** Dictates whether you process feelings through verbal sharing (Air), physical affection (Earth), intense intimacy (Water), or active enthusiasm (Fire).
 
-> 💡 *Example:* A person with a Sun in Leo but a Moon in Scorpio has a fiery, enthusiastic exterior, but a deeply private, intense, and emotionally protective inner core.
+### 💡 The Sun-Moon Dynamic in Action:
+- *Sun in Leo + Moon in Scorpio:* Appears warm, dramatic, and expressive in public, but harbors an intensely private, cautious, and protective emotional core.
+- *Sun in Virgo + Moon in Sagittarius:* Detail-oriented, methodical worker on the outside, but craves spontaneous travel, philosophy, and freedom on the inside!
 
-Calculate your exact Moon sign placement with our **[Moon Sign Calculator](/tools/moon-sign-calculator)**.
+Discover your Moon sign with our **[Moon Sign Calculator](/tools/moon-sign-calculator)**.
 
 ---
 
-## 4. The Rising Sign (Ascendant): Your Physical Body & Social Lens
+## 4. The Rising Sign (Ascendant): Your Physical Vessel & Life Navigator
 
-Your **Rising Sign (Ascendant / Lagna)** is the zodiac sign that was rising on the eastern horizon at the precise time of your birth. Because the Earth rotates 360 degrees every 24 hours, your Rising sign changes approximately every 2 hours!
+Your **Rising Sign (Ascendant / Lagna)** is the exact zodiac sign that was ascending on the eastern horizon at your precise minute of birth. Because the Earth completes one full rotation every 24 hours, the Rising sign shifts approximately every 2 hours!
 
-### 🌅 Key Dimensions of the Rising Sign:
-- **First Impression & Aura:** Dictates the immediate vibe and energy people pick up from you when entering a room.
-- **Physical Appearance:** Strongly influences facial structure, stature, dressing style, and eye vitality.
-- **Chart Ruler:** The planet that rules your Rising sign becomes the overall "Captain" of your entire birth chart!
-
-> 💡 *Example:* A person with a Taurus Ascendant projects a grounded, calm, elegant, and dependable presence, irrespective of their inner Sun or Moon signs.
+### 🌅 Key Dimensions of the Ascendant:
+- **First Impression & Social Mask:** Dictates the initial aura, stance, and energy people perceive when meeting you for the first time.
+- **Physical Appearance & Stature:** Strongly influences facial structure, bone shape, body posture, grooming choices, and visual style.
+- **The Chart Ruler:** The planet that rules your Ascendant becomes the "Captain of your Horoscope," dictating major life themes!
 
 Calculate your precise Ascendant sign with our **[Rising Sign Calculator](/tools/rising-sign-calculator)**.
 
@@ -80,17 +84,18 @@ Calculate your precise Ascendant sign with our **[Rising Sign Calculator](/tools
 
 ## 5. How Your Big Three Signs Synthesize Together
 
-To understand yourself or a partner fully, you must look at how these three forces interact:
+Understanding your astrological triad requires synthesizing all three forces into one cohesive personality portrait:
 
-1. **Sun + Moon Synergy:** Are your head (Sun) and heart (Moon) in harmony or in conflict? (e.g., Sun in Gemini with Moon in Taurus balances fast ideas with steady execution).
-2. **Rising Sign Mask:** Your Rising sign acts as the vessel through which your Sun's ambition and Moon's emotional power enter the physical world.
+1. **Sun (Driver):** Where you are heading and what fuels your engine.
+2. **Moon (Fuel):** The emotional needs required to keep your engine running smoothly.
+3. **Rising Sign (Car Body):** The physical vehicle and steering mechanism navigating the external world.
 
 ---
 
 ## 6. Frequently Asked Questions (FAQs)
 
 ### Q1: Why do I need my exact birth time to calculate my Big Three?
-Because the Rising sign changes every 2 hours, knowing your exact birth time ensures 100% precision for your Ascendant and house placements.
+Because the Rising sign changes every 2 hours, knowing your exact birth time guarantees 100% precision for your Ascendant and house cusp placements.
 
 ### Q2: What if I don't know my exact birth time?
 If your birth time is unknown, our **[Big Three Calculator](/tools/big-three)** will calculate your Sun and Moon signs accurately, while estimating your Rising sign using solar chart options.

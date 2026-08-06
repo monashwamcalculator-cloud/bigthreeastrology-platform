@@ -98,7 +98,7 @@ export default async function BlogPostPage({ params }: Props) {
               })}
             </time>
             <span className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full">
-              📖 8 Min Read
+              📜 Astrological Guide
             </span>
           </div>
         </header>

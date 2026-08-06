@@ -43,9 +43,9 @@ export default async function BlogPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       
       <div className="text-center space-y-4 py-8">
-        <div className="badge badge-emerald mb-2">📚 Educational Astrology & Timing Guides</div>
-        <h1 className="text-4xl md:text-5xl font-display font-bold gradient-text animate-fade-in">Astrology & Cosmic Guides</h1>
-        <p className="text-emerald-200 text-base sm:text-lg max-w-2xl mx-auto animate-slide-up animate-delay-100">
+        <div className="badge badge-gold mb-2">📚 Educational Astrology &amp; Timing Guides</div>
+        <h1 className="text-4xl md:text-5xl font-display font-bold gradient-text-gold animate-fade-in">Astrology &amp; Cosmic Guides</h1>
+        <p className="text-amber-200 text-base sm:text-lg max-w-2xl mx-auto animate-slide-up animate-delay-100">
           In-depth guides to unlock your Big Three signs, predict your future spouse, match Kundalis, and master daily auspicious timing.
         </p>
       </div>
@@ -54,12 +54,12 @@ export default async function BlogPage() {
         {posts.map((post, i) => (
           <article 
             key={post.id} 
-            className="glass-card-hover p-5 flex flex-col justify-between animate-slide-up group border-emerald-500/20 bg-black/40"
+            className="glass-card-hover p-5 flex flex-col justify-between animate-slide-up group border-amber-500/25 bg-black/60"
             style={{ animationDelay: `${(i % 5) * 100 + 100}ms` }}
           >
             <div>
               {post.image && (
-                <div className="relative w-full h-48 rounded-xl overflow-hidden mb-4 border border-emerald-500/30">
+                <div className="relative w-full h-48 rounded-xl overflow-hidden mb-4 border border-amber-500/30">
                   <Image
                     src={post.image}
                     alt={post.title}
@@ -69,26 +69,20 @@ export default async function BlogPage() {
                 </div>
               )}
 
-              {post.categories && post.categories.length > 0 && (
-                <div className="mb-2">
-                  <span className="badge badge-emerald text-[11px]">{post.categories[0]}</span>
-                </div>
-              )}
-
               <h2 className="text-lg font-display font-bold text-white mb-2 leading-snug group-hover:text-amber-300 transition-colors">
                 <Link href={`/blog/${post.slug}`}>
                   {post.title}
                 </Link>
               </h2>
               
-              <p className="text-xs text-emerald-200/80 line-clamp-3 mb-4 leading-relaxed">{post.metaDescription}</p>
+              <p className="text-xs text-amber-200/80 line-clamp-3 mb-4 leading-relaxed">{post.metaDescription}</p>
             </div>
 
             <Link 
               href={`/blog/${post.slug}`} 
-              className="text-emerald-300 hover:text-amber-300 transition-colors inline-flex items-center text-xs font-bold mt-auto pt-2 border-t border-emerald-500/20"
+              className="text-amber-300 hover:text-white transition-colors inline-flex items-center text-xs font-bold mt-auto pt-3 border-t border-amber-500/20"
             >
-              Read Full 1,500+ Word Manual <span className="ml-1">→</span>
+              Read Full Article <span className="ml-1">→</span>
             </Link>
           </article>
         ))}
@@ -96,10 +90,10 @@ export default async function BlogPage() {
 
       <AdSlot label="Blog content ad slot" />
 
-      <section className="glass-card p-6 md:p-10 mt-12 prose prose-invert max-w-none bg-black/50 border-emerald-500/30">
-        <h2 className="text-2xl sm:text-3xl font-display font-bold gradient-text">Astrology Learning Hub & Practical Guides</h2>
-        <p className="text-sm text-emerald-100 leading-relaxed">
-          The BIGThreeAstrology blog is built to answer real questions with practical clarity. Our articles map directly to our 20 tools—including our **[Big Three Calculator](/tools/big-three)**, **[Spouse Predictor](/tools/spouse-predictor)**, **[Vedic Kundali Milan](/tools/kundali-milan)**, **[Daily Choghadia Muhurat](/tools/choghadia)**, and **[Sade Sati Phase Checker](/tools/sade-sati)**.
+      <section className="glass-card p-6 md:p-10 mt-12 prose max-w-none bg-black/70 border-amber-500/30">
+        <h2 className="text-2xl sm:text-3xl font-display font-bold gradient-text-gold">Astrology Learning Hub &amp; Practical Guides</h2>
+        <p className="text-sm text-amber-100/90 leading-relaxed">
+          The BIGThreeAstrology blog is built to answer real questions with practical clarity. Our articles map directly to our 100 tools—including our **[Big Three Calculator](/tools/big-three)**, **[Spouse Predictor](/tools/spouse-predictor)**, **[Vedic Kundali Milan](/tools/kundali-milan)**, **[Daily Choghadia Muhurat](/tools/choghadia)**, and **[Sade Sati Phase Checker](/tools/sade-sati)**.
         </p>
       </section>
     </div>
