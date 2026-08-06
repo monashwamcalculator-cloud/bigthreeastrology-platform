@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { ToolDefinition } from "@/lib/all-tools-registry";
 import { ToolSchema } from "@/components/tool-schema";
+import { CosmicIcon } from "@/components/cosmic-icons";
 
 // Import existing custom interactive components
 import { BigThreeCalculator } from "@/components/calculator";
@@ -40,7 +41,6 @@ type MasterToolRendererProps = {
 };
 
 export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
-  // Render specific interactive component if built, or rich generic interactive calculator
   const renderInteractiveCalculator = () => {
     switch (tool.slug) {
       case "big-three": return <BigThreeCalculator />;
@@ -87,12 +87,14 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
 
       {/* Interactive Tool Header & Calculator */}
       <div>
-        <div className="text-center mb-4">
-          <div className="badge badge-gold mb-2">{tool.badge}</div>
+        <div className="text-center mb-4 flex flex-col items-center">
+          <div className="w-12 h-12 rounded-full bg-amber-950/70 border border-amber-400/50 flex items-center justify-center mb-2 shadow-lg">
+            <CosmicIcon name={tool.slug} className="w-6 h-6" />
+          </div>
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-2">
             {tool.name}
           </h1>
-          <p className="text-sky-200 text-xs sm:text-sm max-w-xl mx-auto">
+          <p className="text-amber-200 text-xs sm:text-sm max-w-xl mx-auto">
             {tool.shortDesc}
           </p>
         </div>
@@ -101,17 +103,17 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
       </div>
 
       {/* Full-Page Rich Educational Guide & Explanation */}
-      <section className="glass-card p-5 sm:p-8 prose prose-invert max-w-4xl mx-auto rounded-2xl bg-black/60 border-sky-500/30 space-y-4">
-        <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text">
+      <section className="glass-card p-5 sm:p-8 prose prose-invert max-w-4xl mx-auto rounded-2xl bg-black/70 border-amber-500/30 space-y-4">
+        <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text-gold">
           {tool.educationalTitle}
         </h2>
-        <p className="text-xs sm:text-sm text-sky-100/90 leading-relaxed">
+        <p className="text-xs sm:text-sm text-amber-100/90 leading-relaxed">
           {tool.educationalContent}
         </p>
 
-        <div className="border-t border-sky-500/20 pt-4 mt-4">
+        <div className="border-t border-amber-500/20 pt-4 mt-4">
           <h3 className="text-base font-semibold text-amber-300 mb-2">Why Use This Tool?</h3>
-          <ul className="list-disc pl-5 text-xs sm:text-sm text-sky-200/90 space-y-1">
+          <ul className="list-disc pl-5 text-xs sm:text-sm text-amber-200/90 space-y-1">
             <li>100% Free calculation with zero account registration required.</li>
             <li>Precision algorithms cross-referencing authentic Vedic & Western astronomical placements.</li>
             <li>Instant actionable remedies, timing windows, and personalized guidance.</li>
@@ -122,16 +124,18 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
       {/* Frequently Asked Questions */}
       {tool.faqs && tool.faqs.length > 0 && (
         <section className="max-w-4xl mx-auto">
-          <h3 className="text-xl font-display font-bold text-center text-white mb-4">
-            Frequently Asked Questions 🔮
+          <h3 className="text-xl font-display font-bold text-center text-white mb-4 flex items-center justify-center gap-2">
+            <CosmicIcon name="tarot" className="w-5 h-5" />
+            <span>Frequently Asked Questions</span>
           </h3>
           <div className="grid gap-3">
             {tool.faqs.map((faq, idx) => (
-              <div key={idx} className="glass-card-hover p-4 rounded-xl border border-sky-500/20 bg-black/40">
+              <div key={idx} className="glass-card-hover p-4 rounded-xl border border-amber-500/20 bg-black/50">
                 <h4 className="text-sm font-semibold text-amber-300 mb-1 flex items-start gap-2">
-                  <span>✨</span> {faq.question}
+                  <CosmicIcon name="zodiac" className="w-4 h-4 mt-0.5" />
+                  <span>{faq.question}</span>
                 </h4>
-                <p className="text-sky-100 text-xs sm:text-sm pl-6 leading-relaxed">
+                <p className="text-amber-100 text-xs sm:text-sm pl-6 leading-relaxed">
                   {faq.answer}
                 </p>
               </div>
@@ -143,7 +147,8 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
       {/* CTA Navigation Banner */}
       <div className="text-center pt-2">
         <Link href="/tools/big-three" className="btn-glow px-6 py-2.5 text-xs sm:text-sm font-bold inline-flex items-center gap-2">
-          <span>✨</span> Explore All 100 Calculators & Tools
+          <CosmicIcon name="zodiac" className="w-4 h-4" />
+          <span>Explore All 100 Calculators & Tools</span>
         </Link>
       </div>
     </div>
