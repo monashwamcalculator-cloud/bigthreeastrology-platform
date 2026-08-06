@@ -11,10 +11,10 @@ export const SAMPLE_BLOG_POSTS = [
     title: "How to Read Your Big Three Astrology Signs: Sun, Moon, and Rising Sign Decoded",
     slug: "how-to-read-big-three",
     metaDescription: "Master reading your Big Three in astrology—Sun, Moon, and Rising (Ascendant) signs. Discover how your solar ego, lunar emotion, and ascendant mask define your cosmic personality.",
-    image: "/blog/how-to-read-big-three.jpg",
+    image: "/blog/big-three-guide.jpg",
     createdAt: new Date("2026-08-01"),
     updatedAt: new Date("2026-08-06"),
-    content: `![How to Read Your Big Three Astrology Signs](/blog/how-to-read-big-three.jpg)
+    content: `![How to Read Your Big Three Astrology Signs](/blog/big-three-guide.jpg)
 
 > 📌 **Executive Overview**: 
 > In Western Tropical and Vedic Sidereal astrology, your **Big Three**—consisting of your **Sun Sign**, **Moon Sign**, and **Rising Sign (Ascendant)**—form the core pillar of your cosmic chart. While your Sun sign represents your conscious ego drive, your Moon sign reveals your hidden emotional core, and your Rising sign dictates how the external world perceives your presence. Explore your exact placements using our free **[Big Three Calculator](/tools/big-three)**.
@@ -108,10 +108,10 @@ In love compatibility, Moon sign harmony dictates emotional longevity, while Ris
     title: "Future Spouse Prediction in Vedic Astrology: How to See Your Partner in Your Birth Chart",
     slug: "future-spouse-prediction-vedic-astrology",
     metaDescription: "Learn how to predict your future spouse in Vedic astrology. Discover how the 7th house, Venus, Jupiter, and Darakaraka reveal your partner's traits.",
-    image: "/blog/future-spouse-prediction-vedic-astrology.jpg",
+    image: "/blog/spouse-predictor-guide.jpg",
     createdAt: new Date("2026-08-02"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Future Spouse Prediction in Vedic Astrology](/blog/future-spouse-prediction-vedic-astrology.jpg)
+    content: `![Future Spouse Prediction in Vedic Astrology](/blog/spouse-predictor-guide.jpg)
 
 > 📌 **Executive Overview**: 
 > In Vedic astrology (*Jyotish*), your birth chart (*Janma Kundali*) holds detailed keys regarding your future marriage partner. By analyzing your **7th House (Kalatra Bhava)**, **Venus**, **Jupiter**, and **Jaimini Darakaraka planet**, you can uncover details about your spouse's personality traits, physical appearance, financial background, and meeting timeline. Test your chart with our free **[Spouse Predictor](/tools/spouse-predictor)**.
@@ -188,10 +188,10 @@ Vedic Kundali Milan analyzes 36 Gunas across 8 Kootas. Check your compatibility 
     title: "Vedic Kundali Milan: The Complete Guide to 36 Gunas for Marriage Matchmaking",
     slug: "vedic-kundali-milan-36-guna-guide",
     metaDescription: "Complete guide to Vedic Kundali Milan and 36 Gunas matchmaking. Learn about Nadi Koota, Bhakoot, Yoni, and how to analyze marriage compatibility.",
-    image: "/blog/vedic-kundali-milan-36-guna-guide.jpg",
+    image: "/blog/kundali-milan-guide.jpg",
     createdAt: new Date("2026-08-03"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Vedic Kundali Milan 36 Gunas Guide](/blog/vedic-kundali-milan-36-guna-guide.jpg)
+    content: `![Vedic Kundali Milan 36 Gunas Guide](/blog/kundali-milan-guide.jpg)
 
 > 📌 **Executive Overview**: 
 > **Kundali Milan** (Ashta Koota Matchmaking) is the ancient 3,000-year-old Vedic system of evaluating marital compatibility between a bridge and groom. By analyzing 36 points (*Gunas*) across 8 psychological and physiological dimensions (*Kootas*), astrologers ensure harmony, offspring health, and financial longevity. Calculate your score with our free **[Kundali Milan 36 Gunas Tool](/tools/kundali-milan)**.
@@ -262,10 +262,10 @@ Use our **[Zodiac Love Compatibility Matcher](/tools/love-compatibility)** using
     title: "Daily Choghadia Muhurat Guide: Selecting Auspicious Timing for Success & Wealth",
     slug: "choghadia-muhurat-shubh-labh-guide",
     metaDescription: "Master daily Choghadia Muhurat timing. Learn how Amrit, Shubh, Labh, and Char time slots dictate optimal hours for buying gold, starting a business, and travel.",
-    image: "/blog/choghadia-muhurat-shubh-labh-guide.jpg",
+    image: "/blog/choghadia-muhurat-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Daily Choghadia Muhurat Timing Guide](/blog/choghadia-muhurat-shubh-labh-guide.jpg)
+    content: `![Daily Choghadia Muhurat Timing Guide](/blog/choghadia-muhurat-guide.jpg)
 
 > 📌 **Executive Overview**: 
 > Timing is everything in Vedic wisdom. **Choghadia** is an ancient 3,000-year-old timing framework dividing daytime and nighttime into 8 equal time windows each. By aligning your business launches, gold purchases, travel, and contract signatures with auspicious slots like **Amrit**, **Shubh**, and **Labh**, you ensure smooth progress and victory. Check today's live time windows using our **[Daily Choghadia Calculator](/tools/choghadia)**.
@@ -324,10 +324,10 @@ In addition to Rog/Kaal Choghadia, avoid daily Rahu Kaal hours. Track them with 
     title: "Saturn Sade Sati Meaning, Effects & Remedies: How to Navigate Shani Dev's Transit",
     slug: "sade-sati-meaning-effects-remedies",
     metaDescription: "Comprehensive guide to Saturn Sade Sati 7.5-year transit. Learn about the 1st, 2nd, and 3rd Dhaiya phases, career symptoms, and powerful Shanti remedies.",
-    image: "/blog/sade-sati-meaning-effects-remedies.jpg",
+    image: "/blog/sade-sati-dasha-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Saturn Sade Sati Meaning Effects Remedies](/blog/sade-sati-meaning-effects-remedies.jpg)
+    content: `![Saturn Sade Sati Meaning Effects Remedies](/blog/sade-sati-dasha-guide.jpg)
 
 > 📌 **Executive Overview**: 
 > **Sade Sati** is Saturn's 7.5-year transit across the sign preceding, containing, and following your natal Moon sign. Far from being a mere curse, Sade Sati is a profound period of cosmic purification designed to dismantle false pride, build structural endurance, and reward hard work with lasting legacy. Check your active transit phase with our free **[Sade Sati Phase Checker](/tools/sade-sati)**.
@@ -634,7 +634,7 @@ Each Choghadia window lasts approximately 90 minutes (1.5 hours) and is governed
 
 Daytime Choghadia begins at exact sunrise and ends at sunset. Nighttime Choghadia begins at sunset and ends at the next morning's sunrise:
 
-$$\text{Day Choghadia Duration} = \frac{\text{Sunset Time} - \text{Sunset Time}}{8}$$
+$$\text{Day Choghadia Duration} = \frac{\text{Sunset Time} - \text{Sunrise Time}}{8}$$
 
 Check live sunrise and slot calculations for your city with our **[Daily Choghadia Calculator](/tools/choghadia)**.
 
