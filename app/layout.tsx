@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
+import { Cosmic3DBackground } from "@/components/cosmic-3d-background";
 import { defaultRobots, getSiteUrl } from "@/lib/seo";
 
 const inter = Inter({
@@ -54,7 +55,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="alternate" type="application/rss+xml" title="BIGThreeAstrology RSS Feed" href="/rss.xml" />
       </head>
       <body className="min-h-screen font-sans text-amber-50 bg-[#09090b]">
-        <div className="stars-bg min-h-screen flex flex-col w-full relative">
+        {/* Interactive 3D Cosmic Stars & Rotating Planets Background */}
+        <Cosmic3DBackground />
+
+        <div className="stars-bg min-h-screen flex flex-col w-full relative z-10">
           <Navbar />
           <main className="container-main flex-grow w-full">{children}</main>
           
