@@ -8,7 +8,7 @@ export function Navbar() {
       
       <div className="container-main flex flex-wrap items-center justify-between gap-4 py-2.5 md:py-3">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border border-sky-400/40 shadow-md group-hover:scale-105 transition-transform bg-white">
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-sky-400 shadow-[0_0_12px_rgba(56,189,248,0.5)] group-hover:scale-105 transition-transform bg-[#040714]">
             <Image
               src="/logo.jpg"
               alt="BIGThreeAstrology Logo"
@@ -27,7 +27,7 @@ export function Navbar() {
         <nav className="flex flex-wrap items-center gap-3 md:gap-5 text-xs sm:text-sm font-medium text-sky-100">
           <Link href="/" className="hover:text-white transition-colors duration-200">Home</Link>
           <Link href="/tools/big-three" className="hover:text-amber-300 transition-colors duration-200 flex items-center gap-1 font-semibold text-sky-300">
-            <span>🔮</span> All Tools
+            <span>🔮</span> All 100 Tools
           </Link>
           <Link href="/tools/kundali-milan" className="hover:text-amber-300 transition-colors duration-200 hidden sm:flex items-center gap-1">
             <span>🕉️</span> Kundali Milan
@@ -46,7 +46,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <Link href="/tools/big-three" className="btn-glow text-xs sm:text-sm py-2 px-4 font-bold flex items-center gap-1">
-            <span>✨</span> Explore 20 Free Tools
+            <span>✨</span> Explore 100 Free Tools
           </Link>
         </div>
       </div>
