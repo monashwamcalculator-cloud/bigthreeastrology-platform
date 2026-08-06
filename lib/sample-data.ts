@@ -14,9 +14,7 @@ export const SAMPLE_BLOG_POSTS = [
     image: "/blog/big-three-guide.jpg",
     createdAt: new Date("2026-08-01"),
     updatedAt: new Date("2026-08-06"),
-    content: `![How to Read Your Big Three Astrology Signs](/blog/big-three-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > In Western Tropical and Vedic Sidereal astrology, your **Big Three**—consisting of your **Sun Sign**, **Moon Sign**, and **Rising Sign (Ascendant)**—form the core pillar of your cosmic chart. While your Sun sign represents your conscious ego drive, your Moon sign reveals your hidden emotional core, and your Rising sign dictates how the external world perceives your presence. Explore your exact placements using our free **[Big Three Calculator](/tools/big-three)**.
 
 ---
@@ -111,9 +109,7 @@ In love compatibility, Moon sign harmony dictates emotional longevity, while Ris
     image: "/blog/spouse-predictor-guide.jpg",
     createdAt: new Date("2026-08-02"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Future Spouse Prediction in Vedic Astrology](/blog/spouse-predictor-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > In Vedic astrology (*Jyotish*), your birth chart (*Janma Kundali*) holds detailed keys regarding your future marriage partner. By analyzing your **7th House (Kalatra Bhava)**, **Venus**, **Jupiter**, and **Jaimini Darakaraka planet**, you can uncover details about your spouse's personality traits, physical appearance, financial background, and meeting timeline. Test your chart with our free **[Spouse Predictor](/tools/spouse-predictor)**.
 
 ---
@@ -191,9 +187,7 @@ Vedic Kundali Milan analyzes 36 Gunas across 8 Kootas. Check your compatibility 
     image: "/blog/kundali-milan-guide.jpg",
     createdAt: new Date("2026-08-03"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Vedic Kundali Milan 36 Gunas Guide](/blog/kundali-milan-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > **Kundali Milan** (Ashta Koota Matchmaking) is the ancient 3,000-year-old Vedic system of evaluating marital compatibility between a bridge and groom. By analyzing 36 points (*Gunas*) across 8 psychological and physiological dimensions (*Kootas*), astrologers ensure harmony, offspring health, and financial longevity. Calculate your score with our free **[Kundali Milan 36 Gunas Tool](/tools/kundali-milan)**.
 
 ---
@@ -265,9 +259,7 @@ Use our **[Zodiac Love Compatibility Matcher](/tools/love-compatibility)** using
     image: "/blog/choghadia-muhurat-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Daily Choghadia Muhurat Timing Guide](/blog/choghadia-muhurat-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > Timing is everything in Vedic wisdom. **Choghadia** is an ancient 3,000-year-old timing framework dividing daytime and nighttime into 8 equal time windows each. By aligning your business launches, gold purchases, travel, and contract signatures with auspicious slots like **Amrit**, **Shubh**, and **Labh**, you ensure smooth progress and victory. Check today's live time windows using our **[Daily Choghadia Calculator](/tools/choghadia)**.
 
 ---
@@ -327,9 +319,7 @@ In addition to Rog/Kaal Choghadia, avoid daily Rahu Kaal hours. Track them with 
     image: "/blog/sade-sati-dasha-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Saturn Sade Sati Meaning Effects Remedies](/blog/sade-sati-dasha-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > **Sade Sati** is Saturn's 7.5-year transit across the sign preceding, containing, and following your natal Moon sign. Far from being a mere curse, Sade Sati is a profound period of cosmic purification designed to dismantle false pride, build structural endurance, and reward hard work with lasting legacy. Check your active transit phase with our free **[Sade Sati Phase Checker](/tools/sade-sati)**.
 
 ---
@@ -396,9 +386,7 @@ Calculate your exact transit dates using our **[Sade Sati Phase Checker](/tools/
     image: "/blog/spouse-appearance-astrology-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Future Spouse Physical Appearance & Personality Guide](/blog/spouse-appearance-astrology-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > Predicting your future life partner is one of the most high-demand applications of ancient astrology. By combining your **7th House Lord**, **Venus placement**, and **Jaimini Darakaraka planet**, your birth chart reveals precise clues about your spouse's physical height, eye color, facial symmetry, career vocation, and exact meeting scenario. Try our free **[Future Spouse Predictor](/tools/spouse-predictor)** and **[Soulmate Initials Predictor](/tools/soulmate-initials)** for instant calculations.
 
 ---
@@ -474,9 +462,7 @@ Marriage timing windows activate when Jupiter transits over your natal Moon, 1st
     image: "/blog/sade-sati-survival-remedies-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Saturn Sade Sati Survival & Remedies Guide](/blog/sade-sati-survival-remedies-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > **Sade Sati** is Saturn's 7.5-year transit across the sign preceding, containing, and following your natal Moon sign. Far from being a mere curse, Sade Sati is a profound period of cosmic purification designed to dismantle false pride, build structural endurance, and reward hard work with lasting legacy. Check your active transit phase with our free **[Sade Sati Phase Checker](/tools/sade-sati)**.
 
 ---
@@ -543,9 +529,7 @@ Calculate your exact transit dates using our **[Sade Sati Phase Checker](/tools/
     image: "/blog/life-path-number-compatibility-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Life Path Number Compatibility & Synastry Guide](/blog/life-path-number-compatibility-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > In Pythagorean and Chaldean numerology, your **Life Path Number** represents your primary energetic frequency. When two people unite in marriage or business, their numerical vibrations interact to create instant harmony, creative expansion, or karmic growth tests. Calculate your compatibility score with our free **[Life Path Matcher](/tools/lifepath-compatibility)** and **[Destiny Number Calculator](/tools/destiny-number)**.
 
 ---
@@ -609,9 +593,7 @@ Matching your brand name vibration with your Life Path number prevents business 
     image: "/blog/choghadia-muhurat-timing-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Daily Choghadia Muhurat Timing Guide](/blog/choghadia-muhurat-timing-guide.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > Timing is everything in Vedic wisdom. **Choghadia** is an ancient 3,000-year-old timing framework dividing daytime and nighttime into 8 equal time windows each. By aligning your business launches, gold purchases, travel, and contract signatures with auspicious slots like **Amrit**, **Shubh**, and **Labh**, you ensure smooth progress and victory. Check today's live time windows using our **[Daily Choghadia Calculator](/tools/choghadia)**.
 
 ---
@@ -671,9 +653,7 @@ In addition to Rog/Kaal Choghadia, avoid daily Rahu Kaal hours. Track them with 
     image: "/blog/navamsha-d9-chart-marriage-destiny.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `![Navamsha D9 Chart Guide Marriage & Destiny](/blog/navamsha-d9-chart-marriage-destiny.jpg)
-
-> 📌 **Executive Overview**: 
+    content: `> 📌 **Executive Overview**: 
 > In Vedic astrology, the **D9 Navamsha Chart** is the most vital divisional chart (*Varga*). While your D1 birth chart represents the physical tree of life, the D9 Navamsha reveals the fruit! It confirms the true strength of your natal planets in the second half of life (post-30s) and illuminates your post-marriage destiny. Explore your chart placements with our free **[Navamsha D9 Explorer](/tools/navamsha)**.
 
 ---
