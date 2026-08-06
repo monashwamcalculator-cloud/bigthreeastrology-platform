@@ -105,12 +105,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/disclaimer" className="text-amber-300 hover:text-white transition-colors">Disclaimer</Link>
               </div>
               
-              {/* Column 4 */}
+              {/* Column 4 - Email CTA Button */}
               <div className="flex flex-col gap-3 text-sm">
                 <h3 className="font-semibold text-white">Official Support</h3>
-                <p className="text-amber-200 mb-2">Have feedback or business inquiries?</p>
-                <a href="mailto:asbusiness276@gmail.com" className="text-amber-300 font-bold hover:text-white transition-colors">
-                  asbusiness276@gmail.com
+                <p className="text-amber-200/90 text-xs">Have feedback, partnership, or support inquiries?</p>
+                
+                <a
+                  href="mailto:asbusiness276@gmail.com"
+                  className="btn-glow px-4 py-2.5 text-xs font-bold inline-flex items-center gap-2 shadow-lg rounded-xl transition-all duration-300 hover:scale-105 w-fit"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-black" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                  <span>Contact Support via Email</span>
                 </a>
               </div>
               
