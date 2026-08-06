@@ -218,7 +218,7 @@ export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g
         <input
           id={id}
           type="text"
-          className="input-cosmic w-full text-white placeholder-emerald-300/40 pr-8"
+          className="input-cosmic w-full text-white placeholder-amber-200/50 pr-8"
           value={value}
           onChange={(e) => onChange(e.target.value)}
           onFocus={() => {
@@ -238,14 +238,14 @@ export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g
 
       {/* Autocomplete Dropdown List */}
       {isOpen && suggestions.length > 0 && (
-        <ul className="absolute z-50 left-0 right-0 top-full mt-1.5 max-h-60 overflow-y-auto rounded-xl bg-emerald-950/95 border border-emerald-500/40 shadow-2xl backdrop-blur-xl divide-y divide-emerald-500/20">
+        <ul className="absolute z-50 left-0 right-0 top-full mt-1.5 max-h-60 overflow-y-auto rounded-xl bg-[#09090b]/98 border border-amber-500/40 shadow-2xl backdrop-blur-xl divide-y divide-amber-500/20">
           {suggestions.map((city, idx) => (
             <li
               key={idx}
               onClick={() => handleSelect(city)}
-              className="px-4 py-2.5 text-xs sm:text-sm text-emerald-100 hover:bg-emerald-500/30 hover:text-amber-300 cursor-pointer transition-colors flex items-center gap-2"
+              className="px-4 py-2.5 text-xs sm:text-sm text-amber-100 hover:bg-amber-500/25 hover:text-amber-300 cursor-pointer transition-colors flex items-center gap-2 font-medium"
             >
-              <span className="text-emerald-400 text-xs">📍</span> {city}
+              <span className="text-amber-400 text-xs">📍</span> {city}
             </li>
           ))}
         </ul>
