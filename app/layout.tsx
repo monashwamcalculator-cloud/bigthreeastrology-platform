@@ -22,9 +22,9 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
-  title: "BIGThreeAstrology | 20 Free Astrology & Numerology Calculators",
-  description: "Free Sun Moon Rising sign calculator, Vedic 36 Gunas Kundali Milan, Spouse Predictor, Choghadia Muhurat, Sade Sati Checker, Love Matcher, Numerology & Daily Tarot.",
-  keywords: ["astrology", "big three", "spouse predictor", "kundali milan", "choghadia", "sade sati", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope"],
+  title: "BIGThreeAstrology | 100 Free Astrology & Numerology Calculators",
+  description: "Free online suite of 100 astrology, Vedic Jyotish, numerology, synastry & tarot calculators. Sun Moon Rising signs, Spouse Predictor, 36 Guna Kundali Milan, Choghadia, Sade Sati & Daily Horoscope.",
+  keywords: ["astrology", "big three", "spouse predictor", "kundali milan", "choghadia", "sade sati", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope", "dasha", "nakshatra"],
   authors: [{ name: "BIGThreeAstrology" }],
   icons: {
     icon: "/logo.jpg",
@@ -50,6 +50,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+      <head>
+        <link rel="alternate" type="application/rss+xml" title="BIGThreeAstrology RSS Feed" href="/rss.xml" />
+      </head>
       <body className="min-h-screen font-sans text-sky-100 bg-[#040714]">
         <div className="stars-bg min-h-screen flex flex-col w-full relative">
           <Navbar />
@@ -69,7 +72,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <span className="text-xl font-display font-bold gradient-text">BIGThreeAstrology</span>
                 </div>
                 <p className="text-sm text-sky-200/90">
-                  Discover your cosmic blueprint through 20 authentic Vedic & Western astrology tools. 100% Free & Frictionless.
+                  Discover your cosmic blueprint through 100 authentic Vedic & Western astrology tools. 100% Free & Instant.
                 </p>
                 <p className="text-xs text-sky-400 mt-2">
                   &copy; {new Date().getFullYear()} BIGThreeAstrology. All rights reserved.

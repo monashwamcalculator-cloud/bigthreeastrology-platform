@@ -1,15 +1,41 @@
-import { MetadataRoute } from 'next';
-import { getSiteUrl } from '@/lib/seo';
+import { MetadataRoute } from "next";
+import { getSiteUrl } from "@/lib/seo";
 
 export default function robots(): MetadataRoute.Robots {
-  const siteUrl = getSiteUrl();
+  const baseUrl = getSiteUrl();
 
   return {
-    rules: {
-      userAgent: '*',
-      allow: ['/', '/api/auth/'],
-      disallow: ['/dashboard/', '/admin/', '/api/'],
-    },
-    sitemap: `${siteUrl}/sitemap.xml`,
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/api/private/", "/_next/"]
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/"
+      },
+      {
+        userAgent: "Bingbot",
+        allow: "/"
+      },
+      {
+        userAgent: "YandexBot",
+        allow: "/"
+      },
+      {
+        userAgent: "DuckDuckBot",
+        allow: "/"
+      },
+      {
+        userAgent: "Baiduspider",
+        allow: "/"
+      }
+    ],
+    sitemap: [
+      `${baseUrl}/sitemap.xml`,
+      `${baseUrl}/rss.xml`
+    ],
+    host: baseUrl
   };
 }
