@@ -10,16 +10,16 @@ const config: Config = {
       },
       colors: {
         cosmic: {
-          950: "#07271a",
-          900: "#0b3d24",
-          800: "#0e4d2e",
-          700: "#14663c",
-          600: "#17884a",
-          500: "#2fa05c",
-          400: "#5cb85f",
-          300: "#9ad1a8",
-          200: "#c4e6cb",
-          100: "#e7f2e7"
+          950: "#102e20",
+          900: "#16402b",
+          800: "#1d4d33",
+          700: "#276344",
+          600: "#2e7d4f",
+          500: "#4c9268",
+          400: "#7fb08f",
+          300: "#b3d2b8",
+          200: "#cfe0cb",
+          100: "#eaf1e6"
         },
         accent: {
           gold: "#e8930c",
@@ -45,8 +45,8 @@ const config: Config = {
           "50%": { transform: "translateY(-10px)" }
         },
         glow: {
-          "0%": { boxShadow: "0 0 5px rgba(23, 136, 74, 0.3), 0 0 20px rgba(23, 136, 74, 0.1)" },
-          "100%": { boxShadow: "0 0 20px rgba(23, 136, 74, 0.6), 0 0 60px rgba(23, 136, 74, 0.2)" }
+          "0%": { boxShadow: "0 0 5px rgba(46, 125, 79, 0.3), 0 0 20px rgba(46, 125, 79, 0.1)" },
+          "100%": { boxShadow: "0 0 20px rgba(46, 125, 79, 0.6), 0 0 60px rgba(46, 125, 79, 0.2)" }
         },
         shimmer: {
           "0%": { backgroundPosition: "-200% center" },
@@ -61,8 +61,8 @@ const config: Config = {
           "100%": { opacity: "1", transform: "translateY(0)" }
         },
         pulseGlow: {
-          "0%, 100%": { boxShadow: "0 0 15px rgba(23, 136, 74, 0.3)" },
-          "50%": { boxShadow: "0 0 40px rgba(23, 136, 74, 0.6), 0 0 80px rgba(23, 136, 74, 0.2)" }
+          "0%, 100%": { boxShadow: "0 0 15px rgba(46, 125, 79, 0.3)" },
+          "50%": { boxShadow: "0 0 40px rgba(46, 125, 79, 0.6), 0 0 80px rgba(46, 125, 79, 0.2)" }
         },
         twinkle: {
           "0%, 100%": { opacity: "0.3", transform: "scale(0.8)" },
@@ -72,18 +72,18 @@ const config: Config = {
       boxShadow: {
         "glass": "0 8px 32px rgba(0, 0, 0, 0.3)",
         "glass-lg": "0 16px 48px rgba(0, 0, 0, 0.4)",
-        "glow-sm": "0 0 15px rgba(23, 136, 74, 0.3)",
-        "glow-md": "0 0 30px rgba(23, 136, 74, 0.4)",
-        "glow-lg": "0 0 60px rgba(23, 136, 74, 0.5)",
-        "glow-gold": "0 0 30px rgba(23, 136, 74, 0.3)",
+        "glow-sm": "0 0 15px rgba(46, 125, 79, 0.3)",
+        "glow-md": "0 0 30px rgba(46, 125, 79, 0.4)",
+        "glow-lg": "0 0 60px rgba(46, 125, 79, 0.5)",
+        "glow-gold": "0 0 30px rgba(46, 125, 79, 0.3)",
         "glow-cyan": "0 0 30px rgba(6, 182, 212, 0.3)"
       },
       backgroundImage: {
-        "gradient-cosmic": "linear-gradient(135deg, #07271a 0%, #0b3d24 50%, #14663c 100%)",
-        "gradient-card": "linear-gradient(135deg, rgba(23, 136, 74, 0.08) 0%, rgba(23, 136, 74, 0.03) 100%)",
+        "gradient-cosmic": "linear-gradient(135deg, #102e20 0%, #16402b 50%, #276344 100%)",
+        "gradient-card": "linear-gradient(135deg, rgba(46, 125, 79, 0.08) 0%, rgba(46, 125, 79, 0.03) 100%)",
         "gradient-text": "linear-gradient(135deg, #a78bfa, #818cf8, #c084fc)",
-        "gradient-gold": "linear-gradient(135deg, #1b9a50, #17884a, #57b06e)",
-        "gradient-border": "linear-gradient(135deg, rgba(23, 136, 74, 0.5), rgba(99, 102, 241, 0.2))"
+        "gradient-gold": "linear-gradient(135deg, #3b8a5c, #2e7d4f, #6fa287)",
+        "gradient-border": "linear-gradient(135deg, rgba(46, 125, 79, 0.5), rgba(99, 102, 241, 0.2))"
       }
     }
   },

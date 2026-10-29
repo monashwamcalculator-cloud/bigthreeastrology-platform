@@ -53,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="alternate" type="application/rss+xml" title="BIGThreeAstrology RSS Feed" href="/rss.xml" />
       </head>
-      <body className="min-h-screen font-sans text-[#2e3d33] bg-white">
+      <body className="min-h-screen font-sans text-[#2e3d33] bg-[#fafaf6]">
         {/* Interactive 3D Cosmic Stars & Rotating Planets Background */}
         <Cosmic3DBackground />
 

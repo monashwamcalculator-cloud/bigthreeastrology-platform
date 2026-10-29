@@ -65,7 +65,7 @@ export function SiteFooter() {
     <footer
       className="theme-dark mt-16"
       style={{
-        backgroundColor: "#0b3d24",
+        backgroundColor: "#16402b",
         backgroundImage:
           "radial-gradient(rgba(255,255,255,0.16) 1px, transparent 1.4px), radial-gradient(rgba(126,212,146,0.13) 1px, transparent 1.4px)",
         backgroundSize: "26px 26px, 42px 42px",

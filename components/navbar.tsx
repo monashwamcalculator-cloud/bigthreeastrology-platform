@@ -8,7 +8,7 @@ export function Navbar() {
       
       <div className="container-main flex flex-wrap items-center justify-between gap-4 py-2.5 md:py-3">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-amber-400 shadow-[0_0_15px_rgba(23,136,74,0.35)] group-hover:scale-105 transition-transform bg-white">
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-amber-400 shadow-[0_0_15px_rgba(46,125,79,0.3)] group-hover:scale-105 transition-transform bg-white">
             <Image
               src="/logo.svg"
               alt="BIGThreeAstrology Logo"
