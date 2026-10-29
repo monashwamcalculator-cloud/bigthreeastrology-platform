@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { venusLongitude, signOf } from "@/lib/astro-engine";
 
 type VenusData = {
   sign: string;
@@ -110,7 +111,6 @@ const VENUS_DATABASE: Record<string, VenusData> = {
   }
 };
 
-const SIGNS = Object.keys(VENUS_DATABASE);
 
 export function VenusCalculator() {
   const [birthDate, setBirthDate] = useState("");
@@ -118,10 +118,13 @@ export function VenusCalculator() {
   const venusInfo = useMemo(() => {
     if (!birthDate) return VENUS_DATABASE["Taurus"];
     const parts = birthDate.split("-");
+    const year = parseInt(parts[0], 10) || 1995;
     const month = parseInt(parts[1], 10) || 1;
     const day = parseInt(parts[2], 10) || 1;
-    const index = (day + month * 3) % 12;
-    return VENUS_DATABASE[SIGNS[index]] || VENUS_DATABASE["Taurus"];
+    // Real calculation: the planet's actual tropical longitude at midday
+    // UTC on the birth date (date-only precision, boundary note applies).
+    const sign = signOf(venusLongitude(new Date(Date.UTC(year, month - 1, day, 12, 0)))).name;
+    return VENUS_DATABASE[sign] || VENUS_DATABASE["Taurus"];
   }, [birthDate]);
 
   return (

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { mercuryLongitude, signOf } from "@/lib/astro-engine";
 
 type MercuryData = {
   sign: string;
@@ -110,7 +111,6 @@ const MERCURY_DATABASE: Record<string, MercuryData> = {
   }
 };
 
-const SIGNS = Object.keys(MERCURY_DATABASE);
 
 export function MercuryCalculator() {
   const [birthDate, setBirthDate] = useState("");
@@ -118,10 +118,13 @@ export function MercuryCalculator() {
   const mercuryInfo = useMemo(() => {
     if (!birthDate) return MERCURY_DATABASE["Gemini"];
     const parts = birthDate.split("-");
+    const year = parseInt(parts[0], 10) || 1995;
     const month = parseInt(parts[1], 10) || 1;
     const day = parseInt(parts[2], 10) || 1;
-    const index = (day * 2 + month) % 12;
-    return MERCURY_DATABASE[SIGNS[index]] || MERCURY_DATABASE["Gemini"];
+    // Real calculation: the planet's actual tropical longitude at midday
+    // UTC on the birth date (date-only precision, boundary note applies).
+    const sign = signOf(mercuryLongitude(new Date(Date.UTC(year, month - 1, day, 12, 0)))).name;
+    return MERCURY_DATABASE[sign] || MERCURY_DATABASE["Gemini"];
   }, [birthDate]);
 
   return (
