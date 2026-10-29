@@ -26,7 +26,7 @@ export function Navbar() {
         
         <nav className="flex flex-wrap items-center gap-3 md:gap-5 text-xs sm:text-sm font-medium text-amber-100">
           <Link href="/" className="hover:text-white transition-colors duration-200">Home</Link>
-          <Link href="/tools/big-three" className="hover:text-amber-300 transition-colors duration-200 flex items-center gap-1 font-semibold text-amber-300">
+          <Link href="/tools" className="hover:text-amber-300 transition-colors duration-200 flex items-center gap-1 font-semibold text-amber-300">
             <span>🔮</span> All 100 Tools
           </Link>
           <Link href="/tools/kundali-milan" className="hover:text-amber-300 transition-colors duration-200 hidden sm:flex items-center gap-1">
@@ -45,7 +45,7 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <Link href="/tools/big-three" className="btn-glow text-xs sm:text-sm py-2 px-4 font-bold flex items-center gap-1">
+          <Link href="/tools" className="btn-glow text-xs sm:text-sm py-2 px-4 font-bold flex items-center gap-1">
             <span>✨</span> Explore 100 Free Tools
           </Link>
         </div>

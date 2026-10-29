@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 const stats = [
-  { label: "Calculations Done", endValue: 10000, suffix: "+", icon: "🧮", delay: "animate-delay-100" },
-  { label: "Happy Users", endValue: 500, suffix: "+", icon: "😊", delay: "animate-delay-200" },
-  { label: "Expert Astrologers", endValue: 50, suffix: "+", icon: "🔮", delay: "animate-delay-300" }
+  { label: "Free Calculators", endValue: 100, suffix: "+", icon: "🧮", delay: "animate-delay-100" },
+  { label: "Guna Milan Points", endValue: 36, suffix: "", icon: "🕉️", delay: "animate-delay-200" },
+  { label: "Vedic Nakshatras", endValue: 27, suffix: "", icon: "⭐", delay: "animate-delay-300" }
 ];
 
 const easeOutQuad = (t: number) => t * (2 - t);

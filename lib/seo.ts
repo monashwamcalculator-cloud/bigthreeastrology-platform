@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const DEFAULT_SITE_URL = "https://bigthreeastrology.com";
+const DEFAULT_SITE_URL = "https://bigthreeastrology.online";
 
 export function getSiteUrl() {
   const configured = process.env.NEXT_PUBLIC_SITE_URL?.trim();
@@ -50,7 +50,7 @@ export function buildMetadata({
       siteName: 'BIGThreeAstrology',
       images: [
         {
-          url: `${siteUrl}/og-image.png`,
+          url: `${siteUrl}/logo.jpg`,
           width: 1200,
           height: 630,
           alt: title
@@ -61,7 +61,7 @@ export function buildMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: [`${siteUrl}/og-image.png`]
+      images: [`${siteUrl}/logo.jpg`]
     }
   };
 }

@@ -2,21 +2,20 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { CosmicToolsSuite } from "@/components/cosmic-tools-suite";
-import { AdSlot } from "@/components/ad-slot";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { StatsCounter } from "@/components/stats-counter";
-import { Testimonials } from "@/components/testimonials";
+import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 
 export const metadata: Metadata = buildMetadata({
-  title: "BIGThreeAstrology | 20 Free Astrology & Numerology Calculators",
+  title: "BIGThreeAstrology | 100 Free Astrology & Numerology Calculators",
   description:
-    "Free online astrology & numerology suite. Calculate Sun, Moon, Rising signs, Spouse Predictor, Vedic 36 Guna Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot, and Gemstones.",
+    "Free online suite of 100 astrology, Vedic Jyotish, numerology, synastry & tarot calculators. Sun Moon Rising signs, Spouse Predictor, 36 Guna Kundali Milan, Choghadia, Sade Sati & Daily Horoscope.",
   path: "/"
 });
 
 export default function HomePage() {
   const pageDescription =
-    "Explore 20 free astrology and numerology calculators. Calculate Sun, Moon, Rising signs, Spouse Predictor, Vedic Kundali Milan, Choghadia Muhurat, Sade Sati transits, Life Path Numerology, Chaldean Brand Math, and Daily Tarot.";
+    "Explore 100 free astrology and numerology calculators. Calculate Sun, Moon, Rising signs, Spouse Predictor, Vedic Kundali Milan, Choghadia Muhurat, Sade Sati transits, Life Path Numerology, Chaldean Brand Math, and Daily Tarot.";
 
   const websiteSchema = {
     "@context": "https://schema.org",
@@ -35,7 +34,7 @@ export default function HomePage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Free Sun Moon Rising Calculator, Kundali Milan & 20 Cosmic Tools",
+    name: "Free Sun Moon Rising Calculator, Kundali Milan & 100 Cosmic Tools",
     url: absoluteUrl("/"),
     description: pageDescription
   };
@@ -43,7 +42,7 @@ export default function HomePage() {
   const appSchema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "BIGThreeAstrology 20 Free Tools Suite",
+    name: "BIGThreeAstrology 100 Free Tools Suite",
     applicationCategory: "LifestyleApplication",
     operatingSystem: "All",
     url: absoluteUrl("/"),
@@ -96,10 +95,10 @@ export default function HomePage() {
       },
       {
         "@type": "Question",
-        name: "Do I need to register or pay to access these 20 calculators?",
+        name: "Do I need to register or pay to access these 100 calculators?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "No! All 20 calculators on BIGThreeAstrology are 100% free, instant, and accessible without mandatory account registration or paywalls."
+          text: "No! All 100 calculators on BIGThreeAstrology are 100% free, instant, and accessible without mandatory account registration or paywalls."
         }
       }
     ]
@@ -113,7 +112,7 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       
       {/* 1. Sleek Hero Section */}
-      <section className="relative flex flex-col items-center text-center py-8 md:py-12 px-4 min-h-[50vh] justify-center overflow-hidden rounded-2xl border border-emerald-500/30 bg-black/60">
+      <section className="relative flex flex-col items-center text-center py-8 md:py-12 px-4 min-h-[50vh] justify-center overflow-hidden rounded-2xl border border-amber-500/30 bg-black/60">
         <div className="absolute inset-0 z-0 opacity-25">
           <Image
             src="/home/hero-cosmic-wheel.jpg"
@@ -125,27 +124,27 @@ export default function HomePage() {
             priority
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/80 via-black/80 to-emerald-950/90 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-amber-950/80 via-black/80 to-amber-950/90 pointer-events-none" />
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
-          <div className="badge badge-emerald mb-4 animate-slide-up text-xs py-1 px-3">
-            ✨ 20 Free Astrology & Numerology Tools — 100% Instant & No Sign-up
+          <div className="badge badge-gold mb-4 animate-slide-up text-xs py-1 px-3">
+            ✨ 100 Free Astrology & Numerology Tools — 100% Instant & No Sign-up
           </div>
           
           <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight animate-slide-up animate-delay-100 leading-tight">
             <span className="text-white drop-shadow-md">Uncover Your </span>
-            <span className="gradient-text">Cosmic Identity</span>
+            <span className="gradient-text-gold">Cosmic Identity</span>
             <br />
             <span className="gradient-text-gold">& Vedic Destiny</span>
           </h1>
           
-          <p className="max-w-2xl text-sm sm:text-base text-emerald-100/90 mb-6 animate-slide-up animate-delay-200 leading-relaxed">
+          <p className="max-w-2xl text-sm sm:text-base text-amber-100/90 mb-6 animate-slide-up animate-delay-200 leading-relaxed">
             Free authentic calculations for Sun/Moon/Rising Signs, Spouse Predictor, 36 Guna Kundali Milan, Choghadia Muhurat, Sade Sati, Love Match, Numerology, Daily Tarot & Gemstones.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto animate-slide-up animate-delay-300">
-            <Link href="/tools/big-three" className="btn-glow px-6 py-2.5 text-sm sm:text-base font-bold w-full sm:w-auto text-center">
-              Explore 20 Free Tools ✨
+            <Link href="/tools" className="btn-glow px-6 py-2.5 text-sm sm:text-base font-bold w-full sm:w-auto text-center">
+              Explore 100 Free Tools ✨
             </Link>
             <Link href="/tools/spouse-predictor" className="btn-secondary px-6 py-2.5 text-sm sm:text-base font-bold w-full sm:w-auto text-center border-amber-400/40 text-amber-300 hover:bg-amber-400/10">
               Spouse Predictor 💖
@@ -177,26 +176,26 @@ export default function HomePage() {
           <Link
             key={idx}
             href={tool.link}
-            className="glass-card-hover p-3 flex flex-col items-center text-center group border-emerald-500/20 hover:border-emerald-400/60 bg-black/40"
+            className="glass-card-hover p-3 flex flex-col items-center text-center group border-amber-500/20 hover:border-amber-400/60 bg-black/40"
           >
             <span className="text-2xl mb-1 group-hover:scale-110 transition-transform">{tool.icon}</span>
             <h3 className="text-xs font-display font-bold text-white group-hover:text-amber-300 transition-colors">
               {tool.name}
             </h3>
-            <span className="text-[10px] text-emerald-200/80 mt-0.5 line-clamp-1">{tool.desc}</span>
+            <span className="text-[10px] text-amber-200/80 mt-0.5 line-clamp-1">{tool.desc}</span>
           </Link>
         ))}
       </section>
 
       {/* 3. Photorealistic Feature Showcase Banner 1: Spouse Prediction */}
-      <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-emerald-500/30 overflow-hidden relative">
+      <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-amber-500/30 overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="space-y-3 text-left">
             <div className="badge badge-gold">💖 Viral High-Demand Tool</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-white leading-tight">
               Future Spouse & Soulmate Predictor
             </h2>
-            <p className="text-emerald-100 text-xs sm:text-sm leading-relaxed">
+            <p className="text-amber-100 text-xs sm:text-sm leading-relaxed">
               Curious about your future life partner? Our advanced Spouse Predictor combines your Sun placement, Venus sign, Darakaraka planet, and 7th House ruler to calculate your partner's physical features, personality archetype, lucky initials, and probable meeting environment.
             </p>
             <div className="pt-1">
@@ -206,7 +205,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="relative w-full h-48 sm:h-64 rounded-xl overflow-hidden border border-emerald-500/40 shadow-xl">
+          <div className="relative w-full h-48 sm:h-64 rounded-xl overflow-hidden border border-amber-500/40 shadow-xl">
             <Image
               src="/home/spouse-banner.jpg"
               alt="Future Spouse Stargazing Soulmate"
@@ -220,12 +219,12 @@ export default function HomePage() {
       </section>
 
       {/* 4. Main Interactive Tools Suite */}
-      <section className="stars-bg rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl relative overflow-hidden border border-emerald-500/40 bg-black/50">
+      <section className="stars-bg rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl relative overflow-hidden border border-amber-500/40 bg-black/50">
         <div className="relative z-10">
           <div className="text-center mb-6">
-            <div className="badge badge-emerald mb-2">⚡ 20-in-1 Interactive Suite</div>
-            <h2 className="text-2xl md:text-3xl font-display font-bold gradient-text mb-1">Cosmic Tools & Calculators Suite</h2>
-            <p className="text-emerald-200 text-xs sm:text-sm max-w-xl mx-auto">
+            <div className="badge badge-gold mb-2">⚡ 100-in-1 Interactive Suite</div>
+            <h2 className="text-2xl md:text-3xl font-display font-bold gradient-text-gold mb-1">Cosmic Tools & Calculators Suite</h2>
+            <p className="text-amber-200 text-xs sm:text-sm max-w-xl mx-auto">
               Select any tool category below to calculate your astrological snapshot instantly.
             </p>
           </div>
@@ -235,9 +234,9 @@ export default function HomePage() {
       </section>
 
       {/* 5. Photorealistic Feature Showcase Banner 2: Vedic Kundali & Timing */}
-      <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-emerald-500/30 overflow-hidden relative">
+      <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-amber-500/30 overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
-          <div className="relative w-full h-48 sm:h-64 rounded-xl overflow-hidden border border-emerald-500/40 shadow-xl order-2 md:order-1">
+          <div className="relative w-full h-48 sm:h-64 rounded-xl overflow-hidden border border-amber-500/40 shadow-xl order-2 md:order-1">
             <Image
               src="/home/vedic-astrology.jpg"
               alt="Vedic Kundali Milan & Timing"
@@ -249,11 +248,11 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-3 text-left order-1 md:order-2">
-            <div className="badge badge-emerald">🕉️ Authentic Jyotish Wisdom</div>
+            <div className="badge badge-gold">🕉️ Authentic Jyotish Wisdom</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-white leading-tight">
               36 Guna Kundali Milan & Choghadia Timing
             </h2>
-            <p className="text-emerald-100 text-xs sm:text-sm leading-relaxed">
+            <p className="text-amber-100 text-xs sm:text-sm leading-relaxed">
               Experience authentic 3,000-year-old Vedic Jyotish calculations. Match marriage horoscopes using Ashta Koota 36 Gunas, track Saturn's 7.5-year Sade Sati phase, analyze your 120-year Vimshottari Mahadasha timeline, and pick auspicious daily Choghadia slots.
             </p>
             <div className="pt-1 flex flex-wrap gap-2">
@@ -274,14 +273,14 @@ export default function HomePage() {
       </section>
 
       {/* 7. Photorealistic Feature Showcase Banner 3: Numerology & Tarot */}
-      <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-emerald-500/30 overflow-hidden relative">
+      <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-amber-500/30 overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="space-y-3 text-left">
             <div className="badge badge-gold">⚡ Sacred Frequency & Numerology</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-white leading-tight">
               Pythagorean & Chaldean Brand Numerology
             </h2>
-            <p className="text-emerald-100 text-xs sm:text-sm leading-relaxed">
+            <p className="text-amber-100 text-xs sm:text-sm leading-relaxed">
               Numbers hold universal vibrations. Calculate your Life Path and Destiny numbers, optimize your business or personal brand name using Chaldean numerology math, and decode recurring Angel Numbers (111, 222, 444, 777, 888) for daily manifestation.
             </p>
             <div className="pt-1 flex flex-wrap gap-2">
@@ -294,7 +293,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="relative w-full h-48 sm:h-64 rounded-xl overflow-hidden border border-emerald-500/40 shadow-xl">
+          <div className="relative w-full h-48 sm:h-64 rounded-xl overflow-hidden border border-amber-500/40 shadow-xl">
             <Image
               src="/home/numerology-tarot.jpg"
               alt="Numerology & Tarot Cards"
@@ -315,37 +314,80 @@ export default function HomePage() {
           { title: "🌍 Global Timezone Precision", desc: "Auto-suggest geocoding supporting cities across India, USA, Europe & Asia.", icon: "📍" },
           { title: "📜 Shareable Match Reports", desc: "1-click export and copy your Kundali match certificate and Big Three snapshots.", icon: "📜" }
         ].map((feature, idx) => (
-          <div key={idx} className="glass-card-hover p-4 border-emerald-500/20 text-center bg-black/40 flex flex-col items-center">
+          <div key={idx} className="glass-card-hover p-4 border-amber-500/20 text-center bg-black/40 flex flex-col items-center">
             <span className="text-3xl mb-2">{feature.icon}</span>
             <h3 className="text-sm font-display font-bold text-white mb-1">{feature.title}</h3>
-            <p className="text-xs text-emerald-200/90 leading-relaxed">{feature.desc}</p>
+            <p className="text-xs text-amber-200/90 leading-relaxed">{feature.desc}</p>
           </div>
         ))}
       </section>
 
       {/* 9. Compact Educational Manual Section */}
-      <section className="glass-card p-5 sm:p-8 prose prose-invert max-w-5xl mx-auto rounded-2xl shadow-xl bg-black/50 border-emerald-500/30 space-y-6">
+      <section className="glass-card p-5 sm:p-8 prose prose-invert max-w-5xl mx-auto rounded-2xl shadow-xl bg-black/50 border-amber-500/30 space-y-6">
         <div>
-          <h2 className="text-xl sm:text-3xl font-display font-bold gradient-text mb-3">
+          <h2 className="text-xl sm:text-3xl font-display font-bold gradient-text-gold mb-3">
             Mastering Your Astrological & Numerological Blueprint
           </h2>
-          <p className="text-xs sm:text-sm leading-relaxed text-emerald-100/90">
+          <p className="text-xs sm:text-sm leading-relaxed text-amber-100/90">
             Astrology and numerology are ancient symbolic frameworks designed to foster profound self-awareness, psychological clarity, and timing mastery. At BIGThreeAstrology, we combine classic Western Tropical astrology with authentic Vedic Sidereal Jyotish and Pythagorean/Chaldean numerology systems.
           </p>
         </div>
 
-        <div className="space-y-3 border-t border-emerald-500/30 pt-4">
+        <div className="space-y-3 border-t border-amber-500/30 pt-4">
           <h3 className="text-lg sm:text-xl font-display font-bold text-amber-300">
             1. The Big Three & Spouse Predictor Framework
           </h3>
-          <p className="text-xs sm:text-sm leading-relaxed text-emerald-100/90">
+          <p className="text-xs sm:text-sm leading-relaxed text-amber-100/90">
             In modern astrology, your natal chart is anchored by your <strong>Big Three</strong>:
           </p>
-          <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-emerald-200/90">
+          <ul className="list-disc pl-5 space-y-1 text-xs sm:text-sm text-amber-200/90">
             <li><strong>Sun Sign:</strong> Dictates your core conscious identity, vitality, ego, and primary life purpose.</li>
             <li><strong>Moon Sign:</strong> Governs your subconscious mind, emotional instincts, reactions, and inner comfort needs.</li>
             <li><strong>Rising Sign (Ascendant):</strong> Represents your physical appearance, outward persona, and the lens through which you experience the external world.</li>
           </ul>
+        </div>
+      </section>
+
+
+      {/* 9b. Browse Tools by Category (static links for discovery) */}
+      <section className="max-w-6xl mx-auto space-y-4">
+        <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Browse All 100 Tools by Category</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          {[
+            { name: "Birth Chart & Planets", count: 20, link: "/tools#planetary", icon: "🪐" },
+            { name: "Vedic Jyotish & Timing", count: 20, link: "/tools#vedic", icon: "🕉️" },
+            { name: "Numerology & Name Math", count: 20, link: "/tools#numerology", icon: "🔢" },
+            { name: "Tarot & Soul Guidance", count: 15, link: "/tools#guidance", icon: "🔮" },
+            { name: "Synastry & Relationships", count: 15, link: "/tools#synastry", icon: "💖" },
+            { name: "Career & Wealth Astrology", count: 10, link: "/tools#career", icon: "💼" }
+          ].map((cat) => (
+            <Link key={cat.link} href={cat.link} className="glass-card-hover p-4 text-center border-amber-500/20 hover:border-amber-400/60 bg-black/40 group">
+              <span className="text-2xl block mb-1 group-hover:scale-110 transition-transform">{cat.icon}</span>
+              <span className="text-sm font-display font-bold text-white group-hover:text-amber-300 block">{cat.name}</span>
+              <span className="text-[11px] text-amber-200/80">{cat.count} free tools</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* 9c. Latest Guides from the Blog */}
+      <section className="max-w-6xl mx-auto space-y-4">
+        <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Latest Astrology Guides</h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {SAMPLE_BLOG_POSTS.slice(0, 4).map((post) => (
+            <Link key={post.slug} href={`/blog/${post.slug}`} className="glass-card-hover rounded-xl overflow-hidden border border-amber-500/20 hover:border-amber-400/60 bg-black/40 group flex flex-col">
+              <div className="relative w-full aspect-video overflow-hidden">
+                <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 25vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+              </div>
+              <div className="p-4 space-y-2">
+                <h3 className="text-sm font-display font-bold text-white group-hover:text-amber-300 leading-snug">{post.title}</h3>
+                <p className="text-[11px] text-amber-200/80 leading-relaxed line-clamp-3">{post.metaDescription}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+        <div className="text-center">
+          <Link href="/blog" className="btn-secondary px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">Read All Guides 📜</Link>
         </div>
       </section>
 
@@ -354,28 +396,24 @@ export default function HomePage() {
         <h3 className="text-2xl font-display font-bold text-center text-white mb-6">Frequently Asked Questions 🔮</h3>
         <div className="grid gap-3">
           {faqSchema.mainEntity.map((faq, idx) => (
-            <div key={idx} className="glass-card-hover p-4 rounded-xl border border-emerald-500/20 bg-black/40">
+            <div key={idx} className="glass-card-hover p-4 rounded-xl border border-amber-500/20 bg-black/40">
               <h4 className="text-sm sm:text-base font-semibold text-amber-300 mb-1 flex items-start gap-2">
                 <span className="text-base">✨</span> {faq.name}
               </h4>
-              <p className="text-emerald-100 text-xs sm:text-sm pl-6 leading-relaxed">{faq.acceptedAnswer.text}</p>
+              <p className="text-amber-100 text-xs sm:text-sm pl-6 leading-relaxed">{faq.acceptedAnswer.text}</p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* 11. Testimonials */}
-      <section className="py-2">
-        <Testimonials />
-      </section>
 
       {/* 12. Virality & Social Share CTA Banner */}
-      <section className="relative overflow-hidden rounded-2xl p-6 sm:p-10 text-center my-4 bg-gradient-to-r from-emerald-950/80 via-teal-950/90 to-emerald-900/80 border border-emerald-500/40">
+      <section className="relative overflow-hidden rounded-2xl p-6 sm:p-10 text-center my-4 bg-gradient-to-r from-amber-950/80 via-amber-900/90 to-amber-900/80 border border-amber-500/40">
         <div className="absolute inset-0 stars-bg opacity-40" />
         <div className="relative z-10 flex flex-col items-center">
           <span className="text-3xl mb-2">📜✨</span>
           <h2 className="text-xl sm:text-3xl font-display font-bold text-white mb-2">Share Your Cosmic Blueprint</h2>
-          <p className="text-xs sm:text-sm text-emerald-200 mb-6 max-w-xl">
+          <p className="text-xs sm:text-sm text-amber-200 mb-6 max-w-xl">
             Calculate your Spouse prediction, Kundali match, Big Three, or Numerology and share the report with your partner, friends, and family!
           </p>
           <Link href="/tools/spouse-predictor" className="btn-glow px-8 py-3 text-base font-bold">
@@ -384,10 +422,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* AdSlot */}
-      <div className="max-w-4xl mx-auto w-full pb-4">
-        <AdSlot label="Below homepage tools ad unit (AdSense-ready slot)" />
-      </div>
     </div>
   );
 }

@@ -12,6 +12,10 @@ export const metadata: Metadata = buildMetadata({
 export default function RisingSignPage() {
   return (
     <div className="py-6 space-y-6">
+      <div className="text-center space-y-4 max-w-3xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-display font-bold"><span className="gradient-text-gold">Rising Sign Calculator — Find Your Ascendant</span></h1>
+        <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Calculate your Rising sign (Ascendant) from your exact birth time and place, and understand the aura and first impression you project to the world.</p>
+      </div>
       <ToolSchema
         name="Rising Sign (Ascendant) Reader"
         description="Discover your Ascendant Lagna sign, physical aura, style preferences, and first impression signature."
