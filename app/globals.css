@@ -438,3 +438,27 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .hover\:border-amber-400\/50:hover { border-color: rgba(46, 125, 79, 0.5); }
 .hover\:border-amber-400\/60:hover { border-color: rgba(46, 125, 79, 0.6); }
 .hover\:border-amber-400\/70:hover { border-color: rgba(46, 125, 79, 0.7); }
+
+/* Phase 1.2 button & text consistency fixes (user review 29 Oct) */
+/* Gold active-toggle buttons -> proper green buttons with white text */
+.bg-amber-400 { background-color: #2e7d4f !important; color: #ffffff !important; }
+.bg-amber-500 { background-color: #2e7d4f !important; }
+.border-amber-300 { border-color: #2e7d4f; }
+/* Dark chips -> light tints (verdict pills, badges) */
+.bg-emerald-950\/60 { background-color: #eaf1e6; }
+.bg-emerald-950\/80 { background-color: #eaf1e6; }
+.bg-rose-950\/60 { background-color: #fbeaea; }
+.bg-rose-950\/80 { background-color: #fbeaea; }
+.bg-amber-950 { background-color: #eaf1e6; }
+.bg-amber-950\/70 { background-color: #eaf1e6; }
+/* Pale semantic text tones -> readable dark versions */
+.text-rose-300 { color: #b3373f; }
+.text-rose-200 { color: #b3373f; }
+.text-teal-200 { color: #0f766e; }
+.text-teal-300 { color: #0f766e; }
+/* Dropdown / menu hover states */
+.hover\:bg-amber-500\/25:hover { background-color: rgba(46, 125, 79, 0.12); }
+.hover\:text-amber-300:hover { color: #256b42; }
+
+/* Buttons must always feel clickable */
+button { cursor: pointer; }

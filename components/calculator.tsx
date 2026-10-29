@@ -106,8 +106,8 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("western")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "western"
-                ? "bg-emerald-500 text-emerald-950 font-bold shadow-lg border border-emerald-300"
-                : "bg-black/30 text-emerald-200 border border-white/10 hover:bg-white/10"
+                ? "bg-[#2e7d4f] text-white font-bold shadow-lg border border-[#2e7d4f]"
+                : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
             }`}
           >
              Western (Tropical)
@@ -116,8 +116,8 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("vedic")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "vedic"
-                ? "bg-amber-400 text-black font-bold shadow-lg border border-yellow-300"
-                : "bg-black/30 text-emerald-200 border border-white/10 hover:bg-white/10"
+                ? "bg-[#2e7d4f] text-white font-bold shadow-lg border border-[#2e7d4f]"
+                : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
             }`}
           >
              Vedic / Indian (Sidereal)
