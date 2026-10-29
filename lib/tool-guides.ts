@@ -118,10 +118,10 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Use the reading as a reflective guide: notice which described qualities you genuinely value, and treat timing indications (such as the dasha periods astrologers watch for marriage) as themes rather than fixed dates.",
     ],
     steps: [
-      "Enter your birth date and exact birth time.",
-      "Select your birth city from the suggestions so the chart houses are placed correctly.",
-      "Read the spouse profile: nature, appearance themes, profession indications and likely meeting context.",
-      "Compare with the Venus sign and 7th-house guidance in your Big Three and full chart for a fuller picture.",
+      "Select your Moon sign (Janma Rashi) from the sign buttons — this tool reads the spouse indications from your Moon sign and its traditional 7th-house connections.",
+      "If you do not know your Moon sign, find it first with the Big Three calculator or the Nakshatra Finder using your birth date, time and city.",
+      "Read the spouse profile: nature and personality traits, appearance themes, likely meeting environment and lucky first initials.",
+      "Compare with your Venus sign for the fuller picture — Venus shows the kind of partner you are drawn to, this profile shows who traditionally shows up.",
     ],
     resultMeaning: [
       "The description works at the level of qualities: temperament (calm or fiery), build and appearance themes, family background, and the settings where meetings traditionally happen (work, travel, family networks). If several indicators repeat the same theme — for example, a foreign or distant connection — classical readers weight it more heavily.",
@@ -236,6 +236,261 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
         question: "What is the difference between Choghadia and Rahu Kaal?",
         answer:
           "Choghadia divides the whole day into quality-graded segments, giving you several good windows daily. Rahu Kaal is a single roughly 90-minute inauspicious period each day that is avoided for new starts. Most people check both: pick a good choghadia that does not overlap Rahu Kaal.",
+      },
+    ],
+  },
+
+  "venus-sign": {
+    guideTitle: "Venus Sign: What the Planet of Love Was Doing on Your Birthday",
+    guide: [
+      "Your Venus sign is the zodiac sign Venus occupied on the day you were born. It describes how you love, what attracts you, what you find beautiful, and how you handle money and pleasure. Where your Sun sign is your core identity and your Moon sign your feelings, Venus is your taste — in partners, art, comfort and spending.",
+      "Venus never travels far from the Sun, so your Venus sign is always your Sun sign or one of the two signs on either side of it. That is why two people with the same Sun sign can love very differently: a Leo with Venus in Cancer needs emotional safety before romance, while a Leo with Venus in Virgo shows love through acts of service and notices every detail.",
+      "To read your result well, combine three layers: the sign's element (fire Venus loves excitement, earth Venus loves loyalty and touch, air Venus needs conversation, water Venus needs emotional depth), the sign's ruling planet, and your Venus sign's compatibility list, which shows whose Venus naturally speaks your love language.",
+    ],
+    steps: [
+      "Enter your birth date — the day, month and year are enough, because Venus moves slowly.",
+      "Submit and read your Venus sign, element and love style.",
+      "Check the attraction triggers listed for your sign — they describe what reliably draws you to someone.",
+      "Compare with a partner's Venus sign using the compatibility list in your result.",
+    ],
+    resultMeaning: [
+      "The love style in your result is a tendency, not a rule: a Venus in Scorpio person feels love intensely and privately, but their Moon and Rising signs shape how visibly they show it. Use the result to understand your needs in relationships — what makes you feel chosen, desired and valued — and to recognise the same needs in a partner whose Venus differs from yours.",
+    ],
+    faqs: [
+      {
+        question: "Do I need my birth time for the Venus sign calculator?",
+        answer:
+          "No. Venus changes signs only every three to four weeks, so your birth date alone is enough — except when you were born on the exact day Venus changed signs, when the birth time settles it.",
+      },
+      {
+        question: "Why is my Venus sign different from my Sun sign?",
+        answer:
+          "Venus orbits close to the Sun, so it is always within two signs of it — but it is often in a neighbouring sign, which is why your love style can differ noticeably from your core personality.",
+      },
+      {
+        question: "Which Venus sign is the most romantic?",
+        answer:
+          "Pisces and Libra are traditionally called the most romantic Venus placements — Pisces for devotion and fantasy, Libra for charm and partnership. But every Venus sign loves deeply in its own style; Taurus is the most sensual, Scorpio the most intense.",
+      },
+      {
+        question: "What if my Venus sign and my partner's Venus sign clash?",
+        answer:
+          "Clashing Venus signs (for example fire with water) mean different love languages, not doom. The fix is translation: learn what makes the other person feel loved — words, time, touch, gifts or loyalty — and offer that, rather than what you would want yourself.",
+      },
+      {
+        question: "Does Venus retrograde at birth matter?",
+        answer:
+          "About 7-8% of people are born with Venus retrograde. Traditionally it suggests love lessons around self-worth and receiving affection. The sign remains the main influence; retrograde adds a more private, reflective tone.",
+      },
+    ],
+  },
+
+  "mercury-sign": {
+    guideTitle: "Mercury Sign: How Your Mind and Voice Are Wired",
+    guide: [
+      "Your Mercury sign is the zodiac sign Mercury occupied when you were born. It governs how you think, learn, speak, write, negotiate and make decisions — your mental operating system. Two people can share a Sun sign yet argue, study and joke completely differently because their Mercury signs differ.",
+      "Like Venus, Mercury never strays far from the Sun, so your Mercury sign is your Sun sign or a neighbouring one. Mercury in a fire sign thinks out loud and decides fast; in an earth sign it is methodical and evidence-based; in an air sign it is quick, verbal and curious; in a water sign it thinks in feelings, images and memory.",
+      "Your Mercury sign also explains your communication friction with others. A Mercury in Taurus person needs time to process and dislikes being rushed, while a Mercury in Gemini partner changes topics mid-sentence. Neither is wrong — they are running different mental software, and knowing both signs turns misunderstandings into translation work.",
+    ],
+    steps: [
+      "Enter your birth date — Mercury moves fast but a date is enough on most days.",
+      "Read your Mercury sign's thinking style and communication strengths.",
+      "Note the learning style in your result — it tells you how you absorb new skills fastest.",
+      "Compare with the Mercury signs of people you talk with daily to smooth out friction.",
+    ],
+    resultMeaning: [
+      "Read your result as a description of process, not intelligence: every Mercury sign is smart in its own register. Mercury in Scorpio researches obsessively and reads between the lines; Mercury in Sagittarius sees the big picture and misses typos. The practical value is choosing work, study methods and conversations that fit your wiring instead of fighting it.",
+    ],
+    faqs: [
+      {
+        question: "Do I need my exact birth time for Mercury sign?",
+        answer:
+          "Usually not. Mercury changes sign every two to three weeks. Only if you were born on a sign-change day does the birth time decide which side of the boundary you fall on.",
+      },
+      {
+        question: "What does Mercury retrograde at birth mean?",
+        answer:
+          "Roughly 18% of people have Mercury retrograde in their birth chart. It is linked with a reflective, re-thinking mind — people who revise, edit and reconsider before speaking. It is far less disruptive natally than the famous Mercury retrograde transit periods.",
+      },
+      {
+        question: "Which Mercury sign is best for writing or business?",
+        answer:
+          "Gemini and Virgo (both ruled by Mercury) are the classic writing and analysis placements; Capricorn excels at structured business communication; Libra at negotiation and diplomacy. The best Mercury sign is the one whose style you actually use.",
+      },
+      {
+        question: "Why do I misunderstand my partner so often?",
+        answer:
+          "Mercury sign mismatches are the usual suspect: a water-sign Mercury communicates through tone and implication, an earth-sign Mercury through facts and specifics. Checking both Mercury signs shows each person where the other is literally coming from.",
+      },
+    ],
+  },
+
+  "nakshatra": {
+    guideTitle: "Nakshatra Finder: Your Vedic Birth Star and What It Reveals",
+    guide: [
+      "Your nakshatra is the lunar mansion the Moon occupied at your birth — the oldest layer of Vedic astrology, older than the twelve-sign zodiac in Indian practice. The Moon's sidereal position is divided into 27 nakshatras of 13 degrees 20 minutes each, and each nakshatra is divided into four padas (quarters) that fine-tune the reading.",
+      "The nakshatra is not a decorative detail: it decides your Vimshottari dasha sequence (the planetary periods that time major life chapters), it is the basis of Kundali Milan matching through gana, nadi and yoni, and each nakshatra carries its own deity, symbol, ruling planet and temperament. Two people with the same Moon sign but different nakshatras — say Cancer Moon in Pushya versus Ashlesha — are read very differently by a Vedic astrologer.",
+      "Traditionally the Moon's nakshatra is found from its sidereal (Lahiri) longitude at the exact birth moment, which is why the finder asks for date and time. If your Moon sits within about a degree of a nakshatra boundary, an ephemeris-grade chart can refine the result.",
+    ],
+    steps: [
+      "Enter your birth date and your exact birth time — the Moon moves about 13 degrees a day, so the time matters.",
+      "Select your birth city so the chart is anchored to the right place.",
+      "Read your nakshatra, its pada, ruling planet and deity.",
+      "Use the result in Kundali Milan matching and to understand your dasha sequence.",
+    ],
+    resultMeaning: [
+      "Your nakshatra describes instinctive nature — the layer of personality that shows under stress and in private. Pushya is the nourisher, Magha carries ancestral authority, Rohini is the sensual creator, Hasta the skilled maker. The ruling planet of your nakshatra also starts your Vimshottari dasha count, so this one result unlocks your whole timing map.",
+    ],
+    faqs: [
+      {
+        question: "What is the difference between nakshatra and Moon sign?",
+        answer:
+          "The Moon sign (rashi) is the 30-degree sign the Moon is in; the nakshatra is the narrower 13-degree-20-minute star segment inside it. Each rashi contains two and a quarter nakshatras. The rashi gives the broad temperament, the nakshatra the precise flavour.",
+      },
+      {
+        question: "Why does my nakshatra decide my dasha?",
+        answer:
+          "Vimshottari dasha allots the Moon's remaining journey through its birth nakshatra to that nakshatra's ruling planet. The fraction of the nakshatra the Moon has already crossed becomes the fraction of the first dasha already lived before birth — which is why an accurate nakshatra matters for timing.",
+      },
+      {
+        question: "What is a pada and does it change my nakshatra?",
+        answer:
+          "Each nakshatra has four padas of 3 degrees 20 minutes. The pada does not change the nakshatra itself, but it maps to a navamsa sign and refines personality and life direction in detailed chart reading.",
+      },
+      {
+        question: "Which nakshatra is considered the best?",
+        answer:
+          "Pushya is traditionally called the most auspicious nakshatra — the star of nourishment, ruled by Saturn with Brihaspati as deity. Rohini, Uttara Phalguni and Shravana are also highly prized, but every nakshatra has gifts; there is no bad birth star.",
+      },
+      {
+        question: "Can my nakshatra differ between two calculators?",
+        answer:
+          "Yes, near boundaries or when calculators use different ayanamsa values or date-only approximations. The Moon's exact sidereal longitude at your birth time is the deciding figure — around 13 degrees 20 minutes per nakshatra, counted from 0 degrees sidereal Aries.",
+      },
+    ],
+  },
+
+  "numerology": {
+    guideTitle: "Life Path Number: The Core Calculation of Numerology",
+    guide: [
+      "Your Life Path number is numerology's equivalent of a Sun sign: the single most important number in your chart, derived from your full birth date. It describes your natural talents, your recurring life lessons and the road you keep finding yourself on, no matter how often you try to leave it.",
+      "The calculation is transparent and centuries old: add the digits of your birth month, day and year, reducing each component to a single digit first (with master numbers 11, 22 and 33 preserved), then add the components together and reduce again. For 15 August 1947: month 8, day 1+5 = 6, year 1+9+4+7 = 21 → 3. Then 8 + 6 + 3 = 17 → 1+7 = 8. Life Path 8 — the number of power, money and mastery.",
+      "Component-wise reduction matters: the older habit of adding the whole date in one string can hide master numbers and gives different results for the same birthday. This calculator reduces month, day and year separately first, which is the method used by most modern numerologists.",
+    ],
+    steps: [
+      "Enter your full birth date exactly as on your birth certificate.",
+      "Read your Life Path number — 1 to 9, or the master numbers 11, 22 and 33.",
+      "Read the strengths and the challenge side: every number has both, and the challenges are the curriculum.",
+      "Compare with your Destiny and Soul Urge numbers for the fuller picture — Life Path is the road, Destiny is the destination.",
+    ],
+    resultMeaning: [
+      "Treat your Life Path as a description of the lessons that keep recurring: a Life Path 1 keeps meeting situations that demand independence; a Life Path 6 keeps being handed responsibility for others; a Life Path 5 keeps being offered change until it stops fearing it. The number does not limit careers — it explains which environments feel like swimming downstream.",
+    ],
+    faqs: [
+      {
+        question: "What are master numbers and why aren't they reduced?",
+        answer:
+          "11, 22 and 33 are called master numbers because they are read as intensified versions of 2, 4 and 6 with a larger public or spiritual dimension. Standard practice is to keep them unreduced when they appear as a final Life Path result.",
+      },
+      {
+        question: "Can two calculators give me different Life Path numbers?",
+        answer:
+          "Yes, if one adds the entire date in a single string and the other reduces month, day and year separately first. The component method is the widely taught standard and the one this calculator uses; it is also the method that preserves master numbers correctly.",
+      },
+      {
+        question: "Is Life Path the same as Destiny number?",
+        answer:
+          "No. Life Path comes from your birth date and describes the road and its lessons. Destiny (Expression) number comes from the letters of your full birth name and describes what you are here to accomplish. They are read together.",
+      },
+      {
+        question: "Which Life Path numbers are most compatible?",
+        answer:
+          "Traditional pairings: 1 with 3, 5 and 9; 2 with 4, 6 and 8; 3 with 1, 5 and 7; 4 with 2, 6 and 8; 5 with 1, 3 and 7; 6 with 2, 4 and 9; 7 with 3, 5 and 9; 8 with 2, 4 and 6; 9 with 1, 6 and 3. Compatibility is a tendency, not a verdict — effort outranks arithmetic.",
+      },
+    ],
+  },
+
+  "love-compatibility": {
+    guideTitle: "Love Compatibility: How Sign Matching Actually Works",
+    guide: [
+      "Love compatibility in astrology compares two people's charts for harmony and friction — and the honest version starts with elements. Fire signs (Aries, Leo, Sagittarius) ignite each other and pair naturally with air signs (Gemini, Libra, Aquarius), which feed fire. Earth signs (Taurus, Virgo, Capricorn) ground each other and blend well with water signs (Cancer, Scorpio, Pisces), which soften earth. Same-element pairs feel effortless; cross-element pairs need translation but often grow the most.",
+      "A sign-to-sign score is a starting point, not a verdict, because real synastry layers many contacts: her Venus with his Mars (attraction), Moon to Moon (emotional safety), Mercury to Mercury (whether they can actually talk). That is why two couples with identical Sun-sign pairings can have completely different relationships — and why this calculator's percentage should be read as the weather, not the climate.",
+      "Use the result the way good astrologers do: the strong areas tell you what to protect, and the friction areas tell you exactly where the couple's work is. A 62% match with understood friction routinely outlasts a 95% match taken for granted.",
+    ],
+    steps: [
+      "Select the first person's Sun sign (or enter their birth date if asked).",
+      "Select the second person's Sun sign.",
+      "Read the overall score first, then the area-by-area breakdown — communication, emotions, attraction.",
+      "For a deeper reading, compare Venus signs for love language and Moon signs for emotional needs using the dedicated calculators.",
+    ],
+    resultMeaning: [
+      "A high score means your natural rhythms mesh: similar needs for affection, space, money and adventure. A mid-range score usually means one strong axis (say, attraction) and one working axis (say, communication). A low score flags genuinely different operating systems — not impossibility; some of the longest marriages are low-score pairings where both people learned the other's language deliberately.",
+    ],
+    faqs: [
+      {
+        question: "Which zodiac pairs are considered the most compatible?",
+        answer:
+          "Classic high-harmony pairs include Taurus with Cancer, Leo with Libra, Scorpio with Pisces, Virgo with Capricorn and Gemini with Aquarius — same or friendly elements, shared values and matching energy levels.",
+      },
+      {
+        question: "Can a low compatibility score still work?",
+        answer:
+          "Absolutely. The score measures natural ease, not worth or durability. Low-score couples succeed by naming their differences early — especially around affection styles and conflict habits — instead of assuming the other person is being difficult.",
+      },
+      {
+        question: "What matters more than Sun sign compatibility?",
+        answer:
+          "Moon sign compatibility for emotional life, Venus and Mars contacts for attraction, and Mercury compatibility for day-to-day communication. A full synastry reading weighs all of them; the Sun-sign score is the quick first impression.",
+      },
+      {
+        question: "Why do I feel drawn to someone with a low match score?",
+        answer:
+          "Attraction often comes from the contacts a Sun-sign score cannot see — their Venus may fall in your sign, or your Mars signs may ignite. Opposites genuinely attract when the missing element in one chart is supplied by the other; the work is keeping the spark from becoming friction.",
+      },
+    ],
+  },
+
+  "tarot": {
+    guideTitle: "3-Card Tarot Reading: Past, Present and Future Explained",
+    guide: [
+      "The three-card spread is the oldest and most practical tarot layout: the first card shows the past influences still shaping your situation, the second the present energy you are actually standing in, and the third the future outlook — the direction things move if nothing changes. Three cards, one story, no clutter.",
+      "This reader draws from the 22 Major Arcana — the archetypal cards from The Fool to The World that describe life's big themes: beginnings, power, love, change, crisis and completion. When a Major Arcana card appears, tradition reads it as a significant force rather than a passing mood, which is why a focused Major Arcana spread answers 'what is this chapter about?' better than a full-deck daily draw.",
+      "Read the three cards as a sentence, not three separate fortunes. The Sun in the past, The Emperor in the present and The Chariot in the future tells a story: a joyful period built the confidence, structure is now required, and determined action carries it forward. The middle card is always the most important — it is the only one you can act on today.",
+    ],
+    steps: [
+      "Take a breath and hold one clear situation or question in mind — specific questions get specific readings.",
+      "Tap Draw Your 3 Tarot Cards and let the three cards reveal themselves.",
+      "Read past, present and future in order, then re-read them as one connected story.",
+      "Focus on the present card's guidance — that is your actionable step for today.",
+    ],
+    resultMeaning: [
+      "The future card is a trajectory, not a sentence: it shows where current energy leads, and changing the present card's behaviour changes the destination. If a challenging card appears (The Tower, Death, The Devil), read it by its traditional core — sudden clearing, necessary endings, or a habit that owns you — rather than as doom; in practice these cards usually name what you already know needs to change.",
+    ],
+    faqs: [
+      {
+        question: "How accurate is an online tarot reading?",
+        answer:
+          "Treat it as a structured reflection tool: the draw is random, but the archetypes are real, and seeing your situation described through a card's symbolism often clarifies what you already sense. It is guidance for thinking, not a guarantee of events.",
+      },
+      {
+        question: "Can I draw again if I don't like my cards?",
+        answer:
+          "You can, but tradition advises against re-drawing until you get a nicer answer — the first draw is the reading. If the cards confuse you, sit with them for a day; the meaning usually lands after the situation moves.",
+      },
+      {
+        question: "What does the Death card mean in a reading?",
+        answer:
+          "Almost never physical death. Death (XIII) means an ending that clears the ground — a phase, job, habit or identity concluding so something new can start. In the future position it typically signals a transition you will ultimately be relieved by.",
+      },
+      {
+        question: "Why does this reader use only Major Arcana cards?",
+        answer:
+          "The 22 Major Arcana carry the big archetypal themes, which suits a focused three-card general reading. Full 78-card decks add everyday detail through the Minor Arcana; for a daily or weekly chapter-check, Major Arcana alone keeps the message concentrated.",
+      },
+      {
+        question: "How often should I do a 3-card reading?",
+        answer:
+          "Once a day for a daily check, or once per question. Drawing repeatedly on the same question in one sitting tends to produce noise rather than clarity — ask once, act on the present card, then ask again when the situation has actually changed.",
       },
     ],
   },
