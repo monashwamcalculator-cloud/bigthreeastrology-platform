@@ -414,3 +414,27 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .theme-dark .hover\:text-white:hover { color: #ffffff; }
 .theme-dark .text-emerald-300 { color: #7ed492; }
 .theme-dark .text-emerald-100 { color: #dcefe0; }
+
+/* Phase 1.1 contrast fixes (visual QA 29 Oct) */
+/* cosmic-* text tones were pale lavender; on white they must be dark green */
+.text-cosmic-100 { color: #2e3d33; }
+.text-cosmic-200 { color: #3d5245; }
+.text-cosmic-300 { color: #33503e; }
+.theme-dark .text-cosmic-100 { color: #e7f2e7; }
+.theme-dark .text-cosmic-200 { color: #c4e6cb; }
+.theme-dark .text-cosmic-300 { color: #9ad1a8; }
+
+/* ...but inside intentionally dark cosmic panels, keep light text */
+.bg-cosmic-900 .text-white, .bg-cosmic-900\/80 .text-white,
+.bg-cosmic-800\/50 .text-white, .bg-cosmic-800\/60 .text-white { color: #ffffff; }
+.bg-cosmic-900 .text-cosmic-100, .bg-cosmic-900\/80 .text-cosmic-100,
+.bg-cosmic-800\/50 .text-cosmic-100, .bg-cosmic-800\/60 .text-cosmic-100 { color: #e7f2e7; }
+.bg-cosmic-900 .text-cosmic-200, .bg-cosmic-900\/80 .text-cosmic-200,
+.bg-cosmic-800\/50 .text-cosmic-200, .bg-cosmic-800\/60 .text-cosmic-200 { color: #c4e6cb; }
+
+/* Card hover states: green, not old gold */
+.group:hover .group-hover\:text-amber-300 { color: #0f6b38; }
+.group:hover .group-hover\:border-amber-300 { border-color: #17884a; }
+.hover\:border-amber-400\/50:hover { border-color: rgba(23, 136, 74, 0.5); }
+.hover\:border-amber-400\/60:hover { border-color: rgba(23, 136, 74, 0.6); }
+.hover\:border-amber-400\/70:hover { border-color: rgba(23, 136, 74, 0.7); }

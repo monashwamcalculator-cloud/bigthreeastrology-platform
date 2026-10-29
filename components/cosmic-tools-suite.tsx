@@ -29,7 +29,7 @@ export function CosmicToolsSuite() {
             onClick={() => setActiveCategory(cat.key)}
             className={`px-3.5 py-2.5 rounded-xl font-display font-bold text-xs sm:text-sm transition-all duration-300 flex items-center gap-2 ${
               activeCategory === cat.key
-                ? "bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 text-black shadow-lg shadow-amber-900/50 border border-amber-300"
+                ? "bg-gradient-to-r from-[#1b9a50] via-[#17884a] to-[#0f6b38] text-white shadow-lg shadow-emerald-900/30 border border-[#17884a]"
                 : "text-amber-200 hover:text-white hover:bg-amber-500/20"
             }`}
           >
