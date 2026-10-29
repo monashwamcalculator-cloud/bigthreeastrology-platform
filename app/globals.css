@@ -462,3 +462,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* Buttons must always feel clickable */
 button { cursor: pointer; }
+
+/* ---- Phase 1.3: remaining alpha-variant text colours ---- */
+.text-emerald-100\/90, .text-emerald-100\/85, .text-emerald-100\/75, .text-emerald-100\/60 { color: #33463a; }
+.text-emerald-200\/80 { color: #3d5c46; }
+.text-teal-100 { color: #33463a; }
+.text-rose-100 { color: #5b3438; }
+.bg-teal-950\/60 { background-color: #e6f2f0; }

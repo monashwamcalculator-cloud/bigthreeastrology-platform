@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { DestinyNumberCalculator } from "@/components/destiny-number-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Expression & Destiny Number Calculator | Chaldean Math",
@@ -28,6 +29,7 @@ export default function DestinyNumberPage() {
         ]}
       />
       <DestinyNumberCalculator />
+      <ToolSections slug="destiny-number" />
     </div>
   );
 }

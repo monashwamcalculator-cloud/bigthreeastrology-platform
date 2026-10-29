@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { BigThreeCalculator } from "@/components/calculator";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Big Three Astrology Calculator | Sun Moon Rising Signs",
@@ -17,6 +18,7 @@ export default function BigThreePage() {
         <p className="text-emerald-200 text-sm">Discover your core identity, emotional instincts, and outer persona.</p>
       </div>
       <BigThreeCalculator />
+      <ToolSections slug="big-three" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { BrandNumerologyCalculator } from "@/components/brand-numerology";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Brand & Name Numerology Analyzer (Chaldean Method)",
@@ -16,6 +17,7 @@ export default function BrandNumerologyPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Analyze your brand or business name with the Chaldean method and check whether its vibration supports growth, money and reputation.</p>
       </div>
       <BrandNumerologyCalculator />
+      <ToolSections slug="brand-numerology" />
     </div>
   );
 }

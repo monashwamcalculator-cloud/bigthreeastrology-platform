@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AngelNumberCalculator } from "@/components/angel-number-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Angel Number Decoder & Cosmic Frequency Guide",
@@ -28,6 +29,7 @@ export default function AngelNumbersPage() {
         ]}
       />
       <AngelNumberCalculator />
+      <ToolSections slug="angel-numbers" />
     </div>
   );
 }

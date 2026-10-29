@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { LifePathCompatibilityCalculator } from "@/components/life-path-compatibility";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Life Path Numerology Matcher & Compatibility",
@@ -28,6 +29,7 @@ export default function LifePathCompatibilityPage() {
         ]}
       />
       <LifePathCompatibilityCalculator />
+      <ToolSections slug="lifepath-compatibility" />
     </div>
   );
 }

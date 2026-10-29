@@ -204,7 +204,7 @@ export function KundaliMilanCalculator() {
         <div className="badge badge-gold mb-3"> Vedic Ashta Koota 36 Guna Milan System</div>
         <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Authentic Kundali Matching</h2>
         <p className="mt-2 text-emerald-100 text-sm max-w-xl mx-auto">
-          Enter exact birth details (date, time with AM/PM, and place) of the Boy and Girl to calculate the 36 Guna Milan score with genuine Vedic calculations.
+          Enter exact birth details (date, time with AM/PM, and place) of the Boy and Girl to calculate the 36 Guna Milan score with traditional Vedic calculations.
         </p>
       </div>
 

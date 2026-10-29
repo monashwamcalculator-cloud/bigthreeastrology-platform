@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { GemstoneFinder } from "@/components/gemstone-finder";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Gemstone & Remedy Finder | Vedic Ratna & Mantras",
@@ -16,6 +17,7 @@ export default function GemstonePage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Find the gemstone (Ratna) recommended for your Lagna and planetary strengths, with the correct metal, finger, weight and mantra.</p>
       </div>
       <GemstoneFinder />
+      <ToolSections slug="gemstone" />
     </div>
   );
 }

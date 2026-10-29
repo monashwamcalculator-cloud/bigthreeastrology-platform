@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { SadeSatiChecker } from "@/components/sade-sati-checker";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Sade Sati Phase Checker & Saturn Remedies",
@@ -16,6 +17,7 @@ export default function SadeSatiPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Check whether you are running Shani Sade Sati, which phase you are in, how long it lasts, and the practical remedies for each phase.</p>
       </div>
       <SadeSatiChecker />
+      <ToolSections slug="sade-sati" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { MercuryCalculator } from "@/components/mercury-calculator";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Mercury Sign Calculator | Mind, Intellect & Speech",
@@ -16,6 +17,7 @@ export default function MercurySignPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Find your Mercury sign to understand how you think, learn, speak and process ideas in daily life and relationships.</p>
       </div>
       <MercuryCalculator />
+      <ToolSections slug="mercury-sign" />
     </div>
   );
 }

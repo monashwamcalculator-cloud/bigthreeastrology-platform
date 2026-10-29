@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { KundaliMilanCalculator } from "@/components/kundali-milan";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Free Vedic Kundali Matching by Date of Birth & Time | 36 Guna Milan",
@@ -33,6 +34,7 @@ export default function KundaliMilanPage() {
       </div>
 
       <KundaliMilanCalculator />
+      <ToolSections slug="kundali-milan" />
 
       <section className="glass-card p-8 prose prose-invert max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
         <h2>What Is Vedic Kundali Matching (Guna Milan)?</h2>

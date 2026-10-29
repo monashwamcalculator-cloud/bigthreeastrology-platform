@@ -112,11 +112,11 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
         </p>
 
         <div className="border-t border-amber-500/20 pt-4 mt-4">
-          <h3 className="text-base font-semibold text-amber-300 mb-2">Why Use This Tool?</h3>
-          <ul className="list-disc pl-5 text-xs sm:text-sm text-amber-200/90 space-y-1">
-            <li>100% Free calculation with zero account registration required.</li>
-            <li>Precision algorithms cross-referencing authentic Vedic & Western astronomical placements.</li>
-            <li>Instant actionable remedies, timing windows, and personalized guidance.</li>
+          <h3 className="text-base font-semibold text-[#16402b] mb-2">How This Result Is Calculated</h3>
+          <ul className="list-disc pl-5 text-xs sm:text-sm text-[#33463a] space-y-1">
+            <li>100% free calculation with zero account registration required.</li>
+            <li>Computed from the details you enter: chart-based tools use real astronomical positions for your birth moment, and traditional tools apply the classical tables and rules of their system.</li>
+            <li>Personalised themes, timing windows and meanings to reflect on — not a generic horoscope column.</li>
           </ul>
         </div>
       </section>

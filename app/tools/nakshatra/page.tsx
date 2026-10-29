@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { NakshatraFinder } from "@/components/nakshatra-finder";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Birth Star (Nakshatra) Finder | 27 Vedic Stars & Deities",
@@ -16,6 +17,7 @@ export default function NakshatraPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Find your Janma Nakshatra among the 27 Vedic lunar mansions, with its ruling deity, symbol, gana and core temperament.</p>
       </div>
       <NakshatraFinder />
+      <ToolSections slug="nakshatra" />
     </div>
   );
 }

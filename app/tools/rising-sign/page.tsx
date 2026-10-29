@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { RisingSignCalculator } from "@/components/rising-sign-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Rising Sign (Ascendant) Reader | Aura & First Impression",
@@ -28,6 +29,7 @@ export default function RisingSignPage() {
         ]}
       />
       <RisingSignCalculator />
+      <ToolSections slug="rising-sign" />
     </div>
   );
 }

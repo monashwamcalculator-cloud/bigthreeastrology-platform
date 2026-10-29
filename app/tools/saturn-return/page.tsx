@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { SaturnReturnCalculator } from "@/components/saturn-return-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Saturn Return Calculator & Milestone Guide",
@@ -28,6 +29,7 @@ export default function SaturnReturnPage() {
         ]}
       />
       <SaturnReturnCalculator />
+      <ToolSections slug="saturn-return" />
     </div>
   );
 }

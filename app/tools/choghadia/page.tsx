@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { ChoghadiaCalculator } from "@/components/choghadia-calculator";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Daily Choghadia Muhurat Calculator | Auspicious Vedic Timings",
@@ -16,6 +17,7 @@ export default function ChoghadiaPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Check today's day and night Choghadia timings before starting travel, business, purchases or any important work — updated for every sunrise and sunset.</p>
       </div>
       <ChoghadiaCalculator />
+      <ToolSections slug="choghadia" />
     </div>
   );
 }

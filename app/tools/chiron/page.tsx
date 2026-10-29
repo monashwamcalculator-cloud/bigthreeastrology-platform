@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { ChironCalculator } from "@/components/chiron-calculator";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Chiron Calculator | Wounded Healer & Soul Healing Gift",
@@ -16,6 +17,7 @@ export default function ChironPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Locate Chiron in your birth chart to identify your core wound, your healing gift and the lesson your soul came to master.</p>
       </div>
       <ChironCalculator />
+      <ToolSections slug="chiron" />
     </div>
   );
 }

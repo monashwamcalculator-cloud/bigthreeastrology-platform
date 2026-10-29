@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { DashaCalculator } from "@/components/dasha-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Vedic Dasha & Mahadasha Timeline Calculator",
@@ -28,6 +29,7 @@ export default function DashaPage() {
         ]}
       />
       <DashaCalculator />
+      <ToolSections slug="dasha-calculator" />
     </div>
   );
 }

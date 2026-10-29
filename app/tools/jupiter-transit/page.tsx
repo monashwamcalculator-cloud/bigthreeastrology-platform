@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { JupiterTransitCalculator } from "@/components/jupiter-transit-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Jupiter Transit & Luck Expansion Finder",
@@ -28,6 +29,7 @@ export default function JupiterTransitPage() {
         ]}
       />
       <JupiterTransitCalculator />
+      <ToolSections slug="jupiter-transit" />
     </div>
   );
 }

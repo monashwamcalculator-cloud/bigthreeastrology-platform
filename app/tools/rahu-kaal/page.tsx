@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { RahuKaalTracker } from "@/components/rahu-kaal";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Daily Rahu Kaal & Shubh Muhurat Tracker",
@@ -16,6 +17,7 @@ export default function RahuKaalPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Check today's Rahu Kaal timing for your day of the week and plan important work outside this inauspicious window.</p>
       </div>
       <RahuKaalTracker />
+      <ToolSections slug="rahu-kaal" />
     </div>
   );
 }

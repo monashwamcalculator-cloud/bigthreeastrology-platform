@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { DailyHoroscope } from "@/components/daily-horoscope";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Daily Horoscope & Cosmic Energy Meter",
@@ -16,6 +17,7 @@ export default function HoroscopePage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Read today's horoscope energy meter for love, career, money and mood, tuned to your zodiac sign.</p>
       </div>
       <DailyHoroscope />
+      <ToolSections slug="horoscope" />
     </div>
   );
 }

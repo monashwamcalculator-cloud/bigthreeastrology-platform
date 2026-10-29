@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { MoonPhaseCalculator } from "@/components/moon-phase-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Birth Moon Phase & Manifestation Reader",
@@ -28,6 +29,7 @@ export default function MoonPhasePage() {
         ]}
       />
       <MoonPhaseCalculator />
+      <ToolSections slug="moon-phase" />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { NorthNodeCalculator } from "@/components/north-node-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "North Node & Life Purpose Finder | Karmic Rahu/Ketu",
@@ -28,6 +29,7 @@ export default function NorthNodePage() {
         ]}
       />
       <NorthNodeCalculator />
+      <ToolSections slug="north-node" />
     </div>
   );
 }

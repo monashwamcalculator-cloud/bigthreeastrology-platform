@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { MarsSignCalculator } from "@/components/mars-sign-calculator";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Mars Sign Passion & Drive Reader | Physical Energy",
@@ -28,6 +29,7 @@ export default function MarsSignPage() {
         ]}
       />
       <MarsSignCalculator />
+      <ToolSections slug="mars-sign" />
     </div>
   );
 }

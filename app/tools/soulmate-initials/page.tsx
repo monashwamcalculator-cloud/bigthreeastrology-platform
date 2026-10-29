@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { SoulmateInitialsCalculator } from "@/components/soulmate-initials";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Soulmate Name & Initial Predictor | Zodiac Love Signature",
@@ -28,6 +29,7 @@ export default function SoulmateInitialsPage() {
         ]}
       />
       <SoulmateInitialsCalculator />
+      <ToolSections slug="soulmate-initials" />
     </div>
   );
 }

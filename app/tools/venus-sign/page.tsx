@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { VenusCalculator } from "@/components/venus-calculator";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Venus Sign Calculator | Love Language & Attraction Style",
@@ -16,6 +17,7 @@ export default function VenusSignPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Discover your Venus sign and decode your love language, attraction style, tastes in beauty, money and relationships.</p>
       </div>
       <VenusCalculator />
+      <ToolSections slug="venus-sign" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { NumerologyCalculator } from "@/components/numerology-calculator";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Free Life Path & Expression Numerology Calculator | BIGThreeAstrology",
@@ -33,6 +34,7 @@ export default function NumerologyPage() {
       </div>
 
       <NumerologyCalculator />
+      <ToolSections slug="numerology" />
 
       <section className="glass-card p-8 prose prose-invert max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
         <h2>What Is a Life Path Number in Numerology?</h2>

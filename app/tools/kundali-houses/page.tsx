@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { KundaliHouseCalculator } from "@/components/kundali-house-calculator";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "12 Kundali Houses (Bhavas) Explorer & Lagna Snapshot",
@@ -16,6 +17,7 @@ export default function KundaliHousesPage() {
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Explore the 12 houses (Bhavas) of your Vedic birth chart and see what each house governs — wealth, marriage, career, health and more.</p>
       </div>
       <KundaliHouseCalculator />
+      <ToolSections slug="kundali-houses" />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { SpousePredictor } from "@/components/spouse-predictor";
 import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Future Spouse & Soulmate Predictor | Appearance & Personality",
@@ -32,6 +33,7 @@ export default function SpousePage() {
         ]}
       />
       <SpousePredictor />
+      <ToolSections slug="spouse-predictor" />
     </div>
   );
 }

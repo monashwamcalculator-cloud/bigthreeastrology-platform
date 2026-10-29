@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { LoveCompatibilityCalculator } from "@/components/love-compatibility";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
+import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Zodiac Love Match & Synastry Compatibility Free | BIGThreeAstrology",
@@ -33,6 +34,7 @@ export default function LoveCompatibilityPage() {
       </div>
 
       <LoveCompatibilityCalculator />
+      <ToolSections slug="love-compatibility" />
 
       <section className="glass-card p-8 prose prose-invert max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
         <h2>How Zodiac Love Compatibility Works</h2>
