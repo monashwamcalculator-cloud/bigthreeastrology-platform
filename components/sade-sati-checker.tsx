@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { saturnLongitude, signOf, toSidereal } from "@/lib/astro-engine";
 
 type SadeSatiData = {
   moonSign: string;
@@ -112,10 +113,61 @@ const SADE_SATI_DATABASE: Record<string, SadeSatiData> = {
 
 const SIGNS = Object.keys(SADE_SATI_DATABASE);
 
+
+const ZODIAC_ORDER = [
+  "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
+  "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces",
+] as const;
+
+type PhaseKey = "Rising Phase (First Dhaiya)" | "Peak Phase (Second Dhaiya)" | "Setting Phase (Third Dhaiya)";
+
+/** Phase texts follow the phase itself, so they stay correct as Saturn moves. */
+const PHASE_CONTENT: Record<PhaseKey, { intensity: string; focusArea: string; remedy: string }> = {
+  "Rising Phase (First Dhaiya)": {
+    intensity: "Moderate Adjustment",
+    focusArea: "Health awareness, managing unexpected expenses, spiritual retreat.",
+    remedy: "Recite Hanuman Chalisa daily and feed street dogs on Saturday evenings.",
+  },
+  "Peak Phase (Second Dhaiya)": {
+    intensity: "High Transformation",
+    focusArea: "Deep inner discipline, patience, overcoming structural changes.",
+    remedy: "Donate black sesame seeds, mustard oil, or blue cloth to the needy on Saturday.",
+  },
+  "Setting Phase (Third Dhaiya)": {
+    intensity: "Mild & Rewarding",
+    focusArea: "Reaping long-term fruits of labor, financial stabilization, career honors.",
+    remedy: "Light an oil lamp (Diya) under a Banyan/Peepal tree on Saturdays.",
+  },
+};
+
+/**
+ * Live phase calculation: compare Saturn's CURRENT sidereal sign
+ * (engine, Lahiri) with the selected Moon sign. Saturn in the 12th sign
+ * from the Moon = Rising, in the Moon sign = Peak, in the 2nd = Setting.
+ * This replaces the old hard-coded table, which described the previous
+ * Saturn era and silently went stale.
+ */
+function computeSadeSati(moonSign: string): SadeSatiData {
+  const base = SADE_SATI_DATABASE[moonSign] || SADE_SATI_DATABASE["Aquarius"];
+  const now = new Date();
+  const saturnSignIdx = signOf(toSidereal(saturnLongitude(now), now)).index;
+  const moonIdx = ZODIAC_ORDER.indexOf(moonSign as (typeof ZODIAC_ORDER)[number]);
+  if (moonIdx < 0) return base;
+  const rel = (saturnSignIdx - moonIdx + 12) % 12;
+  const phase: PhaseKey | null =
+    rel === 11 ? "Rising Phase (First Dhaiya)"
+    : rel === 0 ? "Peak Phase (Second Dhaiya)"
+    : rel === 1 ? "Setting Phase (Third Dhaiya)"
+    : null;
+  if (!phase) return { ...base, status: "No Sade Sati Currently" };
+  const pc = PHASE_CONTENT[phase];
+  return { ...base, status: phase, intensity: pc.intensity, focusArea: pc.focusArea, remedy: pc.remedy };
+}
+
 export function SadeSatiChecker() {
   const [selectedSign, setSelectedSign] = useState("Aquarius");
 
-  const result = useMemo(() => SADE_SATI_DATABASE[selectedSign] || SADE_SATI_DATABASE["Aquarius"], [selectedSign]);
+  const result = useMemo(() => computeSadeSati(selectedSign), [selectedSign]);
 
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
