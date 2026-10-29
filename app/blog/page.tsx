@@ -59,7 +59,7 @@ export default async function BlogPage() {
           >
             <div>
               {post.image && (
-                <div className="relative w-full h-48 rounded-xl overflow-hidden mb-4 border border-amber-500/30">
+                <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-4 border border-amber-500/30">
                   <Image
                     src={post.image}
                     alt={post.title}

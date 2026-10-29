@@ -117,7 +117,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Featured Image */}
         {post.image && (
-          <div className="relative w-full h-[260px] sm:h-[400px] rounded-2xl overflow-hidden mb-10 border border-amber-500/30 shadow-2xl">
+          <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden mb-10 border border-amber-500/30 shadow-2xl">
             <Image
               src={post.image}
               alt={post.title}
