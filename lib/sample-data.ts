@@ -813,5 +813,245 @@ Barely. Saturn moves at most about 0.13 degrees per day, so even a rough birth t
 ### Q4: What is the difference between a Saturn return and Sade Sati?
 A Saturn return is Saturn returning to its **birth position** (every ~29.5 years). Sade Sati is Saturn transiting the signs around your **Moon sign** (a 7.5-year cycle). Check your Sade Sati status with our **[Sade Sati Phase Checker](/tools/sade-sati)**.
 `
+  },
+{
+    id: "blog-12",
+    title: "Venus Sign Meaning: What Your Venus Sign Reveals About Your Love, Attraction and Money Style",
+    slug: "venus-sign-meaning-love-attraction-money-style",
+    metaDescription: "What does your Venus sign mean? Find yours free with our Venus sign calculator and learn what it reveals about your love style, attraction and money habits.",
+    image: "/blog/venus-sign-guide.jpg",
+    createdAt: new Date("2026-10-29"),
+    updatedAt: new Date("2026-10-29"),
+    content: `> **Executive Overview**:
+> Your **Venus sign** is the zodiac sign Venus occupied on the day you were born, and it describes how you love, what attracts you, what you find beautiful, and even how you spend money. Where your Sun sign shows your core identity, Venus shows your *taste* — in partners, in pleasure and in the things you choose to own. Find yours in seconds with our free **[Venus Sign Calculator](/tools/venus-sign)**.
+
+---
+
+## 1. What Is the Venus Sign, Exactly?
+
+Venus is the planet of love, attraction, beauty, harmony and value. In a birth chart it answers questions no other planet answers as directly: What kind of person draws you in? How do you show affection once someone has your heart? What feels luxurious to you? What do you spend on without thinking twice?
+
+Venus traditionally rules two signs — **Taurus** and **Libra** — which is why Venus themes always blend the physical (Taurus: touch, comfort, possessions, food) with the relational (Libra: partnership, fairness, aesthetics, peace-keeping).
+
+It helps to place Venus alongside the other two placements people check first:
+
+| Placement | What it describes | The question it answers |
+| :--- | :--- | :--- |
+| Sun sign | Core identity and life direction | Who am I becoming? |
+| Moon sign | Emotional needs and inner comfort | What makes me feel safe? |
+| Venus sign | Love style, attraction and values | What do I desire — and how do I pursue it? |
+
+Your Sun, Moon and Venus together form the emotional core of the chart, and you can map all three — plus your Rising sign — with our **[Big Three Calculator](/tools/big-three)**.
+
+---
+
+## 2. How to Find Your Venus Sign
+
+Venus changes sign roughly every three to four weeks, so your birthday alone is not enough to guess it — two people born a month apart with the same Sun sign can have completely different Venus signs. One reliable shortcut exists, though: Venus never travels more than about 47 degrees away from the Sun, so your Venus sign is always your Sun sign or one of the two signs on either side of it. That narrows it to five possibilities — an exact calculation does the rest.
+
+To calculate it properly you need:
+
+- **Your birth date** — essential, because Venus moves about a degree a day
+- **Your birth time** — helpful, especially if you were born on a day Venus changed signs
+- **Your birth place** — used to fix the time zone correctly
+
+Enter those three details in our **[Venus Sign Calculator](/tools/venus-sign)** and it returns your Venus sign instantly, with no manual chart work.
+
+---
+
+## 3. Venus Through All 12 Signs
+
+Read your sign below for its signature in three areas: how it loves, what attracts it, and how it handles money.
+
+| Venus in | In love | Attracted to | Money style |
+| :--- | :--- | :--- | :--- |
+| Aries | Fast, direct, passionate; loves the chase and honest sparks | Confidence, independence, physical energy | Impulse spender; buys for excitement, regrets little |
+| Taurus | Slow, loyal, deeply sensual; love is shown through touch and feeding people | Calm strength, good food, natural beauty | Careful saver who splurges only on lasting quality |
+| Gemini | Playful and curious; needs conversation as much as chemistry | Wit, cleverness, someone who keeps surprising them | Spends on books, gadgets, classes and short trips |
+| Cancer | Tender, protective, home-centred; remembers every small thing | Warmth, emotional honesty, a feeling of family | Security-first; saves quietly, spends on home and loved ones |
+| Leo | Grand, generous, romantic; wants to be admired and to admire back | Charisma, style, creative confidence | Big-hearted spender; loves luxury gifts and celebrations |
+| Virgo | Devoted through acts of service; affection is practical and precise | Competence, cleanliness, quiet intelligence | Analytical buyer; researches everything, hates waste |
+| Libra | The classic romantic; charming, diplomatic, partnership-oriented | Grace, beauty, good manners, artistic taste | Spends on appearance, art and shared experiences; may overspend to please |
+| Scorpio | Intense, private, all-or-nothing; bonds at a soul level | Mystery, depth, emotional courage | Secretive with money; saves for power moves, avoids debt traps |
+| Sagittarius | Adventurous and honest; needs freedom inside commitment | Optimism, humour, a partner who is also a travel mate | Spends on experiences and journeys; budgeting is a learned skill |
+| Capricorn | Serious, loyal, slow to commit but built to last | Ambition, maturity, quiet status | Long-term planner; invests, delays gratification, respects quality |
+| Aquarius | Unconventional and friendly; love grows out of shared ideas | Originality, independence, a mind that works differently | Spends on technology and causes; indifferent to status symbols |
+| Pisces | Dreamy, compassionate, deeply romantic; loves unconditionally | Sensitivity, artistry, a gentle soul | Generous to a fault; money flows toward art, music and helping others |
+
+Notice the element pattern: **fire-sign Venus** (Aries, Leo, Sagittarius) loves boldly and visibly, **earth-sign Venus** (Taurus, Virgo, Capricorn) loves steadily and practically, **air-sign Venus** (Gemini, Libra, Aquarius) loves mentally and socially, and **water-sign Venus** (Cancer, Scorpio, Pisces) loves emotionally and privately. If your Venus sign has never quite matched your Sun sign's love descriptions, this is usually why.
+
+---
+
+## 4. Venus in Relationships and Compatibility
+
+Venus compatibility is not about matching signs from a list — it is about whether two people's styles of giving and receiving love can actually meet. Three combinations matter most:
+
+- **Venus–Venus:** the same element means similar tastes in affection, leisure and spending, which removes a surprising amount of everyday friction.
+- **Venus–Mars:** one person's Venus sign describing what the other person's Mars sign actively pursues is the classic recipe for physical chemistry.
+- **Venus–Moon:** when one person's Venus speaks kindly to the other's Moon, affection lands as emotional safety — love that also feels like home. This is where your Venus sign meets the comfort needs described by your **[Moon Sign](/tools/moon-sign)**.
+
+A Venus clash is not a verdict on a relationship; it is information about where you will need translation. Fire Venus wants excitement scheduled often, earth Venus wants reliability proven daily — couples who know this stop taking the difference personally. For a full two-chart comparison, run both birth details through our **[Love Compatibility Calculator](/tools/love-compatibility)**, then read the Venus sections of each chart side by side.
+
+---
+
+## 5. Common Venus Sign Mistakes and Misconceptions
+
+1. **Judging compatibility by Sun signs alone.** Sun signs describe identity, not desire. Two "incompatible" Sun signs with harmonious Venus placements often outlast a textbook Sun match.
+2. **Assuming your Venus sign is your Sun sign.** Because Venus stays near the Sun it *can* match — but it can also sit up to two signs away, which is why so many people read the wrong love profile for years.
+3. **Believing Venus retrograde births are unlucky in love.** Being born during Venus retrograde simply turns the Venus expression inward: these natives often reflect deeply on relationships before committing. It is a style, not a curse.
+4. **Confusing the Venus sign with the Venus house.** The sign shows *how* you love; the house shows *where* love and money themes play out most strongly (career, home, community and so on). Both matter, differently.
+5. **Ignoring Venus for money.** Astrologers call Venus the planet of value for a reason — your Venus sign quietly predicts whether you are a saver, a splurger, a researcher or an experience-collector, as the table above shows.
+
+If any of these sound familiar, the fastest correction is to check the actual placement: our **[Venus Sign Calculator](/tools/venus-sign)** takes under a minute.
+
+### FAQs
+
+### Q1: Do I need my exact birth time to find my Venus sign?
+Usually not. Venus moves slowly enough that the date alone settles the sign for most people. Birth time only becomes decisive if you were born on the exact day Venus changed signs — a calculator using date, time and place removes all doubt.
+
+### Q2: Why is my Venus sign different from my Sun sign?
+Because Venus orbits close to the Sun but not in lockstep with it. Venus can sit up to about 47 degrees away, which means your Venus can be in your Sun sign or in any of the two signs before or after it — five possible signs in total.
+
+### Q3: Which matters more for love — Venus sign or Moon sign?
+Both, for different jobs. Venus describes attraction and how you express love; the Moon describes what you need to feel emotionally secure. Attraction without Moon comfort fades, and comfort without Venus attraction becomes friendship — lasting matches usually involve both.
+
+### Q4: Does my Venus sign really affect my money habits?
+In astrological practice, yes — Venus governs value and pleasure, so its sign colours what feels "worth it" to you. Taurus Venus happily pays for quality that lasts, Gemini Venus for learning and novelty, Leo Venus for celebration. Knowing your pattern is the first step to budgeting with it instead of against it.
+
+### Q5: What if I was born during Venus retrograde?
+Your Venus themes turn reflective: you may take longer to trust your attractions, revisit old relationships for closure, and prefer meaning over novelty in love and spending. It changes the tempo of Venus, not its strength — many astrologers find retrograde-born natives unusually self-aware about what they truly value.
+`
+  },
+{
+    id: "blog-13",
+    title: "Mercury Sign Meaning: How Your Mercury Sign Shapes the Way You Think, Talk and Learn",
+    slug: "mercury-sign-meaning-communication-thinking-style",
+    metaDescription: "Use our free Mercury sign calculator to find your Mercury sign, and discover what it reveals about how you think, talk, learn and handle Mercury retrograde.",
+    image: "/blog/mercury-sign-guide.jpg",
+    createdAt: new Date("2026-10-29"),
+    updatedAt: new Date("2026-10-29"),
+    content: `> **Executive Overview**:
+> Your **Mercury sign** is the zodiac sign Mercury occupied on the day you were born, and it describes your mental operating system: how you absorb information, form opinions, speak, write and learn. Two people can share a Sun sign yet think nothing alike — Mercury is usually the reason. Find yours in seconds with our free **[Mercury Sign Calculator](/tools/mercury-sign)**, then use this guide to understand what it means.
+
+---
+
+## 1. What Is a Mercury Sign?
+
+In astrology, Mercury rules the mind in its everyday form — not deep feelings or grand ambitions, but the practical machinery of thought. Your Mercury sign colours how you communicate (directly or diplomatically, in headlines or long detailed stories), how you learn (by doing, reading, listening or debating), and how you decide (fast instinctive calls, careful checklists, or endless weighing of options).
+
+Mercury is also the planet of language, commerce, siblings, short journeys and everyday technology. Its sign is an accent for your mind: the content is yours alone, but the *style* — speed, tone, structure — is Mercury's. That is why it explains your texting, meeting and study style better than your Sun sign can.
+
+---
+
+## 2. Same Sun Sign, Completely Different Minds
+
+Your Sun sign describes your core identity — the *what* of you. Mercury describes your processing unit — the *how*. That is why two Leos raised in the same house can argue and learn in opposite ways.
+
+Take two people with the Sun in Taurus. One has Mercury in Aries: she decides inside the meeting and speaks in short sentences. The other has Mercury in Gemini: he asks ten questions and talks each decision out loud. Same Sun — two different minds.
+
+That is why Sun-sign horoscopes so often miss on study, work and communication advice — Mercury's department. For the full identity picture — Sun, Moon and Rising together — use our **[Big Three Calculator](/tools/big-three)**. This guide covers the one placement that runs your head.
+
+---
+
+## 3. The Fact Most Guides Skip: Mercury Never Strays Far From Your Sun
+
+Here is the astronomy underneath the astrology. Mercury is the innermost planet, so from our viewpoint it can never appear more than about **28 degrees** away from the Sun in the sky — its greatest elongation.
+
+Because a zodiac sign spans 30 degrees, one strict consequence follows: **your Mercury sign can only ever be your Sun sign, the sign just before it, or the sign just after it** — for anyone, ever.
+
+| Your Sun sign | Your Mercury can only be in |
+| :--- | :--- |
+| Aries | Pisces, Aries or Taurus |
+| Taurus | Aries, Taurus or Gemini |
+| Gemini | Taurus, Gemini or Cancer |
+| Cancer | Gemini, Cancer or Leo |
+| Leo | Cancer, Leo or Virgo |
+| Virgo | Leo, Virgo or Libra |
+| Libra | Virgo, Libra or Scorpio |
+| Scorpio | Libra, Scorpio or Sagittarius |
+| Sagittarius | Scorpio, Sagittarius or Capricorn |
+| Capricorn | Sagittarius, Capricorn or Aquarius |
+| Aquarius | Capricorn, Aquarius or Pisces |
+| Pisces | Aquarius, Pisces or Aries |
+
+Read every Mercury interpretation as a *variation on your Sun sign*: a neighbouring-sign Mercury creates an inner accent, never an inner stranger. Guessing yours from your Sun sign is a coin flip — all three options are common.
+
+---
+
+## 4. How to Calculate Your Mercury Sign
+
+Mercury moves fast — roughly a degree or more per day — and spends only about two to three weeks in each sign, so your birth month alone cannot tell you its sign. You need your **date of birth**; birth time matters only if Mercury was switching signs that day.
+
+1. Open our **[Mercury Sign Calculator](/tools/mercury-sign)**.
+2. Enter your date of birth (add birth time and place for a borderline day).
+3. Your Mercury sign appears instantly, with its degree.
+
+Then place Mercury in context: your **[Moon Sign Calculator](/tools/moon-sign)** shows how you process feelings, and your **[Rising Sign Calculator](/tools/rising-sign)** shows the face you present to the world. Mercury is the third voice — the one that turns thoughts and feelings into words.
+
+---
+
+## 5. Mercury Through the 12 Signs, by Element
+
+### Fire signs — Mercury in Aries, Leo, Sagittarius
+
+Fire Mercury thinks out loud, and fast. Ideas arrive as sparks; the urge is to share them now.
+
+- **Mercury in Aries** — blunt, quick, competitive. Learns by trying; debates like a sport. Brilliant in brainstorms, bored by memos. Watch the habit of finishing other people's sentences.
+- **Mercury in Leo** — expressive and story-driven. Learns by performing and teaching; persuades through confidence. Watch for hearing questions about an idea as questions about you.
+- **Mercury in Sagittarius** — big-picture and philosophical. Learns whole subjects, not fragments; restless with fine print. Watch bluntness — your honesty lands harder than you intend.
+
+### Earth signs — Mercury in Taurus, Virgo, Capricorn
+
+Earth Mercury thinks in structures and evidence; an idea is real only once it works.
+
+- **Mercury in Taurus** — slow, thorough, immovable once convinced. Learns step by step, by repetition; a negotiator who never bluffs. Watch stubbornness — hear new data before the verdict.
+- **Mercury in Virgo** — precise and analytical, editing as it goes. Learns by breaking things into parts; catches the error in row 214. Watch analysis paralysis.
+- **Mercury in Capricorn** — strategic, economical with words. Learns whatever serves the goal; plans three moves ahead. Watch pessimism — a plan's first draft is not its fate.
+
+### Air signs — Mercury in Gemini, Libra, Aquarius
+
+Air Mercury thinks in connections. Talking is not reporting on thought — talking *is* the thought process.
+
+- **Mercury in Gemini** — Mercury rules Gemini, so the planet is at home: fast, curious, verbal, funny. Learns five things at once. Watch depth — finishing one book beats skimming ten.
+- **Mercury in Libra** — diplomatic and comparative. Learns through discussion; finds the wording both sides accept. Watch indecision — a good decision today beats a perfect one next month.
+- **Mercury in Aquarius** — original and systems-minded, allergic to received wisdom. Learns by questioning the premise; sees patterns others miss. Watch detachment — people need warmth in a message, not only logic.
+
+### Water signs — Mercury in Cancer, Scorpio, Pisces
+
+Water Mercury thinks in impressions and undercurrents; tone carries as much information as words.
+
+- **Mercury in Cancer** — retentive and intuitive. Learns through story and emotional relevance; remembers what was said three years ago. Watch defensiveness — feedback on the work is not feedback on your worth.
+- **Mercury in Scorpio** — investigative, X-ray minded. Learns by digging until the hidden motive shows; reads the silence between sentences. Watch suspicion — not every question is a trap.
+- **Mercury in Pisces** — imagistic and intuitive. Learns by immersion and metaphor; extraordinary at empathy and imagination. Watch vagueness — put the agreement in writing, kindly, every time.
+
+---
+
+## 6. Mercury Retrograde and Your Natal Mercury Sign
+
+Three or four times a year, Mercury appears to move backwards for about three weeks — Mercury retrograde. Two things are worth keeping straight.
+
+First, retrograde is a **transit**: what Mercury is doing in the sky now, for everyone. It is not your natal placement and does not change your Mercury sign. The classic advice — back up files, re-read contracts, expect delays, review rather than launch — applies to all of us equally.
+
+Second, your **natal** Mercury sign colours how you experience those weeks. A Virgo Mercury native handles retrograde by re-checking everything twice, and secretly enjoys it. A Sagittarius Mercury native feels the same weeks as pure friction. Finding your natal sign with our **[Mercury Sign Calculator](/tools/mercury-sign)** tells you whether retrograde is your natural audit season or the weeks to double your buffer time.
+
+One distinction more: some people are born *during* a retrograde, with Mercury retrograde in the natal chart itself — a separate lifelong trait: a reflective mind that revises its thoughts before speaking.
+
+### FAQs
+
+### Q1: Can my Mercury sign be different from my Sun sign?
+Yes — and for most people it is. Mercury never travels more than about 28 degrees from the Sun, so yours sits in your Sun sign or a neighbouring one, but all three outcomes are common. Only a calculation from your birth date tells you which.
+
+### Q2: Do I need my exact birth time to find my Mercury sign?
+Usually not. Mercury moves about a degree a day, so your birth date alone settles it — unless you were born on the day Mercury changed signs, when the birth time decides. If your result sits within a degree of a boundary, re-check with your birth time.
+
+### Q3: What does Mercury rule besides communication?
+Mercury also governs learning style, writing, short journeys, commerce and contracts, siblings, and everyday technology — which is why Mercury placements show up in school reports, interviews and group chats.
+
+### Q4: Is one Mercury sign better than another?
+No. Each sign trades strengths: Gemini Mercury is faster, Virgo Mercury more accurate, Scorpio Mercury deeper, Pisces Mercury wider in imagination. Effectiveness comes from using your style deliberately — blind spot included.
+
+### Q5: How is a Mercury sign different from a Moon sign?
+Mercury describes how you *think and speak*; the Moon describes how you *feel and react*. When the two harmonise, words and feelings agree. When they clash, you may sound calm while feeling stormy. Comparing the two quickly reveals your inner conversations.
+`
   }
 ];
