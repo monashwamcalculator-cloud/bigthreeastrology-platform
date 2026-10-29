@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { CityAutocomplete } from "@/components/city-autocomplete";
+import { CityAutocomplete, type PlaceInfo } from "@/components/city-autocomplete";
+import { ascendant, moonLongitude, signOf, sunLongitude, toSidereal } from "@/lib/astro-engine";
 
 type ZodiacData = {
   emoji: string;
@@ -24,12 +25,6 @@ const ZODIAC_DATA: Record<string, ZodiacData> = {
   Pisces: { emoji: "♓", element: "Water", desc: "Dreamy empath with boundless imagination" }
 };
 
-const SUN_SIGNS = [
-  "Aries", "Taurus", "Gemini", "Cancer", 
-  "Leo", "Virgo", "Libra", "Scorpio", 
-  "Sagittarius", "Capricorn", "Aquarius", "Pisces"
-];
-
 // All 60 Minutes (00 through 59)
 const ALL_MINUTES = Array.from({ length: 60 }, (_, i) => i.toString().padStart(2, "0"));
 
@@ -43,6 +38,7 @@ export function BigThreeCalculator() {
   const [birthPeriod, setBirthPeriod] = useState<"AM" | "PM">("AM");
 
   const [birthLocation, setBirthLocation] = useState("");
+  const [place, setPlace] = useState<PlaceInfo | null>(null);
   const [system, setSystem] = useState<"western" | "vedic">("western");
 
   // Calculate 24-hour hour from 12-hour + AM/PM
@@ -53,34 +49,44 @@ export function BigThreeCalculator() {
     return h;
   }, [birthHour, birthPeriod]);
 
-  // Global Timezone-immune Calculation
+  // Real astronomical calculation (lib/astro-engine.ts):
+  // Sun/Moon ecliptic longitudes for the exact birth moment; the Rising
+  // sign additionally needs the birthplace coordinates + timezone.
   const result = useMemo(() => {
     if (!birthDate) return null;
 
     const parts = birthDate.split("-");
     if (parts.length !== 3) return null;
 
-    const day = parseInt(parts[2], 10);
+    const year = parseInt(parts[0], 10);
     const month = parseInt(parts[1], 10);
+    const day = parseInt(parts[2], 10);
+    const minute = parseInt(birthMinute, 10) || 0;
 
-    // Apply Vedic Sidereal Ayanamsa shift if Vedic mode selected
-    const shift = system === "vedic" ? 11 : 0; // ~24 degree backward shift
+    let utcDate: Date;
+    if (place) {
+      const utcMinutes = timeHour24 * 60 + minute - Math.round(place.utcOffset * 60);
+      utcDate = new Date(Date.UTC(year, month - 1, day, 0, utcMinutes));
+    } else {
+      // No birthplace picked yet: evaluate at midday UTC so the Sun and
+      // Moon signs are right for the civil date in most cases. Rising
+      // needs the place, so it stays empty until a city is selected.
+      utcDate = new Date(Date.UTC(year, month - 1, day, 12, 0));
+    }
 
-    const sunIndex = (day + month * 2 + shift) % 12;
-    const moonIndex = (day * 3 + month + shift) % 12;
-    const risingIndex = (sunIndex + Math.floor(timeHour24 / 2)) % 12;
+    const conv = (lon: number) => (system === "vedic" ? toSidereal(lon, utcDate) : lon);
+    const sun = signOf(conv(sunLongitude(utcDate))).name;
+    const moon = signOf(conv(moonLongitude(utcDate))).name;
+    const rising = place ? signOf(conv(ascendant(utcDate, place.lat, place.lon))).name : null;
 
-    return {
-      sun: SUN_SIGNS[sunIndex],
-      moon: SUN_SIGNS[moonIndex],
-      rising: SUN_SIGNS[risingIndex]
-    };
-  }, [birthDate, timeHour24, system]);
+    return { sun, moon, rising };
+  }, [birthDate, birthMinute, timeHour24, system, place]);
 
   const handleShare = async () => {
     if (!result) return;
     const locationText = birthLocation ? `  ${birthLocation}` : "";
-    const text = ` My ${system === "vedic" ? "Vedic (Indian)" : "Western"} Big Three Astrology Snapshot ${locationText}\n Sun: ${result.sun} ${ZODIAC_DATA[result.sun].emoji}\n Moon: ${result.moon} ${ZODIAC_DATA[result.moon].emoji}\n Rising: ${result.rising} ${ZODIAC_DATA[result.rising].emoji}\n\nDiscover yours globally at BIGThreeAstrology!`;
+    const risingText = result.rising ? `${result.rising} ${ZODIAC_DATA[result.rising].emoji}` : "(select birth city)";
+    const text = ` My ${system === "vedic" ? "Vedic (Indian)" : "Western"} Big Three Astrology Snapshot ${locationText}\n Sun: ${result.sun} ${ZODIAC_DATA[result.sun].emoji}\n Moon: ${result.moon} ${ZODIAC_DATA[result.moon].emoji}\n Rising: ${risingText}\n\nDiscover yours globally at BIGThreeAstrology!`;
     try {
       await navigator.clipboard.writeText(text);
       alert("Results copied to clipboard!");
@@ -188,7 +194,7 @@ export function BigThreeCalculator() {
           {/* Location with Auto Dropdown */}
           <div className="flex flex-col gap-2">
             <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest )</label>
-            <CityAutocomplete value={birthLocation} onChange={setBirthLocation} placeholder="Type e.g., Mumbai, NY, London" />
+            <CityAutocomplete value={birthLocation} onChange={setBirthLocation} onPlaceSelect={setPlace} placeholder="Type e.g., Mumbai, NY, London" />
           </div>
         </div>
 
@@ -212,6 +218,19 @@ export function BigThreeCalculator() {
                 { label: "Moon Sign", sign: result.moon, delay: "animate-delay-200", title: "Emotions & Mind (Manas)" },
                 { label: "Rising Sign", sign: result.rising, delay: "animate-delay-300", title: "Ascendant (Lagna)" }
               ].map((placement, idx) => {
+                if (!placement.sign) {
+                  return (
+                    <div key={idx} className={`glass-card-hover p-5 flex flex-col items-center text-center animate-slide-up ${placement.delay}`}>
+                      <div className="text-sm text-emerald-200 uppercase tracking-widest font-semibold mb-1">{placement.label}</div>
+                      <div className="text-xs text-emerald-300 mb-3">{placement.title}</div>
+                      <div className="text-5xl mb-3 drop-shadow-md">♄</div>
+                      <div className="text-xl font-display font-bold text-white mb-2">Needs Birth City</div>
+                      <p className="text-sm text-emerald-200 leading-relaxed italic">
+                        "Pick your birth city from the suggestions above — the Rising sign is calculated from its coordinates and your exact birth time."
+                      </p>
+                    </div>
+                  );
+                }
                 const data = ZODIAC_DATA[placement.sign];
                 const elementClass = data.element === "Fire" ? "bg-rose-500/20 text-rose-300 border-rose-400/30" :
                                    data.element === "Earth" ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/30" :
@@ -234,6 +253,11 @@ export function BigThreeCalculator() {
                 );
               })}
             </div>
+            <p className="text-[11px] text-emerald-200/80 text-center mt-6 max-w-2xl mx-auto leading-relaxed">
+              Calculated from the real positions of the Sun and Moon at your birth moment
+              {place ? " and your birthplace coordinates" : ""} (astronomical approximation).
+              A sign sitting within about a degree of a boundary can differ between calculators.
+            </p>
             <div className="mt-8 flex justify-center animate-slide-up animate-delay-500">
               <button onClick={handleShare} className="btn-secondary flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" x2="12" y1="2" y2="15"></line></svg>

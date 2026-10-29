@@ -129,14 +129,62 @@ const LOCAL_POPULAR_CITIES = [
   "Auckland, New Zealand"
 ];
 
+
+export type PlaceInfo = { name: string; lat: number; lon: number; utcOffset: number };
+
+// Coordinates + standard UTC offset for the built-in popular cities.
+// Used by calculators that need the birthplace (e.g. Rising sign).
+const CITY_COORDS: Record<string, [number, number, number]> = {
+  "Mumbai, Maharashtra, India": [19.076, 72.878, 5.5],
+  "Delhi, India": [28.614, 77.209, 5.5],
+  "Bengaluru, Karnataka, India": [12.972, 77.595, 5.5],
+  "Hyderabad, Telangana, India": [17.385, 78.487, 5.5],
+  "Ahmedabad, Gujarat, India": [23.023, 72.571, 5.5],
+  "Chennai, Tamil Nadu, India": [13.083, 80.270, 5.5],
+  "Kolkata, West Bengal, India": [22.573, 88.364, 5.5],
+  "Surat, Gujarat, India": [21.170, 72.831, 5.5],
+  "Pune, Maharashtra, India": [18.520, 73.857, 5.5],
+  "Jaipur, Rajasthan, India": [26.912, 75.787, 5.5],
+  "Lucknow,Uttar Pradesh, India": [26.847, 80.947, 5.5],
+  "Kanpur,Uttar Pradesh, India": [26.450, 80.332, 5.5],
+  "Nagpur, Maharashtra, India": [21.146, 79.088, 5.5],
+  "Indore, Madhya Pradesh, India": [22.720, 75.858, 5.5],
+  "Thane, Maharashtra, India": [19.218, 72.978, 5.5],
+  "Bhopal, Madhya Pradesh, India": [23.259, 77.413, 5.5],
+  "Visakhapatnam, Andhra Pradesh, India": [17.687, 83.279, 5.5],
+  "Patna, Bihar, India": [25.594, 85.138, 5.5],
+  "Vadodara, Gujarat, India": [22.307, 73.181, 5.5],
+  "Ghaziabad,Uttar Pradesh, India": [28.670, 77.454, 5.5],
+  "Ludhiana, Punjab, India": [30.901, 75.857, 5.5],
+  "Agra, Uttar Pradesh, India": [27.177, 78.008, 5.5],
+  "Nashik, Maharashtra, India": [19.997, 73.790, 5.5],
+  "Faridabad, Haryana, India": [28.409, 77.318, 5.5],
+  "Meerut,Uttar Pradesh, India": [28.984, 77.706, 5.5],
+  "Rajkot, Gujarat, India": [22.308, 70.800, 5.5],
+  "Varanasi, Uttar Pradesh, India": [25.318, 82.999, 5.5],
+  "Srinagar, Jammu and Kashmir, India": [34.084, 74.798, 5.5],
+  "Amritsar, Punjab, India": [31.634, 74.873, 5.5],
+  "Dhaka, Bangladesh": [23.811, 90.413, 6],
+  "Colombo, Sri Lanka": [6.927, 79.861, 5.5],
+  "Bangkok, Thailand": [13.756, 100.502, 7],
+  "Kuala Lumpur, Malaysia": [3.139, 101.687, 8],
+  "Auckland, New Zealand": [-36.849, 174.763, 12]
+};
+
+function estimateUtcOffset(city: string, lon: number): number {
+  if (city.endsWith(", India")) return 5.5;
+  return Math.round((lon / 15) * 2) / 2; // nearest half-hour from longitude
+}
+
 type CityAutocompleteProps = {
   value: string;
   onChange: (val: string) => void;
+  onPlaceSelect?: (place: PlaceInfo | null) => void;
   placeholder?: string;
   id?: string;
 };
 
-export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g. Mumbai, NY, London", id }: CityAutocompleteProps) {
+export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder = "Type city e.g. Mumbai, NY, London", id }: CityAutocompleteProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -210,6 +258,28 @@ export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g
   const handleSelect = (city: string) => {
     onChange(city);
     setIsOpen(false);
+    if (!onPlaceSelect) return;
+    const known = CITY_COORDS[city];
+    if (known) {
+      onPlaceSelect({ name: city, lat: known[0], lon: known[1], utcOffset: known[2] });
+      return;
+    }
+    // Geocode the selected place name to coordinates (Nominatim).
+    fetch(
+      `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(city)}&limit=1`,
+      { headers: { "User-Agent": "BIGThreeAstrology/1.0" } }
+    )
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (Array.isArray(data) && data[0]) {
+          const lat = parseFloat(data[0].lat);
+          const lon = parseFloat(data[0].lon);
+          onPlaceSelect({ name: city, lat, lon, utcOffset: estimateUtcOffset(city, lon) });
+        } else {
+          onPlaceSelect(null);
+        }
+      })
+      .catch(() => onPlaceSelect(null));
   };
 
   return (
@@ -220,7 +290,7 @@ export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g
           type="text"
           className="input-cosmic w-full text-white placeholder-amber-200/50 pr-8"
           value={value}
-          onChange={(e) => onChange(e.target.value)}
+          onChange={(e) => { onChange(e.target.value); onPlaceSelect?.(null); }}
           onFocus={() => {
             if (value.trim().length >= 2 && suggestions.length > 0) {
               setIsOpen(true);
