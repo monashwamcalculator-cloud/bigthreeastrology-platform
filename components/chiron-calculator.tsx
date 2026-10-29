@@ -97,18 +97,56 @@ const CHIRON_DATABASE: Record<string, ChironData> = {
   }
 };
 
-const SIGNS = Object.keys(CHIRON_DATABASE);
+
+
+// Chiron sign ingresses (tropical), compiled from published ephemeris
+// tables (Cafe Astrology Chiron sign tables; 2019/2026-27 updates from
+// published ingress notices). Includes retrograde re-entries, so any
+// birth date resolves to the sign Chiron actually occupied that day.
+// Before the first listed ingress (24 May 1926) Chiron was in Aries.
+const CHIRON_INGRESSES: Array<[string, string]> = [
+  ["1926-05-24", "Taurus"], ["1926-10-20", "Aries"], ["1927-03-25", "Taurus"],
+  ["1933-06-06", "Gemini"], ["1933-12-22", "Taurus"], ["1934-03-23", "Gemini"],
+  ["1937-08-27", "Cancer"], ["1937-11-22", "Gemini"], ["1938-05-28", "Cancer"],
+  ["1940-09-29", "Leo"], ["1940-12-27", "Cancer"], ["1941-06-16", "Leo"],
+  ["1943-07-26", "Virgo"],
+  ["1944-11-17", "Libra"], ["1945-03-23", "Virgo"], ["1945-07-22", "Libra"],
+  ["1946-11-10", "Scorpio"],
+  ["1948-11-28", "Sagittarius"],
+  ["1951-02-08", "Capricorn"], ["1951-06-18", "Sagittarius"], ["1951-11-08", "Capricorn"],
+  ["1955-01-27", "Aquarius"],
+  ["1960-03-26", "Pisces"], ["1960-08-19", "Aquarius"], ["1961-01-20", "Pisces"],
+  ["1968-04-01", "Aries"], ["1968-10-18", "Pisces"], ["1969-01-30", "Aries"],
+  ["1976-05-28", "Taurus"], ["1976-10-13", "Aries"], ["1977-03-28", "Taurus"],
+  ["1983-06-21", "Gemini"], ["1983-11-29", "Taurus"], ["1984-04-10", "Gemini"],
+  ["1988-06-21", "Cancer"],
+  ["1991-07-21", "Leo"],
+  ["1993-09-03", "Virgo"],
+  ["1995-09-09", "Libra"],
+  ["1996-12-29", "Scorpio"], ["1997-04-04", "Libra"], ["1997-09-02", "Scorpio"],
+  ["1999-01-07", "Sagittarius"], ["1999-06-01", "Scorpio"], ["1999-09-21", "Sagittarius"],
+  ["2001-12-11", "Capricorn"],
+  ["2005-02-21", "Aquarius"], ["2005-07-31", "Capricorn"], ["2005-12-05", "Aquarius"],
+  ["2010-04-20", "Pisces"], ["2010-07-20", "Aquarius"], ["2011-02-08", "Pisces"],
+  ["2018-04-17", "Aries"], ["2018-09-25", "Pisces"], ["2019-02-18", "Aries"],
+  ["2026-06-19", "Taurus"], ["2026-09-18", "Aries"], ["2027-04-14", "Taurus"],
+];
+
+function chironSignFor(birthDate: string): string {
+  let sign = "Aries"; // Chiron was in Aries before 24 May 1926
+  for (const [date, entered] of CHIRON_INGRESSES) {
+    if (birthDate >= date) sign = entered;
+    else break;
+  }
+  return sign;
+}
 
 export function ChironCalculator() {
   const [birthDate, setBirthDate] = useState("");
 
   const chironInfo = useMemo(() => {
     if (!birthDate) return CHIRON_DATABASE["Aries"];
-    const parts = birthDate.split("-");
-    const year = parseInt(parts[0], 10) || 1995;
-    const month = parseInt(parts[1], 10) || 1;
-    const index = (year + month) % 12;
-    return CHIRON_DATABASE[SIGNS[index]] || CHIRON_DATABASE["Aries"];
+    return CHIRON_DATABASE[chironSignFor(birthDate)] || CHIRON_DATABASE["Aries"];
   }, [birthDate]);
 
   return (
