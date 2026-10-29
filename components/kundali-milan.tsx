@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { CityAutocomplete } from "@/components/city-autocomplete";
+import { CityAutocomplete, type PlaceInfo } from "@/components/city-autocomplete";
+import { moonLongitude, nakshatraOf, signOf, toSidereal } from "@/lib/astro-engine";
 
 // 27 Vedic Nakshatras & their properties
 type Nakshatra = {
@@ -39,79 +40,166 @@ const NAKSHATRAS: Nakshatra[] = [
   { name: "Dhanishta", rashi: "Aquarius", gana: "Rakshasa", nadi: "Madhya", varna: "Shudra", yoni: "Lion" },
   { name: "Shatabhisha", rashi: "Aquarius", gana: "Rakshasa", nadi: "Adi", varna: "Shudra", yoni: "Horse" },
   { name: "Purva Bhadrapada", rashi: "Pisces", gana: "Manushya", nadi: "Adi", varna: "Brahmin", yoni: "Lion" },
-  { name: "Uttara Bhadrapada", rashi: "Pisces", gana: "Deva", nadi: "Madhya", varna: "Kshatriya", yoni: "Cow" },
+  { name: "Uttara Bhadrapada", rashi: "Pisces", gana: "Manushya", nadi: "Madhya", varna: "Kshatriya", yoni: "Cow" },
   { name: "Revati", rashi: "Pisces", gana: "Deva", nadi: "Antya", varna: "Shudra", yoni: "Elephant" }
 ];
 
 // All 60 Minutes (00 through 59)
 const ALL_MINUTES = Array.from({ length: 60 }, (_, i) => i.toString().padStart(2, "0"));
 
-// Helper to derive Nakshatra based on Birth Date & Time
-function getNakshatra(dateStr: string, hour24: number): Nakshatra {
-  if (!dateStr) return NAKSHATRAS[0];
+// ---- Real Ashtakoota calculation from engine Moon positions ----
+
+type BirthMoon = {
+  nakshatra: Nakshatra;
+  nakIndex: number;
+  pada: number;
+  moonSign: string;
+  signIndex: number;
+  degreeInSign: number;
+};
+
+const SIGN_LORDS = ["Mars", "Venus", "Mercury", "Moon", "Sun", "Mercury", "Venus", "Mars", "Jupiter", "Saturn", "Saturn", "Jupiter"];
+// Varna by Moon sign: water = Brahmin (4), fire = Kshatriya (3), earth = Vaishya (2), air = Shudra (1)
+const SIGN_VARNA = [3, 2, 1, 4, 3, 2, 1, 4, 3, 2, 1, 4];
+
+function getBirthMoon(dateStr: string, hour24: number, minute: number, place: PlaceInfo | null): BirthMoon | null {
+  if (!dateStr) return null;
   const parts = dateStr.split("-");
+  if (parts.length !== 3) return null;
   const year = parseInt(parts[0], 10) || 1995;
   const month = parseInt(parts[1], 10) || 1;
   const day = parseInt(parts[2], 10) || 1;
-
-  const seed = (year * 365 + month * 31 + day * 7 + hour24 * 13) % 27;
-  return NAKSHATRAS[seed];
+  const offset = place ? place.utcOffset : 5.5; // IST default when no place is picked (see method note)
+  const utcDate = new Date(Date.UTC(year, month - 1, day, hour24, minute) - offset * 3600_000);
+  const sidMoon = toSidereal(moonLongitude(utcDate), utcDate);
+  const nk = nakshatraOf(sidMoon);
+  const sign = signOf(sidMoon);
+  return {
+    nakshatra: NAKSHATRAS[nk.index],
+    nakIndex: nk.index,
+    pada: nk.pada,
+    moonSign: sign.name,
+    signIndex: sign.index,
+    degreeInSign: sign.degreeInSign,
+  };
 }
 
-// Calculate Ashta Koota (36 Gunas) Kundali Match
-function calculateKundaliMatch(boyNak: Nakshatra, girlNak: Nakshatra) {
-  // 1. Varna Koota (Max 1)
-  const varnaOrder = { Brahmin: 4, Kshatriya: 3, Vaishya: 2, Shudra: 1 };
-  let varnaScore = varnaOrder[boyNak.varna] >= varnaOrder[girlNak.varna] ? 1 : 0;
+type VashyaGroup = "Chatushpada" | "Manava" | "Jalachara" | "Vanachara" | "Keeta";
 
-  // 2. Vashya Koota (Max 2)
-  let vashyaScore = boyNak.rashi === girlNak.rashi ? 2 : 1.5;
+function vashyaGroup(signIndex: number, degreeInSign: number): VashyaGroup {
+  const secondHalf = degreeInSign >= 15;
+  switch (signIndex) {
+    case 0: case 1: return "Chatushpada"; // Aries, Taurus
+    case 2: case 5: case 6: return "Manava"; // Gemini, Virgo, Libra
+    case 3: return "Jalachara"; // Cancer
+    case 4: return "Vanachara"; // Leo
+    case 7: return "Keeta"; // Scorpio
+    case 8: return secondHalf ? "Manava" : "Chatushpada"; // Sagittarius
+    case 9: return secondHalf ? "Jalachara" : "Chatushpada"; // Capricorn
+    case 10: return secondHalf ? "Jalachara" : "Manava"; // Aquarius
+    default: return "Jalachara"; // Pisces
+  }
+}
 
-  // 3. Tara Koota (Max 3)
-  const boyNakIndex = NAKSHATRAS.findIndex((n) => n.name === boyNak.name);
-  const girlNakIndex = NAKSHATRAS.findIndex((n) => n.name === girlNak.name);
-  const nakDiff = Math.abs(boyNakIndex - girlNakIndex) % 9;
-  let taraScore = [1, 2, 3, 5, 7].includes(nakDiff) ? 3 : 1.5;
+const VASHYA_MATRIX: Record<VashyaGroup, Record<VashyaGroup, number>> = {
+  Chatushpada: { Chatushpada: 2, Manava: 1, Jalachara: 1, Vanachara: 0, Keeta: 1 },
+  Manava: { Chatushpada: 1, Manava: 2, Jalachara: 1.5, Vanachara: 0, Keeta: 1 },
+  Jalachara: { Chatushpada: 1, Manava: 1.5, Jalachara: 2, Vanachara: 1, Keeta: 1 },
+  Vanachara: { Chatushpada: 0, Manava: 0, Jalachara: 1, Vanachara: 2, Keeta: 0 },
+  Keeta: { Chatushpada: 1, Manava: 1, Jalachara: 1, Vanachara: 0, Keeta: 2 },
+};
 
-  // 4. Yoni Koota (Max 4)
-  let yoniScore = boyNak.yoni === girlNak.yoni ? 4 : 2.5;
+const PLANET_FRIENDS: Record<string, string[]> = {
+  Sun: ["Moon", "Mars", "Jupiter"],
+  Moon: ["Sun", "Mercury"],
+  Mars: ["Sun", "Moon", "Jupiter"],
+  Mercury: ["Sun", "Venus"],
+  Jupiter: ["Sun", "Moon", "Mars"],
+  Venus: ["Mercury", "Saturn"],
+  Saturn: ["Mercury", "Venus"],
+};
+const PLANET_ENEMIES: Record<string, string[]> = {
+  Sun: ["Venus", "Saturn"],
+  Moon: [],
+  Mars: ["Mercury"],
+  Mercury: ["Moon"],
+  Jupiter: ["Mercury", "Venus"],
+  Venus: ["Sun", "Moon"],
+  Saturn: ["Sun", "Moon", "Mars"],
+};
 
-  // 5. Graha Maitri Koota (Max 5)
-  let maitriScore = boyNak.rashi === girlNak.rashi ? 5 : 4;
+function planetRelation(a: string, b: string): "friend" | "enemy" | "neutral" {
+  if (PLANET_FRIENDS[a]?.includes(b)) return "friend";
+  if (PLANET_ENEMIES[a]?.includes(b)) return "enemy";
+  return "neutral";
+}
 
-  // 6. Gana Koota (Max 6)
-  let ganaScore = 6;
-  if (boyNak.gana === girlNak.gana) {
-    ganaScore = 6;
-  } else if (
-    (boyNak.gana === "Deva" && girlNak.gana === "Manushya") ||
-    (boyNak.gana === "Manushya" && girlNak.gana === "Deva")
-  ) {
-    ganaScore = 5;
-  } else if (
-    (boyNak.gana === "Deva" && girlNak.gana === "Rakshasa") ||
-    (boyNak.gana === "Rakshasa" && girlNak.gana === "Deva")
-  ) {
-    ganaScore = 1;
+const GANA_MATRIX: Record<string, Record<string, number>> = {
+  Deva: { Deva: 6, Manushya: 6, Rakshasa: 0 },
+  Manushya: { Deva: 5, Manushya: 6, Rakshasa: 0 },
+  Rakshasa: { Deva: 1, Manushya: 0, Rakshasa: 6 },
+};
+
+// Classical extreme-enemy (ati-vair) yoni pairs
+const YONI_EXTREME_ENEMIES: Array<[string, string]> = [
+  ["Horse", "Buffalo"], ["Elephant", "Lion"], ["Sheep", "Monkey"],
+  ["Serpent", "Mongoose"], ["Dog", "Deer"], ["Cat", "Rat"], ["Cow", "Tiger"],
+];
+
+function taraDirection(fromIdx: number, toIdx: number): number {
+  const count = ((toIdx - fromIdx + 27) % 27) + 1;
+  const rem = count % 9;
+  return [3, 5, 7].includes(rem) ? 0 : 1.5;
+}
+
+// Calculate Ashta Koota (36 Gunas) Kundali Match — standard rules, real Moon data
+function calculateKundaliMatch(boy: BirthMoon, girl: BirthMoon) {
+  const boyNak = boy.nakshatra;
+  const girlNak = girl.nakshatra;
+
+  // 1. Varna Koota (Max 1) — from Moon signs
+  const varnaScore = SIGN_VARNA[boy.signIndex] >= SIGN_VARNA[girl.signIndex] ? 1 : 0;
+
+  // 2. Vashya Koota (Max 2) — sign groups
+  const vashyaScore = VASHYA_MATRIX[vashyaGroup(boy.signIndex, boy.degreeInSign)][vashyaGroup(girl.signIndex, girl.degreeInSign)];
+
+  // 3. Tara Koota (Max 3) — both directions
+  const taraScore = taraDirection(girl.nakIndex, boy.nakIndex) + taraDirection(boy.nakIndex, girl.nakIndex);
+
+  // 4. Yoni Koota (Max 4) — same animal 4, extreme enemies 0, otherwise 2 (see method note)
+  let yoniScore = 2;
+  if (boyNak.yoni === girlNak.yoni) yoniScore = 4;
+  else if (YONI_EXTREME_ENEMIES.some(([a, b]) => (boyNak.yoni === a && girlNak.yoni === b) || (boyNak.yoni === b && girlNak.yoni === a))) yoniScore = 0;
+
+  // 5. Graha Maitri Koota (Max 5) — Moon-sign lords' natural friendship
+  const boyLord = SIGN_LORDS[boy.signIndex];
+  const girlLord = SIGN_LORDS[girl.signIndex];
+  let maitriScore: number;
+  if (boyLord === girlLord) {
+    maitriScore = 5;
   } else {
-    ganaScore = 0;
+    const r1 = planetRelation(boyLord, girlLord);
+    const r2 = planetRelation(girlLord, boyLord);
+    const combo = [r1, r2].sort().join("+");
+    maitriScore = combo === "friend+friend" ? 5
+      : combo === "friend+neutral" ? 4
+      : combo === "neutral+neutral" ? 3
+      : combo === "enemy+friend" ? 1
+      : combo === "enemy+neutral" ? 0.5
+      : 0;
   }
 
-  // 7. Bhakoot Koota (Max 7)
-  let bhakootScore = 7;
-  if (boyNak.rashi === girlNak.rashi) {
-    bhakootScore = 7;
-  } else {
-    bhakootScore = 7; // Harmonies default
-  }
+  // 6. Gana Koota (Max 6) — classical asymmetric table (boy's gana rows)
+  const ganaScore = GANA_MATRIX[boyNak.gana][girlNak.gana];
 
-  // 8. Nadi Koota (Max 8) - Most Critical
-  let nadiScore = 8;
-  if (boyNak.nadi === girlNak.nadi) {
-    nadiScore = 0; // Nadi Dosha
-  } else {
-    nadiScore = 8;
-  }
+  // 7. Bhakoot Koota (Max 7) — 2-12, 5-9 and 6-8 sign relationships score 0
+  const gFromB = ((girl.signIndex - boy.signIndex + 12) % 12) + 1;
+  const bFromG = ((boy.signIndex - girl.signIndex + 12) % 12) + 1;
+  const pairKey = [Math.min(gFromB, bFromG), Math.max(gFromB, bFromG)].join("-");
+  const bhakootScore = ["2-12", "5-9", "6-8"].includes(pairKey) ? 0 : 7;
+
+  // 8. Nadi Koota (Max 8) — same nadi = Nadi Dosha, 0
+  const nadiScore = boyNak.nadi === girlNak.nadi ? 0 : 8;
 
   const totalGuna = varnaScore + vashyaScore + taraScore + yoniScore + maitriScore + ganaScore + bhakootScore + nadiScore;
 
@@ -162,6 +250,8 @@ export function KundaliMilanCalculator() {
   const [girlMinute, setGirlMinute] = useState("30");
   const [girlPeriod, setGirlPeriod] = useState<"AM" | "PM">("AM");
   const [girlPlace, setGirlPlace] = useState("");
+  const [boyPlaceInfo, setBoyPlaceInfo] = useState<PlaceInfo | null>(null);
+  const [girlPlaceInfo, setGirlPlaceInfo] = useState<PlaceInfo | null>(null);
 
   // Boy 24-hour hour
   const boyHour24 = useMemo(() => {
@@ -179,13 +269,19 @@ export function KundaliMilanCalculator() {
     return h;
   }, [girlHour, girlPeriod]);
 
-  const boyNak = useMemo(() => getNakshatra(boyDate, boyHour24), [boyDate, boyHour24]);
-  const girlNak = useMemo(() => getNakshatra(girlDate, girlHour24), [girlDate, girlHour24]);
+  const boyMoon = useMemo(
+    () => getBirthMoon(boyDate, boyHour24, parseInt(boyMinute, 10) || 0, boyPlaceInfo),
+    [boyDate, boyHour24, boyMinute, boyPlaceInfo]
+  );
+  const girlMoon = useMemo(
+    () => getBirthMoon(girlDate, girlHour24, parseInt(girlMinute, 10) || 0, girlPlaceInfo),
+    [girlDate, girlHour24, girlMinute, girlPlaceInfo]
+  );
 
   const matchResult = useMemo(() => {
-    if (!boyDate || !girlDate) return null;
-    return calculateKundaliMatch(boyNak, girlNak);
-  }, [boyDate, girlDate, boyNak, girlNak]);
+    if (!boyMoon || !girlMoon) return null;
+    return calculateKundaliMatch(boyMoon, girlMoon);
+  }, [boyMoon, girlMoon]);
 
   const handleShare = async () => {
     if (!matchResult) return;
@@ -284,6 +380,7 @@ export function KundaliMilanCalculator() {
               <CityAutocomplete
                 value={boyPlace}
                 onChange={setBoyPlace}
+                onPlaceSelect={setBoyPlaceInfo}
                 placeholder="Type e.g., Delhi, Mumbai, NY"
               />
             </div>
@@ -365,6 +462,7 @@ export function KundaliMilanCalculator() {
               <CityAutocomplete
                 value={girlPlace}
                 onChange={setGirlPlace}
+                onPlaceSelect={setGirlPlaceInfo}
                 placeholder="Type e.g., Mumbai, London, NY"
               />
             </div>
@@ -382,6 +480,11 @@ export function KundaliMilanCalculator() {
             <p className="text-xs text-emerald-300 mb-4">
               Groom: {boyHour}:{boyMinute} {boyPeriod} ({boyPlace || "N/A"}) | Bride: {girlHour}:{girlMinute} {girlPeriod} ({girlPlace || "N/A"})
             </p>
+            {boyMoon && girlMoon && (
+              <p className="text-xs text-[#33463a] mb-4">
+                Groom: Moon in {boyMoon.moonSign}, {boyMoon.nakshatra.name} nakshatra (pada {boyMoon.pada}) | Bride: Moon in {girlMoon.moonSign}, {girlMoon.nakshatra.name} nakshatra (pada {girlMoon.pada})
+              </p>
+            )}
 
             <div className="flex flex-col items-center justify-center my-4">
               <div className="text-6xl font-display font-extrabold gradient-text-gold animate-pulse-glow px-8 py-3 rounded-2xl bg-black/60 border border-amber-400/40 mb-3">
@@ -410,6 +513,14 @@ export function KundaliMilanCalculator() {
                 ))}
               </div>
             </div>
+
+            <p className="mt-6 text-[11px] leading-relaxed text-[#5f7a63] text-left">
+              Method: both Moon positions are calculated astronomically (Lahiri sidereal) from the birth details above,
+              and the eight kootas are scored by the traditional Ashtakoota rules. If a birth place was typed but not
+              selected from the suggestions, IST is assumed for that person. Yoni is scored on the classical
+              same-animal / natural-enemy basis. Traditional dosha exceptions (for example, some Nadi and Bhakoot
+              cancellations) are not applied — for a final judgement, consult a Vedic astrologer with the full charts.
+            </p>
 
             <div className="mt-8 flex justify-center">
               <button onClick={handleShare} className="btn-primary flex items-center gap-2">
