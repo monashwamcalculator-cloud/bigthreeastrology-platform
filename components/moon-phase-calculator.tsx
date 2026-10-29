@@ -10,14 +10,14 @@ type MoonPhaseData = {
 };
 
 const MOON_PHASES: Record<string, MoonPhaseData> = {
-  "New Moon": { phase: "New Moon (Initiation)", emoji: "🌑", personality: "Instinctual, pioneering, full of fresh seeds and quiet internal motivation.", manifestationPower: "Setting powerful new intentions and launching foundational projects." },
-  "Waxing Crescent": { phase: "Waxing Crescent (Sprouting)", emoji: "🌒", personality: "Determined, resilient, overcoming early obstacles with faith.", manifestationPower: "Nurturing initial ideas and building consistent daily habits." },
-  "First Quarter": { phase: "First Quarter (Action)", emoji: "🌓", personality: "Courageous problem-solver, executive drive, overcoming friction.", manifestationPower: "Pushing past resistance and making bold strategic decisions." },
-  "Waxing Gibbous": { phase: "Waxing Gibbous (Refinement)", emoji: "🌔", personality: "Analytical, perfectionist, refining skills before public launch.", manifestationPower: "Fine-tuning details and mastering specialized techniques." },
-  "Full Moon": { phase: "Full Moon (Illumination)", emoji: "🌕", personality: "Charismatic, expressive, emotionally vivid & highly intuitive.", manifestationPower: "Harvesting results, public celebrations, and heightened clarity." },
-  "Disseminating": { phase: "Disseminating / Waning Gibbous (Sharing)", emoji: "🌖", personality: "Teacher, mentor, passing wisdom and guiding community.", manifestationPower: "Sharing knowledge, publishing, and mentoring others." },
-  "Third Quarter": { phase: "Third Quarter (Forgiveness)", emoji: "🌗", personality: "Reflective, mature, releasing outdated patterns peacefully.", manifestationPower: "Forgiving past mistakes and clearing physical clutter." },
-  "Balsamic": { phase: "Balsamic / Waning Crescent (Surrender)", emoji: "🌘", personality: "Mystical, quiet, deeply intuitive, telepathic soul.", manifestationPower: "Deep meditation, dream analysis, and spiritual surrender." }
+  "New Moon": { phase: "New Moon (Initiation)", emoji: "", personality: "Instinctual, pioneering, full of fresh seeds and quiet internal motivation.", manifestationPower: "Setting powerful new intentions and launching foundational projects." },
+  "Waxing Crescent": { phase: "Waxing Crescent (Sprouting)", emoji: "", personality: "Determined, resilient, overcoming early obstacles with faith.", manifestationPower: "Nurturing initial ideas and building consistent daily habits." },
+  "First Quarter": { phase: "First Quarter (Action)", emoji: "", personality: "Courageous problem-solver, executive drive, overcoming friction.", manifestationPower: "Pushing past resistance and making bold strategic decisions." },
+  "Waxing Gibbous": { phase: "Waxing Gibbous (Refinement)", emoji: "", personality: "Analytical, perfectionist, refining skills before public launch.", manifestationPower: "Fine-tuning details and mastering specialized techniques." },
+  "Full Moon": { phase: "Full Moon (Illumination)", emoji: "", personality: "Charismatic, expressive, emotionally vivid & highly intuitive.", manifestationPower: "Harvesting results, public celebrations, and heightened clarity." },
+  "Disseminating": { phase: "Disseminating / Waning Gibbous (Sharing)", emoji: "", personality: "Teacher, mentor, passing wisdom and guiding community.", manifestationPower: "Sharing knowledge, publishing, and mentoring others." },
+  "Third Quarter": { phase: "Third Quarter (Forgiveness)", emoji: "", personality: "Reflective, mature, releasing outdated patterns peacefully.", manifestationPower: "Forgiving past mistakes and clearing physical clutter." },
+  "Balsamic": { phase: "Balsamic / Waning Crescent (Surrender)", emoji: "", personality: "Mystical, quiet, deeply intuitive, telepathic soul.", manifestationPower: "Deep meditation, dream analysis, and spiritual surrender." }
 };
 
 const PHASES_KEYS = Object.keys(MOON_PHASES);
@@ -30,7 +30,7 @@ export function MoonPhaseCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-emerald mb-2">🌖 Natal Lunar Phase</div>
+        <div className="badge badge-emerald mb-2"> Natal Lunar Phase</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text">Birth Moon Phase Reader</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Discover your birth Moon phase archetype and manifestation power cycle.
@@ -63,7 +63,7 @@ export function MoonPhaseCalculator() {
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.personality}</p>
           </div>
           <div className="p-3.5 rounded-xl bg-sky-950/80 border border-sky-500/30">
-            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5">✨ Prime Manifestation Superpower</span>
+            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5"> Prime Manifestation Superpower</span>
             <p className="text-xs text-white font-medium">{result.manifestationPower}</p>
           </div>
         </div>

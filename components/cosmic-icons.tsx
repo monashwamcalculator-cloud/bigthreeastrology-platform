@@ -138,6 +138,102 @@ export function CosmicIcon({ name, className = "w-6 h-6" }: IconProps) {
         </svg>
       );
 
+    case "venus":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="9" r="5.5" stroke="url(#venGold)" strokeWidth="1.6" />
+          <path d="M12 14.5V21M8.5 17.8h7" stroke="url(#venGold)" strokeWidth="1.6" strokeLinecap="round" />
+          <defs>
+            <linearGradient id="venGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#fef08a" />
+              <stop offset="50%" stopColor="#d4af37" />
+              <stop offset="100%" stopColor="#ca8a04" />
+            </linearGradient>
+          </defs>
+        </svg>
+      );
+
+    case "mercury":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 3.5c0 2 2.2 3.5 5 3.5s5-1.5 5-3.5" stroke="url(#merGold)" strokeWidth="1.6" strokeLinecap="round" />
+          <circle cx="12" cy="11" r="4" stroke="url(#merGold)" strokeWidth="1.6" />
+          <path d="M12 15v6M9 18h6" stroke="url(#merGold)" strokeWidth="1.6" strokeLinecap="round" />
+          <defs>
+            <linearGradient id="merGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#fef08a" />
+              <stop offset="50%" stopColor="#d4af37" />
+              <stop offset="100%" stopColor="#ca8a04" />
+            </linearGradient>
+          </defs>
+        </svg>
+      );
+
+    case "mars":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="14" r="5.5" stroke="url(#marGold)" strokeWidth="1.6" />
+          <path d="M14 10L20 4M14.5 4H20v5.5" stroke="url(#marGold)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          <defs>
+            <linearGradient id="marGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#fef08a" />
+              <stop offset="50%" stopColor="#d4af37" />
+              <stop offset="100%" stopColor="#ca8a04" />
+            </linearGradient>
+          </defs>
+        </svg>
+      );
+
+    case "sun":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="4.5" stroke="url(#sunGold)" strokeWidth="1.6" />
+          <circle cx="12" cy="12" r="1.4" fill="url(#sunGold)" />
+          <path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5 5l1.7 1.7M17.3 17.3L19 19M19 5l-1.7 1.7M6.7 17.3L5 19" stroke="url(#sunGold)" strokeWidth="1.6" strokeLinecap="round" />
+          <defs>
+            <linearGradient id="sunGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#fef08a" />
+              <stop offset="50%" stopColor="#d4af37" />
+              <stop offset="100%" stopColor="#ca8a04" />
+            </linearGradient>
+          </defs>
+        </svg>
+      );
+
+    case "clock":
+    case "choghadia":
+    case "rahu-kaal":
+    case "timing":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="9" stroke="url(#clkGold)" strokeWidth="1.6" />
+          <path d="M12 7v5l3.5 2" stroke="url(#clkGold)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          <defs>
+            <linearGradient id="clkGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#fef08a" />
+              <stop offset="50%" stopColor="#d4af37" />
+              <stop offset="100%" stopColor="#ca8a04" />
+            </linearGradient>
+          </defs>
+        </svg>
+      );
+
+    case "sparkle":
+    case "horoscope":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2c.7 5.5 2.8 7.6 8.3 8.3-5.5.7-7.6 2.8-8.3 8.3C11.3 12.1 9.2 10 3.7 9.3 9.2 8.6 11.3 6.5 12 2z" fill="url(#spkGold)" />
+          <path d="M19 15c.3 2.3 1.2 3.2 3.5 3.5-2.3.3-3.2 1.2-3.5 3.5-.3-2.3-1.2-3.2-3.5-3.5 2.3-.3 3.2-1.2 3.5-3.5z" fill="url(#spkGold)" opacity="0.75" />
+          <defs>
+            <linearGradient id="spkGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#fef08a" />
+              <stop offset="50%" stopColor="#d4af37" />
+              <stop offset="100%" stopColor="#ca8a04" />
+            </linearGradient>
+          </defs>
+        </svg>
+      );
+
     default:
       return (
         <svg viewBox="0 0 24 24" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">

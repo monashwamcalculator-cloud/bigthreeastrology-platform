@@ -1,5 +1,7 @@
 "use client";
 
+import { CosmicIcon } from "@/components/cosmic-icons";
+
 import { useMemo, useState } from "react";
 
 type TarotCard = {
@@ -20,7 +22,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "A past leap of faith set your current life journey into motion.",
     presentMeaning: "Embrace fresh possibilities today with an open, trusting heart.",
     futureMeaning: "An exciting unchartered adventure or fresh start awaits you ahead.",
-    imageEmoji: "🃏"
+    imageEmoji: ""
   },
   {
     name: "The Magician",
@@ -29,7 +31,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Past skills and focused willpower helped build your present foundation.",
     presentMeaning: "You hold all tools necessary to manifest your intentions right now.",
     futureMeaning: "Your creative vision will transform into tangible reality.",
-    imageEmoji: "🪄"
+    imageEmoji: ""
   },
   {
     name: "The High Priestess",
@@ -38,7 +40,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Inner quiet reflection in the past protected you from hidden pitfalls.",
     presentMeaning: "Listen closely to your gut instinct today; quiet answers lie within.",
     futureMeaning: "Unseen wisdom and deeper spiritual clarity will soon reveal themselves.",
-    imageEmoji: "🌙"
+    imageEmoji: ""
   },
   {
     name: "The Empress",
@@ -47,7 +49,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Periods of creative growth and care laid the groundwork for prosperity.",
     presentMeaning: "Surround yourself with beauty, comfort, and creative expression.",
     futureMeaning: "Bountiful growth, material success, and emotional warmth are incoming.",
-    imageEmoji: "👑"
+    imageEmoji: ""
   },
   {
     name: "The Emperor",
@@ -56,7 +58,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Discipline and strong boundaries in past experiences provided stability.",
     presentMeaning: "Take structured control of your environment and set clear boundaries.",
     futureMeaning: "A position of leadership, order, and steady authority will be secured.",
-    imageEmoji: "🏛️"
+    imageEmoji: ""
   },
   {
     name: "The Lovers",
@@ -65,7 +67,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "A key relationship or moral choice shaped your personal values.",
     presentMeaning: "Align your decisions with your core values and cultivate deep connection.",
     futureMeaning: "A harmonious union or life-changing partnership will flourish.",
-    imageEmoji: "💖"
+    imageEmoji: ""
   },
   {
     name: "The Chariot",
@@ -74,7 +76,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Past determination helped you overcome conflicting forces.",
     presentMeaning: "Maintain strict focus and drive through current challenges.",
     futureMeaning: "Triumphant victory and rapid progress toward your goal is assured.",
-    imageEmoji: "🏎️"
+    imageEmoji: ""
   },
   {
     name: "Wheel of Fortune",
@@ -83,7 +85,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Cosmic shifts and cycles previously shifted your life path unexpected.",
     presentMeaning: "The universe is turning circumstances in your favor today.",
     futureMeaning: "A fortunate turn of events and positive karma will arrive swiftly.",
-    imageEmoji: "🎡"
+    imageEmoji: ""
   },
   {
     name: "The Star",
@@ -92,7 +94,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Healing after past turmoil renewed your hope and inner faith.",
     presentMeaning: "Peace, serene clarity, and inspiration flow toward you now.",
     futureMeaning: "Your long-term dreams are blessed with divine protection and light.",
-    imageEmoji: "⭐"
+    imageEmoji: ""
   },
   {
     name: "The Sun",
@@ -101,7 +103,7 @@ const TAROT_DECK: TarotCard[] = [
     pastMeaning: "Pure joy and clarity illuminated your recent path.",
     presentMeaning: "Your natural radiance inspires everyone around you today.",
     futureMeaning: "Unbounded success, warmth, and celebration are coming your way.",
-    imageEmoji: "☀️"
+    imageEmoji: "☀"
   }
 ];
 
@@ -124,7 +126,7 @@ export function TarotReader() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
-        <div className="badge badge-gold mb-3">🎴 3-Card Cosmic Tarot Spread</div>
+        <div className="badge badge-gold mb-3"> 3-Card Cosmic Tarot Spread</div>
         <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Daily Intuitive Tarot Guidance</h2>
         <p className="mt-2 text-cosmic-100 text-sm max-w-xl mx-auto">
           Shuffle the sacred cosmic deck to reveal your 3-card reading: Past Influences, Present Energy, and Future Outlook.
@@ -134,27 +136,27 @@ export function TarotReader() {
       {!drawnCards ? (
         <div className="flex flex-col items-center justify-center py-12 text-center">
           <div className="flex gap-4 mb-8 animate-pulse-glow">
-            {["🎴", "🔮", "🎴"].map((icon, i) => (
+            {[0, 1, 2].map((i) => (
               <div
                 key={i}
                 className="w-24 h-36 rounded-2xl bg-gradient-to-b from-cosmic-700 to-cosmic-950 border border-accent-gold/40 flex items-center justify-center text-4xl shadow-xl transform hover:-translate-y-2 transition-all cursor-pointer"
               >
-                {icon}
+                <CosmicIcon name="tarot" className="w-10 h-10" />
               </div>
             ))}
           </div>
 
           <button onClick={drawCards} className="btn-glow px-10 py-4 text-lg font-bold">
-            ✨ Draw Your 3 Tarot Cards
+             Draw Your 3 Tarot Cards
           </button>
         </div>
       ) : (
         <div className="space-y-8 animate-slide-up">
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: "1. Past Influences ⏳", card: drawnCards[0], meaning: drawnCards[0].pastMeaning },
-              { title: "2. Present Energy ⚡", card: drawnCards[1], meaning: drawnCards[1].presentMeaning },
-              { title: "3. Future Outlook 🔮", card: drawnCards[2], meaning: drawnCards[2].futureMeaning }
+              { title: "1. Past Influences ", card: drawnCards[0], meaning: drawnCards[0].pastMeaning },
+              { title: "2. Present Energy ", card: drawnCards[1], meaning: drawnCards[1].presentMeaning },
+              { title: "3. Future Outlook ", card: drawnCards[2], meaning: drawnCards[2].futureMeaning }
             ].map((slot, idx) => (
               <div key={idx} className="glass-card-hover p-6 border-accent-gold/30 flex flex-col items-center text-center bg-black/40">
                 <span className="text-xs uppercase tracking-widest font-semibold text-accent-gold mb-3">{slot.title}</span>
@@ -181,7 +183,7 @@ export function TarotReader() {
 
           <div className="flex justify-center pt-4">
             <button onClick={handleReset} className="btn-secondary flex items-center gap-2">
-              <span>🔄</span> Draw Cards Again
+              <span></span> Draw Cards Again
             </button>
           </div>
         </div>

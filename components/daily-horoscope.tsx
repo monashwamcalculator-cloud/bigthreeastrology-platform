@@ -187,14 +187,14 @@ export function DailyHoroscope() {
         <div className="space-y-4 text-left border-t border-cosmic-700/40 pt-4">
           <div>
             <h5 className="text-sm font-semibold text-accent-rose flex items-center gap-2 mb-1">
-              <span>💖</span> Love & Relationships
+              <span></span> Love & Relationships
             </h5>
             <p className="text-cosmic-100 text-sm leading-relaxed">{horoscope.loveAdvice}</p>
           </div>
 
           <div>
             <h5 className="text-sm font-semibold text-accent-cyan flex items-center gap-2 mb-1">
-              <span>💼</span> Career & Life Direction
+              <span></span> Career & Life Direction
             </h5>
             <p className="text-cosmic-100 text-sm leading-relaxed">{horoscope.careerAdvice}</p>
           </div>

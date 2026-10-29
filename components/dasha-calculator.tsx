@@ -29,7 +29,7 @@ export function DashaCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-emerald mb-3">🕉️ Vimshottari Mahadasha 120-Year Cycle</div>
+        <div className="badge badge-emerald mb-3"> Vimshottari Mahadasha 120-Year Cycle</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Vedic Dasha & Planetary Period Calculator</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Explore the 9 major planetary periods (Mahadashas) that shape your career, relationships, wealth, and destiny.
@@ -67,14 +67,14 @@ export function DashaCalculator() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
-              <span>🎯</span> Major Life Themes & Planetary Energy
+              <span></span> Major Life Themes & Planetary Energy
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{activeDasha.rulingThemes}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-300 mb-1">
-              🙏 Recommended Vedic Mantra & Shanti Remedy
+               Recommended Vedic Mantra & Shanti Remedy
             </h4>
             <p className="text-sm font-semibold text-white">{activeDasha.remedy}</p>
           </div>

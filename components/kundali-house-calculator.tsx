@@ -35,7 +35,7 @@ export function KundaliHouseCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-emerald mb-3">🔮 12 Bhavas (Kundali Houses) Explorer</div>
+        <div className="badge badge-emerald mb-3"> 12 Bhavas (Kundali Houses) Explorer</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Vedic Kundali House & Bhava Explorer</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Explore the 12 sacred houses (Bhavas) of your birth chart to understand wealth, career, health, and destiny.
@@ -75,14 +75,14 @@ export function KundaliHouseCalculator() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
-              <span>🏛️</span> Life Domain & Significance
+              <span></span> Life Domain & Significance
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{activeHouse.domain}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-emerald-300 mb-1">
-              ✨ Vedic Astrological Insight
+               Vedic Astrological Insight
             </h4>
             <p className="text-sm text-white leading-relaxed">{activeHouse.keyInsights}</p>
           </div>

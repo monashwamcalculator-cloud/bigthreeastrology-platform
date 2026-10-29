@@ -65,7 +65,7 @@ export function NorthNodeCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-emerald mb-3">🌟 Soul Destiny & Karmic Nodes</div>
+        <div className="badge badge-emerald mb-3"> Soul Destiny & Karmic Nodes</div>
         <h2 className="font-display text-3xl font-bold gradient-text">North Node & Soul Purpose Finder</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Discover your North Node (Rahu - Future Life Destiny) and South Node (Ketu - Past Life Comfort Zone).
@@ -97,21 +97,21 @@ export function NorthNodeCalculator() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
-              <span>🚀</span> North Node (Future Soul Mastery)
+              <span></span> North Node (Future Soul Mastery)
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.northNodeFocus}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-amber-400 flex items-center gap-2 mb-1">
-              <span>📜</span> South Node (Past Life Comfort Zone)
+              <span></span> South Node (Past Life Comfort Zone)
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.southNodePastLife}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-emerald-300 mb-1">
-              ✨ Core Karmic Lesson & Ideal Career Path
+               Core Karmic Lesson & Ideal Career Path
             </h4>
             <p className="text-sm text-white font-medium mb-1">"{result.karmicLesson}"</p>
             <p className="text-xs text-amber-300">Target Vocation: {result.idealCareer}</p>

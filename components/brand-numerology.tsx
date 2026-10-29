@@ -57,7 +57,7 @@ export function BrandNumerologyCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">📜 Chaldean Name & Brand Numerology</div>
+        <div className="badge badge-gold mb-3"> Chaldean Name & Brand Numerology</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Brand & Name Numerology Analyzer</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Calculate the Chaldean numerology vibration of your personal name, company title, or brand name.
@@ -93,7 +93,7 @@ export function BrandNumerologyCalculator() {
           <div className="space-y-4 text-left">
             <div>
               <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
-                <span>✨</span> Brand Identity & Archetype
+                <span></span> Brand Identity & Archetype
               </h4>
               <p className="text-lg font-display font-bold text-white mb-1">{result.detail.title}</p>
               <p className="text-emerald-100 text-sm leading-relaxed">{result.detail.vibration}</p>
@@ -101,7 +101,7 @@ export function BrandNumerologyCalculator() {
 
             <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
               <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-300 mb-1">
-                💼 Ideal Business & Industry Fit
+                 Ideal Business & Industry Fit
               </h4>
               <p className="text-sm font-semibold text-white">{result.detail.idealFor}</p>
             </div>

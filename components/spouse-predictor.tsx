@@ -15,7 +15,7 @@ type SpousePrediction = {
 const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   Aries: {
     sign: "Aries (Mesh)",
-    element: "Fire 🔴",
+    element: "Fire ",
     personality: "Bold, energetic, protective, direct communicator, ambitious leader.",
     appearance: "Athletic build, expressive sharp eyes, confident posture, prominent eyebrows.",
     meetingPlace: "Sports event, fitness studio, competitive workspace, or adventure trip.",
@@ -24,7 +24,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Taurus: {
     sign: "Taurus (Vrishabha)",
-    element: "Earth 🟢",
+    element: "Earth ",
     personality: "Grounded, loyal, lover of comfort, financially prudent, soothing voice.",
     appearance: "Charming features, graceful neck/shoulders, calm warm eyes, stylish attire.",
     meetingPlace: "Gourmet restaurant, financial firm, art gallery, or nature retreat.",
@@ -33,7 +33,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Gemini: {
     sign: "Gemini (Mithun)",
-    element: "Air ⚪",
+    element: "Air ",
     personality: "Witty, intellectually curious, humorous, social butterfly, youthful energy.",
     appearance: "Expressive hands, slender build, bright twinkling eyes, radiant smile.",
     meetingPlace: "Library, podcast studio, social media event, or networking seminar.",
@@ -42,7 +42,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Cancer: {
     sign: "Cancer (Kark)",
-    element: "Water 🔵",
+    element: "Water ",
     personality: "Nurturing, deeply intuitive, family-oriented, emotionally devoted, empathetic.",
     appearance: "Round gentle face, luminous moon-like complexion, comforting warm embrace.",
     meetingPlace: "Family gathering, waterfront café, home decor venue, or volunteer group.",
@@ -51,7 +51,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Leo: {
     sign: "Leo (Simha)",
-    element: "Fire 🔴",
+    element: "Fire ",
     personality: "Charismatic, generous, lion-hearted pride, protective, dramatic flair.",
     appearance: "Thick voluminous hair, commanding presence, bright warm smile, regal stance.",
     meetingPlace: "Theater, luxury resort, leadership conference, or celebration party.",
@@ -60,7 +60,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Virgo: {
     sign: "Virgo (Kanya)",
-    element: "Earth 🟢",
+    element: "Earth ",
     personality: "Detail-oriented, intelligent, modest, practical helper, highly organized.",
     appearance: "Neat refined style, clear perceptive eyes, youthful demeanor, polite poise.",
     meetingPlace: "Healthcare facility, research lab, educational institute, or organic market.",
@@ -69,7 +69,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Libra: {
     sign: "Libra (Tula)",
-    element: "Air ⚪",
+    element: "Air ",
     personality: "Diplomatic, romantic, aesthetic connoisseur, harmonious, fair-minded.",
     appearance: "Symmetrical facial features, dimples, elegant fashion sense, gentle smile.",
     meetingPlace: "Wedding event, design studio, law firm, or musical concert.",
@@ -78,7 +78,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Scorpio: {
     sign: "Scorpio (Vrishchik)",
-    element: "Water 🔵",
+    element: "Water ",
     personality: "Intense, fiercely loyal, mysterious, passionate, deeply perceptive.",
     appearance: "Captivating intense gaze, sharp jawline, magnetic aura, sophisticated style.",
     meetingPlace: "Research project, psychology seminar, evening venue, or financial consultation.",
@@ -87,7 +87,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Sagittarius: {
     sign: "Sagittarius (Dhanu)",
-    element: "Fire 🔴",
+    element: "Fire ",
     personality: "Philosophical, adventure-seeking, honest, optimistic, freedom-loving.",
     appearance: "Tall stature, athletic legs, jovial open expression, energetic stride.",
     meetingPlace: "International airport, university campus, outdoor hike, or travel tour.",
@@ -96,7 +96,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Capricorn: {
     sign: "Capricorn (Makar)",
-    element: "Earth 🟢",
+    element: "Earth ",
     personality: "Disciplined, ambitious, responsible, mature authority, steadfast partner.",
     appearance: "Defined bone structure, serious dignified posture, timeless classic wardrobe.",
     meetingPlace: "Corporate office, executive meeting, historical monument, or formal gala.",
@@ -105,7 +105,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Aquarius: {
     sign: "Aquarius (Kumbh)",
-    element: "Air ⚪",
+    element: "Air ",
     personality: "Visionary, humanitarian, unconventional thinker, loyal friend, innovative.",
     appearance: "Unique distinct style, open friendly eyes, modern eccentric charm.",
     meetingPlace: "Tech hackathon, humanitarian NGO, social movement, or science exhibition.",
@@ -114,7 +114,7 @@ const SPOUSE_DATABASE: Record<string, SpousePrediction> = {
   },
   Pisces: {
     sign: "Pisces (Meen)",
-    element: "Water 🔵",
+    element: "Water ",
     personality: "Dreamy, artistic, compassionate, deeply spiritual, empathetic healer.",
     appearance: "Soft expressive eyes, gentle graceful movement, calming peaceful presence.",
     meetingPlace: "Spiritual retreat, beachside boardwalk, art exhibition, or music studio.",
@@ -133,7 +133,7 @@ export function SpousePredictor() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">💖 Soulmate & Spouse Insights</div>
+        <div className="badge badge-gold mb-3"> Soulmate & Spouse Insights</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Spouse & Future Partner Predictor</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Select your Sun sign or 7th House Ruler to reveal your future spouse's personality, appearance, and meeting place.
@@ -171,21 +171,21 @@ export function SpousePredictor() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
-              <span>👑</span> Personality Traits & Nature
+              <span></span> Personality Traits & Nature
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.personality}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-amber-400 flex items-center gap-2 mb-1">
-              <span>✨</span> Physical Features & Aura
+              <span></span> Physical Features & Aura
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.appearance}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-teal-300 flex items-center gap-2 mb-1">
-              <span>📍</span> Likely Meeting Environment
+              <span></span> Likely Meeting Environment
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.meetingPlace}</p>
           </div>

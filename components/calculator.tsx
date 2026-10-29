@@ -79,8 +79,8 @@ export function BigThreeCalculator() {
 
   const handleShare = async () => {
     if (!result) return;
-    const locationText = birthLocation ? ` 📍 ${birthLocation}` : "";
-    const text = `✨ My ${system === "vedic" ? "Vedic (Indian)" : "Western"} Big Three Astrology Snapshot ✨${locationText}\n🌞 Sun: ${result.sun} ${ZODIAC_DATA[result.sun].emoji}\n🌙 Moon: ${result.moon} ${ZODIAC_DATA[result.moon].emoji}\n⬆️ Rising: ${result.rising} ${ZODIAC_DATA[result.rising].emoji}\n\nDiscover yours globally at BIGThreeAstrology!`;
+    const locationText = birthLocation ? `  ${birthLocation}` : "";
+    const text = ` My ${system === "vedic" ? "Vedic (Indian)" : "Western"} Big Three Astrology Snapshot ${locationText}\n Sun: ${result.sun} ${ZODIAC_DATA[result.sun].emoji}\n Moon: ${result.moon} ${ZODIAC_DATA[result.moon].emoji}\n Rising: ${result.rising} ${ZODIAC_DATA[result.rising].emoji}\n\nDiscover yours globally at BIGThreeAstrology!`;
     try {
       await navigator.clipboard.writeText(text);
       alert("Results copied to clipboard!");
@@ -104,7 +104,7 @@ export function BigThreeCalculator() {
                 : "bg-black/30 text-emerald-200 border border-white/10 hover:bg-white/10"
             }`}
           >
-            🌍 Western (Tropical)
+             Western (Tropical)
           </button>
           <button
             onClick={() => setSystem("vedic")}
@@ -114,7 +114,7 @@ export function BigThreeCalculator() {
                 : "bg-black/30 text-emerald-200 border border-white/10 hover:bg-white/10"
             }`}
           >
-            🕉️ Vedic / Indian (Sidereal)
+             Vedic / Indian (Sidereal)
           </button>
         </div>
 
@@ -187,7 +187,7 @@ export function BigThreeCalculator() {
 
           {/* Location with Auto Dropdown */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest 📍)</label>
+            <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest )</label>
             <CityAutocomplete value={birthLocation} onChange={setBirthLocation} placeholder="Type e.g., Mumbai, NY, London" />
           </div>
         </div>

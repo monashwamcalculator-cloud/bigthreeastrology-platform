@@ -1,11 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { CosmicIcon } from "@/components/cosmic-icons";
 
 const stats = [
-  { label: "Free Calculators", endValue: 100, suffix: "+", icon: "🧮", delay: "animate-delay-100" },
-  { label: "Guna Milan Points", endValue: 36, suffix: "", icon: "🕉️", delay: "animate-delay-200" },
-  { label: "Vedic Nakshatras", endValue: 27, suffix: "", icon: "⭐", delay: "animate-delay-300" }
+  { label: "Free Calculators", endValue: 100, suffix: "+", icon: "numerology", delay: "animate-delay-100" },
+  { label: "Guna Milan Points", endValue: 36, suffix: "", icon: "vedic", delay: "animate-delay-200" },
+  { label: "Vedic Nakshatras", endValue: 27, suffix: "", icon: "zodiac", delay: "animate-delay-300" }
 ];
 
 const easeOutQuad = (t: number) => t * (2 - t);
@@ -43,7 +44,7 @@ export function StatsCounter() {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 container-main py-12">
       {stats.map((stat, index) => (
         <div key={index} className={`glass-card-hover p-8 text-center animate-slide-up ${stat.delay}`}>
-          <div className="text-4xl mb-4">{stat.icon}</div>
+          <div className="mb-4 flex justify-center"><CosmicIcon name={stat.icon} className="w-10 h-10" /></div>
           <h3 className="text-4xl md:text-5xl font-display font-bold gradient-text-gold mb-2">
             <Counter endValue={stat.endValue} suffix={stat.suffix} />
           </h3>

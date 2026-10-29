@@ -171,14 +171,14 @@ export function LoveCompatibilityCalculator() {
           <div className="space-y-4 text-left border-t border-cosmic-700/40 pt-6">
             <div>
               <h5 className="text-sm font-semibold text-accent-gold flex items-center gap-2 mb-1">
-                <span>💖</span> Relationship Dynamics
+                <span></span> Relationship Dynamics
               </h5>
               <p className="text-cosmic-100 text-sm leading-relaxed">{matchResult.dynamics}</p>
             </div>
 
             <div>
               <h5 className="text-sm font-semibold text-accent-cyan flex items-center gap-2 mb-1">
-                <span>💡</span> Growth Tip
+                <span></span> Growth Tip
               </h5>
               <p className="text-cosmic-200 text-sm leading-relaxed">{matchResult.tip}</p>
             </div>

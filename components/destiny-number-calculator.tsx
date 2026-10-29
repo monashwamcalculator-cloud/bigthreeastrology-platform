@@ -52,7 +52,7 @@ export function DestinyNumberCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2">📜 Chaldean & Pythagorean Name Math</div>
+        <div className="badge badge-gold mb-2"> Chaldean & Pythagorean Name Math</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">Destiny & Expression Number Calculator</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Enter your full birth name to calculate your Expression / Destiny Number and career path vibration.

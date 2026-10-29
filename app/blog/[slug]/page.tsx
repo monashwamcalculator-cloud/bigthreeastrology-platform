@@ -8,6 +8,8 @@ import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import Link from "next/link";
 import Image from "next/image";
 import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
+import { AuthorBio } from "@/components/author-bio";
+import { AUTHOR } from "@/lib/author";
 
 type Props = { params: { slug: string } };
 
@@ -51,6 +53,12 @@ export default async function BlogPostPage({ params }: Props) {
     description: post.metaDescription,
     datePublished: post.createdAt.toISOString(),
     dateModified: post.updatedAt.toISOString(),
+    author: {
+      "@type": "Person",
+      name: AUTHOR.name,
+      url: absoluteUrl(AUTHOR.pageUrl),
+      sameAs: [AUTHOR.linkedin]
+    },
     mainEntityOfPage: absoluteUrl(`/blog/${post.slug}`)
   };
   const breadcrumbSchema = {
@@ -89,7 +97,11 @@ export default async function BlogPostPage({ params }: Props) {
           <p className="text-sm sm:text-base text-amber-200/90 max-w-2xl mx-auto mb-6 leading-relaxed">
             {post.metaDescription}
           </p>
-          <div className="flex items-center justify-center gap-4 text-xs text-amber-300">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-amber-300">
+            <Link href={AUTHOR.pageUrl} className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-flex items-center gap-2 hover:border-amber-400/70 transition-colors">
+              <Image src={AUTHOR.image} alt={AUTHOR.name} width={20} height={20} className="rounded-full object-cover w-5 h-5" />
+              <span>By <span className="text-white font-semibold">{AUTHOR.name}</span></span>
+            </Link>
             <time className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-block">
               Published: {new Date(post.createdAt).toLocaleDateString('en-US', {
                 year: 'numeric',
@@ -98,7 +110,7 @@ export default async function BlogPostPage({ params }: Props) {
               })}
             </time>
             <span className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full">
-              📜 Astrological Guide
+               Astrological Guide
             </span>
           </div>
         </header>
@@ -123,6 +135,8 @@ export default async function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: processed.toString() }} 
         />
       </article>
+
+      <AuthorBio />
 
       {/* Navigation Footer CTAs */}
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 pt-8 border-t border-amber-500/20">

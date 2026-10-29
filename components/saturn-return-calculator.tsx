@@ -40,7 +40,7 @@ export function SaturnReturnCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2">🪐 Major Life Milestone Transits</div>
+        <div className="badge badge-gold mb-2"> Major Life Milestone Transits</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">Saturn Return Calculator</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Explore the 29.5-year Saturn Return milestones that redefine your career, maturity, and life legacy.
@@ -76,17 +76,17 @@ export function SaturnReturnCalculator() {
 
         <div className="space-y-3 text-left">
           <div>
-            <h4 className="text-xs font-semibold text-sky-300 uppercase tracking-wider mb-1">🎯 Core Life Transformation</h4>
+            <h4 className="text-xs font-semibold text-sky-300 uppercase tracking-wider mb-1"> Core Life Transformation</h4>
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed">{result.theme}</p>
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold text-amber-300 uppercase tracking-wider mb-1">💼 Career & Legacy Shift</h4>
+            <h4 className="text-xs font-semibold text-amber-300 uppercase tracking-wider mb-1"> Career & Legacy Shift</h4>
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed">{result.careerFocus}</p>
           </div>
 
           <div className="p-3.5 rounded-xl bg-sky-950/80 border border-sky-500/30 mt-2">
-            <h4 className="text-xs font-semibold text-sky-300 uppercase tracking-wider mb-1">✨ Saturn Survival Advice</h4>
+            <h4 className="text-xs font-semibold text-sky-300 uppercase tracking-wider mb-1"> Saturn Survival Advice</h4>
             <p className="text-xs text-white font-medium">{result.survivalRemedy}</p>
           </div>
         </div>

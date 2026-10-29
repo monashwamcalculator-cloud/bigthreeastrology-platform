@@ -127,7 +127,7 @@ export function VenusCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">♀️ Venus Sign (Shukra) Calculator</div>
+        <div className="badge badge-gold mb-3">♀ Venus Sign (Shukra) Calculator</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Love Language & Romance Sign</h2>
         <p className="text-cosmic-200 text-sm mt-1">
           Venus governs your attraction style, romantic desires, aesthetic tastes, and how you show affection.
@@ -161,21 +161,21 @@ export function VenusCalculator() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-accent-rose flex items-center gap-2 mb-1">
-              <span>💖</span> Romantic Love Style
+              <span></span> Romantic Love Style
             </h4>
             <p className="text-cosmic-100 text-sm leading-relaxed">{venusInfo.loveStyle}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-accent-gold flex items-center gap-2 mb-1">
-              <span>✨</span> Attraction Trigger
+              <span></span> Attraction Trigger
             </h4>
             <p className="text-cosmic-100 text-sm leading-relaxed">{venusInfo.attractionSecret}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-emerald mb-1">
-              💞 Best Compatible Venus Signs
+               Best Compatible Venus Signs
             </h4>
             <p className="text-sm font-bold text-white">{venusInfo.idealMatch}</p>
           </div>

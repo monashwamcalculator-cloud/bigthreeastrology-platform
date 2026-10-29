@@ -4,6 +4,7 @@ import Image from "next/image";
 import { CosmicToolsSuite } from "@/components/cosmic-tools-suite";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { StatsCounter } from "@/components/stats-counter";
+import { CosmicIcon } from "@/components/cosmic-icons";
 import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 
 export const metadata: Metadata = buildMetadata({
@@ -128,7 +129,7 @@ export default function HomePage() {
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
           <div className="badge badge-gold mb-4 animate-slide-up text-xs py-1 px-3">
-            ✨ 100 Free Astrology & Numerology Tools — 100% Instant & No Sign-up
+             100 Free Astrology & Numerology Tools — 100% Instant & No Sign-up
           </div>
           
           <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight animate-slide-up animate-delay-100 leading-tight">
@@ -144,10 +145,10 @@ export default function HomePage() {
           
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto animate-slide-up animate-delay-300">
             <Link href="/tools" className="btn-glow px-6 py-2.5 text-sm sm:text-base font-bold w-full sm:w-auto text-center">
-              Explore 100 Free Tools ✨
+              Explore 100 Free Tools 
             </Link>
             <Link href="/tools/spouse-predictor" className="btn-secondary px-6 py-2.5 text-sm sm:text-base font-bold w-full sm:w-auto text-center border-amber-400/40 text-amber-300 hover:bg-amber-400/10">
-              Spouse Predictor 💖
+              Spouse Predictor 
             </Link>
           </div>
         </div>
@@ -156,29 +157,29 @@ export default function HomePage() {
       {/* 2. Quick Access Featured Cards Grid */}
       <section className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-2.5 sm:gap-3 max-w-6xl mx-auto px-1">
         {[
-          { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "🔮", link: "/tools/big-three" },
-          { name: "Spouse Predictor", desc: "Soulmate Features & Initials", icon: "💖", link: "/tools/spouse-predictor" },
-          { name: "Kundali Milan", desc: "36 Ashta Koota Gunas", icon: "🕉️", link: "/tools/kundali-milan" },
-          { name: "Vimshottari Dasha", desc: "120-Year Planetary Timeline", icon: "⏳", link: "/tools/dasha-calculator" },
-          { name: "Love Compatibility", desc: "Zodiac Synastry Chemistry", icon: "💖", link: "/tools/love-compatibility" },
-          { name: "Life Path Numerology", desc: "Pythagorean Name & Date", icon: "🔢", link: "/tools/numerology" },
-          { name: "Choghadia Muhurat", desc: "Auspicious Timing Windows", icon: "🔮", link: "/tools/choghadia" },
-          { name: "Sade Sati Phase", desc: "Saturn Transit & Remedies", icon: "🪐", link: "/tools/sade-sati" },
-          { name: "Brand Numerology", desc: "Chaldean Business Math", icon: "📜", link: "/tools/brand-numerology" },
-          { name: "12 Kundali Houses", desc: "Bhavas & Lagna Snapshot", icon: "🏛️", link: "/tools/kundali-houses" },
-          { name: "North Node Purpose", desc: "Karmic Rahu/Ketu Soul Mission", icon: "🚀", link: "/tools/north-node" },
-          { name: "Angel Numbers", desc: "111, 444, 777 Frequencies", icon: "⚡", link: "/tools/angel-numbers" },
-          { name: "Venus Sign", desc: "Love & Attraction Style", icon: "♀️", link: "/tools/venus-sign" },
-          { name: "Mercury Sign", desc: "Mind & Communication", icon: "☿️", link: "/tools/mercury-sign" },
-          { name: "Chiron Healing", desc: "Soul Wounded Healer", icon: "⚕️", link: "/tools/chiron" },
-          { name: "Birth Star Nakshatra", desc: "27 Vedic Stars & Deity", icon: "⭐", link: "/tools/nakshatra" }
+          { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "zodiac", link: "/tools/big-three" },
+          { name: "Spouse Predictor", desc: "Soulmate Features & Initials", icon: "spouse", link: "/tools/spouse-predictor" },
+          { name: "Kundali Milan", desc: "36 Ashta Koota Gunas", icon: "vedic", link: "/tools/kundali-milan" },
+          { name: "Vimshottari Dasha", desc: "120-Year Planetary Timeline", icon: "vedic", link: "/tools/dasha-calculator" },
+          { name: "Love Compatibility", desc: "Zodiac Synastry Chemistry", icon: "spouse", link: "/tools/love-compatibility" },
+          { name: "Life Path Numerology", desc: "Pythagorean Name & Date", icon: "numerology", link: "/tools/numerology" },
+          { name: "Choghadia Muhurat", desc: "Auspicious Timing Windows", icon: "clock", link: "/tools/choghadia" },
+          { name: "Sade Sati Phase", desc: "Saturn Transit & Remedies", icon: "saturn", link: "/tools/sade-sati" },
+          { name: "Brand Numerology", desc: "Chaldean Business Math", icon: "numerology", link: "/tools/brand-numerology" },
+          { name: "12 Kundali Houses", desc: "Bhavas & Lagna Snapshot", icon: "vedic", link: "/tools/kundali-houses" },
+          { name: "North Node Purpose", desc: "Karmic Rahu/Ketu Soul Mission", icon: "sparkle", link: "/tools/north-node" },
+          { name: "Angel Numbers", desc: "111, 444, 777 Frequencies", icon: "numerology", link: "/tools/angel-numbers" },
+          { name: "Venus Sign", desc: "Love & Attraction Style", icon: "venus", link: "/tools/venus-sign" },
+          { name: "Mercury Sign", desc: "Mind & Communication", icon: "mercury", link: "/tools/mercury-sign" },
+          { name: "Chiron Healing", desc: "Soul Wounded Healer", icon: "sparkle", link: "/tools/chiron" },
+          { name: "Birth Star Nakshatra", desc: "27 Vedic Stars & Deity", icon: "zodiac", link: "/tools/nakshatra" }
         ].map((tool, idx) => (
           <Link
             key={idx}
             href={tool.link}
             className="glass-card-hover p-3 flex flex-col items-center text-center group border-amber-500/20 hover:border-amber-400/60 bg-black/40"
           >
-            <span className="text-2xl mb-1 group-hover:scale-110 transition-transform">{tool.icon}</span>
+            <span className="mb-1 group-hover:scale-110 transition-transform flex justify-center"><CosmicIcon name={tool.icon} className="w-8 h-8" /></span>
             <h3 className="text-xs font-display font-bold text-white group-hover:text-amber-300 transition-colors">
               {tool.name}
             </h3>
@@ -191,7 +192,7 @@ export default function HomePage() {
       <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-amber-500/30 overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="space-y-3 text-left">
-            <div className="badge badge-gold">💖 Viral High-Demand Tool</div>
+            <div className="badge badge-gold"> Viral High-Demand Tool</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-white leading-tight">
               Future Spouse & Soulmate Predictor
             </h2>
@@ -200,7 +201,7 @@ export default function HomePage() {
             </p>
             <div className="pt-1">
               <Link href="/tools/spouse-predictor" className="btn-glow px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">
-                <span>💖</span> Predict Your Future Spouse Now
+                <span></span> Predict Your Future Spouse Now
               </Link>
             </div>
           </div>
@@ -222,7 +223,7 @@ export default function HomePage() {
       <section className="stars-bg rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl relative overflow-hidden border border-amber-500/40 bg-black/50">
         <div className="relative z-10">
           <div className="text-center mb-6">
-            <div className="badge badge-gold mb-2">⚡ 100-in-1 Interactive Suite</div>
+            <div className="badge badge-gold mb-2"> 100-in-1 Interactive Suite</div>
             <h2 className="text-2xl md:text-3xl font-display font-bold gradient-text-gold mb-1">Cosmic Tools & Calculators Suite</h2>
             <p className="text-amber-200 text-xs sm:text-sm max-w-xl mx-auto">
               Select any tool category below to calculate your astrological snapshot instantly.
@@ -248,7 +249,7 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-3 text-left order-1 md:order-2">
-            <div className="badge badge-gold">🕉️ Authentic Jyotish Wisdom</div>
+            <div className="badge badge-gold"> Authentic Jyotish Wisdom</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-white leading-tight">
               36 Guna Kundali Milan & Choghadia Timing
             </h2>
@@ -257,10 +258,10 @@ export default function HomePage() {
             </p>
             <div className="pt-1 flex flex-wrap gap-2">
               <Link href="/tools/kundali-milan" className="btn-glow px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">
-                <span>🕉️</span> 36 Guna Kundali Milan
+                <span></span> 36 Guna Kundali Milan
               </Link>
               <Link href="/tools/choghadia" className="btn-secondary px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">
-                <span>🔮</span> Choghadia Muhurat
+                <span></span> Choghadia Muhurat
               </Link>
             </div>
           </div>
@@ -276,7 +277,7 @@ export default function HomePage() {
       <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-amber-500/30 overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="space-y-3 text-left">
-            <div className="badge badge-gold">⚡ Sacred Frequency & Numerology</div>
+            <div className="badge badge-gold"> Sacred Frequency & Numerology</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-white leading-tight">
               Pythagorean & Chaldean Brand Numerology
             </h2>
@@ -285,10 +286,10 @@ export default function HomePage() {
             </p>
             <div className="pt-1 flex flex-wrap gap-2">
               <Link href="/tools/numerology" className="btn-glow px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">
-                <span>🔢</span> Life Path Numerology
+                <span></span> Life Path Numerology
               </Link>
               <Link href="/tools/angel-numbers" className="btn-secondary px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">
-                <span>⚡</span> Angel Numbers Decoder
+                <span></span> Angel Numbers Decoder
               </Link>
             </div>
           </div>
@@ -309,13 +310,13 @@ export default function HomePage() {
       {/* 8. Value Proposition Grid */}
       <section className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
         {[
-          { title: "⚡ 100% Free & Frictionless", desc: "Zero registration required. Enter details and receive instant deep calculations.", icon: "🚀" },
-          { title: "🕉️ Vedic & Western Harmony", desc: "Supports both Western Tropical and Vedic Sidereal Jyotish calculation systems.", icon: "🌌" },
-          { title: "🌍 Global Timezone Precision", desc: "Auto-suggest geocoding supporting cities across India, USA, Europe & Asia.", icon: "📍" },
-          { title: "📜 Shareable Match Reports", desc: "1-click export and copy your Kundali match certificate and Big Three snapshots.", icon: "📜" }
+          { title: "100% Free & Frictionless", desc: "Zero registration required. Enter details and receive instant deep calculations.", icon: "sparkle" },
+          { title: "Vedic & Western Harmony", desc: "Supports both Western Tropical and Vedic Sidereal Jyotish calculation systems.", icon: "zodiac" },
+          { title: "Global Timezone Precision", desc: "Auto-suggest geocoding supporting cities across India, USA, Europe & Asia.", icon: "clock" },
+          { title: "Shareable Match Reports", desc: "1-click export and copy your Kundali match certificate and Big Three snapshots.", icon: "vedic" }
         ].map((feature, idx) => (
           <div key={idx} className="glass-card-hover p-4 border-amber-500/20 text-center bg-black/40 flex flex-col items-center">
-            <span className="text-3xl mb-2">{feature.icon}</span>
+            <span className="mb-2 flex justify-center"><CosmicIcon name={feature.icon} className="w-9 h-9" /></span>
             <h3 className="text-sm font-display font-bold text-white mb-1">{feature.title}</h3>
             <p className="text-xs text-amber-200/90 leading-relaxed">{feature.desc}</p>
           </div>
@@ -354,15 +355,15 @@ export default function HomePage() {
         <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Browse All 100 Tools by Category</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {[
-            { name: "Birth Chart & Planets", count: 20, link: "/tools#planetary", icon: "🪐" },
-            { name: "Vedic Jyotish & Timing", count: 20, link: "/tools#vedic", icon: "🕉️" },
-            { name: "Numerology & Name Math", count: 20, link: "/tools#numerology", icon: "🔢" },
-            { name: "Tarot & Soul Guidance", count: 15, link: "/tools#guidance", icon: "🔮" },
-            { name: "Synastry & Relationships", count: 15, link: "/tools#synastry", icon: "💖" },
-            { name: "Career & Wealth Astrology", count: 10, link: "/tools#career", icon: "💼" }
+            { name: "Birth Chart & Planets", count: 20, link: "/tools#planetary", icon: "zodiac" },
+            { name: "Vedic Jyotish & Timing", count: 20, link: "/tools#vedic", icon: "vedic" },
+            { name: "Numerology & Name Math", count: 20, link: "/tools#numerology", icon: "numerology" },
+            { name: "Tarot & Soul Guidance", count: 15, link: "/tools#guidance", icon: "tarot" },
+            { name: "Synastry & Relationships", count: 15, link: "/tools#synastry", icon: "spouse" },
+            { name: "Career & Wealth Astrology", count: 10, link: "/tools#career", icon: "saturn" }
           ].map((cat) => (
             <Link key={cat.link} href={cat.link} className="glass-card-hover p-4 text-center border-amber-500/20 hover:border-amber-400/60 bg-black/40 group">
-              <span className="text-2xl block mb-1 group-hover:scale-110 transition-transform">{cat.icon}</span>
+              <span className="block mb-1 group-hover:scale-110 transition-transform flex justify-center"><CosmicIcon name={cat.icon} className="w-8 h-8" /></span>
               <span className="text-sm font-display font-bold text-white group-hover:text-amber-300 block">{cat.name}</span>
               <span className="text-[11px] text-amber-200/80">{cat.count} free tools</span>
             </Link>
@@ -387,18 +388,18 @@ export default function HomePage() {
           ))}
         </div>
         <div className="text-center">
-          <Link href="/blog" className="btn-secondary px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">Read All Guides 📜</Link>
+          <Link href="/blog" className="btn-secondary px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">Read All Guides </Link>
         </div>
       </section>
 
       {/* 10. FAQ Visual Cards */}
       <section className="max-w-4xl mx-auto py-2">
-        <h3 className="text-2xl font-display font-bold text-center text-white mb-6">Frequently Asked Questions 🔮</h3>
+        <h3 className="text-2xl font-display font-bold text-center text-white mb-6">Frequently Asked Questions </h3>
         <div className="grid gap-3">
           {faqSchema.mainEntity.map((faq, idx) => (
             <div key={idx} className="glass-card-hover p-4 rounded-xl border border-amber-500/20 bg-black/40">
               <h4 className="text-sm sm:text-base font-semibold text-amber-300 mb-1 flex items-start gap-2">
-                <span className="text-base">✨</span> {faq.name}
+                <span className="text-base"></span> {faq.name}
               </h4>
               <p className="text-amber-100 text-xs sm:text-sm pl-6 leading-relaxed">{faq.acceptedAnswer.text}</p>
             </div>
@@ -411,13 +412,13 @@ export default function HomePage() {
       <section className="relative overflow-hidden rounded-2xl p-6 sm:p-10 text-center my-4 bg-gradient-to-r from-amber-950/80 via-amber-900/90 to-amber-900/80 border border-amber-500/40">
         <div className="absolute inset-0 stars-bg opacity-40" />
         <div className="relative z-10 flex flex-col items-center">
-          <span className="text-3xl mb-2">📜✨</span>
+          <span className="mb-2 flex justify-center"><CosmicIcon name="sparkle" className="w-9 h-9" /></span>
           <h2 className="text-xl sm:text-3xl font-display font-bold text-white mb-2">Share Your Cosmic Blueprint</h2>
           <p className="text-xs sm:text-sm text-amber-200 mb-6 max-w-xl">
             Calculate your Spouse prediction, Kundali match, Big Three, or Numerology and share the report with your partner, friends, and family!
           </p>
           <Link href="/tools/spouse-predictor" className="btn-glow px-8 py-3 text-base font-bold">
-            Start Free Calculation Now 🔮
+            Start Free Calculation Now 
           </Link>
         </div>
       </section>

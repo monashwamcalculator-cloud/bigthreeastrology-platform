@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <div className="container-main py-12 max-w-4xl mx-auto space-y-10">
       <div className="text-center space-y-4">
-        <div className="badge badge-emerald">🌟 About BIGThreeAstrology</div>
+        <div className="badge badge-emerald"> About BIGThreeAstrology</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">Empowering Self-Awareness Through Astrology</h1>
         <p className="text-emerald-200 text-lg max-w-2xl mx-auto">
           Providing 20 free, instant, precision calculators combining Western Tropical and Vedic Sidereal Jyotish systems.

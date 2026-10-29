@@ -61,7 +61,7 @@ export function Testimonials() {
           <div key={currentIndex} className="animate-fade-in flex flex-col items-center text-center z-10 relative">
             <div className="flex gap-1 mb-6 text-xl">
               {[...Array(currentTestimonial.rating)].map((_, i) => (
-                <span key={i}>⭐</span>
+                <span key={i}></span>
               ))}
             </div>
             

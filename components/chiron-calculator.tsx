@@ -114,7 +114,7 @@ export function ChironCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">⚕️ Chiron (The Wounded Healer) Calculator</div>
+        <div className="badge badge-gold mb-3"> Chiron (The Wounded Healer) Calculator</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Soul Healing & Spiritual Gift</h2>
         <p className="text-cosmic-200 text-sm mt-1">
           Chiron points to your deepest core wound and the unique spiritual healing gift you bring to the world.
@@ -148,21 +148,21 @@ export function ChironCalculator() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-accent-rose flex items-center gap-2 mb-1">
-              <span>💔</span> The Core Soul Wound
+              <span></span> The Core Soul Wound
             </h4>
             <p className="text-cosmic-100 text-sm leading-relaxed">{chironInfo.soulWound}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-accent-emerald flex items-center gap-2 mb-1">
-              <span>✨</span> The Spiritual Healing Gift
+              <span></span> The Spiritual Healing Gift
             </h4>
             <p className="text-cosmic-100 text-sm leading-relaxed">{chironInfo.healingGift}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
-              🧘 Healing Remedy Action
+               Healing Remedy Action
             </h4>
             <p className="text-sm text-white font-medium italic">"{chironInfo.remedyAction}"</p>
           </div>

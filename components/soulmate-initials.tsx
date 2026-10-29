@@ -34,7 +34,7 @@ export function SoulmateInitialsCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2">💖 Viral Soulmate Decoder</div>
+        <div className="badge badge-gold mb-2"> Viral Soulmate Decoder</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">Soulmate Name & Initial Predictor</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Select your Sun sign to reveal the most compatible starting letters and meeting energy for your soulmate.

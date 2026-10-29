@@ -76,7 +76,7 @@ export function NakshatraFinder() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
-        <div className="badge badge-gold mb-3">⭐ 27 Vedic Nakshatras</div>
+        <div className="badge badge-gold mb-3"> 27 Vedic Nakshatras</div>
         <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Birth Star (Nakshatra) Calculator</h2>
         <p className="mt-2 text-cosmic-100 text-sm max-w-xl mx-auto">
           Enter your exact birth date and time to discover your Janma Nakshatra, Pada (Quarter), Ruling Deity, and Dasha Planet.
@@ -168,7 +168,7 @@ export function NakshatraFinder() {
 
             <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10 text-left">
               <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
-                ✨ Core Nakshatra Personality & Cosmic Gift
+                 Core Nakshatra Personality & Cosmic Gift
               </h4>
               <p className="text-sm text-cosmic-100 leading-relaxed italic">"{nakshatraResult.nakshatra.trait}"</p>
             </div>

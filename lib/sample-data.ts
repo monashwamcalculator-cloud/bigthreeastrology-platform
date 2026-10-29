@@ -14,7 +14,7 @@ export const SAMPLE_BLOG_POSTS = [
     image: "/blog/big-three-guide.jpg",
     createdAt: new Date("2026-08-01"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > In Western Tropical and Vedic Sidereal astrology, your **Big Three**—consisting of your **Sun Sign**, **Moon Sign**, and **Rising Sign (Ascendant)**—form the core foundation of your psychological blueprint. While your Sun sign represents your conscious ego drive, your Moon sign reveals your private emotional world, and your Rising sign dictates your outward social presence and body constitution. Explore your exact placements using our free **[Big Three Calculator](/tools/big-three)**.
 
 ---
@@ -37,7 +37,7 @@ Calculate your exact Big Three triad in seconds using our free **[Big Three Calc
 
 Your **Sun Sign** is calculated based on the position of the Sun at your exact minute of birth. The Sun spends approximately 30 days in each zodiac sign as it completes its annual 360-degree journey around the ecliptic.
 
-### 🌟 Key Dimensions of the Solar Ego:
+###  Key Dimensions of the Solar Ego:
 - **Core Purpose & Drive:** The Sun indicates where you seek fulfillment, creative expression, and public recognition.
 - **Conscious Mind:** Governs your logical decision-making, pride, leadership qualities, and personal boundary setting.
 - **Father & Authority Figure:** In birth chart analysis, the Sun reflects your psychological relationship with father figures and authority.
@@ -56,12 +56,12 @@ Calculate your exact Sun sign degrees with our **[Sun Sign Calculator](/tools/su
 
 While the Sun represents your public daylight self, your **Moon Sign** represents your private nighttime persona. The Moon moves rapidly, spending only 2.5 days in each zodiac sign, making it a highly specific psychological marker.
 
-### 🌙 Key Dimensions of the Lunar Soul:
+###  Key Dimensions of the Lunar Soul:
 - **Emotional Safety & Conditioning:** Dictates how you react when threatened, stressed, or seeking comfort.
 - **Mother & Nurturing Lineage:** Reflects your early childhood environment, maternal bond, and emotional memory storage.
 - **Attachment Style in Love:** Dictates whether you process feelings through verbal sharing (Air), physical affection (Earth), intense intimacy (Water), or active enthusiasm (Fire).
 
-### 💡 The Sun-Moon Dynamic in Action:
+###  The Sun-Moon Dynamic in Action:
 - *Sun in Leo + Moon in Scorpio:* Appears warm, dramatic, and expressive in public, but harbors an intensely private, cautious, and protective emotional core.
 - *Sun in Virgo + Moon in Sagittarius:* Detail-oriented, methodical worker on the outside, but craves spontaneous travel, philosophy, and freedom on the inside!
 
@@ -73,7 +73,7 @@ Discover your Moon sign with our **[Moon Sign Calculator](/tools/moon-sign-calcu
 
 Your **Rising Sign (Ascendant / Lagna)** is the exact zodiac sign that was ascending on the eastern horizon at your precise minute of birth. Because the Earth completes one full rotation every 24 hours, the Rising sign shifts approximately every 2 hours!
 
-### 🌅 Key Dimensions of the Ascendant:
+###  Key Dimensions of the Ascendant:
 - **First Impression & Social Mask:** Dictates the initial aura, stance, and energy people perceive when meeting you for the first time.
 - **Physical Appearance & Stature:** Strongly influences facial structure, bone shape, body posture, grooming choices, and visual style.
 - **The Chart Ruler:** The planet that rules your Ascendant becomes the "Captain of your Horoscope," dictating major life themes!
@@ -114,7 +114,7 @@ In love compatibility, Moon sign harmony dictates emotional longevity, while Ris
     image: "/blog/spouse-predictor-guide.jpg",
     createdAt: new Date("2026-08-02"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > In Vedic astrology (*Jyotish*), your birth chart (*Janma Kundali*) holds detailed keys regarding your future marriage partner. By analyzing your **7th House (Kalatra Bhava)**, **Venus**, **Jupiter**, and **Jaimini Darakaraka planet**, you can uncover details about your spouse's personality traits, physical appearance, financial background, and meeting timeline. Test your chart with our free **[Spouse Predictor](/tools/spouse-predictor)**.
 
 ---
@@ -133,15 +133,15 @@ In Vedic astrology, matrimonial life, legal partnerships, and spouse characteris
 
 In Vedic Sidereal astrology, specific planetary significators (*Karaka*) rule spouse characteristics based on gender:
 
-### ♀️ Venus (Shukra Dev) - Primary Spouse Karaka for Males:
+### ♀ Venus (Shukra Dev) - Primary Spouse Karaka for Males:
 - Represents beauty, grace, artistic talent, financial prosperity, and emotional warmth.
 - A strong Venus in Taurus, Libra, or Pisces signifies a charming, supportive, and prosperous wife.
 
-### ♂️ Jupiter (Guru Dev) - Primary Spouse Karaka for Females:
+### ♂ Jupiter (Guru Dev) - Primary Spouse Karaka for Females:
 - Represents wisdom, higher ethics, career dignity, guidance, and spiritual devotion.
 - A well-placed Jupiter in Cancer, Sagittarius, or Pisces indicates a respected, wise, and successful husband.
 
-### 🪐 Jaimini Darakaraka (DK) - Universal Spouse Indicator:
+###  Jaimini Darakaraka (DK) - Universal Spouse Indicator:
 - The planet with the lowest degree in your natal chart (excluding Rahu/Ketu) becomes your **Darakaraka**. It reveals your soulmate's core personality frequency.
 
 Calculate your Darakaraka planet with our **[Spouse Predictor Tool](/tools/spouse-predictor)**.
@@ -192,7 +192,7 @@ Vedic Kundali Milan analyzes 36 Gunas across 8 Kootas. Check your compatibility 
     image: "/blog/kundali-milan-guide.jpg",
     createdAt: new Date("2026-08-03"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > **Kundali Milan** (Ashta Koota Matchmaking) is the ancient 3,000-year-old Vedic system of evaluating marital compatibility between a bridge and groom. By analyzing 36 points (*Gunas*) across 8 psychological and physiological dimensions (*Kootas*), astrologers ensure harmony, offspring health, and financial longevity. Calculate your score with our free **[Kundali Milan 36 Gunas Tool](/tools/kundali-milan)**.
 
 ---
@@ -228,15 +228,15 @@ Calculate your exact match score using our **[Kundali Milan Calculator](/tools/k
 
 ## 3. Major Doshas in Kundali Milan & Cancellation Rules
 
-### 🚫 1. Nadi Dosha (8 Points Loss):
+###  1. Nadi Dosha (8 Points Loss):
 Occurs when both partners share the exact same Nadi (Vata, Pitta, or Kapha). Can lead to health friction or reproductive delays.
 *Cancellation:* If Moon Nakshatras are different or lords are friendly, Nadi Dosha gets canceled.
 
-### 🚫 2. Bhakoot Dosha (7 Points Loss):
+###  2. Bhakoot Dosha (7 Points Loss):
 Occurs when Moon signs are in 2-12, 6-8, or 9-5 relative positions.
 *Cancellation:* Friendly Moon sign lords eliminate Bhakoot Dosha.
 
-### 🚫 3. Manglik Dosha (Mars Afflicted):
+###  3. Manglik Dosha (Mars Afflicted):
 Occurs when Mars is situated in the 1st, 4th, 7th, 8th, or 12th house.
 *Remedy:* Double Manglik matching or performing Kumbh Vivah remedies.
 
@@ -264,7 +264,7 @@ Use our **[Zodiac Love Compatibility Matcher](/tools/love-compatibility)** using
     image: "/blog/choghadia-muhurat-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > Timing is everything in Vedic wisdom. **Choghadia** is an ancient 3,000-year-old timing framework dividing daytime and nighttime into 8 equal time windows each. By aligning your business launches, gold purchases, travel, and contract signatures with auspicious slots like **Amrit**, **Shubh**, and **Labh**, you ensure smooth progress and victory. Check today's live time windows using our **[Daily Choghadia Calculator](/tools/choghadia)**.
 
 ---
@@ -273,13 +273,13 @@ Use our **[Zodiac Love Compatibility Matcher](/tools/love-compatibility)** using
 
 Each Choghadia window lasts approximately 90 minutes (1.5 hours) and is governed by a specific planetary ruler:
 
-1. **Amrit (Nectar - Auspicious ✨):** Ruled by the Moon. Ideal for all sacred ceremonies, purchasing assets, and family celebrations.
-2. **Shubh (Good - Auspicious 🌟):** Ruled by Jupiter. Excellent for marriages, educational ventures, and spiritual rituals.
-3. **Labh (Gain - Auspicious 💰):** Ruled by Mercury. Prime window for starting new commercial businesses, signing contracts, and trading.
-4. **Char (Neutral / Variable 🚗):** Ruled by Venus. Favorable for travel, vehicle movement, and dynamic tasks.
-5. **Rog (Disease - Inauspicious ⚠️):** Ruled by Mars. Avoid starting new ventures; best used for physical workouts or competitive tasks.
-6. **Kaal (Loss - Inauspicious ⚠️):** Ruled by Saturn. Avoid commercial deals; useful for discipline and cleaning.
-7. **Udveg (Anxiety - Inauspicious ⚠️):** Ruled by the Sun. Avoid high-stress negotiations or official government submissions.
+1. **Amrit (Nectar - Auspicious ):** Ruled by the Moon. Ideal for all sacred ceremonies, purchasing assets, and family celebrations.
+2. **Shubh (Good - Auspicious ):** Ruled by Jupiter. Excellent for marriages, educational ventures, and spiritual rituals.
+3. **Labh (Gain - Auspicious ):** Ruled by Mercury. Prime window for starting new commercial businesses, signing contracts, and trading.
+4. **Char (Neutral / Variable ):** Ruled by Venus. Favorable for travel, vehicle movement, and dynamic tasks.
+5. **Rog (Disease - Inauspicious ):** Ruled by Mars. Avoid starting new ventures; best used for physical workouts or competitive tasks.
+6. **Kaal (Loss - Inauspicious ):** Ruled by Saturn. Avoid commercial deals; useful for discipline and cleaning.
+7. **Udveg (Anxiety - Inauspicious ):** Ruled by the Sun. Avoid high-stress negotiations or official government submissions.
 
 ---
 
@@ -324,7 +324,7 @@ In addition to Rog/Kaal Choghadia, avoid daily Rahu Kaal hours. Track them with 
     image: "/blog/sade-sati-dasha-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > **Sade Sati** is Saturn's 7.5-year transit across the sign preceding, containing, and following your natal Moon sign. Far from being a mere curse, Sade Sati is a profound period of cosmic purification designed to dismantle false pride, build structural endurance, and reward hard work with lasting legacy. Check your active transit phase with our free **[Sade Sati Phase Checker](/tools/sade-sati)**.
 
 ---
@@ -341,17 +341,17 @@ Check your natal Moon sign using our **[Big Three Calculator](/tools/big-three)*
 
 ## 2. Breakdown of the 3 Sade Sati Dhaiya Phases
 
-### 🌒 Phase 1: The Rising Phase (1st Dhaiya)
+###  Phase 1: The Rising Phase (1st Dhaiya)
 - **Saturn Location:** 12th House from natal Moon.
 - **Primary Focus:** Financial restructuring, unannounced expenses, shift in sleep patterns, releasing superficial social circles.
 - **Key Lesson:** Practicing financial discipline and releasing attachment to material illusions.
 
-### 🌕 Phase 2: The Peak Phase (2nd Dhaiya)
+###  Phase 2: The Peak Phase (2nd Dhaiya)
 - **Saturn Location:** Direct transit over natal Moon sign (1st House from Moon).
 - **Primary Focus:** Intense mental workload, career accountability, personal health awareness, restructuring relationships.
 - **Key Lesson:** Cultivating mental fortitude, humility, and absolute dedication to long-term duty.
 
-### 🌘 Phase 3: The Setting Phase (3rd Dhaiya)
+###  Phase 3: The Setting Phase (3rd Dhaiya)
 - **Saturn Location:** 2nd House from natal Moon.
 - **Primary Focus:** Family asset consolidation, speech refinement, harvesting career results after hard labor.
 - **Key Lesson:** Establishing sustainable financial security and wise family leadership.
@@ -391,7 +391,7 @@ Calculate your exact transit dates using our **[Sade Sati Phase Checker](/tools/
     image: "/blog/spouse-appearance-astrology-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > Predicting your future life partner is one of the most high-demand applications of ancient astrology. By combining your **7th House Lord**, **Venus placement**, and **Jaimini Darakaraka planet**, your birth chart reveals precise clues about your spouse's physical height, eye color, facial symmetry, career vocation, and exact meeting scenario. Try our free **[Future Spouse Predictor](/tools/spouse-predictor)** and **[Soulmate Initials Predictor](/tools/soulmate-initials)** for instant calculations.
 
 ---
@@ -410,7 +410,7 @@ In both Western Tropical astrology and Vedic Sidereal Jyotish, matrimonial prosp
 
 Your spouse's physical traits are strongly influenced by the element and zodiac sign of your **7th House Lord** and **Darakaraka planet**:
 
-### 🪐 Planetary Rulers & Physical Stature:
+###  Planetary Rulers & Physical Stature:
 - **Sun as Spouse Indicator:** Prominent posture, radiant golden or warm complexion, expressive broad forehead, commanding presence, dignified gait.
 - **Moon as Spouse Indicator:** Round, symmetrical facial features, soft luminous eyes, fair or glowing skin tone, gentle approachable aura.
 - **Mars as Spouse Indicator:** Athletic or toned muscular build, sharp defined jawline, intense focused gaze, energetic body language.
@@ -467,7 +467,7 @@ Marriage timing windows activate when Jupiter transits over your natal Moon, 1st
     image: "/blog/sade-sati-survival-remedies-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > **Sade Sati** is Saturn's 7.5-year transit across the sign preceding, containing, and following your natal Moon sign. Far from being a mere curse, Sade Sati is a profound period of cosmic purification designed to dismantle false pride, build structural endurance, and reward hard work with lasting legacy. Check your active transit phase with our free **[Sade Sati Phase Checker](/tools/sade-sati)**.
 
 ---
@@ -484,17 +484,17 @@ Check your natal Moon sign using our **[Big Three Calculator](/tools/big-three)*
 
 ## 2. Breakdown of the 3 Sade Sati Dhaiya Phases
 
-### 🌒 Phase 1: The Rising Phase (1st Dhaiya)
+###  Phase 1: The Rising Phase (1st Dhaiya)
 - **Saturn Location:** 12th House from natal Moon.
 - **Primary Focus:** Financial restructuring, unannounced expenses, shift in sleep patterns, releasing superficial social circles.
 - **Key Lesson:** Practicing financial discipline and releasing attachment to material illusions.
 
-### 🌕 Phase 2: The Peak Phase (2nd Dhaiya)
+###  Phase 2: The Peak Phase (2nd Dhaiya)
 - **Saturn Location:** Direct transit over natal Moon sign (1st House from Moon).
 - **Primary Focus:** Intense mental workload, career accountability, personal health awareness, restructuring relationships.
 - **Key Lesson:** Cultivating mental fortitude, humility, and absolute dedication to long-term duty.
 
-### 🌘 Phase 3: The Setting Phase (3rd Dhaiya)
+###  Phase 3: The Setting Phase (3rd Dhaiya)
 - **Saturn Location:** 2nd House from natal Moon.
 - **Primary Focus:** Family asset consolidation, speech refinement, harvesting career results after hard labor.
 - **Key Lesson:** Establishing sustainable financial security and wise family leadership.
@@ -534,7 +534,7 @@ Calculate your exact transit dates using our **[Sade Sati Phase Checker](/tools/
     image: "/blog/life-path-number-compatibility-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > In Pythagorean and Chaldean numerology, your **Life Path Number** represents your primary energetic frequency. When two people unite in marriage or business, their numerical vibrations interact to create instant harmony, creative expansion, or karmic growth tests. Calculate your compatibility score with our free **[Life Path Matcher](/tools/lifepath-compatibility)** and **[Destiny Number Calculator](/tools/destiny-number)**.
 
 ---
@@ -553,15 +553,15 @@ Calculate yours instantly using our **[Life Path Numerology Tool](/tools/numerol
 
 In numerology synastry, numbers belong to three natural vibration families:
 
-### 🌟 Group 1: The Visionary & Business Leaders (1, 5, 7)
+###  Group 1: The Visionary & Business Leaders (1, 5, 7)
 - **Core Traits:** Independent, intellectual, innovative, freedom-seeking.
 - **Best Compatibility:** High synergy with fellow 1, 5, and 7 numbers. Shared drive for autonomy and intellectual debate.
 
-### 💖 Group 2: The Caregivers & Harmonizers (2, 4, 8)
+###  Group 2: The Caregivers & Harmonizers (2, 4, 8)
 - **Core Traits:** Grounded, practical, loyal, structure-oriented, executive builders.
 - **Best Compatibility:** Deep stability when paired with 2, 4, and 8 numbers. Excellent for long-term marriage and business wealth.
 
-### ✨ Group 3: The Creative Humanitarians (3, 6, 9)
+###  Group 3: The Creative Humanitarians (3, 6, 9)
 - **Core Traits:** Artistic, expressive, nurturing, compassionate, community-focused.
 - **Best Compatibility:** Blossoms with 3, 6, and 9 numbers. High romantic warmth and shared creative projects.
 
@@ -598,7 +598,7 @@ Matching your brand name vibration with your Life Path number prevents business 
     image: "/blog/choghadia-muhurat-timing-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > Timing is everything in Vedic wisdom. **Choghadia** is an ancient 3,000-year-old timing framework dividing daytime and nighttime into 8 equal time windows each. By aligning your business launches, gold purchases, travel, and contract signatures with auspicious slots like **Amrit**, **Shubh**, and **Labh**, you ensure smooth progress and victory. Check today's live time windows using our **[Daily Choghadia Calculator](/tools/choghadia)**.
 
 ---
@@ -607,13 +607,13 @@ Matching your brand name vibration with your Life Path number prevents business 
 
 Each Choghadia window lasts approximately 90 minutes (1.5 hours) and is governed by a specific planetary ruler:
 
-1. **Amrit (Nectar - Auspicious ✨):** Ruled by the Moon. Ideal for all sacred ceremonies, purchasing assets, and family celebrations.
-2. **Shubh (Good - Auspicious 🌟):** Ruled by Jupiter. Excellent for marriages, educational ventures, and spiritual rituals.
-3. **Labh (Gain - Auspicious 💰):** Ruled by Mercury. Prime window for starting new commercial businesses, signing contracts, and trading.
-4. **Char (Neutral / Variable 🚗):** Ruled by Venus. Favorable for travel, vehicle movement, and dynamic tasks.
-5. **Rog (Disease - Inauspicious ⚠️):** Ruled by Mars. Avoid starting new ventures; best used for physical workouts or competitive tasks.
-6. **Kaal (Loss - Inauspicious ⚠️):** Ruled by Saturn. Avoid commercial deals; useful for discipline and cleaning.
-7. **Udveg (Anxiety - Inauspicious ⚠️):** Ruled by the Sun. Avoid high-stress negotiations or official government submissions.
+1. **Amrit (Nectar - Auspicious ):** Ruled by the Moon. Ideal for all sacred ceremonies, purchasing assets, and family celebrations.
+2. **Shubh (Good - Auspicious ):** Ruled by Jupiter. Excellent for marriages, educational ventures, and spiritual rituals.
+3. **Labh (Gain - Auspicious ):** Ruled by Mercury. Prime window for starting new commercial businesses, signing contracts, and trading.
+4. **Char (Neutral / Variable ):** Ruled by Venus. Favorable for travel, vehicle movement, and dynamic tasks.
+5. **Rog (Disease - Inauspicious ):** Ruled by Mars. Avoid starting new ventures; best used for physical workouts or competitive tasks.
+6. **Kaal (Loss - Inauspicious ):** Ruled by Saturn. Avoid commercial deals; useful for discipline and cleaning.
+7. **Udveg (Anxiety - Inauspicious ):** Ruled by the Sun. Avoid high-stress negotiations or official government submissions.
 
 ---
 
@@ -658,7 +658,7 @@ In addition to Rog/Kaal Choghadia, avoid daily Rahu Kaal hours. Track them with 
     image: "/blog/navamsha-d9-chart-marriage-destiny.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-08-06"),
-    content: `> 📌 **Executive Overview**: 
+    content: `>  **Executive Overview**: 
 > In Vedic astrology, the **D9 Navamsha Chart** is the most vital divisional chart (*Varga*). While your D1 birth chart represents the physical tree of life, the D9 Navamsha reveals the fruit! It confirms the true strength of your natal planets in the second half of life (post-30s) and illuminates your post-marriage destiny. Explore your chart placements with our free **[Navamsha D9 Explorer](/tools/navamsha)**.
 
 ---
@@ -714,7 +714,7 @@ Use our free **[Navamsha D9 Chart Explorer](/tools/navamsha)** for instant divis
     image: "/blog/saturn-return-guide.jpg",
     createdAt: new Date("2026-10-29"),
     updatedAt: new Date("2026-10-29"),
-    content: `> 📌 **Executive Overview**:
+    content: `>  **Executive Overview**:
 > A **Saturn return** is the moment transiting Saturn completes its roughly 29.5-year orbit and comes back to the exact degree it occupied when you were born. It happens around ages **29, 58 and 88**, and astrologers treat it as life's biggest maturity checkpoint — the period when weak foundations in career, relationships and money are tested, and strong ones are rewarded. Find your exact dates with our free **[Saturn Return Calculator](/tools/saturn-return)**.
 
 ---

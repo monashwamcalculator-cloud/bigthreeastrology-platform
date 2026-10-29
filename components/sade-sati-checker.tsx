@@ -120,7 +120,7 @@ export function SadeSatiChecker() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-emerald mb-3">🪐 Saturn Transit & Shani Remedy</div>
+        <div className="badge badge-emerald mb-3"> Saturn Transit & Shani Remedy</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Sade Sati & Saturn Phase Checker</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Check if your Moon Sign is undergoing Shani Sade Sati (7.5-year cycle) and unlock authentic Vedic remedies.
@@ -158,21 +158,21 @@ export function SadeSatiChecker() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
-              <span>🎯</span> Key Focus & Life Lessons
+              <span></span> Key Focus & Life Lessons
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.focusArea}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-amber-400 flex items-center gap-2 mb-1">
-              <span>🕉️</span> Recommended Vedic Remedy (Shani Daan)
+              <span></span> Recommended Vedic Remedy (Shani Daan)
             </h4>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.remedy}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-emerald-300 mb-1">
-              🙏 Sacred Chanting Mantra (Saturday Evenings)
+               Sacred Chanting Mantra (Saturday Evenings)
             </h4>
             <p className="text-sm font-mono font-bold text-white italic">"{result.mantra}"</p>
           </div>

@@ -79,7 +79,7 @@ export function AngelNumberCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">⚡ Angel Numbers & Cosmic Frequency</div>
+        <div className="badge badge-gold mb-3"> Angel Numbers & Cosmic Frequency</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Angel Number Decoder & Frequency Guide</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Decode recurring number sequences (111, 222, 444, 777, 888) and unlock cosmic manifestation guidance.
@@ -117,7 +117,7 @@ export function AngelNumberCalculator() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
-              <span>✨</span> Cosmic Significance & Meaning
+              <span></span> Cosmic Significance & Meaning
             </h4>
             <p className="text-lg font-display font-bold text-white mb-1">{result.title}</p>
             <p className="text-emerald-100 text-sm leading-relaxed">{result.cosmicMeaning}</p>
@@ -125,7 +125,7 @@ export function AngelNumberCalculator() {
 
           <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-300 mb-1">
-              🚀 Recommended Manifestation Action
+               Recommended Manifestation Action
             </h4>
             <p className="text-sm font-semibold text-white">{result.actionGuidance}</p>
           </div>

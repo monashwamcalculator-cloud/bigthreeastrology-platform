@@ -231,7 +231,7 @@ export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g
         />
         {isLoading && (
           <span className="absolute right-3 text-xs text-amber-300 animate-spin">
-            ⏳
+            
           </span>
         )}
       </div>
@@ -245,7 +245,7 @@ export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g
               onClick={() => handleSelect(city)}
               className="px-4 py-2.5 text-xs sm:text-sm text-amber-100 hover:bg-amber-500/25 hover:text-amber-300 cursor-pointer transition-colors flex items-center gap-2 font-medium"
             >
-              <span className="text-amber-400 text-xs">📍</span> {city}
+              <span className="text-amber-400 text-xs"></span> {city}
             </li>
           ))}
         </ul>

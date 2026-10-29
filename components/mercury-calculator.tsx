@@ -127,7 +127,7 @@ export function MercuryCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">☿️ Mercury Sign (Budh) Calculator</div>
+        <div className="badge badge-gold mb-3">☿ Mercury Sign (Budh) Calculator</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Mind & Communication Style</h2>
         <p className="text-cosmic-200 text-sm mt-1">
           Mercury governs how you think, process information, speak, negotiate, and solve problems.
@@ -161,21 +161,21 @@ export function MercuryCalculator() {
         <div className="space-y-4 text-left">
           <div>
             <h4 className="text-sm font-semibold text-accent-cyan flex items-center gap-2 mb-1">
-              <span>🧠</span> Thinking & Mental Style
+              <span></span> Thinking & Mental Style
             </h4>
             <p className="text-cosmic-100 text-sm leading-relaxed">{mercuryInfo.mindStyle}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-accent-gold flex items-center gap-2 mb-1">
-              <span>🗣️</span> Speech & Communication
+              <span></span> Speech & Communication
             </h4>
             <p className="text-cosmic-100 text-sm leading-relaxed">{mercuryInfo.speechStyle}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-emerald mb-1">
-              💡 Core Intellectual Superpower
+               Core Intellectual Superpower
             </h4>
             <p className="text-sm text-white font-medium">{mercuryInfo.learningGift}</p>
           </div>

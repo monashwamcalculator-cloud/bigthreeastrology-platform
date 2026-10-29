@@ -189,7 +189,7 @@ export function KundaliMilanCalculator() {
 
   const handleShare = async () => {
     if (!matchResult) return;
-    const text = `🕉️ Vedic Kundali Milan Report 🕉️\n👦 Boy: ${boyName || "Groom"} (${boyPlace || "India"}) - ${boyHour}:${boyMinute} ${boyPeriod}\n👧 Girl: ${girlName || "Bride"} (${girlPlace || "India"}) - ${girlHour}:${girlMinute} ${girlPeriod}\n✨ Total Score: ${matchResult.totalGuna} / 36 Gunas\n📌 Verdict: ${matchResult.verdict}\n\nCheck authentic Kundali Matching free at BIGThreeAstrology!`;
+    const text = ` Vedic Kundali Milan Report \n Boy: ${boyName || "Groom"} (${boyPlace || "India"}) - ${boyHour}:${boyMinute} ${boyPeriod}\n Girl: ${girlName || "Bride"} (${girlPlace || "India"}) - ${girlHour}:${girlMinute} ${girlPeriod}\n Total Score: ${matchResult.totalGuna} / 36 Gunas\n Verdict: ${matchResult.verdict}\n\nCheck authentic Kundali Matching free at BIGThreeAstrology!`;
     try {
       await navigator.clipboard.writeText(text);
       alert("Kundali Match Certificate copied to clipboard!");
@@ -201,7 +201,7 @@ export function KundaliMilanCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
-        <div className="badge badge-gold mb-3">🕉️ Vedic Ashta Koota 36 Guna Milan System</div>
+        <div className="badge badge-gold mb-3"> Vedic Ashta Koota 36 Guna Milan System</div>
         <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Authentic Kundali Matching</h2>
         <p className="mt-2 text-emerald-100 text-sm max-w-xl mx-auto">
           Enter exact birth details (date, time with AM/PM, and place) of the Boy and Girl to calculate the 36 Guna Milan score with genuine Vedic calculations.
@@ -212,7 +212,7 @@ export function KundaliMilanCalculator() {
         {/* Boy Form */}
         <div className="glass-card-hover p-6 border-cyan-500/30 bg-black/40">
           <h3 className="text-lg font-display font-semibold text-cyan-300 mb-4 flex items-center gap-2">
-            <span>👦</span> Groom's Details (Ladka)
+            <span></span> Groom's Details (Ladka)
           </h3>
           <div className="space-y-4">
             <div>
@@ -280,7 +280,7 @@ export function KundaliMilanCalculator() {
             </div>
 
             <div>
-              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Place (Auto-Suggest 📍)</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Place (Auto-Suggest )</label>
               <CityAutocomplete
                 value={boyPlace}
                 onChange={setBoyPlace}
@@ -293,7 +293,7 @@ export function KundaliMilanCalculator() {
         {/* Girl Form */}
         <div className="glass-card-hover p-6 border-rose-500/30 bg-black/40">
           <h3 className="text-lg font-display font-semibold text-rose-300 mb-4 flex items-center gap-2">
-            <span>👧</span> Bride's Details (Ladki)
+            <span></span> Bride's Details (Ladki)
           </h3>
           <div className="space-y-4">
             <div>
@@ -361,7 +361,7 @@ export function KundaliMilanCalculator() {
             </div>
 
             <div>
-              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Place (Auto-Suggest 📍)</label>
+              <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Birth Place (Auto-Suggest )</label>
               <CityAutocomplete
                 value={girlPlace}
                 onChange={setGirlPlace}
@@ -395,7 +395,7 @@ export function KundaliMilanCalculator() {
             {/* Ashta Koota Breakdown Table */}
             <div className="mt-8 text-left border-t border-emerald-500/30 pt-6">
               <h4 className="text-lg font-display font-semibold text-white mb-4 flex items-center justify-between">
-                <span>📊 Ashta Koota Score Breakdown</span>
+                <span> Ashta Koota Score Breakdown</span>
                 <span className="text-xs font-normal text-emerald-300">Max Score: 36 Points</span>
               </h4>
 
@@ -413,7 +413,7 @@ export function KundaliMilanCalculator() {
 
             <div className="mt-8 flex justify-center">
               <button onClick={handleShare} className="btn-primary flex items-center gap-2">
-                <span>📜</span> Share Kundali Match Report
+                <span></span> Share Kundali Match Report
               </button>
             </div>
           </div>

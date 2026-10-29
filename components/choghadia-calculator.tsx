@@ -98,7 +98,7 @@ export function ChoghadiaCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-emerald mb-3">🔮 Daily Vedic Choghadia Muhurat</div>
+        <div className="badge badge-emerald mb-3"> Daily Vedic Choghadia Muhurat</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Auspicious Choghadia Timings</h2>
         <p className="text-emerald-200 text-sm mt-1">
           Check auspicious windows (Shubh, Labh, Amrit) for buying gold, starting business, traveling, and signing deals.
@@ -130,7 +130,7 @@ export function ChoghadiaCalculator() {
               timeMode === "Day" ? "bg-amber-400 text-black shadow-md" : "text-emerald-200"
             }`}
           >
-            ☀️ Day Choghadia
+            ☀ Day Choghadia
           </button>
           <button
             onClick={() => setTimeMode("Night")}
@@ -138,7 +138,7 @@ export function ChoghadiaCalculator() {
               timeMode === "Night" ? "bg-indigo-500 text-white shadow-md" : "text-emerald-200"
             }`}
           >
-            🌙 Night Choghadia
+             Night Choghadia
           </button>
         </div>
       </div>

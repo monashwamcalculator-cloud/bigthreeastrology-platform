@@ -186,7 +186,7 @@ export function NumerologyCalculator() {
               : "btn-secondary hover:border-accent-gold"
           }`}
         >
-          <span>🔢</span> Life Path Number
+          <span></span> Life Path Number
         </button>
         <button
           onClick={() => setActiveTab("expression")}
@@ -196,7 +196,7 @@ export function NumerologyCalculator() {
               : "btn-secondary hover:border-accent-gold"
           }`}
         >
-          <span>🔤</span> Name Numerology (Expression)
+          <span></span> Name Numerology (Expression)
         </button>
       </div>
 
@@ -234,7 +234,7 @@ export function NumerologyCalculator() {
 
                 <div className="grid md:grid-cols-3 gap-4 text-left border-t border-cosmic-700/40 pt-6">
                   <div>
-                    <h5 className="text-xs uppercase font-semibold text-accent-emerald mb-2">✨ Core Strengths</h5>
+                    <h5 className="text-xs uppercase font-semibold text-accent-emerald mb-2"> Core Strengths</h5>
                     <ul className="text-sm text-cosmic-200 space-y-1">
                       {lifePathResult.details.strengths.map((s, idx) => (
                         <li key={idx}>• {s}</li>
@@ -243,7 +243,7 @@ export function NumerologyCalculator() {
                   </div>
 
                   <div>
-                    <h5 className="text-xs uppercase font-semibold text-accent-rose mb-2">⚠️ Challenges</h5>
+                    <h5 className="text-xs uppercase font-semibold text-accent-rose mb-2"> Challenges</h5>
                     <ul className="text-sm text-cosmic-200 space-y-1">
                       {lifePathResult.details.challenges.map((c, idx) => (
                         <li key={idx}>• {c}</li>
@@ -252,7 +252,7 @@ export function NumerologyCalculator() {
                   </div>
 
                   <div>
-                    <h5 className="text-xs uppercase font-semibold text-accent-cyan mb-2">💼 Best Careers</h5>
+                    <h5 className="text-xs uppercase font-semibold text-accent-cyan mb-2"> Best Careers</h5>
                     <ul className="text-sm text-cosmic-200 space-y-1">
                       {lifePathResult.details.careers.map((car, idx) => (
                         <li key={idx}>• {car}</li>
@@ -299,7 +299,7 @@ export function NumerologyCalculator() {
 
                 <div className="grid md:grid-cols-3 gap-4 text-left border-t border-cosmic-700/40 pt-6">
                   <div>
-                    <h5 className="text-xs uppercase font-semibold text-accent-emerald mb-2">✨ Natural Talents</h5>
+                    <h5 className="text-xs uppercase font-semibold text-accent-emerald mb-2"> Natural Talents</h5>
                     <ul className="text-sm text-cosmic-200 space-y-1">
                       {expressionResult.details.strengths.map((s, idx) => (
                         <li key={idx}>• {s}</li>
@@ -308,7 +308,7 @@ export function NumerologyCalculator() {
                   </div>
 
                   <div>
-                    <h5 className="text-xs uppercase font-semibold text-accent-rose mb-2">⚠️ Potential Blindspots</h5>
+                    <h5 className="text-xs uppercase font-semibold text-accent-rose mb-2"> Potential Blindspots</h5>
                     <ul className="text-sm text-cosmic-200 space-y-1">
                       {expressionResult.details.challenges.map((c, idx) => (
                         <li key={idx}>• {c}</li>
@@ -317,7 +317,7 @@ export function NumerologyCalculator() {
                   </div>
 
                   <div>
-                    <h5 className="text-xs uppercase font-semibold text-accent-gold mb-2">🌟 Ideal Expression</h5>
+                    <h5 className="text-xs uppercase font-semibold text-accent-gold mb-2"> Ideal Expression</h5>
                     <ul className="text-sm text-cosmic-200 space-y-1">
                       {expressionResult.details.careers.map((car, idx) => (
                         <li key={idx}>• {car}</li>

@@ -86,12 +86,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {/* Column 2 */}
               <div className="flex flex-col gap-3 text-sm">
                 <h3 className="font-semibold text-white">Popular Tools</h3>
-                <Link href="/tools/big-three" className="text-amber-300 hover:text-white transition-colors">🔮 Big Three Calculator</Link>
-                <Link href="/tools/spouse-predictor" className="text-amber-300 hover:text-white transition-colors">💖 Spouse Predictor</Link>
-                <Link href="/tools/kundali-milan" className="text-amber-300 hover:text-white transition-colors">🕉️ Kundali Milan (36 Gunas)</Link>
-                <Link href="/tools/choghadia" className="text-amber-300 hover:text-white transition-colors">🔮 Daily Choghadia Muhurat</Link>
-                <Link href="/tools/sade-sati" className="text-amber-300 hover:text-white transition-colors">🪐 Sade Sati Phase Checker</Link>
-                <Link href="/tools/love-compatibility" className="text-amber-300 hover:text-white transition-colors">💖 Zodiac Love Matcher</Link>
+                <Link href="/tools/big-three" className="text-amber-300 hover:text-white transition-colors"> Big Three Calculator</Link>
+                <Link href="/tools/spouse-predictor" className="text-amber-300 hover:text-white transition-colors"> Spouse Predictor</Link>
+                <Link href="/tools/kundali-milan" className="text-amber-300 hover:text-white transition-colors"> Kundali Milan (36 Gunas)</Link>
+                <Link href="/tools/choghadia" className="text-amber-300 hover:text-white transition-colors"> Daily Choghadia Muhurat</Link>
+                <Link href="/tools/sade-sati" className="text-amber-300 hover:text-white transition-colors"> Sade Sati Phase Checker</Link>
+                <Link href="/tools/love-compatibility" className="text-amber-300 hover:text-white transition-colors"> Zodiac Love Matcher</Link>
               </div>
               
               {/* Column 3 */}

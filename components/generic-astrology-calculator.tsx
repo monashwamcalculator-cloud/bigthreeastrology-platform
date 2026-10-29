@@ -107,7 +107,7 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
             <p className="text-xs sm:text-sm text-amber-100/90 leading-relaxed mt-0.5">{result.analysis}</p>
           </div>
           <div className="p-3 rounded-xl bg-amber-950/80 border border-amber-500/30">
-            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5">✨ Recommended Action Step</span>
+            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5"> Recommended Action Step</span>
             <p className="text-xs text-white font-medium">{result.advice}</p>
           </div>
         </div>

@@ -11,7 +11,7 @@ export default function DisclaimerPage() {
   return (
     <div className="glass-card max-w-4xl mx-auto p-8 md:p-14 space-y-8 my-8 bg-black/40 border-emerald-500/30">
       <div className="space-y-3">
-        <div className="badge badge-emerald mb-2">⚖️ Legal & Astrological Disclaimer</div>
+        <div className="badge badge-emerald mb-2">⚖ Legal & Astrological Disclaimer</div>
         <h1 className="text-3xl md:text-4xl font-display font-bold gradient-text">Astrological Disclaimer</h1>
         <p className="text-xs text-emerald-300">Effective Date: August 5, 2026</p>
       </div>

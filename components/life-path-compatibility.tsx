@@ -57,7 +57,7 @@ export function LifePathCompatibilityCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-emerald mb-2">🔢 Life Path Synastry</div>
+        <div className="badge badge-emerald mb-2"> Life Path Synastry</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text">Life Path Numerology Matcher</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Select two Life Path numbers to calculate relationship synergy, compatibility score, and karmic advice.

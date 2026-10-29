@@ -24,7 +24,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Ring Finger",
     mantra: "Om Kram Kreem Kroum Sah Bhaumaya Namah",
     benefits: "Boosts stamina, leadership courage, physical vitality, and shields from negative envy.",
-    emoji: "🔴"
+    emoji: ""
   },
   Taurus: {
     rashi: "Taurus (Vrishabha)",
@@ -35,7 +35,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Middle Finger",
     mantra: "Om Draam Dreem Droum Sah Shukraya Namah",
     benefits: "Enhances romantic charisma, artistic elegance, wealth creation, and luxury.",
-    emoji: "💎"
+    emoji: ""
   },
   Gemini: {
     rashi: "Gemini (Mithun)",
@@ -46,7 +46,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Little Finger (Kanishtha)",
     mantra: "Om Braam Breem Broum Sah Budhaya Namah",
     benefits: "Unlocks sharp communication, business negotiation skills, memory, and analytical intellect.",
-    emoji: "🟢"
+    emoji: ""
   },
   Cancer: {
     rashi: "Cancer (Kark)",
@@ -57,7 +57,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Little Finger",
     mantra: "Om Shraam Shreem Shroum Sah Chandraya Namah",
     benefits: "Calms emotional anxiety, nurtures peace of mind, family harmony, and intuitive clarity.",
-    emoji: "⚪"
+    emoji: ""
   },
   Leo: {
     rashi: "Leo (Simha)",
@@ -68,7 +68,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Ring Finger (Anamika)",
     mantra: "Om Hraam Hreem Hroum Sah Suryaya Namah",
     benefits: "Bestows magnetic royal authority, career fame, strong immunity, and executive respect.",
-    emoji: "🔴"
+    emoji: ""
   },
   Virgo: {
     rashi: "Virgo (Kanya)",
@@ -79,7 +79,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Little Finger",
     mantra: "Om Budhaya Namah",
     benefits: "Sharpened focus, financial wisdom, healing health vitality, and academic success.",
-    emoji: "🟢"
+    emoji: ""
   },
   Libra: {
     rashi: "Libra (Tula)",
@@ -90,7 +90,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Middle or Ring Finger",
     mantra: "Om Shukraya Namah",
     benefits: "Restores emotional balance, relationship trust, artistic growth, and refined aesthetic peace.",
-    emoji: "✨"
+    emoji: ""
   },
   Scorpio: {
     rashi: "Scorpio (Vrishchik)",
@@ -101,7 +101,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Ring Finger",
     mantra: "Om Mangalaya Namah",
     benefits: "Provides protective courage, clears obstacles, enhances passion and inner transformation.",
-    emoji: "🔴"
+    emoji: ""
   },
   Sagittarius: {
     rashi: "Sagittarius (Dhanu)",
@@ -112,7 +112,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Index Finger (Tarjani)",
     mantra: "Om Graam Greem Groum Sah Gurave Namah",
     benefits: "Attracts immense wealth, higher spiritual wisdom, fortune, and marriage harmony.",
-    emoji: "🟡"
+    emoji: ""
   },
   Capricorn: {
     rashi: "Capricorn (Makar)",
@@ -123,7 +123,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Middle Finger (Madhyama)",
     mantra: "Om Praam Preem Proum Sah Shanaishcharaya Namah",
     benefits: "Brings rapid rise in career status, discipline, protection from enemies, and long-term stability.",
-    emoji: "🔵"
+    emoji: ""
   },
   Aquarius: {
     rashi: "Aquarius (Kumbh)",
@@ -134,7 +134,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Middle Finger",
     mantra: "Om Sham Shanaishcharaya Namah",
     benefits: "Stimulates groundbreaking innovation, social influence, focus, and financial security.",
-    emoji: "🔵"
+    emoji: ""
   },
   Pisces: {
     rashi: "Pisces (Meen)",
@@ -145,7 +145,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     finger: "Index Finger",
     mantra: "Om Gurave Namah",
     benefits: "Expands divine grace, peace of mind, prosperous marriage, and academic achievements.",
-    emoji: "🟡"
+    emoji: ""
   }
 };
 
@@ -159,7 +159,7 @@ export function GemstoneFinder() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">💎 Vedic Planetary Remedies (Ratna Vigyan)</div>
+        <div className="badge badge-gold mb-3"> Vedic Planetary Remedies (Ratna Vigyan)</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Lucky Gemstone & Mantra Finder</h2>
         <p className="text-cosmic-200 text-sm mt-1">
           Discover your authentic planetary gemstone (Ratna), recommended wearing finger, metal, and sacred Vedic mantra.
@@ -215,14 +215,14 @@ export function GemstoneFinder() {
         <div className="space-y-4 border-t border-cosmic-700/40 pt-4">
           <div>
             <h4 className="text-sm font-semibold text-accent-emerald flex items-center gap-2 mb-1">
-              <span>✨</span> Astrological Benefits & Energy
+              <span></span> Astrological Benefits & Energy
             </h4>
             <p className="text-cosmic-100 text-sm leading-relaxed">{gemstoneInfo.benefits}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-cosmic-900/80 border border-accent-gold/30">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
-              🕉️ Sacred Chanting Mantra (108 Times)
+               Sacred Chanting Mantra (108 Times)
             </h4>
             <p className="text-sm font-mono font-bold text-white italic">"{gemstoneInfo.mantra}"</p>
           </div>

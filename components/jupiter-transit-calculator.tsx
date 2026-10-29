@@ -34,7 +34,7 @@ export function JupiterTransitCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2">🪐 Guru Blessing & Expansion</div>
+        <div className="badge badge-gold mb-2"> Guru Blessing & Expansion</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">Jupiter Transit & Luck Finder</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Discover how Jupiter (Guru) expands your wealth, marriage luck, career opportunities, and spiritual grace.
@@ -65,15 +65,15 @@ export function JupiterTransitCalculator() {
 
         <div className="space-y-3 text-left">
           <div>
-            <span className="text-xs font-semibold text-amber-300">🎯 Luck & Opportunity Focus:</span>
+            <span className="text-xs font-semibold text-amber-300"> Luck & Opportunity Focus:</span>
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.luckFocus}</p>
           </div>
           <div>
-            <span className="text-xs font-semibold text-sky-300">💰 Financial Wealth Avenues:</span>
+            <span className="text-xs font-semibold text-sky-300"> Financial Wealth Avenues:</span>
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.financialOpportunity}</p>
           </div>
           <div className="p-3.5 rounded-xl bg-sky-950/80 border border-sky-500/30">
-            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5">🙏 Divine Spiritual Blessing</span>
+            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5"> Divine Spiritual Blessing</span>
             <p className="text-xs text-white font-medium">{result.spiritualBlessing}</p>
           </div>
         </div>

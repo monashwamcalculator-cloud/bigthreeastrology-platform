@@ -80,7 +80,7 @@ export function RahuKaalTracker() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">🕒 Daily Panchang & Vedic Timing</div>
+        <div className="badge badge-gold mb-3"> Daily Panchang & Vedic Timing</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Rahu Kaal & Shubh Muhurat Tracker</h2>
         <p className="text-cosmic-200 text-sm mt-1">
           Check daily Rahu Kaal (inauspicious time to avoid), Abhijit Muhurat (golden success window), and Amrit Kaal timings.
@@ -116,7 +116,7 @@ export function RahuKaalTracker() {
           {/* Rahu Kaal */}
           <div className="p-4 rounded-xl bg-accent-rose/10 border border-accent-rose/30">
             <div className="text-xs uppercase tracking-wider font-semibold text-accent-rose mb-1">
-              ⚠️ Rahu Kaal (Avoid New Starts)
+               Rahu Kaal (Avoid New Starts)
             </div>
             <div className="text-lg font-display font-bold text-white">{muhuratInfo.rahuKaal}</div>
           </div>
@@ -124,7 +124,7 @@ export function RahuKaalTracker() {
           {/* Abhijit Muhurat */}
           <div className="p-4 rounded-xl bg-accent-gold/10 border border-accent-gold/30">
             <div className="text-xs uppercase tracking-wider font-semibold text-accent-gold mb-1">
-              ✨ Abhijit Muhurat (Golden Window)
+               Abhijit Muhurat (Golden Window)
             </div>
             <div className="text-lg font-display font-bold text-white">{muhuratInfo.abhijitMuhurat}</div>
           </div>
@@ -132,7 +132,7 @@ export function RahuKaalTracker() {
           {/* Amrit Kaal */}
           <div className="p-4 rounded-xl bg-accent-emerald/10 border border-accent-emerald/30">
             <div className="text-xs uppercase tracking-wider font-semibold text-accent-emerald mb-1">
-              🍯 Amrit Kaal (Auspicious Nectar)
+               Amrit Kaal (Auspicious Nectar)
             </div>
             <div className="text-lg font-display font-bold text-white">{muhuratInfo.amritKaal}</div>
           </div>
@@ -149,7 +149,7 @@ export function RahuKaalTracker() {
         {/* Advice */}
         <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
           <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
-            📌 Daily Planetary Guidance
+             Daily Planetary Guidance
           </h4>
           <p className="text-sm text-cosmic-100 leading-relaxed">{muhuratInfo.advice}</p>
         </div>
