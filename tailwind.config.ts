@@ -10,19 +10,19 @@ const config: Config = {
       },
       colors: {
         cosmic: {
-          950: "#050010",
-          900: "#090016",
-          800: "#17042b",
-          700: "#220742",
-          600: "#3a1166",
-          500: "#5f3fd6",
-          400: "#7c5ce7",
-          300: "#a78bfa",
-          200: "#c4b5fd",
-          100: "#ede9fe"
+          950: "#07271a",
+          900: "#0b3d24",
+          800: "#0e4d2e",
+          700: "#14663c",
+          600: "#17884a",
+          500: "#2fa05c",
+          400: "#5cb85f",
+          300: "#9ad1a8",
+          200: "#c4e6cb",
+          100: "#e7f2e7"
         },
         accent: {
-          gold: "#f59e0b",
+          gold: "#e8930c",
           rose: "#f43f5e",
           cyan: "#06b6d4",
           emerald: "#10b981"
@@ -45,8 +45,8 @@ const config: Config = {
           "50%": { transform: "translateY(-10px)" }
         },
         glow: {
-          "0%": { boxShadow: "0 0 5px rgba(124, 92, 231, 0.3), 0 0 20px rgba(124, 92, 231, 0.1)" },
-          "100%": { boxShadow: "0 0 20px rgba(124, 92, 231, 0.6), 0 0 60px rgba(124, 92, 231, 0.2)" }
+          "0%": { boxShadow: "0 0 5px rgba(23, 136, 74, 0.3), 0 0 20px rgba(23, 136, 74, 0.1)" },
+          "100%": { boxShadow: "0 0 20px rgba(23, 136, 74, 0.6), 0 0 60px rgba(23, 136, 74, 0.2)" }
         },
         shimmer: {
           "0%": { backgroundPosition: "-200% center" },
@@ -61,8 +61,8 @@ const config: Config = {
           "100%": { opacity: "1", transform: "translateY(0)" }
         },
         pulseGlow: {
-          "0%, 100%": { boxShadow: "0 0 15px rgba(124, 92, 231, 0.3)" },
-          "50%": { boxShadow: "0 0 40px rgba(124, 92, 231, 0.6), 0 0 80px rgba(124, 92, 231, 0.2)" }
+          "0%, 100%": { boxShadow: "0 0 15px rgba(23, 136, 74, 0.3)" },
+          "50%": { boxShadow: "0 0 40px rgba(23, 136, 74, 0.6), 0 0 80px rgba(23, 136, 74, 0.2)" }
         },
         twinkle: {
           "0%, 100%": { opacity: "0.3", transform: "scale(0.8)" },
@@ -72,18 +72,18 @@ const config: Config = {
       boxShadow: {
         "glass": "0 8px 32px rgba(0, 0, 0, 0.3)",
         "glass-lg": "0 16px 48px rgba(0, 0, 0, 0.4)",
-        "glow-sm": "0 0 15px rgba(124, 92, 231, 0.3)",
-        "glow-md": "0 0 30px rgba(124, 92, 231, 0.4)",
-        "glow-lg": "0 0 60px rgba(124, 92, 231, 0.5)",
-        "glow-gold": "0 0 30px rgba(245, 158, 11, 0.3)",
+        "glow-sm": "0 0 15px rgba(23, 136, 74, 0.3)",
+        "glow-md": "0 0 30px rgba(23, 136, 74, 0.4)",
+        "glow-lg": "0 0 60px rgba(23, 136, 74, 0.5)",
+        "glow-gold": "0 0 30px rgba(23, 136, 74, 0.3)",
         "glow-cyan": "0 0 30px rgba(6, 182, 212, 0.3)"
       },
       backgroundImage: {
-        "gradient-cosmic": "linear-gradient(135deg, #090016 0%, #17042b 50%, #220742 100%)",
-        "gradient-card": "linear-gradient(135deg, rgba(124, 92, 231, 0.1) 0%, rgba(99, 102, 241, 0.05) 100%)",
+        "gradient-cosmic": "linear-gradient(135deg, #07271a 0%, #0b3d24 50%, #14663c 100%)",
+        "gradient-card": "linear-gradient(135deg, rgba(23, 136, 74, 0.08) 0%, rgba(23, 136, 74, 0.03) 100%)",
         "gradient-text": "linear-gradient(135deg, #a78bfa, #818cf8, #c084fc)",
-        "gradient-gold": "linear-gradient(135deg, #f59e0b, #d97706, #fbbf24)",
-        "gradient-border": "linear-gradient(135deg, rgba(124, 92, 231, 0.5), rgba(99, 102, 241, 0.2))"
+        "gradient-gold": "linear-gradient(135deg, #1b9a50, #17884a, #57b06e)",
+        "gradient-border": "linear-gradient(135deg, rgba(23, 136, 74, 0.5), rgba(99, 102, 241, 0.2))"
       }
     }
   },

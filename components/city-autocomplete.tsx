@@ -238,7 +238,7 @@ export function CityAutocomplete({ value, onChange, placeholder = "Type city e.g
 
       {/* Autocomplete Dropdown List */}
       {isOpen && suggestions.length > 0 && (
-        <ul className="absolute z-50 left-0 right-0 top-full mt-1.5 max-h-60 overflow-y-auto rounded-xl bg-[#09090b]/98 border border-amber-500/40 shadow-2xl backdrop-blur-xl divide-y divide-amber-500/20">
+        <ul className="absolute z-50 left-0 right-0 top-full mt-1.5 max-h-60 overflow-y-auto rounded-xl bg-white/98 border border-amber-500/40 shadow-2xl backdrop-blur-xl divide-y divide-amber-500/20">
           {suggestions.map((city, idx) => (
             <li
               key={idx}

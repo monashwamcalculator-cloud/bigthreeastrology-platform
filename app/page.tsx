@@ -125,7 +125,7 @@ export default function HomePage() {
             priority
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-amber-950/80 via-black/80 to-amber-950/90 pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-white/70 to-[#e7f2e7]/90 pointer-events-none" />
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
           <div className="badge badge-gold mb-4 animate-slide-up text-xs py-1 px-3">
@@ -409,7 +409,7 @@ export default function HomePage() {
 
 
       {/* 12. Virality & Social Share CTA Banner */}
-      <section className="relative overflow-hidden rounded-2xl p-6 sm:p-10 text-center my-4 bg-gradient-to-r from-amber-950/80 via-amber-900/90 to-amber-900/80 border border-amber-500/40">
+      <section className="theme-dark relative overflow-hidden rounded-2xl p-6 sm:p-10 text-center my-4 bg-gradient-to-r from-[#07271a] via-[#0b3d24] to-[#0b3d24] border border-[#0b3d24]">
         <div className="absolute inset-0 stars-bg opacity-40" />
         <div className="relative z-10 flex flex-col items-center">
           <span className="mb-2 flex justify-center"><CosmicIcon name="sparkle" className="w-9 h-9" /></span>

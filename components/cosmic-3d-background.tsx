@@ -42,7 +42,7 @@ export function Cosmic3DBackground() {
       speed: number;
     }> = [];
 
-    const starColors = ["#ffffff", "#fde047", "#d4af37", "#60a5fa", "#f59e0b"];
+    const starColors = ["#b7ddbe", "#8fcb9b", "#dce9dc", "#a7c7b2", "#c9dfc9"];
 
     for (let i = 0; i < starCount; i++) {
       stars.push({
@@ -60,7 +60,7 @@ export function Cosmic3DBackground() {
     // 3D Render Loop (Lightweight & Smooth 60fps)
     const render = () => {
       // Clear canvas with space background
-      ctx.fillStyle = "#060608";
+      ctx.fillStyle = "#ffffff";
       ctx.fillRect(0, 0, width, height);
 
       const cx = width / 2 + mouseX;
@@ -80,7 +80,7 @@ export function Cosmic3DBackground() {
         const py = star.y * k + cy;
 
         if (px >= 0 && px <= width && py >= 0 && py <= height) {
-          const alpha = Math.min(1, (1 - star.z / width) * 1.5);
+          const alpha = Math.min(1, (1 - star.z / width) * 1.5) * 0.6;
           ctx.beginPath();
           ctx.arc(px, py, Math.max(0.6, star.size * k), 0, Math.PI * 2);
           ctx.fillStyle = star.color;
@@ -100,8 +100,8 @@ export function Cosmic3DBackground() {
         saturnX, saturnY, saturnRadius * 0.2,
         saturnX, saturnY, saturnRadius * 2.2
       );
-      glowGrad.addColorStop(0, "rgba(212, 175, 55, 0.5)");
-      glowGrad.addColorStop(0.5, "rgba(234, 179, 8, 0.2)");
+      glowGrad.addColorStop(0, "rgba(23, 136, 74, 0.35)");
+      glowGrad.addColorStop(0.5, "rgba(23, 136, 74, 0.12)");
       glowGrad.addColorStop(1, "rgba(0, 0, 0, 0)");
       ctx.fillStyle = glowGrad;
       ctx.globalAlpha = 0.9;
@@ -114,10 +114,10 @@ export function Cosmic3DBackground() {
         saturnX - saturnRadius * 0.35, saturnY - saturnRadius * 0.35, saturnRadius * 0.1,
         saturnX, saturnY, saturnRadius
       );
-      bodyGrad.addColorStop(0, "#fef08a");
-      bodyGrad.addColorStop(0.4, "#d4af37");
-      bodyGrad.addColorStop(0.8, "#854d0e");
-      bodyGrad.addColorStop(1, "#1c1917");
+      bodyGrad.addColorStop(0, "#e4f5e8");
+      bodyGrad.addColorStop(0.4, "#57b06e");
+      bodyGrad.addColorStop(0.8, "#17884a");
+      bodyGrad.addColorStop(1, "#0b3d24");
       ctx.fillStyle = bodyGrad;
       ctx.globalAlpha = 1;
       ctx.beginPath();
@@ -132,14 +132,14 @@ export function Cosmic3DBackground() {
       // Outer Ring
       ctx.beginPath();
       ctx.ellipse(0, 0, saturnRadius * 2.3, saturnRadius * 0.6, 0, 0, Math.PI * 2);
-      ctx.strokeStyle = "rgba(253, 224, 71, 0.85)";
+      ctx.strokeStyle = "rgba(23, 136, 74, 0.8)";
       ctx.lineWidth = 5;
       ctx.stroke();
 
       // Inner Accent Ring
       ctx.beginPath();
       ctx.ellipse(0, 0, saturnRadius * 2.7, saturnRadius * 0.7, 0, 0, Math.PI * 2);
-      ctx.strokeStyle = "rgba(212, 175, 55, 0.45)";
+      ctx.strokeStyle = "rgba(11, 61, 36, 0.4)";
       ctx.lineWidth = 2;
       ctx.stroke();
       ctx.restore();
@@ -153,9 +153,9 @@ export function Cosmic3DBackground() {
         planet2X - planet2Radius * 0.3, planet2Y - planet2Radius * 0.3, planet2Radius * 0.1,
         planet2X, planet2Y, planet2Radius
       );
-      p2Grad.addColorStop(0, "#60a5fa");
-      p2Grad.addColorStop(0.6, "#0284c7");
-      p2Grad.addColorStop(1, "#030712");
+      p2Grad.addColorStop(0, "#cdeedb");
+      p2Grad.addColorStop(0.6, "#3e9b63");
+      p2Grad.addColorStop(1, "#0b3d24");
       ctx.fillStyle = p2Grad;
       ctx.beginPath();
       ctx.arc(planet2X, planet2Y, planet2Radius, 0, Math.PI * 2);

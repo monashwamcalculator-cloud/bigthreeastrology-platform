@@ -3,15 +3,15 @@ import Image from "next/image";
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-amber-500/30 bg-[#09090b]/95 backdrop-blur-xl relative shadow-lg">
-      <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-amber-400/60 to-transparent"></div>
+    <header className="sticky top-0 z-50 border-b border-amber-500/30 bg-white/95 backdrop-blur-xl relative shadow-lg">
+      <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent"></div>
       
       <div className="container-main flex flex-wrap items-center justify-between gap-4 py-2.5 md:py-3">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-amber-400 shadow-[0_0_15px_rgba(212,175,55,0.6)] group-hover:scale-105 transition-transform bg-[#09090b]">
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-amber-400 shadow-[0_0_15px_rgba(23,136,74,0.35)] group-hover:scale-105 transition-transform bg-white">
             <Image
-              src="/logo.jpg"
-              alt="BIGThreeAstrology Sankofa Logo"
+              src="/logo.svg"
+              alt="BIGThreeAstrology Logo"
               fill
               sizes="40px"
               className="object-cover"
