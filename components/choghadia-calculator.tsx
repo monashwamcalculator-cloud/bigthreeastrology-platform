@@ -17,7 +17,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     type: "Auspicious",
     ruler: "Moon",
     meaning: "Nectar of immortality. Best for all auspicious tasks, travel, weddings, and investments.",
-    colorClass: "border-emerald-400/50 bg-emerald-950/60 text-emerald-100",
+    colorClass: "border-[#a9cba4] bg-[#eaf1e6] text-[#1e2b22]",
     badgeClass: "bg-emerald-500/20 text-emerald-300 border-emerald-400/40"
   },
   Shubh: {
@@ -25,7 +25,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     type: "Auspicious",
     ruler: "Jupiter",
     meaning: "Auspicious & Holy. Ideal for ceremonies, religious events, starting education, and buying assets.",
-    colorClass: "border-amber-400/50 bg-amber-950/60 text-amber-100",
+    colorClass: "border-[#e3d193] bg-[#fbf3e2] text-[#4a3a14]",
     badgeClass: "bg-amber-500/20 text-amber-300 border-amber-400/40"
   },
   Labh: {
@@ -33,7 +33,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     type: "Auspicious",
     ruler: "Mercury",
     meaning: "Gain & Profit. Best for starting new business, trading, sales, and signing contracts.",
-    colorClass: "border-cyan-400/50 bg-cyan-950/60 text-cyan-100",
+    colorClass: "border-[#a9cba4] bg-[#e6f2f0] text-[#173f3a]",
     badgeClass: "bg-cyan-500/20 text-cyan-300 border-cyan-400/40"
   },
   Char: {
@@ -41,7 +41,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     type: "Neutral",
     ruler: "Venus",
     meaning: "Movement & Dynamics. Excellent for travel, driving, machinery, and moving houses.",
-    colorClass: "border-teal-400/50 bg-teal-950/60 text-teal-100",
+    colorClass: "border-[#a9cba4] bg-[#e6f2f0] text-[#173f3a]",
     badgeClass: "bg-teal-500/20 text-teal-300 border-teal-400/40"
   },
   Roga: {
@@ -49,7 +49,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     type: "Inauspicious",
     ruler: "Mars",
     meaning: "Disease & Conflict. Avoid starting new ventures; suitable only for medical treatment.",
-    colorClass: "border-rose-400/50 bg-rose-950/60 text-rose-100",
+    colorClass: "border-[#e5b8b8] bg-[#fbeaea] text-[#5b2326]",
     badgeClass: "bg-rose-500/20 text-rose-300 border-rose-400/40"
   },
   Udveg: {
@@ -57,7 +57,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     type: "Inauspicious",
     ruler: "Sun",
     meaning: "Anxiety & Stress. Avoid government work or risky financial decisions.",
-    colorClass: "border-orange-400/50 bg-orange-950/60 text-orange-100",
+    colorClass: "border-[#e5b8b8] bg-[#fbeaea] text-[#5b2326]",
     badgeClass: "bg-orange-500/20 text-orange-300 border-orange-400/40"
   },
   Kaal: {
@@ -65,7 +65,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     type: "Inauspicious",
     ruler: "Saturn",
     meaning: "Loss & Delay. Avoid any major new initiatives during this timeframe.",
-    colorClass: "border-red-500/50 bg-red-950/60 text-red-100",
+    colorClass: "border-[#e5b8b8] bg-[#fbeaea] text-[#5b2326]",
     badgeClass: "bg-red-500/20 text-red-300 border-red-400/40"
   }
 };
@@ -127,7 +127,7 @@ export function ChoghadiaCalculator() {
           <button
             onClick={() => setTimeMode("Day")}
             className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              timeMode === "Day" ? "bg-amber-400 text-black shadow-md" : "text-emerald-200"
+              timeMode === "Day" ? "bg-[#2e7d4f] text-white shadow-md" : "text-[#43584a]"
             }`}
           >
             ☀ Day Choghadia
@@ -135,7 +135,7 @@ export function ChoghadiaCalculator() {
           <button
             onClick={() => setTimeMode("Night")}
             className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              timeMode === "Night" ? "bg-indigo-500 text-white shadow-md" : "text-emerald-200"
+              timeMode === "Night" ? "bg-[#2e7d4f] text-white shadow-md" : "text-[#43584a]"
             }`}
           >
              Night Choghadia
@@ -149,7 +149,7 @@ export function ChoghadiaCalculator() {
           const detail = CHOGHADIA_TYPES[key];
           const timeSlotLabel = timeMode === "Day" 
             ? `Slot ${idx + 1} (~${6 + Math.floor(idx * 1.5)}:00)` 
-            : `Slot ${idx + 1} (~${18 + Math.floor(idx * 1.5)}:00)`;
+            : `Slot ${idx + 1} (~${(18 + Math.floor(idx * 1.5)) % 24}:00)`;
 
           return (
             <div key={idx} className={`p-4 rounded-xl border ${detail.colorClass} flex flex-col justify-between`}>

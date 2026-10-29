@@ -50,7 +50,7 @@ function FooterColumn({ title, links }: { title: string; links: { name: string; 
       <ul className="flex flex-col gap-2.5">
         {links.map((link) => (
           <li key={link.href + link.name}>
-            <Link href={link.href} className="text-sm text-emerald-100/75 hover:text-white transition-colors">
+            <Link href={link.href} className="text-sm text-[#a9c6ad] hover:text-white transition-colors">
               {link.name}
             </Link>
           </li>
@@ -79,17 +79,17 @@ export function SiteFooter() {
             <Link href="/" className="flex items-center gap-2.5 w-fit">
               <Image src="/logo-white.svg" alt="BIGThreeAstrology logo" width={38} height={38} className="w-[38px] h-[38px]" />
               <span className="text-xl font-display font-bold text-white">
-                BIGThree<span className="text-emerald-300">Astrology</span>
+                BIGThree<span className="text-[#8fd0a4]">Astrology</span>
               </span>
             </Link>
-            <p className="text-sm text-emerald-100/75 leading-relaxed max-w-xs">
+            <p className="text-sm text-[#a9c6ad] leading-relaxed max-w-xs">
               100 free astrology and numerology calculators — Big Three signs, Kundali Milan, Sade Sati, Choghadia,
               love matching and more. Instant results, no sign-up, and your birth details are never stored.
             </p>
             <div className="flex flex-wrap gap-2 text-[11px] font-semibold">
-              <span className="px-2.5 py-1 rounded-full border border-emerald-300/40 text-emerald-100/85">100+ Free Calculators</span>
-              <span className="px-2.5 py-1 rounded-full border border-emerald-300/40 text-emerald-100/85">No Sign-up Needed</span>
-              <span className="px-2.5 py-1 rounded-full border border-emerald-300/40 text-emerald-100/85">Vedic + Western</span>
+              <span className="px-2.5 py-1 rounded-full border border-emerald-300/40 text-[#b9d2be]">100+ Free Calculators</span>
+              <span className="px-2.5 py-1 rounded-full border border-emerald-300/40 text-[#b9d2be]">No Sign-up Needed</span>
+              <span className="px-2.5 py-1 rounded-full border border-emerald-300/40 text-[#b9d2be]">Vedic + Western</span>
             </div>
           </div>
 
@@ -99,7 +99,7 @@ export function SiteFooter() {
           <FooterColumn title="Company & Legal" links={company} />
         </div>
 
-        <div className="border-t border-white/15 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-emerald-100/60">
+        <div className="border-t border-white/15 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#8fb596]">
           <p>© {new Date().getFullYear()} BIGThreeAstrology. All rights reserved.</p>
           <p className="text-center sm:text-right">
             Astrology content is for guidance and entertainment. Read our{" "}

@@ -14,7 +14,7 @@ export default function ContactPage() {
         <div className="badge badge-emerald"> Contact & Support</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">We'd Love to Hear From You</h1>
         <p className="text-emerald-200 text-base sm:text-lg">
-          Have feedback, feature requests, or technical questions about our 20 astrology calculators?
+          Have feedback, feature requests, or technical questions about our 100 astrology calculators?
         </p>
       </div>
 

@@ -308,14 +308,14 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
 
       {/* Autocomplete Dropdown List */}
       {isOpen && suggestions.length > 0 && (
-        <ul className="absolute z-50 left-0 right-0 top-full mt-1.5 max-h-60 overflow-y-auto rounded-xl bg-white/98 border border-amber-500/40 shadow-2xl backdrop-blur-xl divide-y divide-amber-500/20">
+        <ul className="absolute z-50 left-0 right-0 top-full mt-1.5 max-h-60 overflow-y-auto rounded-xl bg-white border border-[#cfe0cb] shadow-2xl divide-y divide-[#e3ecdf]">
           {suggestions.map((city, idx) => (
             <li
               key={idx}
               onClick={() => handleSelect(city)}
-              className="px-4 py-2.5 text-xs sm:text-sm text-amber-100 hover:bg-amber-500/25 hover:text-amber-300 cursor-pointer transition-colors flex items-center gap-2 font-medium"
+              className="px-4 py-2.5 text-xs sm:text-sm text-[#33463a] hover:bg-[#eaf1e6] hover:text-[#16402b] cursor-pointer transition-colors flex items-center gap-2 font-medium"
             >
-              <span className="text-amber-400 text-xs"></span> {city}
+              <span className="text-[#2e7d4f] text-xs"></span> {city}
             </li>
           ))}
         </ul>

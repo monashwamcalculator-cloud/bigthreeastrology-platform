@@ -469,3 +469,13 @@ button { cursor: pointer; }
 .text-teal-100 { color: #33463a; }
 .text-rose-100 { color: #5b3438; }
 .bg-teal-950\/60 { background-color: #e6f2f0; }
+
+/* btn-primary was used by some components but never defined — define it */
+.btn-primary {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  background: linear-gradient(135deg, #3b8a5c, #2e7d4f 55%, #256b42);
+  color: #fff; font-weight: 600; border-radius: 0.9rem;
+  padding: 0.7rem 1.6rem; box-shadow: 0 8px 20px rgba(46, 125, 79, 0.25);
+  transition: all .25s ease; border: 1px solid #2e7d4f; cursor: pointer;
+}
+.btn-primary:hover { background: linear-gradient(135deg, #2e7d4f, #256b42); transform: translateY(-1px); }

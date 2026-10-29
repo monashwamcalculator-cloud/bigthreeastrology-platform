@@ -20,7 +20,7 @@ export function AuthorBio() {
           <Link href={AUTHOR.pageUrl} className="text-xl font-display font-bold text-white hover:text-amber-300 transition-colors">
             {AUTHOR.name}
           </Link>
-          <p className="text-xs text-amber-300/90 font-medium mb-3">{AUTHOR.role}</p>
+          <p className="text-xs text-[#5f7a63] font-medium mb-3">{AUTHOR.role}</p>
           <p className="text-sm text-amber-100/85 leading-relaxed mb-4">{AUTHOR.shortBio}</p>
           <div className="flex flex-wrap gap-3 justify-center sm:justify-start">
             <Link href={AUTHOR.pageUrl} className="btn-secondary px-4 py-2 text-xs font-bold">

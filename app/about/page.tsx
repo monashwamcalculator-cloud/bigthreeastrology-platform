@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "About Us | BIGThreeAstrology Platform",
-  description: "Learn about BIGThreeAstrology's mission to provide 20 free, accurate Vedic and Western astrology calculators globally.",
+  description: "Learn about BIGThreeAstrology's mission to provide 100 free, accurate Vedic and Western astrology calculators globally.",
   path: "/about"
 });
 
@@ -15,7 +15,7 @@ export default function AboutPage() {
         <div className="badge badge-emerald"> About BIGThreeAstrology</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">Empowering Self-Awareness Through Astrology</h1>
         <p className="text-emerald-200 text-lg max-w-2xl mx-auto">
-          Providing 20 free, instant, precision calculators combining Western Tropical and Vedic Sidereal Jyotish systems.
+          Providing 100 free, instant, precision calculators combining Western Tropical and Vedic Sidereal Jyotish systems.
         </p>
       </div>
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-display font-bold text-emerald-300 pt-4 border-t border-emerald-500/20">Why Choose BIGThreeAstrology?</h2>
         <ul className="list-disc pl-6 space-y-2 text-sm text-emerald-100/90">
-          <li><strong>20 Free Tools:</strong> Comprehensive suite covering planetary placements, Kundali Milan, Numerology, and Tarot.</li>
+          <li><strong>100 Free Tools:</strong> Comprehensive suite covering planetary placements, Kundali Milan, Numerology, and Tarot.</li>
           <li><strong>Global Timezone Precision:</strong> Auto-suggesting location geocoding for cities across India and worldwide.</li>
           <li><strong>100% Privacy Protection:</strong> Your birth details are calculated locally on your browser and never stored on private servers.</li>
           <li><strong>Official Support:</strong> Reach our editorial team anytime at <a href="mailto:asbusiness276@gmail.com" className="text-amber-300 underline font-bold">asbusiness276@gmail.com</a>.</li>
@@ -39,7 +39,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-display font-bold text-white mb-6 text-center">Frequently Asked Questions</h2>
         <div className="space-y-4">
           <div className="p-4 rounded-xl bg-emerald-950/60 border border-emerald-500/20">
-            <h3 className="text-sm font-semibold text-amber-300 mb-1">Are all 20 calculators on BIGThreeAstrology really free?</h3>
+            <h3 className="text-sm font-semibold text-amber-300 mb-1">Are all 100 calculators on BIGThreeAstrology really free?</h3>
             <p className="text-xs text-emerald-100">Yes! Every calculator—from the Big Three and Spouse Predictor to Kundali Milan—is 100% free with no hidden charges.</p>
           </div>
           <div className="p-4 rounded-xl bg-emerald-950/60 border border-emerald-500/20">

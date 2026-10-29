@@ -139,7 +139,7 @@ export function TarotReader() {
             {[0, 1, 2].map((i) => (
               <div
                 key={i}
-                className="w-24 h-36 rounded-2xl bg-gradient-to-b from-cosmic-700 to-cosmic-950 border border-accent-gold/40 flex items-center justify-center text-4xl shadow-xl transform hover:-translate-y-2 transition-all cursor-pointer"
+                className="w-24 h-36 rounded-2xl bg-[#eaf1e6] border border-[#a9cba4] flex items-center justify-center text-4xl shadow-xl transform hover:-translate-y-2 transition-all cursor-pointer"
               >
                 <CosmicIcon name="tarot" className="w-10 h-10" />
               </div>
@@ -159,16 +159,16 @@ export function TarotReader() {
               { title: "3. Future Outlook ", card: drawnCards[2], meaning: drawnCards[2].futureMeaning }
             ].map((slot, idx) => (
               <div key={idx} className="glass-card-hover p-6 border-accent-gold/30 flex flex-col items-center text-center bg-black/40">
-                <span className="text-xs uppercase tracking-widest font-semibold text-accent-gold mb-3">{slot.title}</span>
+                <span className="text-xs uppercase tracking-widest font-semibold text-[#256b42] mb-3">{slot.title}</span>
                 <div className="text-6xl mb-3 drop-shadow-md animate-pulse-glow">{slot.card.imageEmoji}</div>
                 <h4 className="text-xl font-display font-bold text-white mb-2">{slot.card.name}</h4>
-                <span className="text-xs px-3 py-1 rounded-full bg-cosmic-800/60 border border-white/10 text-cosmic-200 mb-4">
+                <span className="text-xs px-3 py-1 rounded-full bg-[#eaf1e6] border border-[#cfe0cb] text-[#33463a] mb-4">
                   {slot.card.arcana} Arcana
                 </span>
 
                 <div className="flex flex-wrap justify-center gap-1 mb-4">
                   {slot.card.keywords.map((kw, i) => (
-                    <span key={i} className="text-[10px] px-2 py-0.5 rounded bg-cosmic-900/80 text-cosmic-300 border border-white/5">
+                    <span key={i} className="text-[10px] px-2 py-0.5 rounded bg-[#eaf1e6] text-[#256b42] border border-[#cfe0cb]">
                       {kw}
                     </span>
                   ))}

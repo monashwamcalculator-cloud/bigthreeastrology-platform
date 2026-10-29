@@ -210,8 +210,8 @@ export function KundaliMilanCalculator() {
 
       <div className="grid md:grid-cols-2 gap-8 mb-8">
         {/* Boy Form */}
-        <div className="glass-card-hover p-6 border-cyan-500/30 bg-black/40">
-          <h3 className="text-lg font-display font-semibold text-cyan-300 mb-4 flex items-center gap-2">
+        <div className="glass-card-hover p-6 border-[#bcd0e6] bg-black/40">
+          <h3 className="text-lg font-display font-semibold text-[#1d6fb8] mb-4 flex items-center gap-2">
             <span></span> Groom's Details (Ladka)
           </h3>
           <div className="space-y-4">
