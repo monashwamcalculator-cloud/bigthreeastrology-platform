@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { moonLongitude, nakshatraOf, toSidereal } from "@/lib/astro-engine";
 
 type NakshatraDetail = {
   name: string;
@@ -64,14 +65,18 @@ export function NakshatraFinder() {
     const month = parseInt(parts[1], 10) || 1;
     const day = parseInt(parts[2], 10) || 1;
 
-    const seed = (year * 365 + month * 31 + day * 7 + hour24 * 13) % 27;
-    const pada = ((day + hour24) % 4) + 1;
+    const mins = parseInt(minute, 10) || 0;
+    // Real calculation: the Moon's sidereal (Lahiri) longitude at the birth
+    // moment. Birth time is taken as IST (UTC+5:30); see the note under the
+    // result if the birth was in another timezone.
+    const utcDate = new Date(Date.UTC(year, month - 1, day, hour24, mins) - 5.5 * 3600_000);
+    const nk = nakshatraOf(toSidereal(moonLongitude(utcDate), utcDate));
 
     return {
-      nakshatra: NAKSHATRA_DATA[seed],
-      pada
+      nakshatra: NAKSHATRA_DATA[nk.index],
+      pada: nk.pada
     };
-  }, [birthDate, hour24]);
+  }, [birthDate, hour24, minute]);
 
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
@@ -138,6 +143,11 @@ export function NakshatraFinder() {
         </div>
       </div>
 
+      {nakshatraResult && (
+        <p className="max-w-2xl mx-auto mt-6 text-[11px] leading-relaxed text-[#5f7a63] text-center">
+          Calculated from the Moon's actual sidereal position (Lahiri ayanamsa) at your birth moment, with the birth time taken as IST (UTC+5:30). If you were born in another timezone, or your Moon sits within about a degree of a nakshatra boundary, an ephemeris-grade chart for your birthplace can refine the result.
+        </p>
+      )}
       {nakshatraResult && (
         <div className="mt-8 border-t border-cosmic-700/50 pt-8 animate-slide-up">
           <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 text-center bg-black/40">
