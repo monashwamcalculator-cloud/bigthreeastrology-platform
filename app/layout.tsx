@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter, Fraunces } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { SiteFooter } from "@/components/site-footer";
@@ -8,15 +8,15 @@ import { defaultRobots, getSiteUrl } from "@/lib/seo";
 
 const inter = Inter({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-inter",
   display: "swap",
 });
 
-const spaceGrotesk = Space_Grotesk({
+const fraunces = Fraunces({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-space-grotesk",
+  weight: ["500", "600", "700"],
+  variable: "--font-fraunces",
   display: "swap",
 });
 
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html lang="en" className={`${inter.variable} ${fraunces.variable}`}>
       <head>
         <link rel="alternate" type="application/rss+xml" title="BIGThreeAstrology RSS Feed" href="/rss.xml" />
       </head>
