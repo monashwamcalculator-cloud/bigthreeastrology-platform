@@ -28,6 +28,37 @@ const PHASE_KEYS_ORDERED = [
   "Full Moon", "Disseminating", "Third Quarter", "Balsamic",
 ];
 
+/** Horizontal shift of the dark overlay circle per phase (waxing = lit on the right, waning = lit on the left). */
+const PHASE_DARK_SHIFT: Record<string, number | null> = {
+  "New Moon": 0,
+  "Waxing Crescent": -38,
+  "First Quarter": -52,
+  "Waxing Gibbous": -80,
+  "Full Moon": null,
+  "Disseminating": 80,
+  "Third Quarter": 52,
+  "Balsamic": 38,
+};
+
+function MoonVisual({ phaseKey }: { phaseKey: string }) {
+  const shift = PHASE_DARK_SHIFT[phaseKey] ?? null;
+  return (
+    <div
+      aria-hidden="true"
+      className="relative w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border border-[#d4e2dd]"
+      style={{ background: "radial-gradient(circle at 35% 35%, #fdf6d8 0%, #f5cb6d 55%, #e8b84b 100%)" }}
+    >
+      {shift !== null && (
+        <div
+          className="absolute inset-0 rounded-full"
+          style={{ background: "#42586e", transform: `translateX(${shift}%)` }}
+        />
+      )}
+      <div className="absolute inset-0 rounded-full" style={{ boxShadow: "inset -8px -6px 18px rgba(4,47,42,0.28)" }} />
+    </div>
+  );
+}
+
 /** Real phase from the Sun-Moon elongation angle at midday UTC on the birth date. */
 function phaseForDate(birthDate: string): { key: string; angle: number; illumination: number } | null {
   const parts = birthDate.split("-");
@@ -58,13 +89,13 @@ export function MoonPhaseCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-emerald mb-2"> Natal Lunar Phase</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text">Birth Moon Phase Reader</h2>
-        <p className="text-sky-200 text-xs sm:text-sm mt-1">
+        <p className="text-[#52796f] text-xs sm:text-sm mt-1">
           Discover your birth Moon phase archetype and manifestation power cycle.
         </p>
       </div>
 
-      <div className="max-w-md mx-auto mb-6 p-4 rounded-xl bg-[#eaf1e6] border border-[#cfe0cb] text-center">
-        <label className="text-xs font-semibold text-[#16402b] block mb-2">Find YOUR birth phase — enter your birth date</label>
+      <div className="max-w-md mx-auto mb-6 p-4 rounded-xl bg-[#dff5ec] border border-[#cdeadd] text-center">
+        <label className="text-xs font-semibold text-[#042f2a] block mb-2">Find YOUR birth phase — enter your birth date</label>
         <input
           type="date"
           className="input-cosmic max-w-xs mx-auto"
@@ -72,8 +103,8 @@ export function MoonPhaseCalculator() {
           onChange={(e) => handleBirthDate(e.target.value)}
         />
         {bornInfo && (
-          <p className="text-xs sm:text-sm text-[#33463a] mt-3">
-            You were born under a <strong className="text-[#16402b]">{bornInfo.key}</strong> — the Moon was
+          <p className="text-xs sm:text-sm text-[#2c473f] mt-3">
+            You were born under a <strong className="text-[#042f2a]">{bornInfo.key}</strong> — the Moon was
             {" "}{bornInfo.angle}° from the Sun and about {bornInfo.illumination}% illuminated.
           </p>
         )}
@@ -86,27 +117,27 @@ export function MoonPhaseCalculator() {
             onClick={() => setSelectedPhase(phaseKey)}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               selectedPhase === phaseKey
-                ? "bg-[#2e7d4f] text-white font-bold shadow-md border border-[#2e7d4f]"
-                : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
+                ? "bg-[#08745a] text-white font-bold shadow-md border border-[#08745a]"
+                : "bg-white text-[#2c473f] border border-[#d4e2dd] hover:bg-[#dff5ec]"
             }`}
           >
-            {MOON_PHASES[phaseKey].emoji} {phaseKey}
+            {phaseKey}
           </button>
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50 text-center">
-        <div className="text-5xl mb-2">{result.emoji}</div>
-        <h3 className="text-xl font-display font-bold text-white mb-3">{result.phase}</h3>
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-[#d4e2dd] bg-white text-center">
+        <MoonVisual phaseKey={selectedPhase} />
+        <h3 className="text-xl font-display font-bold text-[#042f2a] mb-3">{result.phase}</h3>
 
-        <div className="space-y-3 text-left border-t border-sky-500/20 pt-4">
+        <div className="space-y-3 text-left border-t border-[#d4e2dd] pt-4">
           <div>
-            <span className="text-xs font-semibold text-sky-300">Emotional Personality Archetype:</span>
-            <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.personality}</p>
+            <span className="text-xs font-semibold text-[#08745a]">Emotional Personality Archetype:</span>
+            <p className="text-xs sm:text-sm text-[#2c473f] leading-relaxed mt-0.5">{result.personality}</p>
           </div>
-          <div className="p-3.5 rounded-xl bg-sky-950/80 border border-sky-500/30">
-            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5"> Prime Manifestation Superpower</span>
-            <p className="text-xs text-white font-medium">{result.manifestationPower}</p>
+          <div className="p-3.5 rounded-xl bg-[#dff5ec] border border-[#a9ead1]">
+            <span className="text-xs font-semibold text-[#075433] uppercase tracking-wider block mb-0.5">Prime Manifestation Superpower</span>
+            <p className="text-xs text-[#042f2a] font-medium">{result.manifestationPower}</p>
           </div>
         </div>
       </div>
