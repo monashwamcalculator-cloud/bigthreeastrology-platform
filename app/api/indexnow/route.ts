@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { MASTER_TOOLS_LIST } from "@/lib/all-tools-registry";
+import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 import { getSiteUrl } from "@/lib/seo";
 
 export async function GET() {
@@ -15,7 +16,8 @@ export async function GET() {
     `${baseUrl}/privacy-policy`,
     `${baseUrl}/terms-and-conditions`,
     `${baseUrl}/disclaimer`,
-    ...MASTER_TOOLS_LIST.map((tool) => `${baseUrl}/tools/${tool.slug}`)
+    ...MASTER_TOOLS_LIST.map((tool) => `${baseUrl}/tools/${tool.slug}`),
+    ...SAMPLE_BLOG_POSTS.map((post) => `${baseUrl}/blog/${post.slug}`)
   ];
 
   try {
