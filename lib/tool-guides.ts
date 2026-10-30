@@ -494,4 +494,50 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       },
     ],
   },
+  "moon-phase": {
+    guideTitle: "Moon Phase Calculator: The Phase You Were Born Under",
+    guide: [
+      "Your birth Moon phase is where the Moon stood in its monthly cycle on the day you were born — measured as the angle between the Sun and the Moon in the sky. That angle decides how much of the Moon's face was lit: 0 degrees is a New Moon (the Moon sits between Earth and Sun), 90 degrees is a First Quarter, 180 degrees is a Full Moon, and 270 degrees is the Third Quarter. The full cycle, called a synodic month, takes about 29.53 days, so your phase depends on your birth date — not your birth time or place.",
+      "Astrologers read the birth Moon phase as your emotional operating style: how you instinctively react, recharge and get things started. New Moon people are seed-planters who act on instinct; Full Moon people are illuminators who need an audience and emotional exchange; Balsamic (waning crescent) people are quiet finishers who process life internally. The phase does not replace your Moon sign — the sign colours how you feel, the phase shows the rhythm you feel it in.",
+      "This calculator computes the real thing: it takes the actual Sun and Moon positions for your birth date (midday UTC) from our astronomy engine, finds the elongation angle between them, and converts it into both your phase and the approximate percentage of the Moon that was illuminated — the same geometry astronomers use, with the traditional astrological meanings layered on top.",
+    ],
+    steps: [
+      "Enter your birth date in the date box at the top of the reader.",
+      "Read your personal result line: your phase name, the exact Sun–Moon angle, and how illuminated the Moon was.",
+      "Or tap any of the eight phase buttons to browse what each phase means.",
+      "Read your phase's Emotional Personality Archetype and its Prime Manifestation Superpower in the result card.",
+      "Combine it with your Moon sign (try the Moon Sign Calculator) for the full picture: sign = emotional style, phase = emotional rhythm.",
+    ],
+    resultMeaning: [
+      "Waxing phases (New Moon to Full Moon) are traditionally read as outward, building energy: people born then tend to initiate, accumulate and push forward. Waning phases (Full Moon back to New Moon) are read as inward, refining energy: people born then tend to analyse, share, release and complete. Neither is better — a team, a family or a relationship usually works best with a mix of both rhythms.",
+      "Use your result as a timing hint as well as a personality note. When today's Moon returns to the phase you were born under — which happens once a month — many people notice a personal reset point: intentions set then tend to feel unusually natural to act on. The reader above always shows your birth phase, and the phase buttons let you compare it with today's energy.",
+    ],
+    faqs: [
+      {
+        question: "Do I need my birth time or birthplace for the Moon phase calculator?",
+        answer:
+          "No. The Moon phase changes slowly through the day, so your birth date alone is enough. The calculator uses midday UTC on your date; only if you were born within a few hours of a phase boundary could the exact hour matter.",
+      },
+      {
+        question: "How is the Moon phase on my birth date calculated?",
+        answer:
+          "By geometry: the angle (elongation) between the Sun and the Moon. The angle is divided into eight 45-degree sectors — New Moon, Waxing Crescent, First Quarter, Waxing Gibbous, Full Moon, Waning Gibbous (Disseminating), Third Quarter and Balsamic — and illumination follows from the same angle.",
+      },
+      {
+        question: "What does being born on a Full Moon mean?",
+        answer:
+          "Traditionally: high emotional visibility, strong intuition and a life organised around relationships and feedback — the Sun and Moon sat opposite each other (about 180 degrees apart) when you were born, so your identity and your feelings constantly illuminate, and challenge, each other.",
+      },
+      {
+        question: "What does being born on a New Moon mean?",
+        answer:
+          "Traditionally: instinct, fresh starts and self-reinvention. With the Sun and Moon together (0 degrees apart), identity and emotion are fused — New Moon people often act first and understand their feelings afterwards, and they tend to reinvent themselves in cycles.",
+      },
+      {
+        question: "Is my Moon phase the same as my Moon sign?",
+        answer:
+          "No. Your Moon sign is the zodiac sign the Moon was in; your Moon phase is the Sun–Moon angle, which sets how lit the Moon was. Two people can share a Moon sign but be born under opposite phases, and their emotional rhythms will feel quite different.",
+      },
+    ],
+  },
 };

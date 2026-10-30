@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import { SoulmateInitialsCalculator } from "@/components/soulmate-initials";
-import { ToolSchema } from "@/components/tool-schema";
 import { buildMetadata } from "@/lib/seo";
 import { ToolSections } from "@/components/tool-guide";
 
@@ -17,17 +16,6 @@ export default function SoulmateInitialsPage() {
         <h1 className="text-4xl md:text-5xl font-display font-bold"><span className="gradient-text-gold">Soulmate Initials Predictor</span></h1>
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Reveal the initials and name signature of your soulmate from your zodiac love signature — a fun, free Vedic and Western astrology reading.</p>
       </div>
-      <ToolSchema
-        name="Soulmate Name & Initial Predictor"
-        description="Predict the starting letters and initials of your future soulmate based on your Sun sign placement."
-        path="/tools/soulmate-initials"
-        faqs={[
-          {
-            question: "How does the Soulmate Initial Predictor work?",
-            answer: "It cross-references your Sun sign, Venus placement, and 7th House planetary degrees to highlight the most compatible starting letters for your soulmate's name."
-          }
-        ]}
-      />
       <SoulmateInitialsCalculator />
       <ToolSections slug="soulmate-initials" />
     </div>

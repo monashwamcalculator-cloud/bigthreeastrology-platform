@@ -20,7 +20,7 @@ export default async function BlogPage() {
     console.error("Database query failed for blog posts:", e);
   }
   if (!posts || posts.length === 0) {
-    posts = SAMPLE_BLOG_POSTS;
+    posts = [...SAMPLE_BLOG_POSTS].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
   }
   const blogSchema = {
     "@context": "https://schema.org",

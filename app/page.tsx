@@ -375,7 +375,7 @@ export default function HomePage() {
       <section className="max-w-6xl mx-auto space-y-4">
         <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Latest Astrology Guides</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {SAMPLE_BLOG_POSTS.slice(0, 4).map((post) => (
+          {[...SAMPLE_BLOG_POSTS].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).slice(0, 4).map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className="glass-card-hover rounded-xl overflow-hidden border border-amber-500/20 hover:border-amber-400/60 bg-black/40 group flex flex-col">
               <div className="relative w-full aspect-video overflow-hidden">
                 <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 25vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
