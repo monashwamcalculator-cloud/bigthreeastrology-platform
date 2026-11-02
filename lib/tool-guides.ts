@@ -2095,4 +2095,644 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       }
     ]
   },
+"shadow-work": {
+    guideTitle: "Shadow Work Reflection Guide For Hidden Triggers",
+    guide: [
+      "The Shadow Work Reflection Guide helps you notice the reactions you would rather disown, then trace them to an unmet need you can actually address. You bring a recent moment that stung, shamed, or hooked you, and the guide walks you through naming the trigger, separating fact from interpretation, and choosing a small integrating action. It suits product reviews, family rows, friendship envy, or any ordinary friction where your response felt bigger than the situation itself seemed to warrant. Keep entries brief, dated, and private, so honesty stays easier than performance and older reactions can be compared calmly later.",
+      "The method borrows from Carl Jung's idea of the shadow: qualities pushed out of conscious identity do not vanish, they surface sideways as projection, prickliness, or self-sabotage. This tool adapts that psychology-inspired lens into structured journaling rather than analysis by a clinician. You write quickly and privately, you resist editing for respectability, and you treat strong judgement of another person as a clue worth examining. Nothing here diagnoses you; the prompts simply organise honest self-observation so patterns become visible across several entries. Work with one incident at a time, because vague general confessions rarely reveal the specific story driving a particular reaction.",
+      "Shadow material shows up in surprisingly varied cupboards. Unspoken anger may hide beneath excessive niceness, buried ambition beneath criticism of colleagues who self-promote, envy beneath moralising about other people's luck. Grief that was never mourned can appear as numbness, selfishness you condemn in others may mirror needs you forbid yourself, and hunger for approval can masquerade as people-pleasing followed by resentment. Playfulness, appetite, assertiveness, and creative hunger also get exiled when they once drew punishment. Each entry differs because the disowned piece differs. Notice too how often the hidden piece is not wicked, merely inconvenient, embarrassing, or badly timed for the image you maintain."
+    ],
+    steps: [
+      "Pick one recent moment when your reaction felt disproportionate, sharp, or strangely hard to shake afterwards.",
+      "Write the bare facts first, in one column, keeping interpretation and mind-reading completely out of that list.",
+      "Add the story you told yourself and the need underneath it, using plain first-person language throughout.",
+      "Finish by choosing one tiny owned action you can take this week that honours that need."
+    ],
+    resultMeaning: [
+      "Consider Meera, a product designer who notices a sting of envy when a junior colleague's design is praised in a review meeting. Her three-column exercise reads: Trigger, the praise moment itself, colleagues applauding work that was not hers. Story she tells herself: 'there is only room for one creative star here', praise for another means demotion for her. Disowned Need underneath: her own ambition and wish to be recognised, which she has been calling vanity. Integration becomes one small owned action, she pitches her own shelved idea at the next sprint.",
+      "Read your own entry the same way, as information rather than indictment. A trigger does not prove you are envious, angry, or selfish by nature; it points to a capacity or longing that has had too little legitimate room. This is a reflection and psychology-inspired practice, not therapy, and it cannot process trauma for you. If entries keep surfacing overwhelming memories, panic, or material linked to abuse, pause the journaling and seek support from a qualified therapist or counsellor instead of pushing deeper alone."
+    ],
+    faqs: [
+      {
+        question: "What exactly is the shadow in Jungian psychology terms?",
+        answer: "Jung used shadow for everything about yourself that your conscious identity refuses to own, pleasant as well as difficult. Those disowned qualities keep influencing behaviour from outside awareness, as overreactions, projections onto colleagues, or repeated self-sabotage, until you deliberately acknowledge and reintegrate them."
+      },
+      {
+        question: "How often should I do a shadow work journaling session?",
+        answer: "Short, occasional sessions after real friction tend to teach more than daily digging for its own sake. Try one entry when a reaction lingers for hours, review several entries monthly for repeating stories, and stop whenever you feel flooded rather than reflective and curious."
+      },
+      {
+        question: "Can shadow work replace therapy or professional mental health support?",
+        answer: "No, and this guide never tries to. Journaling prompts can organise self-reflection, but they cannot assess trauma, diagnose conditions, or hold you safely through overwhelming material. Working with a qualified therapist or counsellor is the appropriate route when memories feel destabilising or persistent."
+      },
+      {
+        question: "Why do I judge in others what I deny in myself?",
+        answer: "Projection offers a shortcut: spotting a forbidden quality outside yourself feels safer than admitting it lives in you too. If someone's ambition, anger, or neediness irritates you intensely, ask what rule you impose on yourself about that same quality, and what it costs you."
+      },
+      {
+        question: "What should I write when I feel completely blank or numb?",
+        answer: "Start with the body and the bare sequence of events rather than hunting for feelings directly. Note tight shoulders, flat voice, urge to leave, then reconstruct who said what. Numbness itself is useful data, often marking a feeling that learned early to stay hidden."
+      }
+    ]
+  },
+  "yes-no-oracle": {
+    guideTitle: "Yes No Oracle Cards For Clearer Daily Decisions",
+    guide: [
+      "The Yes/No Oracle Cards tool answers one focused question with a single draw that lands on Yes, No, or Maybe, labelled Neutral. You type or hold a specific question, draw once, and receive a short prompt to examine why that answer landed the way it did. It works best for everyday crossroads where you are circling, like accepting extra work, sending a message today, or booking something now versus waiting a little longer. Keep the stakes proportionate: small reversible choices suit this format well, whereas medical, legal, or large financial commitments deserve proper professional advice and real documentation.",
+      "Honesty about method matters here: a card is selected at random from the three outcomes, and no hidden information about your future is being accessed. The value lies in your reaction. Relief, disappointment, resistance, or confusion after seeing the card often reveals a preference you had been suppressing, or a missing fact you had skipped. Treat the draw as a decision-clarifying reflection exercise, a structured pause, rather than an instruction that removes your responsibility for choosing. Writing your reaction down within a minute helps, because the first unedited response is usually more revealing than later rationalisations.",
+      "Each outcome asks something different of you. Yes invites you to check practical readiness, costs, timing, and whether enthusiasm survives those checks. No invites you to separate genuine unsuitability from fear of discomfort, and to notice what alternative the refusal protects. Maybe, the Neutral result, signals unresolved variables: unclear terms, another person's unconfirmed availability, your own depleted energy, or a question phrased too vaguely to answer responsibly. Reading which situation matches yours matters more than the word printed on the card itself. Afterwards, convert the reading into calendar reality: a call made, a price confirmed, a deadline checked, or a deliberate decision to wait."
+    ],
+    steps: [
+      "Phrase one question about your own action, beginning with words like should I, focused on a single topic.",
+      "Take two slow breaths, reread the question aloud, and remove any second question hiding inside it.",
+      "Draw a single card and sit with your immediate emotional reaction before reading any interpretation text.",
+      "Write down one concrete step the outcome suggests, or one missing fact you now need to check."
+    ],
+    resultMeaning: [
+      "Suppose the question is 'Should I say yes to the Saturday freelance project?' and the draw returns MAYBE, the Neutral card. Learn from that result correctly: a neutral card means information is missing, not a soft yes you can round up to permission. The rate, deadline, and your weekend energy are apparently unsettled. A better follow-up question is: 'What do I need to know about taking on the Saturday project?' Ask about pay, hours, and revision limits first, then decide with those facts in hand.",
+      "Hold three rules firmly around any draw. Keep one topic per question, keep your own agency inside the wording, asking 'should I...' about your choices, not 'will he...' about controlling someone else. And do not re-draw the same question the same day hoping for a different card; that turns reflection into shopping for permission. Wait until circumstances actually change, new information arrives, terms are clarified, or a deadline genuinely shifts, before asking again. The card clarifies your thinking, never predicts an outcome."
+    ],
+    faqs: [
+      {
+        question: "Is a Maybe or Neutral result basically a gentle yes?",
+        answer: "No. Neutral points to information you do not yet hold, terms that remain vague, timing that has not settled, or energy you have not honestly assessed. Rounding it up to yes defeats its purpose. Gather the missing fact first, then make the decision yourself with clearer ground."
+      },
+      {
+        question: "How many times can I ask the same question again?",
+        answer: "Once per set of circumstances is the useful limit. Redrawing within hours because you disliked the first card teaches nothing and usually increases anxiety. Return only after something material changes, such as new pricing, a confirmed schedule, a conversation that resolves uncertainty, or a genuinely different option appearing."
+      },
+      {
+        question: "What makes a good yes or no oracle question?",
+        answer: "Good questions concern your own next action, name a single topic, and can genuinely be answered yes or no today. Should I send the proposal this evening works well. Vague questions about another person's secret feelings, or double questions bundling money and timing together, produce muddled reflection."
+      },
+      {
+        question: "Can this oracle predict whether someone else will act?",
+        answer: "No card can forecast another person's free choices, and framing questions that way quietly hands your agency away. Rephrase around what you control: whether you will ask, wait, set a boundary, or walk away. Your reaction to the draw can clarify that choice, nothing more mystical is claimed."
+      },
+      {
+        question: "What should I do if the card upsets or disappoints me?",
+        answer: "Treat that flash of disappointment as the most honest data in the whole exercise. It usually reveals which answer you were secretly hoping for, and why. Sit with that preference, examine its reasons and costs, and let it inform your decision alongside practical facts and timing."
+      }
+    ]
+  },
+  "higher-self-oracle": {
+    guideTitle: "Higher Self Oracle For Quiet Reflective Guidance",
+    guide: [
+      "The Higher Self Oracle offers open-ended guidance messages for reflection when a decision feels noisy, tangled, or emotionally overloaded. Instead of answering yes or no, it presents a short themed message to sit with, test against your values, and translate into one grounded action. People use it while weighing relocation, career changes, relationship pacing, or creative direction, moments when the facts are partly known but inner priorities have not yet been sorted into a clear order. Sessions work best unhurried, perhaps weekly, with earlier messages revisited to see which insights survived contact with ordinary life.",
+      "Within its belief framework, the higher self names your calmer, wider perspective, the part supposedly less driven by fear, habit, or other people's urgency. This page makes no claim that messages arrive as literal channelled facts from an external being. Practically, you are using quiet sitting, a written question, slow breathing, and a randomly drawn reflective message to bypass mental chatter. Whether you read that spiritually or psychologically, the discipline is identical: receive slowly, question honestly, act modestly. Keeping a dedicated notebook helps separate genuine recurring insight from one-off moods that merely felt profound in the moment.",
+      "Messages here cluster around recurring human themes rather than verdicts. Patience themes ask where rushing is masquerading as decisiveness, release themes point to grudges or old identities consuming present energy, and courage themes highlight conversations postponed out of politeness. Other draws emphasise rest before commitment, gratitude that recalibrates comparison, boundaries around time, or trust built through small kept promises. The same theme reads differently depending on your question, which is precisely why journalling your context beside the message matters more than memorising generic meanings."
+    ],
+    steps: [
+      "Sit somewhere quiet, write your question by hand, and read it slowly three times before drawing.",
+      "Breathe slowly for one full minute, letting your shoulders drop, without trying to force any particular feeling.",
+      "Draw your guidance message and copy it word for word into your journal beneath the question.",
+      "Record your first honest response, then choose one small real-world step the message reasonably suggests today."
+    ],
+    resultMeaning: [
+      "Picture someone weighing whether to relocate to another city for a job, following the sitting in second person. You quieten, write the question plainly, breathe slowly until the mental noise thins, then receive the guidance message. The theme drawn is 'Trust the slow yes': enthusiasm that survives waiting, research, and sleep is sturdier than urgency. Test the message properly. Does it feel calm rather than urgent? Does it fit your values? Journal it, then take one small real-world step, research one neighbourhood, instead of treating the message as an instruction.",
+      "That testing step separates this practice from blind obedience. Guidance that demands instant, irreversible action, flatters your ego extravagantly, or contradicts your settled values deserves scepticism, however beautifully phrased. This oracle also differs clearly from a yes-no draw: that tool returns a single binary-style answer for a narrow question, while this one offers open guidance for reflection over days. It is a contemplative practice within a belief framework, useful for perspective, not a source of verified facts about employers, cities, or outcomes."
+    ],
+    faqs: [
+      {
+        question: "How is this different from the yes no oracle cards?",
+        answer: "The yes-no tool compresses a narrow question into one of three short answers for quick reflection. This oracle deliberately avoids binaries, offering a themed message you examine, journal, and test against values over time. Use the first for small timing choices, this one for layered life questions."
+      },
+      {
+        question: "How can I tell if a guidance message is trustworthy?",
+        answer: "Apply ordinary tests before spiritual ones. Trustworthy-feeling messages tend to arrive calm rather than frantic, respect your freedom, align with values you already hold, and survive a night of sleep. Messages pushing secrecy, haste, superiority over others, or costly irreversible leaps should be questioned hard, then likely set aside."
+      },
+      {
+        question: "Do I need to meditate before using the higher self oracle?",
+        answer: "A long meditation practice is not required, but arriving rushed and distracted usually produces rushed and distracted reading. One minute of slow breathing, a handwritten question, and a quiet seat are enough scaffolding for most people. Consistency of that small ritual matters more than elaborate preparation or special equipment."
+      },
+      {
+        question: "What if the message seems unrelated to my question entirely?",
+        answer: "Write it down anyway and look sideways rather than literally. Sometimes an apparently unrelated theme names the background condition, exhaustion, grief, money worry, that is actually distorting the foreground decision. If no honest connection emerges after journalling, set it aside without forcing meaning; not every draw deserves deep decoding."
+      },
+      {
+        question: "Can the higher self oracle tell me what to do?",
+        answer: "It should not, and any reading style that removes your judgement is worth avoiding. A message can highlight a value, slow your pace, or suggest one modest experiment, but employers, leases, and relationships require real information too. Pair every message with research, conversation, and practical checking before committing."
+      }
+    ]
+  },
+  "past-life-tarot": {
+    guideTitle: "Past Life Tarot Three Card Root Lesson Gift",
+    guide: [
+      "The Past Life Tarot tool lays out three cards in a fixed spread, Root, Lesson, and Gift, framed as a previous chapter whose patterns might echo in your present life. You draw the three positions together, read each card inside its assigned role, then look for a story connecting them. It suits recurring fascinations, unexplained affinities, stubborn emotional loops, or talents that feel older than your training, approached as material for reflection rather than biography. One spread per question, recorded in a journal with the date, keeps the exercise grounded and prevents endless reshuffling for a preferable storyline.",
+      "Framing is explicit and non-negotiable on this page: this is an archetypal storytelling and reflection exercise, not evidence or proof of literal past lives. Tarot images carry centuries of human symbolism, scholars, hermits, grief, apprentices, which makes them effective mirrors for present patterns whether or not you hold reincarnation beliefs. You are borrowing a narrative frame to examine yourself from an unusual angle. Take what resonates as a mirror, leave the rest without argument, and never base medical, financial, or relationship verdicts on a spread. Photographing the layout before clearing it preserves details you may only appreciate after reflection.",
+      "Read each position by its job in the story. Root cards describe an originating pattern, solitary study, communal duty, exile, craft, devotion, or survival, that supposedly set the tone. Lesson cards name unfinished learning, often grief, trust, power, patience, or surrender, shown through challenge imagery. Gift cards close the spread with a capacity carried forward, practical skill, intuition, teaching, endurance, or warmth, expressed in usable form today. Major arcana in any position tends to feel thematic and long-range, while pip cards usually describe concrete habits and situations."
+    ],
+    steps: [
+      "Hold one present pattern or fascination in mind, shuffle slowly, and state that you are exploring it symbolically.",
+      "Draw three cards in order, placing them left to right as Root, Lesson, and Gift positions.",
+      "Read each card only within its position first, writing two sentences per position before connecting them.",
+      "Journal where the combined story resembles your current life, and name one behaviour you will test changing."
+    ],
+    resultMeaning: [
+      "A complete example draw shows the method. Position 1, Root, is The Hermit, a solitary, study-centred pattern, someone who learned by withdrawing, reading, and watching rather than joining in. Position 2, Lesson, is Five of Cups, grief that fixates on what was spilled, learning to turn toward what remains standing behind you. Position 3, Gift, is Page of Pentacles, patient, practical craftsmanship carried into this life, slow skill-building, honest apprenticeship, care with money and materials. Across the three, withdrawal taught discernment, grief taught redirection, and both left diligence.",
+      "Notice how the example never claims those events literally happened to anyone. That restraint is the whole discipline, and it also separates this spread from a standard tarot reading such as the love or career layouts elsewhere on this site, which address present choices directly. Here the Root, Lesson, Gift positions deliberately route through a previous chapter frame. Use journalling prompts afterwards: where do I still withdraw by default, what spilled thing still faces me, which slow craft quietly sustains my present life today?"
+    ],
+    faqs: [
+      {
+        question: "Does a past life tarot reading prove I lived before?",
+        answer: "No, and this tool does not claim otherwise. The spread is a storytelling mirror built from archetypal images, useful for examining present patterns from a fresh angle. Whether you personally believe in reincarnation or treat the frame purely metaphorically, the reflective value works identically, without requiring historical claims about your soul."
+      },
+      {
+        question: "What do the Root Lesson and Gift positions each mean?",
+        answer: "Root describes the originating pattern or setting of the imagined previous chapter, the conditions everything else grew from. Lesson names the unfinished learning that pattern produced, often shown through a challenging card. Gift closes the story with a strength, skill, or sensitivity supposedly carried forward into your present life."
+      },
+      {
+        question: "How is this spread different from a normal tarot reading?",
+        answer: "Standard layouts on this site, including love and career readings, examine your current situation and choices directly. This spread assigns every card a role inside a previous chapter narrative, Root, Lesson, Gift, so interpretation flows through that story frame first, and only afterwards gets compared honestly with your life today."
+      },
+      {
+        question: "What if I draw frightening or heavy cards in the spread?",
+        answer: "Heavy imagery usually symbolises heavy themes, grief, endings, conflict, rather than predicting harm or confirming dark histories. Read the card's lesson inside its position, keep the reflection focused on present-day patterns you can influence, and stop if a theme feels genuinely distressing. No card here diagnoses trauma or obliges belief."
+      },
+      {
+        question: "Can I redraw the spread if the first cards confuse me?",
+        answer: "Resist immediate redraws, which usually chase a preferred story instead of reading the one offered. Sit with confusing cards, journal associations per position, and look for the connecting thread across all three. If nothing resonates honestly, note that outcome too, close the session, and return another week with fresh eyes."
+      }
+    ]
+  },
+"business-name-numerology": {
+    guideTitle: "Match Your Business Name to Life Path",
+    guide: [
+      "This matcher compares two numbers side by side: the vibration carried by your company name and the Life Path number drawn from your own birth date. When the pair sits comfortably together, the name tends to feel natural to introduce, print and defend. When they pull in opposite directions, founders often describe extra effort around decisions, hiring or direction, even though the underlying business idea itself remains perfectly sound and workable. Because the founder usually makes the earliest choices alone, that personal fit matters most during registration, branding and the first hires, before partners or investors dilute the original pattern with numbers of their own.",
+      "Both sides use plain addition. Your birth date is written out digit by digit and totalled, then shrunk by adding its digits together until one figure from one to nine remains. The company name follows Pythagorean letter values, where each letter carries a value between one and nine in repeating alphabetical order. Each word is totalled separately first, then those word totals are combined before the final reduction happens. Work on paper at least once, keeping every raw word total visible, because most errors creep in when someone reduces a single word too early and then builds the rest of the comparison on that mistaken figure.",
+      "Three broad relationships appear. An exact match repeats your own core pattern inside the business, which suits owner-led work. A complementary pairing joins two different strengths, such as a creative founder behind a structured name. Friction pairings place contrasting drives together; they can still succeed, yet they usually ask for clearer roles, written agreements and slower choices around money, partners and expansion timing. Read friction as information rather than a verdict: it highlights where the business will demand behaviour that does not come automatically to you, which is exactly where routines, advisers and documented processes earn their keep."
+    ],
+    steps: [
+      "Enter your full birth date exactly as recorded, including the complete four digit year.",
+      "Work out your Life Path total first so the comparison target stays fixed and clear.",
+      "Type the trading name precisely as customers see it, leaving out legal endings for now.",
+      "Compare the reduced name number with your Life Path, then test any spelling variant separately."
+    ],
+    resultMeaning: [
+      "Take a founder born 14 February 1988. Adding every digit gives 1+4+0+2+1+9+8+8 = 33, and 3+3 = 6, so the Life Path is 6. Now score the name AURA LIVING. AURA = 1+3+9+1 = 14, which reduces to 5. LIVING = 3+9+4+9+5+7 = 37, which becomes 10 and then 1. Combine the raw word totals first, 14+37 = 51, and 5+1 = 6. Name number 6 lands exactly on Life Path 6: a match, where a nurturing, service-led brand fits a 6 founder comfortably. A homeware or interiors venture suits that pairing especially well, because six emphasises home, responsibility and repeat customers who feel personally looked after.",
+      "Notice how fragile that balance is. Adding the word STUDIO, scored 1+2+3+4+9+6 = 25 and reducing to 7, would move the running total to 51+25 = 76, then 13, then 4. The business has not changed, yet the name now leans corporate and procedural rather than caring. Treat suffixes, initials and legal words as real ingredients, check each version separately, and remember that bookkeeping, product quality and pricing still decide commercial outcomes far more than any name score. Use the matcher to shortlist names you already like, then let availability, trademark checks and honest customer reactions make the final call between close candidates."
+    ],
+    faqs: [
+      {
+        question: "Should my company name number exactly match my Life Path?",
+        answer: "An exact match is the simplest fit, especially for a solo founder whose name and reputation carry the business. It is not compulsory. Complementary pairings often work beautifully because the name supplies a quality the founder lacks, balancing instinct with structure."
+      },
+      {
+        question: "Do spaces and separate words change the final name calculation result?",
+        answer: "Spaces themselves carry no value, but splitting the name into words matters for checking your working. Total each word on its own, add those raw totals together, and only then reduce. Reducing too early can hide the true combined total completely."
+      },
+      {
+        question: "Should I include Ltd, LLP or Private Limited in the name?",
+        answer: "Score the customer-facing trading name first, because that is the version people actually say and remember. Then score the full registered version separately. If the two differ sharply, many founders keep the harmonious trading name and reserve the legal form for paperwork."
+      },
+      {
+        question: "Can I adjust the spelling slightly to improve the final match?",
+        answer: "Yes, small changes are the traditional lever here: adding or dropping a letter, using an initial, or choosing a plural over a singular. Keep the result easy to spell aloud, available as a domain, and clear of trademark conflicts before committing anywhere."
+      },
+      {
+        question: "What happens if my business has two equal founding partners?",
+        answer: "Calculate both Life Paths and score the name against each person separately. A name that sits comfortably with both is ideal, though rarely perfect. Where one pairing shows friction, agree decision rights in writing so the weaker fit never becomes a recurring argument."
+      }
+    ]
+  },
+  "brand-numerology": {
+    guideTitle: "How Customers Feel Your Brand Name Vibration",
+    guide: [
+      "A brand name does its work in the first seconds, on a shelf, a search result or a spoken recommendation. This guide reads that outward impression: what feeling the letters project before anyone samples the product. It is less about who founded the company and far more about the mood a stranger absorbs from the name alone, at speed, surrounded by competing choices. Shoppers rarely analyse that reaction; they simply drift towards packaging that feels right for the price being asked, and drift away from names whose tone quietly contradicts the promise printed underneath them.",
+      "Two layers deserve attention. First comes the compound total, the full sum of every letter before any shrinking happens, which practitioners read as an undertone colouring the headline figure. Then that total is added across itself until a single digit remains, giving the surface personality. Sound matters alongside arithmetic: hard consonants feel firmer, open vowels feel warmer, and shorter names usually register faster in busy aisles and feeds. Length changes memory as well, since a compact name survives a hurried voice note or a half-heard radio mention, while a longer coined word may need repeated exposure before customers reproduce it accurately. That first-exposure test mirrors how buyers actually meet a name, briefly and distractedly, among many louder alternatives competing nearby.",
+      "Each reduced figure lands differently with buyers. One feels pioneering, two feels gentle and reassuring, three feels playful and talkative. Four suggests reliability, five promises movement and novelty, six wraps a product in care, seven hints at expertise and mystery, eight projects premium confidence and commercial weight, while nine reads compassionate and global, suited to causes, wellness ranges and community-led labels. None of these readings flatters every category: the playful three that sells snacks beautifully could undermine a funeral service, and the weighty eight that suits private banking might chill a children's toy range, so context always outranks the digit."
+    ],
+    steps: [
+      "Write the brand exactly as printed on packaging, including any shortened shelf version you use.",
+      "Score every letter with Pythagorean values and keep the full compound total before reducing.",
+      "Reduce the compound total to one digit and note both layers side by side.",
+      "Say the name aloud three times, then judge sound, length and shelf presence honestly."
+    ],
+    resultMeaning: [
+      "Consider the skincare name LUMORA. Scoring it letter by letter gives L3+U3+M4+O6+R9+A1 = 26, and 2+6 = 8. Hold both layers in view. The compound 26 lingers as an undertone, a quieter note beneath the surface reading, while the reduced 8 does the public work: premium, authoritative, commerce-strong, the sort of figure associated with flagship products, confident pricing and polished counters rather than bargain baskets or homemade charm. Spoken aloud, the name also opens softly and closes open, which keeps that authority from sounding harsh when a consultant says it across a counter.",
+      "Trim the name and the impression shifts. MORA alone scores 4+6+9+1 = 20, reducing to 2, and suddenly the same family of letters feels softer, care-led and intimate, closer to a boutique balm than a luxury serum line. Neither version is better in isolation. Choose according to price point, audience and setting, and test the favourite on real packaging mock-ups before printing anything permanent. Show both versions to people who match your intended buyer, without explaining the numbers first, and record the adjectives they volunteer; that unprompted language usually confirms or challenges the reading more honestly than any score sheet."
+    ],
+    faqs: [
+      {
+        question: "What is a compound number in brand name numerology practice today?",
+        answer: "It is the full letter total before reduction, such as 26 in the worked example. Practitioners treat it as background colouring behind the final single digit. Two names can share the same reduced figure yet feel different because their compound totals diverge underneath."
+      },
+      {
+        question: "Which reduced number feels most premium to shoppers in stores?",
+        answer: "Eight is usually read as the premium, executive figure, linked with authority, durability and confident pricing. That helps luxury and professional ranges, but it can feel distant for friendly, handmade or budget products, where warmer figures often connect far more quickly with buyers."
+      },
+      {
+        question: "Does pronunciation really matter alongside the number when customers choose?",
+        answer: "Yes. A strong score cannot rescue a name people stumble over, mishear on the phone or hesitate to recommend. Read it aloud in a sentence, imagine it announced in a shop, and check that strangers can spell it after hearing it once."
+      },
+      {
+        question: "Should product names and the parent brand name agree numerically?",
+        answer: "They do not need identical figures, but wildly clashing tones confuse the range. A premium parent brand carrying a playful budget sub-brand can work when the difference is deliberate. Map every product name, note its reduced figure, and look for a coherent family pattern."
+      },
+      {
+        question: "Can a domain extension or tagline change overall brand vibration?",
+        answer: "In strict letter scoring, only letters count, so a tagline absolutely changes the total if you choose to include it. Most practitioners score the core name alone for clarity, then test the tagline version separately when the two always appear together in public."
+      }
+    ]
+  },
+  "atmakaraka": {
+    guideTitle: "Find Your Atmakaraka the Soul King Planet",
+    guide: [
+      "In Jaimini astrology every chart contains one planet that outranks the rest for soul-level questions, and this finder identifies it. Called the Atmakaraka, literally the significator of the self, it is whichever of the seven visible planets sits furthest through its sign. Its sign, house and condition describe the territory where your deepest lessons, longings and maturing work tend to gather across a lifetime. Practitioners return to this planet repeatedly because its themes rarely stay quiet for long; relationships, vocations and turning points keep circling back to whatever it represents in that particular chart.",
+      "The measurement is taken inside the sign, never across the whole zodiac. Each planet's position is expressed as degrees travelled within its own sign, on a scale running from zero to thirty, using the sidereal zodiac of the Vedic tradition. Rank those within-sign degrees from largest to smallest and a complete sequence of chara karakas, or movable significators, emerges, with each planet taking a distinct role in the resulting order. Because only the degree figure decides the ranking, two charts with identical sign placements can produce different karakas, which is why copying a friend's result because your signs look alike leads straight into error.",
+      "Any planet can wear this crown. The Sun in this seat turns lessons toward authority and self-respect, the Moon toward feeling and belonging, Mars toward courage and desire, Mercury toward speech and skill, Jupiter toward belief and guidance, Venus toward love and value, and Saturn toward endurance, duty and time. The finder simply names the planet; interpretation begins with where it sits and what it touches. A strongly placed Atmakaraka often feels like a talent with obligations attached, while a challenged one tends to describe the recurring difficulty the person eventually understands better than anyone around them."
+    ],
+    steps: [
+      "Use a sidereal Vedic birth chart and list every planet with its degrees inside its sign.",
+      "Ignore the sign names for ranking and compare only the within-sign degree figures.",
+      "Place the largest degree first: that planet is your Atmakaraka, the soul planet.",
+      "Continue ranking downward to reveal the remaining karakas in their correct sequence."
+    ],
+    resultMeaning: [
+      "Read this sample ranking carefully. Moon 28 degrees, Saturn 25 degrees, Jupiter 22 degrees, Mercury 17 degrees, Sun 12 degrees, Mars 9 degrees, Venus 5 degrees. The Moon travels furthest, so the Moon becomes Atmakaraka, pointing to lessons through emotion, mother, care and public life. Saturn at 25 degrees follows as Amatyakaraka, the career significator. Jupiter at 22 degrees is Bhratrikaraka, Mercury at 17 degrees is Matrukaraka, Sun at 12 degrees is Putrakaraka, Mars at 9 degrees is Gnatikaraka, and Venus at 5 degrees closes the list as Darakaraka in this seven-karaka scheme. Notice the spacing: only three degrees separate the top two, yet the roles assigned to them remain entirely distinct.",
+      "Two technical points prevent most mistakes. Degrees are measured within the sign, from 0 to 30, in the sidereal zodiac, so a planet at 28 degrees of any sign outranks one at 5 degrees of a later sign. Also, an eight-karaka scheme exists which adds Rahu, and Rahu is handled in reverse: its effective degree is 30 minus the degree shown, because Rahu moves backwards. Keep one scheme consistently throughout any single reading. Mixing schemes halfway through produces duplicated roles and missing significators, a muddle that says more about the method used than about the person whose chart is being read."
+    ],
+    faqs: [
+      {
+        question: "What does the word Atmakaraka actually mean in simple everyday words?",
+        answer: "It means the significator of the soul. The planet holding the highest within-sign degree is treated as the chart's king, the main teacher whose themes keep returning. Its sign shows the style of those lessons and its house shows the life area involved."
+      },
+      {
+        question: "Why are planet degrees measured only within each individual sign?",
+        answer: "Jaimini ranking compares how far each planet has matured through its own sign, not where the sign falls in the zodiac. A planet at 27 degrees of Aries therefore outranks a planet at 10 degrees of Taurus, even though Taurus comes later in sequence."
+      },
+      {
+        question: "What changes in the eight karaka scheme with Rahu included?",
+        answer: "Rahu joins the ranking, giving eight significators instead of seven, and one extra role, usually counted between the existing ones. Because Rahu travels in reverse motion, its degree is flipped: subtract the shown degree from 30 before placing it in the order."
+      },
+      {
+        question: "Can two different planets tie for the highest degree position?",
+        answer: "Exact ties down to minutes and seconds are rare, so compare the full position including minutes before deciding. When figures remain extremely close, experienced practitioners examine both planets and the houses they rule, rather than forcing a single winner from rounded degree numbers alone."
+      },
+      {
+        question: "Does the Atmakaraka ever change as planets move after birth?",
+        answer: "No. Chara karakas are fixed from the birth chart for the whole life, which is precisely why they are used for long-range soul themes. Transiting planets move constantly, but the natal ranking, and the identity of your Atmakaraka, stays exactly where birth placed it."
+      }
+    ]
+  },
+  "financial-astrology-cycles": {
+    guideTitle: "Planetary Cycles Eras and Personal Review Windows",
+    guide: [
+      "This guide lays three slow planetary rhythms over one another so you can place a year in its wider setting. It offers educational timing context: which era a period belongs to, and when a personal review window arrives. It does not forecast prices, pick assets or signal trades, and it should be read as background reflection material alongside ordinary financial planning, never instead of it. Think of it as a calendar with unusually long chapters, helpful for organising reflection across decades, and far too coarse for anything that requires a date, a price or a decision deadline.",
+      "The layers move at different speeds. Jupiter completes one full circuit in roughly 12 years, spending about one sign a year, and astrologers associate its rounds with phases of expansion and optimism. Saturn needs about 29.5 years per circuit, roughly 2.5 years a sign, linked with consolidation and testing. Where Jupiter and Saturn meet, roughly every 20 years, a great conjunction opens a fresh era in the traditional reading. Layering matters because a single year can sit inside a buoyant Jupiter phase while belonging to a sober Saturn chapter, and that mixed picture is precisely why simple one-planet forecasts collapse under scrutiny.",
+      "Recent conjunction dates anchor the scheme. May 2000 brought a meeting in Taurus, December 2020 brought one in Aquarius and was read as opening an air-sign era, and the next falls in November 2040 in Libra. Personal timing sits inside these eras: a Saturn return, when transiting Saturn reaches its birth position after about 29.5 years, is treated as a structured moment for reviewing commitments rather than a market event. Earlier generations of astrologers tracked the same meetings through agricultural and dynastic changes, which explains the era language, even though modern economies move for reasons those writers never encountered."
+    ],
+    steps: [
+      "Locate the current era first by finding the most recent Jupiter Saturn great conjunction date.",
+      "Note where Jupiter sits this year to place the shorter expansion rhythm inside that era.",
+      "Calculate your own Saturn return window by adding roughly 29.5 years to your birth year.",
+      "Use the result only to schedule reviews of debt, commitments and career structure."
+    ],
+    resultMeaning: [
+      "Work through a personal example. Someone born in 1996 adds Saturn's round of about 29.5 years and arrives at 1996 + 29.5, approximately 2025.5, so their Saturn return falls around 2025-26. Framed responsibly, that window simply prompts an adult audit: Are long-term commitments still affordable? Is debt structured sensibly? Does the career framework built in the twenties still fit? The era backdrop matters too, since this return unfolds inside the air-sign era opened in December 2020. A second Saturn return would arrive near the mid-fifties by the same arithmetic, often coinciding with retirement planning in ordinary life.",
+      "Hold the limits firmly. Economists do not use these cycles, textbooks on markets do not cite them, and past occasions where a conjunction roughly coincided with a market turn are coincidences until proven otherwise, which they have not been. Cycles here describe eras and personal review windows, never buy or sell signals. Anyone needing investment direction should consult a regulated adviser and rely on evidence-based analysis, budgets and risk limits. Kept in that modest place, the material can still be genuinely useful: a memorable prompt, arriving at adult milestones, to review paperwork most people postpone for years."
+    ],
+    faqs: [
+      {
+        question: "Is financial astrology a reliable way to predict markets accurately?",
+        answer: "No reliable evidence supports that claim, and this guide makes no such promise. Markets respond to earnings, interest rates, policy and human behaviour at enormous scale. Treat planetary cycles as a reflective calendar for personal reviews, and base actual money decisions on documented evidence."
+      },
+      {
+        question: "How often do Jupiter and Saturn hold great conjunctions together?",
+        answer: "Roughly every 20 years, because Jupiter's faster 12-year circuit gradually laps Saturn's slower one. Recent meetings fell in May 2000 in Taurus and December 2020 in Aquarius, and the following one is expected in November 2040 in Libra, continuing the newer air-sign sequence."
+      },
+      {
+        question: "What should I actually do during my Saturn return period?",
+        answer: "Use it as a diary prompt, not a warning. Review pension contributions, insurance cover, debts, contracts and career direction with fresh eyes, ideally alongside a qualified adviser. People often restructure commitments at this age anyway, which explains the return's reputation without needing any prediction."
+      },
+      {
+        question: "How long does Jupiter spend in each zodiac sign approximately?",
+        answer: "About one year per sign, because its full circuit takes roughly 12 years. Financial astrologers read that annual shift as changing the flavour of optimism and growth themes. It is a slow background rhythm, useful for era language, and far too broad for timing individual trades."
+      },
+      {
+        question: "Why does Saturn take about two and a half years per sign?",
+        answer: "Saturn's full journey around the zodiac lasts about 29.5 years, and dividing that span by twelve signs gives roughly 2.5 years in each. That slow pace is why Saturn transits feel like extended chapters, and why its return near age thirty carries such weight in tradition."
+      }
+    ]
+  },
+"personality-number": {
+    guideTitle: "Personality Number Calculator: Your Outer Self Explained",
+    guide: [
+      "Your Personality Number describes the version of you that strangers, colleagues and new acquaintances encounter before anything deeper is known. Derived only from the consonants in your full birth name, it points to outward manner, first-impression style and the social surface you present without much conscious effort. Some people come across as brisk and organised, others as warm, witty or quietly reserved, even when their private inner life feels quite different. This calculator isolates that outer layer so you can compare the face you show with the person you know yourself to be underneath.",
+      "The method uses the Pythagorean letter table, where each letter carries a value from 1 to 9 in repeating order. Vowels are set aside completely here, and only consonants are added together, then reduced by adding digits until a single figure remains. One letter needs care: Y counts as a consonant unless it forms the only vowel sound inside a syllable, as it does in names like Lynn, where it behaves like a vowel and is skipped. Spell the name exactly as given at birth, because later nicknames change the consonant set and therefore the result.",
+      "Read across the range as nine social styles. One arrives decisive and self-assured, two gentle and diplomatic, three lively and expressive, four dependable and grounded. Five seems restless and adaptable, six caring and responsible, seven thoughtful and hard to read, eight composed and executive, nine generous and broad-minded. Master totals 11 and 22 are sometimes kept unreduced before the final step, giving an intense, high-voltage version of 2 or 4: the perceptive diplomat or the commanding builder. None of these styles is better; each simply colours how quickly people trust, approach or underestimate you."
+    ],
+    steps: [
+      "Write your full birth name exactly as recorded, including middle names if you have them.",
+      "Cross out every vowel, leaving only the consonant letters in each part of the name.",
+      "Convert each remaining letter using the Pythagorean values shown alongside the calculator.",
+      "Add each name part separately, reduce the parts, then combine and reduce once more."
+    ],
+    resultMeaning: [
+      "Take the name Asha Verma as a worked example. In ASHA the consonants are S and H only, because both A's are vowels and are skipped: S is 1 and H is 8, giving 9. In VERMA the consonants are V, R and M: 4 plus 9 plus 4 equals 17, which reduces to 8. Adding the two parts, 9 plus 8 equals 17, reduced again to 8. A Personality Number of 8 suggests the world first meets someone composed, capable and quietly executive, comfortable with responsibility and difficult to rattle, long before it discovers her private hopes, doubts or tenderness.",
+      "Keep the three name numbers separate in your mind, because each answers a different question. Vowels alone produce the Soul Urge, the inner desire motivating you privately. Consonants alone produce this Personality number, the outer style other people describe. Every letter together produces the Destiny or Expression number, the broader talents the full name is said to carry. Confusion usually comes from mixing these layers. Your outer 8 might look entirely in control on a day when an inner number feels uncertain, and that gap is information, not contradiction: it shows where presentation and private experience diverge."
+    ],
+    faqs: [
+      {
+        question: "How is the Personality Number different from the Soul Urge number?",
+        answer: "Soul Urge comes from vowels and speaks about private motivation, what you quietly want from life. Personality comes from consonants and speaks about presentation, what others experience when they first meet you. Reading both together shows the gap between inner longing and outward manner."
+      },
+      {
+        question: "Which full name should I use for calculating this number correctly?",
+        answer: "Use the full name given at birth, spelled as it was originally recorded, including a middle name where one exists. Married names, stage names and everyday nicknames create different consonant totals, so numerologists treat them as separate overlays rather than replacements for the birth result."
+      },
+      {
+        question: "Why is the letter Y sometimes counted differently in name calculations?",
+        answer: "Y switches roles depending on sound. It counts as a consonant in names like Yasmin, where a vowel follows it. When Y provides the only vowel sound in a syllable, as in Lynn or Bryn, treat it as a vowel and leave it out here."
+      },
+      {
+        question: "What does a master number mean in this Personality Number result?",
+        answer: "If your consonant parts total 11 or 22 before final reduction, many traditions pause and read that master form first. Eleven heightens the perceptive, diplomatic qualities of 2, while 22 magnifies the practical building force of 4, before you also consider the reduced single digit underneath."
+      },
+      {
+        question: "Can my Personality Number change during my life as I grow older?",
+        answer: "The birth-name result itself stays fixed, because the birth name does not change. What evolves is how consciously you use it. Someone who understands their outer style can soften, sharpen or relax it deliberately, even though the underlying number calculated from the original name remains constant."
+      }
+    ]
+  },
+  "personal-year": {
+    guideTitle: "Personal Year Number: Planning Your Nine-Year Cycle",
+    guide: [
+      "Your Personal Year Number identifies which stage of a repeating nine-year epicycle you are living through in a given calendar year. Rather than describing your permanent character, it highlights the kind of work a particular year keeps asking of you: whether life is pushing fresh starts, patient cooperation, building, pruning or completion. This calculator adds your birth month and birth day to the digits of the year in question, giving a planning lens you can hold against decisions about work, home, study, money and relationships across twelve whole months.",
+      "The arithmetic stays deliberately simple. Reduce your birth month and birth day if they are two digits, reduce the calendar year by adding its four digits together, then combine all three pieces and reduce again. When the final total lands on 11 or 22, many practitioners keep that master form and read it alongside its reduced value, as an amplified version rather than a separate destiny. Your cycle also runs in sequence, so context matters: knowing whether this year follows a beginning or precedes a ending changes how urgently you should push, wait or let something finish.",
+      "Across a full cycle, each year carries distinct planning work. Year 1 suits launching and choosing a direction; 2 asks for patience, partnership and quiet consolidation; 3 favours communication, visibility and rebuilding confidence. Year 4 is for systems, budgets and durable foundations, 5 for deliberate change and repositioning, 6 for home, duty and repairing commitments. Year 7 rewards study, review and stepping back before deciding, 8 focuses effort, earning and claiming authority, and 9 asks what must be completed, forgiven or released before the next cycle opens. Planning with, not against, that sequence is the point."
+    ],
+    steps: [
+      "Enter your birth month and birth day, ignoring your year of birth completely.",
+      "Add the four digits of the calendar year you want to examine.",
+      "Combine the reduced month, day and year figures into one final total.",
+      "Reduce to a single digit, noting 11 or 22 if it appears."
+    ],
+    resultMeaning: [
+      "Consider someone born on 5 May who wants to understand 2026. The birth month is 5 and the birth day is 5, both already single digits, so nothing changes there. The year 2026 reduces as 2 plus 0 plus 2 plus 6 equals 10, then 1. Adding the three pieces gives 5 plus 5 plus 1 equals 11. Instead of reducing further, the tradition keeps master number 11 and reads it as 11/2: a heightened, intuitive year resting on a sensitive, cooperative 2 base, where listening, timing and alliances matter more than forcing outcomes alone.",
+      "Place that result inside its sequence before acting on it. An 11 year arriving after a 1 year of beginnings often tests whether a new direction can deepen through trust and collaboration, rather than demanding another dramatic restart. Treat the number as a prompt for reflection when you plan the year, not as a rule that forbids or guarantees anything. Jobs still require applications, relationships still require conversation, and health or money decisions still require real evidence. Used that way, the cycle helps you choose emphasis across a whole year without surrendering judgement to it. That perspective also makes difficult months easier to place."
+    ],
+    faqs: [
+      {
+        question: "When does a Personal Year actually begin and end each cycle?",
+        answer: "Most modern numerologists run the Personal Year from 1 January to 31 December of the calendar year you calculated. A smaller tradition counts from birthday to birthday instead. Pick one convention and stay consistent, because switching methods mid-cycle makes comparisons between years confusing and unreliable."
+      },
+      {
+        question: "Why is my birth year not used in this calculation?",
+        answer: "Your birth year already belongs to your Life Path calculation, which describes lifelong themes. The Personal Year is meant to move, so it combines the fixed month and day of your birth with the changing calendar year. That is why everybody sharing your birthday shares this cycle."
+      },
+      {
+        question: "What should I do differently in a Personal Year 11?",
+        answer: "Read 11 through its 2 base first: protect rest, listen carefully, build alliances and avoid forcing premature decisions. The master form adds intuition and intensity, so keep a journal, test impressions against facts, and let important partnerships develop at a pace both sides can genuinely sustain."
+      },
+      {
+        question: "Can I calculate a Personal Year for a future year?",
+        answer: "Yes, replace the current year with any future year and repeat the same addition. Looking one or two years ahead can help with long planning, such as timing study or a house move, but treat distant cycles lightly because your circumstances and priorities will evolve meanwhile."
+      },
+      {
+        question: "What happens after a Personal Year 9 ends for the cycle?",
+        answer: "The sequence returns to 1, opening a fresh nine-year epicycle. Many people feel that transition as a genuine clearing followed by new appetite for direction. You do not need to manufacture a dramatic reinvention; a clear first step, chosen deliberately, is exactly what a 1 year asks for."
+      }
+    ]
+  },
+  "baby-name-numerology": {
+    guideTitle: "Baby Name Numerology: Matching Name and Life Path",
+    guide: [
+      "Baby name numerology compares the number carried by a shortlisted name with the Life Path number drawn from your baby's birth date, looking for a pairing that feels supportive rather than jarring. Parents use this calculator as one gentle check among many while choosing: a name whose total echoes the birth number is traditionally read as harmonious, while a contrasting total may add qualities the birth chart lacks. It is a way of listening to how a name might sit alongside the child, never a test a beloved name can fail or a ranking of children.",
+      "Name totals use the Pythagorean table, adding every letter value and reducing the sum, while keeping 11 and 22 as master totals where they appear. The birth side comes from adding all digits of the delivery date together and reducing that total the same way. Families differ on scope: many read only the first name for a newborn, since that is what a baby is actually called, while the surname joins the picture later when the full legal name is used at school and in documents. This calculator lets you explore both readings.",
+      "Harmony takes several shapes, not just identical numbers. An exact match, where name and Life Path share a digit, is read as reinforcement of the child's natural direction. A friendly pairing, such as a nurturing 6 name softening an independent 1 path, can balance rather than repeat. Even a lively contrast can suit parents who value breadth. Master totals 11 and 22 in a name are traditionally read as sensitive or capable respectively, with their reduced 2 and 4 underneath. Sound, family meaning, culture and sheer parental love should always outrank any total produced here."
+    ],
+    steps: [
+      "Enter your baby's birth date, or the expected date if still planning.",
+      "Type a shortlisted first name exactly as you intend to spell it.",
+      "Note the name total and compare it with the Life Path number shown.",
+      "Repeat with each shortlisted name, then decide using meaning and sound too."
+    ],
+    resultMeaning: [
+      "Imagine a baby born on 3 January 2026. Adding the full date, 3 plus 1 plus 2 plus 0 plus 2 plus 6, gives 14, which reduces to a Life Path of 5. Now test the shortlisted name Kabir: K is 2, A is 1, B is 2, I is 9 and R is 9, totalling 23, which reduces to 5. That exact match is traditionally read as clean harmony, a name reinforcing the freedom-loving, curious, change-ready energy of the 5 path rather than pulling against it at every step of childhood.",
+      "Contrast makes the idea clearer. Ayaan totals A 1, Y 7, A 1, A 1 and N 5, giving 15 and reducing to 6. Against a Life Path 5, that is a gentle mismatch: 6 brings home, duty and devotion, while 5 craves movement and variety, so the pairing might need conscious room for both roots and wings. That is not a verdict against Ayaan or any name. A name is one influence among temperament, family, place and experience, and it should never be the reason to discard a name you love."
+    ],
+    faqs: [
+      {
+        question: "Should I include the surname when checking a baby name?",
+        answer: "Try both ways. Many families judge a newborn by the first name alone, because that is the name spoken daily in infancy. The full name, including surname, gives the broader Expression reading used later in life, so checking both gives a fuller picture without forcing one rule."
+      },
+      {
+        question: "What does it mean if a name total is 11 or 22?",
+        answer: "Those are kept as master numbers in this tradition before reduction. An 11 name is read as intuitive and sensitive with a 2 underneath, and a 22 name as practical and capable with a 4 underneath. Neither is automatically better; both simply add intensity to the reduced digit."
+      },
+      {
+        question: "Is an exact match between name and Life Path best?",
+        answer: "Not necessarily. An exact match reinforces one set of qualities strongly, which some parents love and others find one-sided. A complementary number can introduce balance, for example steadiness beside a restless path. There is no ranking table here, only different kinds of relationship between two numbers."
+      },
+      {
+        question: "What if we have not decided on a spelling yet?",
+        answer: "Test each spelling separately, because every changed letter changes the total. Kabir and Kabeer will not produce the same number. Compare the results, but let pronunciation, family tradition and how the spelling works in your language and country carry more weight than a single digit of difference."
+      },
+      {
+        question: "Should numerology ever overrule a name with deep family meaning for us?",
+        answer: "No. A name honouring a grandparent, a place or a story carries real meaning no total can replace. Use the number as a final layer of reflection once sound and significance feel right. If a beloved name shows a contrasting number, simply note the balance it might bring."
+      }
+    ]
+  },
+  "twin-flame-matcher": {
+    guideTitle: "Twin Flame Matcher: Reflecting on Connection and Dynamics",
+    guide: [
+      "The twin flame idea holds that two people can mirror each other's strengths, wounds and blind spots with unusual intensity, prompting rapid personal growth. It is important to be plain from the start: twin flame is a modern belief framework and a popular cultural concept, not an established fact, and this matcher works inside that framework as a reflection tool. It compares birth-date numbers and sign flavour for two people and describes the dynamic their pairing suggests, without certifying that anyone is, or is not, another person's twin flame.",
+      "Inside the tradition, the matcher begins with each person's Life Path, found by adding every digit of the birth date and reducing the total. It then combines the two paths into a pair sum, reduced again, which is read as the shared work or recurring lesson of the connection. Sign and element flavour add a second, softer layer, noting where temperaments might spark or soothe. Popular twin flame stories often mention separation phases and a runner and chaser; that language describes a narrative many people recognise, not a diagnosis of any real relationship placed in front of you.",
+      "What the matcher weighs, then, is three things in fresh terms: the two individual Life Paths and how their priorities meet, the pair sum that colours what the relationship keeps asking both people to practise, and elemental flavour, whether fire meets earth, air meets water, and so on. A high resonance reading inside this system means the numbers echo each other strongly; a quieter reading means the pairing is framed as complementary or challenging. Neither outcome, in any honest use of this tool, predicts whether a real relationship will last, heal or make either person happy."
+    ],
+    steps: [
+      "Enter the first person's full birth date as accurately as you know it.",
+      "Enter the second person's birth date, double-checking day and month order carefully.",
+      "Read both Life Path numbers separately before looking at the combined result.",
+      "Use the pair reading as reflection prompts, then judge the relationship by reality."
+    ],
+    resultMeaning: [
+      "Take two birth dates as an illustration. Person A, born 7 July 1993, adds as 7 plus 0 plus 7 plus 1 plus 9 plus 9 plus 3, equalling 36 and reducing to Life Path 9. Person B, born 19 November 1990, adds as 1 plus 9 plus 1 plus 1 plus 1 plus 9 plus 9 plus 0, equalling 31 and reducing to Life Path 4. Their pair sum is 9 plus 4 equals 13, reducing to 4, read here as a builder pair: the shared work is turning the compassion of 9 into something durable that 4 can maintain.",
+      "Hold that reading lightly and honestly. A builder-pair description can prompt useful questions, such as whether kindness between you actually becomes reliability, but it cannot certify a twin flame bond, excuse harmful behaviour or promise reunion. A painful, one-sided or unsafe relationship is not made healthy by any label, however resonant the numbers look. Real-world respect, honesty, reciprocity and safety come first, always. If a connection consistently diminishes you, support from people you trust matters far more than matcher scores, and stepping away can be the genuinely growthful act this framework claims to honour."
+    ],
+    faqs: [
+      {
+        question: "Can this matcher really prove someone is my twin flame connection?",
+        answer: "No, and no calculator can. Twin flame is a belief framework, not a measurable fact, so this tool can only reflect on dynamics inside that framework. Whether a relationship deserves your commitment depends on observed behaviour, mutual respect and how safe and valued you actually feel within it."
+      },
+      {
+        question: "What does runner and chaser mean in twin flame stories?",
+        answer: "Those terms describe a popular narrative in which one person withdraws from intensity while the other pursues closeness. It is a storytelling pattern, not a diagnosis or an excuse. In real life, withdrawal and pursuit deserve honest conversation about needs and boundaries, not a spiritual label."
+      },
+      {
+        question: "How is a twin flame different from a soulmate in this tradition?",
+        answer: "Within the belief framework, soulmate connections are usually described as harmonious and supportive, while twin flame connections are framed as mirrors that expose difficult patterns quickly. Both are concepts from the same modern spiritual culture, and neither vocabulary changes what a healthy relationship requires day to day."
+      },
+      {
+        question: "What if our pair sum suggests a challenging pairing for us both?",
+        answer: "Treat it as a reflection prompt, not a sentence. A challenging pair sum inside this system highlights where priorities may grate, such as freedom against security. Couples with every imaginable number combination build good lives together when communication, kindness and shared effort are present in practice."
+      },
+      {
+        question: "Should I stay in a painful relationship because of a strong match?",
+        answer: "No. A strong matcher result never outweighs pain, control, dishonesty or fear in a real relationship. Those are reasons to seek support and consider distance, whatever any label suggests. Respect and safety are not obstacles to a spiritual connection; their absence means the relationship itself needs addressing first."
+      }
+    ]
+  },
+"black-moon-lilith": {
+    guideTitle: "Black Moon Lilith Calculator Mean True Signs Houses",
+    guide: [
+      "Black Moon Lilith marks where the Moon travels farthest from Earth along its orbit, a mathematical point rather than a planet or asteroid you could see through a telescope. This calculator locates that apogee point in your birth chart by sign and house, giving you a symbolic marker for the urges you were taught to hide, soften or apologise for, and the part of you that resists being managed by other people's comfort. Astrologers read it as instinct that refuses negotiation: desire, anger or refusal labelled excessive early in life and pushed underground, still shaping reactions decades later in subtle ways.",
+      "Two versions circulate because the apogee itself will not sit still. Mean Lilith smooths the Moon's uneven motion into a steady average, drifting evenly through the zodiac. True Lilith, also called oscillating Lilith, follows the actual wobbling apogee, so it can jump, pause and sit several degrees away from the mean position, occasionally landing in the neighbouring sign altogether. Most calculators default to the mean version because its motion stays predictable across software and dates. The true version rewards tolerance for ambiguity, since its degree can stall or slip backwards. Neither is objectively correct; consistency matters most when comparing charts.",
+      "Lilith needs about eight years and ten months to complete the full zodiac, spending roughly nine months in each sign, which is why whole friendship groups often share a Lilith sign yet differ completely by house. The sign colours the flavour of the taboo, while the house names the room where it erupts: the second house around money and worth, the seventh around partnership, the tenth around reputation and public refusal. House placement often feels more personal than sign because it points to concrete settings: classrooms, kitchens, boardrooms, bedrooms or stages where the same charged theme keeps returning, asking to be owned rather than hidden away from view."
+    ],
+    steps: [
+      "Enter your birth date, exact birth time and birthplace so the apogee point and house cusps resolve correctly.",
+      "Check which version the result displays, mean or true, and note the degree shown beside the sign.",
+      "If the degree sits within two degrees of a sign edge, read both signs before settling on an interpretation.",
+      "Read the sign together with the house, then compare with any planets sitting close to the same degree."
+    ],
+    resultMeaning: [
+      "Consider Lilith in Leo in the fifth house as a reading rather than a computation. Leo craves an audience and the fifth house governs play, romance and creative output, so this pairing describes an applause paradox: a deep hunger to be seen and celebrated paired with sharp embarrassment about wanting exactly that. It surfaces in unfinished creative projects, in flirting that retreats once noticed, and in posting work online then deleting it within the hour. The growth move here is deliberately unglamorous: finish things for their own sake before showing anyone. Let a compliment land without apologising, and keep work visible long enough for people to respond.",
+      "Treat the calculator as a mirror for reflection, not a verdict on character or destiny. A symbolic point cannot dictate choices, excuse behaviour or predict events, and the asteroid numbered 1181 Lilith is an entirely separate body that this tool does not use at all in its workings. A tight contact from another planet can intensify the theme, while a quieter placement may surface only during certain relationships or periods. Strong reactions to the description are worth noticing as information, not proof about your past. Revisit it after a few months, and let ordinary experience arbitrate which version rings truest."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between mean and true Lilith placements?",
+        answer: "Mean Lilith averages the Moon's wobbly orbit into smooth, even movement, while true Lilith tracks the actual apogee as it shifts. The two can sit a few degrees apart, so always check which version a calculator reports before comparing results."
+      },
+      {
+        question: "How long does Lilith stay in each zodiac sign exactly?",
+        answer: "Roughly nine months per sign, completing the entire zodiac in about eight years and ten months. That slow rhythm means your birth-year peers usually share your Lilith sign, while your house placement, set by birth time, makes the reading personal."
+      },
+      {
+        question: "Is Black Moon Lilith the same as the asteroid Lilith body?",
+        answer: "No. Black Moon Lilith is a calculated point, the lunar apogee, with no physical body at all. Asteroid 1181 Lilith is a real rocky object orbiting the Sun. Charts and calculators keep them separate, and this tool uses only the apogee point."
+      },
+      {
+        question: "What should I do if Lilith sits near a sign boundary?",
+        answer: "Read the neighbouring sign alongside your result whenever the degree falls within about two degrees of an edge. Mean and true calculations can disagree precisely there, and holding both readings lightly usually describes lived experience better than forcing one label."
+      },
+      {
+        question: "Does my Lilith placement describe something wrong with me personally?",
+        answer: "Nothing here is a flaw or a diagnosis. The placement sketches themes around appetite, refusal and self-censorship that many people recognise in themselves to some degree. Use it for honest self-questioning, and set it aside whenever the description stops feeling useful."
+      }
+    ]
+  },
+  "10th-house-career": {
+    guideTitle: "Tenth House Career Calculator Whole Sign Midheaven Guide",
+    guide: [
+      "This calculator counts ten signs forward from your Ascendant sign, called the Lagna, to find your tenth house, the chart sector linked with vocation, public role and the work you become known for. The sign occupying that house, any planets inside it and the placement of its ruling planet together sketch a career direction rather than a single prescribed job title. Traditionally called Karma Bhava in Sanskrit texts, this house also gathers questions of authority, employers and reputation, because all of those shape how a vocation unfolds publicly across a lifetime of working years.",
+      "The method here follows whole-sign houses used in Vedic reading, where the tenth sign from the Lagna simply is the career house. Quadrant systems used in much Western astrology instead anchor the Midheaven, or MC, by exact degree, and that point can slip into the ninth or eleventh house, so two traditions can describe the same chart with different house labels. That distinction explains many confusing readings online, where a planet sits in the tenth sign yet stands far from the Midheaven degree. Knowing which system produced your result stops you comparing readings built on incompatible foundations as though one were simply wrong.",
+      "Counting around the wheel gives a fixed pattern worth learning: Aries rising puts Capricorn tenth, Taurus puts Aquarius, Gemini puts Pisces, Cancer puts Aries, Leo puts Taurus and Virgo puts Gemini. Continuing onward, Libra rises to Cancer tenth, Scorpio to Leo, Sagittarius to Virgo, Capricorn to Libra, Aquarius to Scorpio and Pisces to Sagittarius, each pairing carrying its own working temperament. Notice how the tenth sign always stands in a steady structural relationship to its rising sign, which is why astrologers treat this pairing as a backbone of the chart rather than a random label attached afterward to a birth time."
+    ],
+    steps: [
+      "Enter your birth date, time and place, then confirm the Ascendant sign the calculator returns before reading further.",
+      "Count ten signs forward including the Ascendant itself to verify the tenth house sign shown in your result.",
+      "Identify the ruling planet of that tenth sign and note which house that planet occupies in your chart.",
+      "List any planets sitting inside the tenth house, since they add strong flavours to the career picture described."
+    ],
+    resultMeaning: [
+      "Take a Virgo Ascendant as the worked case. Counting ten signs forward lands on Gemini in the tenth house, tilting vocation toward communication, craft and variety: teaching, editing, media, translation and skilled trades all fit that flavour. Gemini's ruler Mercury sits in the third house in this example, pulling the career further toward writing, instruction, short courses and content made in brief, frequent formats rather than one monumental work. Journalism, tutoring, sales or community work would all express the same pattern, because this Mercury doubles down on skills built through practice and local networks rather than distant institutions or inherited status.",
+      "Planets inside the tenth house then sharpen or complicate that outline, and the tenth lord's house shows where the work actually happens day to day. Read all of this as a traditional interpretive lens on direction and appetite. It offers no guarantee of employment or promotion, and it never replaces training, portfolio, experience or the plain reality of the job market around you. Two charts can share a tenth sign and diverge completely once lord, planets and aspects enter the picture, so resist copying a famous person's path merely because your tenth house matches theirs on paper alone."
+    ],
+    faqs: [
+      {
+        question: "How is the tenth house different from the Midheaven point?",
+        answer: "In whole-sign reading the tenth sign from the Ascendant is the career house by definition. The Midheaven is an exact degree point that quadrant house systems calculate separately, and it can fall in the ninth, tenth or eleventh house depending on latitude."
+      },
+      {
+        question: "What does the tenth house lord placement tell me about work?",
+        answer: "The planet ruling your tenth sign, and the house it occupies, suggests where career energy gets spent in practice. A lord in the third points toward communication work, in the seventh toward clients and partnerships, in the ninth toward teaching or travel."
+      },
+      {
+        question: "What do planets sitting in the tenth house mean for careers?",
+        answer: "Each planet colours public work in its own register: the Sun seeks visibility, Saturn builds slowly through duty, Mars competes and initiates, Venus works through design and relationships. No single placement decides an occupation, so read planets as tendencies layered together."
+      },
+      {
+        question: "Can this calculator choose the right career for me alone?",
+        answer: "It can suggest directions that match your temperament, which is useful when you feel torn between paths. It cannot weigh salaries, openings or your actual skills. Pair any reading with honest research into training routes, demand and the daily texture of the work."
+      },
+      {
+        question: "Why does my tenth house sign differ between websites online?",
+        answer: "Sites disagree because they use different house systems and sometimes different zodiacs. A whole-sign Vedic calculator counts signs from the Ascendant, while a quadrant Western calculator places the Midheaven by degree. Neither mismatch means your birth data was entered incorrectly."
+      }
+    ]
+  },
+  "karmic-relationship": {
+    guideTitle: "Karmic Relationship Calculator Life Path Pair Lessons Explained",
+    guide: [
+      "This calculator compares two birth dates through numerology to describe a relationship as a classroom: a bond that keeps presenting the same lesson until both people handle it differently. The framing suits romantic partners, close family and mentors equally, because the tool cares about the pattern two people repeat together, not about romance alone or any verdict on whether a bond should continue. People usually report familiarity first: conversations that feel resumed rather than begun, reactions larger than the acquaintance warrants, and one unfinished theme circling back despite good intentions on both sides over the years.",
+      "The arithmetic is the familiar Pythagorean life path method applied twice. Each full birth date is added digit by digit and reduced to a single number, giving each person a life path. Those two numbers are then added and reduced again for a pair theme. Astrologers describing karmic bonds also watch chart signatures in parallel, especially Saturn contacts and links involving the South Node of the Moon. Saturn contacts suggest duty and lessons delivered through limits, while South Node links evoke an old habit that comforts and stunts simultaneously. Neither signature proves a shared past life.",
+      "Pairings read as shared homework rather than compatibility scores. Two reflective numbers together may stall in silence, two driven numbers may rehearse the same argument about control, and a nurturing number beside an independent one often negotiates closeness versus freedom. Every combination names a skill the pair keeps practising, from direct speech and boundary-setting to patience, forgiveness or finally letting a finished chapter close. Spark-heavy combinations rehearse desire without drifting into dishonesty, while steady combinations rehearse trust around money and reliability. Naming the lesson is practical, because a pattern you can name mid-argument is far easier to interrupt."
+    ],
+    steps: [
+      "Write out the first person's full birth date and add every digit, reducing the total to one number.",
+      "Repeat the same addition for the second person's birth date to find their individual life path number.",
+      "Add the two life path numbers together and reduce once more to reveal the pair theme number.",
+      "Read the individual numbers, the pair theme and the completion notes together before drawing any conclusions about the relationship."
+    ],
+    resultMeaning: [
+      "Here is the arithmetic worked in full. Someone born 11 February 1992 gives 1+1+0+2+1+9+9+2 = 25, reducing to life path 7. A partner born 30 June 1987 gives 3+0+0+6+1+9+8+7 = 34, also reducing to 7. Two 7s share a lesson in trust and interior honesty: both retreat inward when hurt, so their karmic work is staying inside difficult conversations. Their pair theme, 7 + 7 = 14 reducing to 5, asks for change through honest speech. Neither partner can hide inside solitude here, because the other recognises the retreat instantly, having invented it. Progress looks undramatic: one honest sentence offered before withdrawal, repeated until trust accumulates.",
+      "Completion matters as much as connection in this framework. A lesson can finish, after which a once-intense bond may soften into ordinary fondness or end altogether, and leaving can itself be the completed lesson rather than a failure. Treat past-life language strictly as a belief framework for reflection. It proves nothing about history, obliges nobody to stay, and should never override safety, consent or plain unhappiness. Used well, the numbers organise questions you were already asking: what keeps repeating, what has genuinely changed, and what stays identical despite every promise made in good faith by either person."
+    ],
+    faqs: [
+      {
+        question: "What makes a relationship karmic rather than an ordinary bond?",
+        answer: "Within this belief framework, a karmic bond feels unusually charged, familiar and repetitive, returning both people to the same unresolved pattern. Astrologers traditionally point to Saturn contacts and South Node links between charts as the classic signatures behind that intensity and pull."
+      },
+      {
+        question: "How is a karmic relationship different from a soul contract?",
+        answer: "A soul contract reading emphasises an agreement supposedly arranged before birth, with roles assigned in advance. The karmic reading here focuses instead on lessons in progress and their completion: what the pair keeps rehearsing, what changes it, and when the work is done."
+      },
+      {
+        question: "How does a karmic bond differ from a twin flame connection?",
+        answer: "Twin flame language describes one soul mirrored across two people, which makes separation feel like incompleteness. This calculator uses a different frame entirely: two separate people sharing a lesson. Completion, distance or a calm ending can all count as success within that frame."
+      },
+      {
+        question: "Does a karmic relationship mean we must stay together forever?",
+        answer: "No, and this framework never asks that of anyone. Some lessons complete precisely by leaving respectfully and not repeating the pattern elsewhere. Intensity is not evidence of obligation, and any reading suggesting you must endure harm or misery deserves to be ignored completely."
+      },
+      {
+        question: "Can family members or mentors share a karmic relationship pattern?",
+        answer: "Yes. The classroom idea applies wherever two people repeatedly trigger the same growth point in each other, including parents, siblings, close friends and teachers. Romance is simply the most discussed setting. The pair theme number describes the shared lesson regardless of the relationship type."
+      }
+    ]
+  },
+  "workplace-astrology": {
+    guideTitle: "Workplace Astrology Calculator Work Style Mercury Mars Moon",
+    guide: [
+      "This calculator reads your birth chart for one narrow, practical purpose: how you actually behave across an ordinary working week. It ignores fame, vocation and long-range ambition, and concentrates instead on how you process information in meetings, how you pace effort across a deadline, how you respond when plans change, and what surroundings help you recover after a demanding stretch of collaboration. Two colleagues can share a title, team and manager yet experience the same Monday completely differently. This tool describes that layer: preferences and friction points, never talent, seniority or measurable worth to an employer.",
+      "Three placements carry most of the reading, each governing a different layer of office life. Mercury describes communication and mental processing, Mars describes drive, pace and friction style, and the Moon describes workplace needs and recovery. The calculator weighs those three signs together into a work-style card, so no single placement is treated as a complete description of your professional character or ability. Element flavours refine each placement: fire acts before the meeting ends, earth asks what it costs, air reframes the problem, and water tracks the mood nobody mentioned aloud.",
+      "Mercury in a chatty sign may draft by talking, while Mercury in a reserved sign writes first and speaks later. Mars in a cardinal sign starts instantly, Mars in a fixed sign finishes relentlessly, and the Moon quietly sets the conditions underneath: one person needs silence and a closed door, another recharges through team lunches, a third needs predictable hours above almost everything else you could offer them. None of these styles is the professional ideal. Teams stall when everyone processes identically, and fracture when differences get moralised as attitude. A talkative drafter beside a silent writer is a pairing, provided handovers stay explicit."
+    ],
+    steps: [
+      "Enter your birth date, time and place, then note the signs returned for Mercury, Mars and the Moon.",
+      "Read Mercury first for communication habits, Mars second for pace and conflict style, and the Moon last for needs.",
+      "Compare your card with a close colleague's Mars and Mercury signs to spot likely pace or style clashes early.",
+      "Turn one insight into a concrete agreement, such as written deadlines or shorter check-ins, and test it for a fortnight."
+    ],
+    resultMeaning: [
+      "Picture one composite work-style card read as interpretation. Mercury in Gemini processes by talking and drafting aloud, thinking faster in conversation than alone. Mars in Capricorn supplies the opposite tempo: slow to ignite, immovable once a deadline is accepted, climbing steadily while others sprint and stall. Moon in Taurus underneath needs a stable desk, predictable routines and real lunch breaks protected from meetings, and it quietly resents hot-desking and last-minute schedule churn. In practice this colleague writes strong follow-up notes after brainstorming, prefers projects with visible milestones, and does their most reliable work in a familiar corner with a calendar that rarely ambushes them.",
+      "Now pair this person with a Mars in Aries colleague and the friction is purely mechanical: an instant starter beside a deliberate finisher. A workable protocol is short check-ins, written deadlines and agreed start dates, so speed and stamina stop misreading each other as laziness or recklessness. Use this lens for self-knowledge and smoother teamwork only. It is never a hiring, firing, promotion or assessment tool, and no placement measures competence. Small agreements carry similar weight: agendas circulated early and warnings before schedule changes cost a team almost nothing, yet they respect the steadiness this person quietly depends on daily."
+    ],
+    faqs: [
+      {
+        question: "Which planets matter most for everyday behaviour at work today?",
+        answer: "Mercury, Mars and the Moon do most of the work in this reading. Mercury covers communication and processing, Mars covers pace, drive and friction, and the Moon covers daily needs, comfort and recovery. Together they describe behaviour rather than job title or status."
+      },
+      {
+        question: "How is workplace astrology different from career astrology readings online?",
+        answer: "Career readings built on the tenth house ask which vocation and public role suit you over years. This calculator asks a smaller daily question: how you write, meet, pace yourself and collaborate this week. Leadership readings differ again, focusing on how you direct other people."
+      },
+      {
+        question: "Can my manager use this to assess or hire staff?",
+        answer: "No. A work-style card is a reflective prompt for the person it describes, useful for starting conversations about preferences and collaboration. It measures nothing, predicts no performance and must never feed into hiring, firing, promotion, pay or formal assessment decisions of any kind."
+      },
+      {
+        question: "What if my Mars sign clashes with a close colleague's?",
+        answer: "Treat a clash as a tempo difference to manage, not a personality verdict. Name the mismatch plainly, agree written deadlines and start dates, and schedule brief check-ins so the faster starter and the slower finisher each get the structure their pace requires to work."
+      },
+      {
+        question: "Why does the Moon sign matter for my working day?",
+        answer: "The Moon in this framework points to the conditions that keep you steady: food, rest, privacy, routine and emotional temperature. When those needs go unmet, small irritations grow quickly. Arranging even one of them properly often improves focus more than any productivity technique."
+      }
+    ]
+  },
 };
