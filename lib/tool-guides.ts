@@ -920,5 +920,657 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
         answer: "Friction contacts such as squares often describe desire that is real but differently timed or expressed — one person pursues directly, the other needs romance and reassurance first. That is information, not a judgement. Many couples with challenging Venus-Mars aspects report strong attraction precisely because of the tension, provided it is handled with respect and honest conversation."
       }
     ]
-  }
+  },
+"jupiter-transit": {
+    guideTitle: "Jupiter Transit Luck Finder: Your Guru Gochara Guide",
+    guide: [
+      "Your Jupiter transit is the sidereal sign Jupiter, called Guru in Vedic astrology, is passing through right now, judged from your Moon sign to show where growth and support are traditionally easiest this year. In gochara, the Vedic transit system, Jupiter is not read from your rising or Sun sign but from Chandra Lagna, the Moon sign. Count the signs from your Moon to Jupiter's current sign, and that number, from first to twelfth, sets the tone and life areas of the reading.",
+      "Tradition is specific about which positions help. Jupiter transiting the 2nd, 5th, 7th, 9th or 11th sign from the Moon is considered favourable, linked to wealth and family support, children, study and creativity, marriage and partnership, fortune and dharma, and gains through networks. The 6th, 8th and 12th positions are considered effortful, pointing to debts or conflict, sudden change, and rising expenses. The 1st, 3rd, 4th and 10th are mixed, neither classic luck slots nor classic obstacles, and depend heavily on your own effort and choices.",
+      "Jupiter moves slowly, spending roughly one year in each sidereal sign and about twelve years on a full circuit of the zodiac. Recent sidereal ingresses are approximate: Aries in 2023, Taurus in 2024, Gemini in 2025 and Cancer in 2026, with Leo following late in 2026. Jupiter gave a brief preview of Cancer from October to December 2025, retrograded back into Gemini, then re-entered Cancer in mid 2026 before moving into Leo around the end of October 2026, its position as of November 2026. Treat boundary periods as approximate and cross-check them with a full chart."
+    ],
+    steps: [
+      "Enter your birth details so the tool can identify your Vedic Moon sign, or select your Moon sign directly if you already know it.",
+      "Check the current sidereal sign of Jupiter shown for today, and note that everyone shares this same Jupiter sign at any given time.",
+      "Count forward from your Moon sign, with the Moon sign itself as the first, until you reach Jupiter's sign to find your house position.",
+      "Read the interpretation for that position, note which life areas it highlights, and use the timing notes to plan effort for the months ahead."
+    ],
+    resultMeaning: [
+      "Take a worked example with the Moon in Taurus. Jupiter in Leo is the fourth sign from Taurus, counting Taurus as first, Gemini second, Cancer third and Leo fourth. A fourth place transit is mixed to supportive: the traditional focus is home, mother, property and inner peace. It is not a classic wealth slot, so expecting a windfall would misread it, but steady work on your living situation and family foundations is well supported.",
+      "Place that same Taurus Moon reader under Jupiter in Pisces and the picture changes, because Pisces is the eleventh sign from Taurus. The eleventh is the classic gains position, traditionally read as promotions, a stronger network and income growth through contacts. The lesson is that Jupiter's sign alone means little. The same transit gives one reader gains and asks another to build at home, purely because their Moon signs differ, so read the position first."
+    ],
+    faqs: [
+      {
+        question: "How long does Jupiter stay in each sign?",
+        answer: "About one year in each sidereal sign, and roughly twelve years to travel the whole zodiac. That slow pace is why astrologers treat it as a yearly background theme for study, career, family or finances, rather than a short passing influence."
+      },
+      {
+        question: "What is the difference between tropical and sidereal Jupiter transits?",
+        answer: "Western astrology mostly uses the tropical zodiac, tied to the seasons, while Vedic astrology uses the sidereal zodiac, tied to the fixed stars. The two have drifted about twenty four degrees apart, so Jupiter can sit in different signs in each system. This tool follows the sidereal system, judged from your Moon sign."
+      },
+      {
+        question: "Is a difficult Jupiter transit really bad?",
+        answer: "No. The sixth, eighth and twelfth positions are better described as effort areas than as bad luck. They highlight debts to clear, changes to manage or expenses to watch, and many people use those years productively by simplifying and saving. Jupiter remains a benefic in the tradition; an effortful position redirects its growth rather than removing it."
+      },
+      {
+        question: "When does Jupiter bless marriage?",
+        answer: "Traditionally, Jupiter transiting the seventh sign from your Moon is the strongest marriage signal, supporting partnership and commitment. The fifth and ninth positions are also supportive, the fifth through romance and the ninth through fortune and family approval. It is an interpretive tradition about favourable timing, not a guarantee of a wedding."
+      },
+      {
+        question: "Does everyone share the same Jupiter transit?",
+        answer: "Yes and no. Jupiter occupies one sidereal sign for everyone on Earth at the same time, so the raw transit is shared. What differs is the position counted from your own Moon sign, which depends on when you were born. That is why two people can experience the same Jupiter year in completely different life areas."
+      }
+    ]
+  },
+
+  "communication-compatibility": {
+    guideTitle: "Zodiac Communication Style: How You and Your Partner Talk",
+    guide: [
+      "Your communication compatibility result describes how you and your partner naturally talk, listen, argue and make up, based on the elements of your Mercury signs, or your Sun signs as a simpler fallback. Mercury rules language, logic and pace of thought, so comparing two placements shows whether conversation flows easily, needs translation, or sparks because you process words differently. The result is a style map for dialogue, not a verdict on the relationship.",
+      "The four elements set the basic styles. Fire signs, Aries, Leo and Sagittarius, speak directly, fast and bluntly, thinking out loud and moving on quickly. Earth signs, Taurus, Virgo and Capricorn, are practical and measured, preferring facts and time to consider before answering. Air signs, Gemini, Libra and Aquarius, lead with ideas and words, enjoying debate, humour and talking a problem through. Water signs, Cancer, Scorpio and Pisces, communicate through tone and feeling, reading between the lines and noticing what was not said.",
+      "Pairings of elements explain most everyday friction and ease. Air with Fire is fast and inspiring, full of plans and laughter, though it can skip over feelings. Earth with Water is calm and loyal, building trust slowly through consistency. Air with Earth needs translation work, because one partner wants to explore options while the other wants a decision and evidence. Fire with Water also needs care, since directness can feel harsh to a sensitive listener, while indirect hints frustrate a straightforward speaker."
+    ],
+    steps: [
+      "Enter both partners' signs, using Mercury signs if you know them, or Sun signs if you do not, for each person in the pair.",
+      "Note the element of each sign, Fire, Earth, Air or Water, since the element pairing drives most of the interpretation that follows.",
+      "Read the shared strengths first, then the friction points, and notice which examples match your real arguments about tone, timing or detail.",
+      "Choose one practical suggestion from the result, such as a check in habit or a pause rule, and agree to test it for a week."
+    ],
+    resultMeaning: [
+      "Consider a Gemini and Aquarius pair, both Air signs. Conversation is rapid and idea rich, full of jokes, half finished sentences the other completes, and late night debates. The shared risk is subtle: everything gets analysed and nothing gets felt out loud, so either partner can feel lonely inside a very talkative relationship. The fix is not more talking but different talking, with scheduled check ins about feelings rather than plans or news.",
+      "Contrast that with a Taurus and Scorpio pair, Earth with Water. This couple talks slowly and privately, remembers everything that was said, and argues rarely but deeply when trust feels threatened. Where the Air pair must add feeling to words, this pair must add words to feeling, saying needs plainly instead of expecting them to be sensed. The result tells you which translation your pairing has to practise, not which partner is communicating correctly."
+    ],
+    faqs: [
+      {
+        question: "Is this about Mercury sign or Sun sign?",
+        answer: "Mercury ideally, because Mercury governs speech, reasoning and listening style, and it can sit in a different sign from your Sun. If you do not know your Mercury sign, the Sun sign works as a reasonable fallback for a general style sketch, but a full birth chart will give you the more precise Mercury based reading."
+      },
+      {
+        question: "Why do we argue about tone rather than content?",
+        answer: "Because elements process delivery differently. A Fire or Air partner may hear only the words and miss that the tone felt cold, while a Water partner hears the tone first and may never reach the content. Earth partners, meanwhile, can fixate on an inaccurate detail. Most tone arguments are really style collisions, and naming your elements makes that easier to see mid discussion."
+      },
+      {
+        question: "Does Mercury retrograde affect couples?",
+        answer: "In popular astrology, Mercury retrograde periods are linked with crossed wires, delayed replies and old conversations resurfacing. There is no evidence the planet changes how anyone communicates, but the periods can serve as a useful reminder to confirm plans in writing, reread messages before sending, and revisit unresolved talks calmly rather than assuming the worst of a partner."
+      },
+      {
+        question: "Can opposite communication styles work long term?",
+        answer: "Yes, and many lasting couples have contrasting styles. The research backed ingredients are responsiveness, repair after conflict and willingness to adapt, not identical styles. An Air and Earth pair, for example, can thrive once the Air partner offers conclusions and the Earth partner tolerates brainstorming. Style differences become a problem mainly when each partner insists their way is the only respectful one."
+      },
+      {
+        question: "How do we use this result in a real disagreement?",
+        answer: "Pause and translate. Restate your partner's point in your own words before answering it, match their pace rather than your own, and separate the content question from the tone question explicitly. If one of you needs time to think, agree a time to return to the topic, so silence is understood as processing rather than rejection."
+      }
+    ]
+  },
+
+  "intimacy-compatibility": {
+    guideTitle: "Zodiac Bedroom Chemistry: Venus, Mars and Your Style of Closeness",
+    guide: [
+      "Your bedroom chemistry result describes how you and your partner express affection, desire and physical closeness, by comparing Venus, which shows pleasure and sensory style, with Mars, which shows drive and pursuit. Venus reveals what feels good and romantic, while Mars reveals how desire is sparked and acted on. Together, the placements sketch pacing, atmosphere and the attention each partner finds most connecting, as an interpretive guide rather than a measure of anyone's performance.",
+      "Element gives the quickest feel for style. A Fire Mars is spontaneous and passionate, sparked by novelty and direct appreciation. An Earth Venus is sensory and quality focused, valuing comfort, touch, scent and unhurried time over grand gestures. Air placements bring talk and novelty, flirting through conversation, humour and variety. Water placements seek emotional merging, needing trust and tenderness before physical closeness feels complete. Most people blend two styles, one from Venus and one from Mars, which is why chemistry is individual.",
+      "Chemistry here is about fit of pacing and signals, not matching elements perfectly. Two partners can share an element and want different tempos, or sit in clashing elements and adore the contrast. The comparison explains recurring mismatches kindly: one partner recharging through quiet closeness while the other expresses love through excitement and initiative, for instance. Once both styles are named as legitimate, it becomes easier to ask for what you enjoy without taking different preferences personally."
+    ],
+    steps: [
+      "Enter each partner's Venus sign and Mars sign if you know them, using the birth dates requested so the tool can work from the placements you provide.",
+      "Read the Venus description first for what each of you finds pleasurable and romantic, then the Mars description for drive and pursuit style.",
+      "Compare pacing, atmosphere and affection signals between the two profiles, and note one similarity and one difference you recognise from real life.",
+      "Use the suggestions to start a gentle conversation about timing, touch and closeness, focusing on preferences you can share rather than scores."
+    ],
+    resultMeaning: [
+      "Picture Venus in Taurus paired with Mars in Scorpio. Venus in Taurus is slow, sensual and touch led, needing comfort, trust and unhurried time. Mars in Scorpio brings an intense, all or nothing drive that values depth, privacy and total focus. Taurus and Scorpio are opposite signs, making this the classic magnetic pairing: deep physical loyalty when trust is high, but possessiveness and stubborn stand offs when it is not. Both signs are fixed, so neither backs down first.",
+      "The practical reading is reassuring. The Taurus Venus partner should expect intensity to arrive as devotion, while the Scorpio Mars partner should understand that slowness is not rejection but how trust is built. A regular rhythm of affection, honest talk about jealousy, and protected time together can turn this opposition into staying power. Use your own result the same way: as a description of how two styles feed each other, not a prediction."
+    ],
+    faqs: [
+      {
+        question: "What are the different roles of Venus and Mars?",
+        answer: "Venus describes pleasure: what you enjoy, how you like to be courted, and the sensory details that make closeness feel good. Mars describes drive: how desire starts, how you pursue someone and how you express energy and initiative. Attraction readings usually weight Venus more, while chemistry and pacing readings need both planets together to make sense."
+      },
+      {
+        question: "Do opposite signs attract or clash?",
+        answer: "Traditionally, both. Opposite signs share an axis of life and often feel a magnetic pull, as with Taurus and Scorpio or Aries and Libra, because each offers what the other underplays. The same polarity can clash over control, money or pace. Astrologers treat opposition as high chemistry with high negotiation, not as an automatic match or an automatic problem."
+      },
+      {
+        question: "What if our elements do not match?",
+        answer: "Mismatched elements are extremely common and simply point to where translation helps. A Fire partner may need to slow down and add tenderness for a Water partner, while an Air partner can learn that an Earth partner shows desire through reliability and touch rather than words. The reading highlights adjustments; it does not grade the pairing as compatible or incompatible overall."
+      },
+      {
+        question: "Are differences in desire normal?",
+        answer: "Yes. Desire fluctuates with health, stress, sleep, medication, age and the stage of a relationship, and two partners rarely want closeness at identical frequency or in identical ways. A mismatch in the reading can give you neutral language for that conversation, but persistent distress about intimacy is a topic for a doctor or qualified therapist, not for an astrology tool."
+      },
+      {
+        question: "How can we use this without stereotyping each other?",
+        answer: "Treat every statement as a question, not a label. If the result says your partner needs more emotional closeness or more novelty, ask whether that rings true and listen to the answer. People always outrank their placements. The value of the reading is starting kinder, more specific conversations about affection, not deciding in advance what someone must be like in private."
+      }
+    ]
+  },
+
+  "juno": {
+    guideTitle: "Juno Soulmate Commitment Calculator: Your Style of Lasting Partnership",
+    guide: [
+      "Your Juno sign is the sign the asteroid Juno occupied when you were born, and it describes your style of commitment: what you need from a lasting partnership, what loyalty means to you, and the terms on which you can happily stay. Juno is named for the Roman goddess of marriage, wife of Jupiter, and represents the marriage bond itself rather than attraction. This tool works from the birth date you enter, and reads the placement as a reflection on fairness, fidelity and shared life.",
+      "Juno's orbit is about 4.36 years, so it changes sign every few months, with retrograde stretches that can carry it back and forth across a sign boundary. That is why an exact Juno sign needs your birth date rather than just your birth year, and why births close to a changeover date should be cross checked with a full chart. The payoff is a placement personal to your slice of a generation, not shared by everyone born in your year.",
+      "The element of Juno gives a first sketch of commitment needs. A Fire Juno needs admiration and adventure inside commitment, a partner who stays proud and playful. An Earth Juno needs reliability, shared resources and kept promises, and feels loved through consistency. An Air Juno needs conversation, friendship and space, thriving with a partner who remains an interesting equal. A Water Juno needs emotional loyalty and privacy, bonding deeply and protecting the inner life of the relationship."
+    ],
+    steps: [
+      "Enter your full birth date carefully, since Juno changes sign every few months and a small date error can shift the result near boundaries.",
+      "Read your Juno sign and its element, and note the commitment needs, loyalty expectations and equality themes the interpretation highlights for you.",
+      "If you are comparing with a partner, repeat the process for their birth date and compare needs side by side rather than looking for a single score.",
+      "Reflect on which described non negotiables match your real relationship history, and use them as prompts for honest conversation about expectations."
+    ],
+    resultMeaning: [
+      "As an interpretation example, consider Juno in Capricorn. Here commitment is expressed through reliability: showing up, building shared goals, and respecting each other's ambitions. The non negotiable is a partner whose word can be trusted, because a kept promise is the deepest form of romance for this placement, and flakiness reads as a lack of love. Partnership tends to be chosen carefully rather than rushed, and strengthens as the couple builds a shared life together.",
+      "The same example shows the shadow side to watch. Juno in Capricorn can turn marriage into a business contract, all duties and standards, with tenderness postponed until the work is done. The advice is to protect softness deliberately: time off together, affection that is not earned, and celebrating progress. Read your own result in this balanced way, taking the strength seriously and treating the shadow as a habit to manage, not a fate."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between Juno and Venus?",
+        answer: "Venus describes attraction: who and what you are drawn to, your taste and your style of romance. Juno describes commitment: the terms you need once attraction becomes a lasting partnership, including loyalty, equality and how conflict should be handled. The two can point in different directions, which is why someone can be attracted to exciting partners yet need calm reliability to actually stay."
+      },
+      {
+        question: "Does Juno show when I will marry?",
+        answer: "No. Juno describes the style and conditions of commitment that suit you, not a date or a prediction. Astrology tools like this one offer interpretation for reflection, and no placement can guarantee if or when a marriage happens. Timing questions depend on real life choices and circumstances far more than on an asteroid sign."
+      },
+      {
+        question: "Can my Juno sign differ from what I consciously want?",
+        answer: "Yes, and astrologers consider that one of Juno's most useful insights. The placement is often read as describing needs you reveal in long relationships rather than in dating, such as a hidden need for space, admiration or financial fairness. If the description surprises you, compare it with your longest past relationship before dismissing it, and treat it as a prompt for reflection."
+      },
+      {
+        question: "What does Juno in the houses mean?",
+        answer: "While this tool focuses on Juno's sign, a full birth chart also places Juno in one of twelve houses, which shows the life area where commitment themes play out most strongly. Juno in the tenth house, for example, links partnership with career and public life. House interpretations add context to the sign but need an accurate birth time and a full chart calculation."
+      },
+      {
+        question: "Does a difficult Juno placement doom my marriage?",
+        answer: "No placement dooms a relationship. Challenging Juno aspects or signs are traditionally read as areas where expectations need clearer negotiation, such as power, money or loyalty, not as verdicts. Many people with supposedly difficult Juno placements have long, happy marriages, usually because they learned to state their commitment needs openly instead of assuming a partner should guess them."
+      }
+    ]
+  },
+"nordic-runes": {
+    guideTitle: "Runes Reading Guide",
+    guide: [
+      "A runes reading is a traditional casting or drawing of symbols from the Elder Futhark, the ancient Germanic alphabet of 24 runes, used here as a reflective tool for looking at a situation from a fresh angle. Each rune is both a letter and a symbol with its own meaning, so a single drawn rune can suggest a theme for the day, while a small spread can show how a situation has developed, where it stands now, and what may help next. It is best approached as a prompt for reflection, not as a fixed prediction.",
+      "Some meanings are widely recorded in rune tradition. Fehu stands for wealth, earned prosperity and movable resources, while Uruz is raw strength, health and untamed energy. Thurisaz, the thorn, suggests defence and a reactive force, with advice to pause before acting. Ansuz is Odin's rune of messages, wisdom and communication, Raidho is the wheel of journey, movement and the rhythm of travel, and Kenaz is the torch of insight, clarity and learning. Gebo means gift, partnership and fair exchange, and because it is symmetrical it has no reversed meaning. Hagalaz is hail, disruption and forces outside your control.",
+      "Readings are usually kept simple. A single rune draw suits a daily focus or one clear question, and a three-rune spread is read left to right as past, present and future, or as situation, challenge and outcome. Some readers also note merkstave, where a rune drawn reversed or upside-down can shade the meaning toward its blocked or internal side. That shading is not a separate doom-laden message, just a softer or more inward reading. Some runes look identical reversed and are read upright, so orientation only matters where the shape actually changes."
+    ],
+    steps: [
+      "Think of one clear question or theme, then draw one rune for a daily reading or three runes for a full spread.",
+      "Lay the runes in order and note each name, meaning and position before trying to combine them into a story.",
+      "Check the orientation of each rune, remembering that symmetrical runes are read the same either way.",
+      "Read the positions together, then write down one practical reflection or next step the reading suggests to you."
+    ],
+    resultMeaning: [
+      "Consider this complete three-rune example. In the past position, Hagalaz shows that a disruption or loss set the situation in motion, something broke so it could be rebuilt. In the present position, Isa, the ice rune, describes stillness, delay and a frozen situation. Its advice is patience, do not force movement while the ice holds, because pushing now would likely meet resistance rather than progress. Read together, the first two runes say the break has already happened, and the present pause is part of the process, not a failure.",
+      "In the future position, Sowilo, the sun rune, points to clarity, energy returning and success after the thaw. That does not promise a guaranteed outcome on a set date, but it does suggest the story of this spread moves from disruption, through patience, toward renewed direction. A useful way to use such a reading is to ask what you can prepare quietly during the Isa phase, so you are ready to act clearly when movement returns. The value lies in that reflection, not in treating the runes as proof of what must happen."
+    ],
+    faqs: [
+      {
+        question: "How many runes are there in the Elder Futhark?",
+        answer: "There are 24 runes in the Elder Futhark, the oldest known runic alphabet. Each rune works as a letter in writing and also carries a symbolic name and meaning, such as Fehu for resources or Raidho for a journey. This reader uses that full traditional set of 24."
+      },
+      {
+        question: "Should I choose a single rune or a three-rune reading?",
+        answer: "Choose a single rune for a quick daily theme or one simple question, because it keeps the message focused. Choose three runes when you want development over time, since the positions show past, present and future, or situation, challenge and outcome. Neither is better, they simply suit different depths of question."
+      },
+      {
+        question: "Are runes fortune-telling?",
+        answer: "Runes come from a long divination and reflection tradition, but this reader does not claim they prove or guarantee the future. Treat a reading as a structured prompt that helps you notice patterns, feelings and options you may have overlooked. Your own judgement and choices remain what shape the outcome."
+      },
+      {
+        question: "What if I draw the same rune repeatedly?",
+        answer: "Drawing the same rune repeatedly often means its theme is worth a second look, especially if it relates to an unfinished situation in your life. Note when it appears and what question you asked. It may point to a lesson you keep circling, rather than being an error in the draw."
+      },
+      {
+        question: "Do I need my own rune set to use this reader?",
+        answer: "No, you do not need a physical set, because this reader draws from the full Elder Futhark for you. A physical set in wood, stone or clay can be enjoyable if you like a hands-on practice, but it is optional. What matters most is a clear question and time to reflect."
+      }
+    ]
+  },
+
+  "soul-contract": {
+    guideTitle: "Soul Contract Reader",
+    guide: [
+      "A soul contract, in the spiritual belief framework this reader follows, is an agreement many people believe souls make before birth with other souls, so that each person helps teach the other an important life lesson. The contract is not presented here as established fact, but as a way believers make sense of meaningful relationships. A partner, parent, child, friend or mentor may be seen as a contract partner when the connection carries a strong lesson, such as patience, forgiveness, independence or unconditional love.",
+      "Within this framework, several contract types are commonly described. The Teacher triggers growth through challenge, so the relationship may feel demanding while it develops strength or honesty. The Healer arrives during pain and helps restore trust, stability or self-worth. The Mirror shows you your own patterns, often by displaying the very habit or fear you need to recognise in yourself. The Companion offers steady, long-term support, while the Catalyst is short and intense, arriving briefly but changing your direction in a lasting way.",
+      "This reader combines a contract theme with a simple birth-date reduction in the life path style, so the relationship lesson can be considered alongside your own expressive pattern. For example, a birth date of 14 June 1990 reduces as 1+4+0+6+1+9+9+0 = 30, and then 30 reduces to 3, the expressive and creative path. That number does not prove a contract exists. Used gently, it simply adds context, suggesting how your natural way of learning and communicating may meet the lesson a particular relationship keeps presenting."
+    ],
+    steps: [
+      "Enter the birth details requested by the reader, then think of the specific relationship you want to reflect on.",
+      "Read the contract type and core lesson first, before deciding whether the description fits your experience.",
+      "Look at what each side is said to give and receive, since a contract is always read as two-way.",
+      "Sit with the result as a reflection prompt, and note one lesson, boundary or conversation it brings to mind."
+    ],
+    resultMeaning: [
+      "Here is an example reading for a parent and adult child whose contract theme reads as Independence. Rather than labelling one person as the problem, the reader is meant to be read together. The parent's lesson is releasing control, learning that support does not have to mean direction, and trusting the child to make and own decisions. The child's lesson is self-trust without rebellion, making independent choices calmly instead of defining every choice against the parent. Each side gives something the other needs, space from one side and honest, steady communication from the other.",
+      "Believers often say a contract feels complete when its emotional charge fades, gratitude replaces resentment, and the lesson feels integrated into daily life. Completion does not have to mean the relationship ends, it can mean it changes form and becomes lighter, clearer or more equal. If a reading points to independence, for example, completion might look like easier conversations and fewer power struggles. Treat signs like these as personal reflections on growth, not as a verdict, and let your real experience of the relationship carry more weight than any label."
+    ],
+    faqs: [
+      {
+        question: "What is a soul contract?",
+        answer: "In this spiritual framework, a soul contract is an agreement many people believe souls make before birth to meet in life and teach each other lessons. Lessons often involve patience, forgiveness, independence or unconditional love. It is a belief-based way of interpreting relationships, offered here for reflection rather than presented as established fact."
+      },
+      {
+        question: "Can soul contracts be with family, not just partners?",
+        answer: "Yes, in this tradition contracts are most often discussed for family, especially parents and children, as well as partners, close friends and mentors. Any relationship that repeatedly presents the same important lesson could be viewed this way. Romantic partners are only one example, and often not the deepest or longest contracts described."
+      },
+      {
+        question: "Can a soul contract end or be fulfilled?",
+        answer: "Believers say yes, a contract can feel fulfilled when the lesson has been learned and the emotional charge fades. Gratitude may replace resentment, and the relationship can either continue in a lighter form or naturally close. Fulfilment is about growth being integrated, not about a formal ending or a dramatic separation."
+      },
+      {
+        question: "Is a soul contract the same as karma?",
+        answer: "They are related ideas but not identical. Karma usually refers to cause and effect across actions and lifetimes, while a soul contract focuses on a specific agreed relationship and its lesson. A contract is more personal and mutual, describing what two souls are believed to teach each other."
+      },
+      {
+        question: "What if the reading feels wrong?",
+        answer: "Use it as a reflection prompt rather than a ruling. If the contract type or lesson does not match your experience, trust your experience first, and consider whether a different relationship fits the theme better. Sometimes a reading is useful simply because your reaction to it clarifies what you actually believe."
+      }
+    ]
+  },
+
+  "crystal-matcher": {
+    guideTitle: "Crystal Energy Matcher",
+    guide: [
+      "The Crystal Energy Matcher suggests crystals traditionally associated with your zodiac sign and a personal goal, such as focus, calm, confidence or love. It works by combining the element of your sign with folklore associations built up over many years of crystal practice. The matches are offered as tradition and personal reflection, and as a mindfulness aid for setting intentions. They are not presented as scientific proof, and no crystal in this guide is claimed to diagnose, treat or cure any condition.",
+      "Traditional associations include Amethyst with calm, sleep and a clear head, linked with Pisces and Aquarius, and Rose Quartz with love, self-worth and gentleness, linked with Taurus and Libra. Citrine is associated with abundance and confidence and is traditionally called the merchant's stone, linked with Leo, while Pyrite is linked with prosperity and protection at work. Clear Quartz is the all-purpose stone of clarity for any sign, Black Tourmaline is used for grounding, Fluorite for focus and study, Carnelian for courage and motivation for Aries and Leo, and Emerald for harmony and heart wisdom for Taurus.",
+      "Element logic keeps the matching consistent. Fire signs are paired with energising stones such as carnelian, citrine and red jasper, while Earth signs receive grounding stones such as hematite, black tourmaline and moss agate. Air signs are matched with clarity stones such as fluorite, clear quartz and sodalite, and Water signs with soothing stones such as amethyst, moonstone and aquamarine. Care matters too, because selenite and some soft stones are water-sensitive and are better cleansed with moonlight or sound, and amethyst and rose quartz can fade in prolonged strong sunlight."
+    ],
+    steps: [
+      "Enter your zodiac sign and choose the personal goal that matters most to you right now.",
+      "Read your primary match first and note why it was chosen, through both your element and your goal.",
+      "Choose one to three stones to start with, in a form you will actually use, such as a tumble stone or bracelet.",
+      "Set a simple intention when you place or carry the stone, and cleanse it gently using a method safe for that stone."
+    ],
+    resultMeaning: [
+      "Consider a Pisces reader whose goal is focus for study. Pisces is a Water sign, so the soothing stones would be the obvious element match, but the goal changes the recommendation. The primary match here is Fluorite, traditionally associated with focus, study and mental order, carried or worn with Clear Quartz, the all-purpose clarity stone, and placed on the study desk during work sessions. This shows how the matcher balances both inputs, sign and goal, rather than simply giving every Pisces the same single stone every time.",
+      "The intention-setting part is best understood as a mindfulness ritual, not magic. Pausing to hold the Fluorite, state your intention to study for one focused hour, and place the stone where you can see it, creates a small repeatable cue for your attention. Many people find such rituals helpful because they mark a clear start to a task. If the stone helps you return to that intention when distracted, it has done its job as a focus aid and a personal reminder."
+    ],
+    faqs: [
+      {
+        question: "How does the crystal matching work?",
+        answer: "The matcher combines your sign's element with your chosen goal. Fire signs tend toward energising stones, Earth toward grounding stones, Air toward clarity stones and Water toward soothing stones, then the goal refines the choice, so a study goal points to Fluorite. It follows traditional associations rather than a scientific formula."
+      },
+      {
+        question: "Can I use a crystal that was not matched to me?",
+        answer: "Yes, you can use any crystal you are drawn to, because the match is a starting suggestion, not a restriction. Personal response matters in this tradition, so if a stone outside your match appeals to you and suits your goal, it is fine to work with it. Many collections grow that way."
+      },
+      {
+        question: "How should I cleanse and charge my crystals?",
+        answer: "Safe general methods include resting stones in moonlight, placing them on a selenite plate, or using sound such as a singing bowl. Use water with caution, because selenite and some soft stones are water-sensitive and can be damaged. Also keep amethyst and rose quartz out of prolonged strong sunlight, as they can fade."
+      },
+      {
+        question: "Do crystals heal illness?",
+        answer: "No. Crystals are not a substitute for medical care, and this guide makes no claim that they heal illness or replace treatment. Some people enjoy them as a comfort, a focus for reflection or a mindfulness ritual alongside proper care. For any health concern, always follow the advice of a qualified medical professional."
+      },
+      {
+        question: "How many crystals should I start with?",
+        answer: "Start with one to three crystals, matched to one clear goal. A small set is easier to use consistently, cheaper to buy well, and simpler to care for than a large collection gathered at once. Live with those first, notice how you actually use them, and add more only when a new goal appears."
+      }
+    ]
+  },
+
+  "pinnacle-cycles": {
+    guideTitle: "Pinnacle Cycles Guide",
+    guide: [
+      "Your Pinnacle Cycles are four long chapters of life in numerology, calculated from your birth date, each describing the main theme, lessons and opportunities of that period. The first Pinnacle covers your early decades, the second and third each run for nine years, and the fourth continues from later midlife onward. Unlike a personal year, which changes annually, a Pinnacle changes only a few times in a lifetime, so it describes the broad background theme you are working with, rather than the mood of a single month or year.",
+      "The method is standard numerology and is worth following exactly. Reduce the month, day and year of birth separately, then combine them. The First Pinnacle is month plus day, the Second is day plus year, the Third is the First plus the Second, and the Fourth is month plus year. Reduce each final sum to a single digit, except 11 and 22, which are traditionally kept as master numbers. Your Life Path, found by reducing the whole birth date, is also needed, because it sets the timing of the first change.",
+      "The timing rule is simple. The First Pinnacle runs from birth to age 36 minus your Life Path number. The Second Pinnacle runs for the next nine years, the Third for the nine years after that, and the Fourth runs from then onward. Traditional meanings are, 1 for independence and new starts, 2 for diplomacy and patience, 3 for expression, 4 for building and order, 5 for change and freedom, 6 for responsibility and family, 7 for analysis and faith, 8 for power and abundance, and 9 for compassion and completion."
+    ],
+    steps: [
+      "Reduce your birth month, day and year separately to single digits, keeping the three numbers apart.",
+      "Add them in the four Pinnacle combinations, month plus day, day plus year, First plus Second, and month plus year.",
+      "Reduce each result to one digit, except 11 and 22, and calculate your Life Path from the full birth date.",
+      "Apply the timing rule, 36 minus Life Path for the first change, then nine-year blocks, to place each Pinnacle by age."
+    ],
+    resultMeaning: [
+      "Work through a birth date of 14 June 1990 exactly. June is month 6, the day 14 reduces to 1+4 = 5, and the year 1990 reduces as 1+9+9+0 = 19, then 10, then 1. The Life Path is 1+4+0+6+1+9+9+0 = 30, which reduces to 3. The First Pinnacle is 6 + 5 = 11, a master number read as 11, the intuitive and inspirational chapter, with the undertone of 2. The Second is 5 + 1 = 6, home, responsibility and family. The Third is 11 + 6 = 17, reducing to 8, achievement, money and authority.",
+      "The Fourth Pinnacle is 6 + 1 = 7, study, reflection and mastery. With a Life Path of 3, the First Pinnacle runs from birth to age 33, because 36 minus 3 is 33. The Second then runs from 34 to 42, the Third from 43 to 51, and the Fourth from 52 onward. Read as a life story, this person spends their early decades in an intuitive 11 chapter, moves into family responsibility, then achievement, and finally a reflective mastery phase. Master number 22 is traditionally the master builder, turning large ideas into lasting practical results."
+    ],
+    faqs: [
+      {
+        question: "What is a Pinnacle Cycle?",
+        answer: "A Pinnacle Cycle is one of four long numerology chapters calculated from your birth date, each describing the main theme and lessons of that period of life. The first lasts until your early or mid thirties, the next two last nine years each, and the fourth continues onward. They describe background themes, not daily events."
+      },
+      {
+        question: "How is a Pinnacle different from Life Path and Personal Year?",
+        answer: "Your Life Path is one fixed number describing your overall direction, and it never changes. A Personal Year changes every year and describes a short annual theme. Pinnacles sit between them in scale, changing only three times, so they show the long chapter within which your yearly cycles play out."
+      },
+      {
+        question: "When does my Pinnacle change?",
+        answer: "Your first Pinnacle changes at the age found by 36 minus your Life Path number, and the change is traditionally counted from the birthday at that boundary age. Later changes follow every nine years from that point. If your boundary is 33, your second Pinnacle begins around that birthday."
+      },
+      {
+        question: "What if my Pinnacle is a master number?",
+        answer: "If your calculation gives 11 or 22, it is traditionally kept rather than reduced to 2 or 4. An 11 Pinnacle emphasises intuition, inspiration and sensitivity, with the undertone of 2, while a 22 Pinnacle emphasises building something large and lasting, with the undertone of 4. Both are read as more intense versions."
+      },
+      {
+        question: "Can two people share the same Pinnacles?",
+        answer: "Yes, two people can share some or all Pinnacle numbers, especially if parts of their birth dates reduce to the same values. Their timing can still differ if their Life Path numbers differ, and their lives will express the same broad themes differently. Shared Pinnacles suggest similar chapter themes, not identical lives or experiences."
+      }
+    ]
+  },
+"amatyakaraka": {
+    guideTitle: "Amatyakaraka Career Guide",
+    guide: [
+      "Your Amatyakaraka is the planet with the second-highest degree in your sidereal Vedic birth chart, and in Jaimini astrology it is read as your career and vocation significator. The word means the minister planet: if the Atmakaraka is the king, the soul significator, the Amatyakaraka is the trusted minister who advises the king and carries out the work in the world. Its sign, house and condition are therefore read less for inner purpose and more for the kind of work, working style and professional direction that tends to suit you best over a lifetime. Its strength, aspects and any planets joining it refine whether that direction appears early, late, through employment, or through independent professional work.",
+      "The method is precise and degree-based. In the sidereal chart, look at how far each of the seven grahas has travelled within its sign, from 0 to 30 degrees: the Sun, Moon, Mars, Mercury, Jupiter, Venus and Saturn. The planet with the highest degree is the Atmakaraka. The planet with the second-highest degree is the Amatyakaraka. Rahu and Ketu are excluded in this seven-karaka scheme. For honesty, an eight-karaka variant also exists in the tradition, and it counts Rahu differently, which can change the ordering in some charts, so always check which scheme a reading is using.",
+      "A worked example shows the ranking clearly. Take a chart with Sun 12 degrees Leo, Moon 8 degrees Cancer, Mars 21 degrees Aries, Mercury 26 degrees Leo, Jupiter 5 degrees Sagittarius, Venus 18 degrees Taurus and Saturn 15 degrees Capricorn. Rank the degrees from highest to lowest and Mercury at 26 degrees comes first, so Mercury is the Atmakaraka. Mars at 21 degrees comes second, so Mars is the Amatyakaraka. Nothing about the sign names decides this; only the degrees travelled within each sign decide the order, which is why two people with similar charts can have different career planets."
+    ],
+    steps: [
+      "Build your sidereal Vedic birth chart from your date, time and place of birth.",
+      "List the degree within its sign for the Sun, Moon, Mars, Mercury, Jupiter, Venus and Saturn.",
+      "Rank those seven degrees from highest to lowest, including minutes where degrees are close.",
+      "Take the second-highest planet as your Amatyakaraka, then note its sign and house."
+    ],
+    resultMeaning: [
+      "Mars as the career planet in that example points to engineering, technology, defence and uniformed services, surgery, sport, real estate and entrepreneurship: work involving competition, tools, heat or decisive action. Because that Mars sits in Aries, its own sign, the reading strengthens considerably. It suggests leadership and self-employment rather than quiet back-office roles, with energy best used when there is a clear target, a deadline, or a problem that needs direct handling rather than endless discussion. It also favours roles where responsibility is visible and results are measured in outcomes rather than intentions or long committee processes.",
+      "The other planets give different fields. The Sun points to government, authority, medicine and leadership. The Moon points to care, hospitality, food, public-facing work and trade in liquids. Mercury points to commerce, writing, marketing, media, accounting and software. Jupiter points to teaching, law, finance, counselling and publishing. Venus points to arts, design, beauty, luxury, entertainment and hospitality. Saturn points to labour-intensive industry, mining, agriculture, real estate, long-haul structured organisations and judiciary support roles. Read your planet as an aptitude theme, then check its sign and house for setting."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between Amatyakaraka and Atmakaraka?",
+        answer: "The Atmakaraka, the highest-degree planet, signifies the soul and its deepest lessons. The Amatyakaraka, the second-highest, signifies career and vocation, the minister who puts purpose into practical work. One describes why, the other describes how you earn and serve."
+      },
+      {
+        question: "What if two planets share near-equal degrees?",
+        answer: "The higher exact degree wins, including minutes and seconds. If Mars is at 21 degrees 40 minutes and Venus at 21 degrees 10 minutes in their signs, Mars ranks above Venus. Always rank the full precise degree, not the rounded whole number."
+      },
+      {
+        question: "Does the Amatyakaraka guarantee a particular career?",
+        answer: "No. It indicates aptitude and a fitting direction, not a guaranteed job. Education, effort, family circumstances and the timing of planetary periods, called dashas, all shape what actually happens. Use it as guidance for choices, not as a promise of outcome."
+      },
+      {
+        question: "Is the 10th house still relevant for career?",
+        answer: "Yes, very much. The Amatyakaraka should always be read together with the 10th house, its ruler and the planets placed there. The Amatyakaraka shows the working style and field; the 10th house shows public role, reputation and how a career unfolds visibly."
+      },
+      {
+        question: "Which zodiac does the Amatyakaraka use?",
+        answer: "This method belongs to Vedic and Jaimini astrology, so it uses the sidereal zodiac only. Degrees taken from a tropical Western chart will often differ by about a sign, and the ranking can change, so do not mix the two systems in one calculation. If you only have a Western chart, recalculate the chart sidereally first."
+      }
+    ]
+  },
+
+  "business-partner-compatibility": {
+    guideTitle: "Business Partner Compatibility Guide",
+    guide: [
+      "Business partner compatibility is a synastry reading that compares two birth charts to judge how two people are likely to work together as co-founders or partners. It is not a love match applied to an office. It focuses on commitment, money habits, decision speed and shared ambition, asking a practical question: can these two people build something together, divide the work fairly, and stay aligned when pressure, cash flow problems or disagreement arrive, as they almost always do in a real venture.",
+      "Classical synastry reads a business pair through a few clear themes. Saturn shows commitment, contracts and who reliably carries duty when the work becomes heavy. Mercury shows decision speed, communication and negotiation style, including how each person argues, emails and closes a deal. The 7th house themes describe partnership itself, fairness and one-to-one dealing, while 10th house themes describe the public venture, career direction and reputation. Alongside these, element balance matters: Fire brings sales energy and risk appetite, Earth brings operations and money discipline, Air brings ideas, marketing and networks, and Water brings client empathy and intuition about people. A reading also notes timing and workload, because a partnership that looks balanced on paper can still strain if one founder consistently carries nights, risk or unpaid development work.",
+      "A worked example makes this concrete. Pair a Capricorn founder with a Virgo founder and both are Earth signs. Capricorn typically brings structure, finance and patience; Virgo brings systems, detail and quality control. Together they form an operations powerhouse: realistic plans, clean books and low drama. Their shared blind spot is double caution. Launches can be slow, offers can be under-priced, and both may say no to visibility. The useful advice is not to become different people, but to deliberately add Fire functions, such as a firm launch deadline, a sales target, or an advisor with strong Fire emphasis."
+    ],
+    steps: [
+      "Enter both partners birth details and generate the compatibility reading for the pair.",
+      "Read the Saturn and Mercury links first, for commitment, duty, communication and decision speed.",
+      "Compare the element balance and note which elements are strong and which are missing.",
+      "Use the findings to agree roles, money terms and a regular decision meeting in writing."
+    ],
+    resultMeaning: [
+      "In practice, each partner usually contributes what the other lacks. One may naturally handle structure, delivery and follow-through, while the other handles clients, ideas or growth. A strong reading does not require identical charts; it requires complementary strengths, honest Saturn links that can survive a contract, and Mercury links clear enough that neither partner constantly feels unheard, rushed or slowed down. Where the charts clash, the reading is pointing at the exact conversation the pair should have before money is committed. Shared values around quality, debt and growth speed matter as much as talent, because those choices recur in almost every major business decision.",
+      "Every reading recommends the same three practical agreements, whatever the score. First, put roles in writing, so responsibility for sales, operations, finance and hiring is never assumed. Second, agree money and exit terms early, while goodwill is high, including salaries, reinvestment and what happens if one partner wants to leave. Third, hold a fixed weekly decision meeting, with decisions recorded, so small disagreements do not accumulate silently. Astrology can highlight temperament; only clear agreements protect the business and the relationship behind it."
+    ],
+    faqs: [
+      {
+        question: "Which matters more, the Saturn links or the Mercury links?",
+        answer: "Both matter, for different jobs. Saturn links show whether the partnership can endure, share duty and honour contracts over years. Mercury links show whether you can decide, negotiate and communicate day to day. A durable venture needs Saturn; a workable week needs Mercury."
+      },
+      {
+        question: "Can opposite elements co-found a business together?",
+        answer: "Yes, often very successfully. A Fire and Earth pairing, for example, can combine bold selling with careful delivery. The condition is defined roles: let each person lead where their element is strong, and agree in advance how final decisions are made when instincts differ."
+      },
+      {
+        question: "What should friends going into business together watch for?",
+        answer: "Friendship can hide unspoken assumptions about money, effort and credit. The reading often helps by naming different work styles plainly. Friends should be especially careful to write down roles, pay and exit terms, precisely because they trust each other and feel paperwork is unnecessary."
+      },
+      {
+        question: "Does a low compatibility score mean we should not partner?",
+        answer: "No. A low score is not a verdict against partnering. It flags where friction is likely, such as pace, risk or communication, so you can write agreements covering exactly those points. Many successful partnerships are difficult on paper and well managed in practice."
+      },
+      {
+        question: "How is this different from love compatibility?",
+        answer: "Love compatibility centres attraction, emotion and intimacy, usually through the Moon, Venus and Mars. Business compatibility centres Saturn, Mercury and the 7th and 10th house themes: duty, contracts, decisions and shared public goals. Two people can be a poor romantic match and excellent co-founders."
+      }
+    ]
+  },
+
+  "love-tarot": {
+    guideTitle: "Love Tarot Reading Guide",
+    guide: [
+      "A love tarot reading is a three-card spread that uses tarot cards as a reflective tool for a relationship question, with one card for your feelings, one for the other person's feelings, and one for the block, lesson or direction between you. It does not predict fixed events or what another person will certainly do. Used honestly, it gives you a structured way to notice emotions, patterns and unspoken tensions, and to think more clearly about your next step in love.",
+      "A full tarot deck has 78 cards. The 22 Major Arcana describe larger life themes, turning points and lessons that feel bigger than one day. The 56 Minor Arcana describe daily situations and are divided into four suits. Cups relate to feelings and love, Wands to passion and action, Pentacles to the practical side, security and effort, and Swords to thoughts, words and conflict. In this spread, position one shows your feelings and energy, position two shows your partner's, or the other person's, feelings and energy, and position three shows the block or lesson between you and where the connection is heading.",
+      "Consider this example draw. In position one, The Moon describes your feelings: strong attraction mixed with uncertainty, where something is unsaid or unclear. Intuition is loud but facts are few, so you may be filling gaps with hope or worry. In position two, the Two of Cups describes their feelings: genuine mutual warmth and a wish for a balanced, respectful bond, the classic partnership card suggesting affection is reciprocated. In position three, The Star gives the direction: healing and hope after a difficult stretch, where honesty and patience can restore trust, and even distance can end in renewal if both people stay truthful."
+    ],
+    steps: [
+      "Settle on one clear love question and hold the person and situation in mind.",
+      "Draw three cards and place them in order: your feelings, their feelings, the direction.",
+      "Read each card in its position first, using its suit or Major Arcana theme as a guide.",
+      "Read the three together as one story, then note one honest, practical step the reading suggests."
+    ],
+    resultMeaning: [
+      "Read together, that example tells one coherent story. The connection itself is real, shown by the Two of Cups, but it is currently clouded, shown by The Moon, and its path forward is calm transparency, shown by The Star, not grand gestures or dramatic tests. This is how a spread should be read: not as three separate fortunes, but as feelings, feelings and direction combined. Notice which card challenges you most, because that position usually names the conversation, boundary or patience the situation is actually asking for.",
+      "Two tradition notes help you read responsibly. Some readers treat reversed cards as blocked or internalised energy, where the card's quality is present but turned inward or delayed, while others ignore reversals entirely; both approaches exist in the tradition. Timing claims deserve particular caution. Tarot is strongest on themes, feelings and choices in the present, and weakest as a timetable. If a reading suggests a direction, test it against real behaviour over time rather than treating a card as proof of what will happen. Notice also whether the spread is dominated by one suit, because that emphasis often shows whether the issue is emotional, practical, passionate or mainly about communication."
+    ],
+    faqs: [
+      {
+        question: "Can tarot predict exactly what he or she will do?",
+        answer: "No. A reading reflects energies, feelings and patterns around a situation as they stand now. People retain free will and circumstances change. Treat the cards as insight for your own choices, never as a certain prediction of another person's actions or decisions."
+      },
+      {
+        question: "How often should I repeat a love reading?",
+        answer: "Avoid daily repeats on the same question. Asking again and again usually reflects anxiety rather than new information, and the answers blur. Give a reading time to play out, act on its honest advice, and return only when the situation has genuinely changed."
+      },
+      {
+        question: "What if I draw a scary card like Death or The Tower?",
+        answer: "These cards are not literal. Death usually marks the ending of a phase and the start of a new one, while The Tower marks a sudden truth or a structure that was already unstable. In love readings they more often describe necessary change than disaster."
+      },
+      {
+        question: "Can single people use a love tarot reading?",
+        answer: "Yes. If there is no partner, position two can describe a person you are interested in, a past connection that still affects you, or the kind of partner energy approaching your life. The spread still works as reflection on your feelings, patterns and readiness for love."
+      },
+      {
+        question: "Do Major Arcana cards matter more than Minor Arcana cards?",
+        answer: "Generally, yes, in weight rather than importance. A Major Arcana card signals a larger theme or turning point in the connection, while Minor Arcana cards describe everyday feelings and events. A spread with several Major cards suggests the situation carries a bigger life lesson."
+      }
+    ]
+  },
+
+  "soulmate-initials": {
+    guideTitle: "Soulmate Initials Predictor Guide",
+    guide: [
+      "Soulmate initials are starting letters suggested by an old Vedic naming tradition, offered here as a light, playful hint about the sound a future partner's name may begin with. They are not a guaranteed name, a proof of identity, or a test any real person should have to pass. The tradition behind them is genuine and precise, but its modern use in this tool is simple: take the suggested sounds as a fun prompt for reflection, and judge any relationship by character, kindness and shared life, never by a letter.",
+      "The classical method works like this. In Vedic astrology, each nakshatra, or lunar mansion, is divided into four padas, or quarters. Each pada carries an assigned birth syllable, the sound a person's traditional name should begin with. There are 27 nakshatras with 4 padas each, giving 108 pada syllables in total, and many Indian names are still chosen this way. The same phonetic tradition can be applied to the 7th-house side of the chart, the house of partnership, to hint at the name sounds associated with a spouse or long-term partner. That distinction matters, because the system assigns sound values rather than modern alphabet letters, and families traditionally pronounce the chosen syllable at the start of the name.",
+      "The syllables follow a fixed order. Ashwini's four padas give Chu, Che, Cho and La. Bharani gives Li, Lu, Le and Lo. Krittika gives A, I, U and E, and Rohini gives O, Va, Vi and Vu. A worked example shows how a hint is formed: if the relevant placement falls in Rohini pada 2, the syllable is Va, which points to names beginning with the V sound, such as Varun, Vaishnavi, Vanessa or Victor across different languages. The syllable is a sound, not a strict letter rule, and scripts adapt it, so Va may appear as Wa in some spellings."
+    ],
+    steps: [
+      "Enter your birth details so the relevant nakshatra and pada placements can be identified.",
+      "Read the pada syllable linked to the partnership side of the chart.",
+      "Note the starting sounds it suggests, including common spelling variations of the same sound.",
+      "Treat the result as a light hint and compare it, if you wish, with names already in your life."
+    ],
+    resultMeaning: [
+      "A result such as Va is best understood as one sound among the 108 traditional pada syllables, attached to a specific quarter of a specific nakshatra. It tells you the starting sound the tradition associates with the partner side of your chart, nothing more and nothing less. Because it is a sound, it travels across languages: the same syllable can begin a Sanskrit name, an English name or a name from any culture that uses that sound, and spelling will vary with script and family preference.",
+      "Keep the framing honest. Millions of people share any given initial, and most happy partners were never checked against a chart before they met. If a name you care about matches the hint, enjoy the coincidence. If it does not match, that says nothing against the person or the relationship. Traditions like this survive because they are enjoyable and thought-provoking, and they work best held lightly, as a prompt for curiosity about names and sounds rather than evidence about who your soulmate is."
+    ],
+    faqs: [
+      {
+        question: "How are the soulmate initials derived?",
+        answer: "They come from pada syllables. The relevant nakshatra placement on the partnership side of the chart is located, its pada, or quarter, is identified, and that pada's assigned traditional syllable gives the suggested starting sound, following the same naming system used for newborns in the tradition."
+      },
+      {
+        question: "Why did I get more than one letter or sound?",
+        answer: "Because more than one chart placement can be considered, and each placement has its own nakshatra and pada. Multiple placements therefore give multiple candidate sounds. Treat them as a small set of possibilities from the tradition, not as letters that must all appear in one name."
+      },
+      {
+        question: "Does this work with English and other non-Indian names?",
+        answer: "Yes, in the sense that sounds transliterate. A syllable like Va matches Varun in India and Vanessa or Victor in English, because the match is phonetic. Spelling differs by language and script, so follow the sound at the start of the name rather than the exact letters."
+      },
+      {
+        question: "What if my partner's initial is not listed?",
+        answer: "That is common and means very little. Middle names, nicknames, changed names and different chart points can all shift the result, and the tradition is indicative only. Never judge a real relationship by an initial; character and compatibility matter infinitely more than a starting letter."
+      },
+      {
+        question: "Can I use my own nakshatra padas to check my own name?",
+        answer: "Yes, and this is the tradition's original use. Find your Moon's nakshatra and pada, look up its assigned syllable, and see whether your name begins with that sound. Many families chose names exactly this way, so a match often reflects that naming practice."
+      }
+    ]
+  },
+"elemental-compatibility": {
+    guideTitle: "Elemental Compatibility Guide: How Fire, Air, Earth and Water Fit",
+    guide: [
+      "Your elemental compatibility result compares the elements of your two zodiac signs to show how your basic temperaments blend, support or challenge each other in a relationship. Fire signs are Aries, Leo and Sagittarius, Earth signs are Taurus, Virgo and Capricorn, Air signs are Gemini, Libra and Aquarius, and Water signs are Cancer, Scorpio and Pisces. Each element describes a default way of acting, feeling, thinking and wanting, so the pairing maps where a couple flows and where they must translate.",
+      "Two pairings are traditionally read as naturally compatible. Fire plus Air is the first: air feeds fire, so energy, ideas and enthusiasm amplify each other, though the risk is burnout and all talk with no rest. Earth plus Water is the second: water nourishes earth, creating a calm, loyal bond that builds real things slowly, though it can slide into stagnation if nothing new is invited in. Same-element pairings have their own power. Fire plus Fire is high voltage, inspiring and competitive, and it thrives on shared goals. Earth plus Earth is dependable and practical, but needs deliberate romance and novelty. Air plus Air sparkles mentally and is often friendship-based, while feelings can go unspoken. Water plus Water offers deep emotional attunement, with a real risk of mood contagion when one partner sinks.",
+      "The other four pairings are work pairings, not bad pairings. Fire plus Water makes steam: intense attraction, but fire can feel damped and water can feel overheated, so pacing and cooling-off rules help. Fire plus Earth pairs the spark with the builder; earth may find fire reckless and fire may find earth slow, yet it works when fire leads vision and earth leads execution. Air plus Earth is mind meets matter: air floats ideas while earth asks about the budget, and it becomes excellent once both respect the other's function. Air plus Water is logic meets feeling: air analyses emotions while water feels analysed, and it works when air learns to listen first."
+    ],
+    steps: [
+      "Enter your birth date or Sun sign and your partner's sign to find each person's element.",
+      "Read your pairing type first: natural, same-element or work pairing.",
+      "Note the strength and the watch point named for your specific combination.",
+      "Agree one practical change together, such as how you rest, decide or cool down after conflict."
+    ],
+    resultMeaning: [
+      "Consider a Leo partner, a Fire sign, with a Libra partner, an Air sign. Libra's air literally fans Leo's fire, so together they can be socially dazzling, generous and rich in ideas, each making the other shine brighter in company. The friction point is just as specific: Leo wants applause and a clear decision, while Libra wants discussion and harmony before committing. Neither is wrong; they simply refuel in different ways, Leo through appreciation and momentum, Libra through balance and conversation together.",
+      "The reading for this pair therefore advises a small exchange. Leo gives Libra time to weigh options in private, without treating hesitation as rejection or delay as disloyalty. Libra gives Leo clear appreciation out loud, not just agreement in principle, because Leo hears love most plainly when it is spoken and shown. Used this way, your result is a translation guide, showing where affection can get lost between two elemental languages."
+    ],
+    faqs: [
+      {
+        question: "Are same-element pairs always the best match?",
+        answer: "Not always. Sharing an element brings instant understanding, but it can also amplify the same weakness: two Fire signs may burn out, two Earth signs may get stuck, two Air signs may avoid feelings, and two Water signs may sink together. A shared strength still needs conscious handling every day."
+      },
+      {
+        question: "What is the hardest pairing?",
+        answer: "Fire plus Water is traditionally named the hardest, because fire feels damped while water feels overheated, and arguments can swing between explosion and withdrawal. It is still workable. Pacing, cooling-off rules and repairing quickly after steam rises make this intense pairing surprisingly durable for many couples who respect its rhythm."
+      },
+      {
+        question: "Do we use Sun signs only?",
+        answer: "This tool starts with Sun sign elements because they are easy to find and describe core temperament well. For a deeper reading, compare Moon and Venus elements too: the Moon shows emotional needs and comfort style, while Venus shows how each person gives affection, enjoys company and prefers to be wooed."
+      },
+      {
+        question: "Can elements change with the full chart?",
+        answer: "Your Sun sign element never changes, but a full chart may be dominated by another element altogether. If most planets sit in Water signs, for example, a Fire Sun person may act far more feeling-led than expected. Treat this result as the headline, and the wider chart as the detail underneath."
+      },
+      {
+        question: "How can we use a work pairing result constructively?",
+        answer: "Treat the friction as information, not failure. Name which function each person leads, agree how decisions, rest and conflict will be handled, and revisit the agreement after a few weeks. Work pairings often build unusual respect, because each partner must learn a language they would never have chosen alone."
+      }
+    ]
+  },
+
+  "parent-child-astrology": {
+    guideTitle: "Parent-Child Astrology Guide: Reading Moon Sign Needs and Parenting Style",
+    guide: [
+      "Your parent-child result compares your child's Moon sign, which in astrology describes emotional needs and comfort style, with your own sign, which describes your instinctive parenting style, and reads the fit between the two. It is a guide to empathy, never a label or a limit on a child. Children are always more than their charts, and this reading simply suggests where comfort may be offered in a form your child can receive most easily.",
+      "Moon sign needs follow the element. A Fire Moon child, with the Moon in Aries, Leo or Sagittarius, needs movement, praise, choices and quick repair after conflict, and wilts under cold silence. An Earth Moon child, in Taurus, Virgo or Capricorn, needs routine, regular food and sleep, advance warning of changes and plenty of physical comfort. An Air Moon child, in Gemini, Libra or Aquarius, needs to talk it out, have questions answered honestly, and have books and friends nearby, because feelings are processed through words. A Water Moon child, in Cancer, Scorpio or Pisces, needs a soft tone, unhurried comfort and feelings believed the first time, and remembers emotional weather for years.",
+      "Your own sign describes the parenting you offer almost without thinking: how quickly you act, how you soothe, how you set limits and how you show pride. No style is better than another. The useful question is whether your default comfort matches what your child's Moon actually asks for, or whether it lands slightly off target. When the two differ, small translations usually matter far more than big changes in personality, rules or family routines at home. Noticing that gap early also prevents a common misunderstanding, where a child who simply needs a different kind of comfort is mistaken for being difficult, distant or deliberately uncooperative at home."
+    ],
+    steps: [
+      "Enter your child's birth date to find the Moon sign, and add your own sign for your parenting style.",
+      "Read your child's elemental needs first, before looking at the fit between you.",
+      "Notice one place where your instinctive response and your child's comfort style differ.",
+      "Try the suggested translation for a week, then watch what actually soothes your child fastest."
+    ],
+    resultMeaning: [
+      "Consider an Aries parent with a Cancer Moon child. The Aries parent is fast, direct and fixes things by acting, while this Water Moon child needs security, softness and to be comforted before being corrected. The classic friction sounds like this: the parent says you are fine, come on, while the child still needs two minutes of being held first. The guide's translation is comfort first, courage second. Once soothed properly, this child borrows the Aries parent's bravery beautifully and becomes quietly very brave.",
+      "The gift also runs in reverse. This child teaches the Aries parent slowness, tenderness and the value of feelings that cannot be solved by action alone, lessons the parent may carry into every other relationship. That two-way exchange sits at the heart of every pairing in this tool: the parent offers the child a strength they lack, the child stretches the parent somewhere they have grown rigid, and the friction between styles becomes the family's quiet curriculum over the years together."
+    ],
+    faqs: [
+      {
+        question: "Why is the Moon sign used for children?",
+        answer: "In astrology the Moon rules emotions, comfort, sleep, food and the feeling of safety, which is exactly the world a child lives in most of the day. A child's Sun sign shows emerging character, but the Moon sign usually explains tears, clinginess, soothing and bedtime behaviour far more accurately."
+      },
+      {
+        question: "What if I do not know my child's birth time?",
+        answer: "The Moon sign can usually still be found from the birth date alone, because the Moon stays in one sign for about two and a half days. Only when a birth falls near a sign-change day does the exact time matter, and the tool will flag those borderline cases for you clearly."
+      },
+      {
+        question: "Does the parent's Moon sign matter too?",
+        answer: "Yes, it matters a great deal. Your own Moon sign shows your comfort language: how you were soothed, how you calm yourself, and what you instinctively offer when your child cries. When your Moon and your child's Moon share an element, comfort often flows easily without either of you trying."
+      },
+      {
+        question: "Does this still apply to teenagers?",
+        answer: "Yes, though the same needs wear older clothes. A Fire Moon teenager still needs quick repair after rows, an Earth Moon teenager still hates sudden plan changes, and a Water Moon teenager still tracks emotional weather. The main difference is delivery: offer the same comfort with more privacy, choice and respect."
+      },
+      {
+        question: "Can this help with siblings who are very different?",
+        answer: "Yes. Compare the children's Moon elements side by side and you will often see why one needs talking, another needs quiet, and a third needs a snack and a routine. Fair parenting is rarely identical parenting; matching comfort to each child's Moon is a practical way of being fair."
+      }
+    ]
+  },
+
+  "spirit-animal": {
+    guideTitle: "Spirit Animal Finder Guide: Totem Archetypes, Elements and Temperament",
+    guide: [
+      "Your spirit animal result matches you with a totem animal archetype chosen from your zodiac element and temperament, offered as a reflective mirror for traits you already carry. The idea is borrowed from Indigenous traditions, where such relationships hold deep spiritual meaning, and it is used here respectfully as a reflective archetype exercise rather than as a claim about those traditions. Read your animal as a pattern to notice in yourself, not as a fixed identity or a prediction about your future.",
+      "Ten archetypes anchor the finder. The Wolf stands for loyalty, intuition, protecting the pack yet needing solo freedom. The Bear brings grounding, strength, healing rest and defended boundaries. The Owl sees in the dark: wisdom, pattern-spotting and quiet observation. The Eagle offers high vision, freedom and long-range perspective. The Deer moves with gentleness, grace, non-confrontation and alert kindness. The Fox shows cleverness, adaptability and playful problem-solving. The Turtle carries patience, longevity and home carried within. The Butterfly means transformation and lightness after a heavy chapter. The Horse has stamina, wanderlust and honest energy. The Snake teaches shedding skins, renewal and deep instinct.",
+      "Element guides the matching, as tendencies rather than rigid rules. Fire temperaments often match bold daytime hunters and roamers such as the Horse, Eagle and Fox. Earth temperaments often match the steady, embodied Bear, Turtle and Deer. Air temperaments often match watchers and messengers: the Owl, Butterfly and Eagle. Water temperaments often match instinct-led, feeling-led animals: the Wolf, Snake and Deer. Because temperament blends several traits, a supporting animal can sit close behind your main result, and many readers recognise themselves in two archetypes at once. When your element and temperament point in slightly different directions, trust the temperament description more, because daily habits, pace and social style usually shape the match more honestly than the sign label alone."
+    ],
+    steps: [
+      "Enter your birth date so the tool can read your zodiac sign, element and temperament.",
+      "Read your matched animal's core traits and notice which ones feel uncomfortably accurate.",
+      "Read the growth edge named in your result, not just the flattering strengths.",
+      "Watch for that animal's strategy in your own decisions over the following week."
+    ],
+    resultMeaning: [
+      "Consider a Scorpio reader, a Water sign, matched with the Wolf. The reading describes loyalty to a small trusted circle rather than easy openness to everyone, superb intuition about threat and hidden motives, and a rich private inner life that few people are allowed to see. Much of a Scorpio's energy goes on quiet vigilance: sensing shifts in the pack, remembering who proved trustworthy, and withdrawing to recover alone after intense social effort drains them completely.",
+      "The growth edge this reading names is just as specific: letting the pack see vulnerability instead of vanishing alone. A Wolf who always disappears when hurt teaches others that help is unwanted, then feels abandoned when none arrives. For the Scorpio reader, the practice is small and deliberate: tell one trusted person what is actually wrong, once, before retreating. Your animal result therefore works best as an honest character sketch, highlighting a strength to trust and a habit to soften."
+    ],
+    faqs: [
+      {
+        question: "Is my spirit animal fixed for life?",
+        answer: "Think of your main result as a core totem that reflects lasting temperament, so it usually stays stable. Alongside it, temporary messengers can appear during particular phases: the Butterfly during a transition, the Bear during recovery, the Snake during a reinvention. A changing emphasis does not mean the first result was wrong."
+      },
+      {
+        question: "Why is my result different from my favourite animal?",
+        answer: "It usually is different, because the finder reflects traits rather than taste. You may love dolphins yet match the Owl, because your actual strategy is watching quietly and speaking only when sure. Favourite animals show what delights you; the archetype match shows how you habitually move through difficulty, loyalty and change."
+      },
+      {
+        question: "What if two animals both resonate strongly?",
+        answer: "Read the first as your primary archetype and the second as a supporting one. Many people run a main strategy with a backup: Wolf loyalty supported by Owl observation, or Horse stamina supported by Turtle patience. The supporting animal often describes how you behave under pressure, rather than on an ordinary day."
+      },
+      {
+        question: "Is a spirit animal the same as a power animal or familiar?",
+        answer: "They are related ideas with different roots. A power animal is usually invoked in shamanic practice for specific help or qualities, while a familiar comes from European folk magic as a companion spirit. This finder uses spirit animal loosely, as a temperament archetype for reflection, not as either of those practices."
+      },
+      {
+        question: "How do I work with my result?",
+        answer: "Start with journal prompts: where did this animal's strategy help me this month, and where did it cost me? Notice the animal's habits inside your real decisions about work, loyalty, rest and conflict. Some readers keep a small image nearby as a reminder, but honest observation matters far more."
+      }
+    ]
+  },
+
+  "gemstone": {
+    guideTitle: "Vedic Gemstone Finder Guide: Ratna Vigyan, Planets, Metals and Fingers",
+    guide: [
+      "Your Vedic gemstone result, drawn from Ratna Vigyan, matches a classical gemstone to a planet in your chart, together with its traditional metal and wearing finger. The classical table is fixed: the Sun takes Ruby, called Manik, set in gold and worn on the ring finger; the Moon takes Pearl, Moti, in silver on the little finger; Mars takes Red Coral, Moonga, in gold or copper on the ring finger; Mercury takes Emerald, Panna, in gold on the little finger; and Jupiter takes Yellow Sapphire, Pukhraj, in gold on the index finger.",
+      "The table continues: Venus takes Diamond, Heera, in white gold, platinum or silver on the middle or ring finger, with white sapphire and opal accepted as traditional substitutes; Saturn takes Blue Sapphire, Neelam, in silver or iron and steel on the middle finger; Rahu takes Hessonite, Gomed, in silver on the middle finger; and Ketu takes Cat's Eye, Lehsunia, in silver on the middle or ring finger. Tradition adds a wearing ritual: the ring is rinsed and energised, then first worn on the planet's weekday morning, Jupiter stones on Thursday and Saturn stones on Saturday, for example.",
+      "The crucial caution shapes every recommendation. In the classical system a gemstone strengthens its planet, so a stone is worn for the chart's functional benefics, judged from the Ascendant, or Lagna, never simply because a planet looks weak. Strengthening a planet that harms the chart is traditionally avoided. Blue Sapphire is the classic test-first stone, traditionally worn on trial for a few days before committing. A qualified Jyotishi should review the full chart before major stones, and inexpensive substitutes and non-gem remedies count as valid classical alternatives."
+    ],
+    steps: [
+      "Enter your birth details so the tool can find your Ascendant and judge each planet's role.",
+      "Read which planet your recommended stone strengthens, and which houses that planet rules for you.",
+      "Check the caution notes carefully, especially any test-wearing advice for powerful stones.",
+      "Consider a substitute stone or a non-gem remedy before committing to an expensive purchase."
+    ],
+    resultMeaning: [
+      "A worked example shows why the Ascendant, not the Sun sign, decides. For a Cancer ascendant, Mars rules the fifth house, Scorpio, and the tenth house, Aries, making Mars a yogakaraka, the most benefic planet for this chart, carrying both creativity and career. Red Coral for Mars is therefore the classic recommendation for this Lagna, set in gold or copper and worn on the ring finger. The same Mars could be a difficult planet for a different ascendant, which is why copying another person's stone is traditionally discouraged.",
+      "Treat your own result in that spirit: as a traditional recommendation to examine, not an instruction to buy quickly. Where the tool suggests a powerful stone, honour the test-wearing custom, watch your sleep, temper and circumstances over the trial days, and let a qualified Jyotishi confirm the choice against your full chart and current periods. Where cost is a barrier, remember the classical alternatives carry real standing in the tradition: mantras for the planet, charity on its weekday, the associated metal, and fasting days are all recognised remedies."
+    ],
+    faqs: [
+      {
+        question: "Why does each gemstone have a specific finger?",
+        answer: "In the tradition each finger is linked to a planet, so the stone is worn where its planet's influence is received most directly: the index finger for Jupiter, the middle finger for Saturn, the ring finger for the Sun and Mars, and the little finger for the Moon and Mercury."
+      },
+      {
+        question: "Can I wear two gemstones together?",
+        answer: "Sometimes, but combinations need care, because some stones strengthen planets that are traditionally in tension with each other; Ruby alongside Blue Sapphire or Hessonite is a commonly questioned pairing. Ask a knowledgeable Jyotishi before combining stones, especially where one planet is a benefic for your ascendant and the other is not."
+      },
+      {
+        question: "Must a gemstone be natural, or will synthetic do?",
+        answer: "The tradition insists on natural, untreated stones, holding that heat treatment, filling or laboratory creation changes the stone's quality as a remedy. That is also why certified natural stones cost more. If a flawless natural stone is beyond reach, a smaller natural stone or a traditional substitute is preferred over synthetic."
+      },
+      {
+        question: "How long does a gemstone take to work?",
+        answer: "Tradition does not promise instant results; a stone is judged over weeks, often in relation to the planet's periods and transits in your chart. Read that reflectively: notice sleep, mood, decisions and circumstances across a full month before concluding anything, and keep the test-wearing custom for Blue Sapphire regardless of timescale."
+      },
+      {
+        question: "Are there remedies that do not involve gems?",
+        answer: "Yes, and they are fully classical. Mantras for the planet, charity given on the planet's weekday, wearing or carrying its associated metal, and observing a fast on its day are all recognised remedies in Ratna Vigyan's wider tradition. Many practitioners recommend these first, reserving gemstones for cases a full chart review supports."
+      }
+    ]
+  },
 };

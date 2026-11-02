@@ -28,6 +28,23 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "personal-month": "2026-11-02",
   "challenge-numbers": "2026-11-02",
   "venus-mars-synastry": "2026-11-02",
+  // Phase B enrichment batches 2-3 (2 Nov 2026)
+  "jupiter-transit": "2026-11-02",
+  "communication-compatibility": "2026-11-02",
+  "intimacy-compatibility": "2026-11-02",
+  "juno": "2026-11-02",
+  "nordic-runes": "2026-11-02",
+  "soul-contract": "2026-11-02",
+  "crystal-matcher": "2026-11-02",
+  "pinnacle-cycles": "2026-11-02",
+  "amatyakaraka": "2026-11-02",
+  "business-partner-compatibility": "2026-11-02",
+  "love-tarot": "2026-11-02",
+  "soulmate-initials": "2026-11-02",
+  "elemental-compatibility": "2026-11-02",
+  "parent-child-astrology": "2026-11-02",
+  "spirit-animal": "2026-11-02",
+  "gemstone": "2026-11-02",
 };
 
 export function toolLastModified(slug: string): Date {
