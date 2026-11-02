@@ -1573,4 +1573,526 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       }
     ]
   },
+"vertex": {
+    guideTitle: "Vertex Calculator: The Fated Encounter Point in Your Birth Chart",
+    guide: [ "The Vertex is a calculated point in your birth chart, found where the ecliptic crosses the prime vertical on the western side of the chart. It is not a planet or a body in the sky; it is a sensitive angle worked out from your birth moment and birthplace. Tradition reads the Vertex as a fated encounter point: the people and events that arrive when transiting planets touch it tend to feel destined, charged and hard to avoid, as if a door you did not choose has opened.", "Unlike a sign placement, the Vertex cannot be found from your birth date alone. It needs your exact birth time and the latitude of your birthplace, because the prime vertical depends on where on Earth you were born and on the precise moment. In most charts cast for mid latitudes it lands somewhere in the 5th through 8th houses, the relationship and encounter side of the chart. Change the birth time by even half an hour and the Vertex can shift noticeably, which is why astrologers treat it as only as reliable as the recorded time.", "The Vertex always travels with a partner point. Exactly 180 degrees opposite it sits the Anti-Vertex, in the eastern half of the chart, and some readers treat the pair as an axis: the Vertex shows what life brings to you, the Anti-Vertex the part you more consciously project or pursue. Readings concentrate on the Vertex itself, its sign and house, and on conjunctions to it. Other aspects are usually ignored, and the orb allowed is small, around 2 degrees, because a calculated point is read as a precise trigger rather than a wide field." ],
+    steps: [ "Cast the birth chart from the exact birth date, time and birthplace, using the latitude of the place of birth.", "Find where the ecliptic intersects the prime vertical on the western side of the chart; that intersection is the Vertex.", "Record the sign, degree and house of the Vertex, and mark the Anti-Vertex exactly opposite it.", "Watch for transiting planets conjuncting the Vertex within about 2 degrees, and read the house for the life area involved." ],
+    resultMeaning: [ "Suppose your chart shows the Vertex in Scorpio in the 6th house, with the Anti-Vertex in Taurus. The traditional reading is of intense, transformative encounters that arrive through work, health and daily life rather than through romance or public life: the colleague who changes how you work, the health episode that forces a new routine, the demanding project that reorganises your days. Scorpio colours the meetings with depth, privacy and all-or-nothing stakes, while the Taurus Anti-Vertex suggests you yourself keep reaching for steadiness and tangible results on the other side of the axis.", "The classic trigger is a transit crossing the Vertex degree. Transiting Jupiter conjunct the Vertex is the textbook example: an expanding, door-opening meeting or opportunity that later looks like a turning point. Slower planets are read as heavier, longer activations, quick ones as brief fated-feeling encounters. Keep the framing honest, though: the Vertex describes a style of experience, not proof of destiny, and because it hangs on your birth time, an uncertain time means an uncertain point." ],
+    faqs: [ { question: "Do I need my exact birth time for the Vertex?", answer: "Yes. The Vertex is calculated from the prime vertical, which depends on your exact birth time and birthplace latitude, so it is never a date-only placement. A birth time rounded to the nearest hour can move it by several degrees or even change its house, so use a birth certificate time where possible." }, { question: "What is the Anti-Vertex?", answer: "It is the point exactly 180 degrees opposite the Vertex, on the eastern side of the chart. Most readers focus on the Vertex itself, but the pair is read as an axis: the Vertex end shows encounters that seem to arrive from outside, while the Anti-Vertex end shows the style you more deliberately bring to meetings and relationships." }, { question: "Which houses does the Vertex usually fall in?", answer: "In charts cast for mid latitudes it usually falls between the 5th and 8th houses, the western, relationship-facing side of the chart. At extreme northern or southern latitudes the geometry distorts and it can fall elsewhere, which is one reason high-latitude births are read with extra care and a verified birth time." }, { question: "How close does a transit need to be to activate the Vertex?", answer: "Tradition uses a tight orb of about 2 degrees for conjunctions to the Vertex, and most readers consider conjunctions only, not squares or trines. The closer and slower the transiting planet, the longer and weightier the activation is taken to be; a fast planet like the Moon gives at most a brief, same-day flavour." }, { question: "Does a Vertex activation mean a meeting is truly fated?", answer: "No. Fated is the traditional language for how such meetings feel: significant, unplanned and hard to sidestep. The Vertex is a useful lens for noticing turning-point encounters and taking them seriously, but it is not evidence of destiny, and no placement obliges you to keep any person or opportunity that your own judgement rejects." } ]
+  },
+  "horoscope": {
+    guideTitle: "Daily Horoscope: How Astrologers Actually Read the Day for Your Sign",
+    guide: [ "A daily horoscope is a short reading built from the transits of that day, and one transit matters above all the others: the Moon. The Moon changes sign every 2 to 2.5 days, moves through every house of your chart each month and sets the emotional weather in a way the slower planets cannot. Astrologers read the day's Moon, and any sharp aspects it makes, against three reference points in your chart in a set order: your Rising sign first, then your Moon sign, then your Sun sign.", "The order matters because each sign answers a different question. The Rising sign fixes the houses, so the transiting Moon is counted from the Rising sign to see which life area is lit up today: work, money, partners, home. The Moon sign method, the backbone of Vedic daily readings, shows how the day feels from the inside. The Sun sign, the one in newspapers, is the easiest to know and the least personal, which is why Sun-sign columns so often feel vague or interchangeable.", "Hold the whole thing lightly. A daily horoscope is shared by everyone with your sign, so at best it names a theme worth noticing: a conversation to have, a mood to plan around, a day to push or to pause. It is a reflection prompt written from general transits, not a forecast of events in your particular life, and it should never be the reason you spend money, sign a contract or cancel something that matters." ],
+    steps: [ "Find the sign the Moon is in today and note any major aspects it completes during the day.", "Count the houses from your Rising sign to the Moon's sign to find today's highlighted life area.", "Repeat the count from your Moon sign, the Vedic daily method, and compare the emotional theme.", "Read the Sun sign version last, treating it as a general mood note rather than the main message." ],
+    resultMeaning: [ "On a day when the Moon is in Leo, watch how differently the same sky reads. For a Leo Rising person, the Moon is moving through their 1st house, so the day is about visibility, mood, body and personal initiative; they are the story. For an Aquarius Rising person, Leo is the 7th house, so the identical transit puts partners centre stage: a spouse's mood, a negotiation, a one-to-one conversation that cannot be postponed. Nothing in the sky changed between the two readings. Only the starting point moved.", "That is the whole secret behind why one sign's lucky day is another sign's relationship day, and why a column written for your Sun sign can miss completely. Used well, a daily horoscope is a two-minute planning habit: note the house theme, match it to one real thing on your calendar, and let the rest go. If the day's reading warns of friction, the practical translation is usually simple: slow down, confirm details in writing, and do not start sensitive conversations tired." ],
+    faqs: [ { question: "Should I read my daily horoscope by Rising, Moon or Sun sign?", answer: "Read the Rising sign first, because houses are counted from it, and houses turn a transit into a life topic. Read the Moon sign second for emotional tone, as Vedic daily readings do. Use the Sun sign last and lightest: it is the most general of the three, and the one newspaper columns use." }, { question: "Why does the Moon matter most in a daily horoscope?", answer: "Because it is the fastest-moving body astrologers track. The Moon changes sign every 2 to 2.5 days and completes the zodiac in about a month, so it alone can give each day a distinct flavour. The Sun spends a month in each sign and the outer planets years, so they describe background seasons, not daily weather." }, { question: "Why does my horoscope sometimes feel completely wrong?", answer: "Usually because it was written for your Sun sign only, the least personal of the three reference points, and shared with everyone born in that month. Try reading the column for your Rising sign instead; most people find it lands far more often. Boundary days, when the Moon changes sign mid-day, can also make a morning reading feel stale by evening." }, { question: "What else do astrologers check besides the Moon?", answer: "The day's aspects: whether the Moon or other fast planets are meeting Saturn, Mars or Mercury by hard aspect, which colours the day's friction, energy or communication. Some readers also note Mercury retrograde periods and the weekday ruler. These are refinements layered on the Moon's house position, not replacements for it." }, { question: "Can a daily horoscope predict what will happen to me?", answer: "No. It is written from general transits for a whole sign, so it can name a theme, a mood or a house topic, but not events in one person's life. Treat anything that promises specific outcomes, lucky purchases or guaranteed meetings as entertainment copy, and keep real decisions on real information." } ]
+  },
+  "in-laws-compatibility": {
+    guideTitle: "In-Laws Compatibility: Reading Family Harmony From the 7th House",
+    guide: [ "In Vedic astrology, your relationships with your in-laws are read from your own birth chart by counting houses from the 7th house, the house of your spouse. The logic is simple: once the spouse is located at the 7th, their family is mapped relative to them. Your mother-in-law is your spouse's mother, so she is read from the 4th house counted from the 7th, which lands on the 10th house from your Lagna. Your father-in-law is your spouse's father, read from the 9th counted from the 7th, which lands on the 3rd house from Lagna.", "This counting method is called derived houses, or bhavat bhavam, and it is used across Vedic reading: any person's relatives can be located by counting from that person's house. For in-laws, the reading itself looks at three things in each house: its ruling planet and where that lord has gone, any planets sitting in the house, and the aspects falling on it. Benefic influence suggests ease and warmth; heavy malefic pressure suggests friction points to manage, not doom.", "Two honest cautions belong with this technique. First, traditions vary: some schools count the father-in-law differently, using the 10th from the 7th or the Sun as father's significator, so two competent astrologers may not map the family identically. Second, this is a framework for understanding family dynamics, never a verdict on real people. Used well, it simply highlights where respect, patience and clear boundaries will matter most, with your spouse as the natural bridge between the two families." ],
+    steps: [ "Identify your 7th house and its sign; this is the spouse's reference point for the whole reading.", "Count four houses from the 7th to find the mother-in-law house, the 10th from your Lagna.", "Count nine houses from the 7th to find the father-in-law house, the 3rd from your Lagna.", "Read each house's lord, occupants and aspects to judge warmth, friction and where effort helps." ],
+    resultMeaning: [ "Take a verified example. With Leo Lagna, the 7th house is Aquarius, the spouse's sign position. Counting four houses from Aquarius gives Taurus, so Taurus is the mother-in-law house, and it is also the 10th house from Lagna. Counting nine houses from Aquarius gives Libra, the father-in-law house, the 3rd from Lagna. The reading then follows the lords: Venus rules Taurus, so if Venus is placed well, in a friendly sign and free of heavy affliction, tradition reads warmth, generosity and practical support in the mother-in-law relationship.", "In that same example Venus also rules Libra, so one planet's condition colours both in-law relationships, which is common in practice. A well-placed common lord hints that goodwill on one side tends to spread to the other, while an afflicted one suggests the spouse works hardest as mediator. Either way, the chart describes tendencies to navigate: it cannot rank real people, excuse unkindness, or replace the ordinary work of courtesy, honesty and time spent together." ],
+    faqs: [ { question: "Which houses in my chart show my mother-in-law and father-in-law?", answer: "Count from the 7th house, the spouse's house. The 4th from the 7th, which is the 10th house from Lagna, shows the mother-in-law, because she is the spouse's mother. The 9th from the 7th, the 3rd from Lagna, shows the father-in-law. Then read each house's lord and occupants for the quality of the relationship." }, { question: "Why are in-laws counted from the 7th house and not from Lagna?", answer: "Because they are not your blood relatives; they enter your life through your spouse. Vedic derived-house logic locates any person's family relative to that person: the spouse sits at the 7th, so the spouse's mother is the 4th from there and the spouse's father the 9th from there. Your own parents are read directly from your 4th and 9th houses instead." }, { question: "Do all astrologers use the same house for the father-in-law?", answer: "No, and it is worth knowing before you compare readings. The method used here counts the 9th from the 7th, treating the father-in-law as the spouse's father. Some traditions instead use the 10th from the 7th, or weigh the Sun as the general significator of fathers. The mother-in-law mapping, the 4th from the 7th, is more widely agreed." }, { question: "What if Saturn or another malefic sits in an in-law house?", answer: "Tradition reads it as a friction theme, not a sentence: Saturn there can suggest formality, distance or duty-heavy interactions that warm slowly with consistency. The lord's condition and any benefic aspects soften or sharpen the picture considerably. In real life it is best used as a planning hint: expect trust to build gradually and let actions, not assumptions, lead." }, { question: "Can this reading actually help my family relationships?", answer: "Yes, if you use it as a mirror rather than a scorecard. It can show you where patience will be needed, which relationships may need the spouse as bridge, and where a little formality or space protects goodwill. The improvements themselves still come from respect, clear boundaries and time; the chart just suggests where to aim them first." } ]
+  },
+  "pitra-dosha": {
+    guideTitle: "Pitra Dosha: The Ancestral Pattern Read From the Sun and 9th House",
+    guide: [ "Pitra Dosha is a traditional Vedic pattern connected with the Sun, the 9th house and the ancestral line, read as a sign that the family's past needs acknowledgment in the present. The word pitra means the ancestors, especially the paternal line, and the 9th house governs father, fortune and dharma, while the Sun is the significator of the father and the soul. When specific afflictions gather around these points, classical astrologers count Pitra Dosha as present. It is best understood as an invitation to honour and remember those who came before, not as a punishment.", "The traditional checklist names clear indicators. The Sun conjunct Rahu or Ketu is the best known, especially in the 1st, 5th or 9th house. The Sun or the 9th lord placed in the 6th, 8th or 12th house counts as well, as does a 9th lord that is debilitated or combust. Rahu or Ketu occupying the 9th house, and malefics aspecting the 9th house or the Sun, add further weight. Birth on Amavasya, the new Moon day, is also traditionally noted alongside these chart factors.", "The tone of the tradition matters as much as the checklist. Pitra Dosha is not a curse, and responsible astrologers do not use it to frighten. Its remedies are remembrance practices, gentle by design: tarpan, the offering of water to ancestors on Amavasya and during Pitru Paksha, the ancestral fortnight also called Mahalaya; feeding birds and crows, who are treated as ancestral messengers; charity given in the names of ancestors; and caring attentively for living elders. None of these promises a guaranteed outcome. They are ways of honouring a lineage, and many families find that meaning enough." ],
+    steps: [ "Check whether the Sun is conjunct Rahu or Ketu, especially in the 1st, 5th or 9th house.", "Check whether the Sun or the 9th lord is placed in the 6th, 8th or 12th house.", "Examine the 9th house itself for occupants, its lord's strength, and malefic aspects on it or the Sun.", "Count the indicators present, and note whether the birth fell on Amavasya, before judging the dosha." ],
+    resultMeaning: [ "Work through a verified example. In a Cancer Lagna chart, the Sun sits in the 9th house, in Pisces, conjunct Rahu: that is the first indicator, the Sun joined with Rahu in the house of father and fortune. The 9th lord is Jupiter, and in this chart Jupiter sits in the 8th house, Aquarius, one of the difficult houses on the checklist: that is the second indicator. With two classical indicators present, the traditional checklist counts Pitra Dosha as present in this chart.", "Read that result as a count, not as a curse or a verdict on the family. Two indicators describe a theme: fortune and paternal support may need conscious effort, and the ancestral connection may feel distant until it is deliberately renewed. A single weak indicator, by contrast, is common in charts and is usually not counted as a full dosha. The response the tradition prescribes is remembrance and care, offered calmly and regularly, rather than fear or expensive rituals sold with promises." ],
+    faqs: [ { question: "Is Pitra Dosha a curse or a punishment?", answer: "No. In the classical framing it is an ancestral imbalance asking for acknowledgment, not a penalty imposed on you for anything. The themes it is linked with, such as distance from the father or delayed fortune, are read as areas needing effort and remembrance. Any astrologer who presents it as a curse to sell fear should be avoided." }, { question: "How many indicators are needed for Pitra Dosha to count?", answer: "There is no single binding number, but the working rule most astrologers use is weight: one mild indicator is common and usually not counted as a full dosha, while two or more classical indicators, especially involving the 9th house and the Sun together, are counted as present. Strength and cancellation factors in the chart modify the judgement." }, { question: "What are the traditional remedies for Pitra Dosha?", answer: "They are remembrance practices rather than purchases: tarpan, offering water to the ancestors on Amavasya and during Pitru Paksha; feeding birds and crows; giving food or charity in the names of ancestors; and caring respectfully for living elders and parents. The tradition values regularity and sincerity in these acts over scale or expense." }, { question: "Does being born on Amavasya always mean Pitra Dosha?", answer: "No. Birth on Amavasya, the new Moon day when the Moon is dark and close to the Sun, is traditionally noted as a supporting factor, because the luminaries are read as weakened for ancestral matters. On its own it does not establish the dosha; astrologers look for the chart indicators around the Sun and the 9th house as well." }, { question: "Can Pitra Dosha be completely removed?", answer: "The tradition does not frame it as something to remove once and for all. Remembrance practices are ongoing: Amavasya comes every month, and Pitru Paksha every year, so honouring ancestors is treated as a continuing relationship rather than a one-time fix. No practice guarantees specific worldly outcomes, and claims otherwise go beyond what the tradition itself promises." } ]
+  },
+  "career-tarot": {
+    guideTitle: "Career Tarot: A Three-Card Spread for Work and Direction",
+    guide: [ "A career tarot reading uses a focused three-card spread built for work questions. The first card shows where you stand now: your real current position, skills and energy at work. The second card shows the real blocker underneath, the obstacle that is actually slowing you, which is often not the one you would name. The third card shows the move to make next, the most useful action the reading can point to. Three positions, read in that order, turn a vague worry about your career into a structured story you can act on.", "Reading the spread well means reading it as one sentence, not three separate fortunes. The blocker card deserves the closest attention, because career readings so often show that the visible problem, a stalled promotion or a difficult manager, sits on top of something quieter: missing information, an unspoken agreement, or a skill gap kept politely hidden. The suits help too. Pentacles speak of money, craft and security; Wands of ambition and visibility; Swords of decisions and conflict; Cups of satisfaction and workplace relationships. Major Arcana cards signal bigger chapter themes.", "Keep the framing honest from the start. Tarot used this way is a structured reflection tool: the cards surface the questions you have been avoiding and give them a shape you can discuss and plan around. They do not predict job outcomes, interview results or market movements. A draw is never, by itself, a sound reason to resign, sign a contract or invest money. Those decisions belong to your contract, your finances and your judgement, with the cards allowed, at most, to clarify what to investigate next." ],
+    steps: [ "Hold one clear career question in mind: a decision, a stalled situation or a change you are weighing.", "Draw three cards in order and lay them out as now, blocker and next move.", "Read each card by its traditional meaning, then read all three together as one connected story.", "Translate the third card into one concrete, low-risk action you can take within the week." ],
+    resultMeaning: [ "Consider this example draw. Card one, where you stand, is the Eight of Pentacles: skill-building, apprenticeship and quiet mastery, the stage where the craft itself is being built through repetition and care. Card two, the blocker, is The Moon: unclear information and unspoken office politics, a warning not to sign or commit while the facts are still foggy. Card three, the move, is The Chariot: take the reins, apply, pitch and drive the transition yourself in one clear direction rather than waiting to be chosen.", "Read together, the story is precise. The problem is not talent: the Eight of Pentacles shows real skill being built. The fog is the problem, so the practical work is verification: get the promised role, salary band or timeline in writing before moving. Only then does The Chariot's advice apply, and it applies fully: one direction, visibly driven by you. Notice what the reading did not do. It issued no prediction, only a sharper description of the present and a sensible order of operations." ],
+    faqs: [ { question: "Can a career tarot reading tell me whether to quit my job?", answer: "No, and you should not let it. The spread can clarify what is blocking you and what a sensible next move looks like, but quitting depends on your savings, contract, market and alternatives, none of which a card can see. Use the reading to prepare questions and plans, then decide on the real facts." }, { question: "What if the blocker card looks frightening, like The Tower?", answer: "Read it by its traditional core rather than its drama. In a career spread The Tower usually names a structure that is already unstable: a reorganisation, a role built on unclear promises, a plan that cannot survive honest scrutiny. As the blocker, it often points at the instability itself, and the useful response is contingency planning, not panic." }, { question: "How specific should my career question be?", answer: "Specific enough to have a next step attached. Questions like whether to accept the internal transfer, or what is blocking the promotion you were promised, give the three positions something to bite on. A whole-life question, like what career you should have, is better broken into stages: ask about the current blocker first, then about direction." }, { question: "Should I draw again if the career cards seem wrong?", answer: "Tradition says no: the first draw is the reading, and redrawing until the answer flatters you turns the tool into noise. If a card seems wrong, sit with the blocker position especially; it is designed to name the thing you would rather not look at. Ask again only when the situation itself has genuinely changed." }, { question: "What does the next-move card actually ask me to do?", answer: "It points at a direction and a style of action, which you must translate into your own circumstances. The Chariot means drive one clear move yourself; the Eight of Pentacles would mean keep building skill first; The Moon there would mean gather information before moving at all. The card sets the strategy, you choose the concrete step." } ]
+  },
+  "composite-chart": {
+    guideTitle: "Composite Chart: Midpoint Astrology for the Relationship Itself",
+    guide: [ "A composite chart is a single birth chart built for a relationship itself. Instead of comparing two people's charts side by side, the composite method merges them: for every planet, it takes the midpoint between the two partners' positions, the nearer midpoint on the circle, and plots those midpoints as one chart. That chart is then read like a natal chart, except the person it describes is the couple. Its Sun shows the relationship's core purpose, its Moon the pair's emotional habits, its Venus how affection flows between them.", "The distinction from synastry is worth keeping clear, because the two techniques answer different questions. Synastry lays one chart over the other and reads the contacts between them: how person A affects person B, where the sparks and frictions live. A composite chart forgets the two individuals and describes the third entity their union creates, the relationship as a thing with its own temperament, needs and direction. Couples often use both: synastry for how they interact, composite for what they are building together and why it feels the way it does.", "One honest caveat concerns the houses. Composite planet signs come purely from the two birth charts, so they are the same wherever the chart is calculated. The houses are not: they depend on the reference place used, the location chosen as the relationship's home base, and different schools use the couple's residence, the meeting place or a midpoint location. Read the signs and planet aspects with full confidence, and treat the house placements as method-dependent, worth noting but not worth arguing over between two printouts." ],
+    steps: [ "Convert each partner's planet positions into absolute degrees, counted from 0 degrees Aries around the circle.", "Add each matching pair of positions together and divide by two to get the raw midpoint.", "If that midpoint falls opposite the pair, take the midpoint on the shorter arc between the two positions instead.", "Plot all the midpoints as one chart and read it as the natal chart of the relationship itself." ],
+    resultMeaning: [ "The arithmetic is simple once positions are absolute. Partner A's Sun sits at 10 degrees Aries, which is 10 degrees absolute. Partner B's Sun sits at 20 degrees Gemini, which is 80 degrees absolute. The midpoint is (10 + 80) divided by 2, which is 45 degrees, and 45 degrees absolute is 15 degrees Taurus. So the composite Sun falls in Taurus: a relationship whose core purpose is stability, sensuality and building shared resources, a couple that exists to make something lasting and tangible together.", "The wrap rule matters just as much. Partner A's Moon is at 20 degrees Pisces, 350 degrees absolute, and Partner B's Moon is at 10 degrees Aries, 10 degrees absolute. Naively averaging 350 and 10 gives 180 degrees, deep in Libra, but the two Moons are actually only 20 degrees apart, measured across the 0 degree point where Pisces meets Aries. Their true midpoint is 0 degrees Aries. Always take the midpoint on the shorter arc, or half your composite planets will sit opposite where they belong." ],
+    faqs: [ { question: "What is the difference between synastry and a composite chart?", answer: "Synastry compares two separate charts, reading the contacts between one person's planets and the other's to show how they affect each other. A composite chart merges the two charts by midpoints into a single new chart that describes the relationship itself. Synastry answers how you interact; the composite answers what the relationship is." }, { question: "Why does every planet have two possible midpoints?", answer: "Because two points on a circle are joined by two arcs, a short way round and a long way round, and each arc has its own midpoint, exactly opposite the other. Composite method uses the midpoint of the shorter arc, the nearer one, since that is where the two positions genuinely meet. Choosing the wrong one flips the planet by 180 degrees." }, { question: "Do composite chart houses need a place to be calculated?", answer: "Yes. The planet signs come only from the two birth charts, but the houses and Ascendant of a composite chart depend on the reference place chosen for the relationship, such as where the couple lives or met. Different reference places can shift the houses while leaving every planet sign unchanged, which is why house readings vary between methods." }, { question: "Can a composite chart be made for friends or business partners?", answer: "Yes. The method works for any two people, because it only needs two birth charts and their midpoints. For a friendship or a founding pair, readers weight Mercury, Saturn and the composite Sun more heavily than Venus, but the reading logic is identical: one chart describing what the pairing itself is like and what it tends to produce." }, { question: "Which composite placements matter most in a reading?", answer: "Start with the composite Sun for the relationship's purpose, the Moon for its emotional pattern, and Venus and Mars together for affection and desire. The composite Ascendant, where a reference place is agreed, shows how the couple presents as a unit. Hard aspects to the composite Sun or Moon are read as the relationship's own built-in work." } ]
+  },
+"breakup-recovery": {
+    guideTitle: "Breakup Recovery Astrology: Why Endings Happen When They Do",
+    guide: [
+      "A breakup rarely feels random when you look at the transits running at the time: certain classical periods coincide again and again with endings, and naming them gives a painful season a shape and an end date. Saturn testing the natal Moon or the 7th house, a Ketu or South Node period stirring release, and Chiron themes around the wound that teaches are the three patterns traditional astrologers check first. None of them caused a relationship to fail on its own, but together they describe the weather in which weak bonds are tested and finished bonds are let go.",
+      "Saturn is the central figure. Its transits bring an audit: whatever is built on habit, fear or convenience is pressed, while whatever is built on real commitment is usually redefined and strengthened. When Saturn aspects the Moon, the audit turns inward to emotional habits and unmet needs. When it touches the 7th house or its ruler, the audit turns to the partnership itself, its fairness, workload and honesty. A relationship that ends under Saturn was often already carrying weight it could no longer hold in silence.",
+      "Ketu, the South Node in Western terms, works differently. Its periods are linked with detachment, sudden clarity and an inability to keep pretending that something feeds you when it no longer does. Chiron adds the third layer, the old wound touched by the ending: rejection, abandonment or not being chosen. If you are struggling badly, lean on real people and, where needed, a professional counsellor. Astrology here offers timing and perspective, never a substitute for support."
+    ],
+    steps: [
+      "Find your natal Moon sign and 7th house sign from a sidereal birth chart made with your date, time and place of birth.",
+      "Check where Saturn is transiting now and note whether it touches your Moon, your 7th house or the ruler of your 7th house.",
+      "Check your current Vimshottari dasha and note any Ketu period, sub-period or strong South Node transit activation running now.",
+      "Note any Chiron theme the ending repeats, then write down the lesson and the practical change you intend to make from it."
+    ],
+    resultMeaning: [
+      "Take a person with natal Moon in Virgo as the worked example. Sidereal Saturn has been in Pisces since 29 March 2025, and Pisces is the 7th sign from Virgo, so Saturn simultaneously transits opposite their Moon and casts its 7th house aspect directly onto that Moon. Classically this is a relationship-mirror and emotional-audit period: partnerships are tested, redefined or released, private unhappiness can no longer be managed quietly, and the person is asked to state plainly what they need instead of silently adapting.",
+      "The useful news inside a Saturn example is the timetable. Saturn spends about two and a half years in one sign, so this intense mirror phase is a chapter, not a life sentence. Traditional guidance is deliberately ordinary: keep sleep, food and work routines steady, let grief have its normal course without rushing a replacement relationship, finish practical separations cleanly, and notice which old wound was touched so the next relationship is chosen rather than repeated."
+    ],
+    faqs: [
+      {
+        question: "Which transits most often coincide with a breakup?",
+        answer: "Saturn transits to the natal Moon, the 7th house or its ruler are the classic first check, because Saturn audits commitment and emotional habits. Ketu or South Node periods add detachment and release, while Chiron contacts highlight the older wound the ending reopens."
+      },
+      {
+        question: "Does Saturn always end a relationship when it aspects the Moon?",
+        answer: "No. Saturn tests rather than simply destroys. Committed partnerships often survive this period by becoming more honest, fairer in workload and clearer in terms. Relationships that end under Saturn usually had structural problems already. The transit brings the audit forward; it does not invent the problems it exposes."
+      },
+      {
+        question: "How long does a Saturn breakup period last?",
+        answer: "Saturn spends about two and a half years in each sign, so a transit to your Moon or 7th house is a chapter of roughly that length, strongest while the aspect is closest. The acute grief of an ending is normally much shorter than the full transit. Knowing the period has a boundary helps many people pace recovery."
+      },
+      {
+        question: "What does Ketu or the South Node have to do with letting go?",
+        answer: "Ketu is the significator of detachment in Vedic astrology, and its dasha periods and strong transits are traditionally linked with attachments losing their hold. People often describe a quiet certainty that something is finished, even before events confirm it. The teaching is release without bitterness, keeping the lesson and dropping the grievance."
+      },
+      {
+        question: "Can astrology help me recover, and when should I seek other help?",
+        answer: "Astrology can help by naming the period, normalising its themes and giving it a rough end date, and the practical steps here can structure daily life while feelings settle. It is not therapy. If grief is severe, lasting or affecting your health, work or safety, please talk to trusted people and a qualified counsellor or doctor promptly."
+      }
+    ]
+  },
+  "shani-dhaiya": {
+    guideTitle: "Shani Dhaiya: Saturn in the 4th or 8th From Your Moon",
+    guide: [
+      "Shani Dhaiya is Saturn transiting the 4th sign from your natal Moon, called Kantaka Shani, or the 8th sign from your natal Moon, called Ashtama Shani, and each form lasts about two and a half years, the time Saturn takes to cross one sign. It is a traditionally demanding period, but it is not Sade Sati. Dhaiya is one Saturn sign transit hitting one sensitive house from the Moon. Sade Sati is three consecutive transits, the 12th, 1st and 2nd from the Moon, lasting about seven and a half years in total.",
+      "The 4th and 8th are sensitive for different reasons. The 4th from the Moon covers home, mother, property, vehicles and inner peace, so Kantaka Shani tends to disturb domestic settledness in order to rebuild it on more honest terms. The 8th covers sudden change, joint money, debts and health discipline, so Ashtama Shani tends to bring enforced restructuring there. In both cases the classical reading is the same at root: Saturn slows what was careless, exposes what was neglected, and rewards patience, routine and straight dealing.",
+      "Nothing in the traditional treatment of Dhaiya justifies panic or expensive fear-based remedies. Saturn is read as a strict teacher, not an enemy, and his periods are described as purposeful: effort made now tends to last, shortcuts tend to be caught, and service to others is said to soften the period. Read Dhaiya as demanding maintenance, not as a sentence."
+    ],
+    steps: [
+      "Find your sidereal natal Moon sign, called your Janma Rashi, from a Vedic chart made with your birth date, time and place.",
+      "Count forward from that Moon sign and note the 4th sign and the 8th sign, counting your Moon sign itself as the first.",
+      "Check the sign Saturn is transiting now in the sidereal zodiac and see whether it matches your 4th or your 8th sign.",
+      "If it matches, note the period as Dhaiya, record when Saturn entered that sign, and plan for roughly two and a half years."
+    ],
+    resultMeaning: [
+      "Use the present era as the verified example. Sidereal Saturn entered Pisces on 29 March 2025 and stays there until about June 2027. Pisces is the 4th sign from Sagittarius, so people with Moon in Sagittarius are in Kantaka Shani for this whole period, and Pisces is the 8th sign from Leo, so people with Moon in Leo are in Ashtama Shani for the same period. Everyone else is not in Dhaiya under this transit, whatever a generic headline suggests.",
+      "For the Sagittarius Moon group, expect the 4th house themes to dominate: a house move or renovation, a parent needing more support, property paperwork moving slowly, and restlessness at home that settles only when real changes are made. For the Leo Moon group, expect 8th house themes: shared finances needing clean agreements, loans and taxes demanding attention, sudden role changes, and health routines that can no longer be postponed. The traditional prescription is unglamorous and effective: keep a steady routine, serve elders and workers without show, be honest in documents and money, and let slow progress count."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between Dhaiya and Sade Sati?",
+        answer: "Sade Sati is Saturn transiting the 12th, 1st and 2nd signs from your Moon, three signs over about seven and a half years. Dhaiya is Saturn transiting only the 4th sign, Kantaka Shani, or only the 8th sign, Ashtama Shani, each lasting about two and a half years. They are separate periods and never describe the same transit at the same time."
+      },
+      {
+        question: "Who is in Shani Dhaiya right now?",
+        answer: "With sidereal Saturn in Pisces from 29 March 2025 until about June 2027, Moon in Sagittarius natives are in Kantaka Shani because Pisces is the 4th from Sagittarius, and Moon in Leo natives are in Ashtama Shani because Pisces is the 8th from Leo. The answer changes each time Saturn changes sign, roughly every two and a half years."
+      },
+      {
+        question: "Is Ashtama Shani worse than Kantaka Shani?",
+        answer: "They are demanding in different areas rather than ranked simply as worse or better. Kantaka Shani presses home, mother, property and inner peace. Ashtama Shani presses sudden change, joint resources and health discipline. The whole chart, ascendant and running dasha decide how strongly either is felt, and many people complete both with solid achievements."
+      },
+      {
+        question: "What remedies are traditionally suggested for Dhaiya?",
+        answer: "The classical remedies are behavioural: keep a disciplined routine, work honestly, serve the elderly, the poor and manual workers, and respect Saturdays with simple acts such as lighting a sesame oil lamp or giving food in charity. No genuine tradition requires fear or paid rituals. Saturn responds, in the traditional view, to humility, patience and sustained effort."
+      },
+      {
+        question: "Can good things happen during Dhaiya?",
+        answer: "Yes. Saturn periods regularly coincide with promotions earned through endurance, property finally secured after long effort, debts cleared and skills mastered slowly. The pattern is that results come through structure rather than luck."
+      }
+    ]
+  },
+  "vehicle-numerology": {
+    guideTitle: "Vehicle Number Numerology: How to Read Your Plate Total",
+    guide: [
+      "Vehicle number numerology reduces your registration plate to a single digit from 1 to 9 and reads that digit as the character of the vehicle: how it is traditionally said to feel to own and drive. There are two accepted ways to reach the total. The first, and the one most Indian practitioners use, adds only the digits on the plate. The second adds the full alphanumeric plate, converting every letter to a number first. The two methods often give different answers, so honest practitioners say which one they used.",
+      "The letter values come from the Pythagorean chart, which runs in repeating cycles of nine: A equals 1, B equals 2, C equals 3, D equals 4, E equals 5, F equals 6, G equals 7, H equals 8 and I equals 9, then J equals 1, K equals 2, L equals 3, M equals 4, N equals 5, O equals 6, P equals 7, Q equals 8 and R equals 9, and finally S equals 1, T equals 2, U equals 3, V equals 4, W equals 5, X equals 6, Y equals 7 and Z equals 8. Add every value, then reduce until one digit remains.",
+      "Tradition then compares the plate total with the driver. Totals of 3, 5 and 6 are widely considered harmonious for vehicles: 3 for ease and sociability, 5 for movement and adaptability, and 6 for comfort and family use. One honesty note governs everything here: a number never makes a vehicle safe. Maintenance, tyres, brakes and sober, attentive driving do that. Numerology here is a preference tradition only."
+    ],
+    steps: [
+      "Write down the full registration plate exactly as issued, including the state and district codes and all letters and digits.",
+      "For the digits-only method, add just the numerals on the plate and reduce the sum to a single digit from 1 to 9.",
+      "For the full method, convert each letter with the Pythagorean values, add letters and digits together, and reduce to one digit.",
+      "Compare both totals with the driver birth number and read the digits-only total as the primary one, following Indian practice."
+    ],
+    resultMeaning: [
+      "Work the verified example plate MH 12 AB 1234 both ways. Digits-only first: the numerals are 1, 2, 1, 2, 3 and 4, which add to 13, and 13 reduces as 1 plus 3 to 4. A 4 vehicle is traditionally the workhorse: stable, practical, built for regular routes and long ownership rather than thrills. Now the full total: M equals 4, H equals 8, A equals 1 and B equals 2, alongside the digits 1, 2, 1, 2, 3 and 4. Everything adds to 28, which reduces to 10 and then to 1, the number of independence and solo driving.",
+      "Read together, this plate suits a driver who mostly drives alone for work: the everyday character is the steady 4, while the full-plate undertone of 1 adds self-reliance. If a choice between two plates comes down to totals alone, practitioners pick the plate whose digits-only total is harmonious, ideally 3, 5 or 6, or friendly to the driver birth number, then forget the number and maintain the vehicle properly."
+    ],
+    faqs: [
+      {
+        question: "Which method is correct, digits-only or the full plate total?",
+        answer: "Both are established, but most Indian practitioners use the digits-only total as the main vehicle number, because the numerals are the part of the plate that is always present and spoken. The full alphanumeric total is read as a secondary undertone. State your method when comparing readings."
+      },
+      {
+        question: "Which total numbers are considered lucky for a vehicle?",
+        answer: "Totals of 3, 5 and 6 are traditionally considered the most harmonious for vehicles: 3 for light, social, everyday ease, 5 for travel and frequent use, and 6 for comfort and family service. These are traditional preferences, not guarantees, and no total is treated as a curse."
+      },
+      {
+        question: "How do I find my driver or birth number to compare?",
+        answer: "Reduce the day of the month you were born on to a single digit. Someone born on the 14th adds 1 plus 4 to get a birth number of 5, while someone born on the 9th is simply 9. That number is compared with the plate total: matching and traditionally friendly numbers are read as an easy fit between driver and vehicle."
+      },
+      {
+        question: "Does an unfavourable plate number mean the vehicle is unsafe?",
+        answer: "No. Numerology is a symbolic preference tradition with no power over mechanical safety. Accidents are prevented by maintained brakes, tyres, steering and lights, by servicing on schedule, and by sober, attentive, rested driving. Treat a troubling total as a taste question, never as a safety prediction."
+      },
+      {
+        question: "Can I change my vehicle number if I dislike the total?",
+        answer: "In India a registration number is issued by the transport authority, and choice numbers are available in many states through the official fancy or choice number process for a fee, subject to availability. Changing an existing number later is rarely simple, so most owners simply note the reading and drive well."
+      }
+    ]
+  },
+  "aura-color": {
+    guideTitle: "Aura Color Calculator: Your Life Colour From Your Birth Date",
+    guide: [
+      "Your aura colour, in the esoteric tradition this calculator follows, is found from your birth date: reduce the date to your Life Path number, then read that number through a fixed colour mapping to get your life colour, the standing tone said to surround you throughout life. The life colour is considered constant, like the Life Path itself. Around it, temporary aura colours are said to shift with mood, health and circumstance, while the underlying life colour remains the baseline.",
+      "The mapping used here is one widely used version, labelled as such because aura traditions are not standardised and other teachers publish slightly different tables. In this version, 1 is Red, 2 is Orange, 3 is Yellow, 4 is Green, 5 is Blue, 6 is Indigo, 7 is Violet, 8 is Rose pink and 9 is Gold. The master numbers carry special readings: 11 is often read as silver-white, linked with intuition and sensitivity, and 22 is often read as radiant gold, linked with the master builder who turns vision into form.",
+      "The honest framing matters as much as the mapping. Aura colours are a symbolic, esoteric tradition; they are not scientifically proven, no instrument measures a life colour, and a reading is never a diagnosis of health or character. Their genuine value is self-reflection, a compact picture of qualities to notice in yourself. Read your result as a thoughtful metaphor, test it against lived experience, and keep what rings true."
+    ],
+    steps: [
+      "Write out your full birth date with the day, month and full four-digit year, exactly as recorded on your birth certificate.",
+      "Add every digit of the date together, then reduce the total by adding its digits until you reach a single digit or a master number.",
+      "If the reduction reaches 11 or 22, note the master number first, then reduce once more to its single digit for the base reading.",
+      "Read your single digit through the colour mapping to find your life colour, then reflect on where its qualities show in your life."
+    ],
+    resultMeaning: [
+      "Work the verified example of someone born on 14 June 1990. Add the digits of the full date: 1 plus 4 plus 0 plus 6 plus 1 plus 9 plus 9 plus 0 equals 30, and 30 reduces as 3 plus 0 to 3. The Life Path is 3, and in the mapping used here 3 is Yellow, so this person has a Yellow life colour. Yellow is traditionally the mental, communicative aura: joy, intellect, curiosity, humour and expression are its strengths, the person who explains, teaches or lifts a room by talking. Its shadow side is scattered attention and over-talking when anxious.",
+      "Read your own colour the same balanced way, strengths and shadow together. Red lives through action and courage, Orange through warmth and appetite for experience, Green through steadiness and healing, Blue through calm truth and honest speech, Indigo through perception and depth, Violet through imagination and spiritual leaning, Rose pink through compassion and gentle love, and Gold through generosity and purpose. The life colour is the climate; daily colours are only weather."
+    ],
+    faqs: [
+      {
+        question: "What is a life colour and how is it different from daily aura colours?",
+        answer: "The life colour is derived from your birth date through your Life Path number, and in this tradition it never changes, describing your standing qualities. Daily or temporary aura colours are said to shift with mood, health, stress and company."
+      },
+      {
+        question: "What do the master numbers 11 and 22 mean as aura colours?",
+        answer: "In the mapping used here, 11 is often read as silver-white, linked with intuition and sensitivity, with Orange as its reduced base colour through the digit 2. The number 22 is often read as radiant gold, linked with building lasting things of value, with Green as its base through the digit 4. Read both the master colour and the base colour together."
+      },
+      {
+        question: "Why do different websites give me different aura colours?",
+        answer: "Because aura colour systems are traditional and unstandardised. Different teachers map numbers to colours in different ways, and some systems use questionnaires or name calculations instead of the birth date. This page uses one widely used Life Path mapping and labels it openly. Consistency within one system matters more than hunting for a single official table that does not exist."
+      },
+      {
+        question: "Are aura colours scientifically real?",
+        answer: "No scientific evidence establishes aura colours as measurable physical fields, and no colour reading should be used to diagnose illness, judge character or make medical, financial or relationship decisions. The tradition is best treated as symbolic self-reflection: a language of colour that some people find helpful for noticing patterns in themselves, held lightly and tested against real life."
+      },
+      {
+        question: "Can my aura colour change over time?",
+        answer: "Your life colour, being tied to your birth date, does not change in this system. What practitioners say changes is the temporary layer: brightness, clarity and passing colours that reflect rest, stress, joy, grief or excitement."
+      }
+    ]
+  },
+  "daily-panchang": {
+    guideTitle: "Panchang Explained: Tithi, Vara, Nakshatra, Yoga and Karana",
+    guide: [
+      "The Panchang is the traditional Vedic almanac built from five limbs: pancha means five and anga means limb. The five limbs are Tithi, the lunar day; Vara, the weekday; Nakshatra, the star the Moon occupies; Yoga, a period found from the Sun and Moon together; and Karana, the half-tithi. Together they describe the quality of a day far more precisely than a date alone.",
+      "Tithi measures the Moon pulling away from the Sun. The elongation between them grows in steps of 12 degrees, and each completed step is one tithi, so 30 tithis make a lunar month, split into the bright Shukla Paksha as the Moon waxes and the dark Krishna Paksha as it wanes. Nakshatra measures where the Moon sits: the zodiac is divided into 27 stars of 13 degrees 20 minutes each. Yoga comes from adding the Sun and Moon longitudes and dividing that sum into 27 steps of 13 degrees 20 minutes, giving 27 yogas. Karana is simply half a tithi, so there are 60 karanas in a lunar month.",
+      "Vara, the weekday, is the limb everyone already knows: each day is ruled by a planet, Sunday by the Sun, Monday by the Moon, Tuesday by Mars, Wednesday by Mercury, Thursday by Jupiter, Friday by Venus and Saturday by Saturn. A real daily Panchang needs the actual sidereal positions of the Sun and Moon for that day and place, taken from an ephemeris. This page is an orientation guide."
+    ],
+    steps: [
+      "Take the sidereal longitudes of the Sun and the Moon for the day, measured in degrees from 0 degrees Aries.",
+      "Find the Nakshatra by dividing the Moon longitude by 13 degrees 20 minutes and rounding up to the next whole star number.",
+      "Find the Tithi by subtracting the Sun from the Moon, dividing the elongation by 12 degrees, and counting the tithi in progress.",
+      "Find the Yoga by adding both longitudes, dividing by 13 degrees 20 minutes, and find the Karana as the half of the current Tithi."
+    ],
+    resultMeaning: [
+      "Work the verified teaching example exactly, using sidereal longitudes: the Sun at 250 degrees, which places it in Sagittarius, and the Moon at 130 degrees, which places it in Leo. Nakshatra first: divide 130 by 13.333 and you get 9.75, so the Moon is in the 10th nakshatra, Magha, which spans 120 degrees to 133 degrees 20 minutes. Tithi next: the elongation is 130 minus 250, taken modulo 360, which gives 240 degrees, and 240 divided by 12 equals 20 completed steps, so the 21st tithi is running, Krishna Paksha Shashthi.",
+      "Yoga completes the set: add the longitudes, 250 plus 130 equals 380, taken modulo 360 gives 20 degrees, and 20 degrees falls in the second step of 13 degrees 20 minutes, so the yoga is the 2nd yoga, Priti, also spelled Preeti, a name meaning affection. For the Karana of this tithi, the first half is Gara and the second half is Vanija. Treat this example as a teaching snapshot with round numbers chosen to make the arithmetic visible. A genuine daily Panchang must use today actual ephemeris positions."
+    ],
+    faqs: [
+      {
+        question: "What are the five limbs of the Panchang in simple words?",
+        answer: "Tithi is the lunar day, found from the angle between Moon and Sun in 12 degree steps. Vara is the weekday and its planetary lord. Nakshatra is the star segment the Moon occupies. Yoga is a period found by adding the Sun and Moon longitudes. Karana is half a tithi."
+      },
+      {
+        question: "Why does a tithi not match the calendar date?",
+        answer: "A tithi is an angular event, not a clock event: it lasts while the Moon gains 12 degrees on the Sun, which takes roughly a day but varies, from about 19 to 26 hours. Tithis can therefore begin and end at any hour. The Panchang follows the sky, not the midnight boundary."
+      },
+      {
+        question: "How is Yoga different from Nakshatra if both use 27 divisions?",
+        answer: "Both divide the circle into 27 steps of 13 degrees 20 minutes, but they measure different things. Nakshatra uses the Moon longitude alone and shows where the Moon is placed. Yoga uses the sum of the Sun and Moon longitudes, so it advances about twice as fast and describes the combined quality of the day rather than a position."
+      },
+      {
+        question: "What is a Karana and why are there 60 of them?",
+        answer: "A Karana is half a tithi, the time the Moon needs to gain 6 degrees on the Sun. Since a lunar month holds 30 tithis, it holds 60 karanas. Most karanas repeat in a fixed cycle. Traditional timing treats some karanas, notably Vishti, also called Bhadra, as unsuitable for auspicious beginnings."
+      },
+      {
+        question: "Can I calculate today Panchang myself from this guide?",
+        answer: "You can follow and check the arithmetic once you have the day sidereal Sun and Moon longitudes, but those positions must come from a real ephemeris for your date and location. Use this guide to understand and verify a published Panchang, not as a substitute for the ephemeris itself."
+      }
+    ]
+  },
+  "personal-day": {
+    guideTitle: "Personal Day Number: Your Daily Numerology Vibration",
+    guide: [
+      "Your Personal Day is the quickest-moving number in numerology: a single digit that changes every morning and colours how one date feels for you. Where the Personal Year describes the season of your year and the Personal Month its monthly weather, the Personal Day is the forecast for today alone, which is why people check it before big conversations, launches or quiet days.",
+      "You reach it in three short hops, always starting from your own birth numbers. First the Personal Year: shrink your birth month and birth day to one digit each, shrink the current year the same way, and combine the three, reducing again if the total has two digits. Folding the current calendar month into that result gives the Personal Month. One final addition, the day of the month, reduced the same way, gives the Personal Day. A final total of 11 or 22 is often kept as a master number instead of being reduced further.",
+      "The nine flavours are traditionally read like this. One is for initiative: begin, decide, go first. Two slows the pace for listening, tact and teamwork. Three turns outward, toward conversation, writing, friends and making things. Four is the builder day of lists, repairs and finishing. Five breaks routine and rewards movement and improvisation. Six pulls attention homeward, to family, promises and care. Seven goes quiet and inward: study, analysis and rest. Eight is the executive day, suited to money and visible action. Nine closes circles: complete, forgive, let go."
+    ],
+    steps: [
+      "Shrink your birth month and birth day to single digits, shrink the current year the same way, and combine all three to get your Personal Year.",
+      "Fold the number of the current calendar month into the Personal Year and reduce the sum to find your Personal Month.",
+      "Add the date you are asking about, the day of the month, to the Personal Month figure.",
+      "Reduce the result to one digit, leaving 11 or 22 standing if either appears, and read that theme for the day."
+    ],
+    resultMeaning: [
+      "See the chain run on real numbers. Someone born on 8 March wants their number for early November 2026. Their Personal Year: birth month 3, birth day 8, and the year 2026 shrinks to 1, since 2 + 0 + 2 + 6 = 10 and 10 becomes 1. Together, 3 + 8 + 1 = 12, reducing to 3: an expressive, socially rebuilding year. November gives a Personal Month of 3 + 11 = 14, reducing to 5: a month tilted toward movement and change.",
+      "Now the day itself. On 2 November 2026 the Personal Month of 5 meets the date 2, and 5 + 2 = 7, so this is a 7 Personal Day. Read against its own month, the picture sharpens: inside a restless, change-heavy 5 month, the day asks for the opposite: research before signing, one deep task instead of six shallow ones, and an early night. That contrast, a quiet day inside a restless month, is exactly what this number is for: a pacing note pinned to a real date, not a prediction."
+    ],
+    faqs: [
+      {
+        question: "How does the Personal Day relate to the Personal Year and Personal Month?",
+        answer: "They are nested cycles. The year number, built from your birth date and the current year, describes a twelve-month theme. Adding the calendar month narrows the focus to a few weeks; adding the date narrows it to a single day. Each layer is calculated from the one above it, so check the first hop twice."
+      },
+      {
+        question: "What does it mean if my Personal Day comes out as 11 or 22?",
+        answer: "Those totals are traditionally kept whole at the final step and read as master numbers. An 11 day is the heightened, intuitive version of 2, insight turned up with patience still required underneath. A 22 day is the master-builder version of 4, the day to pour foundations for something large. Not every school keeps them, so check the convention when comparing calculators."
+      },
+      {
+        question: "Does the Personal Day begin at midnight or at sunrise?",
+        answer: "This page follows the civil calendar: your number for 2 November runs from the start of that date. A minority tradition counts from local sunrise to the next sunrise instead. They agree for most waking hours, so pick one rule and stay with it."
+      },
+      {
+        question: "Which Personal Days suit decisions, money and difficult talks?",
+        answer: "In the tradition, 1 is the day to open negotiations and act alone, 8 the day to discuss money and sign with confidence, and 2 the day for a delicate conversation that needs listening. Seven counsels postponing a signature if you can, and 5 counsels double-checking impulsive plans. Real deadlines and real facts always outrank these pacing hints."
+      },
+      {
+        question: "Why is my Personal Day different from my partner's on the same date?",
+        answer: "Because the chain begins with your own birth month and day, not with the calendar. Two people sharing a home and a date usually have different Personal Years, so their months and days diverge too. When a couple does share one, the chains have simply aligned at every hop."
+      }
+    ]
+  },
+"house-numerology": {
+    guideTitle: "House Number Numerology: What Your Address Number Means",
+    guide: [
+      "Your house number has a numerology vibration found by adding its digits together and reducing the total to a single digit from 1 to 9, and that digit is traditionally read as the flavour of the home: the kind of energy it supports, the lessons it keeps presenting, and the atmosphere visitors tend to feel. It is a simple, transparent calculation you can check by hand in seconds, and it describes the home rather than the people.",
+      "The method handles letters as well as digits. If your address includes a letter, such as flat 17A or house 24B, convert the letter with the Pythagorean values, where A is 1, B is 2, C continues to I at 9, then J returns to 1 and the cycle repeats through the alphabet. Add the letter value to the digit total before reducing. For flats and apartments, use the flat or unit number as the primary vibration, and treat the building number as a quieter background influence on shared areas and neighbours.",
+      "Read the nine results in brief like this. A 1 home supports independence and fresh starts, a 2 home supports harmony and partnership, a 3 home supports creativity and social life, a 4 home supports stability and security, a 5 home supports change and freedom, a 6 home supports family and nurture, a 7 home supports study and quiet, an 8 home supports ambition and a focus on money, and a 9 home supports compassion and a humanitarian welcome. No number is lucky or unlucky in itself; each suits some households and stretches others."
+    ],
+    steps: [
+      "Write down the number of your house, flat or unit exactly as it appears on your door.",
+      "Add all the digits together, converting any letter with the Pythagorean values first.",
+      "Reduce the total by adding its digits until you reach a single digit from 1 to 9.",
+      "Read that digit as the primary vibration, with any building number as background only."
+    ],
+    resultMeaning: [
+      "Work through house 284 exactly. Add 2 plus 8 plus 4, which gives 14, then reduce 1 plus 4 to reach 5. This is a 5 home: change-loving, social and movement-filled, where routines rarely survive the month, guests and ideas circulate freely, and life feels like a crossroads in the best sense. Now take flat 17A. The digits 1 plus 7 give 8, and the letter A adds 1, making 9 in total. This is a 9 home, compassionate and generous, with an 8 undertone of order underneath: a completion-and-guests home where people arrive with problems and leave feeling heard.",
+      "The honest limit matters here. You cannot always choose your number, because homes are chosen for rent, schools, work and family first, and numerology should never overrule those practical reasons. The real value is understanding the flavour you are living with, so you can work with it deliberately: protect quiet in a lively 5 home, or add warmth and gathering in a private 7 home. Remedies in this tradition are symbolic and small, such as a door colour, a nameplate style or a healthy plant by the entrance, not structural advice or expensive changes."
+    ],
+    faqs: [
+      {
+        question: "How do I calculate my house number in numerology?",
+        answer: "Add the digits of your house, flat or unit number together, then keep adding the digits of the total until you reach a single digit from 1 to 9. If a letter is present, convert it with the Pythagorean values and include it before reducing. That final digit is the number you read."
+      },
+      {
+        question: "Which number should I use for a flat in a large building?",
+        answer: "Use your flat or unit number as the primary vibration, because it identifies your own home and the life lived inside it. Read the building number as background only, colouring entrances, shared spaces and the general feel of the building. Most practitioners weight the unit number far more heavily."
+      },
+      {
+        question: "Is there a best or luckiest house number?",
+        answer: "No. Each number from 1 to 9 supports something valuable and stretches something else: a 4 home is steady but can feel rigid, while a 5 home is lively but can feel unsettled. The best number is the one whose strengths match what your household needs in this chapter of life."
+      },
+      {
+        question: "What if my house number feels wrong for my family?",
+        answer: "Treat the mismatch as useful information rather than a problem to fix. A quiet family in a social 5 home can protect rest with closed doors and calmer evenings, while a busy family in a 7 home can add shared rituals. Small symbolic touches, such as colour or a plant, belong to the tradition; major decisions should stay practical."
+      },
+      {
+        question: "Do street names or postcodes count in house numerology?",
+        answer: "Traditionally, no. The standard method uses only the number, and any letter, of your own house or unit. Street names and postcodes cover too many different homes to describe yours specifically. Keep the calculation to the digits on your own door for a reading that is actually about your household."
+      }
+    ]
+  },
+  "jupiter-sign": {
+    guideTitle: "Jupiter Sign: Your Style of Growth, Luck and Opportunity",
+    guide: [
+      "Your Jupiter sign is the zodiac sign Jupiter occupied when you were born, and it describes your style of growth and luck: where opportunity tends to find you, how you learn, and what kind of generosity and faith come naturally to you. Jupiter spends about a year in each sign, so your Jupiter sign is shared with everyone born in the same stretch of months, yet it becomes personal through the house it occupies in your own chart: the sign shows the style of growth, while the house shows where in life that growth happens.",
+      "You can find your sign from your birth date using this tropical table, given at month precision. Jupiter was in Taurus from June 2011 to June 2012 and again from May 2023 to May 2024, in Gemini from June 2012 to June 2013 and from May 2024 to June 2025, in Cancer from June 2013 to July 2014 and from June 2025 to June 2026, and in Leo from July 2014 to August 2015, returning there from June 2026. It was in Virgo from August 2015 to September 2016, Libra from September 2016 to October 2017, Scorpio from October 2017 to November 2018, and Sagittarius from November 2018 to December 2019.",
+      "The table continues through the recent cycle. Jupiter was in Capricorn from December 2019 to December 2020, in Aquarius from December 2020 to December 2021 with a brief dip into Pisces from May to July 2021, in Pisces from December 2021 to December 2022 with a brief dip into Aries from May to October 2022, and in Aries from December 2022 to May 2023, before the Taurus period above. Jupiter returns to the same sign roughly every 12 years."
+    ],
+    steps: [
+      "Find your birth month and year and locate that period in the Jupiter table above.",
+      "Note the sign listed for that period as your tropical natal Jupiter sign.",
+      "Check whether your birth falls within a few weeks of a changeover month before deciding.",
+      "Read the sign as your growth style, then add its house in your full chart for where."
+    ],
+    resultMeaning: [
+      "A verified example shows both the table and the 12-year cycle at work. Someone born on 14 March 2024 has Jupiter in Taurus, because that date falls inside the May 2023 to May 2024 Taurus period. Someone born on 14 March 2012 also has Jupiter in Taurus, from the June 2011 to June 2012 period. The second birth is a Jupiter return across the 12-year cycle: two children a school generation apart sharing the same growth style. Taurus Jupiter grows through patience, craft, money sense and the senses, building luck slowly through quality, loyalty and things made to last rather than through gambles or speed.",
+      "Two cautions keep this reading honest. First, births within a few weeks of a changeover month need an exact chart, because Jupiter can cross a boundary, pause and cross back during retrograde motion. Second, do not mix systems. This table is tropical, as used in Western astrology. A Vedic, sidereal Jupiter is usually one sign earlier, because the sidereal zodiac sits about 24 degrees behind the tropical one through the ayanamsa. Both are coherent inside their own system; combining the two tables produces a result that belongs to neither."
+    ],
+    faqs: [
+      {
+        question: "How do I find my Jupiter sign from my birth date?",
+        answer: "Locate your birth month and year in the table in this guide and read the sign for that period. Jupiter stays in a sign for about a year, so the month is usually enough."
+      },
+      {
+        question: "What is a Jupiter return and when does it happen?",
+        answer: "A Jupiter return happens when transiting Jupiter comes back to the sign and position of your natal Jupiter, roughly every 12 years, near ages 12, 24, 36 and so on. Traditionally it marks a year of expanded opportunity and renewed direction in the area of life shown by the house Jupiter occupies in your chart."
+      },
+      {
+        question: "Does my Jupiter sign show where I will be lucky?",
+        answer: "It shows a style rather than a guarantee: the way opportunity tends to reach you and the attitude that helps you use it. Taurus Jupiter prospers through patience and craft, while Gemini Jupiter prospers through curiosity and contacts."
+      },
+      {
+        question: "Why is my Vedic Jupiter sign different from my Western one?",
+        answer: "Because the two traditions measure the sky from different starting points. Western charts anchor the zodiac to the spring equinox, while Indian charts anchor it to the constellations themselves, and Earth slow wobble has slid those two anchors roughly 24 degrees apart, the ayanamsa. The same Jupiter therefore frequently lands a sign earlier in a sidereal chart. Both describe the same planet through different frames, so keep each reading inside its own frame."
+      },
+      {
+        question: "Is Jupiter in Sagittarius or Pisces stronger than other signs?",
+        answer: "Traditionally, Jupiter rules Sagittarius and Pisces, so it is read as especially comfortable and expressive there, and it is exalted in Cancer. A well-placed Jupiter can still be wasted without effort, however, and a challenging placement often produces wisdom through experience."
+      }
+    ]
+  },
+  "chakra-balance": {
+    guideTitle: "Chakra Balance: The Seven Energy Centres Explained Honestly",
+    guide: [
+      "A chakra balance reading looks at the seven chakras of the yogic tradition, the energy centres running from the base of the spine to the crown of the head, and asks which feel strong and open in your life right now and which feel quiet or blocked. Each centre is linked with an area of experience, from survival and security to expression and connection, so the pattern gives you a structured way to reflect on where your energy flows easily and where it habitually gets stuck. Read it as a self-reflection framework from a wellness tradition, not as anything more.",
+      "The standard table runs like this. Muladhara, the Root chakra, sits at the base of the spine, with the earth element, the seed sound LAM and the colour red, covering survival and security. Svadhisthana, the Sacral chakra, sits below the navel, with water, VAM and orange, covering emotion and creativity. Manipura, the Solar Plexus chakra, carries fire, RAM and yellow, covering will and personal power. Anahata, the Heart chakra, carries air, YAM and green, covering love and balance. Vishuddha, the Throat chakra, carries ether, HAM and blue, covering expression and truth. Ajna, the Third Eye, sits between the brows, with the sound OM and indigo, covering insight. Sahasrara, the Crown, sits at the top of the head, in violet or white, covering connection itself.",
+      "Balance in this tradition does not mean all seven centres blazing at maximum. A centre can be underactive, steady or overactive, and an overactive centre distorts life just as a quiet one does: an overactive Solar Plexus can become controlling, just as an underactive one can become passive. The aim practitioners describe is flow, where each centre does its own job without drowning out the others."
+    ],
+    steps: [
+      "Sit quietly and review your recent weeks honestly, area by area, before reading any result.",
+      "Work through the seven centres in order, from Root to Crown, noting strong and quiet ones.",
+      "Look for patterns between neighbouring centres rather than judging any single chakra alone.",
+      "Choose one gentle, practical practice for the quietest centre and repeat it for two weeks."
+    ],
+    resultMeaning: [
+      "Read a sample profile to see how this works in practice. Imagine a result showing a strong Heart chakra but a weak Throat chakra. In the traditional reading, this person gives generously, forgives easily and keeps relationships warm, yet struggles to say no, to ask for help, or to speak their own needs out loud, so generosity quietly turns into exhaustion and unspoken resentment. The suggested practices follow the pattern directly: humming, singing and honest conversation to open the throat, and calm breathwork, slowing the exhale, to keep the heart open without overextending it. The insight is the pairing, not either centre alone.",
+      "The honesty note is required, not decorative. Chakras belong to the yogic wellness tradition, and balance here means a pattern for reflection, not a medical assessment of your body or mind. This reading cannot diagnose anything, rule anything out, or replace care from a doctor, therapist or other qualified professional. Used within those limits, the framework earns its place: it gives you a calm vocabulary for noticing where life feels open, where it feels tight, and what small practice you want to try next."
+    ],
+    faqs: [
+      {
+        question: "What are the seven chakras in order?",
+        answer: "From the base of the spine upward they are Muladhara, the Root, for security; Svadhisthana, the Sacral, for emotion and creativity; Manipura, the Solar Plexus, for will; Anahata, the Heart, for love; Vishuddha, the Throat, for expression; Ajna, the Third Eye, for insight; and Sahasrara, the Crown, for connection. Each carries a traditional element, colour and seed sound."
+      },
+      {
+        question: "What does a blocked or weak chakra actually mean here?",
+        answer: "In this framework it means the life area linked with that centre currently feels quiet, avoided or difficult, based on your own reflection. A weak Throat pattern, for example, points to unspoken needs rather than a physical fault in your throat. It is a prompt for attention and practice, never a diagnosis of illness."
+      },
+      {
+        question: "Can chakra balance affect my physical health?",
+        answer: "Chakra work belongs to a spiritual wellness tradition and is not a substitute for medicine. Gentle practices linked with it, such as breathing exercises, movement, rest and honest conversation, can support general wellbeing. Any symptom that persists or worries you should be checked by a qualified health professional."
+      },
+      {
+        question: "How often should I check my chakra balance?",
+        answer: "Practitioners usually suggest checking in at natural turning points, such as a new season, after a stressful period, or when a pattern like poor sleep or constant tension keeps repeating. Daily scoring tends to create noise."
+      },
+      {
+        question: "What is the simplest practice for a quiet chakra?",
+        answer: "walking and regular meals for the Root, creative play for the Sacral, finishing one task daily for the Solar Plexus, gratitude and breathwork for the Heart, singing or honest conversation for the Throat, quiet reflection for the Third Eye, and stillness or time in nature for the Crown. Consistency matters more than intensity."
+      }
+    ]
+  },
+  "leadership-astrology": {
+    guideTitle: "Leadership Astrology: What Your Chart Says About How You Lead",
+    guide: [
+      "A leadership astrology reading does not ask whether you were born to rule; it asks how you lead when people look to you: visibly or quietly, fast or patiently, through inspiration, systems or example. Astrologers read that style from a small set of chart factors working together, not from one placement, and the honest version of this reading describes a leadership style and its growth edges. It never assigns a rank, a job title or a guaranteed outcome.",
+      "The chart factors taught for this reading are consistent across the tradition. The Sun shows direction, visibility and authority style: how you take up space and set a course. Mars shows drive, decision speed and courage: how quickly you act and how you handle conflict. Saturn shows structure, endurance and discipline: whether your leadership can last beyond enthusiasm. The 10th house, and the planet ruling it, show your public role and reputation, the part of leadership the world actually sees. Strong Leo, Capricorn or Aries placements add their own colour: Leo brings presence and loyalty, Capricorn brings patience and institution-building, and Aries brings initiative and a willingness to go first.",
+      "No single factor decides the picture, and strength in one area often compensates for softness in another. A person with a modest Sun but a powerful Saturn may lead for decades through reliability, while a blazing Mars with a weak Saturn starts brilliantly and burns out. Read the factors as a team: the Sun sets direction, Mars supplies momentum, Saturn supplies staying power, and the 10th house shows where that combination becomes visible."
+    ],
+    steps: [
+      "Identify your Sun sign and house first, for your direction and authority style.",
+      "Note your Mars sign and house next, for drive, pace and courage under pressure.",
+      "Check Saturn and your 10th house and its ruler, for endurance and public role.",
+      "Read the factors together as one leadership style, including its growth edge."
+    ],
+    resultMeaning: [
+      "Learn to recognise this illustrative chart pattern. Imagine a Sun in Leo in the 10th house, joined with Mars exalted in Capricorn. The Leo Sun in the house of public role gives a visible, commanding presence: this person naturally becomes the face of a project and is comfortable being watched. Mars exalted in Capricorn adds the rarer second half, disciplined execution: plans, deadlines and follow-through that survive long after the applause. Together astrologers would call this pattern the front-of-room strategist, someone who can both hold the room and hold the plan. Treat this as a pattern to recognise in a chart, clearly an illustration, not a computed promise about any individual.",
+      "Balance the picture before using it. Quiet signs lead too, and often lead organisations that last. Scorpio leadership works through depth, privacy and an exact knowledge of where the real problems sit, while Capricorn leadership works through patience, hierarchy and results that compound over years. A chart with no dramatic placements can still belong to an outstanding leader, because leadership in real life is also skills practised daily, mentors who correct you, and timing that meets preparation. The chart suggests the style you will lead in most naturally; character and work decide how far that style takes you."
+    ],
+    faqs: [
+      {
+        question: "Which planets matter most for leadership in astrology?",
+        answer: "The Sun leads the list, showing direction, visibility and authority style, followed by Mars for drive and decision speed and Saturn for structure and endurance. The 10th house and its ruling planet complete the picture by showing public role and reputation. A good reading weighs all of them together rather than crowning one placement."
+      },
+      {
+        question: "Can a quiet or introverted chart still belong to a strong leader?",
+        answer: "Yes, commonly. Scorpio, Capricorn and Virgo emphasis often produces leaders who work through depth, preparation and systems rather than visibility. Their authority grows from being right, reliable and calm under pressure."
+      },
+      {
+        question: "What does a strong 10th house say about leadership?",
+        answer: "The 10th house governs public role, career and reputation, so strength there suggests leadership that becomes visible and recognised over time. Benefic planets there, or a strong ruler of the house, support a good public name. It describes where leadership shows, though the Sun, Mars and Saturn still describe how it operates day to day."
+      },
+      {
+        question: "Does my chart guarantee leadership success?",
+        answer: "No chart guarantees success, rank or promotion, and any reading claiming otherwise should not be trusted. Astrology here describes style, strengths and likely blind spots. Outcomes depend on skills, effort, mentors, circumstances and timing. Use the reading to lead in your natural mode and to train its weak side deliberately."
+      },
+      {
+        question: "How can I use a leadership reading practically?",
+        answer: "Take one strength and one growth edge into your next project. A fast Mars leader can add a Saturn habit, such as written plans and fixed reviews, while a cautious Saturn leader can add a Mars habit, such as deciding by a deadline. Small borrowed habits, practised consistently, change leadership more than any label does."
+      }
+    ]
+  },
+  "dhan-yoga-calculator": {
+    guideTitle: "Dhan Yoga: The Classical Vedic Combinations for Wealth",
+    guide: [
+      "A Dhan Yoga is a classical Vedic astrology combination linking the houses of wealth, gains and fortune in a birth chart, and it is traditionally read as structural potential for prosperity: the chart contains a working circuit between earning, keeping and growing resources. Several distinct combinations carry the name, and a careful reading checks which of them are actually present, how strong the planets involved are, and whether anything weakens them. What a Dhan Yoga never is, on its own, is a bank balance, a salary forecast or a promise, and this guide will keep that line clear throughout.",
+      "The combinations taught most often are these. First, the core Lakshmi pattern: the lords of the 5th and 9th houses connected, by conjunction, by exchanging signs, or by standing in mutual kendras. Second, the Lagna lord joined with or aspecting the 2nd lord or the 11th lord, connecting the self with the houses of wealth and gains. Third, Gaja Kesari Yoga: Jupiter placed in a kendra, the 1st, 4th, 7th or 10th house, counted from the Moon, traditionally linked with intelligence, respect and lasting prosperity. Fourth, Lakshmi Yoga in its stricter form: the 9th lord strong in its own sign or exaltation sign, placed in a kendra or trikona, with Venus also well placed in the chart.",
+      "Strength decides how much weight any of these patterns carries. A yoga formed by debilitated, combust or badly placed lords is read as a faint version of itself, while the same combination with strong, well-placed planets is taken seriously. Classical readers also check that the wealth houses themselves are not heavily afflicted, and they read the whole chart rather than collecting yogas like trophies."
+    ],
+    steps: [
+      "Cast the sidereal Vedic chart and identify the lords of the 2nd, 5th, 9th and 11th houses.",
+      "Check whether the 5th and 9th lords are conjunct, exchanging signs or in mutual kendras.",
+      "Check the Lagna lord against the 2nd and 11th lords, and Jupiter in a kendra from the Moon.",
+      "Judge the strength and placement of every planet involved before naming any yoga present."
+    ],
+    resultMeaning: [
+      "Use this verified worked example exactly. Take a Leo Lagna chart. The 5th house is Sagittarius, so the 5th lord is Jupiter, and the 9th house is Aries, so the 9th lord is Mars. If Mars and Jupiter are conjunct together in the 10th house, which is Taurus for this Lagna, then the 5th and 9th lords meet in a kendra, and that is a textbook Dhan Yoga: merit and fortune joined in the house of career and public action. Now run the Gaja Kesari check in the same chart. If the Moon is in Scorpio, then Jupiter in Taurus stands in the 7th house counted from the Moon, and the 7th is a kendra, so Gaja Kesari Yoga is also present in this chart.",
+      "The required framing protects you from the common misuse of this topic. A yoga is structural potential in the chart, not money in an account, and classical astrology itself reads its results through the dasha periods that activate the planets involved: a Dhan Yoga whose lords are dormant may show little until their periods run. Effort, skills, education, family circumstances and plain luck all stand between a chart pattern and an outcome. Never treat a yoga, present or absent, as financial advice, and never make borrowing, investing or career decisions on this reading alone."
+    ],
+    faqs: [
+      {
+        question: "What is a Dhan Yoga in Vedic astrology?",
+        answer: "A Dhan Yoga is a classical combination linking the houses of wealth, gains and fortune, most famously the lords of the 5th and 9th houses in connection with each other or with strong houses. It is read as structural potential for prosperity in the chart."
+      },
+      {
+        question: "What is Gaja Kesari Yoga and how is it checked?",
+        answer: "Gaja Kesari Yoga forms when Jupiter stands in a kendra, the 1st, 4th, 7th or 10th house, counted from the Moon rather than from the Lagna. It is traditionally linked with intelligence, reputation and durable prosperity."
+      },
+      {
+        question: "If I have a Dhan Yoga, will I become rich?",
+        answer: "No honest reading promises that. A Dhan Yoga shows potential whose results are traditionally timed by the dasha periods of the planets involved, and which still depends on effort, skills and circumstances. Treat it as encouragement to build, not a forecast."
+      },
+      {
+        question: "Can a Dhan Yoga be weakened or cancelled?",
+        answer: "Yes. Classical texts reduce a yoga when its planets are debilitated, combust, placed in the difficult 6th, 8th or 12th houses, or heavily afflicted by malefics. Weak dignity turns a headline combination into a modest one."
+      },
+      {
+        question: "What if my chart has no Dhan Yoga at all?",
+        answer: "It is common, and it is not a verdict on your financial life. Wealth is also read from the 2nd and 11th houses, their lords, Jupiter and Venus, and from career houses that have nothing to do with named yogas."
+      }
+    ]
+  },
+  "lifepath-compatibility": {
+    guideTitle: "Life Path Compatibility: How Two Numbers Work as a Couple",
+    guide: [
+      "Life Path compatibility compares the Life Path numbers of two partners to describe how their basic temperaments meet: where the relationship flows easily, where it grinds, and what the pair keeps teaching each other. Each Life Path is calculated from the birth date by reducing the month, day and year separately to single digits, adding those three results, and reducing again. The pair is then read in two layers: the two numbers side by side, and their combined total, which describes the relationship itself as a third character in the story.",
+      "The temperaments in brief run like this. A 1 partner brings initiative and independence, a 2 brings sensitivity and peacemaking, a 3 brings play, words and social warmth, a 4 brings loyalty and structure, a 5 brings change and appetite for experience, a 6 brings devotion and responsibility, a 7 brings depth and a need for space, an 8 brings ambition and directness, and a 9 brings compassion and big-picture meaning. An 11 partner is read as 11, intuitive and intense, with a 2 undertone.",
+      "Read compatibility as a lens on dynamics, never as a verdict. Traditional numerology calls some pairs naturally harmonious and others growth pairs, but harmonious only means the friction is lower, not that the love is greater, and a growth pair often produces the stronger bond once both people understand the pattern. Any pair can work, and plenty of effortless-looking pairs fail through neglect."
+    ],
+    steps: [
+      "Reduce each partner birth month, day and year separately, then add and reduce for each Life Path.",
+      "Keep 11, 22 or 33 unreduced if one appears as a final Life Path total.",
+      "Read the two numbers side by side for temperament, ease and likely friction points.",
+      "Add the two Life Paths and reduce to find the couple number, the relationship theme."
+    ],
+    resultMeaning: [
+      "Work through this verified example exactly. Partner 1 was born on 14 June 1990: the month is 6, the day 14 reduces to 5, and the year 1990 reduces through 19 to 1, so 6 plus 5 plus 1 gives 12, which reduces to a Life Path 3. Partner 2 was born on 25 December 1988: the month 12 reduces to 3, the day 25 reduces to 7, and the year 1988 reduces through 26 to 8, so 3 plus 7 plus 8 gives 18, which reduces to a Life Path 9. The pair is 3 and 9, both at the expressive, idealistic end of the spectrum: 3 brings play, words and social warmth, while 9 brings depth, compassion and big-picture meaning, and tradition counts this among the naturally harmonious pairs.",
+      "Their combined couple number completes the reading. Adding 3 plus 9 gives 12, which reduces to 3, so the relationship itself runs on a 3 theme: this couple does best when they create things together and talk everything out, keeping life shared, verbal and playful. Name the growth edge honestly, because every pair has one. Here, the 3 partner can dodge the heavy conversations the 9 partner genuinely needs, while the 9 partner can turn intense and all-encompassing where the 3 partner needs lightness and air. Neither habit is a flaw: the 3 teaches the 9 to surface, and the 9 teaches the 3 to stay in the room."
+    ],
+    faqs: [
+      {
+        question: "How is Life Path compatibility calculated?",
+        answer: "First calculate each partner Life Path by reducing the birth month, day and year separately, adding the three results and reducing again, keeping master numbers as final totals. Then read the two numbers together for temperament and friction, and add them for a couple number. The method is identical for both partners, which keeps the comparison fair."
+      },
+      {
+        question: "Which Life Path pairs are considered most compatible?",
+        answer: "Tradition favours pairs sharing an element of temperament: 1 with 3 and 5, 2 with 6 and 9, 3 with 5, 7 and 9, 4 with 6 and 8, and similar easy groupings. These describe lower friction, not better love."
+      },
+      {
+        question: "What does the couple number mean in a reading?",
+        answer: "The couple number is the reduced sum of the two Life Paths, and it describes the relationship itself: its shared theme, its habits and what it asks of both people. A couple number of 3 needs creation and conversation, while a 6 needs home and mutual care."
+      },
+      {
+        question: "How do master numbers affect compatibility?",
+        answer: "A partner with an 11, 22 or 33 Life Path is read on two levels: the master number on top and its reduced base, 2, 4 or 6, underneath. An 11 partner brings intuition and intensity with a sensitive 2 undertone, so they need both inspiration and gentleness."
+      },
+      {
+        question: "Can an incompatible Life Path pairing still succeed?",
+        answer: "Yes, and numerology at its most honest says so plainly. Compatibility describes dynamics: where ease lives and where work lives. It cannot measure commitment, kindness, attraction or timing, which decide real outcomes."
+      }
+    ]
+  },
 };

@@ -45,6 +45,25 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "parent-child-astrology": "2026-11-02",
   "spirit-animal": "2026-11-02",
   "gemstone": "2026-11-02",
+  // Phase B enrichment batches 4-5 + GSC striking-distance pulls (2 Nov 2026)
+  "vertex": "2026-11-02",
+  "horoscope": "2026-11-02",
+  "in-laws-compatibility": "2026-11-02",
+  "pitra-dosha": "2026-11-02",
+  "career-tarot": "2026-11-02",
+  "composite-chart": "2026-11-02",
+  "breakup-recovery": "2026-11-02",
+  "shani-dhaiya": "2026-11-02",
+  "vehicle-numerology": "2026-11-02",
+  "aura-color": "2026-11-02",
+  "daily-panchang": "2026-11-02",
+  "personal-day": "2026-11-02",
+  "house-numerology": "2026-11-02",
+  "jupiter-sign": "2026-11-02",
+  "chakra-balance": "2026-11-02",
+  "leadership-astrology": "2026-11-02",
+  "dhan-yoga-calculator": "2026-11-02",
+  "lifepath-compatibility": "2026-11-02",
 };
 
 export function toolLastModified(slug: string): Date {
