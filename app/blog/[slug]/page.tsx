@@ -31,7 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${post.title} | BIGThreeAstrology`,
     description: post.metaDescription,
     path: `/blog/${params.slug}`,
-    image: post.image || undefined
+    // Prisma BlogPost has no image column; sample posts do — read it loosely.
+    image: (post as { image?: string }).image || undefined
   });
 }
 
