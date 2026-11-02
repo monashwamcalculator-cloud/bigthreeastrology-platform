@@ -2735,4 +2735,644 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       }
     ]
   },
+  "destiny-number": {
+    guideTitle: "Expression Destiny Number Calculator Guide and Meaning",
+    guide: [
+      "Your destiny number, also called the expression number, comes from adding up every letter in your complete birth name and shrinking that total down. Readers treat it as a sketch of the abilities you arrived with and the direction your working life keeps pulling toward. People frequently recognise it in subjects that felt unusually easy at school, pastimes they returned to without prompting, or praise received long before any profession was chosen. Practitioners therefore describe it as capacity awaiting development rather than a storyline already written, which keeps the reading grounded: the number points at raw material, while schooling, practice and circumstance decide what gets built from it.",
+      "The method here follows the Pythagorean table, where letters map to digits from one to nine in repeating order. Vowels and consonants both count, because this particular calculation wants the whole name rather than a slice of it, and capitals or spacing make no difference to the adding. Each separate name is first totalled on its own, then shrunk, and only afterwards are those shrunken part-scores combined. Working in stages matters because it preserves Master Numbers that appear inside one name part. Spelling follows the birth record even when a person later shortens, respells or drops part of the name in daily use, since the calculation anchors itself to the earliest registered form.",
+      "A one leans toward leading and starting, two toward mediating, three toward expressing ideas, four toward building steadily, five toward movement and variety, six toward responsibility and care, seven toward research and depth, eight toward organising resources, and nine toward teaching or humanitarian work. Totals of eleven, twenty-two and thirty-three are often left unreduced as Master Numbers, linked with heightened sensitivity, large-scale building and devoted service respectively. Treat these sketches as starting points rather than labels. Two people sharing a root may express it through completely unrelated occupations, one quiet and technical, another public and verbal, because upbringing, culture and the remaining numbers in a full reading all bend the expression. Comparing your result against lived experience, noticing where the description fits and where it plainly does not, produces a far more useful reading than accepting any single paragraph as settled fact."
+    ],
+    steps: [
+      "Write out your full birth name as recorded, including any middle names given at birth.",
+      "Convert each letter using the Pythagorean chart shown on the tool, then add each name part separately.",
+      "Shrink each part total by adding its digits together, keeping eleven, twenty-two or thirty-three if they appear.",
+      "Add the reduced parts together and shrink once more if needed, then read the final destiny number."
+    ],
+    resultMeaning: [
+      "Take Sanjay Kapoor as a worked illustration. SANJAY converts as S1 A1 N5 J1 A1 Y7, which sums to 16 and then shrinks to 7. KAPOOR converts as K2 A1 P7 O6 O6 R9, which sums to 31 and then shrinks to 4. Putting the two parts together gives 7 plus 4 equals 11, and here the calculator stops, because 11 is kept as a Master Number instead of being reduced further to 2, suggesting intuitive insight paired with the underlying two themes of cooperation and balance.",
+      "Separating this result from its neighbours prevents muddled readings. Your whole name produces the destiny figure and speaks about talents plus outward direction. Counting vowels alone gives the soul urge, which describes private longing. Counting consonants alone gives the personality number, which describes the impression other people meet first. Each lens answers a different question, so blending them weakens all three."
+    ],
+    faqs: [
+      {
+        question: "Should I use my married name or my birth name for destiny?",
+        answer: "Tradition works from the name given at birth, because that is treated as the original blueprint you started life with. A name adopted later is often read separately as a secondary influence on current circumstances rather than a replacement for the birth calculation."
+      },
+      {
+        question: "What happens if my full name total lands on eleven exactly?",
+        answer: "Most Pythagorean readers pause at eleven and read it as a Master Number before considering its root of two. That means heightened intuition, nervous energy and inspirational potential sit alongside ordinary partnership and sensitivity themes, and both layers are usually mentioned together."
+      },
+      {
+        question: "Does the Chaldean system give a different destiny number result?",
+        answer: "It can, because the Chaldean table assigns different values to several letters and never uses nine for a single letter. The same spelling may therefore total differently and shrink to another root. This guide works the Pythagorean table step by step, so follow one system consistently."
+      },
+      {
+        question: "Can my destiny number tell me which career I must choose?",
+        answer: "No figure can hand down a career verdict. Readers use it as an interpretive lens on talents, work style and the kinds of challenges that feel meaningful. Training, opportunity, health and personal preference shape actual choices far more directly than any name total."
+      },
+      {
+        question: "Why do middle names change my expression number so much sometimes?",
+        answer: "Every additional letter contributes its value, so a long middle name can shift a borderline total into a completely different root. That is why accuracy about the exact birth record matters. If no middle name was given, calculate without inventing one to fill the gap."
+      }
+    ]
+  },
+  "manglik-dosha": {
+    guideTitle: "Manglik Dosha Checker Guide Placement and Cancellations",
+    guide: [
+      "The Manglik Dosha Checker looks at where Mars sits in a Vedic birth chart and flags a traditional pattern linked with drive, assertiveness and friction in close partnerships. It is a placement pattern found in a large share of charts, not a curse and not a ban on marriage. Mars represents energy, temper and the urge to act quickly. Placed near partnership-sensitive chart areas, that energy was historically read as needing care inside marriage, and the label grew from that concern. Modern practitioners increasingly translate the same placement into plain language about impatience, competitiveness or blunt speech, qualities every couple negotiates regardless, which removes much of the dread older terminology carries.",
+      "Classical checking counts Mars placed in the first, fourth, seventh, eighth or twelfth house. The assessment is traditionally repeated from three reference points: the ascendant or Lagna, the Moon sign, and Venus. A pattern showing from only one reference is generally weighed more lightly than one repeating from several. Some schools also exempt certain placements by sign or by house lordship, and a few apply the count only before a particular age or only for the first marriage, which explains why two reports on the same chart occasionally disagree. The tool follows the widely used three-reference approach and then asks you to weigh exceptions, giving a balanced middle path.",
+      "Cancellations, called bhanga, belong to the classical system itself rather than being later excuses. Standard ones include Mars occupying its own signs Aries or Scorpio, Mars exalted in Capricorn, and Mars sitting in Jupiter-ruled Sagittarius or Pisces according to many traditions. When both partners carry the pattern, astrologers often treat the effects as balanced between them. A benefic planet aspecting Mars, particularly Jupiter, features in many cancellation lists, as does Mars weakened or softened by house placement in certain regional traditions. The practical takeaway is procedural: never accept a Manglik verdict that skipped the cancellation stage, because the classical authors built exceptions into the doctrine from the start. A checker that reports placement and cancellations side by side mirrors how a careful astrologer delivers this judgement."
+    ],
+    steps: [
+      "Enter the birth details the tool requests so it can place Mars by house from your ascendant.",
+      "Note whether Mars falls in the first, fourth, seventh, eighth or twelfth house from the Lagna.",
+      "Repeat the house count from the Moon and from Venus, recording how many references show the pattern.",
+      "Run through cancellation checks before reading any verdict, including Jupiter aspects and Mars sign dignity."
+    ],
+    resultMeaning: [
+      "Consider a chart with Aries ascendant and Mars in Libra in the seventh house, so the pattern shows by placement from the Lagna. The Moon sits in Taurus, and counting from the Moon that same Mars falls in the sixth house, which is not one of the counted houses, so the dosha shows from one reference point only. Now check cancellation: Jupiter sits in Aries in the first house, and Jupiter's seventh aspect lands exactly on Libra and Mars, one of the classical cancellation conditions, so the verdict becomes present-by-placement yet cancelled-in-effect.",
+      "That layered verdict matters more than a simple yes or no label. Strength of Mars, the condition of the seventh house ruler, and supportive aspects all modify how assertive energy plays out in a relationship. A popular belief says the dosha softens after age twenty-eight; treat that as popular tradition rather than a classical rule. No remedy should ever be presented as a guaranteed fix, and compatibility rests on far more than a single planet."
+    ],
+    faqs: [
+      {
+        question: "How common is Manglik dosha and should I worry about it?",
+        answer: "By the usual house rules a substantial proportion of charts qualify from at least one reference point, which is precisely why panic makes little sense. Astrologers treat it as information about temperament and pacing in partnership, best considered calmly alongside the rest of the chart."
+      },
+      {
+        question: "If both partners are Manglik does the dosha cancel out completely?",
+        answer: "Many traditions hold that two Manglik partners balance each other's Mars energy, so the pairing is considered neutralised in practical terms. Strength and house placement still get compared individually, and modern readers also weigh communication habits and shared expectations, which no chart matching can replace."
+      },
+      {
+        question: "Does Manglik dosha become weaker after the age of twenty-eight?",
+        answer: "That idea circulates widely as popular tradition, linked loosely to Mars maturing with age and people settling into steadier temperaments. Classical texts do not state a universal expiry at twenty-eight, so readers who mention it usually label it as folk belief rather than doctrine."
+      },
+      {
+        question: "Which cancellations are most commonly accepted by Vedic astrologers today?",
+        answer: "Frequently cited conditions include Mars in Aries or Scorpio, exaltation in Capricorn, placement in Sagittarius or Pisces ruled by Jupiter, a strong Jupiter aspect onto Mars, and a comparably placed Mars in the partner's chart. Different schools weight these differently, so reports vary between practitioners."
+      },
+      {
+        question: "Can remedies remove Manglik dosha from my birth chart permanently?",
+        answer: "A birth chart placement cannot be edited by any ritual, donation or gemstone, and honest practitioners avoid promising removal. Traditional practices are framed as devotional or psychological support for patience and anger management. Anyone guaranteeing a cure in exchange for payment deserves considerable scepticism."
+      }
+    ]
+  },
+  "birthday-number": {
+    guideTitle: "Birthday Number Calculator Guide Day Talent Meaning",
+    guide: [
+      "Your birthday number isolates just the calendar day you were born on and turns it into a single digit describing one specific inborn talent. Unlike calculations that blend your entire birth date, this one ignores month and year completely and spotlights a gift you can usually recognise in everyday behaviour. Because the ingredient list is so short, beginners often learn this calculation first, and readers use it as a quick character clue when meeting a chart. It will not summarise a personality, yet the talent it names tends to surface reliably: in classroom habits, workplace shortcuts, family roles and tasks friends instinctively hand that person.",
+      "The working is deliberately small. Days one to nine stay exactly as they are. Two-digit days get split and added, and if that sum still has two digits the process repeats until one digit remains. What survives is the root number, while the original day is kept in view for extra flavour. Keeping both layers matters because reduction erases information even as it reveals the root. A nineteenth, a twenty-eighth and a plain first all arrive at one, yet nobody experiences them identically. Writers therefore record the full day beside the root whenever they publish an interpretation, allowing late-month readers to see their compound influences acknowledged rather than flattened away.",
+      "Single days carry straightforward signatures: one starts, two cooperates, three communicates, four organises, five adapts, six nurtures, seven investigates, eight executes and nine empathises widely. Compound days layer meanings, so a twenty-eight blends diplomatic two and executive eight beneath its root. Births on the eleventh and twenty-second are often read both as master-flavoured days and as their roots two and four. Later compound days develop their own personalities in longer references: twelve leans expressive yet restless, twenty leans patient and receptive, twenty-four leans devoted and domestic, and thirty leans performative with a serious undertow. You need not memorise every combination, because the working rule stays constant. Read the root for the headline talent, then glance back at the tens digit and units digit to understand the route that talent prefers to travel."
+    ],
+    steps: [
+      "Look at your birth date and pick out only the day of the month, ignoring everything else.",
+      "If the day has two digits, add them together to get a smaller sum for the next step.",
+      "If that sum still has two digits, add its digits once more until a single digit remains.",
+      "Read that single digit as your birthday number, keeping the original day in mind for nuance."
+    ],
+    resultMeaning: [
+      "Suppose someone arrived on the twenty-eighth of their birth month. Adding the day digits gives 2 plus 8 equals 10, and one more pass gives 1 plus 0 equals 1. The headline talent therefore reads as number one: initiative, self-starting energy and willingness to go first. Yet the ingredients remain audible underneath, because the two contributes diplomacy and the eight contributes executive drive, so this particular one tends to lead through negotiation and organised ambition rather than going it entirely alone.",
+      "Keep this figure in its proper lane when comparing it with other numbers in a chart. The whole-date life path calculation sketches the broader road and its recurring lessons, whereas the birthday figure names a narrower tool you already handle well. Readers often notice the birthday talent showing up early in childhood, long before life path themes mature, which is why teachers and family members frequently confirm it from memory."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between birthday number and life path number?",
+        answer: "The birthday figure uses only the day of the month and describes one ready-made talent. The life path uses day, month and year together and outlines wider life direction and lessons. One names a tool in your hand; the other describes the journey that tool gets used on."
+      },
+      {
+        question: "Do I need my birth month or year for this calculation?",
+        answer: "Neither is required. The method deliberately strips the date down to its day component alone, which makes it the quickest of the core numerology calculations. You only need to know whether you were born on, for example, the ninth or the twenty-ninth of the month."
+      },
+      {
+        question: "How are birthdays on the eleventh and twenty-second usually interpreted?",
+        answer: "Readers commonly give these days a double treatment. The eleventh is read with master-number sensitivity and inspiration while still reducing to two, and the twenty-second with master-builder ambition while still reducing to four. Both the heightened flavour and the practical root are kept in the interpretation."
+      },
+      {
+        question: "What does a compound birthday like twenty-ninth add to interpretation?",
+        answer: "The root comes first: two plus nine makes eleven, then one plus one makes two. But the compound ingredients colour delivery, so intuition from eleven and compassion from nine shape how the cooperative two expresses itself. Ignoring the original day flattens readings that should feel personal."
+      },
+      {
+        question: "Can my birthday number change if documents record a different date?",
+        answer: "The calculation follows whatever date is entered, so a corrected birth record produces a corrected result. Families sometimes discover hospital paperwork differing from celebrated birthdays by a day. Numerologists generally work from the legally recorded date, while acknowledging the uncertainty honestly when records genuinely conflict."
+      }
+    ]
+  },
+  "2nd-11th-house-money": {
+    guideTitle: "Money Attraction House Reader Second Eleventh Houses",
+    guide: [
+      "The Money Attraction House Reader examines two Vedic chart houses tied to finances: the second, covering accumulated assets, savings, stored resources and family wealth, and the eleventh, covering gains, income networks, recurring profits and wishes fulfilled through larger circles. Together they show how money is held and how it arrives. Astrologers pair them because income alone tells an incomplete story; a chart can promise lively gains while its second house struggles to retain anything, or show modest earnings paired with exceptional retention that quietly overtakes flashier earners. Looking at both houses in one sitting exposes that tension between inflow and storage, and it is usually the relationship between the two, that produces the most recognisable portrait.",
+      "Reading them starts with identifying each house's sign and its ruling planet, then noting where that ruler sits and which planets occupy the houses themselves. Connections between the two houses, especially their rulers influencing each other, are traditionally treated as channels where earning and keeping reinforce one another rather than leaking apart. Aspects from other planets add further texture: a ruler receiving Jupiter's aspect is traditionally read as steadier growth, while heavy affliction is read as friction, delay or competing demands on the same resources. A house holding its own ruler or a well-placed benefic is generally considered better supported than one whose ruler sits in a difficult position elsewhere.",
+      "Charts with a fortified second often belong to patient accumulators who build reserves quietly, while charts emphasising the eleventh frequently earn through contacts, audiences, communities or multiple streams. Saturn placed in either house tends to slow results yet reward persistence and structure. Rahu there typically amplifies appetite for growth, sometimes bringing unconventional income routes alongside restlessness about enough. Occupants matter, but an empty house is not an inactive one; its ruler carries the topic wherever it goes, which is why tracing rulers always outranks simply glancing at planets inside the houses. Finally, remember that the second also governs speech and food while the eleventh governs elder siblings and aspirations, so money themes intertwine with family habits and long-term hopes in any complete interpretation."
+    ],
+    steps: [
+      "Find your ascendant first, since every house count in the chart begins from that rising sign.",
+      "Identify the signs on the second and eleventh houses and note the ruling planet of each sign.",
+      "Locate where both ruling planets sit by house and sign, and list any planets inside the houses.",
+      "Check whether the two rulers connect by exchange, aspect or conjunction, then read the combined money pattern."
+    ],
+    resultMeaning: [
+      "Picture a Taurus ascendant chart. The second house is Gemini, ruled by Mercury, while the eleventh house is Pisces, ruled by Jupiter. In this example Jupiter sits in Gemini in the second house while Mercury sits in Pisces in the eleventh, so the two money-house lords occupy each other's houses. Traditions call that arrangement an exchange, and read it as earnings and savings feeding one another: gains get stored instead of evaporating, and stored resources get reinvested to generate fresh gains through networks, teaching, trade or advisory work.",
+      "Treat any reading here as a description of patterns and habits, never as an income promise. A beautifully linked pair of houses can sit unused without skills, effort and sensible choices, while a supposedly awkward setup often belongs to people who built strong money discipline precisely because nothing arrived automatically. Markets, health, family duties and timing all intervene. Use the chart to notice tendencies, then let budgets, records and real decisions carry the actual weight."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between second house and eleventh house money?",
+        answer: "The second describes what you keep: savings, possessions, stored value and the family resources you started with. The eleventh describes what flows in through gains, bonuses, profits and networks. Healthy finances need both movements, because earning without keeping leaks away and keeping without earning stagnates."
+      },
+      {
+        question: "What does an exchange between money house rulers actually mean?",
+        answer: "An exchange happens when each house's ruler sits in the other's house, creating a two-way link. Readers interpret it as cooperation between the areas involved, here income generation and wealth retention. It suggests opportunity for circulation, though effort and circumstances still determine what materialises in practice."
+      },
+      {
+        question: "Does a strong eleventh house guarantee high income in life?",
+        answer: "No house configuration guarantees earnings. A supported eleventh may coincide with helpful contacts, good timing for gains or talent for group ventures, but income depends on work, skills, industry conditions and choices. Astrology here describes inclinations and patterns, not payslips or promised amounts."
+      },
+      {
+        question: "How do Saturn and Rahu change money house readings noticeably?",
+        answer: "Saturn usually brings delay, caution and slow compounding, favouring people who budget and persist. Rahu usually brings hunger for scale, foreign or digital income routes, and fluctuating appetite. Neither is simply good or bad; each reshapes the route money takes and the discipline required."
+      },
+      {
+        question: "Should I make investments based only on my money houses?",
+        answer: "Basing investments solely on house placements would ignore risk, diversification, regulation and your actual finances. Use the reading, if it interests you, as reflective context about habits like saving or networking. Concrete financial decisions belong with proper research and, where appropriate, a qualified regulated adviser."
+      }
+    ]
+  },
+  "abhijit-muhurat": {
+    guideTitle: "Abhijit Muhurat Finder for Auspicious Daily Timing",
+    guide: [
+      "The Abhijit Muhurat Finder shows the short midday window that Vedic tradition treats as broadly favourable for beginning important work. Enter your location and date, and it returns the start and end of that window for your place, so you can plan a signing, a purchase, a journey start or a small ceremony around local midday rather than guessing from a generic clock time quoted for somewhere else. People reach for it when a task matters, the day is already fixed, and there is no time to arrange a fuller muhurat selection, yet they still want a considered moment to begin rather than starting important work at a random, distracted minute.",
+      "The method divides only the daylight stretch, from sunrise to sunset, into fifteen equal muhurtas. Abhijit is the eighth of those fifteen, sitting in the middle of the sequence and centred on local solar noon. Because day length changes with season and latitude, each muhurta stretches in summer and shrinks in winter, so the window moves and changes length through the year. Two cities on the same date can therefore show noticeably different timings, and a window copied from yesterday will already be slightly wrong for today, which is why the finder recalculates from each day's own sunrise and sunset instead of reusing a printed almanac time meant for another city.",
+      "Regarded as broadly auspicious and linked with Vishnu, this midday slot is commonly used for important starts when no fuller muhurat is available. Many panchang traditions skip Abhijit on Wednesdays, so check the weekday note before relying on it that day. Weddings and some rites follow their own stricter rules in several traditions, and this simple window does not replace those fuller calculations. Outside those exceptions, its appeal is practical: it appears every day, needs no personal chart, and gives ordinary beginnings, from opening a shop to submitting an application, a settled midday anchor that fits ordinary working days without elaborate preparation, special materials or lengthy ritual procedures beforehand."
+    ],
+    steps: [
+      "Enter your city or allow location access so sunrise and sunset match your actual place.",
+      "Choose the date you plan to begin the task or hold the small ceremony.",
+      "Read the Abhijit start and end times shown for that specific date and location.",
+      "Schedule the key first step inside that window, allowing a few minutes either side."
+    ],
+    resultMeaning: [
+      "Take sunrise 6:24 AM and sunset 6:12 PM as a clear illustration. That gives 11 hours 48 minutes of daylight, which is 708 minutes in total. Divide 708 by 15 and one muhurta is about 47 minutes. The eighth muhurta begins after seven muhurtas have passed, about 5 hours 30 minutes after sunrise, so Abhijit runs from about 11:54 AM to about 12:42 PM, centred on that day's solar noon of 12:18 PM. Notice how the window straddles noon fairly evenly rather than starting at noon itself, which helps when you plan the first step a little before midday.",
+      "Read the result as a favourable window in tradition, not as any promise about how the work will turn out. Preparation, skill and follow-through still decide the outcome. If your date falls on a Wednesday, note the tradition mentioned earlier, and for weddings or major religious rites, follow the stricter selection your family or priest normally uses instead of relying on this alone. Used sensibly, the finder simply helps you start promptly at a respected time instead of drifting into the day without any deliberate beginning at all, especially on days crowded with competing demands and interruptions."
+    ],
+    faqs: [
+      {
+        question: "What is Abhijit muhurat and when does it occur daily?",
+        answer: "It is the eighth of fifteen equal daylight divisions, centred near local solar noon. Its clock times shift daily because sunrise, sunset and day length keep changing with season and place, so a fixed midday time is only an approximation."
+      },
+      {
+        question: "How long does the Abhijit window usually last each day?",
+        answer: "Length depends entirely on how long daylight lasts where you are. Near the equinoxes it is close to three quarters of an hour, longer on long summer days and shorter during brief winter days at higher latitudes."
+      },
+      {
+        question: "Can I use Abhijit muhurat for any important new beginning?",
+        answer: "Tradition treats it as suitable for many everyday starts, such as beginning work, travel or a purchase, especially when no detailed muhurat was selected. Larger ceremonies often use additional factors, so this window is a practical fallback rather than a complete selection."
+      },
+      {
+        question: "Why do some panchangs avoid Abhijit muhurat on Wednesdays specifically?",
+        answer: "Many panchang traditions skip Abhijit on Wednesdays as a long-standing convention linked to that weekday's own rules. Practice varies between regions and families, so treat it as a tradition note to check, rather than a universal prohibition everyone follows."
+      },
+      {
+        question: "Does choosing Abhijit muhurat actually guarantee success for my work?",
+        answer: "No, and any source claiming that overstates the tradition. Abhijit is described as a supportive, favourable period for starting, not a mechanism that controls results. Clear planning, honest effort and sensible timing together matter far more in practice."
+      }
+    ]
+  },
+  "freelance-corporate-astrology": {
+    guideTitle: "Freelance vs Corporate Guide for Your Work Style",
+    guide: [
+      "The Freelance vs Corporate Guide compares two broad ways of earning a living against patterns in your birth chart. It looks at whether your chart emphasises independent, client-led work or structured employment inside an organisation, so you can reflect on which setting fits your temperament before making a practical career move or testing a side project. The question it answers is about daily working life itself: who sets your tasks, how income arrives, how much variety you handle, and whether security or self-direction matters more to you personally at this stage of life, given your obligations, ambitions, energy and tolerance for uncertainty.",
+      "Freelance and consulting markers in this method include a strong 1st, 3rd and 11th house emphasis, the ascendant lord linked to the 3rd or 11th, plus Mercury or Rahu prominence. Corporate markers look different: a strong 6th house, the house of employment and service, a Saturn-disciplined 10th, and stability through the 2nd lord pointing toward salaried structure. Neither list is scored as good or bad. Each simply describes a setting where certain habits, like pitching, routine, teamwork or self-promotion, become daily requirements rather than occasional efforts, shaping everything from how your mornings start to how you plan holidays, savings, taxes and quieter months between assignments.",
+      "Most charts show a mixture rather than a pure type, and that mixture is itself informative. Someone might thrive with one anchor employer for years, then move toward independent clients later, or run both side by side. Read the balance across houses as a preference signal about autonomy, routine, income rhythm and appetite for finding your own work. A near-even balance is common among contractors, consultants employed through agencies, and professionals whose employed role already grants unusual freedom over projects, clients and working hours, making the formal label matter less than the actual autonomy, variety and responsibility they experience week after week."
+    ],
+    steps: [
+      "Enter your birth date, exact birth time and birthplace to generate your chart houses accurately.",
+      "Note which houses the guide highlights most strongly on the freelance and corporate sides.",
+      "Compare that pattern honestly against jobs where you actually felt energised or drained.",
+      "Use the leaning as one input alongside skills, savings and current market demand."
+    ],
+    resultMeaning: [
+      "Consider this exact pattern: Gemini ascendant; the ascendant lord Mercury sits in Aries in the 11th house of gains and networks; the 10th lord Jupiter sits in Leo in the 3rd house of self-effort. With self-direction, networking and initiative houses carrying both key lords, the signature leans freelance and consulting. The hybrid note matters too: such natives often keep corporate clients on retainer inside a freelance structure. That retainer detail fits the pattern, because income still flows through networks and personal effort rather than through a single employer's ladder, promotion cycle, appraisal system or fixed department, which suits someone comfortable creating opportunities instead of waiting for vacancies.",
+      "Treat that leaning as a work-style preference the chart suggests, nothing stronger. Skills you can sell, demand in your market and your immediate money needs make the real decision. A chart favouring independence will not rescue an offer nobody wants, and a corporate-leaning chart does not forbid freelancing if finances and preparation support the attempt. The sensible use is reflective: notice whether autonomy energises you or unsettles you, whether irregular income is manageable, and then test the preferred model gradually before committing fully, perhaps through one small paid project, a contract trial, or a negotiated part-time arrangement first."
+    ],
+    faqs: [
+      {
+        question: "Which houses in a chart indicate freelance or consulting work?",
+        answer: "This method emphasises the 1st house for self-direction, the 3rd for initiative and outreach, and the 11th for gains through networks and varied clients. Links from the ascendant lord into the 3rd or 11th strengthen that independent pattern considerably."
+      },
+      {
+        question: "Which chart factors point toward corporate or salaried employment instead?",
+        answer: "A strong 6th house tied to daily service and employment, a 10th house shaped by Saturn's discipline, and support from the 2nd lord for steady income all point that way. Together they suggest comfort with hierarchy, routine and organisational progression."
+      },
+      {
+        question: "What does a mixed freelance and corporate chart result mean?",
+        answer: "A mixed result usually suits hybrid arrangements: employment with consulting alongside, contracting inside large firms, or moving between models across career phases. Many people work this way in reality, so a blended chart often reflects modern careers more accurately than either extreme."
+      },
+      {
+        question: "Should I quit my job if my chart favours freelancing?",
+        answer: "No chart reading justifies resigning without a financial cushion, proven client demand and a realistic pipeline. Test independent work alongside employment where possible, validate that people will pay, and let savings and market evidence, not astrology alone, set your timing."
+      },
+      {
+        question: "Can my preferred work style change over different career phases?",
+        answer: "Yes, priorities around security, autonomy and income often shift with experience, family responsibilities and confidence. A pattern that suited your twenties may feel restrictive later, which is why this guide works best as periodic reflection rather than a once-only career verdict."
+      }
+    ]
+  },
+  "moon-sign": {
+    guideTitle: "Moon Sign Calculator for Your Vedic Janma Rashi",
+    guide: [
+      "The Moon Sign Calculator gives your Vedic Janma Rashi, the sidereal sign holding the Moon at birth, which anchors an entire Vedic chart. In this system the Moon is not a background detail: Vimshottari dasha periods are counted from the Moon, and transits are judged from the Moon sign, so this single placement sets the timing framework and reference point for much that follows. Daily predictions in Indian almanacs are also organised by this sign, which is why many people know their rashi long before they encounter any other chart factor, and festival dates, naming customs and family horoscopes frequently refer back to this same Moon placement.",
+      "Honesty about method matters here. The generic page works from published sign-window tables for the birth date, matching your date against the periods when the Moon occupied each sidereal sign. The Moon changes sign about every two and a quarter days, so anyone born within roughly a day of a changeover needs the exact birth time for a firm result. Away from those edges, a date alone usually settles the sign reliably, because the Moon spends long enough in each sign for most birthdays to fall safely inside one window, well away from the uncertain hours where one sign hands over to the next.",
+      "Across the twelve signs, emotional processing sorts loosely by element. Fire Moons react quickly and restore themselves through action. Earth Moons settle through routine, food, touch and tangible progress. Air Moons process by talking, naming and reframing. Water Moons absorb atmosphere first and need privacy and rest before their own feelings separate clearly from everyone else's mood in the room. Within each element, cardinal signs initiate emotional repair, fixed signs hold feelings steadily, and mutable signs adapt their responses to whoever is nearby and whatever the situation demands, so element gives the broad emotional climate while quality explains how quickly feelings form, settle, shift or finally release."
+    ],
+    steps: [
+      "Enter your full birth date carefully, checking the day, month and year before submitting.",
+      "Add your birth time if you know it, especially when your date sits near a changeover.",
+      "Read the sidereal Moon sign returned and note the element and quality it belongs to.",
+      "If your result falls near a boundary, verify it later against a full timed chart."
+    ],
+    resultMeaning: [
+      "For illustration, suppose the calculator returns Moon in Taurus. Taurus is the Moon's exaltation sign, fixed earth, so the emotional style described is steady, sensory and routine-anchored: familiar food, unhurried mornings and predictable surroundings restore balance, while abrupt change registers physically before it becomes words. The nakshatra, the Moon's star within the sign, is the next layer of detail a full chart adds. Two Taurus Moons in different nakshatras will share that steadiness yet differ in pace, tastes and instinctive reactions, particularly under stress, during celebration, or when home and family matters suddenly need attention.",
+      "Hold a date-only result with suitable caution when your birthday sits close to a sign change, because a few hours can move the Moon across the border. Also remember that Janma Rashi works inside a whole Vedic system here, so comparing it directly with Western-style Sun-focused descriptions will produce mismatches that reflect different frameworks, not an error in either. For dasha timing and transit reading, what matters most is using one consistent sidereal chart rather than mixing placements taken from two separate zodiac systems, which would scramble period calculations and produce transit judgements belonging fully to neither tradition."
+    ],
+    faqs: [
+      {
+        question: "What is Janma Rashi in a Vedic birth chart exactly?",
+        answer: "Janma Rashi is simply the sidereal Moon sign at birth. Vedic readers treat it as the chart's anchor because dasha timing starts from the Moon's position and ongoing transits are commonly assessed relative to this sign throughout life."
+      },
+      {
+        question: "Why does my Vedic Moon sign differ from Western readings?",
+        answer: "Vedic astrology uses the sidereal zodiac, adjusted for precession, while Western astrology generally uses the tropical zodiac tied to seasons. That offset of roughly twenty-four degrees shifts many placements back by one sign, including the Moon for many birth dates."
+      },
+      {
+        question: "How accurate is a Moon sign found from date alone?",
+        answer: "For most dates it lands correctly, because the Moon stays in one sign for about two and a quarter days. Accuracy weakens near changeovers, where the precise birth hour decides the sign, so boundary results deserve confirmation from a timed chart."
+      },
+      {
+        question: "What does the Moon's nakshatra add beyond the sign itself?",
+        answer: "The nakshatra narrows the Moon's placement from a whole sign to one of twenty-seven lunar stars, refining temperament, instincts and dasha starting balance. Two people sharing a Moon sign but born in different nakshatras often read noticeably differently in detailed charts."
+      },
+      {
+        question: "Why are Vimshottari dasha periods counted from the Moon specifically?",
+        answer: "Vimshottari is a Moon-based timing system: the nakshatra occupied by the Moon at birth sets which planetary period runs first and how long its remaining balance lasts. That starting point then sequences the major periods interpreted across a person's lifetime."
+      }
+    ]
+  },
+  "marriage-age": {
+    guideTitle: "Marriage Age Predictor and Traditional Timing Windows",
+    guide: [
+      "The Marriage Age Predictor sketches broad timing windows that classical readers discuss for partnership, using traditional indicators rather than forecasting a birthday. Despite the tool's name, treat its output as a map of periods astrologers traditionally examine, not as a forecast. It cannot know when you will meet someone, choose them, or agree together to marry. What it can do is organise the classical factors in one place, so you can see which themes, readiness, career, family or delay, a traditional reader would emphasise for a chart like yours, without pretending those themes amount to a date anyone should circle on a calendar.",
+      "The traditional indicators combined here are the 7th house and its lord, Venus as significator of partnership, Jupiter's transits, and dasha periods running in adult life. Readers weigh whether those factors emphasise earlier readiness, a career-first sequence, or a slower maturing pattern, then describe a tendency within adulthood instead of naming a single destined year for anyone. No single factor decides the reading on its own; a difficult placement in one area is routinely softened, strengthened or redirected by the condition of the others taken together, along with aspects, sign dignity and the overall strength of the ascendant and Moon.",
+      "Results therefore differ in shape rather than precision. Some charts are traditionally read as relationship-led, where partnership arrives alongside education or first work. Others are read as establishment-led, where livelihood and responsibility come first. Still others show repeated near-windows before conditions align, a pattern readers attribute to the combined state of the 7th lord, Venus and running periods. Reading the shape honestly matters more than chasing a year, because the shape describes priorities and pacing, which are things you can actually reflect on and discuss with a partner, instead of passively waiting for a predicted year to arrive and somehow deliver a marriage."
+    ],
+    steps: [
+      "Enter your birth date, accurate birth time and birthplace so the ascendant and houses resolve correctly.",
+      "Identify your 7th house, its ruling planet and where that lord sits in the chart.",
+      "Note the condition and house placement of Venus alongside the 7th house pattern.",
+      "Read any window shown as a broad traditional theme, never as a fixed age."
+    ],
+    resultMeaning: [
+      "Work through this exact example: Cancer ascendant; the 7th house is Capricorn and its lord Saturn sits in Aries in the 10th house; Venus sits in Scorpio in the 5th house. As attributed tradition only, a Saturn-ruled 7th is traditionally read as a maturity-first pattern, later rather than earliest within the adult range; the 7th lord in the 10th ties partnership timing to career establishment; Venus in the 5th adds a love-first storyline. Together those strands suggest attraction arriving through romance, while formal commitment waits until work feels settled, income steadies, and both people trust that the partnership will be supported rather than squeezed by career pressure.",
+      "State the limit plainly: no chart fixes a marriage age, and this example names none. Choice, circumstance and the other person decide real timing, including whether marriage happens at all. Use the reading, at most, to reflect on readiness, priorities and pacing, while actual decisions stay grounded in your relationship, finances, family context and mutual consent. If a window passes without a wedding, nothing has gone wrong; the tradition describes tendencies, and real lives routinely unfold outside the neatest astrological pattern because migration, education, health, family duties and simple chance continually reshape when relationships begin and deepen."
+    ],
+    faqs: [
+      {
+        question: "Can astrology accurately predict the exact age of my marriage?",
+        answer: "No, it cannot establish an exact age, whatever a tool name suggests. Classical methods discuss broad windows and tendencies using houses, Venus and periods, but real timing depends on meeting someone, mutual choice, circumstance and readiness, none of which a chart controls."
+      },
+      {
+        question: "Which houses and planets do astrologers check for marriage timing?",
+        answer: "Readers start with the 7th house of partnership and the planet ruling it, then examine Venus, Jupiter's transits and the dasha periods active in adulthood. They interpret those factors together as themes, rather than extracting a single date from one placement."
+      },
+      {
+        question: "What does a Saturn-ruled seventh house traditionally suggest about timing?",
+        answer: "In classical reading, Saturn ruling the 7th is associated with maturity, caution and partnership after responsibilities feel established, often described as later within the adult range. It is a traditional tendency attributed to Saturn, not a delay guaranteed for every person."
+      },
+      {
+        question: "Why does this predictor avoid giving one specific marriage age?",
+        answer: "Because a specific age would imply a certainty the method does not possess and life does not follow. People marry across a wide span for personal, cultural and practical reasons, so honest presentation keeps timing broad, conditional and clearly traditional in origin."
+      },
+      {
+        question: "Should I delay or rush marriage based on this reading?",
+        answer: "Neither. Base that decision on the relationship itself, honest conversation, financial and emotional readiness, and both partners freely consenting. An astrological window can prompt reflection about pacing, but it should never override judgement or pressure anyone toward a wedding date."
+      }
+    ]
+  },
+  "master-numbers": {
+    guideTitle: "Master Numbers 11 22 33 Meaning Explained",
+    guide: [
+      "This reader checks whether a finished numerology total stops at 11, 22 or 33 instead of collapsing further, and then explains what that pause point suggests about intensity, responsibility and direction. Enter the number your calculator produced and it shows whether you are looking at an ordinary single digit wearing a larger costume, or at one of three totals tradition treats as amplified. Many people only notice the label while hunting for reassurance, yet the useful question sits elsewhere. What extra demand does this figure place on patience, judgement and follow-through in ordinary weeks, not just on inspired days?",
+      "In core calculations such as life path, destiny, soul urge, personality and birthday numbers, digits are added across and then shrunk step by step until one figure remains. The exception arrives at the very end. When that final addition lands on 11, 22 or 33, you keep the double digit rather than pressing onward to 2, 4 or 6. A related pause happens with subtotals. A running subtotal of 29 first becomes 11 and the working halts there, because the shortened form itself carries the master label. Outside those landing spots, ordinary reduction continues as normal, so a master result stays comparatively uncommon.",
+      "An 11 leans toward perception first: quick pattern-spotting, emotional static picked up early, and ideas arriving before evidence does. A 22 points toward construction at scale, turning an abstract plan into timetables, budgets and systems others can use. A 33 turns outward through teaching, mending and patient encouragement, often inside classrooms, clinics, families or community projects. None of these descriptions confers rank or guarantees success. Each describes stored capacity that also brings strain and a temptation to perform the label. That separates masters from karmic debt figures such as 13, 14, 16 and 19, which you reduce through while working a lesson, whereas a master is a figure you stop at."
+    ],
+    steps: [
+      "Start with one finished core total from a birth date or full name calculation, not a partial subtotal.",
+      "Check whether that closing figure reads 11, 22 or 33 before applying any further single-digit reduction step.",
+      "If the total shows an ordinary digit, read that digit normally and skip the master interpretation entirely.",
+      "Compare the short master reading against repeated behaviour over time, then note where pressure helps or hinders."
+    ],
+    resultMeaning: [
+      "Take someone born 9 November 1993 and lay the birth date out as one unbroken digit stream before adding anything. The day contributes 0+9, the month contributes 1+1, and the year contributes 1+9+9+3. Joined together, the working becomes 0+9+1+1+1+9+9+3 = 33. Because the finished sum lands directly on Master Number 33, the result is kept exactly there rather than being reduced onward to 6. Reading that outcome in context, the emphasis falls on patient teaching, steady encouragement and practical care offered consistently, especially when nobody is applauding the effort involved.",
+      "A master figure does not switch on automatically at birth, and plenty of people carrying one spend long stretches functioning at the level of its base digit, 2, 4 or 6. Stress, immaturity or simple inexperience can keep the wider capacity mostly dormant. Equally, a quiet single-digit result is not a lesser outcome; it often brings steadier pacing and clearer limits. Treat the master label as a description of voltage, not virtue. What matters is the pattern you can verify across years: choices repeated, skills practised, responsibilities honoured when enthusiasm has faded."
+    ],
+    faqs: [
+      {
+        question: "Can expression and soul urge numbers also finish on a master total?",
+        answer: "Yes. When letters from a full birth name are converted and summed, the expression total can land on 11, 22 or 33, and the vowels-only soul urge sum can do the same. Apply the identical pause rule, then interpret each position by what it describes."
+      },
+      {
+        question: "Does everyone carrying life path 11 automatically live at that intense pitch?",
+        answer: "No. The 11 marks available sensitivity and insight, yet daily life may run largely through its calmer base vibration of 2, especially during tired, young or pressured periods. Sharper intuition tends to arrive in phases rather than forming a permanent state to maintain."
+      },
+      {
+        question: "How are master numbers different from karmic debt numbers in practice?",
+        answer: "Debt figures 13, 14, 16 and 19 appear during reduction and you continue past them toward a single digit, carrying their lesson into that final reading. Master figures work oppositely. Reduction halts when they appear, so the double digit itself becomes the headline result."
+      },
+      {
+        question: "Should I reduce 22 to 4 when it appears midway through calculations?",
+        answer: "Stop when a subtotal itself reduces onto 11, 22 or 33, because reaching the master is where further shrinking would erase the distinction the system preserves. Totals that never touch those figures simply continue through ordinary reduction until a single digit remains at the end."
+      },
+      {
+        question: "What if two different core numbers in my chart are both masters?",
+        answer: "Read that combination position by position rather than merging it into one super-score. An 11 life path beside a 22 expression number describes sensitivity steering direction while building ability shapes outward achievement. Notice friction between the positions as carefully as agreement between them."
+      }
+    ]
+  },
+  "midheaven": {
+    guideTitle: "Midheaven Sign Meaning Career Reputation and Vocation",
+    guide: [
+      "The Midheaven, labelled MC on most charts, marks the highest point overhead at the moment of birth, and this calculator uses your birth time and birthplace to locate its sign. That sign colours the version of you strangers meet professionally: reputation, ambition and the sort of achievement you want attached to your name. It answers a different question from private motivation. Instead of asking what fulfils you indoors, it asks what role you keep being handed outdoors, and what public record you are slowly building, decision by decision, across a working life that unfolds in stages.",
+      "Finding the MC starts with local sidereal time, which links clock time at the birthplace to the rotation of Earth, so both an accurate hour and a city are essential inputs here. The result differs from the ascendant, the eastern horizon line describing how you approach people and situations directly. It also need not match the sign on the whole-sign tenth house, because quadrant house systems place the MC by calculation rather than by sign order. Sensitivity is high. The point advances roughly one degree every four minutes of birth time, and an estimated hour can push it across a sign boundary entirely.",
+      "Fire-sign placements tend toward visible, pioneering public styles, gaining notice through initiative, performance or championing a cause before consensus arrives. Earth placements build standing through reliability, measurable output and craft that improves under scrutiny. Air placements circulate ideas, connecting people, translating specialist knowledge and shaping conversation inside networks or media. Water placements lead through attunement, protecting trust, reading unspoken needs and doing consequential work behind closed doors. Across all four groups the sign sketches manner rather than occupation, so two people sharing an MC sign may pursue unrelated jobs while approaching visibility, authority and recognition in recognisably similar ways over time."
+    ],
+    steps: [
+      "Enter your birth date, birth city and the most accurate birth time you can find anywhere.",
+      "Use a recorded time from a certificate or family document rather than a rounded guess whenever possible.",
+      "Read the Midheaven sign first, then note its ruling planet for extra colour about career style.",
+      "Hold the result lightly if your birth hour is approximate, since a small shift can change signs."
+    ],
+    resultMeaning: [
+      "Consider a result showing Midheaven in Capricorn, without attaching it to any particular birth moment. Capricorn is ruled by Saturn, so this placement gathers reputation gradually, through visible competence, endurance and promises kept when conditions turn awkward. Recognition frequently arrives later than effort, after a track record becomes difficult to dispute. Fields traditionally linked with this MC include structure-heavy management, engineering, craft mastery and institution-building, yet the pattern fits any setting where patience, hierarchy and long horizons matter. The central theme is durability: authority earned slowly tends to survive passing fashions that briefly reward louder competitors.",
+      "Treat the MC as one career signal among several rather than a job title delivered by fate. Planets close to the Midheaven, the condition of its ruling planet and your actual skills all modify how the sign expresses itself in practice. A Capricorn MC managed by a badly placed Saturn may meet repeated delays before authority stabilises, while strong support elsewhere can smooth the climb considerably. If your birth time came from memory rather than a record, test neighbouring signs too. The honest use of this tool is vocational self-knowledge: noticing which working style earns trust repeatedly, then choosing environments that reward it."
+    ],
+    faqs: [
+      {
+        question: "Why does the Midheaven calculator need my exact birth time and city?",
+        answer: "Because the MC is calculated through local sidereal time at the birthplace, and it moves roughly one degree every four minutes. A guessed hour can therefore place it in the wrong sign entirely, which is why recorded times give far more dependable career readings here."
+      },
+      {
+        question: "Is the Midheaven the same thing as my tenth house sign?",
+        answer: "Not always. In whole-sign houses the tenth sign from the ascendant carries career themes, while quadrant systems calculate the MC independently, so it can fall in a different sign or house. Many readers weigh both placements together instead of treating either as the sole answer."
+      },
+      {
+        question: "What happens if my birth time is completely unknown or unavailable?",
+        answer: "Without a birth time the MC sign cannot be pinned down reliably, since it cycles through all twelve signs across a single day. You can still read the Sun and Moon signs, or try rectification with a professional astrologer using dated life events as anchors."
+      },
+      {
+        question: "Does my Midheaven sign dictate the exact job I should choose?",
+        answer: "No. The sign describes public style, reputation and the manner in which achievement tends to arrive, not a single approved occupation. A Capricorn MC accountant and a Capricorn MC stonemason share an approach built on endurance and craft, even though their daily work differs completely."
+      },
+      {
+        question: "How is the Midheaven different from the ascendant in a chart?",
+        answer: "The ascendant describes self-presentation, the face and manner people meet in direct contact. The Midheaven describes public image at a distance: career reputation, vocation and what your name comes to stand for among people who may know your work far better than they know you."
+      }
+    ]
+  },
+  "business-launch-timing": {
+    guideTitle: "Business Launch Muhurat Weekday Rahu Kaal Checklist",
+    guide: [
+      "This timing tool helps a founder pick a launch window for a new venture by combining weekday rulership, the condition of the Moon and one daily interval tradition advises avoiding. Enter your proposed date and location, and it walks through a short checklist rather than declaring any single moment magically fortunate. Think of the output as a planning filter sitting on top of ordinary preparation. A date that passes these checks simply removes a few traditional objections, leaving you free to concentrate on premises, paperwork, staffing and the practical details that decide whether opening week runs smoothly or unravels publicly.",
+      "The method works through four checks. First, match the weekday ruler to the nature of the venture, since each planet carries a distinct working flavour in this system. Second, favour a waxing Moon that is reasonably strong, traditionally read as support for growth and gathering momentum. Third, map Rahu Kaal for that date and place, and keep signings, unveilings and first transactions outside it. Fourth, choose a clean working window inside normal business hours, with enough margin either side so a delayed guest, a printer failure or a late delivery does not shove the key moment into the very interval you meant to avoid.",
+      "Sunday, ruled by the Sun, suits ventures wanting visibility and authority, while Monday and the Moon favour food, care and anything serving daily household needs. Wednesday under Mercury fits trade, teaching and communication services, and Thursday under Jupiter supports finance, advice and expansion-minded enterprises. Friday under Venus flatters beauty, fashion, hospitality and the arts, whereas Saturday under Saturn suits durable, labour-intensive or machinery-heavy work that rewards patience. Tuesday and Mars, covered in the example below, bring drive suited to energetic operations. None of these matches overrides suitability in real life; a well-matched weekday cannot rescue a venture whose basic offering nobody wants."
+    ],
+    steps: [
+      "Shortlist two or three realistic launch dates, then check the weekday ruler against your venture type.",
+      "Confirm the Moon is waxing on each candidate date and note any day it looks weak.",
+      "Find sunrise and sunset for your city, calculate Rahu Kaal, and block it out completely.",
+      "Schedule signing and the public opening inside a clean window with generous buffer time around it."
+    ],
+    resultMeaning: [
+      "Suppose a founder plans a Tuesday launch. Tuesday is Mars-ruled, which tradition matches to energetic, operations-heavy ventures such as delivery or logistics, so the weekday supports the plan. That day sunrise is 6:36 AM and sunset is 5:48 PM, so daylight lasts 11 hours 12 minutes. Rahu Kaal is the 3rd of 8 equal day-parts on a Tuesday; each part is 84 minutes. Counting from sunrise, Rahu Kaal runs from 9:24 AM to 10:48 AM. The sensible plan is to finish the signing before 9:24 or hold the public launch until after 10:48, keeping the ceremony clear.",
+      "Hold this framework at its proper weight. Muhurat is a traditional planning layer, useful for focus, ceremony and peace of mind, and many families feel better starting ventures on a considered date. It is not what makes an enterprise succeed. Product quality, pricing that leaves a margin, cash flow managed month by month and honest service decide whether a business works over its first difficult year. Use the checklist to choose between dates that are otherwise equal, not to postpone a ready launch indefinitely or to launch an unready one because the calendar happened to smile on a particular morning."
+    ],
+    faqs: [
+      {
+        question: "What exactly is Rahu Kaal and why do launches avoid it?",
+        answer: "Rahu Kaal is a daily interval, one eighth of the daylight hours, that tradition associates with confusion, obstruction and muddled beginnings. Its position rotates by weekday. Launches, signings and first sales are usually scheduled outside it as a precaution, even by people who treat the rule lightly."
+      },
+      {
+        question: "Does choosing a good muhurat guarantee that my business will succeed?",
+        answer: "No. A carefully chosen date can support confidence and ceremony, but trading results still depend on product, pricing, location, cash flow and consistent effort across many months. Treat muhurat as one planning consideration among several, never as insurance against ordinary commercial risks or poor preparation."
+      },
+      {
+        question: "Why does this checklist prefer a waxing Moon for launching?",
+        answer: "In this tradition the growing Moon symbolises accumulation, so the fortnight while it brightens toward full is favoured for beginnings meant to expand, gather customers and build reserves. A waning Moon is more often chosen for closing, clearing, auditing and other tasks of reduction instead."
+      },
+      {
+        question: "Can I use launch timing for an online business opening too?",
+        answer: "Yes. Founders of online ventures commonly apply the same checklist to the moment a store goes live, a booking page opens or a launch announcement is published. Use the sunrise and sunset of the place where you, the founder, are based when calculating the day-parts."
+      },
+      {
+        question: "What if my only possible launch date falls inside Rahu Kaal?",
+        answer: "Separate the paperwork from the public moment. Complete unavoidable formalities quietly if deadlines demand it, then hold the inauguration, first sale or announcement in a clean window later that day or on the next suitable date. Tradition cares most about when the venture formally begins trading."
+      }
+    ]
+  },
+  "sun-sign": {
+    guideTitle: "Sun Sign Purpose Dates Vitality and Meaning",
+    guide: [
+      "This calculator identifies your Sun sign from your birth date alone, using a published tropical date table, and then reads that sign as a statement about purpose, vitality and the qualities you grow toward across a lifetime. No birth time or birthplace is needed for the basic lookup, because in this system the Sun changes sign roughly once a month rather than sweeping through signs daily. Enter your birthday and the result names the sign the Sun occupied for most people born on that date, plus a reading of its drives and blind spots.",
+      "The method is deliberately simple. Western astrology divides the year into twelve dated windows, one per sign, and your window decides the result. Tables printed in different books occasionally disagree by a day at the edges, since the Sun does not enter a new sign at midnight and the moment of entry shifts slightly from year to year. Away from those edges the answer is stable and needs no further calculation. Near them, honesty requires a caveat, which the cusp discussion below covers. Everything in this reading follows the tropical table, the convention behind all Western newspaper and magazine horoscope columns.",
+      "Fire signs Aries, Leo and Sagittarius express purpose through enthusiasm, visibility and direct experience, regaining vitality whenever life offers novelty or a contest. Earth signs Taurus, Virgo and Capricorn aim purpose at tangible results, drawing energy from competence, routine and work that visibly improves something. Air signs Gemini, Libra and Aquarius pursue purpose through ideas and connection, brightening around conversation, learning and communities. Water signs Cancer, Scorpio and Pisces locate purpose in emotional depth, loyalty and healing, recharging through privacy and intimacy. Your element often explains your preferred route to a goal as clearly as the sign itself does."
+    ],
+    steps: [
+      "Enter your birth day and month; the year and birth time are unnecessary for most dates.",
+      "Find your date inside the twelve tropical windows and note the sign attached to it.",
+      "Read the purpose and vitality description for that sign, plus its element grouping.",
+      "If your birthday touches a window edge, verify the exact entry moment for your birth year."
+    ],
+    resultMeaning: [
+      "A person born 9 September falls in Virgo by the standard tropical table, Virgo season running roughly 23 August to 22 September, so this calculator returns Virgo as the Sun sign. Read as a purpose statement, Virgo directs vitality toward usefulness: analysing systems, refining skills and fixing what others overlook. Satisfaction tends to arrive through work done properly rather than applause received loudly. The shadow side is familiar to many Virgo Suns, a restless inner editor that grades every effort harshly and struggles to declare anything finished. Growth usually means aiming that precision outward at problems while extending kindness inward toward the person doing the work.",
+      "Two honest complications deserve space. First, cusp birthdays: on the first or last day of a sign window, for example 22-23 September, the Sun can change sign partway through the day, and the exact day varies slightly by year, so cusp birthdays deserve the exact birth time before settling the result. Second, the sidereal note. The same 9 September Sun sits in sidereal Leo in most years, because the sidereal zodiac currently lags the tropical by about 24 degrees. Western sources print Virgo, Vedic charts read Leo, and this calculator follows the tropical table throughout."
+    ],
+    faqs: [
+      {
+        question: "Why do Vedic and Western charts give me different Sun signs?",
+        answer: "They measure from different starting points. Tropical astrology anchors signs to the seasons, while sidereal astrology anchors them to the constellations, and precession has separated the two frames by about 24 degrees. Most birthdays therefore land one sign earlier in a Vedic chart than in a Western one."
+      },
+      {
+        question: "What does it mean if I was born on a cusp date?",
+        answer: "It means the Sun changed sign close to, or during, your birthday, so a date-only table cannot settle your sign with certainty. Check the exact entry time for your birth year, and your birth hour if the change happened that day. You still have exactly one Sun sign."
+      },
+      {
+        question: "Can my Sun sign purpose reading change as I get older?",
+        answer: "The sign itself never changes, but people commonly grow into it unevenly. Qualities that felt forced at twenty may feel natural at forty, as experience removes the awkwardness around them. Readers describe the Sun as a direction of growth rather than a personality present from childhood onward."
+      },
+      {
+        question: "Is the Sun sign the most important placement in my chart?",
+        answer: "It is the most central statement about purpose and vitality, which is why date tables and newspaper columns built astrology around it. A full chart adds the Moon, rising sign and aspects, each describing different territory. Treat the Sun reading as the headline, not the whole story."
+      },
+      {
+        question: "Do leap years or time zones ever shift a Sun sign result?",
+        answer: "Only at the edges. A leap year nudges the date of sign entry by roughly a day in some tables, and time zones matter only when the Sun changes sign during your birthday itself. For birthdays sitting inside a window, neither factor alters the outcome at all."
+      }
+    ]
+  },
+  "7th-house-spouse": {
+    guideTitle: "7th House Spouse Reader: Partner Themes Explained",
+    guide: [
+      "The 7th House Lord Spouse Reader looks at the partnership corner of a Vedic birth chart, often called the Kalatra bhava, and gathers three linked clues into one short reading. It notes which sign occupies your seventh house, identifies the planet ruling that sign, and then follows that ruling planet to whichever house it occupies. Together those three points sketch recurring partner themes and the settings where partnership tends to unfold in daily life. Rather than forecasting a wedding date or naming a person, the reader organises familiar chart factors into plain language that anyone can follow, test against lived experience, and revisit after major relationship choices.",
+      "Each layer contributes something separate, so the reading stays structured rather than vague. The sign across from the ascendant colours the overall tone expected from close partnership, including how warmth, distance, loyalty or independence tend to show up between two people. Its ruler, known as the seventh lord, carries more specific weight because its nature shapes how commitment, negotiation and attraction get expressed. Where that lord finally sits shows the arena of life through which the bond most readily forms, deepens or gets tested. Keeping the layers separate also protects against overreading one dramatic placement while ignoring quieter factors that soften it.",
+      "Where the seventh lord lands broadly sorts into three families worth knowing. Placed in a kendra, an angular house, partnership often steps forward prominently and asks for visible, practical teamwork around home, career or public responsibilities. Settled in a trikona, a trinal house, the tone softens toward ease, shared values and mutual encouragement, with goodwill arriving relatively early. Lodged in a dusthana, a difficult house, relating can involve extra effort, delays or lessons around trust and hidden anxieties, yet patient couples frequently build unusual resilience there. Many charts mix these signals, so one placement rarely cancels another; instead the combination describes a layered pattern needing balanced judgement."
+    ],
+    steps: [
+      "Enter your birth date, exact birth time and birthplace so the ascendant gets calculated correctly.",
+      "Check the sign shown on the seventh house and note the planet listed as its ruler.",
+      "Find where that ruling planet sits and record both its house number and sign.",
+      "Read the sign, ruler and placement together rather than treating any single clue alone."
+    ],
+    resultMeaning: [
+      "Consider a Libra ascendant, so the 7th house is Aries, ruled by Mars; Mars itself sits in Aquarius in the 5th house. Tradition reads a Mars-ruled seventh as sketching a direct, energetic, decisive partner profile, someone who prefers plain speaking and quick resolution over hints or prolonged sulking. Because the lord sits in the fifth, the partnership storyline gets routed through romance, creativity and shared pleasures, with meetings plausibly happening around hobbies, performances, children or speculative fun, while Aquarius adds an unconventional, friendship-first streak to how closeness develops and how much personal space gets respected inside the bond.",
+      "Treat every line here as symbolic vocabulary borrowed from an old interpretive tradition, not as a description or prediction of a real person waiting somewhere to be found. Actual partners arrive with their own charts, histories, families and choices, and those carry equal weight alongside anything your chart suggests. Use the reading to notice what you seek, how you negotiate, where you compromise too quickly. Then let lived experience confirm, adjust or quietly discard the sketch, because a respectful relationship is built through conduct, not discovered fully formed inside any chart reading."
+    ],
+    faqs: [
+      {
+        question: "Does the seventh house describe my actual future spouse accurately or completely?",
+        answer: "No reader can describe a real future person from one house. The seventh house offers symbolic themes around partnership style, attraction patterns and expectations you bring into commitment. A real partner brings an independent chart, background and free will that no single placement can capture."
+      },
+      {
+        question: "What does Kalatra bhava mean in a traditional Vedic birth chart?",
+        answer: "Kalatra bhava is the traditional Sanskrit name for the seventh house, the section of the chart associated with spouse, committed partnership and one-to-one dealings. Readers examine its sign, its ruling planet and that ruler's placement to discuss how lasting bonds tend to form."
+      },
+      {
+        question: "Why does the seventh lord placement matter so much for relationships?",
+        answer: "The sign alone gives a general tone, whereas the lord shows where partnership energy actively goes. Its house points to the life area through which relationships often begin or get negotiated, such as work, home, travel or creative pursuits, adding useful context beyond temperament."
+      },
+      {
+        question: "Can a difficult seventh lord placement still support a lasting marriage?",
+        answer: "Yes, placements linked with effort or delay do not prevent lasting marriage. They usually highlight areas needing patience, clearer boundaries or honest conversation about money, family or expectations. Many stable couples share placements once labelled difficult, because awareness and behaviour matter more than labels."
+      },
+      {
+        question: "Should both partners check their seventh houses before deciding about marriage?",
+        answer: "Looking at both charts can spark helpful conversation about needs, conflict styles and shared priorities, provided neither side treats the exercise as a verdict. Compatibility grows through communication and conduct over time, so use any comparison as a discussion starter, never as permission or prohibition."
+      }
+    ]
+  },
+  "karmic-debt-number": {
+    guideTitle: "Karmic Debt Numbers 13, 14, 16 and 19",
+    guide: [
+      "The Karmic Debt Number Finder scans the main calculations inside a numerology chart and flags four particular figures when they show up just before a total gets reduced to its final single digit. Those flagged figures are 13, 14, 16 and 19, usually written as 13/4, 14/5, 16/7 and 19/1 so both the debt figure and its reduced root stay visible together in the result. Most people run the check out of curiosity after spotting one of these figures inside their own arithmetic, wondering whether it carries extra meaning beyond the ordinary root number underneath, and the finder answers that question component by component instead of offering a single sweeping label for an entire chart.",
+      "Timing inside the arithmetic is everything here, because the same digits appearing elsewhere mean nothing special at all. A core total must land exactly on one of the four figures during its own calculation, before reduction finishes the job and hides the intermediate step. The finder therefore checks each component separately, the birthday, the life path and other core positions each on their own terms, rather than pooling every number in the chart into one verdict. This separation matters practically as well, since a person can carry one flagged component alongside several unflagged ones, and honest reporting should preserve that distinction rather than exaggerating how much of the chart is involved.",
+      "Each flagged figure carries its own workable lesson in the tradition, described in ordinary behavioural terms. The 13/4 pattern concerns steady work chosen over shortcuts and half-finished efforts. With 14/5, change needs handling without excess, restlessness or scattered energy whenever circumstances shift suddenly. The 16/7 pattern involves pride being dismantled and rebuilt honestly after a humbling correction. For 19/1, independence grows healthiest when it still makes room for others, their advice and their needs. Practitioners trace the underlying idea to past-life beliefs held within the tradition itself, a framing presented here respectfully as belief, never dressed up as proven fact."
+    ],
+    steps: [
+      "Type your full birth date exactly as recorded, including day, month and complete year.",
+      "Let the finder work through each core component separately before reducing any totals fully.",
+      "Note any component landing on 13, 14, 16 or 19 before its final reduction.",
+      "Read the lesson attached to that specific figure alongside its reduced root number."
+    ],
+    resultMeaning: [
+      "Take someone born 16 March 1994 - the birth day itself is 16, and 1 + 6 = 7, so the debt figure 16/7 sits in the birthday position. The scan then continues elsewhere: the full birth date digits 1+6+0+3+1+9+9+4 total 33, which reduces to 6, so the life-path line of the same chart carries no debt figure at all. Each component gets checked separately, and one clear flag can sit beside several ordinary results without contradiction. Here the birthday flag points attention toward the 16/7 lesson around pride, self-reliance and rebuilding honestly after setbacks.",
+      "Hold the framing gently and practically throughout, whatever the finder reports for your own dates. Within this system the past-life origin is a belief belonging to the tradition, presented here as belief rather than established fact, and a flagged figure is neither a curse nor a punishment awaiting anyone. Treat it instead as an invitation to practise one habit more deliberately, in small repeatable ways. Note also the contrast with master numbers, which clarifies handling: debt figures reduce through to their root, while master figures such as 11 or 22 are kept unreduced and read at full strength."
+    ],
+    faqs: [
+      {
+        question: "Which numbers count as karmic debt numbers in a numerology chart?",
+        answer: "Four figures qualify: 13, 14, 16 and 19, written as 13/4, 14/5, 16/7 and 19/1 with the reduced root shown after the slash. They only count when they appear inside a core calculation before that calculation gets reduced to its final single digit."
+      },
+      {
+        question: "Does having a karmic debt number mean something bad happened before?",
+        answer: "No, a flagged figure is not a curse, punishment or warning of misfortune. Teachers inside the tradition frame each one as a focused life lesson around work, change, honesty or independence. The practical value lies in noticing a recurring habit and choosing a steadier response."
+      },
+      {
+        question: "Why is each separate part of my chart checked completely separately?",
+        answer: "Debt status belongs to individual calculations, not to the chart as a whole. Your birthday number might land on 16 before reducing while your life path total reduces cleanly from an ordinary figure. Checking components separately prevents one flagged result from colouring every other position unfairly."
+      },
+      {
+        question: "How are karmic debt numbers genuinely different from master numbers?",
+        answer: "The handling differs at reduction stage. A debt figure such as 16 reduces through to 7 and gets read alongside that root. A master figure such as 11 or 22 is deliberately kept unreduced and interpreted at the double-digit level instead."
+      },
+      {
+        question: "Can I work with a karmic debt lesson in practical ways?",
+        answer: "Yes, translate the theme into one small repeatable behaviour. Steady finishing suits 13/4, measured responses to change suit 14/5, candid self-review suits 16/7, and asking for input suits 19/1. Small consistent choices matter more than dramatic resolutions or worry."
+      }
+    ]
+  },
+  "phone-numerology": {
+    guideTitle: "Phone Number Numerology: Choosing a Harmonious Mobile Total",
+    guide: [
+      "The Phone Number Numerology Calculator reduces a mobile number to a single digit so you can weigh its traditional flavour before adopting it for work or personal use. People often try it when selecting a new client line, comparing spare numbers offered by a provider, or simply wondering whether a long-used number feels settled, lively or quietly mismatched to the role it serves daily. Shopkeepers, freelancers and small service teams especially enjoy the exercise because a phone number appears on signage, invoices, visiting cards and profiles, so choosing between available options can feel like picking a tiny piece of public identity rather than just accepting whatever sequence arrives by default.",
+      "The arithmetic stays deliberately simple and consistent from start to finish. Every digit in the number gets added together, and the resulting total gets reduced step by step until only one digit between one and nine remains standing. This calculator follows one fixed convention throughout: it uses the plain 10-digit number without country code, so everyone checking the same number reaches the same total and comparisons stay fair. Writing each intermediate total down helps, because rushing the reduction is where most mistakes creep in, especially when the first addition lands on a two-digit figure needing two separate reduction steps before it finally settles.",
+      "Traditional reads cluster the nine totals by flavour rather than ranking them from best to worst. Business-leaning energy gathers around 1 for initiative, 5 for movement and outreach, and 8 for commercial drive and follow-through. Relationship-leaning warmth appears with 2 for diplomacy and 6 for care, steadiness and loyalty toward regular callers. Quieter reflective tones belong to 7 and 9, suiting private or contemplative work. Between those poles, 3 brings sociable expression useful for promotion, while 4 brings patient order for routine-heavy roles involving appointments, deliveries, records and dependable scheduling day after day."
+    ],
+    steps: [
+      "Write down the full mobile number exactly as dialled locally, leaving out any country code.",
+      "Add every one of the ten digits together and note the two-digit total reached.",
+      "Reduce that total by adding its own digits together until one digit remains.",
+      "Compare the final digit against the role the line must serve every day."
+    ],
+    resultMeaning: [
+      "Imagine a boutique owner choosing a client line - candidate one, 88776 65544: 8+8+7+7+6+6+5+5+4+4 = 60, and 6 + 0 = 6. Candidate two, 88776 65541, totals 57, then 5 + 7 = 12, then 1 + 2 = 3. The 6 total suits a care-and-trust business built on repeat clientele, where callers expect remembered preferences and unhurried attention, while the 3 feels louder and more social, better matched to marketing-led work chasing fresh enquiries, collaborations and lively first conversations with strangers.",
+      "Keep expectations proportionate once a choice gets made and the number starts circulating. A number's total offers a light interpretive layer, a tiebreaker between otherwise equal options or a prompt to think about the impression a business wants to project to callers. It does not cause sales or calls, rescue weak service or replace sensible basics like answering promptly, publishing the number clearly, keeping hours accurate and returning missed enquiries quickly. Plenty of thriving businesses operate happily on totals their owners never checked, which puts this exercise in its proper place: enjoyable guidance for a decision, never a guarantee attached to it."
+    ],
+    faqs: [
+      {
+        question: "Should I include the country code when checking my phone number?",
+        answer: "Not with this calculator, which follows a single stated convention: use the plain 10-digit number without country code. Consistency matters more than the convention itself, because adding extra digits changes the total. Pick one method and apply it identically to every candidate number compared."
+      },
+      {
+        question: "Which phone number total suits a small business owner best overall?",
+        answer: "Suitability depends on the work involved. Totals 1, 5 and 8 traditionally lean toward initiative, outreach and commerce, while 6 favours trust-based services relying on repeat customers. A sociable 3 can suit promotion-heavy roles. Match the flavour to daily tasks rather than chasing one supposedly best digit."
+      },
+      {
+        question: "Can changing my phone number improve sales or customer enquiries noticeably?",
+        answer: "A different number cannot by itself generate sales or enquiries. Callers respond to visibility, reputation, pricing, responsiveness and trust built over time. Numerology can help you choose between two available numbers you like equally, but treat that choice as symbolic finishing, not a business strategy."
+      },
+      {
+        question: "What if my current number reduces to seven or nine overall?",
+        answer: "Totals 7 and 9 carry quieter, reflective associations, which some people value for private lines, research work, writing or counselling-style roles needing calm focus. Nothing about them blocks everyday use. If the number already works well and contacts know it, continuity usually outweighs symbolic preference."
+      },
+      {
+        question: "How do I reduce a phone number total correctly every time?",
+        answer: "Add all ten digits together first. If the result has two digits, add those digits together; repeat once more if needed until a single digit from one to nine remains. For example, a total of 57 becomes 12 after one step, then settles at 3."
+      }
+    ]
+  },
+  "soul-urge-number": {
+    guideTitle: "Soul Urge Number: What Your Heart Quietly Wants",
+    guide: [
+      "The Soul Urge Number Calculator, also called the Heart's Desire number, listens for the private motivation humming underneath your everyday decisions, ambitions and routines. Where some name numbers describe how you appear to colleagues or where you are heading publicly, this one asks a more inward question: what does the heart keep requesting even when nobody is watching, applauding or keeping score of your choices at all? People often find the answer quietly confirming, because it names a satisfaction they pursue through hobbies, friendships and private pleasures long before connecting it with their own birth name.",
+      "Only the vowels of the full birth name enter this calculation, which is precisely what gives the result its inward slant and separates it from broader name readings. Pythagorean values apply as A=1, E=5, I=9, O=6, U=3, and consonants sit this one out entirely. The letter Y joins in only when it actually sounds as a vowel in the name being read; a consonant-sounding Y stays excluded from the count. Working slowly name by name helps, since a missed vowel inside a long middle name can quietly shift the final total and send the interpretation towards entirely the wrong motivational theme.",
+      "Read as inner wants, the nine results sound like quiet requests rather than public ambitions. Soul Urge 1 craves self-direction, 2 longs for closeness and peace, 3 needs to express and be heard, 4 wants security built slowly, and 5 hungers for variety and open doors. Meanwhile 6 wishes to nurture and be needed warmly, 7 seeks solitude, study and meaning beneath surfaces, 8 desires effectiveness, competence and earned respect, and 9 wants to give generously without keeping rigid accounts. None of these wants operates as a job description; each simply colours what fulfilment feels like from the inside."
+    ],
+    steps: [
+      "Write out your full birth name exactly as given at birth, including middle names.",
+      "Underline only the vowels A, E, I, O and U appearing across the whole name.",
+      "Convert each underlined vowel carefully using A=1, E=5, I=9, O=6 and U=3.",
+      "Add all vowel values together, then reduce the total to one digit."
+    ],
+    resultMeaning: [
+      "Work through the name Meera Krishnan - in MEERA the vowels are E + E + A = 5 + 5 + 1 = 11, a master-flavoured subtotal worth noticing on its own; in KRISHNAN the vowels are I + A = 9 + 1 = 10; the full total is 11 + 10 = 21, and 2 + 1 = 3, giving Soul Urge 3 - expression, warmth and the need to be heard. Someone carrying this result often feels most alive when conversation flows, stories get shared and feelings find words, music or laughter instead of staying politely contained inside.",
+      "That inward flavour deserves separating from outward numbers calculated from the very same name. A destiny or expression result counts every letter and describes outward direction and talents, the visible path a person builds in the world through work and reputation. The soul urge counts vowels only and describes private inner motivation, the satisfaction someone quietly needs underneath success, praise or productivity. Feeling outwardly accomplished yet strangely restless often means the outer path thrives while the inner request still waits unanswered, and naming that gap honestly is frequently the most useful thing this gentle calculation offers anyone."
+    ],
+    faqs: [
+      {
+        question: "How is the soul urge number different from the destiny number?",
+        answer: "The inputs and the territory differ completely. A destiny result counts every letter in the birth name and speaks about outward direction and talents. The soul urge counts vowels only and speaks about private inner motivation, the satisfaction you privately need regardless of public achievement or recognition."
+      },
+      {
+        question: "Why are only vowels used for the soul urge calculation method?",
+        answer: "Tradition treats vowels as the open, sounding core of a name, the part carried on breath, so readers link them with feeling and desire. Consonants get their own separate reading elsewhere. Restricting this calculation to vowels keeps its focus deliberately on inner wants rather than outer presentation."
+      },
+      {
+        question: "Does the letter Y ever count as a vowel in names?",
+        answer: "Sometimes, and pronunciation decides the matter. When Y actually sounds as a vowel inside the name, as in certain endings or standalone syllables, include it with its value. When Y behaves like a consonant at the start of a syllable, leave it out of the vowel count."
+      },
+      {
+        question: "Should I use my birth name or my current married name?",
+        answer: "Use the full name given at birth, including any middle names recorded then, because this tradition ties the reading to the name received at the start of life. Later name changes interest practitioners for other calculations, but the soul urge convention consistently returns to the birth name."
+      },
+      {
+        question: "What if my vowel subtotal reaches eleven before the final reduction?",
+        answer: "Pause and notice it before finishing the reduction, since an 11 subtotal carries a master-flavoured intensity in this tradition, suggesting heightened sensitivity or inspiration within that part of the name. Then continue reducing as usual, because the final soul urge result still lands on a single digit."
+      }
+    ]
+  },
 };
