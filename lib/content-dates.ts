@@ -98,6 +98,20 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "karmic-debt-number": "2026-11-02",
   "phone-numerology": "2026-11-02",
   "soul-urge-number": "2026-11-02",
+  // Phase B enrichment batches 10-11 (2 Nov 2026)
+  "wealth-astrology": "2026-11-02",
+  "hora-timing": "2026-11-02",
+  "rising-sign": "2026-11-02",
+  "mars-sign": "2026-11-02",
+  "saturn-return": "2026-11-02",
+  "kaal-sarp-dosha": "2026-11-02",
+  "kundali-houses": "2026-11-02",
+  "zodiac-career-finder": "2026-11-02",
+  "rahu-kaal": "2026-11-02",
+  "chiron": "2026-11-02",
+  "navamsha": "2026-11-02",
+  "north-node": "2026-11-02",
+  "dasha-calculator": "2026-11-02",
 };
 
 export function toolLastModified(slug: string): Date {

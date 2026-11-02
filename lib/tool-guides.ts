@@ -3375,4 +3375,539 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       }
     ]
   },
+  "wealth-astrology": {
+    guideTitle: "Wealth Astrology: Reading Money Houses in Your Chart",
+    guide: [
+      "Wealth astrology in the Vedic tradition studies how money moves through a birth chart: earnings, savings, gains from networks, windfalls and the skills that produce income. This reader works from the chart details you enter and highlights the houses tied to resources — chiefly the 2nd for stored funds and family support, the 11th for gains and contacts, plus the 5th and 9th, long linked with speculation, merit and fortune. Readers also weigh the condition of the ascendant ruler, since a person whose overall chart lacks stamina or direction rarely converts promising money placements into steady results, however favourably those placements are arranged on paper.",
+      "Nothing here invents planetary positions. You supply the ascendant and where each planet sits, copied from a chart you trust, and the tool organises those placements around the money houses, their rulers and any links between them. Because the reading follows your entries exactly, a mistyped house or sign flows straight into the output, so cross-checking your source chart before submitting repays the small effort. Where two source charts disagree — perhaps one used a different ayanamsa or an unverified birth time — settle that disagreement first, because no arrangement of interpretation can repair uncertain input data underneath it.",
+      "Results differ widely in flavour. A strong 2nd-house pattern speaks of building reserves slowly, valuing security and perhaps earning through voice, food or family trade. An emphasised 11th points toward income that grows through organisations, friendships and audiences. Where 5th and 9th rulers stand firmly, readers describe earned luck: education, mentors, children or principled risk feeding prosperity rather than chance alone delivering it. Debilitated or heavily afflicted money rulers paint a different register again: income arriving in bursts, leakage through family obligations, or gains that demand constant repair work to maintain."
+    ],
+    steps: [
+      "Open your trusted birth chart and note the ascendant sign first, since every house count begins there.",
+      "Enter each planet into the house and sign shown on that chart, checking the 2nd, 5th, 9th and 11th placements twice.",
+      "Submit and read which money houses hold planets, which are empty, and where their ruling planets have travelled.",
+      "Note any exchanges, conjunctions or aspects linking money houses, then read the interpretation as channels, never as amounts."
+    ],
+    resultMeaning: [
+      "Consider a Cancer Lagna chart. The Sun, lord of the 2nd house (Leo), sits in Taurus in the 11th house, while Venus, lord of the 11th (Taurus), sits in Leo in the 2nd — an exchange (parivartana) between the two money-house lords. Mars, lord of the 5th (Scorpio), is in Scorpio in the 5th, its own sign, and Jupiter, lord of the 9th (Pisces), is in Pisces in the 9th, also at home. Readers see savings and gains feeding each other, income arriving through networks, senior figures or organised groups, anchored by self-reliant 5th and 9th rulers.",
+      "Activation still decides when such channels stir. Vimshottari dasha periods belonging to the planets involved, supported by transits, are what traditional timing watches; outside those windows the same pattern can sit quietly for years. Treat this page as education about structure, not a promise of riches, salary figures or dates. Earnings in lived reality also hinge on training, markets, health, geography and choices no chart entry can capture. Used soberly, the reading names which doors the tradition believes stand open, so effort can be aimed there."
+    ],
+    faqs: [
+      {
+        question: "Which houses show wealth in a Vedic birth chart?",
+        answer: "Classical reading centres on the 2nd house for accumulated funds and the 11th for incoming gains, then widens to the 5th for speculation and children, the 9th for fortune and mentors, and the Lagna itself for earning capacity. Their rulers, occupants and mutual links matter more than any single placement."
+      },
+      {
+        question: "What does an exchange between money house lords mean?",
+        answer: "When two house rulers occupy each other's signs, astrologers call it parivartana and read the two domains as cooperating. Between the 2nd and 11th lords, savings and earnings are pictured as reinforcing one another, although dasha timing and the planets' condition decide how visibly that cooperation plays out."
+      },
+      {
+        question: "Can this reader tell me how rich I will become?",
+        answer: "No, deliberately. It maps which earning and saving channels your entered chart emphasises, in the language of the tradition. It cannot forecast a bank balance, a salary, a lottery result or a date for a windfall, and any service claiming such precision is going beyond what chart symbolism supports."
+      },
+      {
+        question: "Why does the tool ask me to enter chart details myself?",
+        answer: "This page interprets placements rather than generating them, so it relies on the ascendant, signs and houses you copy from a chart calculated elsewhere. That division keeps the method transparent: verify the underlying chart first, and the wealth reading simply reorganises those verified positions around the money houses."
+      },
+      {
+        question: "Do dasha periods change how a wealth pattern works?",
+        answer: "Yes, within this system timing is everything. A promising exchange or own-sign ruler may produce few visible events until its planet's dasha or a related sub-period runs. Astrologers therefore separate potential, meaning what the chart contains, from activation, meaning when transits and dashas bring that content forward."
+      }
+    ]
+  },
+  "hora-timing": {
+    guideTitle: "Hora Timing: Planetary Hours From Sunrise to Sunset",
+    guide: [
+      "Hora timing divides daylight and darkness into planetary hours, unequal slices whose length follows the Sun rather than the clock. Each slice carries a ruling planet in traditional assignments, and people consult the sequence when choosing a moment for study, signing, travel, exercise or conversation. This calculator builds the full sequence once you provide the weekday, sunrise and sunset. The practice survives because it is portable: no ephemeris, no software and no priestly calendar are required beyond knowing when the Sun rises where you live, which made planetary hours the working person's muhurat across many centuries of everyday use.",
+      "The arithmetic stays visible throughout. Daylight minutes are split into twelve equal portions for the day horas, and the span from sunset to the following sunrise is split separately for the night, which is why a summer hora stretches far beyond a winter one. The weekday supplies only the starting ruler; after that, rulership simply marches forward through a fixed ancient ordering explained below. Because day and night lengths rarely match outside the equinoxes, a date can legitimately produce daytime horas of sixty-one minutes alongside night horas of fifty-nine, and neither figure signals an error in the arithmetic.",
+      "Each ruler colours its hour in a particular register. Jupiter slots get picked for learning, counsel and money administration, Mercury for messages and calculations, Venus for social or aesthetic tasks, and Mars for physical effort or confronting chores. Saturn hours suit endurance work, Moon hours quieter domestic matters, and Sun hours anything needing visibility or dealings with officials. Practitioners rarely treat a mismatched hour as forbidden; they simply prefer alignment when the diary allows it, and fall back on the next suitable slot when appointments, trains or other people's schedules refuse to cooperate with the sequence."
+    ],
+    steps: [
+      "Choose the weekday you are planning for, because that day's ruler opens the entire sequence at sunrise.",
+      "Enter that date's local sunrise and sunset times from a reliable calendar for your own town.",
+      "Read down the generated list and match your task to a ruler whose traditional flavour fits it.",
+      "For evening plans, switch to the night sequence, which continues onward from sunset using the night length."
+    ],
+    resultMeaning: [
+      "Take a Wednesday with sunrise 6:12 am and sunset 6:24 pm. Day length = 12 hours 12 minutes = 732 minutes; one hora = 61 minutes. Wednesday's first hora is Mercury's. Full sequence: Mercury 6:12–7:13, Moon 7:13–8:14, Saturn 8:14–9:15, Jupiter 9:15–10:16, Mars 10:16–11:17, Sun 11:17–12:18, Venus 12:18–13:19, Mercury 13:19–14:20, Moon 14:20–15:21, Saturn 15:21–16:22, Jupiter 16:22–17:23, Mars 17:23–18:24. The Jupiter hora 9:15–10:16 gets spotlighted for signing up for a course or doing financial planning.",
+      "The closing Mars hora, 17:23–18:24, illustrates the matching logic from the other side: its combative, high-energy register suits exercise or clearing a backlog, not a delicate negotiation needing patience. Underneath every sequence sits the Chaldean order — Saturn, Jupiter, Mars, Sun, Venus, Mercury, Moon — cycling endlessly, with each weekday named for whichever ruler happens to open it. Regard hora as a traditional timing layer that organises intention; it guarantees no outcome. Readers combining systems often layer it beneath choghadia or a personally cast muhurat, using hora for fine adjustment after broader windows are chosen, rather than asking one planetary hour to carry an entire wedding, launch or house purchase alone."
+    ],
+    faqs: [
+      {
+        question: "Why is a planetary hour rarely sixty minutes long?",
+        answer: "Because twelve horas must fit between sunrise and sunset, however long that interval happens to be. Near an equinox a daytime hora lands close to sixty minutes, while high-latitude summers stretch one considerably and winters compress it. Night horas use the separate sunset-to-sunrise span, so their length differs again."
+      },
+      {
+        question: "What is the Chaldean order behind the hora sequence?",
+        answer: "It arranges the seven classical planets by assumed celestial speed: Saturn slowest, then Jupiter, Mars, Sun, Venus, Mercury and finally the swift Moon. Hora rulership advances one step through that list each hour, looping continuously across days and nights, which produces every weekday's familiar but shifting pattern."
+      },
+      {
+        question: "How are night horas different from daytime horas?",
+        answer: "Calculation, not character, sets them apart. After sunset the sequence simply keeps advancing through the Chaldean order, but each night hora lasts one twelfth of the darkness rather than one twelfth of daylight. On short summer nights individual horas shrink; on long winter nights they expand noticeably."
+      },
+      {
+        question: "Which hora is traditionally favoured for financial planning tasks?",
+        answer: "Jupiter's, because the tradition associates Jupiter with expansion, teachers, law and managed wealth. Mercury's hour also gets chosen for bookkeeping, comparing figures and drafting agreements. Picking either is a customary preference about atmosphere and focus, never an assurance that the plan itself will succeed financially."
+      },
+      {
+        question: "Does the weekday really decide the first hora ruler?",
+        answer: "Yes — that relationship is the backbone of the whole scheme and explains the weekday names themselves. Sunday opens with the Sun, Monday with the Moon, Tuesday with Mars, Wednesday with Mercury, Thursday with Jupiter, Friday with Venus and Saturday with Saturn, each starting precisely at local sunrise."
+      }
+    ]
+  },
+  "rising-sign": {
+    guideTitle: "Rising Sign Lookup: Estimate Your Ascendant by Date",
+    guide: [
+      "This rising sign lookup gives a quick estimate of your ascendant — the sign climbing over the eastern horizon when you were born — using only your birth date and approximate birth time. It relies on published date tables built around sunrise, so it answers 'roughly which sign was rising then?' rather than delivering the degree-precise ascendant a full chart calculation produces. That honesty is the point of offering it: many readers simply want a starting sign to explore, and a clearly labelled estimate serves them better than false precision dressed up as astronomy.",
+      "The table's logic is openly approximate. Around sunrise, the rising sign roughly matches the Sun's sign for that date; from there the ascendant advances at roughly one sign every two hours as Earth rotates. Your entered time is therefore slotted against the nearest sunrise pattern for your date, and births falling near a sign-changeover inherit the greatest uncertainty in the whole method. Tables also presume a middling latitude similar to northern India's, so births in far southern or far northern regions drift further from the printed slots than the tidy two-hour grid suggests.",
+      "Expect one of twelve broad portraits. A fire ascendant estimate suggests an eager, visible first approach to unfamiliar situations, earth a cautious and practical one, air a chatty, scanning style, and water a guarded, feeling-led entry. Such sketches describe manner and presentation — the doorway of the chart — while Sun and Moon placements fill in identity and emotional life behind it. Friends often recognise the rising description faster than the Sun one, precisely because the ascendant governs the surface others meet first: posture, pace, opening remarks and the impression left within minutes."
+    ],
+    steps: [
+      "Enter your birth date, then add the closest birth time you or your family can reliably recall.",
+      "Submit and note the estimated rising sign returned by the date table for that date and slot.",
+      "If your time sits near a changeover, read the neighbouring sign's description as a serious alternative candidate.",
+      "For an exact ascendant, afterwards run a full chart or Big Three calculation with precise time and birthplace."
+    ],
+    resultMeaning: [
+      "Suppose someone was born 3 December in Delhi at 6:52 am, close to sunrise. Early December places the Sun in Sagittarius, and the sunrise rule means the rising sign roughly matches the Sun's sign, so the table returns Sagittarius rising: an open, restless, forward-leaning presentation. Shift the identical birth date to 11:10 am and roughly two signs of rotation have passed — about two hours per sign — so the same table instead returns Aquarius, a cooler, more detached and unconventional front door.",
+      "That four-hour swing exposes both the usefulness and the ceiling of this shortcut. It separates morning births into plausible territory quickly, yet it cannot weigh latitude, the exact sunrise minute for Delhi that day, or slow and fast ascension differences between signs. Births near sign-changeover times are the least certain of all. Regard the answer as a well-labelled approximation, useful for orientation, awaiting confirmation from proper computation. If the full calculation later confirms the table, confidence rises cheaply; if it overturns the estimate, the correction itself teaches how sensitive this placement is to minutes."
+    ],
+    faqs: [
+      {
+        question: "How accurate is a rising sign found from date tables?",
+        answer: "It is a reasonable estimate for births well inside a two-hour slot, and genuinely shaky for births near a boundary between signs. Published tables smooth over latitude, seasonal sunrise shifts and uneven ascension speeds, so treat the result as a first approximation rather than a settled chart fact."
+      },
+      {
+        question: "Why does the sunrise rule anchor this lookup method?",
+        answer: "At sunrise the Sun sits on the eastern horizon, which is exactly where the ascendant is measured, so the Sun's sign and the rising sign coincide closely at that moment. Tables exploit that daily alignment, then count forward roughly one sign for every two hours elapsed after sunrise."
+      },
+      {
+        question: "What should I do if my birth time is unknown?",
+        answer: "Enter the family's best recollection — morning, afternoon or evening narrows the field considerably — and read two or three candidate signs rather than one. Hospital records, birth certificates or relatives' memories can tighten the window; without any time at all, an exact ascendant cannot honestly be claimed."
+      },
+      {
+        question: "Can two people born on one date have different rising signs?",
+        answer: "Certainly. The ascendant completes a full circuit of all twelve signs every day, changing roughly every two hours, so siblings born on the same date at breakfast and at lunch can carry entirely different rising signs. Birth date fixes the Sun's sign; birth time selects the ascendant."
+      },
+      {
+        question: "When do I need a full chart instead of this table?",
+        answer: "Whenever precision matters: a birth within about half an hour of a sign change, a birthplace far from the table's assumed latitude, or any reading depending on house cusps and degrees. A full chart or Big Three calculation using exact time and place resolves those cases properly."
+      }
+    ]
+  },
+  "mars-sign": {
+    guideTitle: "Mars Sign Lookup: Find Your Drive Style by Date",
+    guide: [
+      "Your Mars sign describes how you pursue what you want: energy, temper, competitiveness, physical rhythm and the way frustration escapes. This lookup finds that sign from your birth date alone, consulting published Mars tables that record which sign Mars occupied during each span of each year, including the long, looping stays created whenever Mars turns retrograde. Coaches, soldiers and surgeons were the classical Mars professions, yet the modern reading is broader: any arena where initiative, stamina and recovery from setbacks decide outcomes falls under this planet's descriptive territory.",
+      "A date-only method suits Mars better than most placements because the planet lingers. Mars spends roughly six to seven weeks per sign during ordinary direct motion, so most birthdays fall safely inside a span rather than on its edge. The exception deserves respect: births dated within a day or two of a listed changeover can belong on either side, and only a full chart settles those. Published tables also vary slightly in whether they print the ingress date as the first full day in a sign or the moment of entry itself, another reason boundary birthdays deserve individual verification rather than blind trust in any single printed row.",
+      "Across the twelve possibilities, fire-sign Mars reads as quick off the mark and blunt under pressure, earth-sign Mars as persistent, methodical and hard to hurry, air-sign Mars as argumentative, idea-driven and restless, and water-sign Mars as protective, indirect and fuelled by feeling. The sign sets the engine's character; house placement later decides which arena of life that engine drives hardest. Two people sharing a Mars sign can therefore look strikingly different in daily behaviour while still recognising the same underlying tempo in how they start projects, argue, train, compete and cool down afterwards."
+    ],
+    steps: [
+      "Enter your complete birth date, including the year, because Mars spans repeat differently from year to year.",
+      "Read the Mars sign the published table assigns to that particular stretch of dates.",
+      "Check how close your birthday sits to a changeover date printed beside your assigned span.",
+      "If you landed near a boundary, confirm the placement with a full chart before building interpretations on it."
+    ],
+    resultMeaning: [
+      "Picture someone born 20 April 2011. The published Mars table places Mars in Aries for that span — Mars entered Aries on 2 April 2011 — and Aries is Mars's own sign, the domicile where traditional readers say the planet operates without translation. The portrait that follows is direct, fast-starting drive: first to volunteer, happiest with a clear opponent or deadline, carrying a quick temper that flares and cools fast, plus an unmistakable competitive spark in games, work and argument alike.",
+      "Personalisation arrives through layers this table cannot see. The house Mars occupies channels that Aries urgency toward money, siblings, career, partnership or another arena, while aspects from Saturn, Jupiter or other planets can brake, broaden or inflame it. Retrograde mechanics also shape the tables themselves: about every 26 months Mars backtracks for weeks, stretching one sign stay to nearly six months, which is why spans vary so unevenly between years. None of this converts the lookup into an ephemeris; it remains a faithful reading of published spans, strongest mid-span and deliberately cautious at the edges, exactly as a responsible table-based tool should present itself."
+    ],
+    faqs: [
+      {
+        question: "How long does Mars usually stay in each zodiac sign?",
+        answer: "During straightforward direct motion, roughly six to seven weeks per sign, giving a full circuit of the zodiac in about two years. That unhurried pace is exactly why a birth date alone usually identifies the Mars sign reliably, something that cannot be said for faster-moving placements like the Moon."
+      },
+      {
+        question: "Why can one Mars sign stay last almost six months?",
+        answer: "Retrograde loops cause it. About every 26 months Mars appears to reverse against the stars for several weeks, sometimes crossing back into the previous sign and then re-entering, so a single sign can host Mars, lose it and host it again across nearly half a year."
+      },
+      {
+        question: "What does Mars in its own sign Aries signify?",
+        answer: "Tradition reads domicile Mars as undiluted: initiative comes easily, reactions are immediate, and competitiveness surfaces openly rather than through strategy or sulking. The same directness can tip into impatience or hasty starts, so the rest of the chart — especially Saturn contacts — decides how disciplined that raw drive becomes."
+      },
+      {
+        question: "My birthday falls near a Mars changeover date, what then?",
+        answer: "Treat the table's answer as provisional. Mars crosses a sign boundary at one specific hour, so two babies born on the same changeover date can hold different Mars signs. A full chart calculated for your birth time and place draws that line exactly where your birth actually fell."
+      },
+      {
+        question: "Does Mars sign influence attraction and desire as well?",
+        answer: "Yes, in traditional interpretation Mars colours desire, pursuit style and what kind of challenge feels exciting, alongside its better-known links with work drive and anger. Astrologers often read Venus and Mars together: Venus shows what attracts you, Mars shows how energetically you go after it once attracted."
+      }
+    ]
+  },
+  "saturn-return": {
+    guideTitle: "Saturn Return Calculator: Ages, Dates and What Changes",
+    guide: [
+      "A Saturn return is the stretch of life when travelling Saturn arrives back in the sign it held on the day you were born, completing one full circuit since your arrival. This checker starts from your natal Saturn sign and lays out when those homecoming windows fell, or will fall, across a lifetime. Most people meet three of them: one shifting youth into settled adulthood, another reshaping the late fifties, and a third, granted a long life, arriving near the late eighties. Rather than a single dramatic date, each return behaves like a season, often colouring two or three years with questions about structure, duty and direction. It arrives quietly, then rearranges priorities.",
+      "Saturn needs roughly twenty-nine and a half years to circle the zodiac once, which is why returns arrive on that spacing. Because the planet loops backward in retrograde motion several times a year, it typically crosses your natal Saturn degree three separate times during one return season: an opening pass, a backward revisit, then a final forward crossing. This page works from published cycle timing and the sign you supply, giving dependable windows rather than day-precise hits. Pinning down the exact calendar dates of your personal passes requires a full ephemeris matched against your precise birth-chart degree. Sign boundaries add a wrinkle, since returns can straddle two signs.",
+      "What the season asks about depends heavily on where Saturn sat at birth. A Capricorn or Aquarius Saturn turns the spotlight onto career scaffolding, reputation and long-range plans, while Cancer or Leo placements stir questions around home, parents and creative pride. Taurus and Libra returns tend to audit money habits and relationship bargains; Gemini and Virgo versions review skills, study and daily workload. Scorpio and Pisces returns often feel inward, sorting debts, boundaries and private grief, whereas Aries and Sagittarius placements test courage, belief and how independently you steer. The sign sets the subject; your own choices decide the outcome. Earth placements often feel it through employers and elders most."
+    ],
+    steps: [
+      "Find your birth Saturn sign first using this site's full chart tool.",
+      "Enter that sign above and note every return window listed for your age.",
+      "Mark which return you are inside, nearing or past from the age bands shown.",
+      "Read your Saturn sign's theme summary and compare it with commitments now needing rebuilding."
+    ],
+    resultMeaning: [
+      "Picture someone born on 15 June 1989 with Saturn in Capricorn in the birth chart. Saturn travelled through Capricorn again from December 2017 to December 2020, dipping briefly into Aquarius during 2020, so the first return window stretched roughly from ages 28½ to 31½, with the exact passes clustering across 2019, right around the 30th birthday. Saturn reaches Capricorn again around 2047–48, bringing a second return at about age 58, and a third follows near age 87. One biography, three widely spaced audits, each asking what deserves to be kept, repaired or finally set down for good. Notice how the middle of life, not youth, carries the second reckoning.",
+      "Read a return as an inventory, never as a sentence handed down. The useful questions tend to be practical ones: is this career structure still load-bearing, does this commitment still deserve its cost, are sleep, joints and savings getting the maintenance they need? Plenty of people remember a return mostly for a promotion earned, a marriage entered or a qualification finished under sustained pressure. The windows here come from your birth Saturn sign alone, so treat the edges as approximate; a proper ephemeris narrows the exact passes, yet the broader theme usually matters far more than any single day within it."
+    ],
+    faqs: [
+      {
+        question: "At what ages does a Saturn return usually happen in a lifetime?",
+        answer: "Returns follow Saturn's roughly twenty-nine-and-a-half-year circuit, so the first gathers around ages twenty-eight to thirty-one, the second around fifty-seven to sixty, and a third near eighty-six to eighty-eight. Retrograde loops and a birth degree near a boundary shift the timing."
+      },
+      {
+        question: "How long does one Saturn return actually last from start to finish?",
+        answer: "Allow roughly two to three years for the whole season. Saturn enters your birth sign, crosses your natal degree, slips backward in retrograde, then passes once more. Emphasis peaks around the exact crossings, while quieter restructuring continues in the background throughout."
+      },
+      {
+        question: "Why does my Saturn return seem to happen in three separate hits?",
+        answer: "Retrograde motion explains it. Seen from Earth, Saturn appears to reverse for several months, so during a return it crosses your degree, backs across it, then moves past a third time — three chapters of one process, not three events."
+      },
+      {
+        question: "Is a Saturn return something to worry about or be afraid of?",
+        answer: "No. Astrologers describe it as a maturity checkpoint, not a punishment. Arrangements built on shaky ground get tested, while solid ones often deepen. Many people finish a return with clearer priorities, firmer boundaries and work that finally fits."
+      },
+      {
+        question: "Can this calculator give me the exact dates of my return?",
+        answer: "This page reports reliable windows from your birth Saturn sign, enough for life-stage planning. Exact pass dates depend on your natal degree and daily planetary positions, so they require a full ephemeris calculation against your birth chart."
+      }
+    ]
+  },
+  "kaal-sarp-dosha": {
+    guideTitle: "Kaal Sarp Dosha: Pattern, Types and Honest Meaning",
+    guide: [
+      "Kaal Sarp is the name given to a birth-chart pattern in which every one of the seven visible planets — Sun, Moon, Mars, Mercury, Jupiter, Venus and Saturn — gathers on a single side of the line drawn between Rahu and Ketu, the two lunar nodes. This checker reads the placements you provide, tests which side of that nodal axis each planet occupies, and tells you whether the full pattern appears, appears only partly, or does not appear at all. Supporters describe the enclosed planets as moving through life carrying a shared karmic undertow that colours effort and timing.",
+      "Honesty matters more with this topic than almost any other on this site. Kaal Sarp, under this name and in this form, is a modern popular idea: it does not appear in Brihat Parashara Hora Shastra or in the Jaimini texts, the classical sources that define most Vedic techniques astrologers still use. The pattern spread through twentieth-century books, magazines and television astrology instead. That history does not make your curiosity about it foolish, but it does mean confident ancient authority should never be claimed for it, and no finding here deserves fear. Older chart factors — dashas, house lords, planetary strength — all come from those classical sources instead.",
+      "Popular lists divide the pattern into twelve named variants according to which house Rahu occupies, each name borrowed from serpent figures in mythology and each given a slightly different flavour by modern writers. A Rahu close to the ascendant is read one way, a Rahu in the tenth another. Just as important is the partial pattern: when a single planet strays beyond the axis, strict lists declare the whole thing broken, while gentler readers still note a near-pattern. Direction matters too in some lists, depending on whether the planets are counted moving from Rahu toward Ketu or the reverse."
+    ],
+    steps: [
+      "Enter every planet's sign and house from your Vedic chart, including Rahu and Ketu.",
+      "Recheck the nodal axis carefully — one mistyped sign can flip the verdict returned.",
+      "Run the check and note whether your result reads full, partial or no pattern.",
+      "Read the classical-source discussion underneath before attaching weight or worry to the verdict."
+    ],
+    resultMeaning: [
+      "Take a Taurus Lagna chart with Rahu in Cancer in the 3rd house and Ketu in Capricorn in the 9th. The seven grahas line up between them: Sun and Mercury in Leo in the 4th, Moon and Venus in Virgo in the 5th, Mars in Libra in the 6th, Jupiter in Scorpio in the 7th and Saturn in Sagittarius in the 8th. Every visible planet sits on that single Cancer-to-Capricorn arc and none stands on the opposite side, so the pattern registers as present. Many modern lists call this Rahu-in-the-3rd arrangement 'Vasuki', though that naming is popular convention rather than settled classical fact. The arc is fully occupied.",
+      "A present result is a geometric description, nothing heavier. Plenty of highly successful people carry this exact configuration in their charts, building celebrated careers and settled families while it sits there, which alone should retire any talk of a ruined life. If one planet in your chart falls outside the arc, modern writers call the pattern partial or broken, and its supposed effects are usually described as diluted. Pujas and other remedies belong to optional tradition: some people find them comforting ritual, but no rite carries a guaranteed effect, and nobody should sell you relief from fear. Live your chart's stronger promises instead of rehearsing its supposed curse."
+    ],
+    faqs: [
+      {
+        question: "Does Kaal Sarp dosha appear in classical Vedic astrology texts like Parashara?",
+        answer: "No. Brihat Parashara Hora Shastra and the Jaimini material contain no such named yoga or dosha. The concept circulated widely only during the last century, which is why careful astrologers present it as a modern popular reading rather than a classical verdict."
+      },
+      {
+        question: "Can a person with the Kaal Sarp pattern still become successful and happy?",
+        answer: "Emphatically yes. Celebrated politicians, actors, industrialists and sportspeople include many with this arrangement in their charts, living the ordinary mixture of setbacks and triumphs. A geometric pattern alone has never prevented education, wealth, marriage or recognition."
+      },
+      {
+        question: "What does it mean if only one planet falls outside the arc?",
+        answer: "Modern writers call that a partial or broken pattern, and most soften the reading considerably. Some lists treat a planet very close to Rahu or Ketu as effectively inside anyway. The disagreement shows these categories are recent conventions, not classical measurements."
+      },
+      {
+        question: "Do I need to perform a puja or remedy for Kaal Sarp?",
+        answer: "Nothing obliges you. Temple pujas, Rudrabhishek and similar rites are matters of personal faith and family custom, and many people find the ritual itself calming. But no honest practitioner claims a guaranteed outcome, and fear is never a fair reason to charge you."
+      },
+      {
+        question: "Why do different websites give my chart completely different Kaal Sarp verdicts?",
+        answer: "The rules were never standardised in an authoritative text, so sites apply different conventions: some demand all seven planets strictly inside, others allow orbs or the reverse direction, and some count variants others ignore. Conflicting verdicts reflect competing modern checklists, not an error in your chart."
+      }
+    ]
+  },
+  "kundali-houses": {
+    guideTitle: "Kundali Houses Explained: What the Twelve Bhavas Govern",
+    guide: [
+      "The twelve houses, called bhavas, are the departments of a Vedic birth chart: each one governs a territory of life, from the body and temperament in the first house through money, siblings, home, children, work, partnership and endings. This explainer works from the chart details you enter, mapping every sign to its house for your ascendant and showing which planet rules each department. Reading a chart house by house is how astrologers move from a wheel of symbols to a connected account of an actual person's circumstances, strengths, obligations and recurring preoccupations. Every later judgement an astrologer makes starts from this ground plan.",
+      "Three groupings give the map its grammar. Kendra houses — the 1st, 4th, 7th and 10th — are the pillars, describing self, home, partner and career. Trikona houses — 1st, 5th and 9th — carry fortune, creativity and belief, while dusthana houses — 6th, 8th and 12th — handle friction: rivals, upheaval and loss. This site follows the whole-sign convention, so one entire sign fills one house, counted forward from the ascendant sign. The real weaving happens through house lords: the planet ruling one department takes its agenda into whichever house it physically occupies. Groupings also combine, so a kendra lord landing in a trikona gains extra weight.",
+      "A quick tour shows the range: the 2nd speaks for savings, food and family speech, the 3rd for courage and younger siblings, the 5th for romance and study, the 11th for income networks and elder siblings. Health and daily routine live in the 6th, shared resources and inheritance in the 8th, foreign residence and retreat in the 12th. No department acts alone for long. A career planet ruling the 9th drags fortune into the office; a home lord sitting in the 7th ties domestic peace to a spouse. Houses supply the nouns, lords supply the verbs, planets supply the character."
+    ],
+    steps: [
+      "Enter your ascendant and each planet's sign exactly as your Vedic chart prints them, nodes included.",
+      "Find each placement's house number by counting whole signs forward from your ascendant sign.",
+      "Note each house's ruling planet, then follow where that lord sits elsewhere in the chart.",
+      "Read the summaries together, watching for lords that link two departments of life."
+    ],
+    resultMeaning: [
+      "Walk through a Pisces Lagna chart. Jupiter, the Lagna lord, stands in Sagittarius in the 10th, its own sign, suggesting career visibility and a teacherly public role. Mars occupies Aries in the 2nd, also its own sign, and because Mars additionally rules the 9th house of Scorpio, the fortune lord sits inside the wealth house — family resources, forceful speech, luck tied to earnings. The Moon rests in Cancer in the 5th, its own sign, making creativity and children an emotional centre. Mercury and Venus share Gemini in the 4th, and Mercury rules both the 4th and the 7th, so one planet quietly links home and partnership.",
+      "Notice how much of that reading came from lords changing address rather than from planets simply existing somewhere. Three placements in ruling signs strengthened their departments here, yet a different chart might send its 10th lord into the dusthana 8th or park a trikona lord in the 6th, and the story would tilt accordingly. This explainer only organises the chart details you entered; it does not calculate positions itself, and aspects, divisional charts and dasha timing all sit beyond its scope. Treat each house reading as one strand, then judge the braid the strands make together. Dignity and aspects refine the picture further still."
+    ],
+    faqs: [
+      {
+        question: "What is the difference between kendra, trikona and dusthana houses in astrology?",
+        answer: "Kendras (1st, 4th, 7th, 10th) are the pillars: self, home, partnership, career. Trikonas (1st, 5th, 9th) carry fortune, intelligence and dharma, and are prized when strong. Dusthanas (6th, 8th, 12th) govern struggle, sudden change and expenses."
+      },
+      {
+        question: "Why does the planet ruling a house matter as much as occupants?",
+        answer: "The lord carries a house's agenda wherever it goes. A well-placed 7th lord supports partnership even when the 7th house sits empty, while a lord buried in a dusthana strains its department. Occupants describe the scene; the lord decides where the story unfolds."
+      },
+      {
+        question: "Does this site use whole-sign houses or cusp-based house divisions here?",
+        answer: "Whole-sign. The entire sign rising at birth becomes the 1st house, the next sign the 2nd, and so on around the wheel — the standard classical Vedic approach. Western Placidus cusps, which can split one sign across two houses, are not used in this explainer."
+      },
+      {
+        question: "Which houses in a kundali are considered the strongest or most fortunate?",
+        answer: "Tradition prizes the trikonas — 1st, 5th and 9th — for fortune and merit, and the kendras for capability and visibility. A planet ruling both groups, or their lords placed together, forms combinations classical texts celebrate as supportive of rise."
+      },
+      {
+        question: "Can one planet really rule two different houses in my chart?",
+        answer: "Yes — every planet except the Sun and Moon rules two signs, so it usually governs two houses at once. Mercury ruling both your 4th and 7th permanently connects home and partnership. Only the luminaries hold single portfolios: the Sun rules Leo, the Moon Cancer."
+      }
+    ]
+  },
+  "zodiac-career-finder": {
+    guideTitle: "Zodiac Career Finder: Chart Factors Behind Career Direction",
+    guide: [
+      "This finder suggests career directions by weighing several birth chart factors together, rather than matching a single zodiac sign to a single job title. Your rising sign sets the overall approach you bring to work, while the tenth house, its ruler and any planets sitting there point toward the activities you are most visibly drawn to do in public and professional life. The output is deliberately a shortlist rather than a single answer, because most charts contain two or three pulls at once, and the interesting question is usually which combination of tasks, settings and responsibilities threads them together into work that could actually sustain you week after week.",
+      "The method blends those pieces in layers. First comes the element and ruler of the ascendant, which colours temperament and motivation. Next, the condition of the tenth house lord — its sign, dignity and house position — refines the field. Planets placed in the tenth, the sixth house pattern of daily routine, and the ninth house link to training and mentors then adjust the shortlist that the tool presents. Dignity matters inside that blend: a planet that is exalted, in its own sign or otherwise well placed pushes its associated fields higher up the ranking, while a weakly placed ruler still names a direction yet usually pairs it with support roles, longer training routes or environments where structure comes from the organisation rather than from you.",
+      "Different blends produce noticeably different lists. A chart led by Mercury tends to surface information handling, teaching through explanation and commercial problem solving. A Saturn-led chart leans toward building, compliance and long projects. A Mars-led chart often highlights operations, engineering support or competitive environments, while a Jupiter-led chart frequently names education, advisory work and roles that organise knowledge for other people to use. Venus-led blends frequently bring forward design, hospitality, beauty and client-facing craft, Moon-led blends point toward care, food, property and work paced by public demand, and Rahu-influenced blends often add technology, foreign markets or unconventional industries where rapid change is treated as normal rather than threatening."
+    ],
+    steps: [
+      "Enter your birth date, birth time and birthplace so the ascendant and house positions can be placed correctly.",
+      "Check that the rising sign shown matches a chart you already trust before reading the career list.",
+      "Read the ranked directions from top to bottom, noting the reason attached to each suggestion.",
+      "Save two or three directions that overlap with subjects you already enjoy studying or practising."
+    ],
+    resultMeaning: [
+      "Consider a Sagittarius Lagna chart where Mercury is exalted in Virgo in the 10th house and Mercury also rules the 7th, the Sun sits in Leo in the 9th in its own sign, and the Moon is exalted in Taurus in the 6th. The finder reads a Jupiter-ruled Lagna, suggesting teaching and big-picture thinking, filtered through that exalted Mercury in the 10th, pointing to analysis, editing, research, data and writing. The strong 9th-house Sun adds publishing, higher education and mentoring, while the 6th-house exalted Moon adds steady routine, service roles and healthcare-adjacent operations.",
+      "Treat a ranked list like this as reflective guidance for exploration, not a job verdict. It can help you notice why certain tasks feel energising and which environments deserve a trial project, a short course or an informational conversation. It makes no promise about income, hiring or success. Skills you build, education you complete, portfolios you show and the actual job market in your city decide real careers, so test any direction against training routes and openings before committing serious time or money."
+    ],
+    faqs: [
+      {
+        question: "How does a zodiac career finder choose its suggested directions?",
+        answer: "It weighs the ascendant, the tenth house and its ruler, planets placed in career-related houses and the pattern of daily-work houses together. No single placement decides the list, which is why two people sharing a Sun sign can receive quite different ranked directions."
+      },
+      {
+        question: "Why does my career result change when birth time changes?",
+        answer: "The ascendant moves through a sign roughly every two hours, and house positions follow from it. A different birth time can shift the tenth house and its ruler, so the finder may rank analytical, creative or service directions in a different order."
+      },
+      {
+        question: "Should I change my job based only on this result?",
+        answer: "No. Use the list to generate options worth investigating, then compare those options with your qualifications, interests, finances and local vacancies. A trial project or short course gives better evidence than any chart reading before you resign or retrain."
+      },
+      {
+        question: "What if my suggested careers do not match my current work?",
+        answer: "A mismatch is common and not a failure. The themes may already appear inside your present role as side duties, hobbies or volunteering, or they may point to skills worth developing gradually rather than a complete and immediate change of profession."
+      },
+      {
+        question: "Can this finder predict salary, promotion or business success accurately?",
+        answer: "It cannot. The tool describes tendencies, preferred tasks and work settings in traditional astrological language. Pay, promotion and business outcomes depend on performance, experience, employers, customers and wider economic conditions that no chart-based list can measure or guarantee."
+      }
+    ]
+  },
+  "rahu-kaal": {
+    guideTitle: "Rahu Kaal Today: How the Daily Window Is Calculated",
+    guide: [
+      "Rahu Kaal is a daily stretch of roughly ninety minutes that traditional Hindu almanacs mark as better avoided when beginning something important. This page works out that stretch for the date and place you choose, showing the exact start and finish in local clock time so you can plan a signing, departure or launch outside it if you follow the custom. Millions of people glance at this window while arranging an ordinary weekday, much as they might check a train timetable, and the habit sits comfortably alongside modern scheduling: you look, you nudge an appointment where nudging is easy, and you carry on with everything else exactly as planned.",
+      "The arithmetic uses daylight only. The interval between sunrise and sunset is split into eight equal parts, and each weekday assigns Rahu Kaal to a fixed part in that sequence. Because sunrise and sunset move with season and latitude, the clock times drift through the year and differ between cities, even though the underlying weekday pattern stays exactly the same. The same eight-part division is also used after dark in some almanac traditions, splitting sunset to the following sunrise for night calculations, although the daytime window is the one most households and businesses actually consult, since the large majority of signings, purchases and departures still happen between morning and evening.",
+      "The weekday segment map runs like this: Sunday 8th part, Monday 2nd, Tuesday 7th, Wednesday 5th, Thursday 6th, Friday 4th, Saturday 3rd. Once you know which part belongs to the weekday, the rest is plain division. Almanacs print the outcome for convenience, but anyone with that day's sunrise and sunset can reproduce the window in a few minutes by hand. Notice that the sequence is not a simple rotation through the week: Friday takes the fourth part while the following day, Saturday, steps back to the third, and Sunday jumps to the eighth. Learning the seven assignments as a small table, rather than guessing a pattern, prevents the most common do-it-yourself mistake."
+    ],
+    steps: [
+      "Pick the date you are planning for and confirm the location matches where the activity will happen.",
+      "Note the sunrise and sunset shown for that place, since both anchor the entire calculation.",
+      "Find your weekday in the segment map to learn which of the eight daylight parts applies.",
+      "Read the resulting start and finish times, then schedule new beginnings just before or after them."
+    ],
+    resultMeaning: [
+      "Take a Friday with sunrise 6:05 am and sunset 6:35 pm. Day length = 12 hours 30 minutes = 750 minutes; divided into 8 equal parts of about 93.75 minutes (roughly 1 hour 34 minutes each). Part boundaries: part 1 = 6:05–7:39, part 2 = 7:39–9:13, part 3 = 9:13–10:46, part 4 = 10:46–12:20. Rahu Kaal falls in the 4th part on Friday, so that day's window is 10:46 am to 12:20 pm, a neat illustration of the method.",
+      "Read the window as a traditional planning caution, nothing heavier. Most followers simply avoid starting new ventures, signings or journeys inside it, while routine work, ongoing tasks and everyday errands continue normally. It is not a danger period and nothing bad is predicted for anything that happens then. Appointments fixed by others often cannot move, and tradition itself treats unavoidable activity calmly, so use the timing where you genuinely have a choice. If you are checking for someone else, remember their local window may differ from yours even on the same date and weekday."
+    ],
+    faqs: [
+      {
+        question: "What important activities do people usually postpone during Rahu Kaal?",
+        answer: "People who follow the custom mainly postpone first steps: signing agreements, launching a venture, making a major purchase, starting a journey or holding an opening ceremony. Work already under way, routine meetings, study and ordinary household tasks usually continue without any adjustment."
+      },
+      {
+        question: "Why is Rahu Kaal different in another city on the same day?",
+        answer: "The window hangs on local sunrise and sunset, so a city further east or west, or one at a different latitude, starts its daylight at another clock time. Its eight parts therefore begin and end differently, shifting the Rahu Kaal window accordingly."
+      },
+      {
+        question: "Does Rahu Kaal last the same length throughout the year?",
+        answer: "No. Longer summer days stretch each of the eight parts, making the window longer, while shorter winter days compress it. Near the equinoxes it sits close to ninety minutes in many Indian locations, but the season always has the final word."
+      },
+      {
+        question: "What should I do if an important event falls inside it?",
+        answer: "Proceed calmly if the timing cannot change. The custom concerns choosing a start time when choice exists; it does not say an event held then will fail. Many families simply begin with a small prayer or shift a symbolic first step earlier."
+      },
+      {
+        question: "Is Rahu Kaal the same thing as Yamaganda or Gulika Kaal?",
+        answer: "No. They are separate almanac divisions, each tied to a different weekday segment and a different traditional figure. Rahu Kaal is the most widely observed of the three, but a detailed panchang lists all of them separately for the same day."
+      }
+    ]
+  },
+  "chiron": {
+    guideTitle: "Chiron Sign by Birth Date: Wound, Gift and Healing Theme",
+    guide: [
+      "Your Chiron sign is the zodiac sign Chiron occupied when you were born, read in astrology as the place where an early sensitivity and an unusual capacity to help others grow side by side. This finder returns your sign from your birth date alone, using a date table, so you can read the theme without needing your birth time or a full chart calculation. People usually meet this placement after the faster-moving points are familiar, and it often explains a recurring soreness that the Sun, Moon and rising sign never quite accounted for: the subject you give excellent advice about, yet quietly find hardest to handle when it concerns yourself.",
+      "Chiron was discovered in 1977 and named for the wounded healer of Greek myth, a centaur who could ease the suffering of others while carrying an injury of his own that never fully closed. Astrologers adopted that story as the symbol for this placement. The table behind this page is a published ingress table, listing the calendar spans during which Chiron travelled through each sign. Because those spans were compiled from observed sign changes, known as ingresses, the table approach is openly approximate at its edges. Away from an edge it is dependable and quick, which is why date-based finders use it, and why careful astrologers switch to a position calculation only when a birthday crowds a boundary between two neighbouring signs.",
+      "Themes differ sharply by sign. Chiron in Aries circles identity and the right to act. In Gemini it gathers around being understood and speaking plainly. In Cancer it touches belonging and early care, in Libra fairness inside close bonds, and in Capricorn recognition, authority and the fear of falling short in public. Each sign frames both the tender spot and the practical wisdom built around it. Elsewhere, Leo can struggle with being overlooked despite generous creative instincts, Scorpio with trust after betrayal while developing unusual emotional honesty, and Pisces with boundaries while learning a compassion that does not require self-erasure to prove itself genuine."
+    ],
+    steps: [
+      "Enter your full birth date, checking the year carefully because Chiron changes signs slowly and unevenly.",
+      "Read the sign returned and the span of years shown beside it in the table.",
+      "If your birthday sits near a listed changeover, note that a fuller chart check is worthwhile.",
+      "Read the wound and gift themes together, looking for patterns you recognise from real experience."
+    ],
+    resultMeaning: [
+      "Someone born 22 October 1982 offers a clear reading. The published table puts Chiron in Taurus for 1977–1983, so this birth returns Chiron in Taurus: the wound-and-gift theme sits around self-worth, money security, the body and being heard; healing grows through tangible steadiness and valuing one's own work. Small, repeatable acts — keeping promises to yourself, pricing your effort fairly, resting without guilt — fit this placement better than dramatic overhauls or sudden financial gestures.",
+      "Hold the method honestly. Chiron's eccentric ~50.7-year orbit makes spans uneven — under two years in the fastest signs, up to about eight in the slowest — and the table is a published ingress table (the approach this page uses), so births within a few weeks of a listed changeover deserve a full-chart check. House placement adds the life area: briefly, the 4th house would root the same Taurus theme in home and family security, where steadiness is built through the household itself. Read alongside the rest of the chart, it works best as one honest thread among several, never as the whole story."
+    ],
+    faqs: [
+      {
+        question: "Why does Chiron stay in some signs much longer than others?",
+        answer: "Chiron follows a stretched, eccentric orbit of about 50.7 years, moving quickly near its closest approach to the Sun and slowly at the far end. That uneven speed creates short sign visits in some eras and visits lasting several years in others."
+      },
+      {
+        question: "Do I need my exact birth time to find Chiron?",
+        answer: "Usually no, because Chiron moves slowly enough that a birth date settles the sign for most people. Only birthdays landing within a few weeks of a changeover benefit from a full chart, where the exact day of the sign change can be checked."
+      },
+      {
+        question: "What does the wounded healer idea actually mean in practice?",
+        answer: "It describes a pattern where a personal tender spot becomes a source of practical understanding for others. Someone who struggled to feel valued may become excellent at helping colleagues price work, set limits or persist calmly through a slow and difficult project."
+      },
+      {
+        question: "How does Chiron house placement change the sign reading?",
+        answer: "The sign describes the flavour of the theme, while the house names the setting where it plays out most visibly, such as home, work, friendship or partnership. Reading both together gives a more specific picture than either piece can offer alone."
+      },
+      {
+        question: "Is Chiron a planet, and when did astrologers start using it?",
+        answer: "Chiron is a small icy body, classed as both a comet and a minor planet, found by astronomers in 1977. Astrologers began working with it soon afterwards, building its meaning from the Greek myth of the healer centaur and from observed client patterns."
+      }
+    ]
+  },
+  "navamsha": {
+    guideTitle: "Navamsha D9 Chart: Strength Hiding Beneath the Birth Chart",
+    guide: [
+      "The navamsha, usually shortened to D9, is a divisional chart built by cutting every sign of the birth chart into nine equal parts and relocating each planet according to the part it occupies. Astrologers consult it alongside the main chart, called D1, whenever they want a second opinion on how solid a placement really is underneath its surface promise. Its name literally means ninth portion, and among the many divisional charts used in Parashari practice it is the one consulted most routinely, frequently drawn beside D1 in traditional chart printouts and software layouts alike.",
+      "This page applies the standard whole-sign Parashari mapping to the positions you enter, so no hidden recalculation of your birth moment takes place here. You supply a planet sign and degree from a chart you already have, and the tool works out which navamsha sign that degree portion belongs to, following counting rules that depend on whether the starting sign is movable, fixed or dual in nature. Dual signs begin their count from the 5th sign counted from themselves. Accuracy with degrees matters greatly here, because a planet sitting close to a slice boundary can change its navamsha landing if the recorded degree shifts by even a small amount.",
+      "Read across the twelve possible landings this way. A planet moving into a friendly or exalted navamsha sign is traditionally treated as better supported, while a landing in a hostile or weakened sign suggests extra effort around that planet's themes. The D9 Ascendant colours partnership and later life, the D9 Moon colours emotional steadiness, and D9 Venus receives particular attention whenever affection, harmony and married contentment are being weighed. The Sun in D9 is read for follow-through, Saturn for endurance, Mars for hidden drive and Jupiter for judgement."
+    ],
+    steps: [
+      "Find the sign and exact degree of each planet in your sidereal birth chart before starting.",
+      "Enter one position at a time, keeping degrees and minutes exactly as your chart prints them.",
+      "Note the navamsha sign returned for every planet, plus the navamsha Ascendant, in a small table.",
+      "Compare each D9 landing against its D1 sign, flagging planets that repeat a sign or change element."
+    ],
+    resultMeaning: [
+      "Work through the Moon at 14 degrees Scorpio. Every navamsha slice spans 3 degrees 20 minutes, so 14 degrees falls inside the 5th slice, which runs from 13 degrees 20 minutes to 16 degrees 40 minutes. Scorpio counts as a fixed sign, and fixed signs begin counting from the 9th sign away from themselves; the 9th sign from Scorpio is Cancer. Counting five slices forward from Cancer gives Cancer, Leo, Virgo, Libra and Scorpio, so this D9 Moon sits in Scorpio, matching its birth sign exactly. Checking the slice number before counting prevents the commonest beginner error with this chart.",
+      "A match of that kind carries the traditional label vargottama, read as an unusually settled and reinforced placement whose themes tend to hold steady under pressure. A smaller check uses a birth Ascendant at 8 degrees Aries: 8 degrees falls in the 3rd slice, covering 6 degrees 40 minutes to 10 degrees, and Aries is movable, so counting starts at Aries itself and three steps, Aries, Taurus, Gemini, produce a Gemini navamsha Lagna. Treat D9 as supporting evidence, never as a standalone verdict about character or marriage. Houses inside D9 are counted from that Gemini Ascendant, not from the Aries Ascendant of D1, so keep each chart self-contained when interpreting it."
+    ],
+    faqs: [
+      {
+        question: "What is the navamsha chart mainly used for in practice?",
+        answer:
+          "Tradition reaches for D9 when judging married life, the inner strength of individual planets and the fruit a placement eventually delivers after early promise fades. A planet that looks impressive in D1 but lands poorly in D9 is expected to work harder for its results."
+      },
+      {
+        question: "How large is one navamsha portion inside a single sign?",
+        answer:
+          "Each portion covers 3 degrees 20 minutes of arc. Nine portions therefore fill the full 30 degrees of a sign exactly, and the portion number a planet occupies decides how far you count forward when locating its navamsha sign."
+      },
+      {
+        question: "What counting rule applies to dual signs in a navamsha chart?",
+        answer:
+          "Dual signs, meaning Gemini, Virgo, Sagittarius and Pisces, begin counting from the 5th sign counted from themselves. Movable signs begin from themselves and fixed signs begin from the 9th sign from themselves, so identifying the sign type always comes first."
+      },
+      {
+        question: "What does vargottama mean when D1 and D9 signs match?",
+        answer:
+          "Vargottama describes a planet, or the Ascendant, occupying the identical sign in the birth chart and in the navamsha. Readers treat it as reinforcement: the placement keeps one consistent style across both charts and is traditionally considered steadier and more dependable."
+      },
+      {
+        question: "Can the navamsha chart completely replace reading the birth chart itself?",
+        answer:
+          "No. D9 grew up as a companion chart and only makes sense when read against D1 positions, house placements and planetary periods. Using it alone discards the context that gives its sign changes any practical meaning in a full reading."
+      }
+    ]
+  },
+  "north-node": {
+    guideTitle: "North Node Sign by Birth Date: Your Growth Direction",
+    guide: [
+      "Your North Node sign, called Rahu in Vedic astrology, marks the direction traditional astrology associates with unfamiliar growth, appetite and lessons gathered by stretching beyond habit. This finder returns that sign from your birth date alone, while its opposite point, the South Node or Ketu, describes the fluent, automatic pattern you already know how to perform without thinking. Neither point is a physical body; each is a calculated intersection, yet both carry heavy symbolic weight in reading because eclipses cluster near them. The pair always sits exactly opposite one another, so finding one automatically fixes the other six signs away.",
+      "The lookup rests on a published mean-node table rather than a fresh astronomical computation for your birth moment. Both nodes travel backwards through the zodiac, completing one full circuit in about 18.6 years and lingering roughly 18 months inside each sign. Because that retrograde drift is steady and well documented, a date table captures the sign reliably for most birthdays away from changeover edges. Almanac publishers have tracked these sign visits for generations, printing start and end months for every era. This page condenses that record into a quick lookup, sparing you the task of paging through old tables or estimating backwards from memory.",
+      "Across the wheel, each pairing sets up a distinct contrast. Taurus North Node with Scorpio South Node practises calm self-reliance instead of crisis management, Cancer with Capricorn practises receiving care instead of constant control, and Pisces with Virgo practises trust and release instead of endless correction. Every pairing describes one overused strength on one side and one underused capacity waiting on the other side. Leo North Node with Aquarius South Node practises visible self-expression instead of hiding inside group approval. Libra with Aries, explored below, remains among the most requested pairings because its cooperation lesson touches teams, friendships and family talks, not only romantic partnership."
+    ],
+    steps: [
+      "Enter your complete birth date, double-checking the year before you submit the lookup form.",
+      "Read the North Node sign returned and note the South Node sign shown directly opposite it.",
+      "If your birthday falls very close to a changeover date, flag the result for checking.",
+      "Read the growth themes beside your own memories of habits that feel automatic and effortless."
+    ],
+    resultMeaning: [
+      "Picture somebody born 14 June 2015. The published table places the North Node in Libra from October 2014 to November 2015, so this birthday returns North Node in Libra with the South Node in Aries. The growth direction here involves partnership, fairness and diplomacy, plus learning to weigh the needs of other people before deciding. The Aries South Node names the older comfort zone: charging ahead solo, deciding alone and treating consultation as unnecessary delay. In daily behaviour that can mean mediating a disagreement, asking a partner's preference before booking something shared, or pausing before answering sharply.",
+      "Because nodes describe a generational current, thousands of people born across those same months share this identical pairing, so house placement and the planet ruling your North Node sign, its dispositor, personalise where the theme concentrates. If your birthday sits within days of a listed boundary, confirm the sign from a complete chart drawn for your exact birth moment instead. Read the pairing as direction and tendency, a compass heading for development, rather than a prediction about events or a judgement on personality. One Libra North Node person might practise diplomacy inside marriage, another inside management, another inside community work, which is why sign-only readings stay deliberately broad here."
+    ],
+    faqs: [
+      {
+        question: "Why do the lunar nodes move backwards through the zodiac signs?",
+        answer:
+          "The nodes are the two crossing points where the Moon's orbit intersects the ecliptic, and those points slide westward as the Moon's orbital plane slowly rotates. Their backward motion is ordinary celestial geometry, which is why astrologers call the nodes retrograde by nature."
+      },
+      {
+        question: "How long does the North Node spend in each zodiac sign?",
+        answer:
+          "Roughly 18 months per sign on average. A complete backwards journey through all twelve signs takes about 18.6 years, although the exact pace varies slightly, so individual sign visits can run a little shorter or longer than that average figure suggests."
+      },
+      {
+        question: "What should I do if I was born near a changeover?",
+        answer:
+          "Treat the table result as provisional and confirm it with a full chart calculated for your birth date, time and place. Only birthdays within days of a listed boundary carry real doubt, because the mean node and the true node can differ slightly."
+      },
+      {
+        question: "How does house placement personalise a North Node sign reading further?",
+        answer:
+          "The sign sketches the style of growth, while the house names the arena where it gets practised, such as career, home, study or partnership. Two people sharing Libra North Node may live it through entirely different departments of life."
+      },
+      {
+        question: "Is the North Node the same point as Rahu in Vedic astrology?",
+        answer:
+          "Yes. Rahu is the north, ascending node and Ketu is the south, descending node in the Vedic system. Western and Vedic readers use different interpretive vocabularies around them, but both traditions start from these same two opposite points."
+      }
+    ]
+  },
+  "dasha-calculator": {
+    guideTitle: "Vimshottari Dasha Calculator: Timing Chapters From the Moon",
+    guide: [
+      "Vimshottari dasha is the Vedic timing system that divides life into a sequence of planetary periods, each ruled by one graha for a fixed number of years, so astrologers can discuss when particular themes are likely to become prominent. This calculator is one of the site's genuine calculation tools: it works from the Moon's sidereal position to build your personal timeline of major and minor periods. Families in India often note a child's starting period on the birth chart itself, because that opening balance shapes later readings and gives transits a personal backdrop.",
+      "The engine uses the Lahiri ayanamsa to place the Moon sidereally, identifies which nakshatra the Moon occupies, then measures how much of that nakshatra remains untravelled at birth. That remaining fraction sets the balance of the first period, after which periods follow in a fixed order. Sub-periods, called antardashas, subdivide every major period proportionally, letting readers narrow a broad chapter into shorter themed stretches. A period lord is never judged in isolation either. Its house placement, sign condition and friendships inside your particular chart colour how its years are expected to feel, which explains why two people sharing a Venus period can report very different experiences despite identical calendar dates on paper.",
+      "The complete cycle runs Ketu 7 years, Venus 20, Sun 6, Moon 10, Mars 7, Rahu 18, Jupiter 16, Saturn 19 and Mercury 17, totalling 120 years. Venus therefore offers the longest chapter and the Sun and Mars among the shortest. Each ruler colours its years differently: Jupiter periods are traditionally linked with study and guidance, Saturn periods with duty and slow consolidation, Rahu periods with ambition and unfamiliar territory. Mercury periods are linked with learning and analysis, Mars periods with initiative, Ketu periods with detachment, and Moon periods with home and emotional life."
+    ],
+    steps: [
+      "Enter your birth date, exact birth time and birthplace so the Moon's sidereal position is accurate.",
+      "Check the nakshatra and balance period shown first, since every later date depends on them.",
+      "Read your current major period, then open its sub-periods to locate the present theme.",
+      "Note upcoming changeover dates in your diary and revisit them when a period actually begins."
+    ],
+    resultMeaning: [
+      "Follow a birth on 10 March 2000 with the Moon at 20 degrees Cancer, inside Ashlesha nakshatra, which spans 16 degrees 40 minutes to 30 degrees Cancer and is ruled by Mercury. The Moon had crossed 3 degrees 20 minutes of Ashlesha's full 13 degrees 20 minutes span, exactly one quarter, so three quarters of Mercury's 17-year period remained at birth: 12.75 years, meaning 12 years 9 months of Mercury dasha, running to about December 2012. Ketu followed for 7 years, to about December 2019. Venus arriving after Ketu also illustrates a classic contrast: an inward, subtractive chapter giving way to the longest chapter in the cycle.",
+      "Venus then ran for 20 years, to about December 2039, with the Sun next for 6 years, to about December 2045, before the Moon's own 10 years began. A mahadasha supplies the background chapter, while the antardasha running inside it supplies the foreground topic, and readers judge both together. Keep the framing honest: dasha interpretation is tradition layered over a real astronomical calculation, and periods describe themes and emphases rather than guaranteed events, dates of marriage, illness or income. Separate the computed dates, which are checkable, from the meanings attached to them, which remain tradition and judgement."
+    ],
+    faqs: [
+      {
+        question: "What does balance of dasha mean at the moment of birth?",
+        answer:
+          "It is the unused portion of the first planetary period, found from how far the Moon still had to travel inside its birth nakshatra. A Moon near a nakshatra's end leaves only a short balance, while a Moon near its start leaves nearly the whole period."
+      },
+      {
+        question: "What is the real difference between mahadasha and antardasha time periods?",
+        answer:
+          "A mahadasha is the long major period ruled by one planet for its full allotted years. Inside it, antardashas are shorter sub-periods shared among all nine rulers in proportion, blending the sub-ruler's themes with the major ruler's background chapter."
+      },
+      {
+        question: "Why does the standard Vimshottari sequence always start with Ketu first?",
+        answer:
+          "The canonical order begins with Ketu and proceeds through Venus, Sun, Moon, Mars, Rahu, Jupiter and Saturn, ending with Mercury before cycling again. Your personal starting point differs, because your first ruler is whichever planet governs your Moon's birth nakshatra."
+      },
+      {
+        question: "How accurate are the dasha changeover dates from this particular calculator?",
+        answer:
+          "The dates follow arithmetically from the Moon's sidereal longitude under the Lahiri ayanamsa, so they are as reliable as your birth time. A Moon close to a nakshatra boundary makes the balance sensitive, and a small time error can shift dates noticeably."
+      },
+      {
+        question: "Can a dasha period guarantee a specific event will happen?",
+        answer:
+          "No. Astrologers use periods to discuss likelihood, emphasis and timing themes, drawing on the ruler's significations and house placements. Real outcomes also involve choices, circumstances and other chart factors, so treat any single-period prediction as interpretation, never as certainty."
+      }
+    ]
+  },
 };
