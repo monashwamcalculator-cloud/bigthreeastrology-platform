@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { ToolDefinition } from "@/lib/all-tools-registry";
+import { TOOL_GUIDES } from "@/lib/tool-guides";
 import { ToolSchema } from "@/components/tool-schema";
+import { RelatedTools } from "@/components/related-tools";
 import { CosmicIcon } from "@/components/cosmic-icons";
 
 // Import existing custom interactive components
@@ -41,6 +43,9 @@ type MasterToolRendererProps = {
 };
 
 export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
+  const rich = TOOL_GUIDES[tool.slug];
+  const displayFaqs = rich ? rich.faqs : tool.faqs;
+
   const renderInteractiveCalculator = () => {
     switch (tool.slug) {
       case "big-three": return <BigThreeCalculator />;
@@ -82,7 +87,8 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
         name={tool.name}
         description={tool.metaDesc}
         path={`/tools/${tool.slug}`}
-        faqs={tool.faqs}
+        faqs={displayFaqs}
+        steps={rich?.steps}
       />
 
       {/* Interactive Tool Header & Calculator */}
@@ -104,12 +110,51 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
 
       {/* Full-Page Rich Educational Guide & Explanation */}
       <section className="glass-card p-5 sm:p-8 prose prose-invert max-w-4xl mx-auto rounded-2xl bg-black/70 border-amber-500/30 space-y-4">
-        <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text-gold">
-          {tool.educationalTitle}
-        </h2>
-        <p className="text-xs sm:text-sm text-amber-100/90 leading-relaxed">
-          {tool.educationalContent}
-        </p>
+        {rich ? (
+          <>
+            <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text-gold">
+              {rich.guideTitle}
+            </h2>
+            {rich.guide.map((para, i) => (
+              <p key={i} className="text-sm text-amber-100/90 leading-relaxed">
+                {para}
+              </p>
+            ))}
+
+            <div className="border-t border-amber-500/20 pt-4 mt-4">
+              <h3 className="text-base font-semibold text-[#16402b] mb-2">
+                How to Use the {tool.name}
+              </h3>
+              <ol className="list-decimal pl-5 text-sm text-[#33463a] space-y-1.5 leading-relaxed">
+                {rich.steps.map((step, i) => (
+                  <li key={i}>{step}</li>
+                ))}
+              </ol>
+            </div>
+
+            {rich.resultMeaning.length > 0 && (
+              <div className="border-t border-amber-500/20 pt-4">
+                <h3 className="text-base font-semibold text-[#16402b] mb-2">
+                  What Your Result Means
+                </h3>
+                {rich.resultMeaning.map((para, i) => (
+                  <p key={i} className="text-sm text-amber-100/90 leading-relaxed mb-2">
+                    {para}
+                  </p>
+                ))}
+              </div>
+            )}
+          </>
+        ) : (
+          <>
+            <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text-gold">
+              {tool.educationalTitle}
+            </h2>
+            <p className="text-xs sm:text-sm text-amber-100/90 leading-relaxed">
+              {tool.educationalContent}
+            </p>
+          </>
+        )}
 
         <div className="border-t border-amber-500/20 pt-4 mt-4">
           <h3 className="text-base font-semibold text-[#16402b] mb-2">How This Result Is Calculated</h3>
@@ -122,14 +167,14 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
       </section>
 
       {/* Frequently Asked Questions */}
-      {tool.faqs && tool.faqs.length > 0 && (
+      {displayFaqs && displayFaqs.length > 0 && (
         <section className="max-w-4xl mx-auto">
           <h3 className="text-xl font-display font-bold text-center text-white mb-4 flex items-center justify-center gap-2">
             <CosmicIcon name="tarot" className="w-5 h-5" />
             <span>Frequently Asked Questions</span>
           </h3>
           <div className="grid gap-3">
-            {tool.faqs.map((faq, idx) => (
+            {displayFaqs.map((faq, idx) => (
               <div key={idx} className="glass-card-hover p-4 rounded-xl border border-amber-500/20 bg-black/50">
                 <h4 className="text-sm font-semibold text-amber-300 mb-1 flex items-start gap-2">
                   <CosmicIcon name="zodiac" className="w-4 h-4 mt-0.5" />
@@ -143,6 +188,9 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
           </div>
         </section>
       )}
+
+      {/* Related calculators + matching in-depth guide (Phase A1, 2 Nov 2026) */}
+      <RelatedTools tool={tool} />
 
       {/* CTA Navigation Banner */}
       <div className="text-center pt-2">

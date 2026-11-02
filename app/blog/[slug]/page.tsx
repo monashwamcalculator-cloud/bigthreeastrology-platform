@@ -10,6 +10,7 @@ import Image from "next/image";
 import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 import { AuthorBio } from "@/components/author-bio";
 import { AUTHOR } from "@/lib/author";
+import { extractFaqs } from "@/lib/faq-extract";
 
 type Props = { params: { slug: string } };
 
@@ -29,7 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata({
     title: `${post.title} | BIGThreeAstrology`,
     description: post.metaDescription,
-    path: `/blog/${params.slug}`
+    path: `/blog/${params.slug}`,
+    image: post.image || undefined
   });
 }
 
@@ -51,6 +53,7 @@ export default async function BlogPostPage({ params }: Props) {
     "@type": "Article",
     headline: post.title,
     description: post.metaDescription,
+    ...(post.image ? { image: [absoluteUrl(post.image)] } : {}),
     datePublished: post.createdAt.toISOString(),
     dateModified: post.updatedAt.toISOString(),
     author: {
@@ -61,6 +64,21 @@ export default async function BlogPostPage({ params }: Props) {
     },
     mainEntityOfPage: absoluteUrl(`/blog/${post.slug}`)
   };
+  const postFaqs = extractFaqs(post.content ?? "");
+  const faqSchema = postFaqs.length >= 2 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: postFaqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer
+      }
+    }))
+  } : null;
+  const showUpdated =
+    new Date(post.updatedAt).getTime() > new Date(post.createdAt).getTime() + 86400000;
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -75,6 +93,9 @@ export default async function BlogPostPage({ params }: Props) {
     <div className="container-main py-8 space-y-8 animate-fade-in">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
       
       {/* Breadcrumb Navigation */}
       <nav className="text-xs sm:text-sm text-amber-200/80 mb-4 flex items-center space-x-2">
@@ -109,6 +130,15 @@ export default async function BlogPostPage({ params }: Props) {
                 day: 'numeric'
               })}
             </time>
+            {showUpdated && (
+              <time className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-block">
+                Updated: {new Date(post.updatedAt).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
+              </time>
+            )}
             <span className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full">
                Astrological Guide
             </span>

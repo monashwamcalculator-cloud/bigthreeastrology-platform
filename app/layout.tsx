@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.svg",
     shortcut: "/logo.svg",
-    apple: "/logo.jpg"
+    apple: "/apple-icon.png"
   },
   openGraph: {
     siteName: "BIGThreeAstrology",

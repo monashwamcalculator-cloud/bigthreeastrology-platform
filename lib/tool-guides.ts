@@ -595,4 +595,330 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       },
     ],
   },
+
+  // Phase B enrichment batch 1 (2 Nov 2026, 10/10 programme)
+  "neptune-sign": {
+    guideTitle: "Neptune Sign Guide: Your Dreams, Art and Collective Imagination",
+    guide: [
+      "Your Neptune sign is the sign Neptune occupied when you were born, and it describes how you dream, imagine, idealise and seek spiritual connection. Neptune dissolves boundaries, so this placement colours your taste in art, film and music, your compassion, and the illusions you are most likely to fall for. Because Neptune moves very slowly, it is not personal by itself. Everyone born in the same era shares your Neptune sign, and the house it falls in, plus aspects to personal planets, is what makes the placement feel individual to you.",
+      "You can find your sign from your birth period alone, using this approximate tropical table. Neptune was in Libra from 1943 to 1957, Scorpio from 1957 to 1970, Sagittarius from 1970 to 1984, Capricorn from 1984 to 1998, Aquarius from 1998 to 2011, Pisces from 2011 to 2025, and Aries from 2025 to 2039. These boundaries are approximate and shift slightly with retrograde motion near the edges. If you were born within a few months of a changeover year, check your exact birth date against a detailed table rather than relying on the year alone.",
+      "Each generation expresses Neptune differently. Neptune in Sagittarius dreamed through travel, belief and big philosophies; Neptune in Capricorn idealised success and tried to make dreams practical and respectable; Neptune in Aquarius imagined new communities, technology and humanitarian futures; Neptune in Pisces, in its home sign, deepened sensitivity to music, film, healing and collective emotion; Neptune in Aries is beginning to dream in bolder, more independent and pioneering ways. Read your sign as a shared cultural atmosphere first, then ask where that atmosphere concentrates in your own life through its house placement."
+    ],
+    steps: [
+      "Enter your birth date or select your birth period in the tool above.",
+      "Compare the result with the era table in this guide to confirm your Neptune sign.",
+      "Note the themes the reader highlights, especially art, dreams and compassion.",
+      "Reflect on which house Neptune occupies in your full chart for the personal layer."
+    ],
+    resultMeaning: [
+      "A Neptune result is best read as a description of your generational imagination, not as a private prediction. It shows the images, music, myths and spiritual longings your whole age group tends to share, and the kind of escapism you should watch for when life feels overwhelming. Two people with Neptune in Pisces may share a love of immersive art, yet express it in completely different parts of life depending on house placement and life experience.",
+      "Use the result as a prompt for honest reflection. Where do you idealise people or situations and ignore clear evidence? Where does creativity genuinely restore you? Neptune rewards gentleness, clear boundaries and regular grounding in sleep, nature and routine. If a theme in your reading feels vague, that vagueness is itself useful information, because Neptune areas of life often need more definition, honesty and practical structure than other areas do."
+    ],
+    faqs: [
+      {
+        question: "Does my Neptune sign change during my life?",
+        answer: "No. Your Neptune sign is fixed by your birth date and stays the same throughout your life. What changes is Neptune moving by transit through later signs, which can temporarily highlight different houses in your chart. Your natal sign remains the foundation, describing the imaginative style and spiritual sensitivities you were born into with your generation."
+      },
+      {
+        question: "Why do all my friends have the same Neptune sign?",
+        answer: "Because Neptune spends about fourteen years in each sign, classmates, siblings close in age and most friends from school will usually share it. That is expected and does not make the placement meaningless. It describes a shared generational background. Your house placement, aspects and the rest of your chart are what separate your personal experience from theirs."
+      },
+      {
+        question: "What if I was born near a Neptune sign change?",
+        answer: "If your birth falls within a few months of a boundary year in the table, do not guess from the year alone. Neptune can move back and forth across a boundary during retrograde periods. Check your exact day and month against a detailed ephemeris table or a full birth chart, and use that confirmed sign when reading this guide."
+      },
+      {
+        question: "Does my Neptune sign affect compatibility?",
+        answer: "Only in a broad, generational way. Shared Neptune signs can mean you idealise similar things or grew up with similar music, films and cultural dreams, which can feel comforting. Real compatibility depends far more on personal planets, the Moon, Venus and Mars, and on how two charts interact overall, so treat Neptune as background colour rather than a verdict."
+      },
+      {
+        question: "How can I work positively with my Neptune sign?",
+        answer: "Give Neptune healthy outlets on purpose, such as music, film, swimming, prayer, meditation or making art without needing it to be perfect. Protect those practices with clear boundaries around sleep, substances and promises. Neptune works best when inspiration is welcomed regularly but everyday decisions still rest on evidence, rest and honest conversation."
+      }
+    ]
+  },
+  "saturn-sign": {
+    guideTitle: "Saturn Sign Guide: Work, Discipline and the Lessons Time Teaches",
+    guide: [
+      "Your Saturn sign is the sign Saturn occupied when you were born, and it shows where you learn through effort, patience and consequence rather than luck. It points to the work you take seriously, the standards you hold yourself to, and the area where confidence tends to arrive later, after practice. Saturn is faster than the other outer planets, but it still spends about two and a half years in each sign, so everyone in your school years shares it. Your house placement and aspects make it personal, shaping exactly where maturity is demanded of you most.",
+      "Find your sign from this approximate tropical table. Saturn was in Cancer from 2003 to 2005, Leo from 2005 to 2007, Virgo from 2007 to 2010, Libra from 2010 to 2012, Scorpio from 2012 to 2015, Sagittarius from 2015 to 2017, Capricorn from 2017 to 2020, Aquarius from 2020 to 2023, Pisces from 2023 to 2025, and Aries from 2025 to 2028. Boundaries shift slightly with retrogrades, so if you were born near a changeover, check your exact birth date before settling on a sign and reading the interpretation that follows in this guide.",
+      "The sign colours how a cohort approaches responsibility. Saturn in Virgo builds skill through precision and useful service; Saturn in Libra learns fairness, commitment and partnership the hard way; Saturn in Scorpio earns endurance through shared resources and emotional honesty; Saturn in Sagittarius must test beliefs against reality; Saturn in Capricorn, in its home sign, is ambitious, structured and focused on lasting achievement; Saturn in Aquarius works to reform systems rather than simply obey them; Saturn in Pisces learns boundaries around compassion, rest and creative work; Saturn in Aries, the newest placement, is learning patience, self control and the discipline of starting well."
+    ],
+    steps: [
+      "Enter your birth date or select your birth period in the reader above.",
+      "Compare the result with the era table in this guide to confirm your Saturn sign.",
+      "Read the highlighted themes around work, discipline and long-term goals carefully.",
+      "Consider the house Saturn occupies in your full chart to see where the lessons apply."
+    ],
+    resultMeaning: [
+      "Read your Saturn result as a description of your working style and your relationship with time, not as a judgement on your character. It suggests where shortcuts tend to fail for your generation, where steady effort compounds, and what kind of structure actually supports you. Many people dislike their Saturn themes in youth and respect them by middle age, because Saturn rewards tend to arrive after the effort, not before it.",
+      "The most useful question a Saturn reading raises is practical: what small, repeatable commitment would improve this area over the next year? Saturn responds to calendars, budgets, practice schedules and honest accountability, not to self-criticism. If your result feels demanding, break it into one modest habit. Consistency matters far more than intensity here, and progress that looks slow at first is often the kind that lasts."
+    ],
+    faqs: [
+      {
+        question: "Is Saturn always difficult or restrictive?",
+        answer: "No. Saturn feels restrictive mainly where you want results without the underlying structure. In areas where you have done the work, Saturn brings competence, reliability and genuine authority. Many people find their Saturn sign becomes a source of pride later in life, precisely because nothing there was handed to them and every gain was earned and kept."
+      },
+      {
+        question: "Why do people my age share my Saturn sign?",
+        answer: "Because Saturn spends roughly two and a half years in each sign, a whole school cohort shares the same placement and many of its work attitudes. That shared layer explains generational habits around careers and responsibility. Your personal expression comes from the house Saturn occupies and the aspects it makes, which differ from chart to chart."
+      },
+      {
+        question: "What is a Saturn return and when does it happen?",
+        answer: "A Saturn return happens when Saturn comes back to its birth sign and degree, around ages twenty nine, fifty eight and eighty seven. It is a period of reviewing commitments, work and responsibilities and keeping only what is sustainable. The sign table in this guide helps you locate that return period, but exact timing depends on your precise birth degree."
+      },
+      {
+        question: "What if I was born near a Saturn sign boundary?",
+        answer: "Check your exact date rather than guessing from the year. Saturn stations and retrogrades can move it back across a sign boundary for several months, so two people born in the same changeover year can have different Saturn signs. A detailed ephemeris table or full birth chart will confirm which side of the boundary your birth date falls on."
+      },
+      {
+        question: "Can my Saturn sign help with career choices?",
+        answer: "It can suggest a working style rather than a specific job title. Saturn in Capricorn may thrive with clear ladders and measurable results, while Saturn in Aquarius may need independence and a reforming purpose. Use it to choose environments, routines and managers that suit your discipline style, and keep real skills, qualifications and experience at the centre of any decision."
+      }
+    ]
+  },
+  "pluto-sign": {
+    guideTitle: "Pluto Sign Guide: Power, Shadow and Generational Transformation",
+    guide: [
+      "Your Pluto sign is the sign Pluto occupied when you were born, and it describes how your generation confronts power, loss, control and rebirth. Pluto governs what is hidden, what must be eliminated, and what returns in a stronger form after a crisis. It is the slowest planet in this set, spending between twelve and thirty one years in a sign, so your Pluto sign is shared by an entire generation. Its personal meaning comes almost entirely from its house placement and aspects to your personal planets in your chart.",
+      "Locate your generation in this approximate tropical table. Pluto was in Virgo from 1958 to 1971, Libra from 1971 to 1984, Scorpio from 1984 to 1995, Sagittarius from 1995 to 2008, Capricorn from 2008 to 2023, and Aquarius from 2023 to 2043. Because Pluto retrogrades across boundaries, births near a changeover year need an exact date check. Two people born months apart near 1984 or 2008, for example, can belong to different Pluto generations. That long Aquarius stay also means Pluto generations are now much longer than the Scorpio generation, a useful reminder that these spans are never uniform.",
+      "Each Pluto generation carries a distinct collective task. Pluto in Virgo transformed work, health and daily systems; Pluto in Libra remade marriage, law and ideas of fairness; Pluto in Scorpio, in its home sign, intensified questions of sexuality, shared money and psychological truth; Pluto in Sagittarius exposed belief, media and global culture; Pluto in Capricorn tested governments, corporations and authority itself; Pluto in Aquarius is beginning a long transformation of technology, networks and collective power. Your sign names the era, not your private destiny, however intense the themes may feel."
+    ],
+    steps: [
+      "Enter your birth date or select your birth period in the reader above.",
+      "Compare the result with the era table in this guide to confirm your Pluto generation.",
+      "Notice which themes around power, change and renewal the reader emphasises.",
+      "Look at the house Pluto occupies in your full chart for where this plays out personally."
+    ],
+    resultMeaning: [
+      "A Pluto result should be read slowly. It describes the deep background pressures your generation grew up inside, such as attitudes to authority, money, technology or truth, rather than events that will happen to you personally. Where it becomes personal is the house: Pluto in the seventh house, for example, concentrates transformation in partnerships, while Pluto in the tenth concentrates it in career and public life, even for people with the identical sign.",
+      "Working well with Pluto means practising honest elimination. Periodically ask what habit, grudge, subscription, role or version of yourself has genuinely ended, and let it go cleanly instead of controlling its memory. Pluto themes improve with therapy, journalling, debt clearing and other structured ways of facing uncomfortable truths. Avoid power struggles you do not need; transformation offered voluntarily is almost always gentler than transformation imposed by crisis."
+    ],
+    faqs: [
+      {
+        question: "Why does Pluto stay in some signs much longer than others?",
+        answer: "Pluto has a highly elliptical orbit, so it moves at very different speeds through the zodiac. It spent only about twelve years in Scorpio but around thirty one years in Taurus in an earlier era. That uneven pace is why Pluto generations are different lengths and why the sign is a generational marker rather than a personal one."
+      },
+      {
+        question: "Does my Pluto sign describe my personality?",
+        answer: "Only in a very broad way. It describes the collective obsessions and crises your generation shares, not your temperament, talents or daily behaviour. Personal planets such as the Sun, Moon, Mercury, Venus and Mars describe you far more directly. Pluto becomes personal mainly through its house placement and close aspects to those personal planets in your chart."
+      },
+      {
+        question: "What if I was born when Pluto changed signs?",
+        answer: "Use your exact birth date, not just the year. Pluto can cross a boundary, retrograde back, and cross again over many months, so births near 1971, 1984, 1995, 2008 or 2023 are the most likely to be misread from a year table. A detailed ephemeris or full birth chart will settle the sign reliably."
+      },
+      {
+        question: "Is Pluto in Scorpio stronger than other signs?",
+        answer: "Pluto is traditionally considered at home in Scorpio, so that generation often expresses Pluto themes of intensity, secrecy and regeneration very directly. Stronger does not mean better or worse for an individual. Every Pluto sign has a demanding collective task, and how it affects you personally depends on house placement and aspects, not on the sign alone."
+      },
+      {
+        question: "How can I work with Pluto themes in a healthy way?",
+        answer: "Focus on honesty and clean endings. Clear debts where you can, finish or formally close what has ended, and use reflective practices such as journalling or counselling when old patterns resurface. Pluto rewards voluntary change and punishes clinging and control. Small, truthful steps taken early usually prevent the larger upheavals Pluto is associated with."
+      }
+    ]
+  },
+  "uranus-sign": {
+    guideTitle: "Uranus Sign Guide: Breakthroughs, Technology and Your Rebel Streak",
+    guide: [
+      "Your Uranus sign is the sign Uranus occupied when you were born, and it shows how your generation breaks rules, adopts new technology and imagines a freer future. Uranus rules sudden insight, experimentation and the refusal to live by outdated traditions. It spends about seven years in each sign, so everyone in your age group shares it, and classmates will almost always have the same Uranus sign as you. The sign describes the style of change you collectively bring; the house shows where you personally need freedom, originality and experimentation.",
+      "Find your era in this approximate tropical table. Uranus was in Libra from 1968 to 1975, Scorpio from 1975 to 1981, Sagittarius from 1981 to 1988, Capricorn from 1988 to 1996, Aquarius from 1996 to 2003, Pisces from 2003 to 2011, Aries from 2011 to 2019, Taurus from 2019 to 2026, and Gemini from 2026 onward. Boundaries blur slightly with retrograde motion, so births near a changeover year should be confirmed with an exact birth date rather than the year alone. The table also shows why grandparents and grandchildren rarely share this sign, while school friends almost always do.",
+      "Each Uranus generation rebels in its own direction. Uranus in Capricorn disrupted careers and institutions from inside; Uranus in Aquarius, in its home sign, normalised the internet, networks and alternative identities; Uranus in Pisces dissolved boundaries in music, film and spirituality; Uranus in Aries championed start ups, personal branding and direct action; Uranus in Taurus is reinventing money, food and material security; Uranus in Gemini is set to transform learning, media and transport. Your sign shows which traditions your cohort simply will not keep. The common thread is honesty about what no longer works."
+    ],
+    steps: [
+      "Enter your birth date or select your birth period in the reader above.",
+      "Compare the result with the era table in this guide to confirm your Uranus sign.",
+      "Read the themes around originality, technology and change that the reader highlights.",
+      "Check the house Uranus occupies in your full chart to find your personal freedom needs."
+    ],
+    resultMeaning: [
+      "Read your Uranus result as a portrait of your generation at its most inventive, not as a forecast of sudden events in your own life. It explains why your age group adopts some technologies instantly, questions certain traditions automatically, and expects flexibility in work and identity. When you feel restless in a rigid environment, you are often expressing a generational value, which is why finding peers who share that value can feel so relieving.",
+      "Personally, Uranus matters most where it sits by house and aspect. That area of life needs honesty, variety and room to experiment, and it tends to stagnate under tight control. Build deliberate outlets for change there, such as side projects, flexible routines or new skills, so that your need for freedom renews your life in planned ways instead of arriving as an abrupt break you did not choose."
+    ],
+    faqs: [
+      {
+        question: "Why do I share my Uranus sign with everyone my age?",
+        answer: "Because Uranus takes about seven years to cross one sign, an entire primary school generation shares the same placement. That is normal and intentional in interpretation. Uranus describes collective attitudes to freedom, technology and rebellion. Your individual expression comes from its house placement and its aspects to personal planets, which are unique to your chart."
+      },
+      {
+        question: "Does Uranus cause sudden changes in my life?",
+        answer: "Uranus is associated with sudden insight and disruption by transit, when the moving planet contacts points in your chart. Your birth sign by itself does not schedule those events. It describes the style of change your generation favours. Treat any restlessness it highlights as information about where you need more flexibility, not as a prediction."
+      },
+      {
+        question: "What if I was born near a Uranus sign change?",
+        answer: "Confirm with your exact birth date. Uranus can enter a new sign, retrograde back into the previous one, and enter again months later, so births near years such as 1996, 2003, 2011, 2019 or 2026 can easily be misread from a year only table. A detailed ephemeris or full birth chart gives the reliable answer."
+      },
+      {
+        question: "Is Uranus in Aquarius especially powerful?",
+        answer: "Aquarius is the sign Uranus traditionally rules, so that generation often expresses Uranian themes of networks, technology and social reform in a concentrated way. It does not make individuals luckier or more original by default. Every Uranus sign innovates somewhere, and house placement decides where that inventiveness shows most clearly in your own life."
+      },
+      {
+        question: "How can I use my Uranus sign constructively?",
+        answer: "Give the Uranus part of your life scheduled freedom. Learn emerging tools early, keep one project where experimentation is allowed, and review routines yearly so small updates prevent large ruptures. Uranus works best when change is a habit rather than an emergency, and when originality serves a real purpose instead of simply opposing every rule."
+      }
+    ]
+  },
+  "friendship-compatibility": {
+    guideTitle: "Why Some Friendships Feel Effortless: The 11th House, Moon and Mercury",
+    guide: [
+      "Some friendships feel easy from the first conversation, while others stay polite but never quite click. In astrology, friendship compatibility is not mainly about Sun signs. It is about social fit: how you relax, talk and spend time together. The clearest place to look is the 11th house, the house of friends, groups and shared hopes. The sign on your 11th house, and any planets in it, describes the companions you naturally gather and the social world where you feel you belong.",
+      "Three placements do most of the everyday work. Your Moon sign shows emotional ease — whether you can be tired, quiet or honest around someone without performing. Your Mercury sign shows communication style: some friends bond through long talks, others through humour or practical help. Your Venus sign shows social taste, from what you find fun to how you show appreciation. When these line up comfortably between two charts, conversation flows and small differences rarely become friction. When they clash, the friendship can still work, but it needs more patience and clearer expectations.",
+      "Elements give a quick, honest summary of social energy. Fire with fire is lively and encouraging, though it can drift. Earth with earth is steady and loyal, built on showing up. Air with air is talkative and idea-led, lighter on emotional check-ins. Water with water is intuitive, with feelings understood without explanation. Fire pairs well with air, which feeds its enthusiasm, and earth pairs well with water, which softens and sustains it. Mixed elements are not a problem; they describe a friendship that brings you something different from your own nature.",
+      "Sun-sign-only matching is the shallow version because the Sun says more about identity than daily companionship. Two people with supposedly incompatible Sun signs often have beautifully matched Moons or Mercurys and become lifelong friends, while a perfect Sun pairing can struggle if their social needs differ. Use Sun signs as a starting hint, then look deeper: the 11th house for the shape of your social life, the Moon for comfort, Mercury for conversation and Venus for shared pleasures. That fuller picture explains real friendships far better."
+    ],
+    steps: [
+      "Enter your birth date in the matcher, and add your friend's birth date if you know it.",
+      "Review the summary shown, noting comments about shared energy, communication or social style.",
+      "Compare the result with real life — easy topics, recurring misunderstandings, how you show up for each other.",
+      "Use this guide to check the deeper factors yourself: Moon, Mercury and Venus signs, 11th house sign, and your elements."
+    ],
+    resultMeaning: [
+      "A strong result points to ease rather than perfection: you recharge in similar ways, understand each other's humour, and can disagree without the bond feeling threatened. That looks like low-maintenance contact, honest conversation and loyalty over time. You will still irritate each other sometimes — every long friendship has seasons — but repair comes easily.",
+      "A lower or mixed result is not a verdict. It highlights difference: one person needs more contact, depth or spontaneity than the other. Many valuable friendships are exactly this kind, widening your world rather than mirroring it. Read it as a map of where to be thoughtful, not a reason to step back."
+    ],
+    faqs: [
+      {
+        question: "What matters most for friendship compatibility in astrology?",
+        answer: "The 11th house is the starting point because it governs friends, groups and shared hopes. After that, look at Moon sign for emotional ease, Mercury sign for how you talk together, and Venus sign for shared pleasures. Together these describe daily companionship far more accurately than Sun signs alone, which only cover general identity and temperament."
+      },
+      {
+        question: "Can two people with incompatible Sun signs be great friends?",
+        answer: "Yes, very often. Sun signs are a small part of a full chart, and friendship depends more on emotional comfort, conversation and social rhythm. Two people whose Suns clash on paper may have harmonious Moons or complementary Mercury signs, making them natural confidants. Shared history, kindness and reliability matter more than any single placement."
+      },
+      {
+        question: "Which element combinations work best for friendship?",
+        answer: "Same-element friendships tend to feel easiest: fire with fire is energising, earth with earth is dependable, air with air is stimulating and water with water is emotionally attuned. Fire with air and earth with water are the classic complementary pairs. Mixed combinations also thrive; they often bring balance and new experiences rather than instant familiarity."
+      },
+      {
+        question: "What does the 11th house sign say about my friendships?",
+        answer: "Your 11th house sign describes the atmosphere of your social life and the kind of friends you seek out. A Leo 11th house often enjoys warm, expressive, loyal circles, while an Aquarius 11th house may prefer independent friends united by ideas or causes. Planets in the house add detail about what friendships bring you."
+      },
+      {
+        question: "Should a low friendship score mean I end the friendship?",
+        answer: "No. A compatibility summary describes patterns of ease and friction, not the worth of a real relationship built on shared experience and trust. Use a lower result to understand where you differ — contact style, emotional needs, social energy — and where communication helps. Many lasting friendships are astrologically mixed and succeed through honesty and mutual effort."
+      }
+    ]
+  },
+  "personal-month": {
+    guideTitle: "Personal Month Calculator: Timing Your Month With Numerology",
+    guide: [
+      "Your Personal Month number shows the focus of the current calendar month within your longer Personal Year theme — useful when timing a launch, a trip or a quiet reset. First find your Personal Year: add your birth month, your birth day (reduced to one digit) and the current calendar year (reduced to one digit), then reduce the total. Then add the Personal Year number to the calendar month number and reduce again. That final digit is this month's energy.",
+      "Here is a worked example, step by step, for someone born on 14 June, looking at October 2026. Birth month is 6. Birth day 14 reduces to 1 plus 4, which is 5. The year 2026 reduces to 2 plus 0 plus 2 plus 6, which is 10, then 1. Add them: 6 plus 5 plus 1 equals 12, which reduces to 3, so the Personal Year is 3. October is month 10, which reduces to 1. Personal Month is 3 plus 1, which equals 4 — a building, organising month inside a creative year.",
+      "The nine months form a repeating mini-cycle. 1 is beginnings, initiative and planting seeds; 2 is patience, partnership and quiet diplomacy; 3 is expression, social life and creative output; 4 is work, order, budgeting and solid foundations; 5 is change, movement, travel and welcome disruption. Read your number as a planning lens rather than a prediction: a 4 month supports systems and steady effort far better than impulsive leaps, while a 5 month rewards flexibility when plans shift unexpectedly around you.",
+      "The remaining numbers complete the cycle: 6 is home, family, responsibility and care; 7 is rest, study, reflection and research before deciding; 8 is business, money, authority and visible results; 9 is completion, clearing, forgiveness and letting go before the next 1 month begins. One timing note: the common system used here runs on calendar months, changing on the first. Some schools instead run personal months from birthday to birthday. Both are traditional; the calendar system is simpler for planning, so most calculators follow it."
+    ],
+    steps: [
+      "Enter your date of birth in the calculator on this page.",
+      "Keep in mind the calendar month you want to explore — the current one, or a future month you are planning for.",
+      "Note the Personal Month number shown, and the Personal Year behind it, since the month refines the year's theme.",
+      "Check the hand method in this guide — birth month plus reduced birth day plus reduced year, then add the calendar month — to work out any month yourself."
+    ],
+    resultMeaning: [
+      "Use your result as a timing aid, not a rule. Starting in a 1 month, organising in a 4 month or pushing a business goal in an 8 month helps you sequence tasks instead of forcing everything at once. The nine months form a rhythm: initiate, cooperate, create, build, change, nurture, reflect, achieve, release.",
+      "If your result clashes with your plans, do not postpone important decisions on numerology alone. A slower month can still host a big event; pacing, preparation and support simply matter more than usual. Use the number to choose how you approach the month — boldly, carefully, socially or quietly — rather than whether you live it."
+    ],
+    faqs: [
+      {
+        question: "How is the Personal Month number calculated?",
+        answer: "First calculate your Personal Year by adding your birth month, your birth day reduced to one digit, and the current calendar year reduced to one digit, then reducing the total. Then add that Personal Year number to the calendar month number and reduce once more if needed. The result, from 1 to 9, is your Personal Month."
+      },
+      {
+        question: "What is the difference between Personal Year and Personal Month?",
+        answer: "Your Personal Year sets the broad theme for twelve months — the background direction of your year. Your Personal Month narrows that theme into a roughly thirty-day focus, showing what kind of activity the current month supports best. Think of the year as the season and the month as this week's weather: both matter, at different scales."
+      },
+      {
+        question: "Which Personal Month is best for business or a launch?",
+        answer: "Traditionally, a 1 month favours starting and announcing, an 8 month favours business, visibility and financial decisions, and a 4 month favours the groundwork that makes a launch succeed. A 5 month can suit promotion and new audiences. No month guarantees an outcome, so use these themes to sequence effort rather than judge a plan."
+      },
+      {
+        question: "When does my Personal Month change?",
+        answer: "In the common calendar system, your Personal Month changes on the first day of each calendar month, because the calculation uses the calendar month number. Some schools instead count from your birthday each month, shifting the changeover date. Pick one system and use it consistently, so your observations stay comparable over time."
+      },
+      {
+        question: "Can I calculate Personal Months for future months in advance?",
+        answer: "Yes, and planners often do exactly that. Once you know your Personal Year number, simply add each future calendar month number to it and reduce. That gives you the sequence of monthly themes for the rest of your Personal Year, helping you schedule demanding, social, restful or financially focused periods with more intention."
+      }
+    ]
+  },
+  "challenge-numbers": {
+    guideTitle: "Challenge Numbers: The Growth Obstacles Written Into Your Birth Date",
+    guide: [
+      "Not every useful number flatters you. Challenge numbers are numerology's honest mirror: they point to a specific blind spot or recurring friction — impatience, self-doubt, oversensitivity, stubborn control — that repeats until you work with it consciously. They are not punishments or fixed flaws. In the classical system they describe where life keeps setting you the same lesson, and the gift hidden inside it: each challenge, once understood, tends to become a deliberate strength rather than an automatic reaction. That growth angle is the whole point of calculating them.",
+      "The method uses only your birth date, with each part reduced to a single digit first. The First Challenge is the absolute difference between birth month and birth day. The Second Challenge is the absolute difference between birth day and birth year. The Third, or Main, Challenge is the absolute difference between the First and Second Challenges. The Fourth, or Late, Challenge is the absolute difference between birth month and birth year. Absolute difference means subtracting the smaller from the larger, so results are never negative, and run from 0 to 8.",
+      "A worked example makes it concrete. Take 14 June 1990. Reduce each part: month is 6, day 14 becomes 1 plus 4, which is 5, and year 1990 becomes 1 plus 9 plus 9 plus 0, which is 19, then 10, then 1. First Challenge: 6 minus 5 equals 1. Second Challenge: 5 minus 1 equals 4. Third or Main Challenge: 1 minus 4, as an absolute difference, equals 3. Fourth Challenge: 6 minus 1 equals 5. This person carries challenges 1, 4, 3 and 5 — independence, order, expression and change.",
+      "Read the numbers briefly like this: 0 is the old-soul, all-or-none challenge, involving many lessons at once; 1 is standing up for yourself without steamrolling others; 2 is oversensitivity, learning calm confidence; 3 is blocked expression and self-criticism, finding your voice; 4 is order versus rebellion, learning discipline without rigidity; 5 is fear of change or restless excess, learning grounded freedom; 6 is perfectionism about duty, home and ideals; 7 is distrust and buried fear, learning trust; 8 is money and power struggles, learning balanced material values."
+    ],
+    steps: [
+      "Enter your full date of birth — day, month and year — in the finder on this page.",
+      "Look at the challenge numbers shown, and identify your Main Challenge, the lifelong theme.",
+      "Verify the arithmetic with the method in this guide: reduce month, day and year first, then subtract as described.",
+      "Read each description alongside your own history, and note one small action step for when that pattern next appears."
+    ],
+    resultMeaning: [
+      "Traditionally, the challenges arrive on a rough timetable. The First is strongest in youth, up to about 25 to 30. The Second dominates the middle years, roughly 25 or 30 to 55 or 60. The Third, or Main, Challenge is lifelong. The Fourth grows relevant in later life. These bands are the traditional view, not strict boundaries.",
+      "Working with a challenge is practical, not mystical. Name the pattern, pause before the automatic reaction, and choose the steadier response — the honest sentence instead of silence, the finished task instead of the perfect one. Treat the number as training, not a verdict: it locates where modest, repeated effort builds real emotional resilience."
+    ],
+    faqs: [
+      {
+        question: "How are challenge numbers calculated from my birth date?",
+        answer: "Reduce your birth month, birth day and birth year each to a single digit. The First Challenge is the absolute difference between month and day, the Second between day and year, the Third or Main Challenge is the absolute difference between the First and Second, and the Fourth is the absolute difference between month and year."
+      },
+      {
+        question: "What does a Challenge number of 0 mean?",
+        answer: "Zero is sometimes called the old-soul or all-or-none challenge. Instead of one narrow lesson, several challenge themes can appear together, and the person may swing between taking on everything and avoiding it all. In the classical reading, balance, conscious choice and self-awareness resolve what intensity alone cannot."
+      },
+      {
+        question: "Which challenge number is the most important?",
+        answer: "The Third Challenge, usually called the Main Challenge, matters most because it is considered lifelong. It comes from the difference between your First and Second Challenges — the tension between your early-life and mid-life lessons. The other challenges dominate particular periods, but the Main Challenge is the background theme practitioners watch across your whole timeline."
+      },
+      {
+        question: "When is each challenge number active in my life?",
+        answer: "In the traditional timetable, the First Challenge is strongest from youth to roughly age 25 to 30, the Second from about 25 or 30 to 55 or 60, the Main Challenge operates throughout life, and the Fourth becomes prominent in later years. Treat these as approximate phases; stressful periods can reactivate any challenge at any age."
+      },
+      {
+        question: "Can I overcome my challenge number?",
+        answer: "Practitioners would say the challenge never fully disappears, but your relationship to it changes completely. Awareness turns an automatic weakness into a conscious skill: the 3 challenge becomes honest expression, the 4 becomes reliable structure, the 8 becomes calm stewardship of money and power. Progress usually looks like better habits and quicker repair after setbacks."
+      }
+    ]
+  },
+  "venus-mars-synastry": {
+    guideTitle: "Venus and Mars Synastry: The Astrology of Attraction and Chemistry",
+    guide: [
+      "Chemistry has a signature in astrology, and it is written mainly by Venus and Mars. Venus shows how a person loves: what they find beautiful, how they show affection and what makes them feel wanted. Mars shows how a person desires: how they pursue, what excites them and how directly they act on attraction. When one person's Venus connects strongly with the other person's Mars, affection and desire recognise each other. That recognition is what people call magnetic — flirting, touch and attention landing exactly where they were aimed, without either person trying hard.",
+      "A full comparison looks at four cross-combinations, not one. Her Venus with his Mars shows how his pursuit meets her sense of being desired. His Venus with her Mars shows the reverse — how her desire and initiative meet what he finds attractive. Venus with Venus compares taste and affection style, while Mars with Mars compares drive, pace and how each handles frustration. Traditional astrology used gendered language for these pairs, but the method works for any couple: read each person's Venus against the other person's Mars, in both directions, and weigh all four together.",
+      "The aspects describe how the chemistry behaves. A conjunction blends Venus and Mars closely — strong, obvious attraction, hard to ignore. A trine flows easily, giving natural warmth and timing. A sextile is lighter and playful, often sparked by conversation. A square creates friction: intense desire mixed with mismatched pacing, experienced as sparks that need managing. An opposition is polarising — a powerful pull toward someone unlike you, with a risk of swinging between closeness and distance. Element harmony supports all of this: fire and air feed excitement, earth and water deepen sensual comfort.",
+      "Here is the honest limit: Venus and Mars describe chemistry, not compatibility for a shared life. Attraction answers whether you want each other; it does not answer whether you can live together or weather difficulty. For staying power, astrologers look to the Moon for emotional safety and to Saturn for commitment and endurance. Read a strong result here as the spark — real and enjoyable, but only the beginning of the story."
+    ],
+    steps: [
+      "Enter your birth date in the calculator, along with your partner's or the other person's birth date.",
+      "Review the attraction summary shown, noting any mention of harmony, intensity or friction.",
+      "Consider both directions — your Venus with their Mars, and their Venus with your Mars — not just one side.",
+      "Use this guide to explore the method yourself: compare Venus and Mars signs by element, and weigh chemistry alongside emotional fit."
+    ],
+    resultMeaning: [
+      "A harmonious result — trines, sextiles, compatible elements — feels like ease in attraction: compliments land, timing feels natural, affection is relaxed. A charged result, with conjunctions, squares or oppositions prominent, feels stronger but less predictable: more urgency, more impatience to manage, a pull that persists when things are complicated. Neither is better in any lasting sense.",
+      "Place any result in context. Venus-Mars contacts explain the spark, but long-term astrologers read them beside Moon contacts for emotional fit and Saturn contacts for durability. If the chemistry is high and the relationship is kind and reliable, enjoy the confirmation. If the chemistry is high but the relationship is not working, believe the relationship."
+    ],
+    faqs: [
+      {
+        question: "What are the four Venus and Mars cross-combinations in synastry?",
+        answer: "Each person's Venus is compared with the other person's Mars, in both directions, giving two Venus-Mars pairs. Then Venus is compared with Venus, showing how affection styles and tastes align, and Mars with Mars, showing how drives, pace and tempers interact. Reading all four gives a fuller picture than any single contact can."
+      },
+      {
+        question: "Which Venus-Mars aspects create the strongest attraction?",
+        answer: "The conjunction is usually considered the most potent, blending affection and desire into one obvious pull. Trines and sextiles create attraction that feels easy, warm and well-timed. Squares and oppositions often produce intense chemistry too, but add friction around pacing, style or jealousy, so the attraction asks for more awareness to enjoy comfortably."
+      },
+      {
+        question: "Does strong Venus-Mars chemistry mean a relationship will last?",
+        answer: "No, and honest astrologers are clear about this. Venus and Mars govern attraction and desire, not commitment. Lasting partnerships in synastry are associated more with Moon contacts, showing emotional safety and everyday fit, and Saturn contacts, showing endurance and responsibility. Chemistry cannot substitute for trust, kindness and shared intention."
+      },
+      {
+        question: "How do elements affect Venus and Mars compatibility?",
+        answer: "Elements describe the style of affection and desire. Fire and air combinations tend to be exciting and fast-moving, while earth and water combinations are slower, more sensual and comfort-seeking. Venus in water with Mars in earth, for instance, pairs emotional tenderness with steady physical devotion. Cross-element pairs also work; they blend different languages of attraction."
+      },
+      {
+        question: "What if our Venus-Mars result shows friction or a low score?",
+        answer: "Friction contacts such as squares often describe desire that is real but differently timed or expressed — one person pursues directly, the other needs romance and reassurance first. That is information, not a judgement. Many couples with challenging Venus-Mars aspects report strong attraction precisely because of the tension, provided it is handled with respect and honest conversation."
+      }
+    ]
+  }
 };

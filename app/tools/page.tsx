@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { MASTER_TOOLS_LIST } from "@/lib/all-tools-registry";
-import { buildMetadata } from "@/lib/seo";
+import { absoluteUrl, buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "All 100 Free Astrology & Numerology Calculators | BIGThreeAstrology",
@@ -12,6 +12,21 @@ export const metadata: Metadata = buildMetadata({
 
 const CATEGORY_ORDER = ["planetary", "vedic", "numerology", "guidance", "synastry", "career"] as const;
 
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "100 Free Astrology & Numerology Calculators",
+  description:
+    "The complete BIGThreeAstrology catalogue: birth-chart, Vedic, numerology, synastry, guidance and career calculators — all free, no sign-up.",
+  numberOfItems: MASTER_TOOLS_LIST.length,
+  itemListElement: MASTER_TOOLS_LIST.map((tool, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: tool.name,
+    url: absoluteUrl(`/tools/${tool.slug}`)
+  }))
+};
+
 export default function ToolsHubPage() {
   const groups = CATEGORY_ORDER.map((key) => ({
     key,
@@ -21,6 +36,10 @@ export default function ToolsHubPage() {
 
   return (
     <div className="py-10 space-y-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
       <div className="text-center space-y-4 max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-display font-bold">
           All 100 Free <span className="gradient-text-gold">Astrology Calculators</span>

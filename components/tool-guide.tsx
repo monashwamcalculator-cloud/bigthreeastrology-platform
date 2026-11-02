@@ -1,8 +1,7 @@
-import Link from "next/link";
 import { MASTER_TOOLS_LIST, type ToolDefinition } from "@/lib/all-tools-registry";
 import { TOOL_GUIDES, type ToolGuide } from "@/lib/tool-guides";
 import { ToolSchema } from "@/components/tool-schema";
-import { CosmicIcon } from "@/components/cosmic-icons";
+import { RelatedTools } from "@/components/related-tools";
 
 export function getToolBySlug(slug: string): ToolDefinition | undefined {
   return MASTER_TOOLS_LIST.find((t) => t.slug === slug);
@@ -77,9 +76,6 @@ export function ToolSections({ slug }: { slug: string }) {
   if (!tool) return null;
   const guide = guideFor(tool);
   const faqs = getToolFaqs(slug);
-  const related = MASTER_TOOLS_LIST.filter(
-    (t) => t.category === tool.category && t.slug !== tool.slug
-  ).slice(0, 4);
 
   return (
     <>
@@ -142,29 +138,7 @@ export function ToolSections({ slug }: { slug: string }) {
         </section>
       )}
 
-      {related.length > 0 && (
-        <section className="max-w-4xl mx-auto">
-          <h3 className="text-xl font-display font-bold text-center text-[#16402b] mb-4">
-            Related Calculators
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {related.map((rel) => (
-              <Link
-                key={rel.slug}
-                href={`/tools/${rel.slug}`}
-                className="glass-card-hover p-4 rounded-xl flex flex-col items-center text-center group"
-              >
-                <span className="w-10 h-10 rounded-full bg-[#eaf1e6] border border-[#cfe0cb] flex items-center justify-center mb-2">
-                  <CosmicIcon name={rel.slug} className="w-5 h-5" />
-                </span>
-                <span className="text-xs font-display font-bold text-[#1e2b22] group-hover:text-[#256b42] transition-colors">
-                  {rel.name}
-                </span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
+      <RelatedTools tool={tool} />
     </>
   );
 }

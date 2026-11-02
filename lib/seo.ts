@@ -23,15 +23,23 @@ export function buildMetadata({
   title,
   description,
   path,
-  noindex = false
+  noindex = false,
+  image
 }: {
   title: string;
   description: string;
   path: string;
   noindex?: boolean;
+  /** Page-specific share image (site-relative or absolute). Falls back to the site logo. */
+  image?: string;
 }): Metadata {
   const url = absoluteUrl(path);
   const siteUrl = getSiteUrl();
+  const ogImage = image
+    ? image.startsWith("http")
+      ? image
+      : absoluteUrl(image)
+    : `${siteUrl}/logo.jpg`;
 
   return {
     title,
@@ -50,7 +58,7 @@ export function buildMetadata({
       siteName: 'BIGThreeAstrology',
       images: [
         {
-          url: `${siteUrl}/logo.jpg`,
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: title
@@ -61,7 +69,7 @@ export function buildMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: [`${siteUrl}/logo.jpg`]
+      images: [ogImage]
     }
   };
 }

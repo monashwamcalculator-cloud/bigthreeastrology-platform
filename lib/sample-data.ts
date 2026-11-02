@@ -8,9 +8,9 @@ export const SAMPLE_BLOG_POSTS = [
   // BLOG 1
   {
     id: "blog-1",
-    title: "How to Read Your Big Three Astrology Signs: Sun, Moon, and Rising Sign Decoded",
+    title: "How to Read Your Big Three: Sun, Moon & Rising",
     slug: "how-to-read-big-three",
-    metaDescription: "Master reading your Big Three in astrology—Sun, Moon, and Rising (Ascendant) signs. Discover how your solar ego, lunar emotion, and ascendant mask define your cosmic personality.",
+    metaDescription: "Learn to read your Big Three — Sun, Moon and Rising (Ascendant) signs — and how your core ego, emotional needs and outer personality combine into one chart.",
     image: "/blog/big-three-guide.jpg",
     createdAt: new Date("2026-08-01"),
     updatedAt: new Date("2026-10-29"),
@@ -94,7 +94,7 @@ Find your exact Sun, Moon and Rising signs now with the [Big Three Calculator](/
   // BLOG 2
   {
     id: "blog-2",
-    title: "Future Spouse Prediction in Vedic Astrology: How to See Your Partner in Your Birth Chart",
+    title: "Future Spouse Prediction in Vedic Astrology",
     slug: "future-spouse-prediction-vedic-astrology",
     metaDescription: "Learn how to predict your future spouse in Vedic astrology. Discover how the 7th house, Venus, Jupiter, and Darakaraka reveal your partner's traits.",
     image: "/blog/spouse-predictor-guide.jpg",
@@ -182,7 +182,7 @@ See your own spouse indicators in minutes with the [Spouse Predictor](/tools/spo
   // BLOG 3
   {
     id: "blog-3",
-    title: "Vedic Kundali Milan: The Complete Guide to 36 Gunas for Marriage Matchmaking",
+    title: "Kundali Milan: The Complete 36 Guna Guide",
     slug: "vedic-kundali-milan-36-guna-guide",
     metaDescription: "Complete guide to Vedic Kundali Milan and 36 Gunas matchmaking. Learn about Nadi Koota, Bhakoot, Yoni, and how to analyze marriage compatibility.",
     image: "/blog/kundali-milan-guide.jpg",
@@ -269,9 +269,9 @@ Check your eight-koota breakdown and total score with the [Kundali Milan Calcula
   // BLOG 4
   {
     id: "blog-4",
-    title: "Daily Choghadia Muhurat Guide: Selecting Auspicious Timing for Success & Wealth",
+    title: "Choghadia Muhurat Guide: Shubh, Labh & Amrit Hours",
     slug: "choghadia-muhurat-shubh-labh-guide",
-    metaDescription: "Master daily Choghadia Muhurat timing. Learn how Amrit, Shubh, Labh, and Char time slots dictate optimal hours for buying gold, starting a business, and travel.",
+    metaDescription: "Choghadia Muhurat guide: use Amrit, Shubh and Labh hours for buying gold, signing deals, starting a business and travel, with day and night Choghadia explained.",
     image: "/blog/choghadia-muhurat-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-10-29"),
@@ -353,9 +353,9 @@ Check today's day and night periods for your city with the [Choghadia Calculator
   // BLOG 5
   {
     id: "blog-5",
-    title: "Saturn Sade Sati Meaning, Effects & Remedies: How to Navigate Shani Dev's Transit",
+    title: "Sade Sati: Meaning, Effects & Remedies Explained",
     slug: "sade-sati-meaning-effects-remedies",
-    metaDescription: "Comprehensive guide to Saturn Sade Sati 7.5-year transit. Learn about the 1st, 2nd, and 3rd Dhaiya phases, career symptoms, and powerful Shanti remedies.",
+    metaDescription: "Sade Sati explained: what Saturn's 7.5-year transit over your Moon sign means, its three phases, effects on career, health and relationships, and who is in it now.",
     image: "/blog/sade-sati-dasha-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-10-29"),
@@ -429,9 +429,9 @@ Check whether your Moon sign is in the rising, peak or setting phase with the [S
   // BLOG 6
   {
     id: "blog-6",
-    title: "How to Predict Your Future Spouse's Physical Appearance & Personality in Astrology",
+    title: "Spouse Appearance in Astrology: Traits & Looks",
     slug: "spouse-appearance-astrology-guide",
-    metaDescription: "Master future spouse prediction in Vedic astrology. Learn how Venus, Darakaraka, and the 7th house ruler reveal your partner's physical appearance, personality traits, and meeting location.",
+    metaDescription: "Predict your future spouse's appearance with Vedic astrology: how Venus, the Darakaraka and your 7th house ruler reveal their looks, personality and meeting place.",
     image: "/blog/spouse-appearance-astrology-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-10-29"),
@@ -510,9 +510,9 @@ That is normal. Charts are layered: the 7th house sign, planets inside it, the 7
   // BLOG 7
   {
     id: "blog-7",
-    title: "Saturn Sade Sati Survival Guide: Phases, Symptoms & Effective Vedic Remedies",
+    title: "Sade Sati Survival Guide: Phases & Remedies",
     slug: "sade-sati-survival-remedies-guide",
-    metaDescription: "Comprehensive guide to Saturn Sade Sati 7.5-year transit. Learn about the 1st, 2nd, and 3rd Dhaiya phases, career symptoms, and powerful Shanti remedies.",
+    metaDescription: "Sade Sati survival guide: phase-by-phase symptoms, practical do's and don'ts, and Vedic remedies — mantra, charity and Saturday routines — that ease Shani's test.",
     image: "/blog/sade-sati-survival-remedies-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-10-29"),
@@ -593,7 +593,7 @@ Because the transit is only one layer. Your natal Saturn's sign and strength, th
   // BLOG 8
   {
     id: "blog-8",
-    title: "Life Path Number Compatibility Guide: Matching Your Soul Frequencies in Numerology",
+    title: "Life Path Number Compatibility Guide",
     slug: "life-path-number-compatibility-guide",
     metaDescription: "Explore Life Path number compatibility in numerology. Learn how numbers 1 through 9 interact in love, business synergy, and relationship harmony.",
     image: "/blog/life-path-number-compatibility-guide.jpg",
@@ -667,9 +667,9 @@ Master numbers 11, 22 and 33 raise the intensity of a pairing: more inspiration 
   // BLOG 9
   {
     id: "blog-9",
-    title: "Understanding Daily Choghadia Muhurat: Selecting Auspicious Hours for Wealth & Success",
+    title: "Choghadia Muhurat: How to Pick Auspicious Hours",
     slug: "choghadia-muhurat-timing-guide",
-    metaDescription: "Master daily Choghadia Muhurat timing. Learn how Amrit, Shubh, Labh, and Char time slots dictate optimal hours for buying gold, starting a business, and travel.",
+    metaDescription: "How Choghadia timing works: the sunrise-to-sunset slots, the weekday order of Udveg, Char, Labh, Amrit, Kaal, Shubh and Rog, and how to plan your day around them.",
     image: "/blog/choghadia-muhurat-timing-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-10-29"),
@@ -748,7 +748,7 @@ Use them, don't waste them. These windows are traditionally fine for routine, ph
   // BLOG 10
   {
     id: "blog-10",
-    title: "Navamsha D9 Chart Guide: Unlocking Your Post-Marriage Destiny & Soul Strength",
+    title: "Navamsha D9 Chart: Marriage & Destiny Guide",
     slug: "navamsha-d9-chart-marriage-destiny",
     metaDescription: "Learn how to read your Navamsha D9 divisional chart in Vedic astrology. Discover your soul strength, marital destiny, and second-half life fortune.",
     image: "/blog/navamsha-d9-chart-marriage-destiny.jpg",
@@ -819,9 +819,9 @@ Because the D9 measures the strength and maturity of what the D1 promises — it
   },
   {
     id: "blog-11",
-    title: "Saturn Return Explained: Ages 29, 58 and 88, Meaning, Effects and How to Survive Yours",
+    title: "Saturn Return Explained: Ages 29, 58 & 88",
     slug: "saturn-return-explained-ages-meaning-survival-guide",
-    metaDescription: "What is a Saturn return? Learn the meaning, exact ages (29, 58, 88), how long it lasts, its effects on career, love and money, and how to calculate your exact Saturn return dates free.",
+    metaDescription: "What is a Saturn return? Its meaning, the exact ages (29, 58, 88), how long it lasts, effects on career, love and money — and how to find your return dates free.",
     image: "/blog/saturn-return-guide.jpg",
     createdAt: new Date("2026-10-29"),
     updatedAt: new Date("2026-10-29"),
@@ -932,7 +932,7 @@ One last thing worth remembering: a Saturn return is not a punishment and it is 
   },
 {
     id: "blog-12",
-    title: "Venus Sign Meaning: What Your Venus Sign Reveals About Your Love, Attraction and Money Style",
+    title: "Venus Sign Meaning: Love, Attraction & Money",
     slug: "venus-sign-meaning-love-attraction-money-style",
     metaDescription: "What does your Venus sign mean? Find yours free with our Venus sign calculator and learn what it reveals about your love style, attraction and money habits.",
     image: "/blog/venus-sign-guide.jpg",
@@ -1044,7 +1044,7 @@ Your Venus themes turn reflective: you may take longer to trust your attractions
   },
 {
     id: "blog-13",
-    title: "Mercury Sign Meaning: How Your Mercury Sign Shapes the Way You Think, Talk and Learn",
+    title: "Mercury Sign Meaning: How You Think & Talk",
     slug: "mercury-sign-meaning-communication-thinking-style",
     metaDescription: "Use our free Mercury sign calculator to find your Mercury sign, and discover what it reveals about how you think, talk, learn and handle Mercury retrograde.",
     image: "/blog/mercury-sign-guide.jpg",
@@ -1182,7 +1182,7 @@ Mercury describes how you *think and speak*; the Moon describes how you *feel an
   // BLOG 14
   {
     id: "blog-14",
-    title: "Mars Sign Meaning: How Your Mars Sign Shapes Your Drive, Anger and Ambition",
+    title: "Mars Sign Meaning: Drive, Anger & Ambition",
     slug: "mars-sign-meaning-drive-anger-ambition",
     metaDescription: "Discover your Mars sign meaning: how Mars shapes your drive, anger, ambition and desire in every sign, with worked examples and the Mars Sign Calculator.",
     image: "/blog/mars-sign-guide.jpg",
@@ -1303,7 +1303,7 @@ Find your exact Mars sign now with the [Mars Sign Calculator](/tools/mars-sign),
   // BLOG 15
   {
     id: "blog-15",
-    title: "Moon Sign Meaning: What Your Moon Sign Reveals About Your Emotions, Needs and Comfort",
+    title: "Moon Sign Meaning: Emotions, Needs & Comfort",
     slug: "moon-sign-meaning-emotions-needs-comfort",
     metaDescription: "Your Moon sign reveals your emotional needs, comfort style and reactions under stress. Learn every Moon sign, plus Moon phases, with the Moon Sign Calculator.",
     image: "/blog/moon-sign-guide.jpg",
@@ -1424,7 +1424,7 @@ Find your exact Moon sign now with the [Moon Sign Calculator](/tools/moon-sign),
   // BLOG 16
   {
     id: "blog-16",
-    title: "Rising Sign Meaning: How Your Ascendant Shapes First Impressions and New Beginnings",
+    title: "Rising Sign Meaning: First Impressions & Ascendant",
     slug: "rising-sign-meaning-first-impressions-ascendant",
     metaDescription: "Your Rising sign (Ascendant) shapes first impressions and how you begin everything. Learn every Rising sign, chart rulers and houses, with the Rising Sign Calculator.",
     image: "/blog/rising-sign-guide.jpg",
@@ -1544,7 +1544,7 @@ Find your exact Rising sign now with the [Rising Sign Calculator](/tools/rising-
   // BLOG 17
   {
     id: "blog-17",
-    title: "Jupiter Sign Meaning: Growth, Luck and Wisdom in Your Chart",
+    title: "Jupiter Sign Meaning: Growth, Luck & Wisdom",
     slug: "jupiter-sign-meaning-growth-luck-wisdom",
     metaDescription: "Jupiter sign meaning explained: how your Jupiter sign shapes growth, luck, optimism and wisdom, with all 12 signs, examples and FAQs.",
     image: "/blog/jupiter-sign-guide.jpg",
@@ -1670,7 +1670,7 @@ Your Jupiter sign will not tell you what will happen next, and it should never r
   // BLOG 18
   {
     id: "blog-18",
-    title: "Saturn Sign Meaning: Discipline, Lessons and Life Structure",
+    title: "Saturn Sign Meaning: Discipline & Life Lessons",
     slug: "saturn-sign-meaning-discipline-lessons-structure",
     metaDescription: "Saturn sign meaning explained: how your Saturn sign reveals discipline, fears, responsibility and the life lessons you master over time.",
     image: "/blog/saturn-sign-guide.jpg",
@@ -1795,7 +1795,7 @@ No, your birth-chart Saturn sign never changes. What changes is transiting Satur
   // BLOG 19
   {
     id: "blog-19",
-    title: "Sun Sign Meaning: Identity, Purpose and Your Core Self",
+    title: "Sun Sign Meaning: Identity, Purpose & Core Self",
     slug: "sun-sign-meaning-identity-purpose-core-self",
     metaDescription: "Sun sign meaning explained: how your Sun sign shapes identity, purpose and vitality, with dates, all 12 signs, examples and FAQs.",
     image: "/blog/sun-sign-guide.jpg",
@@ -1914,7 +1914,7 @@ Check your exact birth chart using your birth date, time, and place. The Sun cha
   // BLOG 20
   {
     id: "blog-20",
-    title: "Neptune Sign Meaning: Dreams, Intuition and Your Generation's Imagination",
+    title: "Neptune Sign Meaning: Dreams, Intuition & Generations",
     slug: "neptune-sign-meaning-dreams-intuition-generation",
     metaDescription: "Neptune sign meaning explained: how your Neptune sign shapes dreams, intuition and imagination, with dates for all 12 signs, houses, examples and FAQs.",
     image: "/blog/neptune-sign-guide.jpg",
@@ -2015,7 +2015,7 @@ Use the [Neptune Sign Calculator](/tools/neptune-sign) with your birth date. For
   // BLOG 21
   {
     id: "blog-21",
-    title: "Uranus Sign Meaning: Rebellion, Innovation and Your Generation's Breakthrough",
+    title: "Uranus Sign Meaning: Rebellion, Innovation & Freedom",
     slug: "uranus-sign-meaning-rebellion-innovation-freedom",
     metaDescription: "Uranus sign meaning explained: how your Uranus sign shapes rebellion, innovation and freedom, with dates for all 12 signs, houses, examples and FAQs.",
     image: "/blog/uranus-sign-guide.jpg",
@@ -2112,7 +2112,7 @@ Use the [Uranus Sign Calculator](/tools/uranus-sign) with your birth date. To co
   // BLOG 22
   {
     id: "blog-22",
-    title: "Pluto Sign Meaning: Power, Transformation and Your Generation's Shadow",
+    title: "Pluto Sign Meaning: Power, Transformation & Shadow",
     slug: "pluto-sign-meaning-power-transformation-shadow",
     metaDescription: "Pluto sign meaning explained: how your Pluto sign shapes power, transformation and rebirth, with dates for all 12 signs, houses, examples and FAQs.",
     image: "/blog/pluto-sign-guide.jpg",
@@ -2204,9 +2204,9 @@ Use the [Pluto Sign Calculator](/tools/pluto-sign) with your birth date. To comp
 // BLOG 23
   {
     id: "blog-23",
-    title: "Chiron Sign Meaning: Your Wounded Healer, Core Wound and Healing Gift",
+    title: "Chiron Sign Meaning: Wound, Healing & Gift",
     slug: "chiron-sign-meaning-wounded-healer-healing-gift",
-    metaDescription: "Chiron sign meaning explained: how your Chiron sign reveals your core wound, your healing gift and your life lesson, with dates for all 12 signs, houses, examples and FAQs.",
+    metaDescription: "Chiron sign meaning explained: how your Chiron sign reveals your core wound, healing gift and life lesson, with dates for all 12 signs, houses and examples.",
     image: "/blog/chiron-sign-guide.jpg",
     createdAt: new Date("2026-11-02"),
     updatedAt: new Date("2026-11-02"),
@@ -2304,9 +2304,9 @@ Use the [Chiron Calculator](/tools/chiron) with your birth date. If you were bor
   // BLOG 24
   {
     id: "blog-24",
-    title: "North Node Sign Meaning: Your Soul Purpose, Karmic Direction and Life Lesson",
+    title: "North Node Sign Meaning: Soul Purpose & Karma",
     slug: "north-node-sign-meaning-soul-purpose-karmic-direction",
-    metaDescription: "North Node sign meaning explained: how your North Node (Rahu) shows your soul purpose and growth direction, with the South Node comfort zone, dates, houses, examples and FAQs.",
+    metaDescription: "North Node sign meaning explained: how your North Node (Rahu) shows your soul purpose and growth direction, plus your South Node comfort zone, dates and houses.",
     image: "/blog/north-node-sign-guide.jpg",
     createdAt: new Date("2026-11-02"),
     updatedAt: new Date("2026-11-02"),
@@ -2406,9 +2406,9 @@ Use the [North Node Calculator](/tools/north-node) with your birth date. Your So
   // BLOG 25
   {
     id: "blog-25",
-    title: "Black Moon Lilith Sign Meaning: Your Shadow, Independence and Raw Authenticity",
+    title: "Lilith Sign Meaning: Shadow & Independence",
     slug: "lilith-sign-meaning-shadow-independence-authenticity",
-    metaDescription: "Black Moon Lilith sign meaning explained: how your Lilith sign reveals your shadow, independence and unapologetic authenticity, with all 12 signs, houses, examples and FAQs.",
+    metaDescription: "Black Moon Lilith sign meaning: how your Lilith sign reveals your shadow side, independence and unapologetic authenticity, with all 12 signs and houses.",
     image: "/blog/lilith-sign-guide.jpg",
     createdAt: new Date("2026-11-02"),
     updatedAt: new Date("2026-11-02"),

@@ -1,0 +1,35 @@
+/**
+ * blog-index.ts — lightweight slug + title index of the blog catalogue.
+ * Source of truth for post content is lib/sample-data.ts; this index exists
+ * so client components (related-tools module) can link to guides without
+ * bundling full post content. Refresh when posts are added/renamed.
+ * Generated 2 Nov 2026 (10/10 programme Phase A1).
+ */
+
+export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
+  { slug: "how-to-read-big-three", title: "How to Read Your Big Three: Sun, Moon & Rising" },
+  { slug: "future-spouse-prediction-vedic-astrology", title: "Future Spouse Prediction in Vedic Astrology" },
+  { slug: "vedic-kundali-milan-36-guna-guide", title: "Kundali Milan: The Complete 36 Guna Guide" },
+  { slug: "choghadia-muhurat-shubh-labh-guide", title: "Choghadia Muhurat Guide: Shubh, Labh & Amrit Hours" },
+  { slug: "sade-sati-meaning-effects-remedies", title: "Sade Sati: Meaning, Effects & Remedies Explained" },
+  { slug: "spouse-appearance-astrology-guide", title: "Spouse Appearance in Astrology: Traits & Looks" },
+  { slug: "sade-sati-survival-remedies-guide", title: "Sade Sati Survival Guide: Phases & Remedies" },
+  { slug: "life-path-number-compatibility-guide", title: "Life Path Number Compatibility Guide" },
+  { slug: "choghadia-muhurat-timing-guide", title: "Choghadia Muhurat: How to Pick Auspicious Hours" },
+  { slug: "navamsha-d9-chart-marriage-destiny", title: "Navamsha D9 Chart: Marriage & Destiny Guide" },
+  { slug: "saturn-return-explained-ages-meaning-survival-guide", title: "Saturn Return Explained: Ages 29, 58 & 88" },
+  { slug: "venus-sign-meaning-love-attraction-money-style", title: "Venus Sign Meaning: Love, Attraction & Money" },
+  { slug: "mercury-sign-meaning-communication-thinking-style", title: "Mercury Sign Meaning: How You Think & Talk" },
+  { slug: "mars-sign-meaning-drive-anger-ambition", title: "Mars Sign Meaning: Drive, Anger & Ambition" },
+  { slug: "moon-sign-meaning-emotions-needs-comfort", title: "Moon Sign Meaning: Emotions, Needs & Comfort" },
+  { slug: "rising-sign-meaning-first-impressions-ascendant", title: "Rising Sign Meaning: First Impressions & Ascendant" },
+  { slug: "jupiter-sign-meaning-growth-luck-wisdom", title: "Jupiter Sign Meaning: Growth, Luck & Wisdom" },
+  { slug: "saturn-sign-meaning-discipline-lessons-structure", title: "Saturn Sign Meaning: Discipline & Life Lessons" },
+  { slug: "sun-sign-meaning-identity-purpose-core-self", title: "Sun Sign Meaning: Identity, Purpose & Core Self" },
+  { slug: "neptune-sign-meaning-dreams-intuition-generation", title: "Neptune Sign Meaning: Dreams, Intuition & Generations" },
+  { slug: "uranus-sign-meaning-rebellion-innovation-freedom", title: "Uranus Sign Meaning: Rebellion, Innovation & Freedom" },
+  { slug: "pluto-sign-meaning-power-transformation-shadow", title: "Pluto Sign Meaning: Power, Transformation & Shadow" },
+  { slug: "chiron-sign-meaning-wounded-healer-healing-gift", title: "Chiron Sign Meaning: Wound, Healing & Gift" },
+  { slug: "north-node-sign-meaning-soul-purpose-karmic-direction", title: "North Node Sign Meaning: Soul Purpose & Karma" },
+  { slug: "lilith-sign-meaning-shadow-independence-authenticity", title: "Lilith Sign Meaning: Shadow & Independence" },
+];
