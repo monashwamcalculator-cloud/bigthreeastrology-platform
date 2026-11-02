@@ -10,7 +10,7 @@ import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 export const metadata: Metadata = buildMetadata({
   title: "BIGThreeAstrology | 100 Free Astrology & Numerology Calculators",
   description:
-    "Free online suite of 100 astrology, Vedic Jyotish, numerology, synastry & tarot calculators. Sun Moon Rising signs, Spouse Predictor, 36 Guna Kundali Milan, Choghadia, Sade Sati & Daily Horoscope.",
+    "Free suite of 100 astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising signs, Kundali Milan, Choghadia, Sade Sati & horoscopes.",
   path: "/"
 });
 
