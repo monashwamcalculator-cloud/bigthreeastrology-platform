@@ -64,12 +64,62 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
     ],
   },
 
+  "angel-numbers": {
+    guideTitle: "Angel Numbers: What They Mean and How to Find Yours",
+    guide: [
+      "Angel numbers are repeating digit sequences — 111, 222, 333, 444 and so on — that people keep noticing on clocks, receipts, number plates and phone screens. In numerology they are read as prompts for reflection: a repeated sequence is treated as a nudge to pay attention to a theme in your life, not as a prediction or a message with a guaranteed outcome.",
+      "There are two different numbers people mean when they say 'my angel number'. The first is the sequence you keep seeing — that is the one this decoder explains: pick the sequence (111, 222, 444, 777, 888 and more) and read its traditional meaning. The second is your personal angel number, calculated from your birth date or your name, which stays the same for life. Both are explained below so you do not mix them up.",
+      "To calculate a personal angel number from your birth date, add all the digits of your full birth date and keep reducing until you reach a single digit (1-9): for example, 7 August 1986 gives 7 + 8 + 1 + 9 + 8 + 6 = 39, then 3 + 9 = 12, then 1 + 2 = 3, so the pattern is 333. If a reduction lands on 11, 22 or 33, many numerologists keep it as a master number instead of reducing further.",
+      "To calculate one from your name, use the Pythagorean letter chart (A = 1, B = 2, C = 3, D = 4, E = 5, F = 6, G = 7, H = 8, I = 9, then J = 1, K = 2 and so on repeating), add the values of your full birth name and reduce the same way. Use the name on your birth certificate, not a nickname: the birth-date number is read as your life direction, while the name number is read as your natural talents — so the two often differ, and that is normal.",
+      "The traditional meanings in brief: 111 new beginnings and manifestation, 222 balance and partnership, 333 growth and creative expression, 444 stability and protection, 555 change and freedom, 666 responsibility and rebalancing home life, 777 spiritual insight and introspection, 888 abundance and achievement, 999 completion and letting go. Four-digit sequences people commonly ask about include 1111 (a gateway moment for focused intention), 1212 (stay positive and trust the direction you are heading) and 1234 (steady step-by-step progress).",
+      "Treat all of this as a symbolic tradition, not a tested predictor: the value is in the reflection it prompts — what theme keeps showing up in your life right now, and what would acting on it look like? No sequence guarantees an outcome, and no result here should replace a real decision about health, money or relationships.",
+    ],
+    steps: [
+      "If a sequence keeps appearing in your day, pick it in the decoder above and read its meaning and suggested action.",
+      "To find your personal angel number, add the digits of your full birth date and reduce to a single digit — or use the Pythagorean values of your full birth name.",
+      "If you land on 11, 22 or 33, read both the master number meaning and its reduced base number (2, 4 or 6).",
+      "Compare the theme with what is actually happening in your life right now — that is where the reading earns its keep.",
+    ],
+    resultMeaning: [
+      "A repeated 111 or 1111 is traditionally read as a 'thoughts manifesting fast' moment: the advice is to focus deliberately on what you want rather than on worries. A run of 444 is read as reassurance and a call to build solid foundations, while 555 is read as change already in motion — the practical question is what you need to release or reorganise, not whether change is coming.",
+      "Your personal number (from birth date or name) describes a standing theme, not a day-to-day message: a life-path-style 3 points to expression and communication as a lifelong thread, while a 7 points to introspection and study. When the sequence you keep seeing matches your personal number, traditional readers take that as emphasis — the same theme, louder.",
+    ],
+    faqs: [
+      {
+        question: "What is my angel number?",
+        answer:
+          "Most commonly, the single digit (1-9) you get by adding all the digits of your full birth date and reducing to one digit — that digit gives the pattern (1 = 111, 2 = 222, up to 9 = 999). A second method uses your full birth name with Pythagorean letter values. The two can differ; the birth-date number is read as life direction and the name number as natural talents.",
+      },
+      {
+        question: "What does seeing 1111 mean?",
+        answer:
+          "Traditionally, 1111 is read as an intensified 111: a gateway moment for focused intention. The practical reading is simple — notice what you were thinking about when you saw it, and decide deliberately whether that is what you want to pursue.",
+      },
+      {
+        question: "Do angel numbers predict the future?",
+        answer:
+          "No. Angel numbers belong to a symbolic, interpretive tradition, not to tested prediction. They are best used as prompts for reflection about a theme in your life, not as guarantees about money, health or relationships.",
+      },
+      {
+        question: "Why do my birth-date and name numbers differ?",
+        answer:
+          "Because they measure different things in the tradition: the birth-date number reflects your life path and direction, while the name number reflects your expression and natural abilities. Different results are normal, not a sign that one calculation is wrong.",
+      },
+      {
+        question: "What are master numbers 11, 22 and 33?",
+        answer:
+          "In numerology, 11, 22 and 33 are kept unreduced when they appear during a calculation, because they are read as intensified versions of 2, 4 and 6: 11 for intuition and spiritual insight, 22 for building large-scale plans into reality, and 33 for teaching, healing and service. If you get one, read both the master meaning and the base number.",
+      },
+    ],
+  },
+
   "kundali-milan": {
     guideTitle: "Kundali Milan: How the 36 Guna Score Works",
     guide: [
       "Kundali Milan (also called Guna Milan or Kundali matching) compares the Moon signs and nakshatras of two people across eight traditional tests called Ashtakoota, which add up to a maximum of 36 points (gunas). It has been the standard first step of Vedic marriage matching for centuries: a score of 18 or above is traditionally considered acceptable, 25 or above is good, and 32 or above is excellent.",
       "The eight kootas are Varna (1 point, spiritual outlook), Vashya (2, mutual influence), Tara (3, wellbeing and longevity), Yoni (4, physical and intimate compatibility), Graha Maitri (5, mental friendship), Gana (6, temperament), Bhakoot (7, family welfare and prosperity) and Nadi (8, health and progeny). Nadi carries the most weight — when both partners share the same Nadi it creates Nadi Dosha, traditionally cancelled in several situations, such as when the nakshatra or its quarter (pada) differs.",
       "A complete match is always read together with the full birth charts: Manglik (Mangala) Dosha, the strength of the 7th house, and the dashas running at the time of marriage all modify the picture. Treat the guna score as a strong first filter, not a final verdict on a relationship.",
+      "North India uses this eight-koota system (Ashtakoota, 36 points). South India traditionally uses Dashakoota, a ten-factor system that adds Mahendra and Rajju to the same core — so a South Indian match report may quote a different total and still be describing the same couple. This calculator scores the Ashtakoota eight.",
     ],
     steps: [
       "Enter the boy's birth date, exact birth time and birthplace.",
@@ -106,6 +156,11 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
         question: "What details are needed for an accurate Kundali match?",
         answer:
           "Both partners' birth dates, exact birth times and birthplaces. The Moon's nakshatra — on which seven of the eight kootas depend — is derived from the exact birth moment, so an incorrect time can change the nakshatra and the score.",
+      },
+      {
+        question: "Does this calculator check Mangal Dosha (Manglik status)?",
+        answer:
+          "No — this tool scores only the Ashtakoota guna milan. Mangal Dosha (Manglik status) is a separate check read from Mars in the Lagna and Moon charts, and it changes with birth time because the Lagna shifts roughly every two hours. A complete marriage reading weighs the guna score together with Manglik status, the 7th house and current dasha periods.",
       },
     ],
   },
