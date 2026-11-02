@@ -69,7 +69,7 @@ export default async function BlogPage() {
                 </div>
               )}
 
-              <h2 className="text-lg font-display font-bold text-white mb-2 leading-snug group-hover:text-amber-300 transition-colors">
+              <h2 className="text-lg font-display font-bold text-white mb-2 leading-snug group-hover:text-[#075433] transition-colors">
                 <Link href={`/blog/${post.slug}`}>
                   {post.title}
                 </Link>
