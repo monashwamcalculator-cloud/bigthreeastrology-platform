@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Saturn Return Calculator & Milestone Guide",
-  description: "Calculate your 1st, 2nd, and 3rd Saturn Return milestone ages, career transformations, and survival remedies.",
+  description: "Calculate your 1st, 2nd, and 3rd Saturn Return milestone ages, career transformations, and survival remedies. Free — no sign-up, no download needed.",
   path: "/tools/saturn-return"
 });
 

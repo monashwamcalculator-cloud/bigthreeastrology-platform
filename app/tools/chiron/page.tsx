@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Chiron Calculator | Wounded Healer & Soul Healing Gift",
-  description: "Calculate your natal Chiron placement to discover your core core wounds and spiritual healing powers.",
+  description: "Calculate your natal Chiron placement to discover your core core wounds and spiritual healing powers. Free — no sign-up, no download needed.",
   path: "/tools/chiron"
 });
 

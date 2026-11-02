@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Brand & Name Numerology Analyzer (Chaldean Method)",
-  description: "Calculate the Chaldean name vibration and financial alignment of your brand, business title, or personal name.",
+  description: "Calculate the Chaldean name vibration and financial alignment of your brand, business title, or personal name. Free — no sign-up, no download needed.",
   path: "/tools/brand-numerology"
 });
 

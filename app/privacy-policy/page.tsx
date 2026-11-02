@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Privacy Policy | BIGThreeAstrology",
-  description: "How BIGThreeAstrology handles calculator inputs, cookies, analytics, and user privacy protection.",
+  description: "How BIGThreeAstrology handles calculator inputs, cookies, analytics, and user privacy protection. With the method explained, free and instant.",
   path: "/privacy-policy"
 });
 

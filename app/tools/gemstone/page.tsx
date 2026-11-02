@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Gemstone & Remedy Finder | Vedic Ratna & Mantras",
-  description: "Discover your favorable Vedic gemstones (Ratna), setting metals, and planetary mantras based on your sign.",
+  description: "Discover your favorable Vedic gemstones (Ratna), setting metals, and planetary mantras based on your sign. Free — no sign-up, no download needed.",
   path: "/tools/gemstone"
 });
 

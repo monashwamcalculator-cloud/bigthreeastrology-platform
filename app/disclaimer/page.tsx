@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Astrological Disclaimer | BIGThreeAstrology",
-  description: "Astrological and legal disclaimer for BIGThreeAstrology calculations.",
+  description: "Astrological and legal disclaimer for BIGThreeAstrology calculations. Free and instant — no sign-up, no download, works on any device you own.",
   path: "/disclaimer"
 });
 

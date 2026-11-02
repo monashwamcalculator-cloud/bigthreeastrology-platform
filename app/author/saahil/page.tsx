@@ -7,7 +7,7 @@ import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 
 export const metadata: Metadata = buildMetadata({
   title: `About ${AUTHOR.name} — Founder & Author | BIGThreeAstrology`,
-  description: `Meet ${AUTHOR.name}, founder of BIGThreeAstrology and author of its astrology guides. Digital marketing professional researching Vedic and Western astrology, builder of 100 free calculators.`,
+  description: `Meet ${AUTHOR.name}, founder of BIGThreeAstrology and author of its guides — a digital marketing professional researching Vedic & Western astrology.`,
   path: AUTHOR.pageUrl,
 });
 

@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Jupiter Transit & Luck Expansion Finder",
-  description: "Discover how Jupiter (Guru) expands your wealth, marriage luck, career opportunities, and spiritual grace.",
+  description: "Discover how Jupiter (Guru) expands your wealth, marriage luck, career opportunities, and spiritual grace. Free — no sign-up, no download needed.",
   path: "/tools/jupiter-transit"
 });
 

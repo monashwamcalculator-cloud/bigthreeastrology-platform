@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Birth Star (Nakshatra) Finder | 27 Vedic Stars & Deities",
-  description: "Find your birth star Nakshatra out of 27 lunar mansions, including Pada 1-4, Ruling Deity, and Dasha Lord.",
+  description: "Find your birth star Nakshatra out of 27 lunar mansions, including Pada 1-4, Ruling Deity, and Dasha Lord. Free — no sign-up, no download needed.",
   path: "/tools/nakshatra"
 });
 

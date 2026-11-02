@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Mercury Sign Calculator | Mind, Intellect & Speech",
-  description: "Calculate your Mercury sign to analyze your mental processing style, intellect, and communication approach.",
+  description: "Calculate your Mercury sign to analyze your mental processing style, intellect, and communication approach. Free — no sign-up, no download needed.",
   path: "/tools/mercury-sign"
 });
 

@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Life Path Numerology Matcher & Compatibility",
-  description: "Calculate Life Path numerology compatibility, relationship synergy score, and karmic advice.",
+  description: "Calculate Life Path numerology compatibility, relationship synergy score, and karmic advice. Free and instant, with the method explained — no sign-up.",
   path: "/tools/lifepath-compatibility"
 });
 

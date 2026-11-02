@@ -6,7 +6,7 @@ import { AUTHOR } from "@/lib/author";
 
 export const metadata: Metadata = buildMetadata({
   title: "About Us | BIGThreeAstrology Platform",
-  description: "Learn about BIGThreeAstrology's mission to provide 100 free, accurate Vedic and Western astrology calculators globally.",
+  description: "Learn about BIGThreeAstrology's mission to provide 100 free, accurate Vedic and Western astrology calculators globally. Meet the founder, Saahil.",
   path: "/about"
 });
 

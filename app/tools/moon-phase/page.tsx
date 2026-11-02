@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Birth Moon Phase & Manifestation Reader",
-  description: "Discover your birth Moon phase archetype (New Moon, Full Moon, Gibbous) and manifestation superpower.",
+  description: "Discover your birth Moon phase archetype (New Moon, Full Moon, Gibbous) and manifestation superpower. Free — no sign-up, no download needed.",
   path: "/tools/moon-phase"
 });
 

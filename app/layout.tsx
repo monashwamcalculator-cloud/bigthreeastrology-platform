@@ -23,7 +23,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: "BIGThreeAstrology | 100 Free Astrology & Numerology Calculators",
-  description: "Free online suite of 100 astrology, Vedic Jyotish, numerology, synastry & tarot calculators. Sun Moon Rising signs, Spouse Predictor, 36 Guna Kundali Milan, Choghadia, Sade Sati & Daily Horoscope.",
+  description: "Free suite of 100 astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising signs, Kundali Milan, Choghadia, Sade Sati & horoscopes.",
   keywords: ["astrology", "big three", "spouse predictor", "kundali milan", "choghadia", "sade sati", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope", "dasha", "nakshatra"],
   authors: [{ name: "BIGThreeAstrology" }],
   icons: {

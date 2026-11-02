@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Terms and Conditions | BIGThreeAstrology",
-  description: "Terms of service and user agreement for BIGThreeAstrology.",
+  description: "Terms of service and user agreement for BIGThreeAstrology. Includes how the method works, what your result means and FAQs — free, instant, no sign-up.",
   path: "/terms-and-conditions"
 });
 

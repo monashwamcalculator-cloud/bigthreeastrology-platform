@@ -1914,7 +1914,7 @@ Check your exact birth chart using your birth date, time, and place. The Sun cha
   // BLOG 20
   {
     id: "blog-20",
-    title: "Neptune Sign Meaning: Dreams, Intuition & Generations",
+    title: "Neptune Sign Meaning: Dreams and Intuition",
     slug: "neptune-sign-meaning-dreams-intuition-generation",
     metaDescription: "Neptune sign meaning explained: how your Neptune sign shapes dreams, intuition and imagination, with dates for all 12 signs, houses, examples and FAQs.",
     image: "/blog/neptune-sign-guide.jpg",
@@ -2015,7 +2015,7 @@ Use the [Neptune Sign Calculator](/tools/neptune-sign) with your birth date. For
   // BLOG 21
   {
     id: "blog-21",
-    title: "Uranus Sign Meaning: Rebellion, Innovation & Freedom",
+    title: "Uranus Sign Meaning: Rebellion and Innovation",
     slug: "uranus-sign-meaning-rebellion-innovation-freedom",
     metaDescription: "Uranus sign meaning explained: how your Uranus sign shapes rebellion, innovation and freedom, with dates for all 12 signs, houses, examples and FAQs.",
     image: "/blog/uranus-sign-guide.jpg",

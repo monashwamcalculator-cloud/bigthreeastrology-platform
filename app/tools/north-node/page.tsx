@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "North Node & Life Purpose Finder | Karmic Rahu/Ketu",
-  description: "Discover your North Node (Rahu) life mission and South Node (Ketu) past-life karmic patterns.",
+  description: "Discover your North Node (Rahu) life mission and South Node (Ketu) past-life karmic patterns. Free, instant and private — no sign-up needed.",
   path: "/tools/north-node"
 });
 

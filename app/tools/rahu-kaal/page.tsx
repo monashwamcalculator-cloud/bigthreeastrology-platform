@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Daily Rahu Kaal & Shubh Muhurat Tracker",
-  description: "Check daily Rahu Kaal windows to avoid inauspicious timing for major investments or decisions.",
+  description: "Check daily Rahu Kaal windows to avoid inauspicious timing for major investments or decisions. Free, instant and private — no sign-up needed.",
   path: "/tools/rahu-kaal"
 });
 

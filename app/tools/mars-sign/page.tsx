@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Mars Sign Passion & Drive Reader | Physical Energy",
-  description: "Decode your physical energy, ambition style, anger triggers, and romantic passion based on Mars sign placement.",
+  description: "Decode your physical energy, ambition style, anger triggers, and romantic passion based on Mars sign placement. Free — no sign-up, no download needed.",
   path: "/tools/mars-sign"
 });
 

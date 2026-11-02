@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "3-Card Daily Tarot Reader | Past, Present & Future Spread",
-  description: "Draw 3 tarot cards for daily intuitive guidance on love, career, and spiritual direction.",
+  description: "Draw 3 tarot cards for daily intuitive guidance on love, career, and spiritual direction. Free and instant, with the method explained — no sign-up.",
   path: "/tools/tarot"
 });
 

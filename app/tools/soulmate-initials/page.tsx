@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Soulmate Name & Initial Predictor | Zodiac Love Signature",
-  description: "Predict the starting letters and initials of your future soulmate based on your Sun sign placement.",
+  description: "Predict the starting letters and initials of your future soulmate based on your Sun sign placement. Free and instant, with FAQs — no sign-up.",
   path: "/tools/soulmate-initials"
 });
 

@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact Us | BIGThreeAstrology Support",
-  description: "Get in touch with the BIGThreeAstrology team. Email us at asbusiness276@gmail.com for support or inquiries.",
+  description: "Get in touch with the BIGThreeAstrology team. Email us at asbusiness276@gmail.com for support or inquiries. Free — no sign-up, no download needed.",
   path: "/contact"
 });
 

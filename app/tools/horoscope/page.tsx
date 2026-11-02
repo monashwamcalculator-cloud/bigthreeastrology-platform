@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Daily Horoscope & Cosmic Energy Meter",
-  description: "Check your daily horoscope predictions, cosmic energy percentage, lucky colors, and numbers.",
+  description: "Check your daily horoscope predictions, cosmic energy percentage, lucky colors, and numbers. Free and instant, with the method explained — no sign-up.",
   path: "/tools/horoscope"
 });
 

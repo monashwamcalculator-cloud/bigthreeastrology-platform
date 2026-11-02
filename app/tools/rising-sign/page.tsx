@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Rising Sign (Ascendant) Reader | Aura & First Impression",
-  description: "Discover your Ascendant Lagna sign, physical aura, style preferences, and first impression signature.",
+  description: "Discover your Ascendant Lagna sign, physical aura, style preferences, and first impression signature. Free — no sign-up, no download needed.",
   path: "/tools/rising-sign"
 });
 

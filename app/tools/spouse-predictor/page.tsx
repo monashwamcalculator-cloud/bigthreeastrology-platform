@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 
 export const metadata: Metadata = buildMetadata({
   title: "Future Spouse & Soulmate Predictor | Appearance & Personality",
-  description: "Predict your future spouse's personality, appearance, element, lucky initials, and meeting environment.",
+  description: "Predict your future spouse's personality, appearance, element, lucky initials, and meeting environment. Free — no sign-up, no download needed.",
   path: "/tools/spouse-predictor"
 });
 
