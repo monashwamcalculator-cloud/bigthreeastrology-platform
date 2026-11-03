@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { LoveCompatibilityCalculator } from "@/components/love-compatibility";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { ToolSections } from "@/components/tool-guide";
+import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Zodiac Love Match & Synastry Compatibility Free | BIGThreeAstrology",
@@ -24,14 +25,7 @@ export default function LoveCompatibilityPage() {
     <div className="space-y-10 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
-      <div className="text-center space-y-4 max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-display font-bold">
-          Zodiac <span className="gradient-text-gold">Love Matcher</span>
-        </h1>
-        <p className="text-cosmic-200 text-lg">
-          Discover the cosmic chemistry, elemental synergy, and relationship potential between you and your partner.
-        </p>
-      </div>
+      <ToolPageHeader slug="love-compatibility" title="Zodiac Love Matcher" intro="Discover the cosmic chemistry, elemental synergy, and relationship potential between you and your partner." />
 
       <LoveCompatibilityCalculator />
       <ToolSections slug="love-compatibility" />

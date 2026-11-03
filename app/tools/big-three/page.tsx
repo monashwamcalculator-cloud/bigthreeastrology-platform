@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { BigThreeCalculator } from "@/components/calculator";
 import { buildMetadata } from "@/lib/seo";
 import { ToolSections } from "@/components/tool-guide";
+import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Big Three Astrology Calculator | Sun Moon Rising Signs",
@@ -12,11 +13,7 @@ export const metadata: Metadata = buildMetadata({
 export default function BigThreePage() {
   return (
     <div className="py-8 space-y-6">
-      <div className="text-center max-w-2xl mx-auto space-y-2">
-        <div className="badge badge-emerald"> Big Three Astrology</div>
-        <h1 className="text-3xl md:text-4xl font-display font-bold gradient-text">Sun, Moon & Rising Sign Calculator</h1>
-        <p className="text-emerald-200 text-sm">Discover your core identity, emotional instincts, and outer persona.</p>
-      </div>
+      <ToolPageHeader slug="big-three" title="Sun, Moon & Rising Sign Calculator" intro="Discover your core identity, emotional instincts, and outer persona." />
       <BigThreeCalculator />
       <ToolSections slug="big-three" />
     </div>

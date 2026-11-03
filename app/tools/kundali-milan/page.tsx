@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { KundaliMilanCalculator } from "@/components/kundali-milan";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { ToolSections } from "@/components/tool-guide";
+import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Free Vedic Kundali Matching by Date of Birth & Time | 36 Guna Milan",
@@ -24,14 +25,7 @@ export default function KundaliMilanPage() {
     <div className="space-y-10 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
-      <div className="text-center space-y-4 max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-display font-bold">
-          Free Vedic <span className="gradient-text-gold">Kundali Matching</span>
-        </h1>
-        <p className="text-cosmic-200 text-lg">
-          Check authentic Horoscope Match (Patrika Milan) for marriage using exact Date of Birth, Time, and Birth Place.
-        </p>
-      </div>
+      <ToolPageHeader slug="kundali-milan" title="Free Vedic Kundali Matching" intro="Check authentic Horoscope Match (Patrika Milan) for marriage using exact Date of Birth, Time, and Birth Place." />
 
       <KundaliMilanCalculator />
       <ToolSections slug="kundali-milan" />

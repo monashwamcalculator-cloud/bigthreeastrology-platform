@@ -3,6 +3,7 @@ import Link from "next/link";
 import { NumerologyCalculator } from "@/components/numerology-calculator";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { ToolSections } from "@/components/tool-guide";
+import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Free Life Path & Expression Numerology Calculator | BIGThreeAstrology",
@@ -25,14 +26,7 @@ export default function NumerologyPage() {
     <div className="space-y-10 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
-      <div className="text-center space-y-4 max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-display font-bold">
-          Free <span className="gradient-text-gold">Numerology Calculator</span>
-        </h1>
-        <p className="text-cosmic-200 text-lg">
-          Uncover the hidden mathematical frequencies governing your life path, character, and destiny.
-        </p>
-      </div>
+      <ToolPageHeader slug="numerology" title="Free Numerology Calculator" intro="Uncover the hidden mathematical frequencies governing your life path, character, and destiny." />
 
       <NumerologyCalculator />
       <ToolSections slug="numerology" />

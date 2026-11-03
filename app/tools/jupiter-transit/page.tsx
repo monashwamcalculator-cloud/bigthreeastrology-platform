@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { JupiterTransitCalculator } from "@/components/jupiter-transit-calculator";
 import { buildMetadata } from "@/lib/seo";
 import { ToolSections } from "@/components/tool-guide";
+import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Jupiter Transit & Luck Expansion Finder",
@@ -12,10 +13,7 @@ export const metadata: Metadata = buildMetadata({
 export default function JupiterTransitPage() {
   return (
     <div className="py-6 space-y-6">
-      <div className="text-center space-y-4 max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-display font-bold"><span className="gradient-text-gold">Jupiter Transit Calculator — Luck & Expansion Finder</span></h1>
-        <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">Track Jupiter's current transit through your chart and find the house where luck, growth and new opportunities are expanding for you.</p>
-      </div>
+      <ToolPageHeader slug="jupiter-transit" title="Jupiter Transit Calculator — Luck & Expansion Finder" intro="Track Jupiter's current transit through your chart and find the house where luck, growth and new opportunities are expanding for you." />
       <JupiterTransitCalculator />
       <ToolSections slug="jupiter-transit" />
     </div>
