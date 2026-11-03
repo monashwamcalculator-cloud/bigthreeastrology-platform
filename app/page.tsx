@@ -62,7 +62,7 @@ export default function HomePage() {
         name: "How accurate is the Sun Moon Rising calculator on BIGThreeAstrology?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Accuracy depends on your exact birth date, birth time (with AM/PM and 60 minutes precision), and birth location. Our algorithms cross-reference astronomical ephemeris positioning to deliver high-precision Western Tropical and Vedic Sidereal sign placements."
+          text: "Accuracy depends on your exact birth date, birth time (with AM/PM and 60 minutes precision), and birth location. Our algorithms cross-reference astronomical ephemeris positioning to calculate Western Tropical and Vedic Sidereal sign placements."
         }
       },
       {
@@ -70,7 +70,7 @@ export default function HomePage() {
         name: "How does the Future Spouse & Soulmate Predictor work?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The Spouse Predictor analyzes your Sun sign, Venus placement, Darakaraka planet, and 7th House ruler to predict your future partner's physical appearance, personality traits, lucky initials, and likely meeting environment."
+          text: "The Spouse Predictor follows the classical spouse-archetype tradition: you select your sign, and the tool shows the partner profile traditionally linked to that sign and its 7th-house connections — physical appearance themes, personality traits, lucky initials, and likely meeting environment. It is a sign-based interpretive guide, not a calculation from your full birth chart."
         }
       },
       {
@@ -189,7 +189,7 @@ export default function HomePage() {
               Future Spouse & Soulmate Predictor
             </h2>
             <p className="text-[#2C473F] text-xs sm:text-sm leading-relaxed">
-              Curious about your future life partner? Our advanced Spouse Predictor combines your Sun placement, Venus sign, Darakaraka planet, and 7th House ruler to calculate your partner's physical features, personality archetype, lucky initials, and probable meeting environment.
+              Curious about your future life partner? Our Spouse Predictor uses the classical sign-based spouse archetype to describe your partner's likely physical features, personality archetype, lucky initials, and probable meeting environment — just choose your sign to see the traditional profile.
             </p>
             <div className="pt-1">
               <Link href="/tools/spouse-predictor" className="btn-glow px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">

@@ -23,7 +23,8 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
   const [selectedZodiac, setSelectedZodiac] = useState("Aries");
 
   const result = useMemo(() => {
-    // Generate dynamic high-precision astrological insights based on inputs & tool slug
+    // Themed reflection reading keyed to the name profile and selected zodiac
+    // sign — a traditional-interpretation guide, not an ephemeris calculation.
     const nameSeed = (name.length + selectedZodiac.length + tool.slug.length) % 12;
     const computedSign = ZODIAC_SIGNS[nameSeed] || selectedZodiac;
 
@@ -31,8 +32,8 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
       sign: computedSign,
       element: ["Fire ♈", "Earth ♉", "Air ♊", "Water ♋"][nameSeed % 4],
       score: 82 + (nameSeed * 1.5),
-      verdict: `High Cosmic Resonance for ${tool.name}`,
-      analysis: `Your birth configuration indicates strong planetary alignment for ${tool.name}. Your active vibration in ${computedSign} enhances intuition, strategic focus, and spiritual grace.`,
+      verdict: `Cosmic Resonance Reflection for ${tool.name}`,
+      analysis: `This ${tool.name} reading is themed on ${computedSign} — the sign highlighted by your name profile and zodiac selection. In traditional astrology, ${computedSign} energy is linked with intuition, strategic focus, and spiritual grace. Treat this reading as a reflection guide.`,
       advice: `Focus your daily energy on positive alignment, practice mindfulness during key transits, and leverage your natural ${computedSign} strengths.`
     };
   }, [name, selectedZodiac, tool]);

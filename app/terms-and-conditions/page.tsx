@@ -27,7 +27,7 @@ export default function TermsPage() {
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">2. Free Educational & Entertainment Service</h2>
           <p>
-            BIGThreeAstrology provides 16 interactive astrology and numerology calculators for personal, educational, self-awareness, and entertainment purposes. Calculator outputs do not constitute professional legal, financial, medical, or psychological advice.
+            BIGThreeAstrology provides 100+ interactive astrology and numerology calculators for personal, educational, self-awareness, and entertainment purposes. Calculator outputs do not constitute professional legal, financial, medical, or psychological advice.
           </p>
         </section>
 

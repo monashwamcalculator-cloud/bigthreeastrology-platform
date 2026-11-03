@@ -46,7 +46,7 @@ export const MASTER_TOOLS_LIST: ToolDefinition[] = [
     metaDesc: "Predict your future spouse's appearance, element, lucky initials, and meeting environment. Free and instant, with the method explained — no sign-up.",
     badge: " High Demand",
     educationalTitle: "How Astrology Predicts Your Future Spouse",
-    educationalContent: "By analyzing Venus, Darakaraka planet, and the 7th house ruler in your natal chart, Vedic and Western astrology reveal physical features, career path, and meeting scenarios for your life partner.",
+    educationalContent: "In Vedic and Western astrology, a birth chart's Venus placement, Darakaraka planet, and 7th house ruler are traditionally read to describe a life partner's physical features, career path, and meeting scenarios. This tool presents the classical sign-based archetype.",
     faqs: [
       { question: "Can astrology reveal my spouse's meeting scenario?", answer: "Yes! 7th house ruler house placement reveals meeting environments such as college, work, travel, or online." }
     ]
@@ -1089,7 +1089,7 @@ export const MASTER_TOOLS_LIST: ToolDefinition[] = [
     metaDesc: "Read today's authentic daily horoscope for Aries through Pisces covering romance, finances, and vitality. Free — no sign-up, no download needed.",
     badge: " Daily Horoscope",
     educationalTitle: "Daily Celestial Transits for All 12 Signs",
-    educationalContent: "Our daily horoscope tracks real-time planetary transits across the 12 zodiac signs.",
+    educationalContent: "Our daily horoscope presents a themed reading for each of the 12 zodiac signs, covering the day's energy, lucky numbers and colours, and guidance for love and career.",
     faqs: [
       { question: "Should I read for my Sun or Rising sign?", answer: "Reading for your Rising sign gives the most accurate house placement guidance!" }
     ]

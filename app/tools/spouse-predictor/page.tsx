@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
 export default function SpousePage() {
   return (
     <div className="py-6 space-y-6">
-      <ToolPageHeader slug="spouse-predictor" title="Future Spouse Predictor" intro="Predict your future spouse's appearance, personality, element and lucky initials from your Venus placement, Darakaraka planet and 7th house — free, with no sign-up." />
+      <ToolPageHeader slug="spouse-predictor" title="Future Spouse Predictor" intro="Predict your future spouse's appearance, personality, element and lucky initials from your sign and its traditional 7th-house connections — free, with no sign-up." />
       <SpousePredictor />
       <ToolSections slug="spouse-predictor" />
     </div>
