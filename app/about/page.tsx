@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { AUTHOR } from "@/lib/author";
 
 export const metadata: Metadata = buildMetadata({
@@ -11,8 +11,34 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function AboutPage() {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        name: "About Us | BIGThreeAstrology Platform",
+        url: absoluteUrl("/about"),
+        description:
+          "Learn about BIGThreeAstrology's mission to provide 100 free, accurate Vedic and Western astrology calculators globally. Meet the founder, Saahil.",
+        isPartOf: { "@type": "WebSite", name: "BIGThreeAstrology", url: absoluteUrl("/") },
+        about: { "@id": absoluteUrl("/#organization") }
+      },
+      {
+        "@type": "Organization",
+        "@id": absoluteUrl("/#organization"),
+        name: "BIGThreeAstrology",
+        url: absoluteUrl("/"),
+        logo: absoluteUrl("/logo.jpg"),
+        email: "asbusiness276@gmail.com",
+        founder: { "@type": "Person", name: AUTHOR.name, url: absoluteUrl(AUTHOR.pageUrl) }
+      }
+    ]
+  };
+
   return (
     <div className="py-12 max-w-4xl mx-auto space-y-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
+
       <div className="text-center space-y-4">
         <div className="badge badge-emerald"> About BIGThreeAstrology</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">Empowering Self-Awareness Through Astrology</h1>

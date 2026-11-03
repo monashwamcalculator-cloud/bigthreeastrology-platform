@@ -372,7 +372,7 @@ Check today's day and night periods for your city with the [Choghadia Calculator
     slug: "sade-sati-meaning-effects-remedies",
     category: "Vedic Jyotish & Timing",
     toolSlug: "sade-sati",
-    metaDescription: "Sade Sati explained: what Saturn's 7.5-year transit over your Moon sign means, its three phases, effects on career, health and relationships, and who is in it now.",
+    metaDescription: "Sade Sati explained: what Saturn's 7.5-year transit over your Moon sign means, its three phases, and its effects on career, health and relationships.",
     image: "/blog/sade-sati-dasha-guide.jpg",
     createdAt: new Date("2026-08-04"),
     updatedAt: new Date("2026-10-29"),
@@ -450,7 +450,7 @@ Check whether your Moon sign is in the rising, peak or setting phase with the [S
     slug: "spouse-appearance-astrology-guide",
     category: "Birth Chart & Planets",
     toolSlug: "spouse-predictor",
-    metaDescription: "Predict your future spouse's appearance with Vedic astrology: how Venus, the Darakaraka and your 7th house ruler reveal their looks, personality and meeting place.",
+    metaDescription: "Predict your spouse's appearance using Vedic astrology: how Venus, Darakaraka and the 7th house ruler reveal their looks, personality and meeting place.",
     image: "/blog/spouse-appearance-astrology-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-10-29"),
@@ -533,7 +533,7 @@ That is normal. Charts are layered: the 7th house sign, planets inside it, the 7
     slug: "sade-sati-survival-remedies-guide",
     category: "Vedic Jyotish & Timing",
     toolSlug: "sade-sati",
-    metaDescription: "Sade Sati survival guide: phase-by-phase symptoms, practical do's and don'ts, and Vedic remedies — mantra, charity and Saturday routines — that ease Shani's test.",
+    metaDescription: "Sade Sati survival guide: phase-wise symptoms, do's and don'ts, and Vedic remedies — mantra, charity and Saturday routines to ease Shani's test.",
     image: "/blog/sade-sati-survival-remedies-guide.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-10-29"),
@@ -783,7 +783,7 @@ Use them, don't waste them. These windows are traditionally fine for routine, ph
     updatedAt: new Date("2026-10-29"),
     content: `> **Executive Overview**: If your main birth chart (D1) is the tree, the **Navamsha (D9) chart** is the fruit — the divisional chart Vedic astrology uses to judge marriage, a spouse's qualities, and whether the promises in your birth chart actually mature. This guide explains how the D9 is calculated, what vargottama really means, and how to read the D9 *alongside* your D1 rather than instead of it. Start by exploring the houses of your main chart in our free **[Kundali Houses Explorer](/tools/kundali-houses)**.
 
-Ask a Vedic astrologer about marriage and they will not stop at your birth chart. They will draw a second, smaller chart beside it: the Navamsha, built by dividing every sign into nine equal parts. The D9 answers the questions the D1 only raises — not *whether* a planet promises something, but how strong that promise is, and not just *that* you will marry, but what the marriage and the spouse are actually like from the inside.
+Ask a Vedic astrologer about marriage and they will not stop at your birth chart. They will draw a second, smaller chart beside it: the Navamsha, built by dividing every sign into nine equal parts. The D9 answers the questions the D1 only raises — not *whether* a planet promises something, but how strong that promise is, and not just *that* you will marry, but what the marriage and the spouse are actually like from the inside. If you want your own chart in front of you while you read, open our free [Navamsha Calculator](/tools/navamsha).
 
 That is also why this guide repeats one rule in several forms: **the D9 is never read alone.** A beautiful D9 under a weak D1 is potential without an engine; a strong D1 with a struggling D9 is achievement that costs more than it should. The two charts are one judgement, and the sections below show you how astrologers combine them — beginning with the part most explanations skip, the actual arithmetic. If you have never looked at your own chart's foundations, our [Big Three Calculator](/tools/big-three) gives you your Sun, Moon and Rising signs first, and the [Kundali Houses Explorer](/tools/kundali-houses) then maps the twelve houses those planets rule and occupy.
 
@@ -799,7 +799,7 @@ Every sign spans 30°, and the Navamsha divides it into **9 parts of 3°20' each
 | Fixed | Taurus, Leo, Scorpio, Aquarius | The 9th sign from it |
 | Dual (mutable) | Gemini, Virgo, Sagittarius, Pisces | The 5th sign from it |
 
-Two worked examples make it permanent. **Moon at 14° Aries:** Aries is movable, so counting starts at Aries — 0–3°20' is Aries, 3°20'–6°40' Taurus, 6°40'–10° Gemini, 10°–13°20' Cancer, 13°20'–16°40' Leo. Fourteen degrees lands in the fifth part: the Moon's Navamsha is **Leo**. **Venus at 8° Gemini:** Gemini is dual, so counting starts from the 5th sign from Gemini, which is Libra — 0–3°20' Libra, 3°20'–6°40' Scorpio, 6°40'–10° Sagittarius. Eight degrees lands in the third part: Venus sits in **Sagittarius** Navamsha. Every planet and the Ascendant are mapped this way, producing a complete second chart with its own rising sign.
+Two worked examples make it permanent. **Moon at 14° Aries:** Aries is movable, so counting starts at Aries — 0–3°20' is Aries, 3°20'–6°40' Taurus, 6°40'–10° Gemini, 10°–13°20' Cancer, 13°20'–16°40' Leo. Fourteen degrees lands in the fifth part: the Moon's Navamsha is **Leo**. **Venus at 8° Gemini:** Gemini is dual, so counting starts from the 5th sign from Gemini, which is Libra — 0–3°20' Libra, 3°20'–6°40' Scorpio, 6°40'–10° Sagittarius. Eight degrees lands in the third part: Venus sits in **Sagittarius** Navamsha. Every planet and the Ascendant are mapped this way, producing a complete second chart with its own rising sign. Working all nine divisions by hand is slow, so keep our free [Navamsha D9 Chart Explorer](/tools/navamsha) open beside this guide as you map your own planets.
 
 ## Vargottama and the Inner Strength of Planets
 
@@ -822,13 +822,13 @@ Used this way, the D9 also corrects a common beginner's error — judging marria
 3. **Follow the Ascendant lord.** The sign your D1 Ascendant moves to in D9, and the condition of the D9 Ascendant lord, summarise how your life direction matures.
 4. **Check the movers.** Planets that change condition dramatically between the charts — exalted to debilitated or the reverse — mark the life areas with the biggest gap between first impressions and final outcomes; they deserve the closest reading, which the house-by-house view in the [Kundali Houses Explorer](/tools/kundali-houses) helps you organise.
 
-Learn those four and you can follow any professional D9 reading — and recognise the ones that skip the D1 entirely, which you now know to discount.
+Learn those four and you can follow any professional D9 reading — and recognise the ones that skip the D1 entirely, which you now know to discount. Practise on your own chart as you go with the free [Navamsha Calculator](/tools/navamsha).
 
 ## Frequently Asked Questions
 
 ### What exactly is the Navamsha (D9) chart?
 
-It is a divisional chart built by splitting each 30° sign into nine parts of 3°20'. Every planet's position within its sign places it in one of the nine parts, which maps to a sign; collecting all nine mappings produces a complete second chart. It is the most important divisional chart in Vedic astrology, used mainly for marriage and for judging the matured strength of planets.
+It is a divisional chart built by splitting each 30° sign into nine parts of 3°20'. Every planet's position within its sign places it in one of the nine parts, which maps to a sign; collecting all nine mappings produces a complete second chart. It is the most important divisional chart in Vedic astrology, used mainly for marriage and for judging the matured strength of planets. You can explore your own D9 with our free [Navamsha Calculator](/tools/navamsha).
 
 ### What does vargottama mean?
 
@@ -1465,7 +1465,7 @@ Find your exact Moon sign now with the [Moon Sign Calculator](/tools/moon-sign),
     slug: "rising-sign-meaning-first-impressions-ascendant",
     category: "Birth Chart & Planets",
     toolSlug: "rising-sign",
-    metaDescription: "Your Rising sign (Ascendant) shapes first impressions and how you begin everything. Learn every Rising sign, chart rulers and houses, with the Rising Sign Calculator.",
+    metaDescription: "Your Rising sign (Ascendant) shapes first impressions and how you show up. Learn every Rising sign, chart rulers and houses, with the Rising Sign Calculator.",
     image: "/blog/rising-sign-guide.jpg",
     createdAt: new Date("2026-10-30"),
     updatedAt: new Date("2026-10-30"),

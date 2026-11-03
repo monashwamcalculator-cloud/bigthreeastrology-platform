@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, absoluteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Privacy Policy | BIGThreeAstrology",
@@ -8,8 +8,20 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function PrivacyPolicyPage() {
+  const privacySchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Privacy Policy | BIGThreeAstrology",
+    url: absoluteUrl("/privacy-policy"),
+    description:
+      "How BIGThreeAstrology handles calculator inputs, cookies, analytics, advertising, and user privacy protection. With the method explained, free and instant.",
+    isPartOf: { "@type": "WebSite", name: "BIGThreeAstrology", url: absoluteUrl("/") }
+  };
+
   return (
     <div className="glass-card max-w-4xl mx-auto p-8 md:p-14 space-y-8 my-8 bg-white border-emerald-500/30">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(privacySchema) }} />
+
       <div className="space-y-3">
         <div className="badge badge-emerald mb-2"> Privacy & Data Protection</div>
         <h1 className="text-3xl md:text-4xl font-display font-bold gradient-text">Privacy Policy</h1>

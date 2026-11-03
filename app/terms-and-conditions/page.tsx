@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, absoluteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Terms and Conditions | BIGThreeAstrology",
@@ -8,8 +8,20 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function TermsPage() {
+  const termsSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Terms and Conditions | BIGThreeAstrology",
+    url: absoluteUrl("/terms-and-conditions"),
+    description:
+      "Terms of service and user agreement for BIGThreeAstrology. Includes how the method works, what your result means and FAQs \u2014 free, instant, no sign-up.",
+    isPartOf: { "@type": "WebSite", name: "BIGThreeAstrology", url: absoluteUrl("/") }
+  };
+
   return (
     <div className="glass-card max-w-4xl mx-auto p-8 md:p-14 space-y-8 my-8 bg-white border-emerald-500/30">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(termsSchema) }} />
+
       <div className="space-y-3">
         <div className="badge badge-emerald mb-2"> Terms & User Agreement</div>
         <h1 className="text-3xl md:text-4xl font-display font-bold gradient-text">Terms and Conditions</h1>

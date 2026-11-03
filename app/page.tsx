@@ -13,7 +13,7 @@ const TOOL_COUNT = MASTER_TOOLS_LIST.length;
 export const metadata: Metadata = buildMetadata({
   title: `BIGThreeAstrology | ${TOOL_COUNT} Free Astrology & Numerology Calculators`,
   description:
-    `Free suite of ${TOOL_COUNT} astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising signs, Kundali Milan, Choghadia, Sade Sati & horoscopes.`,
+    `Free suite of ${TOOL_COUNT} astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising, Kundali Milan, Choghadia, Sade Sati.`,
   path: "/"
 });
 

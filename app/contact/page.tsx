@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, absoluteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact Us | BIGThreeAstrology Support",
@@ -8,8 +8,37 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function ContactPage() {
+  const contactSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ContactPage",
+        name: "Contact Us | BIGThreeAstrology Support",
+        url: absoluteUrl("/contact"),
+        description:
+          "Get in touch with the BIGThreeAstrology team. Email us at asbusiness276@gmail.com for support or inquiries. Free \u2014 no sign-up, no download needed.",
+        isPartOf: { "@type": "WebSite", name: "BIGThreeAstrology", url: absoluteUrl("/") },
+        about: { "@id": absoluteUrl("/#organization") }
+      },
+      {
+        "@type": "Organization",
+        "@id": absoluteUrl("/#organization"),
+        name: "BIGThreeAstrology",
+        url: absoluteUrl("/"),
+        logo: absoluteUrl("/logo.jpg"),
+        contactPoint: {
+          "@type": "ContactPoint",
+          email: "asbusiness276@gmail.com",
+          contactType: "customer support"
+        }
+      }
+    ]
+  };
+
   return (
     <div className="py-12 max-w-3xl mx-auto space-y-10">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
+
       <div className="text-center space-y-4">
         <div className="badge badge-emerald"> Contact & Support</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">We'd Love to Hear From You</h1>

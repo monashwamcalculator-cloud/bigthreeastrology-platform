@@ -6,7 +6,7 @@ import { absoluteUrl, buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: `All ${MASTER_TOOLS_LIST.length} Free Astrology & Numerology Calculators | BIGThreeAstrology`,
   description:
-    `Browse all ${MASTER_TOOLS_LIST.length} free astrology and numerology calculators: Big Three signs, Kundali Milan, Choghadia, Sade Sati, numerology, tarot, synastry and career astrology tools.`,
+    `Browse ${MASTER_TOOLS_LIST.length} free astrology and numerology calculators: Big Three signs, Kundali Milan, Choghadia, Sade Sati, numerology, tarot, synastry and career tools.`,
   path: "/tools"
 });
 

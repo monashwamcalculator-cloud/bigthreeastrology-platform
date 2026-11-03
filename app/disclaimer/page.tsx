@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, absoluteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Astrological Disclaimer | BIGThreeAstrology",
@@ -8,8 +8,20 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function DisclaimerPage() {
+  const disclaimerSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Astrological Disclaimer | BIGThreeAstrology",
+    url: absoluteUrl("/disclaimer"),
+    description:
+      "Astrological and legal disclaimer for BIGThreeAstrology calculations. Free and instant \u2014 no sign-up, no download, works on any device you own.",
+    isPartOf: { "@type": "WebSite", name: "BIGThreeAstrology", url: absoluteUrl("/") }
+  };
+
   return (
     <div className="glass-card max-w-4xl mx-auto p-8 md:p-14 space-y-8 my-8 bg-white border-emerald-500/30">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(disclaimerSchema) }} />
+
       <div className="space-y-3">
         <div className="badge badge-emerald mb-2">⚖ Legal & Astrological Disclaimer</div>
         <h1 className="text-3xl md:text-4xl font-display font-bold gradient-text">Astrological Disclaimer</h1>

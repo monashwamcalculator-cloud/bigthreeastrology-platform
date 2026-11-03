@@ -26,7 +26,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
   title: `BIGThreeAstrology | ${TOOL_COUNT} Free Astrology & Numerology Calculators`,
-  description: `Free suite of ${TOOL_COUNT} astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising signs, Kundali Milan, Choghadia, Sade Sati & horoscopes.`,
+  description: `Free suite of ${TOOL_COUNT} astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising, Kundali Milan, Choghadia, Sade Sati.`,
   keywords: ["astrology", "big three", "spouse predictor", "kundali milan", "choghadia", "sade sati", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope", "dasha", "nakshatra"],
   authors: [{ name: "BIGThreeAstrology" }],
   icons: {
