@@ -21,7 +21,7 @@ export default function KundaliMilanPage() {
   };
 
   return (
-    <div className="container-main space-y-10 py-8">
+    <div className="space-y-10 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
       <div className="text-center space-y-4 max-w-3xl mx-auto">
@@ -36,7 +36,7 @@ export default function KundaliMilanPage() {
       <KundaliMilanCalculator />
       <ToolSections slug="kundali-milan" />
 
-      <section className="glass-card p-8 prose prose-invert max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
+      <section className="glass-card p-8 prose max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
         <h2>What Is Vedic Kundali Matching (Guna Milan)?</h2>
         <p>
           In Vedic Astrology (Jyotish), **Kundali Matching** (or Patrika Milan) is the ancient method of testing matrimonial compatibility between a Bride and Groom based on their natal Moon Nakshatras and Rashis at birth.

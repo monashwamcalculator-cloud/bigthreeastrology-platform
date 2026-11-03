@@ -200,7 +200,7 @@ export function LifePathNumberCalculator() {
 
       {parsed && meaning ? (
         <div className="max-w-2xl mx-auto space-y-4">
-          <div className="glass-card-hover p-6 border-sky-500/30 bg-black/50 text-center">
+          <div className="glass-card-hover p-6 border-[#D4E2DD] bg-black/50 text-center">
             <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold block mb-1">
               Your Life Path Number
             </span>
@@ -212,7 +212,7 @@ export function LifePathNumberCalculator() {
             <p className="text-sm text-sky-100 leading-relaxed mt-4 text-left">
               {meaning.meaning}
             </p>
-            <div className="grid sm:grid-cols-2 gap-4 text-left border-t border-sky-500/20 pt-4 mt-4">
+            <div className="grid sm:grid-cols-2 gap-4 text-left border-t border-[#D4E2DD] pt-4 mt-4">
               <div>
                 <span className="text-xs font-semibold text-sky-300">Strengths</span>
                 <ul className="text-xs text-sky-100 leading-relaxed mt-1 space-y-1">
@@ -329,7 +329,7 @@ export function LifePathNumberCalculator() {
           </div>
         </div>
       ) : (
-        <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50 text-center">
+        <div className="glass-card-hover p-6 max-w-xl mx-auto border-[#D4E2DD] bg-black/50 text-center">
           <p className="text-sm text-sky-100 leading-relaxed">
             Pick your birth date above and your Life Path number appears instantly — together
             with the full step-by-step reduction, so you can check the arithmetic yourself.

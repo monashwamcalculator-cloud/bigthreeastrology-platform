@@ -91,7 +91,7 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   return (
-    <div className="container-main py-8 space-y-8 animate-fade-in">
+    <div className="py-8 space-y-8 animate-fade-in">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {faqSchema && (

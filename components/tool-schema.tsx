@@ -49,7 +49,7 @@ export function ToolSchema({
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: "Tools", item: absoluteUrl("/tools/big-three") },
+      { "@type": "ListItem", position: 2, name: "Tools", item: absoluteUrl("/tools") },
       { "@type": "ListItem", position: 3, name: name, item: url }
     ]
   };

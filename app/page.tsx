@@ -6,17 +6,20 @@ import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { StatsCounter } from "@/components/stats-counter";
 import { CosmicIcon } from "@/components/cosmic-icons";
 import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
+import { MASTER_TOOLS_LIST } from "@/lib/all-tools-registry";
+
+const TOOL_COUNT = MASTER_TOOLS_LIST.length;
 
 export const metadata: Metadata = buildMetadata({
-  title: "BIGThreeAstrology | 100 Free Astrology & Numerology Calculators",
+  title: `BIGThreeAstrology | ${TOOL_COUNT} Free Astrology & Numerology Calculators`,
   description:
-    "Free suite of 100 astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising signs, Kundali Milan, Choghadia, Sade Sati & horoscopes.",
+    `Free suite of ${TOOL_COUNT} astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising signs, Kundali Milan, Choghadia, Sade Sati & horoscopes.`,
   path: "/"
 });
 
 export default function HomePage() {
   const pageDescription =
-    "Explore 100 free astrology and numerology calculators. Calculate Sun, Moon, Rising signs, Spouse Predictor, Vedic Kundali Milan, Choghadia Muhurat, Sade Sati transits, Life Path Numerology, Chaldean Brand Math, and Daily Tarot.";
+    `Explore ${TOOL_COUNT} free astrology and numerology calculators. Calculate Sun, Moon, Rising signs, Spouse Predictor, Vedic Kundali Milan, Choghadia Muhurat, Sade Sati transits, Life Path Numerology, Chaldean Brand Math, and Daily Tarot.`;
 
   const websiteSchema = {
     "@context": "https://schema.org",
@@ -35,7 +38,7 @@ export default function HomePage() {
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: "Free Sun Moon Rising Calculator, Kundali Milan & 100 Cosmic Tools",
+    name: `Free Sun Moon Rising Calculator, Kundali Milan & ${TOOL_COUNT} Cosmic Tools`,
     url: absoluteUrl("/"),
     description: pageDescription
   };
@@ -43,7 +46,7 @@ export default function HomePage() {
   const appSchema = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "BIGThreeAstrology 100 Free Tools Suite",
+    name: `BIGThreeAstrology ${TOOL_COUNT} Free Tools Suite`,
     applicationCategory: "LifestyleApplication",
     operatingSystem: "All",
     url: absoluteUrl("/"),
@@ -96,7 +99,7 @@ export default function HomePage() {
       },
       {
         "@type": "Question",
-        name: "Do I need to register or pay to access these 100 calculators?",
+        name: `Do I need to register or pay to access these ${TOOL_COUNT} calculators?`,
         acceptedAnswer: {
           "@type": "Answer",
           text: "No! All 100 calculators on BIGThreeAstrology are 100% free, instant, and accessible without mandatory account registration or paywalls."
@@ -129,10 +132,10 @@ export default function HomePage() {
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
           <div className="badge badge-gold mb-4 animate-slide-up text-xs py-1 px-3">
-             100 Free Astrology & Numerology Tools — 100% Instant & No Sign-up
+             {TOOL_COUNT} Free Astrology & Numerology Tools — 100% Instant & No Sign-up
           </div>
           
-          <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight animate-slide-up animate-delay-100 leading-tight">
+          <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight animate-slide-up leading-tight">
             <span className="text-white drop-shadow-md">Uncover Your </span>
             <span className="gradient-text-gold">Cosmic Identity</span>
             <br />
@@ -145,7 +148,7 @@ export default function HomePage() {
           
           <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto animate-slide-up animate-delay-300">
             <Link href="/tools" className="btn-glow px-6 py-2.5 text-sm sm:text-base font-bold w-full sm:w-auto text-center">
-              Explore 100 Free Tools 
+              Explore {TOOL_COUNT} Free Tools 
             </Link>
             <Link href="/tools/spouse-predictor" className="btn-secondary px-6 py-2.5 text-sm sm:text-base font-bold w-full sm:w-auto text-center border-amber-400/40 text-amber-300 hover:bg-amber-400/10">
               Spouse Predictor 
@@ -223,7 +226,7 @@ export default function HomePage() {
       <section className="stars-bg rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl relative overflow-hidden border border-amber-500/40 bg-black/50">
         <div className="relative z-10">
           <div className="text-center mb-6">
-            <div className="badge badge-gold mb-2"> 100-in-1 Interactive Suite</div>
+            <div className="badge badge-gold mb-2"> {TOOL_COUNT}-in-1 Interactive Suite</div>
             <h2 className="text-2xl md:text-3xl font-display font-bold gradient-text-gold mb-1">Cosmic Tools & Calculators Suite</h2>
             <p className="text-amber-200 text-xs sm:text-sm max-w-xl mx-auto">
               Select any tool category below to calculate your astrological snapshot instantly.
@@ -324,7 +327,7 @@ export default function HomePage() {
       </section>
 
       {/* 9. Compact Educational Manual Section */}
-      <section className="glass-card p-5 sm:p-8 prose prose-invert max-w-5xl mx-auto rounded-2xl shadow-xl bg-black/50 border-amber-500/30 space-y-6">
+      <section className="glass-card p-5 sm:p-8 prose max-w-5xl mx-auto rounded-2xl shadow-xl bg-black/50 border-amber-500/30 space-y-6">
         <div>
           <h2 className="text-xl sm:text-3xl font-display font-bold gradient-text-gold mb-3">
             Mastering Your Astrological & Numerological Blueprint
@@ -352,7 +355,7 @@ export default function HomePage() {
 
       {/* 9b. Browse Tools by Category (static links for discovery) */}
       <section className="max-w-6xl mx-auto space-y-4">
-        <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Browse All 100 Tools by Category</h2>
+        <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Browse All {TOOL_COUNT} Tools by Category</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {[
             { name: "Birth Chart & Planets", count: 20, link: "/tools#planetary", icon: "zodiac" },
@@ -394,7 +397,7 @@ export default function HomePage() {
 
       {/* 10. FAQ Visual Cards */}
       <section className="max-w-4xl mx-auto py-2">
-        <h3 className="text-2xl font-display font-bold text-center text-white mb-6">Frequently Asked Questions </h3>
+        <h2 className="text-2xl font-display font-bold text-center text-white mb-6">Frequently Asked Questions </h2>
         <div className="grid gap-3">
           {faqSchema.mainEntity.map((faq, idx) => (
             <div key={idx} className="glass-card-hover p-4 rounded-xl border border-amber-500/20 bg-black/40">

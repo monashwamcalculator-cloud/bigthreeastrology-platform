@@ -31,7 +31,7 @@ export default function AuthorPage() {
   const articles = [...SAMPLE_BLOG_POSTS].reverse();
 
   return (
-    <div className="container-main py-10 space-y-10 animate-fade-in">
+    <div className="py-10 space-y-10 animate-fade-in">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
 
       {/* Author hero */}

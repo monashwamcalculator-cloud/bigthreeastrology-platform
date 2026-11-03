@@ -64,7 +64,7 @@ export function CosmicToolsSuite() {
       <div className="text-center pt-2">
         <p className="text-xs text-amber-300/80 font-semibold flex items-center justify-center gap-1.5">
           <CosmicIcon name="zodiac" className="w-4 h-4" />
-          <span>Showing 100 Authentic Astrological, Vedic & Numerology Calculators</span>
+          <span>Showing {MASTER_TOOLS_LIST.length} Authentic Astrological, Vedic & Numerology Calculators</span>
         </p>
       </div>
     </div>

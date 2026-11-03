@@ -523,7 +523,7 @@ export function KundaliMilanCalculator() {
             </p>
 
             <div className="mt-8 flex justify-center">
-              <button onClick={handleShare} className="btn-primary flex items-center gap-2">
+              <button onClick={handleShare} className="btn-glow flex items-center gap-2">
                 <span></span> Share Kundali Match Report
               </button>
             </div>

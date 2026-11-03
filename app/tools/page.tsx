@@ -4,9 +4,9 @@ import { MASTER_TOOLS_LIST } from "@/lib/all-tools-registry";
 import { absoluteUrl, buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
-  title: "All 100 Free Astrology & Numerology Calculators | BIGThreeAstrology",
+  title: `All ${MASTER_TOOLS_LIST.length} Free Astrology & Numerology Calculators | BIGThreeAstrology`,
   description:
-    "Browse all 100 free astrology and numerology calculators: Big Three signs, Kundali Milan, Choghadia, Sade Sati, numerology, tarot, synastry and career astrology tools.",
+    `Browse all ${MASTER_TOOLS_LIST.length} free astrology and numerology calculators: Big Three signs, Kundali Milan, Choghadia, Sade Sati, numerology, tarot, synastry and career astrology tools.`,
   path: "/tools"
 });
 
@@ -15,7 +15,7 @@ const CATEGORY_ORDER = ["planetary", "vedic", "numerology", "guidance", "synastr
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "100 Free Astrology & Numerology Calculators",
+  name: `${MASTER_TOOLS_LIST.length} Free Astrology & Numerology Calculators`,
   description:
     "The complete BIGThreeAstrology catalogue: birth-chart, Vedic, numerology, synastry, guidance and career calculators — all free, no sign-up.",
   numberOfItems: MASTER_TOOLS_LIST.length,
@@ -42,7 +42,7 @@ export default function ToolsHubPage() {
       />
       <div className="text-center space-y-4 max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-display font-bold">
-          All 100 Free <span className="gradient-text-gold">Astrology Calculators</span>
+          All {MASTER_TOOLS_LIST.length} Free <span className="gradient-text-gold">Astrology Calculators</span>
         </h1>
         <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">
           Every BIGThreeAstrology tool in one place — Vedic Jyotish, Western birth-chart calculators,

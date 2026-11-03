@@ -21,7 +21,7 @@ export default function LoveCompatibilityPage() {
   };
 
   return (
-    <div className="container-main space-y-10 py-8">
+    <div className="space-y-10 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
       <div className="text-center space-y-4 max-w-3xl mx-auto">
@@ -36,7 +36,7 @@ export default function LoveCompatibilityPage() {
       <LoveCompatibilityCalculator />
       <ToolSections slug="love-compatibility" />
 
-      <section className="glass-card p-8 prose prose-invert max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
+      <section className="glass-card p-8 prose max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
         <h2>How Zodiac Love Compatibility Works</h2>
         <p>
           Astrological relationship compatibility (known as **Synastry**) analyzes the interplay between two people's birth charts. The fundamental foundation rests upon **Elemental Harmony**:

@@ -22,7 +22,7 @@ export default function NumerologyPage() {
   };
 
   return (
-    <div className="container-main space-y-10 py-8">
+    <div className="space-y-10 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
       <div className="text-center space-y-4 max-w-3xl mx-auto">
@@ -37,7 +37,7 @@ export default function NumerologyPage() {
       <NumerologyCalculator />
       <ToolSections slug="numerology" />
 
-      <section className="glass-card p-8 prose prose-invert max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
+      <section className="glass-card p-8 prose max-w-none prose-headings:font-display prose-headings:gradient-text prose-p:text-cosmic-200">
         <h2>What Is a Life Path Number in Numerology?</h2>
         <p>
           In numerology, your **Life Path Number** is considered the single most significant number in your entire birth chart. It acts as a compass, outlining your overarching life purpose, key traits, inherent strengths, and the major lessons you will encounter throughout your lifetime.

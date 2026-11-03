@@ -57,11 +57,11 @@ function KundliDiamondChart({ chart }: { chart: KundliChart }) {
       role="img"
       aria-label="Janam Kundli — North Indian style birth chart"
     >
-      <rect x="1" y="1" width="398" height="398" fill="#fffdf5" stroke="#b98a1c" strokeWidth="2" />
+      <rect x="1" y="1" width="398" height="398" fill="#FFFFFF" stroke="#08745A" strokeWidth="2" />
       {/* diamond through the side midpoints */}
-      <path d="M200 0 L400 200 L200 400 L0 200 Z" fill="none" stroke="#b98a1c" strokeWidth="1.4" />
+      <path d="M200 0 L400 200 L200 400 L0 200 Z" fill="none" stroke="#08745A" strokeWidth="1.4" />
       {/* corner-to-centre lines */}
-      <path d="M0 0 L200 200 M400 0 L200 200 M400 400 L200 200 M0 400 L200 200" fill="none" stroke="#b98a1c" strokeWidth="1.4" />
+      <path d="M0 0 L200 200 M400 0 L200 200 M400 400 L200 200 M0 400 L200 200" fill="none" stroke="#08745A" strokeWidth="1.4" />
       {HOUSE_CELLS.map((cell, i) => {
         const house = i + 1;
         const signIdx = signOfHouse(house);

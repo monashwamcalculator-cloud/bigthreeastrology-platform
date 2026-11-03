@@ -9,7 +9,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function ContactPage() {
   return (
-    <div className="container-main py-12 max-w-3xl mx-auto space-y-10">
+    <div className="py-12 max-w-3xl mx-auto space-y-10">
       <div className="text-center space-y-4">
         <div className="badge badge-emerald"> Contact & Support</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">We'd Love to Hear From You</h1>

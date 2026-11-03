@@ -182,7 +182,7 @@ export function NumerologyCalculator() {
           onClick={() => setActiveTab("lifepath")}
           className={`px-5 py-2.5 rounded-xl font-medium transition-all text-sm flex items-center gap-2 ${
             activeTab === "lifepath"
-              ? "btn-primary shadow-lg"
+              ? "btn-glow shadow-lg"
               : "btn-secondary hover:border-accent-gold"
           }`}
         >
@@ -192,7 +192,7 @@ export function NumerologyCalculator() {
           onClick={() => setActiveTab("expression")}
           className={`px-5 py-2.5 rounded-xl font-medium transition-all text-sm flex items-center gap-2 ${
             activeTab === "expression"
-              ? "btn-primary shadow-lg"
+              ? "btn-glow shadow-lg"
               : "btn-secondary hover:border-accent-gold"
           }`}
         >

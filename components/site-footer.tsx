@@ -8,7 +8,7 @@ const popularTools = [
   { name: "Choghadia Muhurat Today", href: "/tools/choghadia" },
   { name: "Sade Sati Phase Checker", href: "/tools/sade-sati" },
   { name: "Love Compatibility", href: "/tools/love-compatibility" },
-  { name: "Life Path Numerology", href: "/tools/numerology" },
+  { name: "Life Path Numerology", href: "/tools/life-path-number" },
   { name: "Saturn Return Calculator", href: "/tools/saturn-return" },
 ];
 
@@ -19,7 +19,7 @@ const categories = [
   { name: "Tarot & Soul Guidance", href: "/tools#guidance" },
   { name: "Synastry & Relationships", href: "/tools#synastry" },
   { name: "Career & Wealth Astrology", href: "/tools#career" },
-  { name: "All 100 Free Tools", href: "/tools" },
+  { name: "All 100+ Free Tools", href: "/tools" },
 ];
 
 const moreTools = [
@@ -83,7 +83,7 @@ export function SiteFooter() {
               </span>
             </Link>
             <p className="text-sm text-[#a9c6ad] leading-relaxed max-w-xs">
-              100 free astrology and numerology calculators — Big Three signs, Kundali Milan, Sade Sati, Choghadia,
+              100+ free astrology and numerology calculators — Big Three signs, Kundali Milan, Sade Sati, Choghadia,
               love matching and more. Instant results, no sign-up, and your birth details are never stored.
             </p>
             <div className="flex flex-wrap gap-2 text-[11px] font-semibold">
@@ -100,7 +100,7 @@ export function SiteFooter() {
         </div>
 
         <div className="border-t border-white/15 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#8fb596]">
-          <p>© {new Date().getFullYear()} BIGThreeAstrology. All rights reserved.</p>
+          <p>{`© ${new Date().getFullYear()} BIGThreeAstrology. All rights reserved.`}</p>
           <p className="text-center sm:text-right">
             Astrology content is for guidance and entertainment. Read our{" "}
             <Link href="/disclaimer" className="underline hover:text-white transition-colors">Disclaimer</Link>.

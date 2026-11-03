@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ToolDefinition } from "@/lib/all-tools-registry";
+import { MASTER_TOOLS_LIST, ToolDefinition } from "@/lib/all-tools-registry";
 import { TOOL_GUIDES } from "@/lib/tool-guides";
 import { ToolSchema } from "@/components/tool-schema";
 import { RelatedTools } from "@/components/related-tools";
@@ -109,7 +109,7 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
       </div>
 
       {/* Full-Page Rich Educational Guide & Explanation */}
-      <section className="glass-card p-5 sm:p-8 prose prose-invert max-w-4xl mx-auto rounded-2xl bg-black/70 border-amber-500/30 space-y-4">
+      <section className="glass-card p-5 sm:p-8 prose max-w-4xl mx-auto rounded-2xl bg-black/70 border-amber-500/30 space-y-4">
         {rich ? (
           <>
             <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text-gold">
@@ -194,9 +194,9 @@ export function MasterToolRenderer({ tool }: MasterToolRendererProps) {
 
       {/* CTA Navigation Banner */}
       <div className="text-center pt-2">
-        <Link href="/tools/big-three" className="btn-glow px-6 py-2.5 text-xs sm:text-sm font-bold inline-flex items-center gap-2">
+        <Link href="/tools" className="btn-glow px-6 py-2.5 text-xs sm:text-sm font-bold inline-flex items-center gap-2">
           <CosmicIcon name="zodiac" className="w-4 h-4" />
-          <span>Explore All 100 Calculators & Tools</span>
+          <span>Explore All {MASTER_TOOLS_LIST.length} Calculators & Tools</span>
         </Link>
       </div>
     </div>
