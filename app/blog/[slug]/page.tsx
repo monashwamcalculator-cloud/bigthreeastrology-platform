@@ -8,6 +8,7 @@ import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import Link from "next/link";
 import Image from "next/image";
 import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
+import { BlogCard, toBlogCardPost } from "@/components/blog-card";
 import { AuthorBio } from "@/components/author-bio";
 import { AUTHOR } from "@/lib/author";
 import { extractFaqs } from "@/lib/faq-extract";
@@ -90,6 +91,22 @@ export default async function BlogPostPage({ params }: Props) {
     ]
   };
 
+  // Related posts: same featured tool first, then same category, then latest —
+  // always drawn from the sample catalogue and never including the current post.
+  const currentSamplePost = SAMPLE_BLOG_POSTS.find((p) => p.slug === params.slug);
+  const relatedPool = SAMPLE_BLOG_POSTS.filter((p) => p.slug !== params.slug);
+  const byNewest = (a: (typeof SAMPLE_BLOG_POSTS)[number], b: (typeof SAMPLE_BLOG_POSTS)[number]) =>
+    new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
+  const relatedPosts = currentSamplePost
+    ? [
+        ...relatedPool.filter((p) => p.toolSlug === currentSamplePost.toolSlug).sort(byNewest),
+        ...relatedPool
+          .filter((p) => p.toolSlug !== currentSamplePost.toolSlug && p.category === currentSamplePost.category)
+          .sort(byNewest),
+        ...relatedPool.filter((p) => p.category !== currentSamplePost.category).sort(byNewest),
+      ].slice(0, 3)
+    : [...relatedPool].sort(byNewest).slice(0, 3);
+
   return (
     <div className="py-8 space-y-8 animate-fade-in">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
@@ -108,10 +125,10 @@ export default async function BlogPostPage({ params }: Props) {
       </nav>
 
       {/* Main Blog Post Detail Container */}
-      <article className="glass-card max-w-4xl mx-auto p-6 sm:p-10 border border-amber-500/30 bg-black/80">
+      <article className="glass-card max-w-[720px] mx-auto p-6 sm:p-10 border border-amber-500/30 bg-black/80">
         <header className="mb-10 border-b border-amber-500/20 pb-8 text-center">
           <div className="inline-block px-3.5 py-1 rounded-full bg-amber-950/80 border border-amber-400/40 text-amber-300 text-xs font-bold uppercase tracking-wider mb-4">
-            Astrology &amp; Soul Guidance
+            {post.category ?? "Astrological Guide"}
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold text-white mb-4 leading-tight">
             {post.title}
@@ -121,7 +138,7 @@ export default async function BlogPostPage({ params }: Props) {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-amber-300">
             <Link href={AUTHOR.pageUrl} className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-flex items-center gap-2 hover:border-amber-400/70 transition-colors">
-              <Image src={AUTHOR.image} alt={AUTHOR.name} width={20} height={20} className="rounded-full object-cover w-5 h-5" />
+              <Image src={AUTHOR.image} alt={AUTHOR.name} width={32} height={32} className="rounded-full object-cover w-8 h-8" />
               <span>By <span className="text-white font-semibold">{AUTHOR.name}</span></span>
             </Link>
             <time className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-block">
@@ -140,9 +157,6 @@ export default async function BlogPostPage({ params }: Props) {
                 })}
               </time>
             )}
-            <span className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full">
-               Astrological Guide
-            </span>
           </div>
         </header>
 
@@ -153,7 +167,7 @@ export default async function BlogPostPage({ params }: Props) {
               src={post.image}
               alt={post.title}
               fill
-              sizes="(max-width: 768px) 100vw, 800px"
+              sizes="(max-width: 768px) 100vw, 720px"
               className="object-cover"
               priority
             />
@@ -168,6 +182,18 @@ export default async function BlogPostPage({ params }: Props) {
       </article>
 
       <AuthorBio />
+
+      {/* Related Posts */}
+      {relatedPosts.length > 0 && (
+        <section className="max-w-4xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-display font-bold text-[#042F2A] mb-6">Related Guides</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {relatedPosts.map((related) => (
+              <BlogCard key={related.slug} post={toBlogCardPost(related)} headingLevel={3} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Navigation Footer CTAs */}
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 pt-8 border-t border-amber-500/20">

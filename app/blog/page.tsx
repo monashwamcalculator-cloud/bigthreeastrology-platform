@@ -1,10 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import { AdSlot } from "@/components/ad-slot";
 import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
+import { BlogList } from "@/components/blog-list";
+import { toBlogCardPost } from "@/components/blog-card";
 
 export const metadata: Metadata = buildMetadata({
   title: "Astrology Blog & Cosmic Guides | BIGThreeAstrology",
@@ -22,6 +23,7 @@ export default async function BlogPage() {
   if (!posts || posts.length === 0) {
     posts = [...SAMPLE_BLOG_POSTS].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
   }
+  const postCards = posts.map((post: any) => toBlogCardPost(post));
   const blogSchema = {
     "@context": "https://schema.org",
     "@type": "Blog",
@@ -50,43 +52,7 @@ export default async function BlogPage() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {posts.map((post, i) => (
-          <article 
-            key={post.id} 
-            className="glass-card-hover p-5 flex flex-col justify-between animate-slide-up group border-amber-500/25 bg-black/60"
-            style={{ animationDelay: `${(i % 5) * 100 + 100}ms` }}
-          >
-            <div>
-              {post.image && (
-                <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-4 border border-amber-500/30">
-                  <Image
-                    src={post.image}
-                    alt={post.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-              )}
-
-              <h2 className="text-lg font-display font-bold text-white mb-2 leading-snug group-hover:text-[#075433] transition-colors">
-                <Link href={`/blog/${post.slug}`}>
-                  {post.title}
-                </Link>
-              </h2>
-              
-              <p className="text-xs text-amber-200/80 line-clamp-3 mb-4 leading-relaxed">{post.metaDescription}</p>
-            </div>
-
-            <Link 
-              href={`/blog/${post.slug}`} 
-              className="text-amber-300 hover:text-white transition-colors inline-flex items-center text-xs font-bold mt-auto pt-3 border-t border-amber-500/20"
-            >
-              Read Full Article <span className="ml-1">→</span>
-            </Link>
-          </article>
-        ))}
-      </div>
+      <BlogList posts={postCards} />
 
       <AdSlot label="Blog content ad slot" />
 
