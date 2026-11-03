@@ -44,11 +44,11 @@ export default function ToolsHubPage() {
         <h1 className="text-4xl md:text-5xl font-display font-bold">
           All {MASTER_TOOLS_LIST.length} Free <span className="gradient-text-gold">Astrology Calculators</span>
         </h1>
-        <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">
+        <p className="text-[rgba(61,82,69,0.92)] text-sm md:text-base leading-relaxed">
           Every BIGThreeAstrology tool in one place — Vedic Jyotish, Western birth-chart calculators,
           numerology, tarot and relationship synastry. All tools are 100% free and instant, with no
           sign-up. Pick a category below or start with our most loved calculator, the{" "}
-          <Link href="/tools/big-three" className="text-amber-300 underline hover:text-white">
+          <Link href="/tools/big-three" className="text-[#075433] underline hover:text-[#042F2A]">
             Big Three Calculator
           </Link>
           .
@@ -69,20 +69,20 @@ export default function ToolsHubPage() {
 
       {groups.map((group) => (
         <section key={group.key} id={group.key} className="space-y-4 scroll-mt-24">
-          <h2 className="text-2xl font-display font-bold text-white">
-            {group.name} <span className="text-amber-400 text-base">({group.tools.length} tools)</span>
+          <h2 className="text-2xl font-display font-bold text-[#042F2A]">
+            {group.name} <span className="text-[#08745A] text-base">({group.tools.length} tools)</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {group.tools.map((tool) => (
               <Link
                 key={tool.id}
                 href={`/tools/${tool.slug}`}
-                className="glass-card-hover p-4 rounded-xl border border-amber-500/25 hover:border-amber-400/70 bg-black/60 group transition-all"
+                className="glass-card-hover p-4 rounded-xl border border-[rgba(8,116,90,0.28)] hover:border-[rgba(8,116,90,0.7)] bg-white group transition-all"
               >
-                <h3 className="text-sm font-display font-bold text-white group-hover:text-[#075433] transition-colors leading-snug line-clamp-2 min-h-[2.75em]">
+                <h3 className="text-sm font-display font-bold text-[#042F2A] group-hover:text-[#075433] transition-colors leading-snug line-clamp-2 min-h-[2.75em]">
                   {tool.name}
                 </h3>
-                <p className="text-xs text-amber-200/80 mt-1 leading-relaxed">{tool.shortDesc}</p>
+                <p className="text-xs text-[rgba(61,82,69,0.82)] mt-1 leading-relaxed">{tool.shortDesc}</p>
               </Link>
             ))}
           </div>
@@ -90,18 +90,18 @@ export default function ToolsHubPage() {
       ))}
 
       <section className="max-w-3xl mx-auto space-y-3 text-center">
-        <h2 className="text-2xl font-display font-bold text-white">New to astrology?</h2>
-        <p className="text-amber-200/90 text-sm md:text-base leading-relaxed">
+        <h2 className="text-2xl font-display font-bold text-[#042F2A]">New to astrology?</h2>
+        <p className="text-[rgba(61,82,69,0.92)] text-sm md:text-base leading-relaxed">
           Start with your Sun, Moon and Rising signs in the{" "}
-          <Link href="/tools/big-three" className="text-amber-300 underline hover:text-white">
+          <Link href="/tools/big-three" className="text-[#075433] underline hover:text-[#042F2A]">
             Big Three Calculator
           </Link>
           , check your match with{" "}
-          <Link href="/tools/kundali-milan" className="text-amber-300 underline hover:text-white">
+          <Link href="/tools/kundali-milan" className="text-[#075433] underline hover:text-[#042F2A]">
             Kundali Milan
           </Link>
           , and read our{" "}
-          <Link href="/blog" className="text-amber-300 underline hover:text-white">
+          <Link href="/blog" className="text-[#075433] underline hover:text-[#042F2A]">
             free guides
           </Link>{" "}
           to learn how each calculator works.

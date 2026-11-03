@@ -47,7 +47,7 @@ export default async function BlogPage() {
       <div className="text-center space-y-4 py-8">
         <div className="badge badge-gold mb-2"> Educational Astrology &amp; Timing Guides</div>
         <h1 className="text-4xl md:text-5xl font-display font-bold gradient-text-gold animate-fade-in">Astrology &amp; Cosmic Guides</h1>
-        <p className="text-amber-200 text-base sm:text-lg max-w-2xl mx-auto animate-slide-up">
+        <p className="text-[#43584A] text-base sm:text-lg max-w-2xl mx-auto animate-slide-up">
           In-depth guides to unlock your Big Three signs, predict your future spouse, match Kundalis, and master daily auspicious timing.
         </p>
       </div>
@@ -56,9 +56,9 @@ export default async function BlogPage() {
 
       <AdSlot label="Blog content ad slot" />
 
-      <section className="glass-card p-6 md:p-10 mt-12 prose max-w-none bg-black/70 border-amber-500/30">
+      <section className="glass-card p-6 md:p-10 mt-12 prose max-w-none bg-white border-[rgba(8,116,90,0.35)]">
         <h2 className="text-2xl sm:text-3xl font-display font-bold gradient-text-gold">Astrology Learning Hub &amp; Practical Guides</h2>
-        <p className="text-sm text-amber-100/90 leading-relaxed">
+        <p className="text-sm text-[rgba(46,61,51,0.92)] leading-relaxed">
           The BIGThreeAstrology blog is built to answer real questions with practical clarity. Our articles map directly to our 100+ tools—including our{" "}
           <Link href="/tools/big-three" className="font-bold text-[#075433] underline underline-offset-2 hover:text-[#08745A]">Big Three Calculator</Link>,{" "}
           <Link href="/tools/spouse-predictor" className="font-bold text-[#075433] underline underline-offset-2 hover:text-[#08745A]">Spouse Predictor</Link>,{" "}

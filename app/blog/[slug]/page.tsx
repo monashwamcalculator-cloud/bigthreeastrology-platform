@@ -116,32 +116,32 @@ export default async function BlogPostPage({ params }: Props) {
       )}
       
       {/* Breadcrumb Navigation */}
-      <nav className="text-xs sm:text-sm text-amber-200/80 mb-4 flex items-center space-x-2">
-        <Link href="/" className="hover:text-white transition-colors">Home</Link>
+      <nav className="text-xs sm:text-sm text-[rgba(61,82,69,0.82)] mb-4 flex items-center space-x-2">
+        <Link href="/" className="hover:text-[#042F2A] transition-colors">Home</Link>
         <span>&gt;</span>
-        <Link href="/blog" className="hover:text-white transition-colors">Blog</Link>
+        <Link href="/blog" className="hover:text-[#042F2A] transition-colors">Blog</Link>
         <span>&gt;</span>
-        <span className="text-white font-medium truncate max-w-xs">{post.title}</span>
+        <span className="text-[#042F2A] font-medium truncate max-w-xs">{post.title}</span>
       </nav>
 
       {/* Main Blog Post Detail Container */}
-      <article className="glass-card max-w-[720px] mx-auto p-6 sm:p-10 border border-amber-500/30 bg-black/80">
-        <header className="mb-10 border-b border-amber-500/20 pb-8 text-center">
-          <div className="inline-block px-3.5 py-1 rounded-full bg-amber-950/80 border border-amber-400/40 text-amber-300 text-xs font-bold uppercase tracking-wider mb-4">
+      <article className="glass-card max-w-[720px] mx-auto p-6 sm:p-10 border border-[rgba(8,116,90,0.35)] bg-white">
+        <header className="mb-10 border-b border-[rgba(8,116,90,0.22)] pb-8 text-center">
+          <div className="inline-block px-3.5 py-1 rounded-full bg-[#DFF5EC] border border-[rgba(8,116,90,0.4)] text-[#075433] text-xs font-bold uppercase tracking-wider mb-4">
             {post.category ?? "Astrological Guide"}
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold text-white mb-4 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-extrabold text-[#042F2A] mb-4 leading-tight">
             {post.title}
           </h1>
-          <p className="text-sm sm:text-base text-amber-200/90 max-w-2xl mx-auto mb-6 leading-relaxed">
+          <p className="text-sm sm:text-base text-[rgba(61,82,69,0.92)] max-w-2xl mx-auto mb-6 leading-relaxed">
             {post.metaDescription}
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-amber-300">
-            <Link href={AUTHOR.pageUrl} className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-flex items-center gap-2 hover:border-amber-400/70 transition-colors">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-[#075433]">
+            <Link href={AUTHOR.pageUrl} className="bg-[#DFF5EC] border border-[rgba(8,116,90,0.35)] px-3.5 py-1.5 rounded-full inline-flex items-center gap-2 hover:border-[rgba(8,116,90,0.7)] transition-colors">
               <Image src={AUTHOR.image} alt={AUTHOR.name} width={32} height={32} className="rounded-full object-cover w-8 h-8" />
-              <span>By <span className="text-white font-semibold">{AUTHOR.name}</span></span>
+              <span>By <span className="text-[#042F2A] font-semibold">{AUTHOR.name}</span></span>
             </Link>
-            <time className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-block">
+            <time className="bg-[#DFF5EC] border border-[rgba(8,116,90,0.35)] px-3.5 py-1.5 rounded-full inline-block">
               Published: {new Date(post.createdAt).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'long',
@@ -149,7 +149,7 @@ export default async function BlogPostPage({ params }: Props) {
               })}
             </time>
             {showUpdated && (
-              <time className="bg-amber-950/60 border border-amber-500/30 px-3.5 py-1.5 rounded-full inline-block">
+              <time className="bg-[#DFF5EC] border border-[rgba(8,116,90,0.35)] px-3.5 py-1.5 rounded-full inline-block">
                 Updated: {new Date(post.updatedAt).toLocaleDateString('en-US', {
                   year: 'numeric',
                   month: 'long',
@@ -162,7 +162,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {/* Featured Image */}
         {post.image && (
-          <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden mb-10 border border-amber-500/30 shadow-2xl">
+          <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden mb-10 border border-[rgba(8,116,90,0.35)] shadow-2xl">
             <Image
               src={post.image}
               alt={post.title}
@@ -196,7 +196,7 @@ export default async function BlogPostPage({ params }: Props) {
       )}
 
       {/* Navigation Footer CTAs */}
-      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 pt-8 border-t border-amber-500/20">
+      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 mt-8 pt-8 border-t border-[rgba(8,116,90,0.22)]">
         <Link href="/blog" className="btn-secondary w-full sm:w-auto text-center px-6 py-3">
           ← Back to All Articles
         </Link>
