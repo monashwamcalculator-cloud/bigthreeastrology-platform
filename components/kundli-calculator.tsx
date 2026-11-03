@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { CityAutocomplete, type PlaceInfo } from "@/components/city-autocomplete";
 import { computeKundli, formatDegree, type KundliChart } from "@/lib/kundli";
@@ -8,6 +8,8 @@ import { ZODIAC_SIGNS } from "@/lib/astro-engine";
 
 // All 60 Minutes (00 through 59)
 const ALL_MINUTES = Array.from({ length: 60 }, (_, i) => i.toString().padStart(2, "0"));
+
+const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 /**
  * North Indian (diamond) chart geometry. The 12 houses sit in FIXED
@@ -53,7 +55,7 @@ function KundliDiamondChart({ chart }: { chart: KundliChart }) {
   return (
     <svg
       viewBox="0 0 400 400"
-      className="w-full max-w-[430px] mx-auto block"
+      className="w-full max-w-[520px] mx-auto block"
       role="img"
       aria-label="Janam Kundli — North Indian style birth chart"
     >
@@ -72,8 +74,8 @@ function KundliDiamondChart({ chart }: { chart: KundliChart }) {
               x={cell.num[0]}
               y={cell.num[1]}
               textAnchor="middle"
-              fontSize="11"
-              fill="#b3541e"
+              fontSize="13"
+              fill="#075433"
               fontWeight="600"
             >
               {signIdx + 1}
@@ -131,22 +133,34 @@ export function KundliCalculator() {
     return computeKundli(utcDate, place.lat, place.lon);
   }, [birthDate, birthMinute, timeHour24, place]);
 
+  const resultRef = useRef<HTMLDivElement>(null);
+
+  const friendlyBirthDate = useMemo(() => {
+    const parts = birthDate.split("-");
+    if (parts.length !== 3) return birthDate;
+    const monthName = MONTH_NAMES[parseInt(parts[1], 10) - 1];
+    if (!monthName) return birthDate;
+    return `${parseInt(parts[2], 10)} ${monthName} ${parts[0]}`;
+  }, [birthDate]);
+
+  // The chart above is computed live from the current form inputs, so
+  // "Generate" re-reads exactly what is in the form right now and brings
+  // the fresh result (or the what-is-missing hint) into view.
+  const handleGenerate = () => {
+    requestAnimationFrame(() => {
+      resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
+
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="absolute inset-0 stars-bg opacity-30 pointer-events-none" />
       <div className="relative z-10">
-        <div className="text-center mb-8">
-          <div className="badge badge-gold mb-2">Vedic Birth Chart — Sidereal (Lahiri)</div>
-          <h2 className="font-display text-3xl font-bold gradient-text-gold">
-            Free Janam Kundli by Date of Birth
-          </h2>
-          <p className="mt-2 text-emerald-100 text-sm">
-            Enter your birth date, exact birth time and birth city — your complete Kundli is
-            calculated instantly, with the Lagna, all nine grahas and your Moon nakshatra.
-          </p>
-        </div>
+        <p className="text-center text-[11px] uppercase tracking-[0.2em] font-semibold text-[#256b42] mb-6">
+          Vedic Birth Chart — Sidereal (Lahiri)
+        </p>
 
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 mb-8">
+        <div className="grid gap-4 sm:grid-cols-2 mb-6">
           <div className="flex flex-col gap-2">
             <label className="text-xs font-medium text-emerald-100 pl-1">Your Name (optional)</label>
             <input className="input-cosmic" placeholder="e.g. Rahul / Sarah" value={name} onChange={(e) => setName(e.target.value)} />
@@ -158,7 +172,7 @@ export function KundliCalculator() {
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Time (12-Hr AM/PM)</label>
+            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Time (12-Hr AM/PM) *</label>
             <div className="flex items-center gap-1">
               <select
                 value={birthHour}
@@ -195,14 +209,31 @@ export function KundliCalculator() {
                 {birthPeriod}
               </button>
             </div>
+            <p className="text-[11px] leading-snug text-emerald-200/80 pl-1">
+              12:00 AM is the default — change it if you know the birth time.
+            </p>
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest)</label>
-            <CityAutocomplete value={birthLocation} onChange={setBirthLocation} onPlaceSelect={setPlace} placeholder="Type e.g., Delhi, Mumbai, London" />
+            <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest) *</label>
+            <CityAutocomplete value={birthLocation} onChange={setBirthLocation} onPlaceSelect={setPlace} placeholder="Delhi, Mumbai, London…" />
           </div>
         </div>
 
+        <div className="text-center mb-8">
+          <button
+            type="button"
+            onClick={handleGenerate}
+            className="btn-glow px-8 py-3 text-sm sm:text-base font-bold"
+          >
+            Generate Kundli
+          </button>
+          <p className="text-[11px] text-emerald-200/80 mt-2">
+            Your chart also updates automatically as you change the details above.
+          </p>
+        </div>
+
+        <div ref={resultRef} className="scroll-mt-28">
         {chart ? (
           <div className="mt-10 border-t border-emerald-500/30 pt-8 animate-slide-up">
             <div className="text-center mb-6">
@@ -211,18 +242,21 @@ export function KundliCalculator() {
                 {name || "Your"} Kundli {birthLocation ? `(${birthLocation})` : ""}
               </h3>
               <p className="text-xs text-emerald-300 mt-1">
-                Born {birthDate} at {birthHour}:{birthMinute} {birthPeriod} · Sidereal (Lahiri
-                ayanamsa {chart.ayanamsa.toFixed(2)}°) · Whole-sign houses
+                Born {friendlyBirthDate} · {birthHour}:{birthMinute} {birthPeriod} · Sidereal
+                (Lahiri ayanamsa {chart.ayanamsa.toFixed(2)}°) · Whole-sign houses
               </p>
             </div>
 
             <div className="glass-card p-4 sm:p-6 rounded-2xl max-w-xl mx-auto">
               <KundliDiamondChart chart={chart} />
               <p className="text-[11px] text-[#52796f] text-center mt-3 leading-relaxed">
-                North Indian style: the houses stay fixed and the signs move — the small red
-                numbers are sign numbers (1 = Aries, 2 = Taurus … 12 = Pisces). As = Lagna
+                North Indian style: the houses stay fixed and the signs move. As = Lagna
                 (Ascendant); Su Sun, Mo Moon, Ma Mars, Me Mercury, Ju Jupiter, Ve Venus,
                 Sa Saturn, Ra Rahu, Ke Ketu.
+              </p>
+              <p className="text-[11px] text-[#52796f] text-center mt-1.5 leading-relaxed">
+                Sign numbers: 1 Aries · 2 Taurus · 3 Gemini · 4 Cancer · 5 Leo · 6 Virgo ·
+                7 Libra · 8 Scorpio · 9 Sagittarius · 10 Capricorn · 11 Aquarius · 12 Pisces.
               </p>
             </div>
 
@@ -280,36 +314,25 @@ export function KundliCalculator() {
               <h3 className="text-sm font-display font-bold text-[#16402b] mb-2">
                 Where to Go Next with This Kundli
               </h3>
-              <ul className="text-sm text-[#33463a] leading-relaxed space-y-1.5">
-                <li>
-                  • Getting married?{" "}
-                  <Link href="/tools/kundali-milan" className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]">
-                    Match this Kundli
-                  </Link>{" "}
-                  with your partner's for the 36-guna Ashtakoota score.
-                </li>
-                <li>
-                  • Go deeper on your birth star in the{" "}
-                  <Link href="/tools/nakshatra" className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]">
-                    Nakshatra Finder
-                  </Link>{" "}
-                  — deity, symbol, gana and ruling planet of {chart.moon.nakshatra}.
-                </li>
-                <li>
-                  • See which planetary period is shaping your life now in the{" "}
-                  <Link href="/tools/dasha-calculator" className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]">
-                    Vimshottari Dasha Calculator
-                  </Link>
-                  .
-                </li>
-                <li>
-                  • Prefer the Western view? Your{" "}
-                  <Link href="/tools/big-three" className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]">
-                    Big Three
-                  </Link>{" "}
-                  shows the same birth moment in tropical signs.
-                </li>
-              </ul>
+              <div className="flex flex-wrap gap-2">
+                <Link href="/tools/kundali-milan" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                  Match this Kundli
+                </Link>
+                <Link href="/tools/nakshatra" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                  Nakshatra Finder
+                </Link>
+                <Link href="/tools/dasha-calculator" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                  Vimshottari Dasha Calculator
+                </Link>
+                <Link href="/tools/big-three" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                  Big Three (Western View)
+                </Link>
+              </div>
+              <p className="text-xs text-[#52796f] mt-3 leading-relaxed">
+                Getting married? Match this Kundli with your partner's for the 36-guna
+                Ashtakoota score. Your Moon nakshatra is {chart.moon.nakshatra} — the
+                Nakshatra Finder explains its deity, symbol, gana and ruling planet.
+              </p>
             </div>
 
             <p className="text-[11px] text-emerald-200/80 text-center mt-6 max-w-2xl mx-auto leading-relaxed">
@@ -321,7 +344,7 @@ export function KundliCalculator() {
             </p>
           </div>
         ) : (
-          <div className="glass-card-hover p-6 max-w-xl mx-auto text-center">
+          <div className="mx-auto w-full max-w-[520px] aspect-square rounded-2xl border-2 border-dashed border-[#a9ead1] bg-white/50 flex items-center justify-center p-6 text-center">
             <p className="text-sm text-[#33463a] leading-relaxed">
               {birthDate && !place
                 ? "One more detail: pick your birth city from the suggestions above. Your Lagna — the sign your whole chart is built on — comes from the exact birth moment at that place, so the Kundli appears as soon as the city is selected."
@@ -329,6 +352,7 @@ export function KundliCalculator() {
             </p>
           </div>
         )}
+        </div>
       </div>
     </section>
   );
