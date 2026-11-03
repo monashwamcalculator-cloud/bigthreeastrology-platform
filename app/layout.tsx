@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   description: `Free suite of ${TOOL_COUNT} astrology, Vedic Jyotish, numerology, synastry & tarot calculators: Sun, Moon & Rising signs, Kundali Milan, Choghadia, Sade Sati & horoscopes.`,
   keywords: ["astrology", "big three", "spouse predictor", "kundali milan", "choghadia", "sade sati", "sun sign", "moon sign", "rising sign", "numerology", "tarot", "horoscope", "dasha", "nakshatra"],
   authors: [{ name: "BIGThreeAstrology" }],
+  icons: {
+    apple: "/apple-icon.png"
+  },
   openGraph: {
     siteName: "BIGThreeAstrology",
     locale: "en_US",
