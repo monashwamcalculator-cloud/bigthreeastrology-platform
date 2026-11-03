@@ -11,7 +11,7 @@ export function Cosmic3DBackground() {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
-    let animationFrameId: number;
+    let animationFrameId = 0;
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
 
@@ -28,7 +28,16 @@ export function Cosmic3DBackground() {
       height = canvas.height = window.innerHeight;
     };
 
-    window.addEventListener("mousemove", handleMouseMove, { passive: true });
+    // Performance (design audit P3): never run the animation loop for
+    // reduced-motion users or on small screens — those get a single
+    // static frame (same background, planets and stars, frozen) instead.
+    const staticOnly =
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+      window.matchMedia("(max-width: 767px)").matches;
+
+    if (!staticOnly) {
+      window.addEventListener("mousemove", handleMouseMove, { passive: true });
+    }
     window.addEventListener("resize", handleResize, { passive: true });
 
     // Lightweight 3D Star Particle System (150 Stars for 0 CPU lag)
@@ -162,14 +171,28 @@ export function Cosmic3DBackground() {
       ctx.fill();
 
       ctx.globalAlpha = 1;
-      animationFrameId = requestAnimationFrame(render);
+      if (!staticOnly) {
+        animationFrameId = requestAnimationFrame(render);
+      }
     };
+
+    // Pause the loop while the tab is hidden (animated mode only).
+    const handleVisibilityChange = () => {
+      if (staticOnly) return;
+      if (document.hidden) {
+        cancelAnimationFrame(animationFrameId);
+      } else {
+        render();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
 
     render();
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("resize", handleResize);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
       cancelAnimationFrame(animationFrameId);
     };
   }, []);
