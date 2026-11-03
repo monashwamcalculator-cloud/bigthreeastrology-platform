@@ -87,7 +87,7 @@ export default async function CityAstrologersPage({ params }: Props) {
         <>
           <p>Astrologers currently listed in {city}.</p>
           {listings.map((l) => (
-            <div key={l.id} className="rounded-xl border border-indigo-400/30 bg-black/30 p-4">
+            <div key={l.id} className="rounded-xl border border-indigo-400/30 bg-[#EFF7F2] p-4">
               <h2 className="text-lg font-semibold"><Link href={`/astrologers/${l.id}`}>{l.name}</Link></h2>
               <p>{l.specialization}</p>
             </div>

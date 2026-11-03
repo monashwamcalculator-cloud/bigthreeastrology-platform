@@ -16,33 +16,33 @@ export default function AboutPage() {
       <div className="text-center space-y-4">
         <div className="badge badge-emerald"> About BIGThreeAstrology</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">Empowering Self-Awareness Through Astrology</h1>
-        <p className="text-emerald-200 text-lg max-w-2xl mx-auto">
+        <p className="text-[#3A5747] text-lg max-w-2xl mx-auto">
           Providing 100 free, instant calculators combining Western Tropical and Vedic Sidereal Jyotish systems.
         </p>
       </div>
 
-      <div className="glass-card p-8 md:p-10 space-y-6 bg-black/50 border-emerald-500/30">
-        <h2 className="text-2xl font-display font-bold text-amber-300">Our Mission</h2>
-        <p className="text-emerald-100 text-sm leading-relaxed">
+      <div className="glass-card p-8 md:p-10 space-y-6 bg-white border-emerald-500/30">
+        <h2 className="text-2xl font-display font-bold text-[#075433]">Our Mission</h2>
+        <p className="text-[#2C473F] text-sm leading-relaxed">
           At BIGThreeAstrology, our mission is to make authentic astrological wisdom accessible to everyone worldwide without paywalls, subscriptions, or invasive data collection. Whether you are discovering your Sun, Moon, and Rising signs, exploring spouse and compatibility themes, or selecting an auspicious Choghadia Muhurat, our tools explain the method behind every result — so you always know what a number or sign is based on.
         </p>
 
-        <h2 className="text-2xl font-display font-bold text-emerald-300 pt-4 border-t border-emerald-500/20">How Our Calculators Work</h2>
-        <p className="text-emerald-100 text-sm leading-relaxed">
+        <h2 className="text-2xl font-display font-bold text-[#075433] pt-4 border-t border-emerald-500/20">How Our Calculators Work</h2>
+        <p className="text-[#2C473F] text-sm leading-relaxed">
           Our flagship chart calculators — the Big Three, Nakshatra Finder, Venus and Mercury sign calculators, Kundali Milan, Sade Sati, Moon Phase, Dasha and Chiron tools — compute from real astronomical positions for your birth moment: planetary longitudes from ephemeris-based formulas, the Lahiri ayanamsa for Vedic (sidereal) placements, and full Ashtakoota scoring for Kundali Milan. The wider catalogue applies the classical tables and rules of each tradition — numerology reductions, muhurat cycles, synastry and reflection themes — and every tool page explains its own method in a “How This Result Is Calculated” section. We would rather show our working than promise precision we cannot back up.
         </p>
 
-        <h2 className="text-2xl font-display font-bold text-emerald-300 pt-4 border-t border-emerald-500/20">Why Choose BIGThreeAstrology?</h2>
-        <ul className="list-disc pl-6 space-y-2 text-sm text-emerald-100/90">
+        <h2 className="text-2xl font-display font-bold text-[#075433] pt-4 border-t border-emerald-500/20">Why Choose BIGThreeAstrology?</h2>
+        <ul className="list-disc pl-6 space-y-2 text-sm text-[#2C473F]">
           <li><strong>100 Free Tools:</strong> Comprehensive suite covering planetary placements, Kundali Milan, Numerology, and Tarot.</li>
           <li><strong>Global Timezone Support:</strong> Auto-suggesting location geocoding for cities across India and worldwide.</li>
           <li><strong>100% Privacy Protection:</strong> Your birth details are calculated locally on your browser and never stored on private servers.</li>
-          <li><strong>Official Support:</strong> Reach our editorial team anytime at <a href="mailto:asbusiness276@gmail.com" className="text-amber-300 underline font-bold">asbusiness276@gmail.com</a>.</li>
+          <li><strong>Official Support:</strong> Reach our editorial team anytime at <a href="mailto:asbusiness276@gmail.com" className="text-[#075433] underline font-bold">asbusiness276@gmail.com</a>.</li>
         </ul>
       </div>
 
       {/* Founder block (E-E-A-T, added 2 Nov 2026) */}
-      <section className="glass-card p-8 md:p-10 bg-black/50 border-emerald-500/30">
+      <section className="glass-card p-8 md:p-10 bg-white border-emerald-500/30">
         <div className="flex flex-col sm:flex-row gap-6 items-center sm:items-start">
           <Image
             src={AUTHOR.image}
@@ -53,31 +53,31 @@ export default function AboutPage() {
           />
           <div className="space-y-3 text-center sm:text-left">
             <div>
-              <h2 className="text-2xl font-display font-bold text-white">
+              <h2 className="text-2xl font-display font-bold text-[#042F2A]">
                 Meet {AUTHOR.name}
               </h2>
-              <p className="text-amber-300 text-sm font-semibold">{AUTHOR.role}</p>
+              <p className="text-[#075433] text-sm font-semibold">{AUTHOR.role}</p>
             </div>
-            <p className="text-emerald-100 text-sm leading-relaxed">{AUTHOR.shortBio}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{AUTHOR.shortBio}</p>
             <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
               {AUTHOR.expertise.slice(0, 4).map((item) => (
                 <span
                   key={item}
-                  className="text-[11px] px-2.5 py-1 rounded-full bg-emerald-950/60 border border-emerald-500/30 text-emerald-100"
+                  className="text-[11px] px-2.5 py-1 rounded-full bg-[#DFF5EC] border border-emerald-500/30 text-[#2C473F]"
                 >
                   {item}
                 </span>
               ))}
             </div>
             <p className="text-sm space-x-4">
-              <Link href={AUTHOR.pageUrl} className="text-amber-300 underline font-semibold">
+              <Link href={AUTHOR.pageUrl} className="text-[#075433] underline font-semibold">
                 Read {AUTHOR.name}&rsquo;s full profile &amp; articles
               </Link>
               <a
                 href={AUTHOR.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-amber-300 underline font-semibold"
+                className="text-[#075433] underline font-semibold"
               >
                 Connect on LinkedIn
               </a>
@@ -87,8 +87,8 @@ export default function AboutPage() {
       </section>
 
       {/* About FAQs */}
-      <section className="glass-card p-8 bg-black/50 border-emerald-500/30">
-        <h2 className="text-2xl font-display font-bold text-white mb-6 text-center">Frequently Asked Questions</h2>
+      <section className="glass-card p-8 bg-white border-emerald-500/30">
+        <h2 className="text-2xl font-display font-bold text-[#042F2A] mb-6 text-center">Frequently Asked Questions</h2>
         <div className="grid gap-3">
           <div className="glass-card-hover p-4 rounded-xl">
             <h3 className="text-sm font-semibold text-[#256b42] mb-1">Are all 100 calculators on BIGThreeAstrology really free?</h3>
