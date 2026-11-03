@@ -261,6 +261,47 @@ export function nakshatraOf(siderealMoonLon: number): {
   return { index, name: NAKSHATRAS[index], pada, degreeInNakshatra };
 }
 
+/** Tropical ecliptic longitude of Mars (low precision, sign-level).
+ * Added 3 Nov 2026 for the Kundli generator: same Schlyter element set and
+ * the same geocentric transform as Venus/Mercury/Saturn above — no existing
+ * computation changed. */
+export function marsLongitude(date: Date): number {
+  const d = dayNumber(date);
+  return geocentricLongitude({
+    N: 49.5574 + 2.11081e-5 * d,
+    i: 1.8497,
+    w: 286.5016 + 2.92961e-4 * d,
+    a: 1.523688,
+    e: 0.093405,
+    M: 18.6021 + 0.5240207766 * d,
+  }, d);
+}
+
+/** Tropical ecliptic longitude of Jupiter (low precision, sign-level).
+ * Added 3 Nov 2026 for the Kundli generator, same method as Saturn above. */
+export function jupiterLongitude(date: Date): number {
+  const d = dayNumber(date);
+  return geocentricLongitude({
+    N: 100.4542 + 2.76854e-5 * d,
+    i: 1.3032,
+    w: 273.8777 + 1.64505e-4 * d,
+    a: 5.20256,
+    e: 0.048498,
+    M: 19.895 + 0.0830853001 * d,
+  }, d);
+}
+
+/**
+ * Tropical longitude of the Moon's mean ascending node (Rahu).
+ * Uses the same mean-node element the Moon's own elements carry above
+ * (N = 125.1228 − 0.0529538083·d). Ketu is always exactly opposite.
+ * Added 3 Nov 2026 for the Kundli generator.
+ */
+export function meanNodeLongitude(date: Date): number {
+  const d = dayNumber(date);
+  return rev(125.1228 - 0.0529538083 * d);
+}
+
 /**
  * Ascendant (tropical) for a birth moment and place.
  * lat/lon in degrees (east positive). Uses local sidereal time.

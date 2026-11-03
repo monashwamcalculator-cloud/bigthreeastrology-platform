@@ -113,6 +113,52 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
     ],
   },
 
+  "kundli": {
+    guideTitle: "Free Kundli Online: What a Janam Kundli Shows",
+    guide: [
+      "A Janam Kundli is the Vedic birth chart drawn for the exact moment and place of your birth. It fixes the Lagna — the sign rising on the eastern horizon — and places the nine grahas (Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu and Ketu) through the twelve houses counted from it. Everything else starts here: matching compares two such charts, dasha timelines are read off the Moon's position inside one, and dosha checks look for specific grahas in specific houses.",
+      "You can watch the machinery work in the most famous kundli of all: India's independence chart, cast for midnight in Delhi as 14 August 1947 turned into the 15th. It gives a Taurus Lagna; the Moon in Cancer in Pushya nakshatra, first pada; Sun, Mercury, Venus and Saturn gathered in Cancer; Mars in Gemini; Jupiter in Libra; Rahu in the Lagna itself, Ketu opposite in Scorpio. Every placement comes straight from the planets' sidereal positions at that moment — nothing is assigned by name or date-range table.",
+      "The chart here is sidereal, using the Lahiri ayanamsa that converts telescope positions into the zodiac of tradition. Your Lagna is worked out from local sidereal time at your birthplace, which is why the birth city matters as much as the birth date: the Lagna crosses a full sign in about two hours, so a birth remembered only as 'some time in the morning' can support two different charts. Houses are whole-sign — the entire Lagna sign is the first house, the next sign the second — and the chart is drawn in the North Indian diamond style, where the houses stay fixed and the sign numbers (1 for Aries through 12 for Pisces) move around the Lagna.",
+    ],
+    steps: [
+      "Enter your date of birth exactly as recorded — day, month and year.",
+      "Add your birth time, AM or PM, from a birth certificate or hospital record if you have one. An approximate time still casts a chart, but the Lagna is only as good as the time behind it.",
+      "Type your birth city and pick it from the suggestions, so its coordinates set the horizon and time offset.",
+      "Read the chart from the top-centre house outward: that house is your Lagna, and each planet abbreviation sits in its own house and numbered sign.",
+    ],
+    resultMeaning: [
+      "Start with the Lagna sign and its degree: it frames temperament, body and the direction of the whole chart. Next read the Moon — its sign is your rashi, the sign your horoscopes follow, and its nakshatra and pada form your birth star, the anchor of your Vimshottari dasha sequence. Then walk the grahas house by house; a planet's house shows the area of life it works through, its sign the style it works in.",
+      "Treat the chart as a map of starting positions, not a verdict. This page casts the Rashi (D1) chart, the foundation every astrologer draws first; divisional charts such as the Navamsha (D9) are a second layer read afterwards. If a graha sits within a few degrees of a sign edge, small differences between calculators are normal — the astronomy here is sign-and-nakshatra accurate rather than arc-second work.",
+    ],
+    faqs: [
+      {
+        question: "Is this Janam Kundli really free?",
+        answer:
+          "Yes. The full chart — Lagna, all nine grahas with signs, degrees and houses, and your Moon nakshatra — is generated on the spot, with no sign-up and nothing held back behind a payment step.",
+      },
+      {
+        question: "Why is my Kundli different from my Western birth chart?",
+        answer:
+          "The two systems measure from different zero points. Western charts are tropical, tied to the seasons; a Kundli is sidereal, tied to the fixed stars, and the Lahiri correction shifts every placement back by about 23–24 degrees. A planet near the start of a tropical sign therefore often lands in the previous sign in your Kundli — which is why your Vedic Moon sign may differ from the horoscope sign you grew up reading.",
+      },
+      {
+        question: "What if I do not know my exact birth time?",
+        answer:
+          "Cast the chart with your best estimate and read it at the level the time supports. The Moon's sign and nakshatra usually survive a few hours of uncertainty, while the Lagna can change if your estimate straddles a sign boundary — the Lagna degree shows how close to an edge you are. Birth certificates, hospital records and family-kept kundlis are the usual places an exact time turns up.",
+      },
+      {
+        question: "What is the difference between a Kundli and Kundli matching?",
+        answer:
+          "A Kundli is one person's birth chart — this page. Kundli matching (Kundali Milan) takes two people's charts and scores their Moons across the eight Ashtakoota tests for a total out of 36 gunas. Once you have both partners' dates, times and places, the matching tool does the comparison in one step.",
+      },
+      {
+        question: "Why does this chart look different from a South Indian chart?",
+        answer:
+          "It is the same chart drawn two ways. The North Indian diamond used here keeps the houses fixed — Lagna always at the top centre — and moves the signs, printed as small numbers in each house. The South Indian square keeps the signs fixed in a grid and moves the Lagna marker. The positions underneath are identical either way.",
+      },
+    ],
+  },
+
   "kundali-milan": {
     guideTitle: "Kundali Milan: How the 36 Guna Score Works",
     guide: [

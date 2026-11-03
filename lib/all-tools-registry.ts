@@ -360,6 +360,23 @@ export const MASTER_TOOLS_LIST: ToolDefinition[] = [
 
   //  Group 2: Vedic Jyotish & Timing (21-40)
   {
+    id: "kundli",
+    slug: "kundli",
+    name: "Free Kundli Generator",
+    category: "vedic",
+    categoryName: " Vedic Jyotish & Timing",
+    icon: "vedic",
+    shortDesc: "Your complete Janam Kundli (Vedic birth chart) instantly.",
+    metaTitle: "Free Kundli Online | Janam Kundli by Date of Birth",
+    metaDesc: "Generate your free Janam Kundli online by date of birth — Vedic birth chart with Lagna, all nine grahas, houses and Moon nakshatra, calculated instantly.",
+    badge: " Janam Kundli",
+    educationalTitle: "The Chart Every Vedic Reading Starts From",
+    educationalContent: "A Janam Kundli maps the sidereal sky at your exact birth moment and birthplace: the Lagna (rising sign) anchors the twelve houses, and the nine grahas — Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn, Rahu and Ketu — are placed by sign and house. Kundli matching, dasha timelines and dosha checks all begin from this single chart.",
+    faqs: [
+      { question: "What details do I need to make a Kundli?", answer: "Your birth date, exact birth time and birthplace. The Lagna changes sign roughly every two hours, so the time and place matter as much as the date." }
+    ]
+  },
+  {
     id: "kundali-milan",
     slug: "kundali-milan",
     name: "Kundali Milan 36 Gunas",

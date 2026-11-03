@@ -114,6 +114,8 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "dasha-calculator": "2026-11-02",
   // Road to 100 BUILD #1 — dedicated Life Path Number calculator (3 Nov 2026)
   "life-path-number": "2026-11-03",
+  // Road to 100 BUILD #2 — Kundli (Janam Kundli) generator (3 Nov 2026)
+  kundli: "2026-11-03",
 };
 
 export function toolLastModified(slug: string): Date {
