@@ -34,14 +34,14 @@ export default function ContactPage() {
       {/* Contact FAQs */}
       <section className="glass-card p-8 bg-black/50 border-emerald-500/30">
         <h2 className="text-2xl font-display font-bold text-white mb-6 text-center">Contact Frequently Asked Questions</h2>
-        <div className="space-y-4">
-          <div className="p-4 rounded-xl bg-emerald-950/60 border border-emerald-500/20">
-            <h3 className="text-sm font-semibold text-amber-300 mb-1">How quickly will I receive a response?</h3>
-            <p className="text-xs text-emerald-100">Our support team monitors <a href="mailto:asbusiness276@gmail.com" className="text-amber-300 underline">asbusiness276@gmail.com</a> daily and responds within 24–48 hours.</p>
+        <div className="grid gap-3">
+          <div className="glass-card-hover p-4 rounded-xl">
+            <h3 className="text-sm font-semibold text-[#256b42] mb-1">How quickly will I receive a response?</h3>
+            <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">Our support team monitors <a href="mailto:asbusiness276@gmail.com" className="text-[#256b42] underline">asbusiness276@gmail.com</a> daily and responds within 24–48 hours.</p>
           </div>
-          <div className="p-4 rounded-xl bg-emerald-950/60 border border-emerald-500/20">
-            <h3 className="text-sm font-semibold text-amber-300 mb-1">Can I request new astrology tools or features?</h3>
-            <p className="text-xs text-emerald-100">Absolutely! We welcome feature suggestions. Email us your ideas anytime.</p>
+          <div className="glass-card-hover p-4 rounded-xl">
+            <h3 className="text-sm font-semibold text-[#256b42] mb-1">Can I request new astrology tools or features?</h3>
+            <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">Absolutely! We welcome feature suggestions. Email us your ideas anytime.</p>
           </div>
         </div>
       </section>
