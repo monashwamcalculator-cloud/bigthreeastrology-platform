@@ -5,6 +5,9 @@ type ToolSchemaProps = {
   description: string;
   path: string;
   category?: string;
+  /** Optional category crumb (Programme P1): inserted between "Tools" and the
+   *  tool itself so the JSON-LD matches the visible ToolPageHeader breadcrumb. */
+  categoryCrumb?: { name: string; path: string };
   faqs?: Array<{ question: string; answer: string }>;
   steps?: string[];
 };
@@ -14,6 +17,7 @@ export function ToolSchema({
   description,
   path,
   category = "LifestyleApplication",
+  categoryCrumb,
   faqs = [],
   steps = [
     "Enter your birth date and exact time of birth.",
@@ -44,14 +48,24 @@ export function ToolSchema({
     }
   };
 
+  const crumbItems: Array<{ name: string; item: string }> = [
+    { name: "Home", item: absoluteUrl("/") },
+    { name: "Tools", item: absoluteUrl("/tools") },
+    ...(categoryCrumb
+      ? [{ name: categoryCrumb.name, item: absoluteUrl(categoryCrumb.path) }]
+      : []),
+    { name: name, item: url }
+  ];
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: "Tools", item: absoluteUrl("/tools") },
-      { "@type": "ListItem", position: 3, name: name, item: url }
-    ]
+    itemListElement: crumbItems.map((crumb, idx) => ({
+      "@type": "ListItem",
+      position: idx + 1,
+      name: crumb.name,
+      item: crumb.item
+    }))
   };
 
   const howToSchema = {

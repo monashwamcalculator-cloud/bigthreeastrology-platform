@@ -68,8 +68,8 @@ function guideFor(tool: ToolDefinition): ToolGuide {
 /**
  * ToolSections — schema + full content sections for a tool page:
  * guide (direct answer first), how-to steps, result meaning, FAQs and
- * related calculators. Used by the custom tool pages; the dynamic
- * [slug] renderer produces the same sections itself.
+ * related calculators. The single content shell for every tool page
+ * (custom pages and the dynamic [slug] route alike, since Programme P1).
  */
 export function ToolSections({ slug }: { slug: string }) {
   const tool = getToolBySlug(slug);
@@ -83,6 +83,10 @@ export function ToolSections({ slug }: { slug: string }) {
         name={tool.name}
         description={tool.metaDesc}
         path={`/tools/${tool.slug}`}
+        categoryCrumb={{
+          name: tool.categoryName,
+          path: `/tools#${tool.category}`
+        }}
         faqs={faqs}
         steps={guide.steps}
       />
