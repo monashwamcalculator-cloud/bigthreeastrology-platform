@@ -115,13 +115,23 @@ export default async function BlogPostPage({ params }: Props) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
       
-      {/* Breadcrumb Navigation */}
-      <nav className="text-xs sm:text-sm text-[rgba(61,82,69,0.82)] mb-4 flex items-center space-x-2">
-        <Link href="/" className="hover:text-[#042F2A] transition-colors">Home</Link>
-        <span>&gt;</span>
-        <Link href="/blog" className="hover:text-[#042F2A] transition-colors">Blog</Link>
-        <span>&gt;</span>
-        <span className="text-[#042F2A] font-medium truncate max-w-xs">{post.title}</span>
+      {/* Breadcrumb Navigation — visible trail matching the BreadcrumbList
+          schema above, styled on the P1 tool-header pattern */}
+      <nav
+        aria-label="Breadcrumb"
+        className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs sm:text-sm text-[#2C473F]/60 mb-4"
+      >
+        <Link href="/" className="text-[#08745A] transition-colors hover:text-[#075433]">
+          Home
+        </Link>
+        <span aria-hidden="true">&gt;</span>
+        <Link href="/blog" className="text-[#08745A] transition-colors hover:text-[#075433]">
+          Blog
+        </Link>
+        <span aria-hidden="true">&gt;</span>
+        <span aria-current="page" className="font-medium text-[#042F2A] truncate max-w-xs sm:max-w-md">
+          {post.title}
+        </span>
       </nav>
 
       {/* Main Blog Post Detail Container */}
