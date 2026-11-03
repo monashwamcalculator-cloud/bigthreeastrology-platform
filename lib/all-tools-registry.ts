@@ -719,6 +719,23 @@ export const MASTER_TOOLS_LIST: ToolDefinition[] = [
     ]
   },
   {
+    id: "life-path-number",
+    slug: "life-path-number",
+    name: "Life Path Number Calculator",
+    category: "numerology",
+    categoryName: " Numerology & Name Math",
+    icon: "numerology",
+    shortDesc: "Your core number from your birth date — every step shown.",
+    metaTitle: "Life Path Number Calculator | Step-by-Step Master-Number Math",
+    metaDesc: "Calculate your Life Path number free from your birth date — every reduction step shown, master numbers 11, 22 and 33 preserved, and your result explained.",
+    badge: " Core Number",
+    educationalTitle: "The Number Your Birth Date Adds Up To",
+    educationalContent: "Your Life Path number is worked out from your birth date alone: month, day and year are each reduced to a root number — keeping master numbers 11, 22 and 33 — and the three roots are then added together. It is read as the pattern of strengths and recurring lessons that runs through a whole life.",
+    faqs: [
+      { question: "Do I need my birth time for a Life Path number?", answer: "No. Life Path uses only your calendar birth date — month, day and year — so the result stays the same all day long." }
+    ]
+  },
+  {
     id: "destiny-number",
     slug: "destiny-number",
     name: "Expression Destiny Number",

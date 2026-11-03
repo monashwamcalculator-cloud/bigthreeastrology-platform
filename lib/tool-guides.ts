@@ -465,6 +465,47 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
     ],
   },
 
+"life-path-number": {
+  guideTitle: "Life Path Number Calculator: See Every Step of Your Calculation",
+  guide: [
+    "Your Life Path number is the single-digit or master-number result of reducing your full date of birth, used in numerology to describe themes, strengths and recurring lessons that shape your choices over time. This calculator works it out without hiding the arithmetic. It shows every reduction step in the open — month, day and year reduced separately, then combined — so you can follow along and verify the maths by hand.",
+    "Take 23 October 1995. The month first: October is month 10, and 1 + 0 = 1. Next the day: 23 becomes 2 + 3 = 5. Then the year: 1995 gives 1 + 9 + 9 + 5 = 24, and 24 reduces as 2 + 4 = 6. Only then are the three parts added: 1 + 5 + 6 = 12, and 12 reduces as 1 + 2 = 3. The Life Path for this date is 3, with each digit accounted for.",
+    "Reducing the parts separately is the standard taught method, and master numbers 11, 22 and 33 are preserved when they appear, never reduced further. The components matter because each carries its own meaning: in some traditions the reduced month reflects an inherited, family influence you grow up inside, the reduced day becomes your Birthday number, and the reduced year gives a personal root. This page covers Life Path alone, with the full step display and a number-by-number reading. For the name-based side too, our Numerology Calculator pairs Life Path with your Expression number."
+  ],
+  steps: [
+    "Enter your date of birth exactly as shown on your birth certificate — day, month and full four-digit year.",
+    "Watch the calculator reduce your month, day and year separately, stopping at 11, 22 or 33 if a master number appears.",
+    "Check the final addition of the three reduced parts, and the last reduction if that total is still two digits.",
+    "Read the interpretation for your result, then look at your three component numbers underneath for the fuller picture."
+  ],
+  resultMeaning: [
+    "Read your result as a pattern to test against experience, not a fixed label. It points to lessons that keep returning in new forms, work you tend to learn fastest, and settings where effort feels lighter because it fits how you are wired. It will not fit every week of your life, and the useful test is whether it explains choices you actually repeat. If you landed on 11, 22 or 33, that master number stays unreduced. It is usually read as a more demanding, higher-voltage version of its base number, with the same themes turned up.",
+    "Your three components form a small map around that headline number. Your reduced day is your Birthday number, a clue to an ability you arrived with, while your reduced month and year add context on early influences and background. One detail is worth checking: if your final addition passed through 13, 14, 16 or 19 before reducing, numerology treats that as a karmic debt pattern, and our Karmic Debt Number tool explores each one. To compare two numbers, try Life Path Compatibility next."
+  ],
+  faqs: [
+    {
+      question: "What does it mean if I was born on the 29th?",
+      answer: "The 29th reduces as 2 + 9 = 11, so your Birthday number is the master number 11 before it would reduce to 2. Most readers keep both layers in view: the sensitivity and cooperation of the 2, with the intuition and intensity of 11. Your full Life Path still depends on your month and year too."
+    },
+    {
+      question: "Can my Life Path number change as I get older?",
+      answer: "No. It comes from your birth date, so it stays the same for life. What changes in numerology are the timing cycles built on top of it, especially your Personal Year and Personal Month numbers, which shift yearly and monthly and describe shorter phases rather than your underlying pattern."
+    },
+    {
+      question: "Does my exact time of birth affect this calculation?",
+      answer: "No. Life Path uses only the calendar date — day, month and year — so you need no birth time, and being unsure of the hour makes no difference. That sets it apart from your Rising sign in astrology, which can shift within a couple of hours and does need an accurate time."
+    },
+    {
+      question: "Can I calculate a Life Path number for my baby or child?",
+      answer: "Yes, the method is identical at any age, because it only needs a birth date. With children, read the result as early tendencies and learning styles to watch for, not fixed limits or predictions. Leave room for personality, family and experience to shape how those tendencies show up."
+    },
+    {
+      question: "What if two records show different birth dates for me?",
+      answer: "Use the date on your legal birth certificate, as that is what numerology practice standardly works from and the date tied to your official identity. If a family record differs, you can calculate both out of curiosity, but the system offers no way to prove which is truer, so treat any difference lightly."
+    }
+  ]
+},
+
   "love-compatibility": {
     guideTitle: "Love Compatibility: How Sign Matching Actually Works",
     guide: [

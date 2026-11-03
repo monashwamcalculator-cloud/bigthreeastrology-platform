@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { NumerologyCalculator } from "@/components/numerology-calculator";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { ToolSections } from "@/components/tool-guide";
@@ -50,6 +51,10 @@ export default function NumerologyPage() {
         <h3>What Is Name Expression Numerology?</h3>
         <p>
           While your Life Path Number reveals your innate trajectory, your **Expression Number** (calculated from the letters of your full birth name using the Pythagorean alphabet scale) represents how you communicate your talents and project your energy outward into society.
+        </p>
+        <h3>Just Want the Life Path Number on Its Own?</h3>
+        <p>
+          If you only need the Life Path — with every reduction step displayed and a number-by-number reading — use the dedicated <Link href="/tools/life-path-number">Life Path Number Calculator</Link>. This page remains the place to read your Life Path together with your name-based Expression Number.
         </p>
       </section>
     </div>

@@ -112,6 +112,8 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "navamsha": "2026-11-02",
   "north-node": "2026-11-02",
   "dasha-calculator": "2026-11-02",
+  // Road to 100 BUILD #1 — dedicated Life Path Number calculator (3 Nov 2026)
+  "life-path-number": "2026-11-03",
 };
 
 export function toolLastModified(slug: string): Date {
@@ -120,7 +122,7 @@ export function toolLastModified(slug: string): Date {
 
 export const STATIC_UPDATED_AT: Record<string, string> = {
   "": "2026-10-30",
-  "/tools": "2026-11-02",
+  "/tools": "2026-11-03",
   "/blog": "2026-11-02",
   "/about": "2026-11-02",
   "/author/saahil": "2026-10-29",
