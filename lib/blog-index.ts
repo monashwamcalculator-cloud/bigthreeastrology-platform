@@ -32,4 +32,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "chiron-sign-meaning-wounded-healer-healing-gift", title: "Chiron Sign Meaning: Wound, Healing & Gift" },
   { slug: "north-node-sign-meaning-soul-purpose-karmic-direction", title: "North Node Sign Meaning: Soul Purpose & Karma" },
   { slug: "lilith-sign-meaning-shadow-independence-authenticity", title: "Lilith Sign Meaning: Shadow & Independence" },
+  { slug: "nakshatra-meaning-birth-star-vedic-guide", title: "Nakshatra Meaning: Your Vedic Birth Star Explained" },
+  { slug: "vimshottari-dasha-explained-planetary-periods", title: "Vimshottari Dasha Explained: Your Planetary Periods" },
+  { slug: "manglik-dosha-meaning-checks-cancellations", title: "Manglik Dosha: Meaning, Checks & Cancellations" },
 ];
