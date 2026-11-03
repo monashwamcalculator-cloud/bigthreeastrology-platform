@@ -22,11 +22,10 @@ const config: Config = {
           100: "#dff5ec"
         },
         accent: {
-          gold: "#e8930c",
           coral: "#ff754d",
-          rose: "#f43f5e",
-          cyan: "#06b6d4",
-          emerald: "#10b981"
+          rose: "#ff754d",
+          cyan: "#0f766e",
+          emerald: "#0e8566"
         }
       },
       animation: {
@@ -76,14 +75,11 @@ const config: Config = {
         "glow-sm": "0 0 15px rgba(8, 116, 90, 0.3)",
         "glow-md": "0 0 30px rgba(8, 116, 90, 0.4)",
         "glow-lg": "0 0 60px rgba(8, 116, 90, 0.5)",
-        "glow-gold": "0 0 30px rgba(8, 116, 90, 0.3)",
-        "glow-cyan": "0 0 30px rgba(6, 182, 212, 0.3)"
       },
       backgroundImage: {
         "gradient-cosmic": "linear-gradient(135deg, #042f2a 0%, #075433 50%, #08745a 100%)",
         "gradient-card": "linear-gradient(135deg, rgba(8, 116, 90, 0.08) 0%, rgba(8, 116, 90, 0.03) 100%)",
         "gradient-text": "linear-gradient(135deg, #042f2a, #08745a, #3fa07f)",
-        "gradient-gold": "linear-gradient(135deg, #0e8566, #08745a, #3fa07f)",
         "gradient-border": "linear-gradient(135deg, rgba(8, 116, 90, 0.5), rgba(169, 234, 209, 0.35))"
       }
     }
