@@ -116,18 +116,7 @@ export default function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       
       {/* 1. Sleek Hero Section */}
-      <section className="relative flex flex-col items-center text-center py-8 md:py-12 px-4 min-h-[50vh] justify-center overflow-hidden rounded-2xl border border-amber-500/30 bg-black/60">
-        <div className="absolute inset-0 z-0 opacity-25">
-          <Image
-            src="/home/hero-cosmic-wheel.jpg"
-            alt="Cosmic Zodiac Wheel"
-            fill
-            sizes="(max-width: 1200px) 100vw, 1200px"
-            quality={80}
-            className="object-cover"
-            priority
-          />
-        </div>
+      <section className="relative flex flex-col items-center text-center py-8 md:py-10 px-4 justify-center overflow-hidden rounded-2xl border border-amber-500/30 bg-black/60">
         <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-white/70 to-[#eaf1e6]/90 pointer-events-none" />
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
@@ -183,7 +172,7 @@ export default function HomePage() {
             className="glass-card-hover p-3 flex flex-col items-center text-center group border-amber-500/20 hover:border-amber-400/60 bg-black/40"
           >
             <span className="mb-1 group-hover:scale-110 transition-transform flex justify-center"><CosmicIcon name={tool.icon} className="w-8 h-8" /></span>
-            <h3 className="text-xs font-display font-bold text-white group-hover:text-amber-300 transition-colors">
+            <h3 className="text-xs font-display font-bold text-white group-hover:text-[#075433] transition-colors leading-snug line-clamp-2 min-h-[2.75em]">
               {tool.name}
             </h3>
             <span className="text-[10px] text-amber-200/80 mt-0.5 line-clamp-1">{tool.desc}</span>
@@ -192,7 +181,7 @@ export default function HomePage() {
       </section>
 
       {/* 3. Photorealistic Feature Showcase Banner 1: Spouse Prediction */}
-      <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-black/50 border-amber-500/30 overflow-hidden relative">
+      <section className="glass-card p-4 md:p-6 max-w-6xl mx-auto rounded-2xl bg-black/50 border-amber-500/30 overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="space-y-3 text-left">
             <div className="badge badge-gold"> Viral High-Demand Tool</div>
@@ -209,7 +198,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="relative w-full h-48 sm:h-64 rounded-xl overflow-hidden border border-amber-500/40 shadow-xl">
+          <div className="relative w-full h-44 sm:h-56 rounded-xl overflow-hidden border border-amber-500/40 shadow-xl">
             <Image
               src="/home/spouse-banner.jpg"
               alt="Future Spouse Stargazing Soulmate"
@@ -223,7 +212,7 @@ export default function HomePage() {
       </section>
 
       {/* 4. Main Interactive Tools Suite */}
-      <section className="stars-bg rounded-2xl p-4 sm:p-6 md:p-8 shadow-2xl relative overflow-hidden border border-amber-500/40 bg-black/50">
+      <section className="stars-bg rounded-2xl p-5 md:p-8 shadow-2xl relative overflow-hidden border border-amber-500/40 bg-black/50">
         <div className="relative z-10">
           <div className="text-center mb-6">
             <div className="badge badge-gold mb-2"> {TOOL_COUNT}-in-1 Interactive Suite</div>
@@ -327,7 +316,7 @@ export default function HomePage() {
       </section>
 
       {/* 9. Compact Educational Manual Section */}
-      <section className="glass-card p-5 sm:p-8 prose max-w-5xl mx-auto rounded-2xl shadow-xl bg-black/50 border-amber-500/30 space-y-6">
+      <section className="glass-card p-5 md:p-8 prose max-w-4xl mx-auto rounded-2xl shadow-xl bg-black/50 border-amber-500/30 space-y-6">
         <div>
           <h2 className="text-xl sm:text-3xl font-display font-bold gradient-text-gold mb-3">
             Mastering Your Astrological & Numerological Blueprint
@@ -353,27 +342,6 @@ export default function HomePage() {
       </section>
 
 
-      {/* 9b. Browse Tools by Category (static links for discovery) */}
-      <section className="max-w-6xl mx-auto space-y-4">
-        <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Browse All {TOOL_COUNT} Tools by Category</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-          {[
-            { name: "Birth Chart & Planets", count: 20, link: "/tools#planetary", icon: "zodiac" },
-            { name: "Vedic Jyotish & Timing", count: 20, link: "/tools#vedic", icon: "vedic" },
-            { name: "Numerology & Name Math", count: 20, link: "/tools#numerology", icon: "numerology" },
-            { name: "Tarot & Soul Guidance", count: 15, link: "/tools#guidance", icon: "tarot" },
-            { name: "Synastry & Relationships", count: 15, link: "/tools#synastry", icon: "spouse" },
-            { name: "Career & Wealth Astrology", count: 10, link: "/tools#career", icon: "saturn" }
-          ].map((cat) => (
-            <Link key={cat.link} href={cat.link} className="glass-card-hover p-4 text-center border-amber-500/20 hover:border-amber-400/60 bg-black/40 group">
-              <span className="block mb-1 group-hover:scale-110 transition-transform flex justify-center"><CosmicIcon name={cat.icon} className="w-8 h-8" /></span>
-              <span className="text-sm font-display font-bold text-white group-hover:text-amber-300 block">{cat.name}</span>
-              <span className="text-[11px] text-amber-200/80">{cat.count} free tools</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
       {/* 9c. Latest Guides from the Blog */}
       <section className="max-w-6xl mx-auto space-y-4">
         <h2 className="text-2xl md:text-3xl font-display font-bold text-center text-white">Latest Astrology Guides</h2>
@@ -384,35 +352,39 @@ export default function HomePage() {
                 <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 25vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-4 space-y-2">
-                <h3 className="text-sm font-display font-bold text-white group-hover:text-amber-300 leading-snug">{post.title}</h3>
+                <h3 className="text-sm font-display font-bold text-white group-hover:text-[#075433] leading-snug line-clamp-2 min-h-[2.75em]">{post.title}</h3>
                 <p className="text-[11px] text-amber-200/80 leading-relaxed line-clamp-3">{post.metaDescription}</p>
               </div>
             </Link>
           ))}
         </div>
         <div className="text-center">
-          <Link href="/blog" className="btn-secondary px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">Read All Guides </Link>
+          <Link href="/blog" className="btn-glow px-5 py-2.5 text-xs font-bold inline-flex items-center gap-2">Read All Guides </Link>
         </div>
       </section>
 
-      {/* 10. FAQ Visual Cards */}
-      <section className="max-w-4xl mx-auto py-2">
+      {/* 10. FAQ Accordion — visible Q&A mirrors the FAQPage schema above */}
+      <section className="max-w-4xl mx-auto">
         <h2 className="text-2xl font-display font-bold text-center text-white mb-6">Frequently Asked Questions </h2>
         <div className="grid gap-3">
           {faqSchema.mainEntity.map((faq, idx) => (
-            <div key={idx} className="glass-card-hover p-4 rounded-xl border border-amber-500/20 bg-black/40">
-              <h4 className="text-sm sm:text-base font-semibold text-amber-300 mb-1 flex items-start gap-2">
-                <span className="text-base"></span> {faq.name}
-              </h4>
-              <p className="text-amber-100 text-xs sm:text-sm pl-6 leading-relaxed">{faq.acceptedAnswer.text}</p>
-            </div>
+            <details key={idx} className="glass-card-hover p-4 rounded-xl border border-amber-500/20 bg-black/40 group">
+              <summary className="text-sm sm:text-base font-semibold text-amber-300 flex items-start gap-2 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                <span className="text-base"></span>
+                <span className="flex-1">{faq.name}</span>
+                <svg className="w-4 h-4 mt-1 shrink-0 transition-transform duration-300 group-open:rotate-180" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M5 7.5L10 12.5L15 7.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </summary>
+              <p className="text-amber-100 text-xs sm:text-sm pl-6 leading-relaxed mt-2">{faq.acceptedAnswer.text}</p>
+            </details>
           ))}
         </div>
       </section>
 
 
       {/* 12. Virality & Social Share CTA Banner */}
-      <section className="theme-dark relative overflow-hidden rounded-2xl p-6 sm:p-10 text-center my-4 bg-gradient-to-r from-[#102e20] via-[#16402b] to-[#16402b] border border-[#16402b]">
+      <section className="theme-dark relative overflow-hidden rounded-2xl p-6 md:p-8 text-center bg-gradient-to-r from-[#102e20] via-[#16402b] to-[#16402b] border border-[#16402b]">
         <div className="absolute inset-0 stars-bg opacity-40" />
         <div className="relative z-10 flex flex-col items-center">
           <span className="mb-2 flex justify-center"><CosmicIcon name="sparkle" className="w-9 h-9" /></span>

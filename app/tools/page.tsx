@@ -55,6 +55,18 @@ export default function ToolsHubPage() {
         </p>
       </div>
 
+      <nav aria-label="Jump to a tool category" className="flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">
+        {groups.map((group) => (
+          <a
+            key={group.key}
+            href={`#${group.key}`}
+            className="px-4 py-1.5 rounded-full border border-[#d4e2dd] bg-white text-xs font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors"
+          >
+            {group.name}
+          </a>
+        ))}
+      </nav>
+
       {groups.map((group) => (
         <section key={group.key} id={group.key} className="space-y-4 scroll-mt-24">
           <h2 className="text-2xl font-display font-bold text-white">
@@ -67,7 +79,7 @@ export default function ToolsHubPage() {
                 href={`/tools/${tool.slug}`}
                 className="glass-card-hover p-4 rounded-xl border border-amber-500/25 hover:border-amber-400/70 bg-black/60 group transition-all"
               >
-                <h3 className="text-sm font-display font-bold text-white group-hover:text-amber-300 transition-colors">
+                <h3 className="text-sm font-display font-bold text-white group-hover:text-[#075433] transition-colors leading-snug line-clamp-2 min-h-[2.75em]">
                   {tool.name}
                 </h3>
                 <p className="text-xs text-amber-200/80 mt-1 leading-relaxed">{tool.shortDesc}</p>
