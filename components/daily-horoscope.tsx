@@ -134,7 +134,7 @@ export function DailyHoroscope() {
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
         <h3 className="font-display text-3xl font-bold gradient-text-gold">Daily Cosmic Horoscope</h3>
-        <p className="text-cosmic-200 text-sm mt-1">Select your Zodiac sign for today's daily cosmic guidance, energy meter, and lucky numbers.</p>
+        <p className="text-[#43584A] text-sm mt-1">Select your Zodiac sign for today's daily cosmic guidance, energy meter, and lucky numbers.</p>
       </div>
 
       {/* Sign Selector Pills */}
@@ -145,8 +145,8 @@ export function DailyHoroscope() {
             onClick={() => setSelectedSign(sign)}
             className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
               selectedSign === sign
-                ? "bg-cosmic-500 text-white font-bold shadow-lg border border-cosmic-300/40"
-                : "bg-black/30 text-cosmic-200 border border-white/10 hover:bg-white/10"
+                ? "bg-cosmic-500 text-[#042F2A] font-bold shadow-lg border border-cosmic-300/40"
+                : "bg-[#EFF7F2] text-[#43584A] border border-white/10 hover:bg-white/10"
             }`}
           >
             {sign}
@@ -155,30 +155,30 @@ export function DailyHoroscope() {
       </div>
 
       {/* Horoscope Card */}
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 animate-slide-up">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] animate-slide-up">
         <div className="flex items-center justify-between border-b border-cosmic-700/40 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-accent-gold font-semibold">Today's Vibe for {selectedSign}</span>
-            <h4 className="text-2xl font-display font-bold text-white mt-1">{horoscope.vibe}</h4>
+            <span className="text-xs uppercase tracking-widest text-[#08745A] font-semibold">Today's Vibe for {selectedSign}</span>
+            <h4 className="text-2xl font-display font-bold text-[#042F2A] mt-1">{horoscope.vibe}</h4>
           </div>
           <div className="text-right">
-            <span className="text-xs text-cosmic-300 font-medium">Cosmic Energy</span>
+            <span className="text-xs text-[#3A5747] font-medium">Cosmic Energy</span>
             <div className="text-2xl font-display font-bold text-accent-emerald">{horoscope.energy}%</div>
           </div>
         </div>
 
         {/* Lucky Matrix */}
         <div className="grid grid-cols-3 gap-3 text-center mb-6">
-          <div className="p-3 rounded-xl bg-black/40 border border-white/5">
-            <div className="text-xs text-cosmic-300">Lucky Number</div>
-            <div className="text-xl font-display font-bold text-accent-gold">{horoscope.luckyNumber}</div>
+          <div className="p-3 rounded-xl bg-white border border-white/5">
+            <div className="text-xs text-[#3A5747]">Lucky Number</div>
+            <div className="text-xl font-display font-bold text-[#08745A]">{horoscope.luckyNumber}</div>
           </div>
-          <div className="p-3 rounded-xl bg-black/40 border border-white/5">
-            <div className="text-xs text-cosmic-300">Lucky Color</div>
+          <div className="p-3 rounded-xl bg-white border border-white/5">
+            <div className="text-xs text-[#3A5747]">Lucky Color</div>
             <div className="text-sm font-display font-bold text-accent-cyan mt-1">{horoscope.luckyColor}</div>
           </div>
-          <div className="p-3 rounded-xl bg-black/40 border border-white/5">
-            <div className="text-xs text-cosmic-300">Lucky Time</div>
+          <div className="p-3 rounded-xl bg-white border border-white/5">
+            <div className="text-xs text-[#3A5747]">Lucky Time</div>
             <div className="text-sm font-display font-bold text-accent-rose mt-1">{horoscope.luckyTime}</div>
           </div>
         </div>
@@ -189,14 +189,14 @@ export function DailyHoroscope() {
             <h5 className="text-sm font-semibold text-accent-rose flex items-center gap-2 mb-1">
               <span></span> Love & Relationships
             </h5>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{horoscope.loveAdvice}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{horoscope.loveAdvice}</p>
           </div>
 
           <div>
             <h5 className="text-sm font-semibold text-accent-cyan flex items-center gap-2 mb-1">
               <span></span> Career & Life Direction
             </h5>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{horoscope.careerAdvice}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{horoscope.careerAdvice}</p>
           </div>
         </div>
       </div>

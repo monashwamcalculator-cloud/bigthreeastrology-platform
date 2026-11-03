@@ -70,10 +70,10 @@ export function LifePathCompatibilityCalculator() {
           <select
             value={lifePath1}
             onChange={(e) => setLifePath1(parseInt(e.target.value, 10))}
-            className="input-cosmic w-full text-sm font-bold text-amber-300"
+            className="input-cosmic w-full text-sm font-bold text-[#075433]"
           >
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33].map((num) => (
-              <option key={num} value={num} className="bg-sky-950 text-white">
+              <option key={num} value={num} className="bg-sky-950 text-[#042F2A]">
                 Life Path {num}
               </option>
             ))}
@@ -85,10 +85,10 @@ export function LifePathCompatibilityCalculator() {
           <select
             value={lifePath2}
             onChange={(e) => setLifePath2(parseInt(e.target.value, 10))}
-            className="input-cosmic w-full text-sm font-bold text-amber-300"
+            className="input-cosmic w-full text-sm font-bold text-[#075433]"
           >
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33].map((num) => (
-              <option key={num} value={num} className="bg-sky-950 text-white">
+              <option key={num} value={num} className="bg-sky-950 text-[#042F2A]">
                 Life Path {num}
               </option>
             ))}
@@ -96,14 +96,14 @@ export function LifePathCompatibilityCalculator() {
         </div>
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50 text-center">
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-white text-center">
         <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold block mb-1">
           Life Path {lifePath1} + Life Path {lifePath2}
         </span>
         <div className="text-4xl font-display font-extrabold gradient-text-gold mb-2">
           {result.score}% Compatibility
         </div>
-        <p className="text-sm font-bold text-white mb-4">{result.verdict}</p>
+        <p className="text-sm font-bold text-[#042F2A] mb-4">{result.verdict}</p>
 
         <div className="space-y-3 text-left border-t border-sky-500/20 pt-4">
           <div>
@@ -111,7 +111,7 @@ export function LifePathCompatibilityCalculator() {
             <p className="text-xs text-sky-100 leading-relaxed mt-0.5">{result.dynamics}</p>
           </div>
           <div>
-            <span className="text-xs font-semibold text-amber-300">Growth Recommendation:</span>
+            <span className="text-xs font-semibold text-[#075433]">Growth Recommendation:</span>
             <p className="text-xs text-sky-100 leading-relaxed mt-0.5">{result.growthAdvice}</p>
           </div>
         </div>

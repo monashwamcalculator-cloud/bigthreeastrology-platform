@@ -174,7 +174,7 @@ export function SadeSatiChecker() {
       <div className="text-center mb-6">
         <div className="badge badge-emerald mb-3"> Saturn Transit & Shani Remedy</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Sade Sati & Saturn Phase Checker</h2>
-        <p className="text-emerald-200 text-sm mt-1">
+        <p className="text-[#3A5747] text-sm mt-1">
           Check if your Moon Sign is undergoing Shani Sade Sati (7.5-year cycle) and unlock authentic Vedic remedies.
         </p>
       </div>
@@ -187,7 +187,7 @@ export function SadeSatiChecker() {
             className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
               selectedSign === sign
                 ? "bg-emerald-400 text-emerald-950 font-bold shadow-lg border border-emerald-300"
-                : "bg-black/40 text-emerald-200 border border-emerald-500/20 hover:bg-emerald-500/20"
+                : "bg-white text-[#3A5747] border border-emerald-500/20 hover:bg-emerald-500/20"
             }`}
           >
             {sign}
@@ -195,38 +195,38 @@ export function SadeSatiChecker() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-black/50">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-white">
         <div className="flex items-center justify-between border-b border-emerald-500/30 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-emerald-300 font-semibold">{result.moonSign}</span>
-            <h3 className="text-2xl md:text-3xl font-display font-bold text-white mt-1">{result.status}</h3>
+            <span className="text-xs uppercase tracking-widest text-[#075433] font-semibold">{result.moonSign}</span>
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1">{result.status}</h3>
           </div>
           <div className="text-right">
-            <span className="text-xs text-emerald-300">Phase Impact</span>
-            <div className="text-sm font-display font-bold text-amber-300">{result.intensity}</div>
+            <span className="text-xs text-[#075433]">Phase Impact</span>
+            <div className="text-sm font-display font-bold text-[#075433]">{result.intensity}</div>
           </div>
         </div>
 
         <div className="space-y-4 text-left">
           <div>
-            <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#075433] flex items-center gap-2 mb-1">
               <span></span> Key Focus & Life Lessons
             </h4>
-            <p className="text-emerald-100 text-sm leading-relaxed">{result.focusArea}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{result.focusArea}</p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-amber-400 flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#08745A] flex items-center gap-2 mb-1">
               <span></span> Recommended Vedic Remedy (Shani Daan)
             </h4>
-            <p className="text-emerald-100 text-sm leading-relaxed">{result.remedy}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{result.remedy}</p>
           </div>
 
-          <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-emerald-300 mb-1">
+          <div className="p-4 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#075433] mb-1">
                Sacred Chanting Mantra (Saturday Evenings)
             </h4>
-            <p className="text-sm font-mono font-bold text-white italic">"{result.mantra}"</p>
+            <p className="text-sm font-mono font-bold text-[#042F2A] italic">"{result.mantra}"</p>
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ export function Testimonials() {
         </h2>
         
         <div className="glass-card p-8 md:p-12 relative min-h-[300px] flex flex-col justify-center overflow-hidden">
-          <div className="absolute top-8 left-8 text-8xl text-accent-gold/10 font-serif leading-none">
+          <div className="absolute top-8 left-8 text-8xl text-[rgba(8,116,90,0.1)] font-serif leading-none">
             "
           </div>
           
@@ -65,17 +65,17 @@ export function Testimonials() {
               ))}
             </div>
             
-            <p className="text-lg md:text-xl text-cosmic-100 mb-8 italic">
+            <p className="text-lg md:text-xl text-[#2C473F] mb-8 italic">
               "{currentTestimonial.text}"
             </p>
             
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-accent-gold to-accent-rose flex items-center justify-center text-xl font-bold text-cosmic-950">
+              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#08745A] to-[#FF754D] flex items-center justify-center text-xl font-bold text-cosmic-950">
                 {currentTestimonial.initial}
               </div>
               <div className="text-left">
-                <p className="font-bold text-cosmic-100">{currentTestimonial.name}</p>
-                <p className="text-sm text-cosmic-300">Verified User</p>
+                <p className="font-bold text-[#2C473F]">{currentTestimonial.name}</p>
+                <p className="text-sm text-[#3A5747]">Verified User</p>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ export function Testimonials() {
               onClick={() => handleDotClick(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
                 index === currentIndex 
-                  ? "bg-accent-gold w-8" 
+                  ? "bg-[#08745A] w-8" 
                   : "bg-cosmic-700 hover:bg-cosmic-500"
               }`}
               aria-label={`Go to testimonial ${index + 1}`}

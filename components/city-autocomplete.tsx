@@ -288,7 +288,7 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
         <input
           id={id}
           type="text"
-          className="input-cosmic w-full text-white placeholder-amber-200/50 pr-8"
+          className="input-cosmic w-full text-[#042F2A] placeholder-[rgba(46,61,51,0.45)] pr-8"
           value={value}
           onChange={(e) => { onChange(e.target.value); onPlaceSelect?.(null); }}
           onFocus={() => {
@@ -300,7 +300,7 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
           autoComplete="off"
         />
         {isLoading && (
-          <span className="absolute right-3 text-xs text-amber-300 animate-spin">
+          <span className="absolute right-3 text-xs text-[#075433] animate-spin">
             
           </span>
         )}

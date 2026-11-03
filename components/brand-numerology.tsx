@@ -59,13 +59,13 @@ export function BrandNumerologyCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-gold mb-3"> Chaldean Name & Brand Numerology</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Brand & Name Numerology Analyzer</h2>
-        <p className="text-emerald-200 text-sm mt-1">
+        <p className="text-[#3A5747] text-sm mt-1">
           Calculate the Chaldean numerology vibration of your personal name, company title, or brand name.
         </p>
       </div>
 
       <div className="max-w-md mx-auto mb-8">
-        <label className="text-xs font-medium text-emerald-100 pl-1 mb-1 block">Enter Name / Brand Title</label>
+        <label className="text-xs font-medium text-[#2C473F] pl-1 mb-1 block">Enter Name / Brand Title</label>
         <input
           type="text"
           className="input-cosmic text-lg font-bold text-center"
@@ -76,34 +76,34 @@ export function BrandNumerologyCalculator() {
       </div>
 
       {result && (
-        <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-black/50 animate-slide-up">
+        <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-white animate-slide-up">
           <div className="flex items-center justify-between border-b border-emerald-500/30 pb-4 mb-6">
             <div>
-              <span className="text-xs uppercase tracking-widest text-emerald-300 font-semibold">Chaldean Name Number</span>
-              <h3 className="text-3xl font-display font-bold text-white mt-1">
-                Number {result.single} <span className="text-sm text-emerald-300 font-normal">(Compound Total: {result.total})</span>
+              <span className="text-xs uppercase tracking-widest text-[#075433] font-semibold">Chaldean Name Number</span>
+              <h3 className="text-3xl font-display font-bold text-[#042F2A] mt-1">
+                Number {result.single} <span className="text-sm text-[#075433] font-normal">(Compound Total: {result.total})</span>
               </h3>
             </div>
             <div className="text-right">
-              <span className="text-xs text-emerald-300 font-medium">Ruling Element</span>
-              <div className="text-sm font-display font-bold text-amber-300">{result.detail.element}</div>
+              <span className="text-xs text-[#075433] font-medium">Ruling Element</span>
+              <div className="text-sm font-display font-bold text-[#075433]">{result.detail.element}</div>
             </div>
           </div>
 
           <div className="space-y-4 text-left">
             <div>
-              <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
+              <h4 className="text-sm font-semibold text-[#075433] flex items-center gap-2 mb-1">
                 <span></span> Brand Identity & Archetype
               </h4>
-              <p className="text-lg font-display font-bold text-white mb-1">{result.detail.title}</p>
-              <p className="text-emerald-100 text-sm leading-relaxed">{result.detail.vibration}</p>
+              <p className="text-lg font-display font-bold text-[#042F2A] mb-1">{result.detail.title}</p>
+              <p className="text-[#2C473F] text-sm leading-relaxed">{result.detail.vibration}</p>
             </div>
 
-            <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-300 mb-1">
+            <div className="p-4 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-[#075433] mb-1">
                  Ideal Business & Industry Fit
               </h4>
-              <p className="text-sm font-semibold text-white">{result.detail.idealFor}</p>
+              <p className="text-sm font-semibold text-[#042F2A]">{result.detail.idealFor}</p>
             </div>
           </div>
         </div>

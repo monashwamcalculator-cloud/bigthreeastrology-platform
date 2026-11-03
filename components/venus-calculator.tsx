@@ -132,13 +132,13 @@ export function VenusCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-gold mb-3">♀ Venus Sign (Shukra) Calculator</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Love Language & Romance Sign</h2>
-        <p className="text-cosmic-200 text-sm mt-1">
+        <p className="text-[#43584A] text-sm mt-1">
           Venus governs your attraction style, romantic desires, aesthetic tastes, and how you show affection.
         </p>
       </div>
 
       <div className="max-w-md mx-auto mb-8">
-        <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Select Your Birth Date</label>
+        <label className="text-xs font-medium text-[#2C473F] pl-1 mb-1 block">Select Your Birth Date</label>
         <input
           type="date"
           className="input-cosmic"
@@ -147,16 +147,16 @@ export function VenusCalculator() {
         />
       </div>
 
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 animate-slide-up bg-black/40">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] animate-slide-up bg-white">
         <div className="flex items-center justify-between border-b border-cosmic-700/40 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-accent-gold font-semibold">Your Romantic Blueprint</span>
-            <h3 className="text-2xl md:text-3xl font-display font-bold text-white mt-1 flex items-center gap-2">
+            <span className="text-xs uppercase tracking-widest text-[#08745A] font-semibold">Your Romantic Blueprint</span>
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1 flex items-center gap-2">
               <span>{venusInfo.emoji}</span> {venusInfo.sign}
             </h3>
           </div>
           <div className="text-right">
-            <span className="text-xs text-cosmic-300 font-medium">Element</span>
+            <span className="text-xs text-[#3A5747] font-medium">Element</span>
             <div className="text-sm font-display font-bold text-accent-cyan">{venusInfo.element}</div>
           </div>
         </div>
@@ -166,18 +166,18 @@ export function VenusCalculator() {
             <h4 className="text-sm font-semibold text-accent-rose flex items-center gap-2 mb-1">
               <span></span> Romantic Love Style
             </h4>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{venusInfo.loveStyle}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{venusInfo.loveStyle}</p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-accent-gold flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#08745A] flex items-center gap-2 mb-1">
               <span></span> Attraction Trigger
             </h4>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{venusInfo.attractionSecret}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{venusInfo.attractionSecret}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-emerald mb-1">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#7ED492] mb-1">
                Best Compatible Venus Signs
             </h4>
             <p className="text-sm font-bold text-white">{venusInfo.idealMatch}</p>

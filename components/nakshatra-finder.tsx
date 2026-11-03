@@ -83,14 +83,14 @@ export function NakshatraFinder() {
       <div className="text-center mb-8">
         <div className="badge badge-gold mb-3"> 27 Vedic Nakshatras</div>
         <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Birth Star (Nakshatra) Calculator</h2>
-        <p className="mt-2 text-cosmic-100 text-sm max-w-xl mx-auto">
+        <p className="mt-2 text-[#2C473F] text-sm max-w-xl mx-auto">
           Enter your exact birth date and time to discover your Janma Nakshatra, Pada (Quarter), Ruling Deity, and Dasha Planet.
         </p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 max-w-xl mx-auto mb-8">
         <div>
-          <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Date *</label>
+          <label className="text-xs font-medium text-[#2C473F] pl-1 mb-1 block">Birth Date *</label>
           <input
             type="date"
             className="input-cosmic"
@@ -100,7 +100,7 @@ export function NakshatraFinder() {
         </div>
 
         <div>
-          <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
+          <label className="text-xs font-medium text-[#2C473F] pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
           <div className="flex items-center gap-1">
             <select
               value={hour}
@@ -108,13 +108,13 @@ export function NakshatraFinder() {
               className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
             >
               {Array.from({ length: 12 }, (_, i) => (i + 1).toString().padStart(2, "0")).map((h) => (
-                <option key={h} value={h} className="bg-cosmic-900 text-white">
+                <option key={h} value={h} className="bg-cosmic-900 text-[#042F2A]">
                   {h}
                 </option>
               ))}
             </select>
 
-            <span className="text-cosmic-200 font-bold">:</span>
+            <span className="text-[#43584A] font-bold">:</span>
 
             <select
               value={minute}
@@ -122,7 +122,7 @@ export function NakshatraFinder() {
               className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
             >
               {["00", "05", "10", "15", "20", "25", "30", "35", "40", "45", "50", "55"].map((m) => (
-                <option key={m} value={m} className="bg-cosmic-900 text-white">
+                <option key={m} value={m} className="bg-cosmic-900 text-[#042F2A]">
                   {m}
                 </option>
               ))}
@@ -150,34 +150,34 @@ export function NakshatraFinder() {
       )}
       {nakshatraResult && (
         <div className="mt-8 border-t border-cosmic-700/50 pt-8 animate-slide-up">
-          <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 text-center bg-black/40">
-            <span className="text-xs uppercase tracking-widest text-accent-gold font-semibold">Your Birth Star (Janma Nakshatra)</span>
-            <h3 className="text-3xl font-display font-bold text-white mt-1 mb-2">
-              {nakshatraResult.nakshatra.name} <span className="text-lg text-cosmic-200 font-normal">(Pada {nakshatraResult.pada})</span>
+          <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] text-center bg-white">
+            <span className="text-xs uppercase tracking-widest text-[#08745A] font-semibold">Your Birth Star (Janma Nakshatra)</span>
+            <h3 className="text-3xl font-display font-bold text-[#042F2A] mt-1 mb-2">
+              {nakshatraResult.nakshatra.name} <span className="text-lg text-[#43584A] font-normal">(Pada {nakshatraResult.pada})</span>
             </h3>
-            <div className="text-sm text-cosmic-300 mb-6">{nakshatraResult.nakshatra.rashi}</div>
+            <div className="text-sm text-[#3A5747] mb-6">{nakshatraResult.nakshatra.rashi}</div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center mb-6">
-              <div className="p-3 rounded-xl bg-black/50 border border-white/10">
-                <div className="text-xs text-cosmic-300">Ruling Deity</div>
-                <div className="text-xs font-display font-bold text-accent-gold mt-1">{nakshatraResult.nakshatra.deity}</div>
+              <div className="p-3 rounded-xl bg-white border border-white/10">
+                <div className="text-xs text-[#3A5747]">Ruling Deity</div>
+                <div className="text-xs font-display font-bold text-[#08745A] mt-1">{nakshatraResult.nakshatra.deity}</div>
               </div>
-              <div className="p-3 rounded-xl bg-black/50 border border-white/10">
-                <div className="text-xs text-cosmic-300">Dasha Ruler</div>
+              <div className="p-3 rounded-xl bg-white border border-white/10">
+                <div className="text-xs text-[#3A5747]">Dasha Ruler</div>
                 <div className="text-sm font-display font-bold text-accent-cyan mt-1">{nakshatraResult.nakshatra.ruler}</div>
               </div>
-              <div className="p-3 rounded-xl bg-black/50 border border-white/10">
-                <div className="text-xs text-cosmic-300">Symbol</div>
+              <div className="p-3 rounded-xl bg-white border border-white/10">
+                <div className="text-xs text-[#3A5747]">Symbol</div>
                 <div className="text-xs font-display font-bold text-accent-rose mt-1">{nakshatraResult.nakshatra.symbol}</div>
               </div>
-              <div className="p-3 rounded-xl bg-black/50 border border-white/10">
-                <div className="text-xs text-cosmic-300">Tattva Element</div>
+              <div className="p-3 rounded-xl bg-white border border-white/10">
+                <div className="text-xs text-[#3A5747]">Tattva Element</div>
                 <div className="text-sm font-display font-bold text-accent-emerald mt-1">{nakshatraResult.nakshatra.element}</div>
               </div>
             </div>
 
             <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10 text-left">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-[#7ED492] mb-1">
                  Core Nakshatra Personality & Cosmic Gift
               </h4>
               <p className="text-sm text-cosmic-100 leading-relaxed italic">"{nakshatraResult.nakshatra.trait}"</p>

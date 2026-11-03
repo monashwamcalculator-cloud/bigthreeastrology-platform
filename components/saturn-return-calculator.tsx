@@ -54,8 +54,8 @@ export function SaturnReturnCalculator() {
             onClick={() => setSelectedCycle(cycle)}
             className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all ${
               selectedCycle === cycle
-                ? "bg-amber-400 text-black font-bold shadow-lg border border-amber-300"
-                : "bg-black/40 text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
+                ? "bg-[#08745A] text-[#042F2A] font-bold shadow-lg border border-[#08745A]"
+                : "bg-white text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
             }`}
           >
             {cycle}
@@ -63,13 +63,13 @@ export function SaturnReturnCalculator() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50">
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-white">
         <div className="border-b border-sky-500/20 pb-3 mb-4 flex items-center justify-between">
           <div>
             <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold">Active Transition</span>
-            <h3 className="text-xl font-display font-bold text-white mt-0.5">{selectedCycle.split(" (")[0]}</h3>
+            <h3 className="text-xl font-display font-bold text-[#042F2A] mt-0.5">{selectedCycle.split(" (")[0]}</h3>
           </div>
-          <span className="text-xs font-bold text-amber-300 bg-amber-950/80 px-3 py-1 rounded-full border border-amber-500/30">
+          <span className="text-xs font-bold text-[#075433] bg-[#DFF5EC] px-3 py-1 rounded-full border border-[rgba(8,116,90,0.35)]">
             {result.ageRange}
           </span>
         </div>
@@ -81,13 +81,13 @@ export function SaturnReturnCalculator() {
           </div>
 
           <div>
-            <h4 className="text-xs font-semibold text-amber-300 uppercase tracking-wider mb-1"> Career & Legacy Shift</h4>
+            <h4 className="text-xs font-semibold text-[#075433] uppercase tracking-wider mb-1"> Career & Legacy Shift</h4>
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed">{result.careerFocus}</p>
           </div>
 
           <div className="p-3.5 rounded-xl bg-sky-950/80 border border-sky-500/30 mt-2">
             <h4 className="text-xs font-semibold text-sky-300 uppercase tracking-wider mb-1"> Saturn Survival Advice</h4>
-            <p className="text-xs text-white font-medium">{result.survivalRemedy}</p>
+            <p className="text-xs text-[#042F2A] font-medium">{result.survivalRemedy}</p>
           </div>
         </div>
       </div>

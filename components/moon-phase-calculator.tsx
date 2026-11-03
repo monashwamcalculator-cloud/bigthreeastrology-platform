@@ -117,7 +117,7 @@ export function MoonPhaseCalculator() {
             onClick={() => setSelectedPhase(phaseKey)}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               selectedPhase === phaseKey
-                ? "bg-[#08745a] text-white font-bold shadow-md border border-[#08745a]"
+                ? "bg-[#08745a] text-[#042F2A] font-bold shadow-md border border-[#08745a]"
                 : "bg-white text-[#2c473f] border border-[#d4e2dd] hover:bg-[#dff5ec]"
             }`}
           >

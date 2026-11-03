@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { CosmicIcon } from "@/components/cosmic-icons";
 
 const stats = [
-  { label: "Free Calculators", endValue: 100, suffix: "+", icon: "numerology", delay: "animate-delay-100" },
-  { label: "Guna Milan Points", endValue: 36, suffix: "", icon: "vedic", delay: "animate-delay-200" },
-  { label: "Vedic Nakshatras", endValue: 27, suffix: "", icon: "zodiac", delay: "animate-delay-300" }
+  { label: "Free Calculators", endValue: 100, suffix: "+", icon: "numerology", delay: "" },
+  { label: "Guna Milan Points", endValue: 36, suffix: "", icon: "vedic", delay: "" },
+  { label: "Vedic Nakshatras", endValue: 27, suffix: "", icon: "zodiac", delay: "" }
 ];
 
 const easeOutQuad = (t: number) => t * (2 - t);
@@ -48,7 +48,7 @@ export function StatsCounter() {
           <h3 className="text-4xl md:text-5xl font-display font-bold gradient-text-gold mb-2">
             <Counter endValue={stat.endValue} suffix={stat.suffix} />
           </h3>
-          <p className="text-cosmic-200 font-medium">{stat.label}</p>
+          <p className="text-[#43584A] font-medium">{stat.label}</p>
         </div>
       ))}
     </div>

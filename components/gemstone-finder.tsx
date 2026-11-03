@@ -161,7 +161,7 @@ export function GemstoneFinder() {
       <div className="text-center mb-6">
         <div className="badge badge-gold mb-3"> Vedic Planetary Remedies (Ratna Vigyan)</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Lucky Gemstone & Mantra Finder</h2>
-        <p className="text-cosmic-200 text-sm mt-1">
+        <p className="text-[#43584A] text-sm mt-1">
           Discover your authentic planetary gemstone (Ratna), recommended wearing finger, metal, and sacred Vedic mantra.
         </p>
       </div>
@@ -174,8 +174,8 @@ export function GemstoneFinder() {
             onClick={() => setSelectedSign(sign)}
             className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
               selectedSign === sign
-                ? "bg-accent-gold text-black font-bold shadow-lg border border-yellow-300"
-                : "bg-black/30 text-cosmic-200 border border-white/10 hover:bg-white/10"
+                ? "bg-[#08745A] text-[#042F2A] font-bold shadow-lg border border-[#075433]"
+                : "bg-[#EFF7F2] text-[#43584A] border border-white/10 hover:bg-white/10"
             }`}
           >
             {sign}
@@ -184,29 +184,29 @@ export function GemstoneFinder() {
       </div>
 
       {/* Gemstone Details Card */}
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 animate-slide-up bg-black/40">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] animate-slide-up bg-white">
         <div className="flex items-center justify-between border-b border-cosmic-700/40 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-cosmic-300 font-semibold">{gemstoneInfo.rashi}</span>
-            <h3 className="text-2xl md:text-3xl font-display font-bold text-white mt-1 flex items-center gap-2">
+            <span className="text-xs uppercase tracking-widest text-[#3A5747] font-semibold">{gemstoneInfo.rashi}</span>
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1 flex items-center gap-2">
               <span>{gemstoneInfo.emoji}</span> {gemstoneInfo.gemstone}
             </h3>
-            <span className="text-sm text-accent-gold font-medium">{gemstoneInfo.hindiName}</span>
+            <span className="text-sm text-[#08745A] font-medium">{gemstoneInfo.hindiName}</span>
           </div>
           <div className="text-right">
-            <span className="text-xs text-cosmic-300 font-medium">Ruling Planet</span>
+            <span className="text-xs text-[#3A5747] font-medium">Ruling Planet</span>
             <div className="text-lg font-display font-bold text-accent-cyan">{gemstoneInfo.planet}</div>
           </div>
         </div>
 
         {/* Wearing Rules */}
         <div className="grid grid-cols-2 gap-4 text-center mb-6">
-          <div className="p-4 rounded-xl bg-black/50 border border-white/10">
-            <div className="text-xs text-cosmic-300 mb-1">Recommended Metal</div>
-            <div className="text-sm font-display font-bold text-accent-gold">{gemstoneInfo.metal}</div>
+          <div className="p-4 rounded-xl bg-white border border-white/10">
+            <div className="text-xs text-[#3A5747] mb-1">Recommended Metal</div>
+            <div className="text-sm font-display font-bold text-[#08745A]">{gemstoneInfo.metal}</div>
           </div>
-          <div className="p-4 rounded-xl bg-black/50 border border-white/10">
-            <div className="text-xs text-cosmic-300 mb-1">Wearing Finger</div>
+          <div className="p-4 rounded-xl bg-white border border-white/10">
+            <div className="text-xs text-[#3A5747] mb-1">Wearing Finger</div>
             <div className="text-sm font-display font-bold text-accent-cyan">{gemstoneInfo.finger}</div>
           </div>
         </div>
@@ -217,11 +217,11 @@ export function GemstoneFinder() {
             <h4 className="text-sm font-semibold text-accent-emerald flex items-center gap-2 mb-1">
               <span></span> Astrological Benefits & Energy
             </h4>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{gemstoneInfo.benefits}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{gemstoneInfo.benefits}</p>
           </div>
 
-          <div className="p-4 rounded-xl bg-cosmic-900/80 border border-accent-gold/30">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
+          <div className="p-4 rounded-xl bg-cosmic-900/80 border border-[rgba(8,116,90,0.3)]">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#7ED492] mb-1">
                Sacred Chanting Mantra (108 Times)
             </h4>
             <p className="text-sm font-mono font-bold text-white italic">"{gemstoneInfo.mantra}"</p>

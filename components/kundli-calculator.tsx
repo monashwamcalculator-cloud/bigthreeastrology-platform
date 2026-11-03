@@ -162,17 +162,17 @@ export function KundliCalculator() {
 
         <div className="grid gap-4 sm:grid-cols-2 mb-6">
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Your Name (optional)</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Your Name (optional)</label>
             <input className="input-cosmic" placeholder="e.g. Rahul / Sarah" value={name} onChange={(e) => setName(e.target.value)} />
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Date *</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Birth Date *</label>
             <input className="input-cosmic" type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} />
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Time (12-Hr AM/PM) *</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Birth Time (12-Hr AM/PM) *</label>
             <div className="flex items-center gap-1">
               <select
                 value={birthHour}
@@ -180,19 +180,19 @@ export function KundliCalculator() {
                 className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
               >
                 {Array.from({ length: 12 }, (_, i) => (i + 1).toString().padStart(2, "0")).map((h) => (
-                  <option key={h} value={h} className="bg-emerald-950 text-white">
+                  <option key={h} value={h} className="bg-emerald-950 text-[#042F2A]">
                     {h}
                   </option>
                 ))}
               </select>
-              <span className="text-emerald-200 font-bold">:</span>
+              <span className="text-[#3A5747] font-bold">:</span>
               <select
                 value={birthMinute}
                 onChange={(e) => setBirthMinute(e.target.value)}
                 className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
               >
                 {ALL_MINUTES.map((m) => (
-                  <option key={m} value={m} className="bg-emerald-950 text-white">
+                  <option key={m} value={m} className="bg-emerald-950 text-[#042F2A]">
                     {m}
                   </option>
                 ))}
@@ -202,20 +202,20 @@ export function KundliCalculator() {
                 onClick={() => setBirthPeriod((prev) => (prev === "AM" ? "PM" : "AM"))}
                 className={`px-2.5 py-2 rounded-xl text-xs font-bold transition-all border w-1/3 ${
                   birthPeriod === "AM"
-                    ? "bg-teal-500/30 text-teal-200 border-teal-400/40"
-                    : "bg-rose-500/30 text-rose-200 border-rose-400/40"
+                    ? "bg-teal-500/30 text-[#0F766E] border-teal-400/40"
+                    : "bg-rose-500/30 text-[#B3373F] border-rose-400/40"
                 }`}
               >
                 {birthPeriod}
               </button>
             </div>
-            <p className="text-[11px] leading-snug text-emerald-200/80 pl-1">
+            <p className="text-[11px] leading-snug text-[#3D5C46] pl-1">
               12:00 AM is the default — change it if you know the birth time.
             </p>
           </div>
 
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest) *</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Birth City (Auto-Suggest) *</label>
             <CityAutocomplete value={birthLocation} onChange={setBirthLocation} onPlaceSelect={setPlace} placeholder="Delhi, Mumbai, London…" />
           </div>
         </div>
@@ -228,7 +228,7 @@ export function KundliCalculator() {
           >
             Generate Kundli
           </button>
-          <p className="text-[11px] text-emerald-200/80 mt-2">
+          <p className="text-[11px] text-[#3D5C46] mt-2">
             Your chart also updates automatically as you change the details above.
           </p>
         </div>
@@ -241,7 +241,7 @@ export function KundliCalculator() {
               <h3 className="text-xl font-semibold gradient-text">
                 {name || "Your"} Kundli {birthLocation ? `(${birthLocation})` : ""}
               </h3>
-              <p className="text-xs text-emerald-300 mt-1">
+              <p className="text-xs text-[#075433] mt-1">
                 Born {friendlyBirthDate} · {birthHour}:{birthMinute} {birthPeriod} · Sidereal
                 (Lahiri ayanamsa {chart.ayanamsa.toFixed(2)}°) · Whole-sign houses
               </p>
@@ -335,7 +335,7 @@ export function KundliCalculator() {
               </p>
             </div>
 
-            <p className="text-[11px] text-emerald-200/80 text-center mt-6 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-[11px] text-[#3D5C46] text-center mt-6 max-w-2xl mx-auto leading-relaxed">
               Positions are sidereal (Lahiri ayanamsa, as shown above) and computed from real
               astronomical formulas at sign/nakshatra accuracy — the slower planets can sit a
               few degrees from a Swiss-Ephemeris printout, and a placement within a few degrees

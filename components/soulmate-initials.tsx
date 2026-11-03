@@ -48,8 +48,8 @@ export function SoulmateInitialsCalculator() {
             onClick={() => setUserSign(sign)}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               userSign === sign
-                ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
-                : "bg-black/40 text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
+                ? "bg-[#08745A] text-[#042F2A] font-bold shadow-md border border-[#08745A]"
+                : "bg-white text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
             }`}
           >
             {sign}
@@ -57,15 +57,15 @@ export function SoulmateInitialsCalculator() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50 text-center">
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-white text-center">
         <div className="text-xs uppercase tracking-widest text-sky-300 font-semibold mb-1">Soulmate Signature for {userSign}</div>
-        <h3 className="text-xl font-display font-bold text-white mb-3">Probable Soulmate First Initials</h3>
+        <h3 className="text-xl font-display font-bold text-[#042F2A] mb-3">Probable Soulmate First Initials</h3>
 
         <div className="flex justify-center gap-3 my-4">
           {result.initials.map((letter, idx) => (
             <div
               key={idx}
-              className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 text-black font-display font-extrabold text-2xl flex items-center justify-center shadow-lg border border-amber-300 animate-bounce"
+              className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#08745A] to-[#075433] text-[#042F2A] font-display font-extrabold text-2xl flex items-center justify-center shadow-lg border border-[#08745A] animate-bounce"
               style={{ animationDelay: `${idx * 150}ms` }}
             >
               {letter}
@@ -75,8 +75,8 @@ export function SoulmateInitialsCalculator() {
 
         <div className="space-y-3 text-left border-t border-sky-500/20 pt-4 mt-4">
           <div>
-            <span className="text-xs font-semibold text-amber-300">Connection Synergy:</span>
-            <p className="text-sm font-semibold text-white mt-0.5">{result.connectionType} ({result.zodiacElement})</p>
+            <span className="text-xs font-semibold text-[#075433]">Connection Synergy:</span>
+            <p className="text-sm font-semibold text-[#042F2A] mt-0.5">{result.connectionType} ({result.zodiacElement})</p>
           </div>
           <div>
             <span className="text-xs font-semibold text-sky-300">Cosmic Advice:</span>

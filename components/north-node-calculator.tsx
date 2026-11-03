@@ -67,7 +67,7 @@ export function NorthNodeCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-emerald mb-3"> Soul Destiny & Karmic Nodes</div>
         <h2 className="font-display text-3xl font-bold gradient-text">North Node & Soul Purpose Finder</h2>
-        <p className="text-emerald-200 text-sm mt-1">
+        <p className="text-[#3A5747] text-sm mt-1">
           Discover your North Node (Rahu - Future Life Destiny) and South Node (Ketu - Past Life Comfort Zone).
         </p>
       </div>
@@ -80,7 +80,7 @@ export function NorthNodeCalculator() {
             className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
               selectedAxis === axis
                 ? "bg-emerald-400 text-emerald-950 font-bold shadow-lg border border-emerald-300"
-                : "bg-black/40 text-emerald-200 border border-emerald-500/20 hover:bg-emerald-500/20"
+                : "bg-white text-[#3A5747] border border-emerald-500/20 hover:bg-emerald-500/20"
             }`}
           >
             {axis}
@@ -88,33 +88,33 @@ export function NorthNodeCalculator() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-black/50">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-white">
         <div className="border-b border-emerald-500/30 pb-4 mb-6">
-          <span className="text-xs uppercase tracking-widest text-emerald-300 font-semibold">Karmic Nodal Axis</span>
-          <h3 className="text-2xl font-display font-bold text-white mt-1">{result.sign}</h3>
+          <span className="text-xs uppercase tracking-widest text-[#075433] font-semibold">Karmic Nodal Axis</span>
+          <h3 className="text-2xl font-display font-bold text-[#042F2A] mt-1">{result.sign}</h3>
         </div>
 
         <div className="space-y-4 text-left">
           <div>
-            <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#075433] flex items-center gap-2 mb-1">
               <span></span> North Node (Future Soul Mastery)
             </h4>
-            <p className="text-emerald-100 text-sm leading-relaxed">{result.northNodeFocus}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{result.northNodeFocus}</p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-amber-400 flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#08745A] flex items-center gap-2 mb-1">
               <span></span> South Node (Past Life Comfort Zone)
             </h4>
-            <p className="text-emerald-100 text-sm leading-relaxed">{result.southNodePastLife}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{result.southNodePastLife}</p>
           </div>
 
-          <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-emerald-300 mb-1">
+          <div className="p-4 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#075433] mb-1">
                Core Karmic Lesson & Ideal Career Path
             </h4>
-            <p className="text-sm text-white font-medium mb-1">"{result.karmicLesson}"</p>
-            <p className="text-xs text-amber-300">Target Vocation: {result.idealCareer}</p>
+            <p className="text-sm text-[#042F2A] font-medium mb-1">"{result.karmicLesson}"</p>
+            <p className="text-xs text-[#075433]">Target Vocation: {result.idealCareer}</p>
           </div>
         </div>
       </div>

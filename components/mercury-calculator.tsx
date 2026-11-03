@@ -132,13 +132,13 @@ export function MercuryCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-gold mb-3">☿ Mercury Sign (Budh) Calculator</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Mind & Communication Style</h2>
-        <p className="text-cosmic-200 text-sm mt-1">
+        <p className="text-[#43584A] text-sm mt-1">
           Mercury governs how you think, process information, speak, negotiate, and solve problems.
         </p>
       </div>
 
       <div className="max-w-md mx-auto mb-8">
-        <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Select Your Birth Date</label>
+        <label className="text-xs font-medium text-[#2C473F] pl-1 mb-1 block">Select Your Birth Date</label>
         <input
           type="date"
           className="input-cosmic"
@@ -147,16 +147,16 @@ export function MercuryCalculator() {
         />
       </div>
 
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 animate-slide-up bg-black/40">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] animate-slide-up bg-white">
         <div className="flex items-center justify-between border-b border-cosmic-700/40 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-accent-gold font-semibold">Your Intellectual Mindset</span>
-            <h3 className="text-2xl md:text-3xl font-display font-bold text-white mt-1 flex items-center gap-2">
+            <span className="text-xs uppercase tracking-widest text-[#08745A] font-semibold">Your Intellectual Mindset</span>
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1 flex items-center gap-2">
               <span>{mercuryInfo.emoji}</span> {mercuryInfo.sign}
             </h3>
           </div>
           <div className="text-right">
-            <span className="text-xs text-cosmic-300 font-medium">Element</span>
+            <span className="text-xs text-[#3A5747] font-medium">Element</span>
             <div className="text-sm font-display font-bold text-accent-cyan">{mercuryInfo.element}</div>
           </div>
         </div>
@@ -166,18 +166,18 @@ export function MercuryCalculator() {
             <h4 className="text-sm font-semibold text-accent-cyan flex items-center gap-2 mb-1">
               <span></span> Thinking & Mental Style
             </h4>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{mercuryInfo.mindStyle}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{mercuryInfo.mindStyle}</p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-accent-gold flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#08745A] flex items-center gap-2 mb-1">
               <span></span> Speech & Communication
             </h4>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{mercuryInfo.speechStyle}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{mercuryInfo.speechStyle}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-emerald mb-1">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#7ED492] mb-1">
                Core Intellectual Superpower
             </h4>
             <p className="text-sm text-white font-medium">{mercuryInfo.learningGift}</p>

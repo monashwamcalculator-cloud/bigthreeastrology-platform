@@ -37,7 +37,7 @@ export function KundaliHouseCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-emerald mb-3"> 12 Bhavas (Kundali Houses) Explorer</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Vedic Kundali House & Bhava Explorer</h2>
-        <p className="text-emerald-200 text-sm mt-1">
+        <p className="text-[#3A5747] text-sm mt-1">
           Explore the 12 sacred houses (Bhavas) of your birth chart to understand wealth, career, health, and destiny.
         </p>
       </div>
@@ -51,7 +51,7 @@ export function KundaliHouseCalculator() {
             className={`p-2 rounded-xl text-xs font-bold transition-all text-center border ${
               selectedHouse === h.houseNumber
                 ? "bg-emerald-400 text-emerald-950 border-emerald-300 shadow-md scale-105"
-                : "bg-black/40 text-emerald-200 border-emerald-500/20 hover:bg-emerald-500/20"
+                : "bg-white text-[#3A5747] border-emerald-500/20 hover:bg-emerald-500/20"
             }`}
           >
             H{h.houseNumber}
@@ -60,31 +60,31 @@ export function KundaliHouseCalculator() {
       </div>
 
       {/* House Details Card */}
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-black/50 animate-slide-up">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-white animate-slide-up">
         <div className="flex items-center justify-between border-b border-emerald-500/30 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-emerald-300 font-semibold">House {activeHouse.houseNumber} of 12</span>
-            <h3 className="text-2xl font-display font-bold text-white mt-1">{activeHouse.sanskritName}</h3>
+            <span className="text-xs uppercase tracking-widest text-[#075433] font-semibold">House {activeHouse.houseNumber} of 12</span>
+            <h3 className="text-2xl font-display font-bold text-[#042F2A] mt-1">{activeHouse.sanskritName}</h3>
           </div>
           <div className="text-right">
-            <span className="text-xs text-emerald-300">Karaka (Significator)</span>
-            <div className="text-sm font-display font-bold text-amber-300">{activeHouse.significator}</div>
+            <span className="text-xs text-[#075433]">Karaka (Significator)</span>
+            <div className="text-sm font-display font-bold text-[#075433]">{activeHouse.significator}</div>
           </div>
         </div>
 
         <div className="space-y-4 text-left">
           <div>
-            <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#075433] flex items-center gap-2 mb-1">
               <span></span> Life Domain & Significance
             </h4>
-            <p className="text-emerald-100 text-sm leading-relaxed">{activeHouse.domain}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{activeHouse.domain}</p>
           </div>
 
-          <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-emerald-300 mb-1">
+          <div className="p-4 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#075433] mb-1">
                Vedic Astrological Insight
             </h4>
-            <p className="text-sm text-white leading-relaxed">{activeHouse.keyInsights}</p>
+            <p className="text-sm text-[#042F2A] leading-relaxed">{activeHouse.keyInsights}</p>
           </div>
         </div>
       </div>

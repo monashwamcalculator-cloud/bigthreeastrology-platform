@@ -18,7 +18,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     ruler: "Moon",
     meaning: "Nectar of immortality. Best for all auspicious tasks, travel, weddings, and investments.",
     colorClass: "border-[#a9cba4] bg-[#eaf1e6] text-[#1e2b22]",
-    badgeClass: "bg-emerald-500/20 text-emerald-300 border-emerald-400/40"
+    badgeClass: "bg-emerald-500/20 text-[#075433] border-emerald-400/40"
   },
   Shubh: {
     name: "Shubh (शुभ)",
@@ -26,7 +26,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     ruler: "Jupiter",
     meaning: "Auspicious & Holy. Ideal for ceremonies, religious events, starting education, and buying assets.",
     colorClass: "border-[#e3d193] bg-[#fbf3e2] text-[#4a3a14]",
-    badgeClass: "bg-amber-500/20 text-amber-300 border-amber-400/40"
+    badgeClass: "bg-[rgba(8,116,90,0.14)] text-[#075433] border-[rgba(8,116,90,0.4)]"
   },
   Labh: {
     name: "Labh (लाभ)",
@@ -42,7 +42,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     ruler: "Venus",
     meaning: "Movement & Dynamics. Excellent for travel, driving, machinery, and moving houses.",
     colorClass: "border-[#a9cba4] bg-[#e6f2f0] text-[#173f3a]",
-    badgeClass: "bg-teal-500/20 text-teal-300 border-teal-400/40"
+    badgeClass: "bg-teal-500/20 text-[#0F766E] border-teal-400/40"
   },
   Roga: {
     name: "Roga (रोग)",
@@ -50,7 +50,7 @@ const CHOGHADIA_TYPES: Record<string, ChoghadiaTiming> = {
     ruler: "Mars",
     meaning: "Disease & Conflict. Avoid starting new ventures; suitable only for medical treatment.",
     colorClass: "border-[#e5b8b8] bg-[#fbeaea] text-[#5b2326]",
-    badgeClass: "bg-rose-500/20 text-rose-300 border-rose-400/40"
+    badgeClass: "bg-rose-500/20 text-[#B3373F] border-rose-400/40"
   },
   Udveg: {
     name: "Udveg (उद्वेग)",
@@ -100,14 +100,14 @@ export function ChoghadiaCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-emerald mb-3"> Daily Vedic Choghadia Muhurat</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Auspicious Choghadia Timings</h2>
-        <p className="text-emerald-200 text-sm mt-1">
+        <p className="text-[#3A5747] text-sm mt-1">
           Check auspicious windows (Shubh, Labh, Amrit) for buying gold, starting business, traveling, and signing deals.
         </p>
       </div>
 
       {/* Selectors */}
       <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-        <div className="flex rounded-xl bg-black/40 p-1 border border-emerald-500/30">
+        <div className="flex rounded-xl bg-white p-1 border border-emerald-500/30">
           {DAYS.map((day) => (
             <button
               key={day}
@@ -115,7 +115,7 @@ export function ChoghadiaCalculator() {
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
                 selectedDay === day
                   ? "bg-emerald-500 text-emerald-950 font-bold shadow-md"
-                  : "text-emerald-200 hover:text-white"
+                  : "text-[#3A5747] hover:text-[#042F2A]"
               }`}
             >
               {day.slice(0, 3)}
@@ -123,11 +123,11 @@ export function ChoghadiaCalculator() {
           ))}
         </div>
 
-        <div className="flex rounded-xl bg-black/40 p-1 border border-emerald-500/30">
+        <div className="flex rounded-xl bg-white p-1 border border-emerald-500/30">
           <button
             onClick={() => setTimeMode("Day")}
             className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              timeMode === "Day" ? "bg-[#2e7d4f] text-white shadow-md" : "text-[#43584a]"
+              timeMode === "Day" ? "bg-[#2e7d4f] text-[#042F2A] shadow-md" : "text-[#43584a]"
             }`}
           >
             ☀ Day Choghadia
@@ -135,7 +135,7 @@ export function ChoghadiaCalculator() {
           <button
             onClick={() => setTimeMode("Night")}
             className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              timeMode === "Night" ? "bg-[#2e7d4f] text-white shadow-md" : "text-[#43584a]"
+              timeMode === "Night" ? "bg-[#2e7d4f] text-[#042F2A] shadow-md" : "text-[#43584a]"
             }`}
           >
              Night Choghadia
@@ -155,15 +155,15 @@ export function ChoghadiaCalculator() {
             <div key={idx} className={`p-4 rounded-xl border ${detail.colorClass} flex flex-col justify-between`}>
               <div>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] uppercase font-bold text-emerald-300 tracking-wider">{timeSlotLabel}</span>
+                  <span className="text-[10px] uppercase font-bold text-[#075433] tracking-wider">{timeSlotLabel}</span>
                   <span className={`text-[10px] px-2 py-0.5 rounded-full font-bold border ${detail.badgeClass}`}>
                     {detail.type}
                   </span>
                 </div>
-                <h4 className="text-lg font-display font-bold text-white mb-1">{detail.name}</h4>
-                <p className="text-xs text-emerald-100/90 leading-relaxed mb-3">{detail.meaning}</p>
+                <h4 className="text-lg font-display font-bold text-[#042F2A] mb-1">{detail.name}</h4>
+                <p className="text-xs text-[#2C473F] leading-relaxed mb-3">{detail.meaning}</p>
               </div>
-              <div className="text-[10px] font-mono text-amber-300 border-t border-emerald-500/20 pt-2">
+              <div className="text-[10px] font-mono text-[#075433] border-t border-emerald-500/20 pt-2">
                 Ruler: {detail.ruler}
               </div>
             </div>

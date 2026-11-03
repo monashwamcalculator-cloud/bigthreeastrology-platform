@@ -106,7 +106,7 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("western")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "western"
-                ? "bg-[#2e7d4f] text-white font-bold shadow-lg border border-[#2e7d4f]"
+                ? "bg-[#2e7d4f] text-[#042F2A] font-bold shadow-lg border border-[#2e7d4f]"
                 : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
             }`}
           >
@@ -116,7 +116,7 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("vedic")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "vedic"
-                ? "bg-[#2e7d4f] text-white font-bold shadow-lg border border-[#2e7d4f]"
+                ? "bg-[#2e7d4f] text-[#042F2A] font-bold shadow-lg border border-[#2e7d4f]"
                 : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
             }`}
           >
@@ -126,7 +126,7 @@ export function BigThreeCalculator() {
 
         <div className="text-center mb-8">
           <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Global Cosmic Blueprint</h2>
-          <p className="mt-2 text-emerald-100 text-sm">
+          <p className="mt-2 text-[#2C473F] text-sm">
             Enter your birth date, time (with AM/PM), and location worldwide.
           </p>
         </div>
@@ -134,19 +134,19 @@ export function BigThreeCalculator() {
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 mb-8">
           {/* Name */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Your Name</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Your Name</label>
             <input className="input-cosmic" placeholder="e.g. Rahul / Sarah" value={name} onChange={(e) => setName(e.target.value)} />
           </div>
 
           {/* Birth Date */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Date *</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Birth Date *</label>
             <input className="input-cosmic" type="date" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} />
           </div>
 
           {/* Birth Time with Explicit AM / PM Picker */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth Time (12-Hr AM/PM)</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Birth Time (12-Hr AM/PM)</label>
             <div className="flex items-center gap-1">
               {/* Hour Dropdown */}
               <select
@@ -155,13 +155,13 @@ export function BigThreeCalculator() {
                 className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
               >
                 {Array.from({ length: 12 }, (_, i) => (i + 1).toString().padStart(2, "0")).map((h) => (
-                  <option key={h} value={h} className="bg-emerald-950 text-white">
+                  <option key={h} value={h} className="bg-emerald-950 text-[#042F2A]">
                     {h}
                   </option>
                 ))}
               </select>
 
-              <span className="text-emerald-200 font-bold">:</span>
+              <span className="text-[#3A5747] font-bold">:</span>
 
               {/* Minute Dropdown (All 60 Minutes 00-59) */}
               <select
@@ -170,7 +170,7 @@ export function BigThreeCalculator() {
                 className="input-cosmic px-2 text-center text-sm font-semibold cursor-pointer w-1/3"
               >
                 {ALL_MINUTES.map((m) => (
-                  <option key={m} value={m} className="bg-emerald-950 text-white">
+                  <option key={m} value={m} className="bg-emerald-950 text-[#042F2A]">
                     {m}
                   </option>
                 ))}
@@ -182,8 +182,8 @@ export function BigThreeCalculator() {
                 onClick={() => setBirthPeriod((prev) => (prev === "AM" ? "PM" : "AM"))}
                 className={`px-2.5 py-2 rounded-xl text-xs font-bold transition-all border w-1/3 ${
                   birthPeriod === "AM"
-                    ? "bg-teal-500/30 text-teal-200 border-teal-400/40"
-                    : "bg-rose-500/30 text-rose-200 border-rose-400/40"
+                    ? "bg-teal-500/30 text-[#0F766E] border-teal-400/40"
+                    : "bg-rose-500/30 text-[#B3373F] border-rose-400/40"
                 }`}
               >
                 {birthPeriod}
@@ -193,7 +193,7 @@ export function BigThreeCalculator() {
 
           {/* Location with Auto Dropdown */}
           <div className="flex flex-col gap-2">
-            <label className="text-xs font-medium text-emerald-100 pl-1">Birth City (Auto-Suggest )</label>
+            <label className="text-xs font-medium text-[#2C473F] pl-1">Birth City (Auto-Suggest )</label>
             <CityAutocomplete value={birthLocation} onChange={setBirthLocation} onPlaceSelect={setPlace} placeholder="Type e.g., Mumbai, NY, London" />
           </div>
         </div>
@@ -207,58 +207,58 @@ export function BigThreeCalculator() {
               <h3 className="text-xl font-semibold gradient-text">
                 {name || "Your"} Cosmic Signature {birthLocation ? `(${birthLocation})` : ""}
               </h3>
-              <p className="text-xs text-emerald-300 mt-1">
+              <p className="text-xs text-[#075433] mt-1">
                 Calculated for {birthHour}:{birthMinute} {birthPeriod}
               </p>
             </div>
 
             <div className="grid gap-4 md:grid-cols-3">
               {[
-                { label: "Sun Sign", sign: result.sun, delay: "animate-delay-100", title: "Core Purpose & Ego" },
-                { label: "Moon Sign", sign: result.moon, delay: "animate-delay-200", title: "Emotions & Mind (Manas)" },
-                { label: "Rising Sign", sign: result.rising, delay: "animate-delay-300", title: "Ascendant (Lagna)" }
+                { label: "Sun Sign", sign: result.sun, delay: "", title: "Core Purpose & Ego" },
+                { label: "Moon Sign", sign: result.moon, delay: "", title: "Emotions & Mind (Manas)" },
+                { label: "Rising Sign", sign: result.rising, delay: "", title: "Ascendant (Lagna)" }
               ].map((placement, idx) => {
                 if (!placement.sign) {
                   return (
                     <div key={idx} className={`glass-card-hover p-5 flex flex-col items-center text-center animate-slide-up ${placement.delay}`}>
-                      <div className="text-sm text-emerald-200 uppercase tracking-widest font-semibold mb-1">{placement.label}</div>
-                      <div className="text-xs text-emerald-300 mb-3">{placement.title}</div>
+                      <div className="text-sm text-[#3A5747] uppercase tracking-widest font-semibold mb-1">{placement.label}</div>
+                      <div className="text-xs text-[#075433] mb-3">{placement.title}</div>
                       <div className="text-5xl mb-3 drop-shadow-md">♄</div>
-                      <div className="text-xl font-display font-bold text-white mb-2">Needs Birth City</div>
-                      <p className="text-sm text-emerald-200 leading-relaxed italic">
+                      <div className="text-xl font-display font-bold text-[#042F2A] mb-2">Needs Birth City</div>
+                      <p className="text-sm text-[#3A5747] leading-relaxed italic">
                         "Pick your birth city from the suggestions above — the Rising sign is calculated from its coordinates and your exact birth time."
                       </p>
                     </div>
                   );
                 }
                 const data = ZODIAC_DATA[placement.sign];
-                const elementClass = data.element === "Fire" ? "bg-rose-500/20 text-rose-300 border-rose-400/30" :
-                                   data.element === "Earth" ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/30" :
+                const elementClass = data.element === "Fire" ? "bg-rose-500/20 text-[#B3373F] border-rose-400/30" :
+                                   data.element === "Earth" ? "bg-emerald-500/20 text-[#075433] border-emerald-400/30" :
                                    data.element === "Air" ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/30" :
-                                   "bg-teal-500/20 text-teal-300 border-teal-400/30";
+                                   "bg-teal-500/20 text-[#0F766E] border-teal-400/30";
                 
                 return (
                   <div key={idx} className={`glass-card-hover p-5 flex flex-col items-center text-center animate-slide-up ${placement.delay}`}>
-                    <div className="text-sm text-emerald-200 uppercase tracking-widest font-semibold mb-1">{placement.label}</div>
-                    <div className="text-xs text-emerald-300 mb-3">{placement.title}</div>
+                    <div className="text-sm text-[#3A5747] uppercase tracking-widest font-semibold mb-1">{placement.label}</div>
+                    <div className="text-xs text-[#075433] mb-3">{placement.title}</div>
                     <div className="text-5xl mb-3 drop-shadow-md">{data.emoji}</div>
-                    <div className="text-xl font-display font-bold text-white mb-2">{placement.sign}</div>
+                    <div className="text-xl font-display font-bold text-[#042F2A] mb-2">{placement.sign}</div>
                     <div className={`text-xs px-3 py-1 rounded-full border mb-3 font-medium ${elementClass}`}>
                       {data.element}
                     </div>
-                    <p className="text-sm text-emerald-200 leading-relaxed italic">
+                    <p className="text-sm text-[#3A5747] leading-relaxed italic">
                       "{data.desc}"
                     </p>
                   </div>
                 );
               })}
             </div>
-            <p className="text-[11px] text-emerald-200/80 text-center mt-6 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-[11px] text-[#3D5C46] text-center mt-6 max-w-2xl mx-auto leading-relaxed">
               Calculated from the real positions of the Sun and Moon at your birth moment
               {place ? " and your birthplace coordinates" : ""} (astronomical approximation).
               A sign sitting within about a degree of a boundary can differ between calculators.
             </p>
-            <div className="mt-8 flex justify-center animate-slide-up animate-delay-500">
+            <div className="mt-8 flex justify-center animate-slide-up">
               <button onClick={handleShare} className="btn-secondary flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" x2="12" y1="2" y2="15"></line></svg>
                 Share Results Worldwide

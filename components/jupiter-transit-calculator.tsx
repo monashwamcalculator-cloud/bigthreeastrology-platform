@@ -48,8 +48,8 @@ export function JupiterTransitCalculator() {
             onClick={() => setUserSign(sign)}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               userSign === sign
-                ? "bg-amber-400 text-black font-bold shadow-md border border-amber-300"
-                : "bg-black/40 text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
+                ? "bg-[#08745A] text-[#042F2A] font-bold shadow-md border border-[#08745A]"
+                : "bg-white text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
             }`}
           >
             {sign}
@@ -57,15 +57,15 @@ export function JupiterTransitCalculator() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50">
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-white">
         <div className="border-b border-sky-500/20 pb-3 mb-4">
           <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold">Jupiter Blessing Sign</span>
-          <h3 className="text-xl font-display font-bold text-white mt-0.5">{result.sign}</h3>
+          <h3 className="text-xl font-display font-bold text-[#042F2A] mt-0.5">{result.sign}</h3>
         </div>
 
         <div className="space-y-3 text-left">
           <div>
-            <span className="text-xs font-semibold text-amber-300"> Luck & Opportunity Focus:</span>
+            <span className="text-xs font-semibold text-[#075433]"> Luck & Opportunity Focus:</span>
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.luckFocus}</p>
           </div>
           <div>
@@ -73,8 +73,8 @@ export function JupiterTransitCalculator() {
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.financialOpportunity}</p>
           </div>
           <div className="p-3.5 rounded-xl bg-sky-950/80 border border-sky-500/30">
-            <span className="text-xs font-semibold text-amber-300 uppercase tracking-wider block mb-0.5"> Divine Spiritual Blessing</span>
-            <p className="text-xs text-white font-medium">{result.spiritualBlessing}</p>
+            <span className="text-xs font-semibold text-[#075433] uppercase tracking-wider block mb-0.5"> Divine Spiritual Blessing</span>
+            <p className="text-xs text-[#042F2A] font-medium">{result.spiritualBlessing}</p>
           </div>
         </div>
       </div>

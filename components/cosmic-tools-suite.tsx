@@ -22,14 +22,14 @@ export function CosmicToolsSuite() {
   return (
     <div className="w-full space-y-6">
       {/* Category Selection Tabs */}
-      <div className="flex flex-wrap justify-center gap-2 p-2.5 rounded-2xl bg-black/70 border border-amber-500/30 max-w-5xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-2 p-2.5 rounded-2xl bg-white border border-[rgba(8,116,90,0.35)] max-w-5xl mx-auto">
         {categories.map((cat) => (
           <button
             key={cat.key}
             onClick={() => setActiveCategory(cat.key)}
             className={`cursor-pointer px-3.5 py-2.5 rounded-xl font-display font-bold text-xs sm:text-sm transition-all duration-300 flex items-center gap-2 ${
               activeCategory === cat.key
-                ? "bg-gradient-to-r from-[#3b8a5c] via-[#2e7d4f] to-[#256b42] text-white shadow-lg shadow-emerald-900/30 border border-[#2e7d4f]"
+                ? "bg-gradient-to-r from-[#3b8a5c] via-[#2e7d4f] to-[#256b42] text-[#042F2A] shadow-lg shadow-emerald-900/30 border border-[#2e7d4f]"
                 : "text-[#43584a] hover:text-[#16402b] hover:bg-[#eaf1e6] border border-transparent"
             }`}
           >
@@ -45,16 +45,16 @@ export function CosmicToolsSuite() {
           <Link
             key={tool.id}
             href={`/tools/${tool.slug}`}
-            className="glass-card-hover p-4 rounded-xl border border-amber-500/25 hover:border-amber-400/70 bg-black/60 flex flex-col items-center text-center group transition-all"
+            className="glass-card-hover p-4 rounded-xl border border-[rgba(8,116,90,0.28)] hover:border-[rgba(8,116,90,0.7)] bg-white flex flex-col items-center text-center group transition-all"
           >
-            <div className="w-10 h-10 rounded-full bg-amber-950/60 border border-amber-500/40 flex items-center justify-center mb-2.5 group-hover:scale-110 group-hover:border-amber-300 transition-all shadow-md">
+            <div className="w-10 h-10 rounded-full bg-[#DFF5EC] border border-[rgba(8,116,90,0.45)] flex items-center justify-center mb-2.5 group-hover:scale-110 group-hover:border-[#08745A] transition-all shadow-md">
               <CosmicIcon name={tool.slug} className="w-5 h-5" />
             </div>
 
-            <h3 className="text-xs font-display font-bold text-white group-hover:text-amber-300 transition-colors line-clamp-1">
+            <h3 className="text-xs font-display font-bold text-[#042F2A] group-hover:text-[#075433] transition-colors line-clamp-1">
               {tool.name}
             </h3>
-            <span className="text-[10px] text-amber-200/80 mt-1 line-clamp-2 leading-tight">
+            <span className="text-[10px] text-[rgba(61,82,69,0.82)] mt-1 line-clamp-2 leading-tight">
               {tool.shortDesc}
             </span>
           </Link>
@@ -62,7 +62,7 @@ export function CosmicToolsSuite() {
       </div>
 
       <div className="text-center pt-2">
-        <p className="text-xs text-amber-300/80 font-semibold flex items-center justify-center gap-1.5">
+        <p className="text-xs text-[rgba(7,84,51,0.8)] font-semibold flex items-center justify-center gap-1.5">
           <CosmicIcon name="zodiac" className="w-4 h-4" />
           <span>Showing {MASTER_TOOLS_LIST.length} Authentic Astrological, Vedic & Numerology Calculators</span>
         </p>

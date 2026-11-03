@@ -192,7 +192,7 @@ export function LifePathNumberCalculator() {
         <input
           id="lp-dob"
           type="date"
-          className="input-cosmic w-full text-center text-base font-bold text-amber-300"
+          className="input-cosmic w-full text-center text-base font-bold text-[#075433]"
           value={dob}
           onChange={(e) => setDob(e.target.value)}
         />
@@ -200,15 +200,15 @@ export function LifePathNumberCalculator() {
 
       {parsed && meaning ? (
         <div className="max-w-2xl mx-auto space-y-4">
-          <div className="glass-card-hover p-6 border-[#D4E2DD] bg-black/50 text-center">
+          <div className="glass-card-hover p-6 border-[#D4E2DD] bg-white text-center">
             <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold block mb-1">
               Your Life Path Number
             </span>
             <div className="text-6xl font-display font-extrabold gradient-text-gold mb-2">
               {parsed.result.lifePath}
             </div>
-            <p className="text-base font-bold text-white">{meaning.title}</p>
-            <p className="text-xs text-amber-300 font-semibold mt-1">{meaning.keyword}</p>
+            <p className="text-base font-bold text-[#042F2A]">{meaning.title}</p>
+            <p className="text-xs text-[#075433] font-semibold mt-1">{meaning.keyword}</p>
             <p className="text-sm text-sky-100 leading-relaxed mt-4 text-left">
               {meaning.meaning}
             </p>
@@ -222,7 +222,7 @@ export function LifePathNumberCalculator() {
                 </ul>
               </div>
               <div>
-                <span className="text-xs font-semibold text-amber-300">Growth Edges</span>
+                <span className="text-xs font-semibold text-[#075433]">Growth Edges</span>
                 <ul className="text-xs text-sky-100 leading-relaxed mt-1 space-y-1">
                   {meaning.challenges.map((c) => (
                     <li key={c}>• {c}</li>
@@ -259,7 +259,7 @@ export function LifePathNumberCalculator() {
           </div>
 
           {parsed.result.karmicDebt !== null && (
-            <div className="glass-card p-5 rounded-xl border-l-4 border-amber-400">
+            <div className="glass-card p-5 rounded-xl border-l-4 border-[#08745A]">
               <h3 className="text-sm font-display font-bold text-[#16402b] mb-1">
                 Karmic Debt Pattern: {parsed.result.karmicDebt}/
                 {parsed.result.lifePath}
@@ -329,7 +329,7 @@ export function LifePathNumberCalculator() {
           </div>
         </div>
       ) : (
-        <div className="glass-card-hover p-6 max-w-xl mx-auto border-[#D4E2DD] bg-black/50 text-center">
+        <div className="glass-card-hover p-6 max-w-xl mx-auto border-[#D4E2DD] bg-white text-center">
           <p className="text-sm text-sky-100 leading-relaxed">
             Pick your birth date above and your Life Path number appears instantly — together
             with the full step-by-step reduction, so you can check the arithmetic yourself.

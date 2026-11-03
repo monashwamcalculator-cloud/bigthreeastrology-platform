@@ -25,12 +25,12 @@ export function Navbar() {
   }, [pathname]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-amber-500/30 bg-white/95 backdrop-blur-xl relative shadow-lg">
+    <header className="sticky top-0 z-50 border-b border-[rgba(8,116,90,0.35)] bg-white/95 backdrop-blur-xl relative shadow-lg">
       <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent"></div>
       
       <div className="container-main flex flex-wrap items-center justify-between gap-4 py-2.5 md:py-3">
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-amber-400 shadow-[0_0_15px_rgba(46,125,79,0.3)] group-hover:scale-105 transition-transform bg-white">
+          <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden border-2 border-[#08745A] shadow-[0_0_15px_rgba(46,125,79,0.3)] group-hover:scale-105 transition-transform bg-white">
             <Image
               src="/logo.svg"
               alt="BIGThreeAstrology Logo"
@@ -42,28 +42,28 @@ export function Navbar() {
           </div>
           <span className="font-display text-xl md:text-2xl font-bold tracking-tight">
             <span className="gradient-text-gold transition-all duration-300 group-hover:brightness-125">BIGThree</span>
-            <span className="text-white">Astrology</span>
+            <span className="text-[#042F2A]">Astrology</span>
           </span>
         </Link>
         
-        <nav className="flex flex-wrap items-center gap-3 md:gap-5 text-xs sm:text-sm font-medium text-amber-100">
-          <Link href="/" className="hover:text-white transition-colors duration-200">Home</Link>
-          <Link href="/tools" className="hover:text-amber-300 transition-colors duration-200 flex items-center gap-1 font-semibold text-amber-300">
+        <nav className="flex flex-wrap items-center gap-3 md:gap-5 text-xs sm:text-sm font-medium text-[#2C473F]">
+          <Link href="/" className="hover:text-[#042F2A] transition-colors duration-200">Home</Link>
+          <Link href="/tools" className="hover:text-[#075433] transition-colors duration-200 flex items-center gap-1 font-semibold text-[#075433]">
             All 100+ Tools
           </Link>
-          <Link href="/tools/kundali-milan" className="hover:text-amber-300 transition-colors duration-200 hidden sm:flex items-center gap-1">
+          <Link href="/tools/kundali-milan" className="hover:text-[#075433] transition-colors duration-200 hidden sm:flex items-center gap-1">
             Kundali Milan
           </Link>
-          <Link href="/tools/choghadia" className="hover:text-amber-300 transition-colors duration-200 hidden md:flex items-center gap-1">
+          <Link href="/tools/choghadia" className="hover:text-[#075433] transition-colors duration-200 hidden md:flex items-center gap-1">
             Choghadia
           </Link>
-          <Link href="/tools/love-compatibility" className="hover:text-amber-300 transition-colors duration-200 hidden md:flex items-center gap-1">
+          <Link href="/tools/love-compatibility" className="hover:text-[#075433] transition-colors duration-200 hidden md:flex items-center gap-1">
             Love Match
           </Link>
-          <Link href="/tools/numerology" className="hover:text-amber-300 transition-colors duration-200 hidden lg:flex items-center gap-1">
+          <Link href="/tools/numerology" className="hover:text-[#075433] transition-colors duration-200 hidden lg:flex items-center gap-1">
             Numerology
           </Link>
-          <Link href="/blog" className="hover:text-white transition-colors duration-200">Blog</Link>
+          <Link href="/blog" className="hover:text-[#042F2A] transition-colors duration-200">Blog</Link>
         </nav>
 
         <div className="flex items-center gap-3">

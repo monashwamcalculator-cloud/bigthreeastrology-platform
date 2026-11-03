@@ -50,7 +50,7 @@ export function RisingSignCalculator() {
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               selectedSign === sign
                 ? "bg-sky-400 text-sky-950 font-bold shadow-md border border-sky-300"
-                : "bg-black/40 text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
+                : "bg-white text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
             }`}
           >
             {sign}
@@ -58,16 +58,16 @@ export function RisingSignCalculator() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50">
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-white">
         <div className="border-b border-sky-500/20 pb-3 mb-4">
           <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold">Ascendant Placement</span>
-          <h3 className="text-xl font-display font-bold text-white mt-0.5">{result.sign}</h3>
+          <h3 className="text-xl font-display font-bold text-[#042F2A] mt-0.5">{result.sign}</h3>
         </div>
 
         <div className="space-y-3 text-left">
           <div>
-            <span className="text-xs font-semibold text-amber-300">Ascendant Chart Ruler:</span>
-            <p className="text-sm font-semibold text-white mt-0.5">{result.rulingPlanet}</p>
+            <span className="text-xs font-semibold text-[#075433]">Ascendant Chart Ruler:</span>
+            <p className="text-sm font-semibold text-[#042F2A] mt-0.5">{result.rulingPlanet}</p>
           </div>
           <div>
             <span className="text-xs font-semibold text-sky-300">Outward Aura & Energy:</span>
@@ -78,7 +78,7 @@ export function RisingSignCalculator() {
             <p className="text-xs text-sky-100 leading-relaxed mt-0.5">{result.physicalTraits}</p>
           </div>
           <div>
-            <span className="text-xs font-semibold text-amber-300">First Impression on Others:</span>
+            <span className="text-xs font-semibold text-[#075433]">First Impression on Others:</span>
             <p className="text-xs text-sky-100 leading-relaxed mt-0.5">{result.firstImpression}</p>
           </div>
         </div>

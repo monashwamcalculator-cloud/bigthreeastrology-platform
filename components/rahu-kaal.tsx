@@ -82,7 +82,7 @@ export function RahuKaalTracker() {
       <div className="text-center mb-6">
         <div className="badge badge-gold mb-3"> Daily Panchang & Vedic Timing</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Rahu Kaal & Shubh Muhurat Tracker</h2>
-        <p className="text-cosmic-200 text-sm mt-1">
+        <p className="text-[#43584A] text-sm mt-1">
           Check daily Rahu Kaal (inauspicious time to avoid), Abhijit Muhurat (golden success window), and Amrit Kaal timings.
         </p>
       </div>
@@ -95,8 +95,8 @@ export function RahuKaalTracker() {
             onClick={() => setSelectedDay(day)}
             className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${
               selectedDay === day
-                ? "bg-cosmic-500 text-white font-bold shadow-lg border border-cosmic-300/40"
-                : "bg-black/30 text-cosmic-200 border border-white/10 hover:bg-white/10"
+                ? "bg-cosmic-500 text-[#042F2A] font-bold shadow-lg border border-cosmic-300/40"
+                : "bg-[#EFF7F2] text-[#43584A] border border-white/10 hover:bg-white/10"
             }`}
           >
             {day}
@@ -105,10 +105,10 @@ export function RahuKaalTracker() {
       </div>
 
       {/* Muhurat Display Card */}
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 animate-slide-up bg-black/40">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] animate-slide-up bg-white">
         <div className="text-center border-b border-cosmic-700/40 pb-4 mb-6">
-          <span className="text-xs uppercase tracking-widest text-accent-gold font-semibold">Panchang Guidance for</span>
-          <h3 className="text-2xl font-display font-bold text-white mt-1">{muhuratInfo.day}</h3>
+          <span className="text-xs uppercase tracking-widest text-[#08745A] font-semibold">Panchang Guidance for</span>
+          <h3 className="text-2xl font-display font-bold text-[#042F2A] mt-1">{muhuratInfo.day}</h3>
         </div>
 
         {/* Timings Matrix */}
@@ -118,15 +118,15 @@ export function RahuKaalTracker() {
             <div className="text-xs uppercase tracking-wider font-semibold text-accent-rose mb-1">
                Rahu Kaal (Avoid New Starts)
             </div>
-            <div className="text-lg font-display font-bold text-white">{muhuratInfo.rahuKaal}</div>
+            <div className="text-lg font-display font-bold text-[#042F2A]">{muhuratInfo.rahuKaal}</div>
           </div>
 
           {/* Abhijit Muhurat */}
-          <div className="p-4 rounded-xl bg-accent-gold/10 border border-accent-gold/30">
-            <div className="text-xs uppercase tracking-wider font-semibold text-accent-gold mb-1">
+          <div className="p-4 rounded-xl bg-[rgba(8,116,90,0.1)] border border-[rgba(8,116,90,0.3)]">
+            <div className="text-xs uppercase tracking-wider font-semibold text-[#08745A] mb-1">
                Abhijit Muhurat (Golden Window)
             </div>
-            <div className="text-lg font-display font-bold text-white">{muhuratInfo.abhijitMuhurat}</div>
+            <div className="text-lg font-display font-bold text-[#042F2A]">{muhuratInfo.abhijitMuhurat}</div>
           </div>
 
           {/* Amrit Kaal */}
@@ -134,7 +134,7 @@ export function RahuKaalTracker() {
             <div className="text-xs uppercase tracking-wider font-semibold text-accent-emerald mb-1">
                Amrit Kaal (Auspicious Nectar)
             </div>
-            <div className="text-lg font-display font-bold text-white">{muhuratInfo.amritKaal}</div>
+            <div className="text-lg font-display font-bold text-[#042F2A]">{muhuratInfo.amritKaal}</div>
           </div>
 
           {/* Yamaganda */}
@@ -142,13 +142,13 @@ export function RahuKaalTracker() {
             <div className="text-xs uppercase tracking-wider font-semibold text-accent-cyan mb-1">
               ⌛ Yamaganda Kaal
             </div>
-            <div className="text-lg font-display font-bold text-white">{muhuratInfo.yamaganda}</div>
+            <div className="text-lg font-display font-bold text-[#042F2A]">{muhuratInfo.yamaganda}</div>
           </div>
         </div>
 
         {/* Advice */}
         <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
-          <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
+          <h4 className="text-xs font-semibold uppercase tracking-wider text-[#7ED492] mb-1">
              Daily Planetary Guidance
           </h4>
           <p className="text-sm text-cosmic-100 leading-relaxed">{muhuratInfo.advice}</p>

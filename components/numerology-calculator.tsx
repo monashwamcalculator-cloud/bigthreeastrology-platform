@@ -183,7 +183,7 @@ export function NumerologyCalculator() {
           className={`px-5 py-2.5 rounded-xl font-medium transition-all text-sm flex items-center gap-2 ${
             activeTab === "lifepath"
               ? "btn-glow shadow-lg"
-              : "btn-secondary hover:border-accent-gold"
+              : "btn-secondary hover:border-[#08745A]"
           }`}
         >
           <span></span> Life Path Number
@@ -193,7 +193,7 @@ export function NumerologyCalculator() {
           className={`px-5 py-2.5 rounded-xl font-medium transition-all text-sm flex items-center gap-2 ${
             activeTab === "expression"
               ? "btn-glow shadow-lg"
-              : "btn-secondary hover:border-accent-gold"
+              : "btn-secondary hover:border-[#08745A]"
           }`}
         >
           <span></span> Name Numerology (Expression)
@@ -204,13 +204,13 @@ export function NumerologyCalculator() {
         <div>
           <div className="text-center mb-6">
             <h3 className="font-display text-2xl font-bold gradient-text-gold">Life Path Number Calculator</h3>
-            <p className="text-cosmic-200 text-sm mt-1">
+            <p className="text-[#43584A] text-sm mt-1">
               Your Life Path Number is the most important number in your numerology chart, revealing your life purpose and innate destiny.
             </p>
           </div>
 
           <div className="max-w-md mx-auto mb-8">
-            <label className="text-sm font-medium text-cosmic-100 pl-1 mb-2 block">Enter Your Birth Date</label>
+            <label className="text-sm font-medium text-[#2C473F] pl-1 mb-2 block">Enter Your Birth Date</label>
             <input
               type="date"
               className="input-cosmic w-full text-center text-lg"
@@ -221,21 +221,21 @@ export function NumerologyCalculator() {
 
           {lifePathResult && (
             <div className="mt-8 border-t border-cosmic-700/50 pt-8 animate-slide-up">
-              <div className="glass-card-hover p-6 md:p-8 text-center max-w-2xl mx-auto border-accent-gold/40">
-                <div className="text-xs font-semibold uppercase tracking-widest text-accent-gold mb-2">Your Life Path Number</div>
-                <div className="text-6xl font-display font-extrabold gradient-text-gold mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-black/40 border border-accent-gold/30">
+              <div className="glass-card-hover p-6 md:p-8 text-center max-w-2xl mx-auto border-[rgba(8,116,90,0.4)]">
+                <div className="text-xs font-semibold uppercase tracking-widest text-[#08745A] mb-2">Your Life Path Number</div>
+                <div className="text-6xl font-display font-extrabold gradient-text-gold mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-white border border-[rgba(8,116,90,0.3)]">
                   {lifePathResult.number}
                 </div>
-                <h4 className="text-2xl font-display font-bold text-white mb-2">{lifePathResult.details.title}</h4>
+                <h4 className="text-2xl font-display font-bold text-[#042F2A] mb-2">{lifePathResult.details.title}</h4>
                 <div className="badge badge-gold mb-4">{lifePathResult.details.keyword}</div>
-                <p className="text-cosmic-100 leading-relaxed text-left md:text-center mb-6">
+                <p className="text-[#2C473F] leading-relaxed text-left md:text-center mb-6">
                   {lifePathResult.details.summary}
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-4 text-left border-t border-cosmic-700/40 pt-6">
                   <div>
                     <h5 className="text-xs uppercase font-semibold text-accent-emerald mb-2"> Core Strengths</h5>
-                    <ul className="text-sm text-cosmic-200 space-y-1">
+                    <ul className="text-sm text-[#43584A] space-y-1">
                       {lifePathResult.details.strengths.map((s, idx) => (
                         <li key={idx}>• {s}</li>
                       ))}
@@ -244,7 +244,7 @@ export function NumerologyCalculator() {
 
                   <div>
                     <h5 className="text-xs uppercase font-semibold text-accent-rose mb-2"> Challenges</h5>
-                    <ul className="text-sm text-cosmic-200 space-y-1">
+                    <ul className="text-sm text-[#43584A] space-y-1">
                       {lifePathResult.details.challenges.map((c, idx) => (
                         <li key={idx}>• {c}</li>
                       ))}
@@ -253,7 +253,7 @@ export function NumerologyCalculator() {
 
                   <div>
                     <h5 className="text-xs uppercase font-semibold text-accent-cyan mb-2"> Best Careers</h5>
-                    <ul className="text-sm text-cosmic-200 space-y-1">
+                    <ul className="text-sm text-[#43584A] space-y-1">
                       {lifePathResult.details.careers.map((car, idx) => (
                         <li key={idx}>• {car}</li>
                       ))}
@@ -268,13 +268,13 @@ export function NumerologyCalculator() {
         <div>
           <div className="text-center mb-6">
             <h3 className="font-display text-2xl font-bold gradient-text-gold">Name Numerology (Expression Number)</h3>
-            <p className="text-cosmic-200 text-sm mt-1">
+            <p className="text-[#43584A] text-sm mt-1">
               Convert your full name into Pythagorean numerology frequency to discover how you express your natural talents to the world.
             </p>
           </div>
 
           <div className="max-w-md mx-auto mb-8">
-            <label className="text-sm font-medium text-cosmic-100 pl-1 mb-2 block">Enter Your Full Birth Name</label>
+            <label className="text-sm font-medium text-[#2C473F] pl-1 mb-2 block">Enter Your Full Birth Name</label>
             <input
               type="text"
               placeholder="e.g. Alexander John Smith"
@@ -288,19 +288,19 @@ export function NumerologyCalculator() {
             <div className="mt-8 border-t border-cosmic-700/50 pt-8 animate-slide-up">
               <div className="glass-card-hover p-6 md:p-8 text-center max-w-2xl mx-auto border-accent-cyan/40">
                 <div className="text-xs font-semibold uppercase tracking-widest text-accent-cyan mb-2">Your Expression Number</div>
-                <div className="text-6xl font-display font-extrabold gradient-text mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-black/40 border border-accent-cyan/30">
+                <div className="text-6xl font-display font-extrabold gradient-text mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-white border border-accent-cyan/30">
                   {expressionResult.number}
                 </div>
-                <h4 className="text-2xl font-display font-bold text-white mb-2">{expressionResult.details.title}</h4>
+                <h4 className="text-2xl font-display font-bold text-[#042F2A] mb-2">{expressionResult.details.title}</h4>
                 <div className="badge mb-4">{expressionResult.details.keyword}</div>
-                <p className="text-cosmic-100 leading-relaxed text-left md:text-center mb-6">
+                <p className="text-[#2C473F] leading-relaxed text-left md:text-center mb-6">
                   {expressionResult.details.summary}
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-4 text-left border-t border-cosmic-700/40 pt-6">
                   <div>
                     <h5 className="text-xs uppercase font-semibold text-accent-emerald mb-2"> Natural Talents</h5>
-                    <ul className="text-sm text-cosmic-200 space-y-1">
+                    <ul className="text-sm text-[#43584A] space-y-1">
                       {expressionResult.details.strengths.map((s, idx) => (
                         <li key={idx}>• {s}</li>
                       ))}
@@ -309,7 +309,7 @@ export function NumerologyCalculator() {
 
                   <div>
                     <h5 className="text-xs uppercase font-semibold text-accent-rose mb-2"> Potential Blindspots</h5>
-                    <ul className="text-sm text-cosmic-200 space-y-1">
+                    <ul className="text-sm text-[#43584A] space-y-1">
                       {expressionResult.details.challenges.map((c, idx) => (
                         <li key={idx}>• {c}</li>
                       ))}
@@ -317,8 +317,8 @@ export function NumerologyCalculator() {
                   </div>
 
                   <div>
-                    <h5 className="text-xs uppercase font-semibold text-accent-gold mb-2"> Ideal Expression</h5>
-                    <ul className="text-sm text-cosmic-200 space-y-1">
+                    <h5 className="text-xs uppercase font-semibold text-[#08745A] mb-2"> Ideal Expression</h5>
+                    <ul className="text-sm text-[#43584A] space-y-1">
                       {expressionResult.details.careers.map((car, idx) => (
                         <li key={idx}>• {car}</li>
                       ))}

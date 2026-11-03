@@ -154,13 +154,13 @@ export function ChironCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-gold mb-3"> Chiron (The Wounded Healer) Calculator</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Soul Healing & Spiritual Gift</h2>
-        <p className="text-cosmic-200 text-sm mt-1">
+        <p className="text-[#43584A] text-sm mt-1">
           Chiron points to your deepest core wound and the unique spiritual healing gift you bring to the world.
         </p>
       </div>
 
       <div className="max-w-md mx-auto mb-8">
-        <label className="text-xs font-medium text-cosmic-100 pl-1 mb-1 block">Select Your Birth Date</label>
+        <label className="text-xs font-medium text-[#2C473F] pl-1 mb-1 block">Select Your Birth Date</label>
         <input
           type="date"
           className="input-cosmic"
@@ -169,16 +169,16 @@ export function ChironCalculator() {
         />
       </div>
 
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-accent-gold/40 animate-slide-up bg-black/40">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] animate-slide-up bg-white">
         <div className="flex items-center justify-between border-b border-cosmic-700/40 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-accent-gold font-semibold">Your Soul Healing Indicator</span>
-            <h3 className="text-2xl md:text-3xl font-display font-bold text-white mt-1 flex items-center gap-2">
+            <span className="text-xs uppercase tracking-widest text-[#08745A] font-semibold">Your Soul Healing Indicator</span>
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1 flex items-center gap-2">
               <span>{chironInfo.emoji}</span> {chironInfo.sign}
             </h3>
           </div>
           <div className="text-right">
-            <span className="text-xs text-cosmic-300 font-medium">Archetype</span>
+            <span className="text-xs text-[#3A5747] font-medium">Archetype</span>
             <div className="text-sm font-display font-bold text-accent-rose">Wounded Healer</div>
           </div>
         </div>
@@ -188,18 +188,18 @@ export function ChironCalculator() {
             <h4 className="text-sm font-semibold text-accent-rose flex items-center gap-2 mb-1">
               <span></span> The Core Soul Wound
             </h4>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{chironInfo.soulWound}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{chironInfo.soulWound}</p>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold text-accent-emerald flex items-center gap-2 mb-1">
               <span></span> The Spiritual Healing Gift
             </h4>
-            <p className="text-cosmic-100 text-sm leading-relaxed">{chironInfo.healingGift}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{chironInfo.healingGift}</p>
           </div>
 
           <div className="p-4 rounded-xl bg-cosmic-900/80 border border-white/10">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-accent-gold mb-1">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#7ED492] mb-1">
                Healing Remedy Action
             </h4>
             <p className="text-sm text-white font-medium italic">"{chironInfo.remedyAction}"</p>

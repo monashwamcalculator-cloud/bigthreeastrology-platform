@@ -48,8 +48,8 @@ export function MarsSignCalculator() {
             onClick={() => setSelectedSign(sign)}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
               selectedSign === sign
-                ? "bg-rose-500 text-white font-bold shadow-md border border-rose-300"
-                : "bg-black/40 text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
+                ? "bg-rose-500 text-[#042F2A] font-bold shadow-md border border-rose-300"
+                : "bg-white text-sky-200 border border-sky-500/20 hover:bg-sky-500/20"
             }`}
           >
             {sign}
@@ -57,10 +57,10 @@ export function MarsSignCalculator() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50">
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-white">
         <div className="border-b border-sky-500/20 pb-3 mb-4">
           <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold">Mars Sign Placement</span>
-          <h3 className="text-xl font-display font-bold text-white mt-0.5">{result.sign}</h3>
+          <h3 className="text-xl font-display font-bold text-[#042F2A] mt-0.5">{result.sign}</h3>
         </div>
 
         <div className="space-y-3 text-left">
@@ -69,12 +69,12 @@ export function MarsSignCalculator() {
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.driveStyle}</p>
           </div>
           <div>
-            <span className="text-xs font-semibold text-amber-300"> Anger & Conflict Expression:</span>
+            <span className="text-xs font-semibold text-[#075433]"> Anger & Conflict Expression:</span>
             <p className="text-xs sm:text-sm text-sky-100 leading-relaxed mt-0.5">{result.angerExpression}</p>
           </div>
-          <div className="p-3.5 rounded-xl bg-rose-950/80 border border-rose-500/30">
-            <span className="text-xs font-semibold text-rose-300 uppercase tracking-wider block mb-0.5"> Romantic & Intimate Chemistry</span>
-            <p className="text-xs text-white font-medium">{result.intimatePassion}</p>
+          <div className="p-3.5 rounded-xl bg-[#FBEAEA] border border-rose-500/30">
+            <span className="text-xs font-semibold text-[#B3373F] uppercase tracking-wider block mb-0.5"> Romantic & Intimate Chemistry</span>
+            <p className="text-xs text-[#042F2A] font-medium">{result.intimatePassion}</p>
           </div>
         </div>
       </div>

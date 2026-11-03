@@ -81,7 +81,7 @@ export function AngelNumberCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-gold mb-3"> Angel Numbers & Cosmic Frequency</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Angel Number Decoder & Frequency Guide</h2>
-        <p className="text-emerald-200 text-sm mt-1">
+        <p className="text-[#3A5747] text-sm mt-1">
           Decode recurring number sequences (111, 222, 444, 777, 888) and unlock cosmic manifestation guidance.
         </p>
       </div>
@@ -93,8 +93,8 @@ export function AngelNumberCalculator() {
             onClick={() => setSelectedCode(code)}
             className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all ${
               selectedCode === code
-                ? "bg-amber-400 text-black font-bold shadow-lg border border-amber-300"
-                : "bg-black/40 text-emerald-200 border border-emerald-500/20 hover:bg-emerald-500/20"
+                ? "bg-[#08745A] text-[#042F2A] font-bold shadow-lg border border-[#08745A]"
+                : "bg-white text-[#3A5747] border border-emerald-500/20 hover:bg-emerald-500/20"
             }`}
           >
             {code}
@@ -102,32 +102,32 @@ export function AngelNumberCalculator() {
         ))}
       </div>
 
-      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-black/50">
+      <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-white">
         <div className="flex items-center justify-between border-b border-emerald-500/30 pb-4 mb-6">
           <div>
-            <span className="text-xs uppercase tracking-widest text-emerald-300 font-semibold">Recurring Sequence</span>
-            <h3 className="text-2xl md:text-3xl font-display font-bold text-white mt-1">{result.code}</h3>
+            <span className="text-xs uppercase tracking-widest text-[#075433] font-semibold">Recurring Sequence</span>
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1">{result.code}</h3>
           </div>
           <div className="text-right">
-            <span className="text-xs text-emerald-300">Resonance Frequency</span>
-            <div className="text-sm font-display font-bold text-amber-300">{result.frequencyHz}</div>
+            <span className="text-xs text-[#075433]">Resonance Frequency</span>
+            <div className="text-sm font-display font-bold text-[#075433]">{result.frequencyHz}</div>
           </div>
         </div>
 
         <div className="space-y-4 text-left">
           <div>
-            <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
+            <h4 className="text-sm font-semibold text-[#075433] flex items-center gap-2 mb-1">
               <span></span> Cosmic Significance & Meaning
             </h4>
-            <p className="text-lg font-display font-bold text-white mb-1">{result.title}</p>
-            <p className="text-emerald-100 text-sm leading-relaxed">{result.cosmicMeaning}</p>
+            <p className="text-lg font-display font-bold text-[#042F2A] mb-1">{result.title}</p>
+            <p className="text-[#2C473F] text-sm leading-relaxed">{result.cosmicMeaning}</p>
           </div>
 
-          <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
-            <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-300 mb-1">
+          <div className="p-4 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
+            <h4 className="text-xs font-semibold uppercase tracking-wider text-[#075433] mb-1">
                Recommended Manifestation Action
             </h4>
-            <p className="text-sm font-semibold text-white">{result.actionGuidance}</p>
+            <p className="text-sm font-semibold text-[#042F2A]">{result.actionGuidance}</p>
           </div>
         </div>
       </div>

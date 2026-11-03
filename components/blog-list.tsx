@@ -32,7 +32,7 @@ export function BlogList({ posts }: { posts: BlogCardPost[] }) {
   const pillClass = (active: boolean) =>
     `cursor-pointer px-3.5 py-2.5 rounded-xl font-display font-bold text-xs sm:text-sm transition-all duration-300 ${
       active
-        ? "bg-[#08745A] hover:bg-[#075433] text-white shadow-lg border border-[#08745A]"
+        ? "bg-[#08745A] hover:bg-[#075433] text-[#042F2A] shadow-lg border border-[#08745A]"
         : "text-[#2C473F] hover:text-[#042F2A] hover:bg-[#DFF5EC] border border-transparent"
     }`;
 
@@ -69,7 +69,7 @@ export function BlogList({ posts }: { posts: BlogCardPost[] }) {
         <div className="text-center pt-2">
           <button
             onClick={() => setVisibleCount(filtered.length)}
-            className="cursor-pointer bg-[#08745A] hover:bg-[#075433] text-white font-display font-bold text-sm px-8 py-3 rounded-full transition-colors shadow-lg"
+            className="cursor-pointer bg-[#08745A] hover:bg-[#075433] text-[#042F2A] font-display font-bold text-sm px-8 py-3 rounded-full transition-colors shadow-lg"
           >
             Load more articles ({filtered.length - visibleCount} more)
           </button>

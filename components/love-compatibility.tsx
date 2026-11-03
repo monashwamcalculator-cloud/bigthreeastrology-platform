@@ -112,7 +112,7 @@ export function LoveCompatibilityCalculator() {
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
         <h3 className="font-display text-3xl font-bold gradient-text-gold">Zodiac Love Compatibility Matcher</h3>
-        <p className="text-cosmic-200 text-sm mt-2 max-w-xl mx-auto">
+        <p className="text-[#43584A] text-sm mt-2 max-w-xl mx-auto">
           Select your sign and your partner's sign to reveal your romantic match percentage, elemental harmony, and key relationship dynamics.
         </p>
       </div>
@@ -120,7 +120,7 @@ export function LoveCompatibilityCalculator() {
       <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-8">
         {/* Sign 1 Picker */}
         <div className="glass-card-hover p-5 text-center">
-          <label className="text-xs uppercase tracking-widest font-semibold text-accent-gold mb-2 block">Your Sign</label>
+          <label className="text-xs uppercase tracking-widest font-semibold text-[#08745A] mb-2 block">Your Sign</label>
           <div className="text-5xl mb-3">{sign1.emoji}</div>
           <select
             value={sign1Name}
@@ -128,7 +128,7 @@ export function LoveCompatibilityCalculator() {
             className="input-cosmic w-full text-center font-display font-semibold text-lg cursor-pointer"
           >
             {ZODIAC_SIGNS.map((s) => (
-              <option key={s.name} value={s.name} className="bg-cosmic-900 text-white">
+              <option key={s.name} value={s.name} className="bg-cosmic-900 text-[#042F2A]">
                 {s.emoji} {s.name} ({s.element})
               </option>
             ))}
@@ -145,7 +145,7 @@ export function LoveCompatibilityCalculator() {
             className="input-cosmic w-full text-center font-display font-semibold text-lg cursor-pointer"
           >
             {ZODIAC_SIGNS.map((s) => (
-              <option key={s.name} value={s.name} className="bg-cosmic-900 text-white">
+              <option key={s.name} value={s.name} className="bg-cosmic-900 text-[#042F2A]">
                 {s.emoji} {s.name} ({s.element})
               </option>
             ))}
@@ -155,13 +155,13 @@ export function LoveCompatibilityCalculator() {
 
       {/* Match Result Display */}
       <div className="border-t border-cosmic-700/50 pt-8 animate-slide-up">
-        <div className="glass-card-hover p-6 md:p-8 text-center max-w-2xl mx-auto border-accent-gold/40 relative overflow-hidden">
-          <div className="text-xs font-semibold uppercase tracking-widest text-cosmic-200 mb-2">
+        <div className="glass-card-hover p-6 md:p-8 text-center max-w-2xl mx-auto border-[rgba(8,116,90,0.4)] relative overflow-hidden">
+          <div className="text-xs font-semibold uppercase tracking-widest text-[#43584A] mb-2">
             {sign1.name} {sign1.emoji} + {sign2.name} {sign2.emoji}
           </div>
 
           <div className="flex items-center justify-center gap-4 my-4">
-            <div className="text-6xl font-display font-extrabold gradient-text-gold animate-pulse-glow px-6 py-3 rounded-2xl bg-black/50 border border-accent-gold/40">
+            <div className="text-6xl font-display font-extrabold gradient-text-gold animate-pulse-glow px-6 py-3 rounded-2xl bg-white border border-[rgba(8,116,90,0.4)]">
               {matchResult.score}%
             </div>
           </div>
@@ -170,17 +170,17 @@ export function LoveCompatibilityCalculator() {
 
           <div className="space-y-4 text-left border-t border-cosmic-700/40 pt-6">
             <div>
-              <h5 className="text-sm font-semibold text-accent-gold flex items-center gap-2 mb-1">
+              <h5 className="text-sm font-semibold text-[#08745A] flex items-center gap-2 mb-1">
                 <span></span> Relationship Dynamics
               </h5>
-              <p className="text-cosmic-100 text-sm leading-relaxed">{matchResult.dynamics}</p>
+              <p className="text-[#2C473F] text-sm leading-relaxed">{matchResult.dynamics}</p>
             </div>
 
             <div>
               <h5 className="text-sm font-semibold text-accent-cyan flex items-center gap-2 mb-1">
                 <span></span> Growth Tip
               </h5>
-              <p className="text-cosmic-200 text-sm leading-relaxed">{matchResult.tip}</p>
+              <p className="text-[#43584A] text-sm leading-relaxed">{matchResult.tip}</p>
             </div>
           </div>
         </div>

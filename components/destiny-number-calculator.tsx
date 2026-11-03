@@ -63,21 +63,21 @@ export function DestinyNumberCalculator() {
         <label className="text-xs font-semibold text-sky-200 block mb-1">Enter Full Name</label>
         <input
           type="text"
-          className="input-cosmic w-full text-center text-base font-bold text-amber-300"
+          className="input-cosmic w-full text-center text-base font-bold text-[#075433]"
           placeholder="e.g. Alexander Pierce"
           value={fullName}
           onChange={(e) => setFullName(e.target.value)}
         />
       </div>
 
-      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-black/50 text-center">
+      <div className="glass-card-hover p-6 max-w-xl mx-auto border-sky-500/30 bg-white text-center">
         <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold block mb-1">
           Expression Destiny Number
         </span>
         <div className="text-5xl font-display font-extrabold gradient-text-gold mb-2">
           Number {expressionNum}
         </div>
-        <p className="text-base font-bold text-white mb-4">{data.title}</p>
+        <p className="text-base font-bold text-[#042F2A] mb-4">{data.title}</p>
 
         <div className="space-y-3 text-left border-t border-sky-500/20 pt-4">
           <div>
@@ -85,7 +85,7 @@ export function DestinyNumberCalculator() {
             <p className="text-xs text-sky-100 leading-relaxed mt-0.5">{data.archetype}</p>
           </div>
           <div>
-            <span className="text-xs font-semibold text-amber-300">Target Vocation & Careers:</span>
+            <span className="text-xs font-semibold text-[#075433]">Target Vocation & Careers:</span>
             <p className="text-xs text-sky-100 leading-relaxed mt-0.5">{data.careerPath}</p>
           </div>
         </div>

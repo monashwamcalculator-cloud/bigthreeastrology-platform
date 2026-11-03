@@ -107,7 +107,7 @@ export function DashaCalculator() {
       <div className="text-center mb-6">
         <div className="badge badge-emerald mb-3"> Vimshottari Mahadasha 120-Year Cycle</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Vedic Dasha & Planetary Period Calculator</h2>
-        <p className="text-emerald-200 text-sm mt-1">
+        <p className="text-[#3A5747] text-sm mt-1">
           Your Mahadasha sequence is set by the Moon's nakshatra at your birth. Enter your birth details for your
           personal timeline, or explore the nine periods below.
         </p>
@@ -136,7 +136,7 @@ export function DashaCalculator() {
               </select>
               <button
                 onClick={() => setPeriod(period === "AM" ? "PM" : "AM")}
-                className="px-3 py-2 rounded-lg bg-[#2e7d4f] text-white text-xs font-bold border border-[#2e7d4f]"
+                className="px-3 py-2 rounded-lg bg-[#2e7d4f] text-[#042F2A] text-xs font-bold border border-[#2e7d4f]"
               >
                 {period}
               </button>
@@ -164,7 +164,7 @@ export function DashaCalculator() {
                     onClick={() => setSelectedPlanetIndex(p.planetIndex)}
                     className={`flex items-center justify-between gap-3 px-4 py-2.5 rounded-xl border text-left transition-all ${
                       isCurrent
-                        ? "bg-[#2e7d4f] text-white border-[#2e7d4f] shadow-md"
+                        ? "bg-[#2e7d4f] text-[#042F2A] border-[#2e7d4f] shadow-md"
                         : "bg-white text-[#33463a] border-[#dee6da] hover:bg-[#eaf1e6]"
                     }`}
                   >
@@ -200,7 +200,7 @@ export function DashaCalculator() {
               onClick={() => setSelectedPlanetIndex(idx)}
               className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all ${
                 selectedPlanetIndex === idx
-                  ? "bg-[#2e7d4f] text-white font-bold shadow-lg border border-[#2e7d4f]"
+                  ? "bg-[#2e7d4f] text-[#042F2A] font-bold shadow-lg border border-[#2e7d4f]"
                   : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
               }`}
             >
@@ -209,31 +209,31 @@ export function DashaCalculator() {
           ))}
         </div>
 
-        <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-black/50">
+        <div className="glass-card-hover p-6 md:p-8 max-w-2xl mx-auto border-emerald-500/40 bg-white">
           <div className="flex items-center justify-between border-b border-emerald-500/30 pb-4 mb-6">
             <div>
-              <span className="text-xs uppercase tracking-widest text-emerald-300 font-semibold">Mahadasha Planet</span>
-              <h3 className="text-2xl md:text-3xl font-display font-bold text-white mt-1">{activeDasha.planet}</h3>
+              <span className="text-xs uppercase tracking-widest text-[#075433] font-semibold">Mahadasha Planet</span>
+              <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1">{activeDasha.planet}</h3>
             </div>
             <div className="text-right">
-              <span className="text-xs text-emerald-300">Period Duration</span>
-              <div className="text-lg font-display font-bold text-amber-300">{activeDasha.durationYears} Years</div>
+              <span className="text-xs text-[#075433]">Period Duration</span>
+              <div className="text-lg font-display font-bold text-[#075433]">{activeDasha.durationYears} Years</div>
             </div>
           </div>
 
           <div className="space-y-4 text-left">
             <div>
-              <h4 className="text-sm font-semibold text-emerald-300 flex items-center gap-2 mb-1">
+              <h4 className="text-sm font-semibold text-[#075433] flex items-center gap-2 mb-1">
                 <span></span> Major Life Themes & Planetary Energy
               </h4>
-              <p className="text-emerald-100 text-sm leading-relaxed">{activeDasha.rulingThemes}</p>
+              <p className="text-[#2C473F] text-sm leading-relaxed">{activeDasha.rulingThemes}</p>
             </div>
 
-            <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500/30">
-              <h4 className="text-xs font-semibold uppercase tracking-wider text-amber-300 mb-1">
+            <div className="p-4 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
+              <h4 className="text-xs font-semibold uppercase tracking-wider text-[#075433] mb-1">
                  Recommended Vedic Mantra & Shanti Remedy
               </h4>
-              <p className="text-sm font-semibold text-white">{activeDasha.remedy}</p>
+              <p className="text-sm font-semibold text-[#042F2A]">{activeDasha.remedy}</p>
             </div>
           </div>
         </div>
