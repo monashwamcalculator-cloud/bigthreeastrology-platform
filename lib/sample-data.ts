@@ -1,9 +1,3 @@
-export const SAMPLE_ASTROLOGERS = [
-  { id: "astro-1", name: "Pandit Rajesh Sharma", city: "Mumbai", specialization: "Vedic & Kundali Milan Specialist", rating: 4.9 },
-  { id: "astro-2", name: "Dr. Sunita Verma", city: "Delhi", specialization: "KP Astrology & Numerology", rating: 4.8 },
-  { id: "astro-3", name: "Acharya Vikram Shastri", city: "Bangalore", specialization: "Nadi Astrology & Gemstone Remedies", rating: 4.9 }
-];
-
 export type SampleBlogPost = {
   id: string;
   title: string;
