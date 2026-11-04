@@ -35,4 +35,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "nakshatra-meaning-birth-star-vedic-guide", title: "Nakshatra Meaning: Your Vedic Birth Star Explained" },
   { slug: "vimshottari-dasha-explained-planetary-periods", title: "Vimshottari Dasha Explained: Your Planetary Periods" },
   { slug: "manglik-dosha-meaning-checks-cancellations", title: "Manglik Dosha: Meaning, Checks & Cancellations" },
+  { slug: "kundali-milan-score-explained-guna-ranges", title: "Kundali Milan Score Explained: What Your Guna Total Means" },
+  { slug: "kundali-milan-doshas-exceptions-cancellations", title: "Kundali Milan Doshas: Nadi, Bhakoot & Manglik Exceptions" },
+  { slug: "kundali-milan-mistakes-name-matching-birth-time", title: "Kundali Milan Mistakes: Name Matching & Birth-Time Traps" },
 ];

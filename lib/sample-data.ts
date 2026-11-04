@@ -2872,4 +2872,254 @@ A birth chart placement cannot be edited by any ritual, donation or gemstone, an
 
 Usually because they used different versions of the check: different counted houses (some add the 2nd), different reference points (Lagna only versus Lagna, Moon and Venus), or different cancellation lists. Ask which version each used — the disagreement is normally technical, not mysterious.`,
   },
+  // BLOG 29
+  {
+    id: "blog-29",
+    title: "Kundali Milan Score Explained: What Your Guna Total Means",
+    slug: "kundali-milan-score-explained-guna-ranges",
+    metaDescription: "What does your Kundali Milan score really mean? Read 18, 24 and 30+ guna totals properly — the koota breakdown behind the number, with worked examples.",
+    image: "/blog/kundali-milan-score-guide.jpg",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "kundali-milan",
+    createdAt: new Date("2026-11-04"),
+    updatedAt: new Date("2026-11-04"),
+    content: `> **Executive Overview**: A Kundali Milan score is a total out of 36 gunas across eight kootas. Tradition treats 18 as the minimum acceptable line, the mid-20s as comfortable, and 30+ as very harmonious — but the breakdown matters more than the total. Check your own eight-koota breakdown with the [Kundali Milan Calculator](/tools/kundali-milan) before judging any score.
+>
+> Most couples remember one number from their Kundali Milan: the total out of 36. Families celebrate a 29, worry over a 17, and sometimes treat the number as a verdict on the marriage itself. That is understandable, but it is also the most common misreading in Vedic matching. The total is a summary, and summaries hide exactly the information you need — where the points came from, which factors scored zero, and whether the loss sits in a small koota or in one of the heavyweights that carry the match.
+>
+> This guide teaches you to read a Milan score the way a practitioner does: total first, then the eight kootas, then the zeros, then the rest of the chart. It builds on the [Kundali Milan 36 guna guide](/blog/vedic-kundali-milan-36-guna-guide), which explains each factor in full; here the focus is on interpretation — what each range actually means, and what to do with it.
+
+![A couple's hands exchanging a wedding garland over an open horoscope chart](/blog/in-kundali-score-1.jpg)
+
+## The score in one table
+
+Ashtakoota compares two Moon charts through eight factors, weighted unevenly on purpose. Varna is worth 1 point, Vashya 2, Tara 3, Yoni 4, Graha Maitri 5, Gana 6, Bhakoot 7 and Nadi 8 — 36 in total. The later kootas carry more weight because they describe deeper layers of married life: temperament, family welfare and the health-and-progeny symbolism of Nadi. A point lost in Nadi is therefore not the same as a point lost in Varna, even though both are "one point" in casual talk.
+
+The traditional reading bands below are a practitioner's shorthand, not a rule written in any single text. Different schools draw the lines slightly differently, and every band below assumes the breakdown has been checked, not just the total.
+
+| Score range | Traditional reading | What to check first |
+| --- | --- | --- |
+| 32–36 | Exceptionally harmonious | Whether the charts agree beyond Milan — 7th house, dasha, Navamsha |
+| 26–31 | Strong, comfortable match | Any single zero hiding inside the total |
+| 21–25 | Comfortable, workable match | Which kootas are weak, and whether they are daily-life factors |
+| 18–20 | Acceptable, but fragile | Every zero — the match passes, but with thin margins |
+| Below 18 | Traditionally cautious | Whether the loss is in major kootas, and what the wider chart says |
+
+The 18-point line is the one threshold with broad classical support: below it, a match is traditionally considered to need careful review rather than automatic approval. Above it, the match is workable in Milan terms. But "workable" is a floor, not a promise, and "below 18" is a warning flag, not a sentence — both readings need the breakdown before they mean anything.
+
+## Three worked examples: same system, very different matches
+
+Worked examples make the point faster than any definition. The three breakdowns below are illustrative — invented to show the arithmetic, not real couples — and each uses the [Kundali Milan Calculator](/tools/kundali-milan) format: the eight kootas in order, each out of its maximum.
+
+**Couple A — 19 gunas, and fragile.** Varna 1, Vashya 2, Tara 3, Yoni 2, Graha Maitri 5, Gana 6, Bhakoot 0, Nadi 0. The sum is 1 + 2 + 3 + 2 + 5 + 6 + 0 + 0 = 19, just over the line. But look at where the points came from: every small and middle koota scored well, while the two heaviest kootas both scored zero. This couple likes each other and shares temperament, yet the match carries the two classic dosha flags — Bhakoot and Nadi — that families worry about most. A total of 19 here is not the same as a comfortable 19 built evenly; it is a pass with two major questions attached, and it deserves the dosha reading in our companion guide to [Kundali Milan doshas and their exceptions](/blog/kundali-milan-doshas-exceptions-cancellations) before anyone celebrates or panics.
+
+**Couple B — 28 gunas, despite a Nadi zero.** Varna 1, Vashya 2, Tara 3, Yoni 4, Graha Maitri 5, Gana 6, Bhakoot 7, Nadi 0. The sum is 1 + 2 + 3 + 4 + 5 + 6 + 7 + 0 = 28. This is the example that surprises people: a couple can lose all 8 Nadi points and still score 28, because every other koota is at full strength. The Nadi question still deserves a proper check — the exceptions and cancellations are real, and they vary by school — but the match is not "ruined" by one zero. Couple B also shows why totals mislead in the other direction: a family told only "28, very good" might never learn that a Nadi question exists at all.
+
+**Couple C — 13 gunas, and the pattern matters.** Varna 1, Vashya 0, Tara 3, Yoni 4, Graha Maitri 5, Gana 0, Bhakoot 0, Nadi 0. The sum is 1 + 0 + 3 + 4 + 5 + 0 + 0 + 0 = 13, well below the line. Here the loss is concentrated exactly where it hurts most: temperament (Gana), family welfare (Bhakoot) and Nadi are all zero, even though attraction and friendship score well. This is the classic "we get on brilliantly, but everything else is hard" pattern, and it is more worrying than a low score spread evenly across small kootas. A score of 13 built this way is a stronger caution than the same 13 built from small losses everywhere.
+
+The lesson of all three examples is one sentence: never read a Milan total without its eight numbers beside it. The [Kundali Milan Calculator](/tools/kundali-milan) gives you that breakdown; any report that gives only a total is withholding the useful half of the result.
+
+## How to read each band honestly
+
+**Below 18: cautious, not condemned.** Classical advice becomes careful here, especially when the loss comes from Gana, Bhakoot or Nadi rather than from the small kootas. But caution is not rejection. Practitioners then look wider: the 7th house and its lord in each chart, Venus and Jupiter, the Navamsha D9 chart, and the dasha periods running at the time of marriage. A below-18 Milan with strong individual marriage indicators and supportive timing is read very differently from a below-18 Milan where the wider chart agrees with the warning. What below 18 should never do is end the conversation by itself — or be overridden by a remedy seller promising to "fix" the score for a fee. Birth charts cannot be edited, and no ritual changes a koota total.
+
+**18–20: acceptable, with thin margins.** This is the most misread band. Families hear "pass" and stop asking questions, but a score of 18 or 19 has almost no slack: one koota that was generously scored, one birth-time correction, and the total can slip below the line. Read every zero in this band as a homework assignment. If Bhakoot is zero, family and finance planning need conscious attention. If Gana is zero, temperament differences need respect and explicit discussion. If Nadi is zero, the exception rules need checking by someone who will name which school's rules they are using. The match is workable; it is not effortless.
+
+**21–25: the comfortable middle.** Most healthy matches land here, and this band is where Milan does its best work — not as a verdict, but as a map of where harmony is natural and where it will take effort. A 23 built on strong Graha Maitri and Gana, with a weak Yoni, points to a friendship-first marriage where physical affection needs honest conversation. A 23 built the other way round points to the opposite homework. The total says "fine"; the breakdown says "fine, and here is what to work on."
+
+**26–31: strong, but check for hidden zeros.** A high total can hide a single zero, as Couple B showed. At this level the question is rarely "is this match good enough?" and almost always "is there one factor we are missing?" Check Nadi and Bhakoot first, then confirm the wider chart: a strong Milan cannot compensate for a badly afflicted 7th house in either chart, and it cannot create kindness, fidelity or effort where the people themselves do not supply them.
+
+**32–36: exceptional on paper.** Scores this high are uncommon, because they require near-full marks across factors that pull in different directions. Treat them as genuinely encouraging — and still verify the birth details. A 34 computed from an approximate birth time or a name-based Moon sign is worth less than a 24 computed from exact details, which brings us to the most important caveat of all.
+
+## The caveat that outranks every band
+
+Every reading above assumes the Moon signs and nakshatras are right. Milan is Moon-based: three of its eight factors come straight from the Moon's nakshatra, and the rest come from the Moon sign. If the birth time is wrong by enough to shift the Moon across a nakshatra boundary, the whole breakdown changes — not by a point or two, but potentially by 15 points if Gana and Nadi flip with it. Our guide to [Kundali Milan mistakes](/blog/kundali-milan-mistakes-name-matching-birth-time) works through exactly how that happens, including a worked boundary example. The practical rule is simple: before you argue about a score, confirm the birth date, time and place it was computed from. A disputed score with unverified details is not a result; it is a draft.
+
+## What a score cannot tell you
+
+Milan measures compatibility between two Moon charts. It does not measure character, honesty, financial habits, family behaviour, or willingness to work at a marriage — the things that actually decide whether a marriage thrives. It does not read timing: two people can match well and still marry in a difficult dasha period, which is why the [Vimshottari Dasha guide](/blog/vimshottari-dasha-explained-planetary-periods) is worth reading alongside any Milan result. It does not replace the individual charts: the [7th house spouse reading](/tools/7th-house-spouse) shows what each person brings to partnership before any comparison begins, and the [Navamsha D9 guide](/blog/navamsha-d9-chart-marriage-destiny) shows how marriage quality is traditionally judged after the wedding, not just attraction before it. And it is not the only matching system: Manglik considerations from Mars sit outside the 36-guna total entirely, as explained in the [Manglik Dosha guide](/blog/manglik-dosha-meaning-checks-cancellations), so a couple should never be told they "failed Milan" because of a factor Ashtakoota does not score.
+
+Used with those limits in mind, the score becomes what it was meant to be: a structured first conversation between two families, with the hard parts named early and the strong parts recognised honestly. Run your own breakdown on the [Kundali Milan Calculator](/tools/kundali-milan), read the eight numbers before the total, and let the zeros — not the headline — set the agenda for the next conversation.
+
+![Two brass wedding rings resting on an astrology chart in soft window light](/blog/in-kundali-score-2.jpg)
+
+## Frequently asked questions
+
+**Is 18 gunas out of 36 really enough for marriage?**
+Traditionally, yes — 18 is the accepted minimum line. But a bare 18 with zeros in major kootas is a thinner pass than an 18 built evenly, so the breakdown and the wider chart should both be checked before treating it as a green light.
+
+**What is the best Kundali Milan score?**
+Scores of 26 and above are generally read as strong, and 30+ as very harmonious. There is no "perfect" score in practice: even a 36 would still leave the 7th house, dasha timing and the couple's own character to be judged separately.
+
+**Can a low score be improved by remedies?**
+No ritual, gemstone or donation changes a koota total, because the total comes from birth positions that cannot be edited. Traditional remedies are framed as devotional or psychological support, not as score corrections — anyone selling a score improvement deserves scepticism.
+
+**Why did two calculators give me different scores?**
+Usually because they used different birth details, different ayanamsa values, or different rules for a borderline koota. Re-run both with identical date, time and place; if they still differ, the koota-by-koota breakdown will show exactly which factor each calculator scored differently.
+
+**Does a high score guarantee a happy marriage?**
+No. Milan measures Moon-chart compatibility, not character, effort or circumstances. A high score is encouraging evidence about natural harmony; the marriage itself is built by the two people, not by the chart.
+
+Check your eight-koota breakdown and total score with the [Kundali Milan Calculator](/tools/kundali-milan).`
+  },
+  // BLOG 30
+  {
+    id: "blog-30",
+    title: "Kundali Milan Doshas: Nadi, Bhakoot & Manglik Exceptions",
+    slug: "kundali-milan-doshas-exceptions-cancellations",
+    metaDescription: "Nadi dosha, Bhakoot dosha and Manglik dosha in Kundali Milan explained: what each one really means, which cancellations schools accept, and when not to panic.",
+    image: "/blog/kundali-milan-doshas-guide.jpg",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "kundali-milan",
+    createdAt: new Date("2026-11-04"),
+    updatedAt: new Date("2026-11-04"),
+    content: `> **Executive Overview**: In Kundali Milan, Nadi dosha means the Nadi koota scores 0 of 8, and Bhakoot dosha means the Bhakoot koota scores 0 of 7. Neither is a separate curse on top of the score — they are zeros inside it. Classical texts list cancellations for both, schools disagree on which apply, and Manglik considerations sit outside the 36-guna total entirely. Check your own koota breakdown with the [Kundali Milan Calculator](/tools/kundali-milan) before accepting any dosha verdict.
+>
+> Few words in Vedic astrology cause as much fear as "dosha" in a matching report. A family hears that a match has Nadi dosha or Bhakoot dosha and the conversation stops: the match is treated as dangerous, the couple as doomed, and the rest of the chart as irrelevant. That reaction is understandable — these are the heaviest factors in the system — but it is also a misreading of what a dosha is. This guide separates the three doshas families actually meet in matching, explains what each one costs in points, which cancellations are genuinely cited in tradition, and where the honest limits of those cancellations lie. It pairs with our guide to reading the [Kundali Milan score and its ranges](/blog/kundali-milan-score-explained-guna-ranges), which shows how a single zero changes a total.
+
+![A Vedic astrologer studying two birth charts side by side on a desk](/blog/in-kundali-doshas-1.jpg)
+
+## First, what "dosha" means inside Ashtakoota
+
+Inside the 36-guna system, a dosha is not an extra penalty added to the score. It is a description of a koota scoring zero. Nadi dosha means both partners' Moon nakshatras fall in the same Nadi — Adi, Madhya or Antya — so the Nadi koota, worth 8 points, scores 0. Bhakoot dosha means the two Moon signs stand in one of the classically difficult relative positions — 2-12, 6-8 or 5-9 — so the Bhakoot koota, worth 7 points, scores 0. Together those two zeros remove 15 of 36 points, which is why a match can have every small factor in its favour and still land below 18. That arithmetic, not any mystical extra punishment, is the whole mechanism — and it is also why the dosha conversation should always start from the [Kundali Milan Calculator](/tools/kundali-milan) breakdown, not from a one-line verdict.
+
+Manglik dosha is different in kind, and the distinction matters more than any single cancellation rule. Mars placement is not one of the eight kootas, so it contributes nothing to the 36-guna total, positively or negatively. A couple can score 30 on Milan and still face a Manglik question, and a couple can score 15 for reasons that have nothing to do with Mars. Anyone who tells a family they "failed Kundali Milan because of Manglik dosha" is mixing two separate checks. Our [Manglik Dosha guide](/blog/manglik-dosha-meaning-checks-cancellations) covers the Mars check in full, including its houses and cancellations; this post keeps the focus on how it relates to Milan.
+
+## Nadi dosha: the 8-point zero
+
+Nadi is the heaviest single koota because tradition links it with health, vitality and progeny — the most sensitive ground a marriage touches. Each nakshatra belongs to one of three Nadis: Adi (beginning), Madhya (middle) or Antya (end). When both partners' Moon nakshatras share the same Nadi, the koota scores 0. That is the entire definition, and it is worth stating plainly because popular retellings add layers the texts do not: Nadi dosha is not a prediction that a couple will have no children, nor a claim about any specific illness. It is a symbolic flag that one layer of the match — the constitution layer — is not supported by this factor, and that the wider chart needs reading.
+
+Classical and later authors do list cancellations for Nadi dosha, and this is where honest guidance has to slow down. The cited exceptions turn on specific chart conditions — for example, particular relationships between the Moon signs, the nakshatras involved, or the strength of other chart factors — but different schools accept different lists, and some widely quoted "cancellations" are folk simplifications rather than textual rules. A responsible reading therefore does three things: it names the dosha, it checks the exception rules of a stated school rather than shopping for the most convenient one, and it refuses to panic in the meantime. If an astrologer claims a cancellation, ask them to state which rule they applied and where it comes from. If they cannot, the cancellation is an opinion, not a finding.
+
+There is one more Nadi subtlety worth knowing. Because Nadi comes from the Moon's nakshatra, it is only as reliable as the Moon's position — and the Moon moves about 13 degrees a day. A birth time that is wrong by a few hours can, near a nakshatra boundary, put the Moon in the wrong nakshatra and invent or erase a Nadi dosha entirely. Our guide to [Kundali Milan mistakes](/blog/kundali-milan-mistakes-name-matching-birth-time) works through a boundary example where 36 minutes of birth-time error flips the nakshatra. Before any family acts on a Nadi verdict, the birth details behind it should be confirmed.
+
+## Bhakoot dosha: the 7-point zero, in three flavours
+
+Bhakoot compares the two Moon signs by counting from one to the other. Most relative positions score 7 points; three do not. The 2-12 combination is traditionally linked with themes of accumulation, family resources and the friction of different spending and security instincts. The 6-8 combination is linked with conflict, health strain and the feeling of working at cross-purposes. The 5-9 combination is linked with emotional distance — different priorities, different ways of loving, a gap that affection alone does not always close. Those themes are tendencies to discuss, not fates to fear: a 6-8 Bhakoot couple who communicate well and manage health and money consciously is living a different marriage from a 6-8 couple who never discuss either.
+
+As with Nadi, later authors list mitigating conditions for Bhakoot dosha, most famously involving the friendship of the two Moon-sign lords and the strength of the overall match. The logic is intuitive: if the lords of the two Moon signs are natural friends, the signs relate better than the bare counting suggests. But again, schools differ on how much mitigation a friendly lordship provides, and no mitigation turns a zero into full marks by itself. The honest summary is that Bhakoot dosha lowers the Milan score by 7 points and flags a theme for the couple to handle consciously; it does not, on its own, forbid a marriage. Families who treat it as an automatic rejection are going further than the system itself goes — and families who ignore it entirely are going further in the other direction. The middle path is the classical one: note the theme, check the mitigating factors by a stated rule, and weigh the rest of the chart.
+
+A practical point often missed: Bhakoot, like every Milan factor, is Moon-sign based. Couples matched on Sun signs, or on name-derived signs, have not had a Bhakoot check at all — they have had a different, lighter calculation wearing Milan's name. The [Kundali Milan Calculator](/tools/kundali-milan) uses Moon positions from birth details, which is the only basis on which a Bhakoot verdict means anything.
+
+## Manglik dosha beside Milan: the separate check
+
+Manglik dosha asks whether Mars sits in the 1st, 2nd, 4th, 7th, 8th or 12th house from the Lagna, the Moon or Venus — the houses most connected with partnership, temperament and longevity themes. It is a real and widely used check, but it lives outside Ashtakoota, and that separation protects families from two opposite errors: dismissing a Manglik question because "the Milan score was high," and rejecting a match because "the Milan failed" when Mars was the actual issue.
+
+Two facts from the site's own tooling matter here. First, the [Kundali Milan Calculator](/tools/kundali-milan) does not check Manglik dosha — its honest FAQ says so plainly — so a Milan report from this site neither confirms nor clears a Manglik question; that check needs its own reading, covered in the [Manglik Dosha guide](/blog/manglik-dosha-meaning-checks-cancellations). Second, the classical cancellations for Manglik dosha are better attested than the Nadi and Bhakoot lists: Mars in its own signs (Aries, Scorpio) or exaltation (Capricorn), Mars aspected by a strong Jupiter, Mars in Jupiter-ruled signs, and a comparably placed Mars in the partner's chart are all frequently cited, with schools again weighting them differently. A substantial proportion of charts qualify as Manglik from at least one reference point, which is itself a reason not to panic: a flag that common cannot be a rare curse.
+
+## How to handle a dosha verdict, step by step
+
+First, get the breakdown, not the headline. Ask which koota scored zero, and by how much the total falls because of it. A match at 28 with a Nadi zero (our worked example in the score guide) is a different conversation from a match at 13 with three zeros.
+
+Second, confirm the birth details. Date, time and place for both partners, checked against records rather than memory where possible. If either Moon sits near a nakshatra boundary, say so openly and get the position verified before acting on any dosha.
+
+Third, ask for the exception rule by name. For Nadi and Bhakoot, ask which school's cancellation list is being used and whether it applies to this specific combination. For Manglik, ask which reference points were counted — Lagna only, or Lagna, Moon and Venus — because different counts give different verdicts, and that alone explains many disagreements between astrologers.
+
+Fourth, read the wider chart. The 7th house and its lord, Venus, Jupiter, the Navamsha D9 chart and the current dasha periods all bear on marriage quality, and none of them appears in the 36-guna total. The [7th house spouse reading](/tools/7th-house-spouse) and the [Vimshottari Dasha guide](/blog/vimshottari-dasha-explained-planetary-periods) are the natural next reads, and the [Navamsha D9 guide](/blog/navamsha-d9-chart-marriage-destiny) explains why D9 is traditionally consulted for marriage quality after the wedding.
+
+Fifth, refuse paid "cures" for a score. No ritual, gemstone or donation changes a birth position or a koota total. Traditional practices may support patience and reflection; they do not rewrite a chart, and anyone guaranteeing a dosha removal for money should be treated with the scepticism that claim earns.
+
+![An astrologer counselling a young couple in a bright temple courtyard](/blog/in-kundali-doshas-2.jpg)
+
+## Frequently asked questions
+
+**Is Nadi dosha the most serious dosha in Kundali Milan?**
+It carries the most points — 8 of 36 — so it has the largest single effect on the total. That makes it the most consequential koota, not a standalone curse: the match is still judged on all eight kootas plus the wider chart.
+
+**Can Bhakoot dosha be cancelled completely?**
+Later authors list mitigating conditions, especially friendly Moon-sign lords, but schools disagree on their weight, and a mitigation does not restore full marks by itself. Treat Bhakoot dosha as a flagged theme to handle consciously, not as an automatic rejection or a fully erased problem.
+
+**If both partners are Manglik, does the dosha cancel?**
+Many traditions hold that two Manglik partners balance each other's Mars energy, so the pairing is considered neutralised in practical terms. Strength and house placement are still compared individually, and the Manglik check itself sits outside the 36-guna Milan total.
+
+**Why did one astrologer find a dosha and another did not?**
+Usually because they used different birth details, different reference points (for Manglik), different ayanamsa values, or different cancellation lists. Ask each one which version they used — the disagreement is normally technical, not mysterious.
+
+**Should a match with Nadi dosha be rejected outright?**
+Classical practice does not say so. It says the dosha should be named, its exceptions checked by a stated rule, and the wider chart — 7th house, Navamsha, dasha — read alongside it. Rejection on one koota alone, without that wider reading, goes further than the system goes.
+
+Check your own koota breakdown, including any Nadi or Bhakoot zero, with the [Kundali Milan Calculator](/tools/kundali-milan).`
+  },
+  // BLOG 31
+  {
+    id: "blog-31",
+    title: "Kundali Milan Mistakes: Name Matching & Birth-Time Traps",
+    slug: "kundali-milan-mistakes-name-matching-birth-time",
+    metaDescription: "The Kundali Milan mistakes that ruin good matches: name-based matching, wrong birth time near a nakshatra boundary, Sun-sign matching, and score worship.",
+    image: "/blog/kundali-milan-mistakes-guide.jpg",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "kundali-milan",
+    createdAt: new Date("2026-11-04"),
+    updatedAt: new Date("2026-11-04"),
+    content: `> **Executive Overview**: The two most damaging Kundali Milan mistakes are matching by name instead of by Moon chart, and trusting a score computed from an unverified birth time. The Moon moves about 13 degrees a day, so near a nakshatra boundary even 36 minutes of error can flip a koota. Before you argue about any score, confirm the birth details it came from — and run the check properly with the [Kundali Milan Calculator](/tools/kundali-milan).
+>
+> Most Kundali Milan failures are not failures of the system. They are failures of input: the wrong chart, the wrong time, the wrong sign, or the wrong expectation brought to a correct result. A family can reject a good match, approve a fragile one, or spend months anxious over a dosha that does not exist — all without Ashtakoota itself making a single error. This guide collects the mistakes that actually cause those outcomes, in the order of damage they do, with a worked example for the one mistake — birth-time error — whose arithmetic can be checked exactly. It completes the cluster alongside our guides to reading the [Kundali Milan score](/blog/kundali-milan-score-explained-guna-ranges) and to [Milan doshas and their exceptions](/blog/kundali-milan-doshas-exceptions-cancellations).
+
+![A family discussing wedding plans around a table with calendars and a horoscope printout](/blog/in-kundali-mistakes-1.jpg)
+
+## Mistake 1: matching by name instead of by Moon chart
+
+Name-based matching is the single most common Milan mistake, and the most quietly damaging, because it looks like astrology and feels traditional. The method takes each person's first name, derives a "rashi" from the name's starting syllable, and compares those two signs. It is quick, it needs no birth time, and it is not Kundali Milan.
+
+The problem is that Ashtakoota is Moon-based. Three of its eight factors — Tara, Yoni and Gana — come from the Moon's nakshatra, and the rest come from the Moon sign. A name-derived sign is a different object: it reflects naming custom, family tradition and sometimes a name chosen years after birth, not the Moon's position at birth. The two can agree, and often do by chance, but agreement by chance is not a check. A name match that scores well tells you nothing reliable about the Moon charts, and a name match that scores badly can frighten a family over a mismatch that does not exist in the real charts.
+
+There is a legitimate place for name syllables in Vedic tradition — the naming syllables linked to each nakshatra pada, explained in our [Nakshatra guide](/blog/nakshatra-meaning-birth-star-vedic-guide) — but naming is downstream of the chart, not a substitute for it. If a match has only ever been checked by name, it has not been checked. Get both birth dates, times and places, and run the Moon-based calculation on the [Kundali Milan Calculator](/tools/kundali-milan). If the name result and the Moon result disagree, trust the Moon result and treat the name result as folklore — interesting, but not evidence.
+
+## Mistake 2: trusting a score from an unverified birth time
+
+Birth time is the input Milan is most sensitive to, and the one families are most casual about. "Around 8 in the evening," "sometime after lunch," or a time remembered from a hospital story told decades later — all of these are common, and all of them can be wrong by an hour or more. For Sun-sign work that hardly matters. For Milan it can matter enormously, because the Moon moves fast: about 13.2 degrees a day, which is roughly 0.55 degrees — about 33 arc-minutes — every hour.
+
+Most of the time, an hour or two of error changes nothing: the Moon stays in the same sign and nakshatra, and the score is identical. The danger is concentrated at boundaries. Each nakshatra spans 13 degrees 20 minutes, so a Moon sitting near the edge of one is a small error away from the next. Here is the worked example that makes the risk concrete.
+
+Take a birth with the Moon at 3 degrees 10 minutes of sidereal Cancer. Cancer's nakshatras run Punarvasu (20 degrees Gemini to 3 degrees 20 minutes Cancer) and then Pushya (3 degrees 20 minutes to 16 degrees 40 minutes Cancer). A Moon at 3°10' Cancer sits in Punarvasu, 10 arc-minutes from the Pushya boundary at 3°20'. At 0.55 degrees per hour, the Moon covers those 10 arc-minutes in about 18 minutes — and a birth time recorded 36 minutes late would place the Moon at about 3°30' Cancer, inside Pushya instead. One small recording error, and the nakshatra changes; with it, Tara, Yoni, Gana and Nadi can all change, and a score can swing by 15 points or more. That is not a theoretical edge case: roughly one birth in thirteen has its Moon within half a degree of a nakshatra boundary (a 1-degree window out of each 13-degree-20-minute nakshatra), and hospital times from before digital records are routinely approximate.
+
+The Lagna adds a second time sensitivity. The ascendant changes sign roughly every two hours, so a two-hour error can change the Lagna — and with it, the 7th-house reading and any Manglik check counted from the Lagna. Milan itself does not use the Lagna, but the wider matching judgement does, so the same unverified time corrupts the follow-up reading too.
+
+The fix is procedural, not astrological: confirm birth times against records (birth certificate, hospital record, family diary) before treating any score as final, and flag any Moon within about a degree of a nakshatra boundary as "verify the time" rather than "accept the score." If the exact time genuinely cannot be recovered, say so openly and treat the Milan result as provisional — a range to explore with a practitioner, not a verdict to act on. Our [Kundali Milan doshas guide](/blog/kundali-milan-doshas-exceptions-cancellations) makes the same point for Nadi verdicts specifically, because a phantom Nadi dosha invented by a 36-minute error is one of the cruellest mistakes in matching.
+
+## Mistake 3: matching on Sun signs, or on one calculator's defaults
+
+Western Sun-sign compatibility is a different system answering a different question. It compares Sun signs, which describe public identity and life direction, not the Moon's emotional and habitual layer that Milan reads. A Sun-sign "incompatible" verdict says nothing about a Moon-chart match, and a Sun-sign "perfect match" says nothing either. The site's [Love Compatibility Calculator](/tools/love-compatibility) is honest about being a lighter, Sun-based view; it is a starting point for couples without birth details, not a Milan replacement. Families who have birth details and still use a Sun-sign result are choosing the weaker tool for no reason.
+
+A subtler version of the same mistake is calculator shopping: running the same details through several online calculators, getting different scores, and picking the highest — or the one that agrees with the desired outcome. Different calculators legitimately differ: different ayanamsa values shift sidereal longitudes slightly, and borderline kootas are scored differently by different rule sets. The correct response to disagreement is not to pick a favourite, but to compare koota by koota and find which factor each calculator scored differently, then decide which rule set you trust. The [Kundali Milan Calculator](/tools/kundali-milan) shows its breakdown precisely so that comparison is possible.
+
+## Mistake 4: worshipping the total, ignoring the breakdown
+
+This is the mistake our score guide exists to prevent, so it gets a short form here: a total without its eight kootas is half a result. A 19 built on full small kootas with Bhakoot and Nadi at zero is a fragile pass; a 28 with a single Nadi zero is a strong match with one question attached; a 13 with Gana, Bhakoot and Nadi all at zero is a deeper caution than a 13 spread evenly. Read the full guide to [Kundali Milan scores and their ranges](/blog/kundali-milan-score-explained-guna-ranges) before quoting any total to a family, and never forward a bare number without its breakdown — the number alone creates exactly the panic or complacency that the breakdown prevents.
+
+## Mistake 5: treating one factor as the whole marriage
+
+Two versions of this mistake dominate family discussions. The first is dosha panic: a single Nadi or Bhakoot zero, or a Manglik flag, is treated as a veto on the marriage, without the exception rules, without the wider chart, and without the dasha timing. The second is score worship: a high total is treated as a guarantee, so the couple stops asking about character, communication, finances and family behaviour — the things that actually decide a marriage. Both errors come from the same root: asking one number to answer a question it was never designed to answer.
+
+Milan is a screening system for Moon-chart compatibility. It does not read the 7th house, the 7th lord, Venus, Jupiter or the Navamsha D9 chart — the [7th house spouse reading](/tools/7th-house-spouse) and the [Navamsha D9 guide](/blog/navamsha-d9-chart-marriage-destiny) cover those — and it does not read timing, covered by the [Vimshottari Dasha guide](/blog/vimshottari-dasha-explained-planetary-periods). A responsible matching conversation uses Milan first, then those wider readings, then the couple's own judgement. Any process that stops at Milan, in either direction, is incomplete.
+
+## Mistake 6: letting the calendar, not the chart, decide
+
+The last mistake is not astrological at all, and it is the one families are least willing to name: a match is approved or rejected because the wedding date is fixed, the venue is booked, or relatives have already been told. Milan then becomes theatre — run to confirm a decision already made, or blamed for a decision made for other reasons. No guide can prevent that, but naming it helps: if the date is driving the decision, say so, and do not ask the chart to carry a weight it cannot bear. Conversely, if a genuine matching concern emerges late, it is cheaper to pause a booking than to spend a marriage managing a problem that was visible beforehand. The chart is a tool for the decision, not a costume for it.
+
+## A checklist before you trust any Milan result
+
+Run through this list before acting on a score, and you will avoid nearly every mistake above: (1) Both birth dates, times and places confirmed against records, not memory alone. (2) The calculation is Moon-based — Moon sign and nakshatra for both partners — not name-based or Sun-sign-based. (3) You have the eight-koota breakdown, not just the total, and you can name every zero in it. (4) Any dosha verdict states its exception rule and its school, and any Manglik verdict states which reference points were counted. (5) The wider chart — 7th house, Navamsha, dasha — has been read alongside Milan. (6) No one has offered to change the score for money. A result that passes all six is worth taking seriously, in both directions. A result that fails any of them is a draft, and drafts should not decide marriages.
+
+![A clock and a birth chart lying together on a desk in soft morning light](/blog/in-kundali-mistakes-2.jpg)
+
+## Frequently asked questions
+
+**Is name-based Kundali Milan ever accurate?**
+Only by coincidence. Name-derived signs do not come from the Moon's birth position, which is what Ashtakoota actually compares. A name match can agree with a Moon-chart match, but the agreement is luck, not a check.
+
+**How accurate does the birth time need to be for Kundali Milan?**
+Within about an hour is usually safe, except near a nakshatra boundary, where even 20–40 minutes can flip the nakshatra. If either Moon sits within about a degree of a boundary, verify the birth time against a record before trusting the score.
+
+**Can I do Kundali Milan without a birth time?**
+You can get an approximate Moon position from date and place alone, but it is provisional: the Moon moves about 13 degrees a day, so an unknown time leaves a wide uncertainty band. Treat date-only results as indicative, and confirm with an exact time before making decisions.
+
+**Why do different websites give different Milan scores for the same couple?**
+Different ayanamsa values, different birth-detail handling, and different rules for borderline kootas. Compare the koota-by-koota breakdowns to find the differing factor, rather than picking the score you prefer.
+
+**Does a bad Milan score mean the couple should not marry?**
+No — it means the match needs a wider reading: the 7th house, Navamsha, dasha timing and the couple's own character and communication. Milan is a screening system, not a veto, and a low score with strong wider indicators is read differently from a low score where everything agrees.
+
+Run a proper Moon-based check, with the full eight-koota breakdown, on the [Kundali Milan Calculator](/tools/kundali-milan).`
+  },
 ];
