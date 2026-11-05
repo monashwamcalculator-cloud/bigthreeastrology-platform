@@ -38,4 +38,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "kundali-milan-score-explained-guna-ranges", title: "Kundali Milan Score Explained: What Your Guna Total Means" },
   { slug: "kundali-milan-doshas-exceptions-cancellations", title: "Kundali Milan Doshas: Nadi, Bhakoot & Manglik Exceptions" },
   { slug: "kundali-milan-mistakes-name-matching-birth-time", title: "Kundali Milan Mistakes: Name Matching & Birth-Time Traps" },
+  { slug: "moon-sign-calculation-vedic-rashi-western", title: "How Your Moon Sign Is Calculated: Vedic Rashi vs Western" },
+  { slug: "moon-sign-reading-element-house-daily-life", title: "How to Read Your Moon Sign by Element and House" },
+  { slug: "moon-sign-mistakes-sun-sign-horoscope-traps", title: "Moon Sign Mistakes: Sun-Sign Horoscopes and Other Traps" },
 ];
