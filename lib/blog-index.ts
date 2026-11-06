@@ -41,4 +41,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "moon-sign-calculation-vedic-rashi-western", title: "How Your Moon Sign Is Calculated: Vedic Rashi vs Western" },
   { slug: "moon-sign-reading-element-house-daily-life", title: "How to Read Your Moon Sign by Element and House" },
   { slug: "moon-sign-mistakes-sun-sign-horoscope-traps", title: "Moon Sign Mistakes: Sun-Sign Horoscopes and Other Traps" },
+  { slug: "angel-numbers-111-999-meaning-guide", title: "Angel Numbers 111 to 999: What Each Sequence Means" },
+  { slug: "angel-numbers-decode-any-sequence", title: "How to Decode Any Angel Number You Keep Seeing" },
+  { slug: "angel-number-personal-calculation-myths", title: "Your Personal Angel Number: Calculation & Myths" },
 ];
