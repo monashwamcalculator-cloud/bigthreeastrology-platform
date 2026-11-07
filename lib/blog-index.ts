@@ -44,4 +44,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "angel-numbers-111-999-meaning-guide", title: "Angel Numbers 111 to 999: What Each Sequence Means" },
   { slug: "angel-numbers-decode-any-sequence", title: "How to Decode Any Angel Number You Keep Seeing" },
   { slug: "angel-number-personal-calculation-myths", title: "Your Personal Angel Number: Calculation & Myths" },
+  { slug: "sun-sign-reading-element-modality-work-love", title: "How to Read Your Sun Sign at Work and in Love" },
+  { slug: "sun-sign-cusp-dates-why-dates-shift", title: "Sun Sign Cusp Dates: Why Your Sign Can Shift a Day" },
+  { slug: "sun-sign-mistakes-compatibility-horoscope-myths", title: "Sun Sign Mistakes: Compatibility & Horoscope Myths" },
 ];
