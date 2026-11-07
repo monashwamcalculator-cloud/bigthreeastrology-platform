@@ -34,6 +34,12 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "future-spouse-prediction-vedic-astrology",
   ],
   "black-moon-lilith": ["lilith-sign-meaning-shadow-independence-authenticity"],
+  // Sun-sign cluster (blogs 38-40, 7 Nov 2026): rail otherwise shows the
+  // 31 Oct guide + a moon-sign post, and none of the new cluster blogs.
+  "sun-sign": [
+    "sun-sign-reading-element-modality-work-love",
+    "sun-sign-cusp-dates-why-dates-shift",
+  ],
 };
 
 export function getRelatedBlogSlugs(tool: ToolDefinition): string[] {
