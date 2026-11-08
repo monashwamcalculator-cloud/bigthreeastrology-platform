@@ -46,7 +46,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "angel-number-personal-calculation-myths", title: "Your Personal Angel Number: Calculation & Myths" },
   { slug: "sun-sign-reading-element-modality-work-love", title: "How to Read Your Sun Sign at Work and in Love" },
   { slug: "sun-sign-cusp-dates-why-dates-shift", title: "Sun Sign Cusp Dates: Why Your Sign Can Shift a Day" },
-  { slug: "sun-sign-mistakes-compatibility-horoscope-myths", title: "Sun Sign Mistakes: Compatibility & Horoscope Myths" },,
+  { slug: "sun-sign-mistakes-compatibility-horoscope-myths", title: "Sun Sign Mistakes: Compatibility & Horoscope Myths" },
   { slug: "life-path-number-meaning-1-9-master-numbers", title: "Life Path Numbers 1-9 & Master Numbers Explained" },
   { slug: "life-path-number-calculation-step-by-step", title: "Calculate Your Life Path Number: Step by Step" },
   { slug: "life-path-number-mistakes-reduction-karmic-debt", title: "Life Path Number Mistakes: 7 Traps to Avoid" },
