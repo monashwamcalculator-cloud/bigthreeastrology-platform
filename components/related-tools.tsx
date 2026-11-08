@@ -40,6 +40,13 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "sun-sign-reading-element-modality-work-love",
     "sun-sign-cusp-dates-why-dates-shift",
   ],
+  // Life-path-number cluster (blogs 41-43, 8 Nov 2026): rail otherwise
+  // shows the older compatibility guide + blog 41 only; override points it
+  // at the first two cluster blogs (blog 43 reached via siblings).
+  "life-path-number": [
+    "life-path-number-meaning-1-9-master-numbers",
+    "life-path-number-calculation-step-by-step",
+  ],
 };
 
 export function getRelatedBlogSlugs(tool: ToolDefinition): string[] {
