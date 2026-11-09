@@ -50,4 +50,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "life-path-number-meaning-1-9-master-numbers", title: "Life Path Numbers 1-9 & Master Numbers Explained" },
   { slug: "life-path-number-calculation-step-by-step", title: "Calculate Your Life Path Number: Step by Step" },
   { slug: "life-path-number-mistakes-reduction-karmic-debt", title: "Life Path Number Mistakes: 7 Traps to Avoid" },
+  { slug: "how-to-read-your-kundli-lagna-moon-houses", title: "How to Read Your Kundli: Lagna, Moon & Houses" },
+  { slug: "how-kundli-calculated-lahiri-sidereal-time", title: "How a Kundli Is Calculated: Lahiri & Sidereal Time" },
+  { slug: "kundli-mistakes-wrong-time-chart-traps", title: "Kundli Mistakes: Wrong Time, Wrong Chart & 5 More" },
 ];

@@ -4639,4 +4639,244 @@ A: Yes — but read the pair, not the verdict. The [Life Path Compatibility Matc
 
 Check yours the right way with the [Life Path Number Calculator](/tools/life-path-number), learn the method in our [calculation guide](/blog/life-path-number-calculation-step-by-step), and read what the result means in our [meanings guide](/blog/life-path-number-meaning-1-9-master-numbers).`,
   },
+  // BLOG 44
+  {
+    id: "blog-44",
+    title: "How to Read Your Kundli: Lagna, Moon & Houses",
+    slug: "how-to-read-your-kundli-lagna-moon-houses",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "kundli",
+    metaDescription: "Learn to read your Janam Kundli step by step: Lagna first, then the Moon and its nakshatra, then the grahas house by house — worked through on a real chart.",
+    image: "/blog/kundli-reading.jpg",
+    createdAt: new Date("2026-11-09"),
+    updatedAt: new Date("2026-11-09"),
+    content: `> **Executive Overview**: A kundli is read in a fixed order, and the order is half the skill: Lagna first, because it sets the twelve houses; then the Moon, because it gives your rashi and birth star; then the nine grahas house by house, where a planet's house shows the area of life it works through and its sign shows the style. This guide walks that order through a real chart — the midnight chart cast for Delhi as 14 August 1947 turned into the 15th — so you can read your own the same way. Generate yours first with the [Free Kundli Generator](/tools/kundli), then follow along.
+
+A Janam Kundli looks cryptic the first time you see it: a diamond full of numbers and abbreviations, no labels, no legend. But it is a map, and like any map it becomes readable once you know what the symbols stand for and in what order to look at them. The mistake most beginners make is starting with the planet they have heard of — Saturn, usually, or whichever graha sits somewhere dramatic — and reading that one placement as if it were the whole chart. A kundli does not work like that. Its meaning comes from the pattern: which sign is rising, where the Moon sits, and how the nine grahas are spread across the twelve houses.
+
+Read it in the order below and the chart starts to speak in sentences instead of fragments. The worked example throughout is a chart whose placements are a matter of public record: the independence chart, cast for midnight in Delhi as 14 August 1947 turned into the 15th. It has a Taurus Lagna, the Moon in Cancer in Pushya nakshatra, and five grahas gathered in one house — a chart with enough going on to demonstrate every step, and one you can check against our own [Free Kundli Generator](/tools/kundli) if you enter that date, time and place.
+
+## Step 1: start with the Lagna — the first house
+
+The Lagna, or Ascendant, is the sign that was rising on the eastern horizon at the exact moment and place of birth. In the North Indian diamond chart our [Free Kundli Generator](/tools/kundli) draws, it always sits in the top-centre house, marked with the word Lagna or the abbreviation Lg. Everything else in the chart is counted from it: the Lagna sign is the first house, the next sign clockwise is the second house, and so on around all twelve.
+
+Why does the Lagna come first? Because it frames the whole chart — temperament, body, approach to life, and the direction the rest of the reading takes. It also sets the house meanings: the same planet in the same sign means something different depending on which house it falls in, and the houses are only fixed once the Lagna is known. Two people born on the same day in the same city can have completely different charts if one was born at dawn and the other at noon, because the Lagna moves through a full sign in about two hours.
+
+In our worked example the Lagna is Taurus. That makes Taurus the first house and fixes the rest: Gemini second, Cancer third, Leo fourth, Virgo fifth, Libra sixth, Scorpio seventh, Sagittarius eighth, Capricorn ninth, Aquarius tenth, Pisces eleventh, Aries twelfth. The Lagna's lord — the planet that rules Taurus, which is Venus — becomes an important planet for the whole chart, so note where Venus sits before moving on. Here Venus sits in the third house, in Cancer, alongside four other grahas. That cluster is the first thing a reader notices after the Lagna itself, and we will come back to it in step 3.
+
+One practical check before you trust any Lagna: look at its degree. Our [Free Kundli Generator](/tools/kundli) shows it. A Lagna at 28° of a sign is two degrees from flipping into the next sign, which means a birth time off by fifteen minutes could change the whole chart. A Lagna at 12° sits comfortably mid-sign, and a small time error changes nothing. If your Lagna is near an edge and your birth time is approximate, treat the reading as provisional — our guide to [kundli mistakes](/blog/kundli-mistakes-wrong-time-chart-traps) explains how to handle exactly that case.
+
+## Step 2: read the Moon — your rashi and birth star
+
+After the Lagna, read the Moon. In Vedic astrology the Moon matters more than the Sun for day-to-day reading: your Moon sign is your rashi, the sign your horoscope follows and the sign used in matching, and the Moon's nakshatra — its birth star — anchors your Vimshottari dasha sequence, the timeline of planetary periods that runs through your life.
+
+The Moon changes sign about every two and a half days and moves through a nakshatra roughly once a day, so its position is sensitive to the birth date but forgiving of small time errors: a few hours either way rarely changes the Moon's sign, and usually not its nakshatra either. That is why a chart cast from an approximate time can still be read confidently at the Moon level, even when the Lagna is uncertain.
+
+In the 1947 chart the Moon sits in Cancer, in Pushya nakshatra, first pada. Cancer is the Moon's own sign, which traditional reading treats as a strong placement, and Pushya is ruled by Saturn — which is why the dasha sequence for this chart opens with a long Saturn period. The Moon's house matters as much as its sign: here it is in the third house, the house of courage, initiative, communication and siblings, sitting with the Sun, Mercury, Venus and Saturn. Read the Moon as your emotional weather — what you need in order to feel safe, how you recover from stress, what kind of care actually soothes you — and read its house as the area of life where that weather shows up most.
+
+If you want the full method behind the Moon's position, including how a nakshatra is computed from the Moon's longitude, our guide to [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time) works the arithmetic through step by step. For the Moon sign on its own, the [Moon Sign Calculator](/tools/moon-sign) gives you the rashi and its reading in one step.
+
+![A hand tracing the diamond-shaped houses of a hand-drawn Vedic kundli chart with a pencil](/blog/in-kundli-reading-1.jpg)
+
+## Step 3: walk the grahas house by house
+
+Now walk the nine grahas through the houses, one house at a time. The rule for every placement is the same: the house shows the area of life, the sign shows the style, and the planet shows the kind of energy. A planet in its own sign or exalted is traditionally read as strong; a planet in the sign opposite its own is read as weaker; a planet sharing a house with others is read together with them, not in isolation.
+
+Take the 1947 chart house by house. The first house, Taurus, holds Rahu — the north node, read as ambition, appetite and the foreign or unconventional. The second house, Gemini, holds Mars: the house of wealth, speech and family, with Mars lending it directness and force. The third house, Cancer, holds the great gathering: Sun, Moon, Mercury, Venus and Saturn together. Five grahas in one house dominate any chart, and the third house is initiative and communication — a concentration of energy in exactly the house of starting things and speaking up. The sixth house, Libra, holds Jupiter: the house of competition, service and overcoming opposition, with Jupiter, the planet of expansion and counsel, placed there. The seventh house, Scorpio, holds Ketu, exactly opposite Rahu — the two nodes always sit opposite each other, so finding one tells you the other. The remaining houses — fourth, fifth, eighth, ninth, tenth, eleventh and twelfth — are empty in this chart.
+
+That last point matters, because beginners often worry about empty houses. An empty house is not a missing part of life. It simply means no graha is placed there, and the house is read through its lord instead: find the planet that rules the sign on that house's cusp and read that planet's placement. In this chart the tenth house is Aquarius, ruled by Saturn — and Saturn sits in the third house in Cancer, so the tenth house is read partly through that placement. Empty houses are normal; most charts have several, and a chart with a planet in every house would be the unusual one.
+
+Read the grahas in combination, not as a list. The Sun and Moon together in the third house is one statement; Saturn sitting with them adds a second; Mercury and Venus in the same house add a third. A good reading weighs the cluster, then checks which houses those planets rule — Venus rules the Lagna here, Saturn rules the ninth and tenth — and lets the picture build up instead of assigning a verdict to each planet separately.
+
+## What to read next, once the chart makes sense
+
+A kundli is the foundation, not the whole building. Three things are traditionally read off it, in this order. First, the dasha sequence: the Moon's nakshatra fixes which planetary period you are born into and how much of it remains — for the 1947 chart, Pushya gives a Saturn period with about 18 years still to run, which is why the dasha timeline opens with Saturn, then Mercury, then Ketu. The [Dasha Calculator](/tools/dasha-calculator) computes your own sequence, and our [Vimshottari Dasha guide](/blog/vimshottari-dasha-explained-planetary-periods) explains how to read it. Second, the divisional charts, above all the Navamsha (D9), which divides each sign into nine parts and is read for marriage and inner strength — our [Navamsha guide](/blog/navamsha-d9-chart-marriage-destiny) covers it. Third, matching: two kundlis compared across the eight Ashtakoota tests, which is what the [Kundali Milan Calculator](/tools/kundali-milan) does, scored out of 36 gunas.
+
+None of those layers changes the chart itself. They are readings of the same positions from different angles, which is why getting the base chart right matters so much: a wrong Lagna corrupts every layer built on it. That is also why the calculation matters — how the chart is actually cast from a birth date, time and place is the subject of our guide to [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time), and the traps that most often corrupt it are collected in our [kundli mistakes guide](/blog/kundli-mistakes-wrong-time-chart-traps).
+
+![An open astrology book showing a zodiac wheel beside a glowing brass lamp at dusk](/blog/in-kundli-reading-2.jpg)
+
+## Frequently asked questions
+
+**Q: Do I need to know my birth time to read my kundli?**
+A: For a full reading, yes — the Lagna changes sign roughly every two hours, so without a time you cannot fix the houses. But the Moon's sign and nakshatra usually survive a few hours of uncertainty, so you can still read the Moon level of the chart. Cast it with your best estimate on the [Free Kundli Generator](/tools/kundli) and check how close the Lagna degree is to a sign edge.
+
+**Q: What is my rashi — my Sun sign or my Moon sign?**
+A: Your Moon sign. In Vedic astrology the rashi is the sign the Moon occupied at your birth, and it is the sign your horoscope and your matching use. The Sun sign is the Western newspaper sign. The two often differ because the systems measure from different zero points — our [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time) guide explains the Lahiri correction behind that difference.
+
+**Q: What does an empty house in my kundli mean?**
+A: Nothing is missing. An empty house has no graha placed in it, so it is read through its lord — the planet ruling the sign on that house. Find where that planet sits and read the house through it. Most charts have several empty houses.
+
+**Q: Why do Rahu and Ketu always sit opposite each other?**
+A: Because they are the two points where the Moon's orbit crosses the Sun's path — the north and south nodes of the Moon. They are always 180° apart by definition, so finding one in your chart tells you the other immediately. In the 1947 chart Rahu sits in the Lagna (Taurus) and Ketu opposite in Scorpio, the seventh house.
+
+**Q: How is a kundli different from a Western birth chart?**
+A: A kundli is sidereal — measured against the fixed stars, with the Lahiri correction of about 23–24° — while a Western chart is tropical, tied to the seasons. The planets are the same; the zero point differs, so placements often land one sign apart. The [Free Kundli Generator](/tools/kundli) casts the sidereal chart, and our calculation guide shows exactly where the difference comes from.
+
+Cast your chart with the [Free Kundli Generator](/tools/kundli), read it Lagna first, Moon second and house by house third — and when you want the numbers behind it, read [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time) before you trust any single placement as a verdict.`,
+  },
+  // BLOG 45
+  {
+    id: "blog-45",
+    title: "How a Kundli Is Calculated: Lahiri & Sidereal Time",
+    slug: "how-kundli-calculated-lahiri-sidereal-time",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "kundli",
+    metaDescription: "How a Janam Kundli is cast: birth time to sidereal time, Lahiri ayanamsa, signs, houses and nakshatra arithmetic — with the 1947 chart worked out.",
+    image: "/blog/kundli-calculation.jpg",
+    createdAt: new Date("2026-11-09"),
+    updatedAt: new Date("2026-11-09"),
+    content: `> **Executive Overview**: Casting a kundli is five steps of astronomy, not guesswork: the birth time is converted to sidereal time to find the Lagna; the planets' positions are taken from an ephemeris; the Lahiri ayanamsa — about 24° today — shifts those positions from the tropical zodiac to the sidereal one; whole-sign houses are counted from the Lagna; and the Moon's longitude is divided into nakshatras and padas. This guide works every step through on the chart cast for midnight in Delhi as 14 August 1947 turned into the 15th, so you can see exactly where each number in your own chart comes from. Try it yourself with the [Free Kundli Generator](/tools/kundli).
+
+A kundli is a snapshot of the sky: where the planets stood, measured against the fixed stars, at one moment in one place. That is all it is — and that is why it can be calculated exactly. Every number in your chart comes from one of five steps, and if you understand the five steps you can check any kundli, spot a wrong one, and know precisely which input matters most. The inputs are only three: your birth date, your birth time, and your birthplace. Everything else is arithmetic.
+
+## Step 1: from clock time to sidereal time — finding the Lagna
+
+The Lagna is the sign rising on the eastern horizon at the birth moment, and it is the only part of the chart that needs the birthplace as well as the time. The calculation runs through sidereal time — star time, which measures the Earth's rotation against the stars rather than against the Sun. A sidereal day is about 23 hours 56 minutes, roughly four minutes shorter than a solar day, so sidereal time gains about four minutes on clock time every day and returns to the same alignment once a year.
+
+In practice the calculation goes like this: the birth date and clock time are converted to Greenwich Mean Time using the birthplace's longitude and time zone; that gives a Julian day number; from the Julian day comes Greenwich sidereal time; and adding the place's longitude (east positive) gives local sidereal time. The local sidereal time, combined with the birthplace's latitude, fixes which degree of which sign was on the eastern horizon — that is the Lagna.
+
+The important consequence is speed. The Lagna moves through a whole sign in about two hours, and through a whole degree in about four minutes. A birth time that is fifteen minutes out moves the Lagna by nearly four degrees — harmless mid-sign, decisive near a boundary. That is why astrologers ask for the time from a certificate rather than from memory, and why our [Free Kundli Generator](/tools/kundli) shows the Lagna degree alongside the sign: the degree tells you how much the time matters. The traps that follow from getting this step wrong — rounded times, wrong cities, forgotten time zones — are collected in our guide to [kundli mistakes](/blog/kundli-mistakes-wrong-time-chart-traps).
+
+## Step 2: where the planets actually are — the ephemeris
+
+The planets' positions come from an ephemeris: a table of ecliptic longitudes computed from orbital mechanics, the same kind of data telescopes and space agencies use. For a birth moment, each planet's longitude is interpolated from the table — the Sun moves about a degree a day, the Moon about thirteen degrees a day, Saturn only about two minutes of arc a day — so the Sun's position is forgiving of a few hours' error while the Moon's is not.
+
+These longitudes are tropical: measured from the vernal equinox, the point where the Sun crosses the celestial equator in March. The tropical zodiac is tied to the seasons, which is why the Sun enters tropical Aries around 21 March every year. A kundli does not use the tropical zodiac. It uses the sidereal zodiac, measured against the fixed stars — and the two zero points have drifted apart over the centuries because the Earth's axis slowly precesses, like a wobbling top. That drift is what the next step corrects.
+
+## Step 3: the Lahiri correction — tropical to sidereal
+
+The difference between the two zodiacs is called the ayanamsa, and the value used across India — and by our [Free Kundli Generator](/tools/kundli) — is the Lahiri ayanamsa. It is roughly 23° in 1947 and roughly 24° today, growing by about 50 arc-seconds a year. To convert a tropical longitude to a sidereal one, you subtract the ayanamsa.
+
+That single subtraction is the reason your Vedic Moon sign often differs from the Sun sign you grew up reading in the newspaper. A planet sitting at, say, 4° of tropical Leo becomes roughly 10° of sidereal Cancer once 24° are taken off — same planet, same sky, different measuring stick. A planet near the start of a tropical sign therefore often lands in the previous sign in your kundli, which surprises people the first time they see it. It is not an error and not a different planet: it is the same longitude read against the stars instead of the seasons.
+
+This is also why two calculators can disagree by a few degrees without either being wrong: different ayanamsa values (Lahiri, Raman, Krishnamurti) differ by a degree or two, and a planet within a degree or two of a sign edge can flip signs between them. Our tool uses Lahiri throughout, so its charts are consistent with the tradition most Indian astrologers use — and if you want to know what your chart means once it is cast, our guide to [how to read your kundli](/blog/how-to-read-your-kundli-lagna-moon-houses) takes it from there.
+
+![An open old astronomy book showing dense tables of planetary longitudes with a brass divider compass](/blog/in-kundli-calculation-1.jpg)
+
+## Step 4: signs, whole-sign houses and the diamond
+
+Once every graha has a sidereal longitude, the signs follow immediately: the zodiac is twelve signs of 30° each, Aries 0–30°, Taurus 30–60°, and so on through Pisces 330–360°. A longitude of 94° falls in Cancer (90–120°). The houses are then counted whole-sign from the Lagna: the entire Lagna sign is the first house, the next sign the second, and so on — no partial houses, no cusps cutting signs in two. That is why the chart can be drawn as the North Indian diamond, with the houses fixed in place and the sign numbers moving around the Lagna.
+
+For the 1947 chart, the Lagna comes out as Taurus, which fixes the houses: Gemini second, Cancer third, Libra sixth, Scorpio seventh. The planets fall where the longitudes put them: Mars in Gemini, the Sun, Moon, Mercury, Venus and Saturn in Cancer, Jupiter in Libra, Rahu in Taurus itself, Ketu opposite in Scorpio. The chart our tool draws for that date, time and place matches the published Lahiri chart for the independence moment sign for sign — which is the point of doing the arithmetic properly rather than assigning signs from a date-range table.
+
+## Step 5: nakshatra and pada — the Moon's finer division
+
+The last step divides the zodiac more finely. The 27 nakshatras, or lunar mansions, each span 13°20′ (360° ÷ 27), and each nakshatra is split into four padas of 3°20′. The Moon's nakshatra is found by dividing its longitude by 13°20′; the pada comes from the remainder.
+
+Take the Moon in the 1947 chart. Its sidereal longitude sits just past 4° of Cancer — that is 94° of the zodiac. Pushya, the eighth nakshatra, spans Cancer 3°20′ to 16°40′ (93°20′ to 106°40′), so the Moon is in Pushya, and only about 0.71° into it — the first pada, which runs 3°20′ to 6°40′ of Cancer. That single measurement does two jobs at once: it gives the birth star, and it fixes the Vimshottari dasha sequence, because each nakshatra belongs to one of the nine dasha lords. Pushya belongs to Saturn, whose period lasts 19 years — and since the Moon has travelled only 0.71° of Pushya's 13°20′ span, about 94.7% of that period remains: 17.99 years of Saturn dasha from birth, running to about August 1965, followed by Mercury (17 years, to 1982), Ketu (7, to 1989), Venus (20, to 2009), the Sun (6, to 2015), the Moon (10, to 2025) and Mars (7, to 2032). You can check your own sequence on the [Dasha Calculator](/tools/dasha-calculator), and our [Vimshottari Dasha guide](/blog/vimshottari-dasha-explained-planetary-periods) explains how to read the periods once you have them.
+
+![A star-filled night sky over the domes of an old Indian observatory at dusk](/blog/in-kundli-calculation-2.jpg)
+
+## Divisional charts: the Navamsha in one paragraph
+
+One more layer is worth knowing about, because astrologers refer to it constantly: the divisional charts. The chart above is the Rashi, or D1 — the foundation. The most used division is the Navamsha (D9), which splits each 30° sign into nine parts of 3°20′ and is read above all for marriage and for the inner strength of the planets. A planet that is weak in the Rashi but strong in the Navamsha is traditionally read as gaining strength over time. The Navamsha is a second chart cast from the same longitudes, not a new calculation — and our [Navamsha guide](/blog/navamsha-d9-chart-marriage-destiny) walks through how it is read.
+
+## Why two calculators sometimes disagree a little
+
+If you cast the same birth details on two calculators and get slightly different degrees, three causes cover almost every case. First, the ayanamsa: Lahiri versus Raman or Krishnamurti differ by a degree or two, and a planet near a sign edge can flip. Second, the birth time: a few minutes move the Lagna by a degree and the Moon by a fraction of one. Third, the time zone: old records kept in local mean time, or births outside India, are the classic source of a whole-hour error. A disagreement of a degree or two in a planet's longitude is normal astronomy; a disagreement in the Lagna sign or the Moon's nakshatra means one of the inputs is wrong — and the commonest culprits are listed in our [kundli mistakes guide](/blog/kundli-mistakes-wrong-time-chart-traps), with the fix for each.
+
+## Frequently asked questions
+
+**Q: What is the Lahiri ayanamsa in simple words?**
+A: It is the gap between the tropical zodiac (tied to the seasons) and the sidereal zodiac (tied to the fixed stars) — about 24° today, growing by roughly 50 arc-seconds a year. A kundli subtracts it from every planet's tropical longitude. That is why your Vedic signs often sit one sign behind your Western ones.
+
+**Q: Do I need an ephemeris to cast a kundli by hand?**
+A: You need a table of planetary longitudes for the birth date, plus the sidereal-time calculation for the Lagna. Doing it by hand is a good way to learn the method, but for an actual reading use a calculator — our [Free Kundli Generator](/tools/kundli) does all five steps instantly and shows the Lagna degree so you can judge the time sensitivity yourself.
+
+**Q: Why does my Moon sign differ from my Sun sign?**
+A: They are different planets in different systems. Your Sun sign is the tropical sign the Sun occupied; your rashi is the sidereal sign the Moon occupied. The Moon moves fast and the two zodiacs differ by about 24°, so the two signs often land apart. Read your rashi from the [Moon Sign Calculator](/tools/moon-sign).
+
+**Q: What is a pada, and why does it matter?**
+A: A pada is a quarter of a nakshatra — 3°20′ of the zodiac. It matters because the dasha balance is computed from how far the Moon has travelled through its nakshatra, and because some matching tests (notably Nadi) are cancelled when the padas differ. In the 1947 chart the Moon is in Pushya pada 1, which is why the Saturn dasha balance comes out at 17.99 years.
+
+**Q: Is the North Indian diamond the only way to draw a kundli?**
+A: No — it is the same chart drawn a different way from the South Indian square, where the signs stay fixed in a grid and the Lagna marker moves. The positions underneath are identical. If a chart looks unfamiliar, check which style it is before assuming it is wrong; the confusion is the subject of Mistake 3 in our [kundli mistakes guide](/blog/kundli-mistakes-wrong-time-chart-traps).
+
+Cast your own chart with the [Free Kundli Generator](/tools/kundli) and check each number against these five steps — then read what it means in our guide to [how to read your kundli](/blog/how-to-read-your-kundli-lagna-moon-houses), and steer clear of the traps in our [kundli mistakes guide](/blog/kundli-mistakes-wrong-time-chart-traps).`,
+  },
+  // BLOG 46
+  {
+    id: "blog-46",
+    title: "Kundli Mistakes: Wrong Time, Wrong Chart & 5 More",
+    slug: "kundli-mistakes-wrong-time-chart-traps",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "kundli",
+    metaDescription: "Seven kundli mistakes that change the whole chart: wrong birth time, wrong place, North vs South confusion, Sun sign as rashi, and dosha panic.",
+    image: "/blog/kundli-mistakes.jpg",
+    createdAt: new Date("2026-11-09"),
+    updatedAt: new Date("2026-11-09"),
+    content: `> **Executive Overview**: Most wrong kundlis are not wrong because astrology failed — they are wrong because an input was. A rounded birth time can flip the Lagna, a wrong city shifts the horizon, a North Indian chart read as a South Indian one scrambles every house, and a Western Sun sign mistaken for the rashi changes the whole reading. This guide takes apart the seven mistakes that corrupt the most charts, each with a worked example and the fix — so the chart you read is the chart the sky actually showed. Start from a correct chart on the [Free Kundli Generator](/tools/kundli), then check it against the list below.
+
+A kundli is only as good as its inputs. The calculation itself is exact astronomy — planets, sidereal time, the Lahiri correction — but it is exact about the moment and place you give it. Give it the wrong moment or the wrong place and it will produce a perfectly calculated chart of a birth that never happened. The seven mistakes below are ordered by how often they happen, and the first two alone account for most of the "my kundli feels wrong" complaints. Each section gives you the mistake, a concrete example of the damage, and the correction.
+
+## Mistake 1: a rounded or guessed birth time
+
+This is the commonest error and the most damaging, because the Lagna moves through a whole sign in about two hours — roughly four minutes per degree. A birth time remembered as "around 6 in the morning" can easily be half an hour out, which moves the Lagna by seven or eight degrees. Mid-sign, that changes nothing. Near a sign edge, it changes the entire chart: every house shifts by one sign, every house lord changes, and the dasha sequence may change too.
+
+Worked example: suppose the true Lagna is 28° Taurus, two degrees from Gemini. A birth time recorded thirty minutes late pushes the calculated Lagna to about 5° Gemini. The chart now reads Gemini rising instead of Taurus rising; the Moon that sat in the third house now sits in the second; the whole reading is built on the wrong foundation — and nothing in the chart itself announces the error, because a Gemini Lagna chart is internally consistent. It is simply the wrong chart.
+
+**The fix:** get the time from a birth certificate or hospital record, not from family memory. If you only have an approximate time, cast the chart with your best estimate on the [Free Kundli Generator](/tools/kundli) and look at the Lagna degree. If it sits mid-sign, a small error is harmless. If it sits within a few degrees of an edge, treat the Lagna-dependent parts of the reading as provisional and look for the exact time — and read the Moon level of the chart meanwhile, since the Moon's sign and nakshatra usually survive a few hours of uncertainty. Our guide to [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time) shows exactly how the time flows into the Lagna.
+
+## Mistake 2: the wrong birthplace — or the wrong time zone
+
+The Lagna is computed from the horizon at the birthplace, so the city matters as much as the clock. Entering the city you grew up in instead of the city you were born in is a frequent error, and for births a few hundred kilometres apart it can shift the Lagna by several degrees. Births outside India add a second trap: the time zone. A birth at 6 a.m. in London is not 6 a.m. in Indian time, and entering it as if it were shifts the whole chart by five and a half hours — more than two whole Lagna signs.
+
+**The fix:** enter the actual town of birth, and let the calculator handle the time zone from the place, not from memory. If your birth record gives a time in local time for a place that used a different offset then — old family records, or births abroad — convert it to the correct offset before entering it. A quick sanity check: if the chart's Lagna or Moon sign contradicts a family-kept kundli made at the time of birth, suspect the place or the zone before suspecting the astrology.
+
+![An old paper birth certificate and a vintage brass pocket watch on a wooden desk](/blog/in-kundli-mistakes-1.jpg)
+
+## Mistake 3: reading a North Indian chart as a South Indian one
+
+The same chart is drawn two ways, and mixing them up scrambles everything. In the North Indian diamond, the houses stay fixed — the Lagna is always the top-centre house — and the signs move, printed as small numbers (1 for Aries through 12 for Pisces) inside each house. In the South Indian square, the signs stay fixed in a grid and the Lagna marker moves to whichever box holds the rising sign. The positions underneath are identical; the drawing is not.
+
+The mistake happens when someone opens a North Indian chart and reads it as if the boxes were fixed signs — the way a South Indian chart works. Suddenly every planet appears to sit in the wrong house, the Lagna seems to be in the wrong place, and the chart looks like nonsense. It is not nonsense; it is a correct chart read with the wrong key.
+
+**The fix:** before reading any chart, identify the style. If the top-centre house is marked Lagna and the houses contain small sign numbers, it is North Indian — read the houses, and find each planet's sign from the number in its house. If the boxes are fixed signs with a Lagna marker somewhere in the grid, it is South Indian. Our [Free Kundli Generator](/tools/kundli) draws the North Indian diamond, and our guide to [how to read your kundli](/blog/how-to-read-your-kundli-lagna-moon-houses) walks through that layout house by house.
+
+## Mistake 4: using the Sun sign as your rashi
+
+Ask most people their sign and they will give you their Sun sign — the tropical sign the Sun occupied, the one newspaper horoscopes use. In Vedic astrology your rashi is your Moon sign, measured sidereally. The two often differ: the Sun moves slowly and the Moon moves fast, and the Lahiri correction of about 24° shifts everything back by nearly a whole sign. Someone born with the tropical Sun in Leo very commonly has a sidereal Moon in Cancer — and if they read Leo as their rashi, every horoscope, every matching test and every dasha reading starts from the wrong sign.
+
+**The fix:** find your Moon sign from the kundli itself, or in one step from the [Moon Sign Calculator](/tools/moon-sign). Your rashi is the sign the Moon occupied at your birth, and your nakshatra is the Moon's birth star within it. Keep the Sun sign for what it is — the Western sign, useful in its own system — and never let it stand in for the rashi in a Vedic reading.
+
+## Mistake 5: mixing a Western (tropical) chart into a Vedic reading
+
+This is Mistake 4's bigger sibling. A Western birth chart is tropical, tied to the seasons; a kundli is sidereal, tied to the fixed stars. The planets are the same and the sky is the same, but the zero points differ by about 24°, so a Western chart's placements typically land one sign ahead of the kundli's. Reading a Western chart's houses and signs as if they were a kundli — or comparing a Western Sun sign with a Vedic Moon sign as if they were the same kind of thing — produces a hybrid that belongs to neither system.
+
+**The fix:** decide which system you are reading in, and use a chart cast in that system. If you want the Vedic reading, cast the kundli on the [Free Kundli Generator](/tools/kundli), which uses the sidereal zodiac with the Lahiri ayanamsa throughout. The arithmetic behind the difference — and why it is about 24° today — is worked through in our guide to [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time).
+
+## Mistake 6: treating a dosha or a dasha as a verdict
+
+A kundli shows placements; it does not hand down sentences. Two readings get treated as verdicts more than any others. The first is Manglik dosha: Mars in the 1st, 2nd, 4th, 7th, 8th or 12th house is read as Manglik, and families have called off matches over it — yet classical texts list many cancellations, and the dosha is only one factor in a matching that also weighs the full charts and the dashas running at the time. The second is Sade Sati: Saturn's seven-and-a-half-year transit over the Moon is feared as a period of unbroken hardship, when the tradition reads it as a period of restructuring that falls differently depending on the chart. And dasha periods are read as if a "bad" dasha guarantees bad years, when a dasha describes the themes in play, not the outcome.
+
+**The fix:** read every dosha and dasha with its cancellations and its context. Check Manglik dosha properly — including the cancellation rules — on the [Manglik Dosha Calculator](/tools/manglik-dosha), and read our [Manglik guide](/blog/manglik-dosha-meaning-checks-cancellations) before letting one placement decide anything. For Sade Sati, the [Sade Sati Calculator](/tools/sade-sati) shows your actual phase rather than a rumour. And for matching, the [Kundali Milan Calculator](/tools/kundali-milan) scores all eight Ashtakoota tests out of 36 gunas instead of judging a match on a single dosha.
+
+## Mistake 7: trusting a chart that shows no working
+
+Some apps and websites produce a kundli from a name, or from a date alone, or with no Lagna degree, no longitudes and no method stated anywhere. A chart cast from a name is not a chart at all — there is no astronomy in it. A chart from a date alone cannot have a Lagna, because the Lagna needs a time and a place; what it shows is at best the Moon's sign, presented as if it were the whole chart. And a chart that hides its method cannot be checked: if it will not show you the Lagna degree, the planetary longitudes or the ayanamsa it used, you have no way to know whether it calculated anything.
+
+**The fix:** use a calculator that shows its working. Our [Free Kundli Generator](/tools/kundli) displays the Lagna with its degree, all nine grahas with signs, degrees and houses, and the Moon's nakshatra and pada — and states the method (sidereal, Lahiri, whole-sign houses) on the page. If a chart disagrees with it, compare the workings: the disagreement will usually trace back to one of the six mistakes above, and now you know which one to check first.
+
+![A diamond-shaped North Indian chart and a square-grid South Indian chart drawn side by side on paper](/blog/in-kundli-mistakes-2.jpg)
+
+## Frequently asked questions
+
+**Q: My family kundli and an online calculator disagree. Which is right?**
+A: Compare the inputs first, not the conclusions. Check the birth time, the birthplace and the time zone — Mistakes 1 and 2 cover most disagreements. Then check the chart style (Mistake 3) and the ayanamsa: a family kundli cast with Lahiri and an app using a different ayanamsa can differ by a degree or two near sign edges. If the Lagna sign itself differs, one of the inputs is wrong.
+
+**Q: I do not know my exact birth time. Is my kundli useless?**
+A: No — it is incomplete at the Lagna level and usable at the Moon level. Cast it with your best estimate on the [Free Kundli Generator](/tools/kundli): the Moon's sign and nakshatra usually survive a few hours of uncertainty, and the dasha sequence follows the Moon. Treat the houses as provisional until the time is pinned down, and check birth certificates, hospital records and family-kept kundlis for the exact time.
+
+**Q: Is Manglik dosha really a reason to reject a match?**
+A: Not by itself. It is one factor, with classical cancellations, inside a matching that also weighs the 36-guna score, the 7th house and the dashas running at the time. Check the full picture on the [Kundali Milan Calculator](/tools/kundali-milan) and read our [Manglik guide](/blog/manglik-dosha-meaning-checks-cancellations) before letting one placement decide a match.
+
+**Q: Why does my kundli show a different Moon sign from my horoscope app?**
+A: Because the app is probably showing your tropical Sun sign and calling it your sign, while the kundli shows your sidereal Moon sign — your rashi. Different planet, different zodiac, different answer. Use the [Moon Sign Calculator](/tools/moon-sign) for the rashi, and keep the two systems separate.
+
+**Q: Can a kundli be cast from a name alone?**
+A: No. A kundli is a snapshot of the sky at a moment in a place; a name carries no astronomical information. Any "kundli" produced from a name alone is invented. You need at minimum a birth date — and for the full chart, a time and a place as well.
+
+Cast your chart on the [Free Kundli Generator](/tools/kundli), check it against these seven mistakes, and then read it properly in our guide to [how to read your kundli](/blog/how-to-read-your-kundli-lagna-moon-houses) — with the arithmetic behind it in [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time).`,
+  },
 ];
