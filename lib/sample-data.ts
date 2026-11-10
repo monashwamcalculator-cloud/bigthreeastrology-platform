@@ -4879,4 +4879,276 @@ A: No. A kundli is a snapshot of the sky at a moment in a place; a name carries 
 
 Cast your chart on the [Free Kundli Generator](/tools/kundli), check it against these seven mistakes, and then read it properly in our guide to [how to read your kundli](/blog/how-to-read-your-kundli-lagna-moon-houses) — with the arithmetic behind it in [how a kundli is calculated](/blog/how-kundli-calculated-lahiri-sidereal-time).`,
   },
+  // BLOG 47
+  {
+    id: "blog-47",
+    title: "How to Read Today's Panchang: Tithi to Karana",
+    slug: "how-to-read-todays-panchang-tithi-nakshatra",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "daily-panchang",
+    metaDescription: "Read today's panchang in five minutes: tithi, vara, nakshatra, yoga and karana explained in plain words, with a worked example you can check.",
+    image: "/blog/panchang-reading.jpg",
+    createdAt: new Date("2026-11-10"),
+    updatedAt: new Date("2026-11-10"),
+    content: `> **Executive Overview**: A panchang page looks like a wall of Sanskrit, but it is only five numbers: the tithi (lunar day), the vara (weekday), the nakshatra (the Moon's star), the yoga (a combined Sun-Moon quality) and the karana (half a tithi). Read them in that order and the day's shape appears: the tithi tells you which lunar day is running and when it ends, the nakshatra tells you the Moon's quality, and the yoga and karana tell you whether the day favours beginnings. This guide explains each limb in plain words, works one full example through with real arithmetic, and gives you a five-minute daily routine. Start with today's numbers on the [Daily Panchang](/tools/daily-panchang) and follow along.
+
+Open any panchang and the first thing you meet is a row of unfamiliar words: Tithi, Vara, Nakshatra, Yoga, Karana. Under them sit more words — Shukla Paksha, Krishna Pratipada, Swati, Siddhi, Balava — and a set of times that do not match your wall calendar. It is easy to conclude the whole thing is only for priests and astrologers, and to close the page. That would be a pity, because the panchang is the oldest daily-planning tool in India, and it is built from exactly five ideas. Learn those five and every panchang, printed or digital, becomes readable in minutes.
+
+The word itself gives the structure away. Pancha means five and anga means limb, so a panchang is a five-limbed almanac. The five limbs are not five separate predictions. They are five measurements of the same day, taken from the positions of the Sun and the Moon. Together they describe the quality of a day far more precisely than a date alone ever could.
+
+## The one rule first: the day begins at sunrise
+
+Before the five limbs, one rule decides everything else. In the Vedic tradition a day does not begin at midnight. It begins at sunrise. The tithi in force at sunrise is the day's tithi, the nakshatra in force at sunrise is the day's nakshatra, and so on. This is why a tithi can appear on two civil dates, or why a festival falls on a date that looks wrong on a wall calendar: the panchang follows the sky, not the midnight boundary.
+
+It is also why the panchang depends on your city. Sunrise in Guwahati arrives well before sunrise in Mumbai in clock terms, because the two cities sit far apart in longitude, and the whole panchang shifts with it. A panchang cast for Delhi is not the panchang for Chennai, even on the same date. Use the [Daily Panchang](/tools/daily-panchang) for your own place, or check that the printed panchang you are reading was cast for your city. Our guide to [how a panchang is calculated](/blog/how-panchang-calculated-sunrise-place-time) works through the sunrise and city arithmetic in full.
+
+## The five limbs in plain words
+
+**Tithi — the lunar day.** The tithi measures how far the Moon has pulled away from the Sun. The angle between them grows in steps of 12 degrees, and each completed step is one tithi. There are 30 tithis in a lunar month. The first 15 belong to Shukla Paksha, the bright fortnight, as the Moon waxes toward full; the next 15 belong to Krishna Paksha, the dark fortnight, as it wanes toward new. The 15th tithi of the bright half is Purnima, the full Moon; the 30th is Amavasya, the new Moon. The 11th tithi, Ekadashi, is the fasting day many families observe twice a month.
+
+A tithi is an angular event, not a clock event. It lasts while the Moon gains 12 degrees on the Sun, which takes roughly a day but varies from about 19 to 26 hours. So a tithi can begin at 3 in the afternoon, run through the night, and end at 11 the next morning. When you read a panchang, always read the tithi's end time, not just its name. A festival, a fast or a muhurat that depends on a tithi depends on the tithi being in force at the right moment, not merely on the tithi being named for that date.
+
+**Vara — the weekday.** This is the limb everyone already knows. Each day of the week is ruled by a planet: Sunday by the Sun, Monday by the Moon, Tuesday by Mars, Wednesday by Mercury, Thursday by Jupiter, Friday by Venus and Saturday by Saturn. The vara sets the day's broad flavour in the tradition — Monday for the Moon's softness, Thursday for Jupiter's teaching, Saturday for Saturn's discipline — and it decides the Rahu Kaal window for the day, since Rahu Kaal falls in a different day-part on each weekday. Check the day's window on the [Rahu Kaal Calculator](/tools/rahu-kaal) before planning a beginning.
+
+**Nakshatra — the Moon's star.** The zodiac is divided into 27 stars of 13 degrees 20 minutes each, and the nakshatra is simply the star the Moon occupies. It is the limb most people feel most personally, because your birth nakshatra — the star the Moon occupied when you were born — is your birth star in the Vedic system, the basis of your rashi and your dasha sequence. If you know your own, find it in our [nakshatra guide](/blog/nakshatra-meaning-birth-star-vedic-guide). For the day, the nakshatra colours the Moon's quality: Rohini is traditionally read as fertile and steady, Pushya as nourishing, Swati as independent and restless, Shravana as attentive and learning. The day's nakshatra changes roughly once a day, because the Moon moves about 13 degrees a day.
+
+**Yoga — the combined quality.** Yoga comes from adding the Sun and Moon longitudes together and dividing the sum into 27 steps of 13 degrees 20 minutes, giving 27 yogas with names like Priti, Siddhi, Shubha and Vyatipata. Where the nakshatra uses the Moon alone, the yoga uses the two luminaries together, so it describes the combined quality of the day rather than a position. Some yogas are traditionally read as favourable for beginnings — Siddhi, Shubha, Shukla — and a few, notably Vyatipata and Vaidhriti, as days to keep beginnings modest. Treat these as the tradition's reading of the day's quality, not as a verdict on everything you do.
+
+**Karana — half a tithi.** A karana is simply half a tithi, the time the Moon needs to gain 6 degrees on the Sun, so a lunar month holds 60 karanas. Most karanas repeat in a fixed cycle of seven — Bava, Balava, Kaulava, Taitila, Gara, Vanija and Vishti — and four are fixed to particular halves: Kimstughna opens the month, Shakuni and Chatushpada close it. The one to know by name is Vishti, also called Bhadra: tradition treats it as unsuitable for auspicious beginnings, so a panchang that shows Bhadra running is telling you to wait for the next karana before starting something new.
+
+![A hand marking tithi and nakshatra rows on a printed panchang calendar page](/blog/in-panchang-reading-1.jpg)
+
+## A worked example: reading one day end to end
+
+The limbs stop being abstract once you work one day through. Take a teaching snapshot with round numbers, using sidereal longitudes as the [Daily Panchang](/tools/daily-panchang) does: the Sun at 10 degrees, which places it in Aries, and the Moon at 195 degrees, which places it in Libra.
+
+Nakshatra first. Divide the Moon's 195 degrees by 13 degrees 20 minutes, which is 13.333 degrees. The result is 14.625, so the Moon is in the 15th nakshatra, Swati, which spans 186 degrees 40 minutes to 200 degrees. Swati's traditional reading is independence, restlessness and a taste for movement — a day for starting something on your own terms rather than waiting for a committee.
+
+Tithi next. The elongation is the Moon minus the Sun: 195 minus 10 equals 185 degrees. Divide by 12 degrees and you get 15.42, so 15 tithis are complete and the 16th is running. Tithis 1 to 15 are Shukla Paksha and 16 to 30 are Krishna Paksha, so the 16th tithi is Krishna Pratipada, the first day of the dark fortnight. The Moon is just past full and beginning to wane.
+
+Yoga completes the set. Add the longitudes: 10 plus 195 equals 205 degrees. Divide by 13.333 and you get 15.375, so the yoga is the 16th, Siddhi — a name meaning accomplishment, traditionally read as favourable for beginnings. For the karana, the tithi's two halves are the 31st and 32nd karanas of the month, which fall in the repeating cycle as Balava for the first half and Kaulava for the second.
+
+Read together, the day says: Krishna Pratipada under Swati, a waning Moon in a restless star, with a Siddhi yoga and a Balava karana. A traditional reading would call it a fair day for independent beginnings and a poor day for anything that needs a crowd's patience. That is the whole method — five numbers, one sentence. The tool page's own guide works a second example with different numbers, so you can check the arithmetic twice before trusting it.
+
+## Which limb answers which question
+
+Not every limb matters for every question. Use the right one and the panchang stops being noise.
+
+For festivals and fasts, read the tithi and its end time. A fast on Ekadashi is kept while Ekadashi is in force; a festival is celebrated on the tithi named for it at the right hour, usually at sunrise or at the tithi's ruling moment. For the Moon's quality on the day — and for anything to do with your own birth star — read the nakshatra. For whether the day favours a beginning, read the yoga and the karana together, and then cross-check the day's Rahu Kaal window and the [Choghadia](/tools/choghadia) hours, which break the day into good and difficult periods. For the day's broad flavour and its planetary lord, read the vara.
+
+## A five-minute daily routine
+
+You do not need to study the panchang. Five minutes each morning is enough. First, note the tithi and when it ends — that is the day's spine. Second, note the nakshatra and the weekday lord. Third, check the yoga and karana for beginnings, and glance at Rahu Kaal so you do not schedule the one thing that matters inside it. Fourth, if the day carries a festival, a fast or a muhurat, confirm the ruling moment rather than the date. That is the whole routine, and it is the same routine whether you read a printed panchang or the [Daily Panchang](/tools/daily-panchang).
+
+![Sunrise over a temple town on a riverbank, the day beginning at first light](/blog/in-panchang-reading-2.jpg)
+
+## What the panchang does not tell you
+
+Two limits keep the reading honest. First, the panchang describes the day; it does not predict it. A Siddhi yoga does not guarantee success and a Vyatipata yoga does not guarantee failure. The tradition reads these as qualities of timing — conditions that favour or hinder a beginning — not as a forecast of outcomes. Second, the panchang is not the muhurat. A muhurat is a chosen moment inside a day, found by weighing the panchang against the Moon's position, the ascendant and the purpose in hand. The panchang gives you the day's raw material; the muhurat is the craft of choosing within it. The seven traps in that choosing are the subject of our [panchang mistakes guide](/blog/panchang-mistakes-shubh-timing-traps).
+
+Read it this way and the panchang becomes what it was meant to be: not a mystery and not a superstition, but a daily almanac — five measurements of the sky, read in order, used with judgement. Check today's five limbs on the [Daily Panchang](/tools/daily-panchang), work the example above once by hand, and the next panchang you open will read like a weather report: a few numbers, a clear picture, and a decision that is yours to make.
+
+## Frequently asked questions
+
+**Q: What is the difference between a tithi and a date?**
+A: A date is a civil unit that runs from midnight to midnight. A tithi is an angular event: it lasts while the Moon gains 12 degrees on the Sun, which takes about 19 to 26 hours, so it can begin and end at any hour and can span two civil dates. The panchang follows the sky, not the clock.
+
+**Q: Which tithi is today, and why does my panchang show a different one from my calendar app?**
+A: The two are probably using different conventions — the panchang names the tithi in force at sunrise for your city, while an app may show the tithi in force at midnight, or use a different city, or a different ayanamsa. Check the tithi's end time and the city the panchang was cast for before deciding which is right for you.
+
+**Q: What is the difference between nakshatra and yoga if both have 27 divisions?**
+A: Both divide the circle into 27 steps of 13 degrees 20 minutes, but they measure different things. Nakshatra uses the Moon's longitude alone and shows where the Moon is placed. Yoga uses the sum of the Sun and Moon longitudes, so it describes the combined quality of the day rather than a position.
+
+**Q: Is Bhadra (Vishti karana) really a bad time for everything?**
+A: Tradition treats Vishti as unsuitable for auspicious beginnings, and a panchang that shows it running is telling you to wait for the next karana. It is not a ban on ordinary life: routine work, rest and emergencies go on as usual. The caution is about starting something new and important.
+
+**Q: Do I need to know my birth details to use a panchang?**
+A: No. The daily panchang describes the day, and anyone can read it. Birth details matter for your kundli, your rashi and your dasha sequence — which you can explore on the [Moon Sign Calculator](/tools/moon-sign) and the [Free Kundli Generator](/tools/kundli) — but the panchang itself needs only the date and the city.`,
+  },
+  // BLOG 48
+  {
+    id: "blog-48",
+    title: "How Panchang Is Calculated: Sunrise, Place & Time",
+    slug: "how-panchang-calculated-sunrise-place-time",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "daily-panchang",
+    metaDescription: "How a panchang is actually calculated: the sunrise anchor, the five limb computations, why it changes daily, and why your city's panchang differs.",
+    image: "/blog/panchang-calculation.jpg",
+    createdAt: new Date("2026-11-10"),
+    updatedAt: new Date("2026-11-10"),
+    content: `> **Executive Overview**: A panchang is not looked up from a table of dates. It is calculated, every day, from two numbers: the sidereal longitudes of the Sun and the Moon. From those two positions come all five limbs — the tithi from the angle between them, the nakshatra from the Moon alone, the yoga from their sum, the karana from half a tithi — and the weekday from the calendar. The day begins at sunrise, so the whole calculation is anchored to your city's sunrise, which is why a panchang cast for Delhi is not the panchang for Chennai. This guide works the five computations through with a second worked example, explains why the panchang changes every day, and shows why two panchangs sometimes disagree. Follow the arithmetic on the [Daily Panchang](/tools/daily-panchang) and check a published panchang the same way.
+
+A panchang looks like a fixed document — a page of dates and names, printed months in advance. It is not fixed. It is the output of a calculation that runs fresh every day, because the sky it describes never stands still. The Moon moves about 13 degrees a day against the stars, the Sun about one degree, and the five limbs of the panchang are five different ways of measuring those two moving positions. Understand the measurement and you understand why the panchang changes daily, why it differs from city to city, and why two panchangs can disagree without either being wrong.
+
+## The two inputs: the Sun and the Moon
+
+Everything in a panchang comes from two numbers: the sidereal longitudes of the Sun and the Moon for the day, measured in degrees around the zodiac from 0 degrees Aries. Sidereal means measured against the fixed stars, with the Lahiri ayanamsa correction — about 24 degrees in 2026 — applied to convert the tropical positions of a Western ephemeris into the sidereal frame Vedic astrology uses. Get those two longitudes from a real ephemeris and the rest is arithmetic you can do by hand. Get them wrong, or use tropical longitudes without the correction, and every limb comes out shifted by nearly a whole sign.
+
+That is the first thing to check about any panchang you read: it should be built on sidereal positions. A panchang built on tropical longitudes would put the Moon in the wrong nakshatra for much of the month. Our [Daily Panchang](/tools/daily-panchang) uses sidereal positions, and its guide shows the method step by step.
+
+## The sunrise anchor
+
+The second thing to understand is the anchor. The Vedic day begins at sunrise, not at midnight, so the panchang is cast for sunrise at your place. The tithi in force at sunrise is the day's tithi, the nakshatra in force at sunrise is the day's nakshatra, and the same rule holds for the yoga and karana. A tithi that ends at 8 in the morning still names the day, even though most of the day runs under the next tithi — which is why a panchang always lists end times alongside names, and why reading the name without the end time is the commonest way to misread it. The traps that follow from that are the subject of our [panchang mistakes guide](/blog/panchang-mistakes-shubh-timing-traps).
+
+Sunrise itself is a place-dependent event. It depends on the city's longitude and latitude and on the season, and it is computed from the Sun's position for that date and place, not taken from a clock. That is why the panchang is a local document, and the next section shows how much the place matters.
+
+## Why your city changes the panchang
+
+India spans roughly 29 degrees of longitude, from about 68 degrees east in Gujarat to about 97 degrees east in Arunachal Pradesh. Solar time runs about four minutes per degree of longitude, so local solar noon in the far east arrives nearly two hours before local solar noon in the far west. Sunrise follows the same rule: in clock terms, the sun rises in Guwahati well before it rises in Mumbai, by the better part of an hour, and the gap changes with the season.
+
+That shift moves the whole panchang. A tithi that ends at 7:30 in the morning in Delhi may end at 6:45 in Kolkata or 8:15 in Ahmedabad, and near a boundary that is enough to change which tithi is in force at sunrise — which changes the day's named tithi, and with it any festival or fast tied to that tithi. Two families following the same festival can legitimately celebrate on different civil dates if their panchangs were cast for cities far apart. Neither is wrong. They are reading different skies.
+
+The practical rule is simple: use a panchang cast for your city, or for the nearest city in the same longitude band. A panchang cast for a city a thousand kilometres east or west of you is a different panchang, and reading it as your own is how festival dates go wrong. Check that the printed panchang you use names your region, or use the [Daily Panchang](/tools/daily-panchang) for your place.
+
+## The five computations, worked through
+
+Here is the whole calculation, in the order the tool page's guide gives it, worked on a fresh example so you can check the arithmetic independently. Take the Sun at 280 degrees, which places it in Capricorn, and the Moon at 38 degrees, which places it in Taurus.
+
+**Nakshatra.** Divide the Moon's longitude by 13 degrees 20 minutes, which is 13.333 degrees. 38 divided by 13.333 is 2.85, so the Moon is in the 3rd nakshatra, Krittika, which spans 26 degrees 40 minutes to 40 degrees. Krittika's traditional reading is sharp and purifying — a star of cutting away what is finished and keeping what is sound.
+
+**Tithi.** The elongation is the Moon minus the Sun, taken around the circle: 38 minus 280, modulo 360, equals 118 degrees. Divide by 12 degrees and you get 9.83, so 9 tithis are complete and the 10th is running. Tithis 1 to 15 are Shukla Paksha, so the 10th tithi is Shukla Dashami, the tenth day of the bright fortnight. The Moon is waxing and approaching full.
+
+**Yoga.** Add the longitudes: 280 plus 38 equals 318 degrees. Divide by 13.333 and you get 23.85, so the yoga is the 24th, Shukla — a name meaning bright, traditionally read as favourable for beginnings.
+
+**Karana.** The tithi's two halves are the 19th and 20th karanas of the month. The movable karanas repeat in a fixed cycle of seven — Bava, Balava, Kaulava, Taitila, Gara, Vanija, Vishti — so the first half is Taitila and the second half is Gara.
+
+**Vara.** The weekday comes from the calendar, not the sky: each day is ruled by its planet, Sunday by the Sun through Saturday by Saturn.
+
+Read together, the day is Shukla Dashami under Krittika, with a Shukla yoga and a Taitila karana — a waxing-Moon day traditionally read as sound for steady, finishing work. Compare it with the worked example in our guide to [how to read your panchang](/blog/how-to-read-todays-panchang-tithi-nakshatra), which uses different Sun and Moon positions and lands on a different day entirely. The method is the same; the sky is different.
+
+![The Moon and stars above an old Indian observatory with stone astronomical instruments](/blog/in-panchang-calculation-1.jpg)
+
+## Why the panchang changes every day
+
+The daily change is driven almost entirely by the Moon. The Moon moves about 13 degrees 10 minutes a day against the stars, which is almost exactly one nakshatra span of 13 degrees 20 minutes — so the nakshatra changes roughly once a day. The elongation between Moon and Sun grows by about 12 degrees a day, which is almost exactly one tithi step — so the tithi changes roughly once a day. The sum of the two longitudes grows by about 14 degrees a day, so the yoga also changes about once a day, occasionally faster.
+
+Roughly is the honest word. The Moon's speed varies with its orbit, from about 11 degrees a day to about 15, so some tithis last 19 hours and others 26, some nakshatras last most of a day and others barely half of one. That variation is why the panchang lists start and end times instead of just names, and why a tithi sometimes skips a civil date entirely or spans two of them. The Sun, moving about one degree a day, is the slow hand of the clock: it sets the season and the sunrise time, and it decides which sign the month belongs to. The Moon is the fast hand, and it is the Moon that makes the panchang a daily document.
+
+## Why two panchangs disagree
+
+If you have ever compared two panchangs and found different tithis for the same date, one of four things is usually behind it. First, the city: as shown above, a panchang cast for a different longitude can name a different tithi at sunrise. Second, the ayanamsa: most Indian panchangs use Lahiri, but some use Raman or Krishnamurti, and the difference of a degree or two can flip a nakshatra or a tithi near a boundary. Third, the sunrise definition: some panchangs take sunrise as the first appearance of the Sun's upper edge and others as the centre crossing the horizon, a difference of a few minutes that matters only near a boundary. Fourth, the convention for naming the day: the tithi at sunrise names the day in most traditions, but some regional panchangs name the tithi in force at midnight, or at sunset for particular festivals.
+
+None of these is an error in the ordinary sense. They are different conventions applied to the same sky, and the way to settle a disagreement is to check the convention, not to declare one panchang wrong. Ask three questions: which city, which ayanamsa, and which moment names the day. When all three match, two panchangs agree. When they differ, you have found the reason for the disagreement — and you know which one applies to you.
+
+![Golden sunrise over a modern Indian city skyline seen from a hilltop](/blog/in-panchang-calculation-2.jpg)
+
+## How to check a published panchang yourself
+
+You do not need an ephemeris to verify a panchang, only a second source and the method above. Take the Sun and Moon longitudes for the date from any sidereal ephemeris or from a trusted calculator — the [Moon Sign Calculator](/tools/moon-sign) gives you the Moon's sidereal sign and nakshatra — and run the four divisions: Moon by 13.333 for the nakshatra, elongation by 12 for the tithi, the sum by 13.333 for the yoga, and half the tithi for the karana. If your numbers match the published panchang, the panchang is sound. If they differ by one step, check the city and the ayanamsa before anything else: those two explain nearly every disagreement.
+
+That check is the point of this guide. A panchang is not a mystery handed down in a book. It is a calculation from two positions in the sky, anchored to sunrise at your place, and anyone who knows the four divisions can verify it. Read today's five limbs on the [Daily Panchang](/tools/daily-panchang), work the example above once by hand, and the next time two panchangs disagree you will know exactly where to look.
+
+## Frequently asked questions
+
+**Q: Why does the panchang change every day if the Sun barely moves?**
+A: Because the panchang is driven by the Moon, not the Sun. The Moon moves about 13 degrees a day against the stars — almost exactly one nakshatra and one tithi step — so the lunar limbs change daily. The Sun moves about one degree a day and sets the season and the sunrise time.
+
+**Q: My panchang and my neighbour's panchang show different tithis. Which is right?**
+A: Check the city first, then the ayanamsa, then the convention for naming the day. A panchang cast for a different city, or using Raman instead of Lahiri, or naming the tithi at midnight instead of sunrise, can legitimately differ. When the city, ayanamsa and convention match, two panchangs agree.
+
+**Q: What is ayanamsa, and why does it matter?**
+A: Ayanamsa is the gap between the tropical zodiac used in Western astrology and the sidereal zodiac used in Vedic astrology — about 24 degrees in 2026. It grows by about 50 seconds of arc a year as the equinox precesses. A panchang that ignored it would put the Moon in the wrong nakshatra for much of the month.
+
+**Q: Can I calculate today's panchang myself without an ephemeris?**
+A: You can follow and check the arithmetic once you have the day's sidereal Sun and Moon longitudes, but those positions must come from a real ephemeris for your date and location. Use this guide to understand and verify a published panchang, not as a substitute for the ephemeris itself.
+
+**Q: Why do some tithis last 19 hours and others 26?**
+A: Because the Moon's speed varies along its orbit, from about 11 degrees a day to about 15. A tithi is the time the Moon needs to gain 12 degrees on the Sun, so a fast Moon finishes a tithi in about 19 hours and a slow Moon takes about 26. That is why the panchang lists end times, not just names.`,
+  },
+  // BLOG 49
+  {
+    id: "blog-49",
+    title: "Panchang Mistakes: 7 Traps in Picking Shubh Timings",
+    slug: "panchang-mistakes-shubh-timing-traps",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "daily-panchang",
+    metaDescription: "Seven panchang mistakes that ruin good timing: treating tithi as a date, using another city's panchang, ignoring end times, and Rahu Kaal panic.",
+    image: "/blog/panchang-mistakes.jpg",
+    createdAt: new Date("2026-11-10"),
+    updatedAt: new Date("2026-11-10"),
+    content: `> **Executive Overview**: Most panchang mistakes are not failures of astrology. They are failures of reading: treating a tithi as a calendar date, using a panchang cast for another city, ignoring the end time of the tithi you are relying on, mixing systems that were never meant to be combined, and panicking over Rahu Kaal or Bhadra as if they banned the whole day. Each of the seven mistakes below has a concrete example and a fix, so the timing you pick is the timing the sky actually shows. Start from today's five limbs on the [Daily Panchang](/tools/daily-panchang) and check your reading against the list.
+
+The panchang is a forgiving tool. Used loosely, it still tells you roughly which lunar day is running and roughly when the Moon changes star. But the moment you use it to pick a time — a wedding hour, a house-warming, a first day at a new job, a fast — roughly stops being good enough, and the small reading errors that did not matter suddenly do. The seven mistakes below are ordered by how often they happen and how much damage they do, and the first three alone account for most of the "the panchang said it was a good day and it wasn't" complaints. Each section gives you the mistake, a concrete example of the damage, and the correction.
+
+## Mistake 1: treating the tithi as a calendar date
+
+This is the commonest error and the most quietly destructive, because it feels like common sense. A tithi is named for a date, so it must belong to that date — the way 15 August belongs to 15 August. It does not. A tithi is an angular event: it lasts while the Moon gains 12 degrees on the Sun, which takes about 19 to 26 hours, so it can begin at 3 in the afternoon, run through the night, and end at 11 the next morning. It belongs to no single civil date.
+
+Worked example: suppose a family plans a fast on Ekadashi, the 11th tithi, and their panchang shows Ekadashi running from 2 p.m. on Tuesday to 4 p.m. on Wednesday. The fast is kept while Ekadashi is in force, so the correct day is the one on which Ekadashi is present at the ruling moment — and the family that fasts on Tuesday because "Ekadashi is on Tuesday" may be fasting on a day when Ekadashi only begins in the afternoon, while the family that fasts on Wednesday is keeping the tithi through most of its span. Neither family is careless. One of them read a tithi as a date.
+
+**The fix:** always read the tithi's end time, not just its name, and ask which moment governs the observance — sunrise for most festivals, the tithi's own span for a fast. Our guide to [how to read your panchang](/blog/how-to-read-todays-panchang-tithi-nakshatra) explains the sunrise rule and the end-time habit in full, and the [Daily Panchang](/tools/daily-panchang) lists the end times alongside the names.
+
+## Mistake 2: using another city's panchang
+
+A panchang is a local document. It is cast for sunrise at a particular place, and sunrise moves with longitude: in clock terms, the sun rises in the far east of India well before it rises in the far west, by the better part of an hour, and the gap changes with the season. A tithi that ends at 7:30 in the morning in Delhi may end at 6:45 in Kolkata or 8:15 in Ahmedabad, and near a boundary that is enough to change which tithi is in force at sunrise — which changes the day's named tithi and any festival tied to it.
+
+The mistake usually arrives innocently: a printed panchang bought in one city and used in another, a relative's panchang forwarded on the family group, a website that does not say which city it was cast for. The reader assumes a panchang is a panchang, the way a calendar is a calendar. It is not. Two families following the same festival can legitimately celebrate on different civil dates if their panchangs were cast for cities far apart, and neither is wrong.
+
+**The fix:** check that the panchang you use names your city or region, or use one cast for your place — the [Daily Panchang](/tools/daily-panchang) is cast for your location. If you must use a printed panchang from another city, treat its dates as approximate and confirm festival days against a local source. The city arithmetic is worked through in our guide to [how a panchang is calculated](/blog/how-panchang-calculated-sunrise-place-time).
+
+![Two different printed panchang calendars lying side by side on a wooden table](/blog/in-panchang-mistakes-1.jpg)
+
+## Mistake 3: ignoring the end time
+
+Even with the right city, the tithi's end time is the part most readers skip. A panchang that shows "Shukla Dashami until 9:12 a.m." is not saying Dashami is the day's tithi in any loose sense. It is saying Dashami ends at 9:12, and everything after that runs under Ekadashi. A muhurat picked for 11 a.m. because "today is Dashami" is picked under the wrong tithi entirely.
+
+The same error strikes the nakshatra and the karana. A nakshatra that ends at 10 in the morning hands the rest of the day to the next star; a Bhadra karana that ends at noon frees the afternoon. The names on a panchang page are snapshots of the morning. The times are the rest of the story.
+
+**The fix:** read every limb as a pair — name plus end time — and schedule the important moment inside the limb you are relying on, not merely on the day that names it. If the tithi you want ends at 9 a.m., the window for acting under it is before 9 a.m., and after that you are acting under the next one.
+
+## Mistake 4: mixing systems that were never combined
+
+The panchang belongs to the sidereal Vedic system. Mixing it with pieces of other systems is how confident, wrong readings are made. Three mixtures are common. The first is reading a Western Sun-sign horoscope as if it were the panchang's Moon-based day: the Sun sign is a tropical placement of the Sun, the panchang is a sidereal measurement of the Moon, and the two answer different questions. The second is reading a North Indian chart as a South Indian one, or vice versa: the houses scramble, and a placement read in the wrong house is a different reading. The third is comparing a Lahiri panchang with a Raman or Krishnamurti one and treating the difference as an error: the ayanamsa differs by a degree or two between systems, which is enough to flip a nakshatra near a boundary.
+
+**The fix:** keep one system per reading. If you are reading the panchang, stay sidereal and Lahiri unless you have a deliberate reason to use another ayanamsa, and say so. If a kundli disagrees with an app, check the system before suspecting the astrology — our [kundli mistakes guide](/blog/kundli-mistakes-wrong-time-chart-traps) takes the same confusion apart at chart level, and the [Moon Sign Calculator](/tools/moon-sign) keeps the sidereal Moon separate from the tropical Sun.
+
+## Mistake 5: Rahu Kaal panic
+
+Rahu Kaal is the most misunderstood window in the panchang. It is a period of about an hour and a half, in a different day-part on each weekday — on a Monday, for a 6 a.m. to 6 p.m. day, it runs roughly 7:30 to 9:00 — and tradition advises against beginning something new inside it. The mistake is to treat it as a ban on the whole day, or to cancel plans that were never beginnings at all.
+
+A day with a Rahu Kaal window is not a bad day. It is a day with a 90-minute window to avoid for fresh starts, leaving ten and a half daylight hours untouched. Routine work, travel, rest, meals and emergencies go on as usual; the caution is about starting something new and important, and even there it is one factor among several, weighed against the tithi, the nakshatra and the [Choghadia](/tools/choghadia) hours. A Shubh or Amrit choghadia outside Rahu Kaal is the combination the tradition actually recommends, not a day free of Rahu Kaal — which does not exist, since every weekday has one.
+
+**The fix:** check the day's window on the [Rahu Kaal Calculator](/tools/rahu-kaal), schedule the beginning outside it, and carry on with the rest of the day. And never let a muhurat delay an emergency: a genuine emergency is handled immediately, whatever the panchang says.
+
+## Mistake 6: treating Bhadra as a ban on everything
+
+Vishti karana, also called Bhadra, is the one karana most readers know by name, and the one most often over-read. Tradition treats it as unsuitable for auspicious beginnings, so a panchang that shows Bhadra running is telling you to wait for the next karana before starting something new. The mistake is to extend that caution into a ban on the whole day, or on ordinary life.
+
+Bhadra is half a tithi — a few hours, not a day — and it recurs regularly through the month. It is a timing note about beginnings, not a verdict on the day. Routine work, study, rest, family time and anything already in progress are unaffected. The same over-reading happens with the yogas traditionally read as difficult, like Vyatipata and Vaidhriti: they counsel keeping beginnings modest, not cancelling the day.
+
+**The fix:** read Bhadra and the difficult yogas as "wait for the next window" rather than "do nothing today". Check when the karana ends on the [Daily Panchang](/tools/daily-panchang) and plan the beginning after it. The panchang's job is to help you choose a moment, not to take the day away from you.
+
+## Mistake 7: reading the panchang as a prediction
+
+The last mistake is the deepest, because it is a mistake about what the panchang is. A Siddhi yoga does not guarantee success and a Vyatipata yoga does not guarantee failure. A good tithi does not make a bad plan good, and a difficult karana does not make a sound plan fail. The panchang describes the quality of timing — conditions that traditionally favour or hinder a beginning — not the outcome of what you do inside it.
+
+The same confusion makes people treat the panchang as the muhurat. It is not. The panchang gives you the day's raw material: five limbs, their end times, the Rahu Kaal window, the choghadia hours. A muhurat is a chosen moment inside that day, found by weighing the panchang against the Moon's position, the ascendant and the purpose in hand. Confusing the two is how people pick a "good day" and then act at a bad hour inside it, or pick a good hour on a day whose tithi ended at breakfast.
+
+**The fix:** use the panchang for what it is — a daily almanac for choosing when, not a forecast of what will happen. Pair it with the other timing tools when the moment matters: the [Daily Panchang](/tools/daily-panchang) for the day, the [Rahu Kaal Calculator](/tools/rahu-kaal) for the window to avoid, and the [Choghadia](/tools/choghadia) hours for the good periods inside the day. Then make the decision yourself, with the facts in front of you.
+
+![A glowing brass diya lamp and marigold flowers beside a closed panchang book](/blog/in-panchang-mistakes-2.jpg)
+
+## The right way: a five-minute check that avoids all seven
+
+None of these mistakes needs expertise to avoid. They need a habit. Each morning, open the [Daily Panchang](/tools/daily-panchang) and do four things. First, note the tithi and when it ends — that is the day's spine, and it answers Mistakes 1 and 3. Second, confirm the panchang is cast for your city — that answers Mistake 2. Third, check the yoga, karana and Rahu Kaal window for beginnings, and the choghadia hours for the good periods — that answers Mistakes 5 and 6. Fourth, remember what the panchang is and is not: a timing almanac, not a forecast, and the day's material rather than the muhurat itself — that answers Mistakes 4 and 7.
+
+Five minutes, four checks, seven traps avoided. The panchang has served as India's daily almanac for centuries not because it is mysterious, but because it is methodical — five measurements of the sky, read in order, used with judgement. Read it that way and it does its job. The rest is yours.
+
+## Frequently asked questions
+
+**Q: I picked a good day from the panchang but the timing still went badly. Was the panchang wrong?**
+A: Probably not wrong — probably read loosely. The commonest causes are acting after the tithi you relied on had ended, using a panchang cast for another city, or acting inside Rahu Kaal. Check the end times and the city first; those two explain most disappointments.
+
+**Q: Is it safe to start something important during Rahu Kaal if there is no other time?**
+A: Tradition advises against beginning something new inside Rahu Kaal, but a deadline you cannot move is a real constraint, and the tradition itself treats emergencies as exempt. If you must act inside the window, act with extra care and preparation rather than with panic. The panchang advises timing; it does not override real life.
+
+**Q: How long does Bhadra last, and do I really have to wait it out?**
+A: Bhadra is one karana, half a tithi — typically a few hours, and the panchang lists when it ends. Tradition advises waiting for the next karana before an auspicious beginning. Routine life goes on as usual meanwhile; the caution is about starting something new and important.
+
+**Q: Why does my family celebrate a festival a day later than the panchang I read online?**
+A: Usually the city or the convention. A panchang cast for a different city can name a different tithi at sunrise, and some traditions name the tithi at midnight or sunset instead of sunrise. Ask which city the panchang was cast for and which moment names the day before deciding which date applies to you.
+
+**Q: Can I use the panchang for choosing a wedding or house-warming date by myself?**
+A: The panchang gives you the day's limbs and end times, which is the raw material, but a wedding or house-warming muhurat also weighs the Moon's position, the ascendant and the purpose — and, traditionally, the charts of the people involved. Use the panchang to shortlist days, then consult a knowledgeable astrologer for the final muhurat.`,
+  },
 ];

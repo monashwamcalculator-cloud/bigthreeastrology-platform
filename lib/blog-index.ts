@@ -53,4 +53,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "how-to-read-your-kundli-lagna-moon-houses", title: "How to Read Your Kundli: Lagna, Moon & Houses" },
   { slug: "how-kundli-calculated-lahiri-sidereal-time", title: "How a Kundli Is Calculated: Lahiri & Sidereal Time" },
   { slug: "kundli-mistakes-wrong-time-chart-traps", title: "Kundli Mistakes: Wrong Time, Wrong Chart & 5 More" },
+  { slug: "how-to-read-todays-panchang-tithi-nakshatra", title: "How to Read Today's Panchang: Tithi to Karana" },
+  { slug: "how-panchang-calculated-sunrise-place-time", title: "How Panchang Is Calculated: Sunrise, Place & Time" },
+  { slug: "panchang-mistakes-shubh-timing-traps", title: "Panchang Mistakes: 7 Traps in Picking Shubh Timings" },
 ];
