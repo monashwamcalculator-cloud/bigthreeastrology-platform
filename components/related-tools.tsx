@@ -47,6 +47,14 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "life-path-number-meaning-1-9-master-numbers",
     "life-path-number-calculation-step-by-step",
   ],
+  // Daily-panchang cluster (blogs 47-49, 10 Nov 2026): the default slug
+  // filter needs "dailypanchang" inside a blog slug, which none of the
+  // cluster slugs contain; override points the rail at the first two
+  // cluster blogs (blog 49 reached via siblings).
+  "daily-panchang": [
+    "how-to-read-todays-panchang-tithi-nakshatra",
+    "how-panchang-calculated-sunrise-place-time",
+  ],
 };
 
 export function getRelatedBlogSlugs(tool: ToolDefinition): string[] {
