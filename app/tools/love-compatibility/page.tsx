@@ -5,8 +5,8 @@ import { ToolSections } from "@/components/tool-guide";
 import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Zodiac Love Match & Synastry Compatibility Free | BIGThreeAstrology",
-  description: "Free zodiac love compatibility calculator. Test romantic chemistry between any two signs, elemental dynamics, and advice for lasting harmony.",
+  title: "Love Compatibility Calculator | Free Zodiac Love Match | BIGThreeAstrology",
+  description: "Free love compatibility calculator — check romantic chemistry between any two zodiac signs, elemental dynamics and synastry score. No sign-up needed.",
   path: "/tools/love-compatibility"
 });
 
