@@ -5151,4 +5151,334 @@ A: Usually the city or the convention. A panchang cast for a different city can 
 **Q: Can I use the panchang for choosing a wedding or house-warming date by myself?**
 A: The panchang gives you the day's limbs and end times, which is the raw material, but a wedding or house-warming muhurat also weighs the Moon's position, the ascendant and the purpose — and, traditionally, the charts of the people involved. Use the panchang to shortlist days, then consult a knowledgeable astrologer for the final muhurat.`,
   },
+  // BLOG 50
+  {
+    id: "blog-50",
+    title: "How Rahu Kaal Is Calculated: Sunrise, Weekday & Day-Parts",
+    slug: "how-rahu-kaal-is-calculated-sunrise-weekday",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "rahu-kaal",
+    metaDescription: "Learn how Rahu Kaal is calculated from sunrise, sunset and the weekday: the eight-part day, the weekday segment table and three worked examples you can check.",
+    image: "/blog/rahu-kaal-calculation.jpg",
+    createdAt: new Date("2026-11-11"),
+    updatedAt: new Date("2026-11-11"),
+    content: `> **Executive Overview**: Rahu Kaal is one eighth of the daylight hours, and which eighth it is depends only on the weekday. Take the time from sunrise to sunset, divide it into eight equal parts, and pick the part your weekday owns: Sunday the 8th, Monday the 2nd, Tuesday the 7th, Wednesday the 5th, Thursday the 6th, Friday the 4th, Saturday the 3rd. That is the whole method. This guide works it through with three fully checked examples — a Tuesday, a Monday and a winter Saturday — so you can reproduce any day's window by hand. For today's window in your city, use the [Rahu Kaal Calculator](/tools/rahu-kaal).
+
+Rahu Kaal is the most consulted timing in the Indian almanac, and also one of the most misunderstood. Ask ten people when it falls today and you will get ten confident answers, most of them read off a printed table that assumes sunrise at 6:00 in the morning and sunset at 6:00 in the evening. That table is a useful shortcut, but it is not the calculation. The real method needs three things — the sunrise, the sunset and the weekday — and it takes about two minutes once you know the pattern. This guide shows the method exactly as the [Rahu Kaal Calculator](/tools/rahu-kaal) applies it, so you can check any printed timing against your own arithmetic and know which one to trust.
+
+## The three things you need
+
+The calculation has only three inputs, and each of them matters.
+
+**Sunrise.** The Vedic day begins at sunrise, not at midnight, so sunrise is the anchor for everything that follows. A Rahu Kaal window is measured forward from sunrise, never from midnight.
+
+**Sunset.** Sunset is the other anchor. The gap between sunrise and sunset is the daylight, and Rahu Kaal is a slice of that daylight. When the days get longer in summer, the slice gets longer; when they shrink in winter, it shrinks too.
+
+**The weekday.** Each weekday owns a different slice of the day. Monday's window falls in the morning, Tuesday's in the afternoon, Sunday's in the evening — and that rotation is fixed by tradition, not by the Sun. Two days can have identical sunrises and still have completely different Rahu Kaal windows, because the weekday changed.
+
+Notice what is not on the list: your birth chart, your Moon sign, the tithi, the nakshatra. Rahu Kaal is a property of the day and the place, not of the person. That is why the same window applies to everyone in a city, and why it is the first thing a panchang prints.
+
+## Step 1: measure the day
+
+Take the sunrise and the sunset for the place where the activity will happen — not where you live, if the two differ — and subtract. The result is the length of the daylight in minutes.
+
+A day with sunrise at 6:00 in the morning and sunset at 6:00 in the evening has 12 hours of daylight, which is 720 minutes. A winter day with sunrise at 6:40 and sunset at 5:20 in the evening has 10 hours 40 minutes, which is 640 minutes. A summer day with sunrise at 5:30 and sunset at 7:00 in the evening has 13 hours 30 minutes, which is 810 minutes. The arithmetic is the same in every case; only the numbers change.
+
+Two cautions belong here. First, use the sunrise and sunset for your city, not a national average. Sunrise in Guwahati arrives well before sunrise in Mumbai in clock terms, and the whole window shifts with it. Second, use the actual sunrise for that date, not the one from last month. Sunrise drifts by a minute or two a day, and over a fortnight that drift moves the window by a quarter of an hour. The [Rahu Kaal Calculator](/tools/rahu-kaal) takes the date and the place and does this lookup for you, but if you are checking by hand, take the sunrise from a panchang or a weather app for the same date and the same city.
+
+## Step 2: divide the daylight into eight equal parts
+
+Divide the daylight by eight. Each part is one eighth of the day, and Rahu Kaal is exactly one of those parts.
+
+On a 720-minute day, each part is 90 minutes. On a 640-minute day, each part is 80 minutes. On an 810-minute day, each part is 101 minutes and 15 seconds — in practice, almanacs round to the nearest minute, so 101 minutes. The parts are laid end to end from sunrise: part 1 starts at sunrise, part 2 starts one part-length later, and part 8 ends at sunset. Nothing overlaps and nothing is left over.
+
+This is also where the familiar "about ninety minutes" description comes from. Near the equinoxes, in most Indian cities, daylight is close to twelve hours, so each part is close to ninety minutes. But "about ninety minutes" is a description of a typical day, not a rule. In June the window can stretch past a hundred minutes, and in December it can shrink below eighty. Anyone who treats ninety minutes as fixed will be wrong by ten minutes or more for half the year — enough to schedule a signing inside the very window they meant to avoid.
+
+## Step 3: find your weekday's part
+
+Here is the table. Learn it as a table, because the sequence does not follow a simple rotation — Friday takes the 4th part while Saturday steps back to the 3rd, and Sunday jumps to the 8th:
+
+| Weekday | Rahu Kaal part |
+|---|---|
+| Sunday | 8th part |
+| Monday | 2nd part |
+| Tuesday | 7th part |
+| Wednesday | 5th part |
+| Thursday | 6th part |
+| Friday | 4th part |
+| Saturday | 3rd part |
+
+A traditional mnemonic helps, if you like memory tricks: "Mother Saw Father Wearing The Turban Suddenly" — Monday 2nd, Saturday 3rd, Friday 4th, Wednesday 5th, Thursday 6th, Tuesday 7th, Sunday 8th. Read the first letters in order and the numbers run 2, 3, 4, 5, 6, 7, 8. It is a crutch, not a derivation, but it is the crutch generations of panchang readers have actually used, and it works.
+
+Once you have the part number, count forward from sunrise by that many parts. The part you land on is the window: it starts where the previous part ends and runs for one part-length.
+
+## Worked example 1: a Tuesday
+
+Take a Tuesday with sunrise at 6:00 in the morning and sunset at 6:00 in the evening — the standard textbook day.
+
+Daylight is 12 hours, which is 720 minutes. Divided by eight, each part is 90 minutes. Counting from sunrise: part 1 runs 6:00 to 7:30, part 2 runs 7:30 to 9:00, part 3 runs 9:00 to 10:30, part 4 runs 10:30 to 12:00, part 5 runs 12:00 to 1:30, part 6 runs 1:30 to 3:00, part 7 runs 3:00 to 4:30, and part 8 runs 4:30 to 6:00.
+
+Tuesday owns the 7th part, so Rahu Kaal on this day runs from **3:00 to 4:30 in the afternoon**. That matches the printed table, because the printed table is built on exactly this sunrise and sunset. The moment the sunrise moves, the window moves with it — which is what the next two examples show.
+
+![An open traditional Indian panchang almanac on a wooden table in soft morning light](/blog/in-rahu-kaal-calculation-1.jpg)
+
+## Worked example 2: a Monday
+
+Take a Monday with sunrise at 6:24 in the morning and sunset at 6:24 in the evening. The daylight is still 12 hours — 720 minutes — so each part is still 90 minutes, but everything is shifted 24 minutes later than the textbook day.
+
+Counting from sunrise: part 1 runs 6:24 to 7:54, and part 2 runs 7:54 to 9:24. Monday owns the 2nd part, so Rahu Kaal on this day runs from **7:54 to 9:24 in the morning**.
+
+Compare that with the printed table, which would have told you 7:30 to 9:00. The printed table is 24 minutes early on both ends. A signing fixed for 9:10 in the morning, planned on the printed table as safely outside the window, would in reality fall inside it. The error is small, but it is exactly the kind of error that matters when you are planning around a boundary. This is why the [Rahu Kaal Calculator](/tools/rahu-kaal) asks for your city: a 24-minute sunrise difference is normal between Indian cities, and the window follows the sunrise.
+
+## Worked example 3: a winter Saturday
+
+Take a Saturday in December, with sunrise at 6:40 in the morning and sunset at 5:20 in the evening. Daylight is 10 hours 40 minutes, which is 640 minutes. Divided by eight, each part is 80 minutes — noticeably shorter than the textbook ninety.
+
+Counting from sunrise: part 1 runs 6:40 to 8:00, part 2 runs 8:00 to 9:20, and part 3 runs 9:20 to 10:40. Saturday owns the 3rd part, so Rahu Kaal on this day runs from **9:20 to 10:40 in the morning**.
+
+Two things are worth noticing. First, the window is only 80 minutes long, not ninety — the season compressed it. Second, the whole day is compressed: the last part ends at sunset, 5:20 in the evening, and anyone using the printed 6:00-to-6:00 table would have expected a window running to 10:30 and a day ending at 6:00, both wrong. Winter is when the printed table is at its worst, because the daylight is at its shortest and furthest from the textbook twelve hours.
+
+## Why the printed table is only approximate
+
+The printed table — Sunday 4:30 to 6:00, Monday 7:30 to 9:00, Tuesday 3:00 to 4:30, and so on — is a genuine calculation, but it is a calculation for one specific day: a day with sunrise at 6:00 and sunset at 6:00. It is correct for that day in every city where the Sun actually rises and sets at those times, and it is a reasonable approximation near the equinoxes. The rest of the year it drifts, by minutes in spring and autumn and by half an hour or more in deep summer and winter, and it drifts differently in every city.
+
+That drift is not a flaw in the tradition. The tradition never said the window was fixed; the fixed part is the weekday's slot, and the clock times were always meant to be recomputed from the local sunrise. The printed table is a convenience for people who do not want to compute, and like most conveniences it trades accuracy for simplicity. If the timing matters to you — a wedding hour, a property registration, a first day at a new job — compute it from the day's actual sunrise and sunset, or check it on the [Rahu Kaal Calculator](/tools/rahu-kaal) for your city. If the timing is only a rough guide for an ordinary errand, the printed table is close enough, and you can say so honestly.
+
+![A long shadow stretching across a sunlit courtyard at midday](/blog/in-rahu-kaal-calculation-2.jpg)
+
+## What about the night?
+
+Some almanacs also list a night Rahu Kaal. The method is identical, but the daylight is replaced by the night: the interval from sunset to the next morning's sunrise is divided into eight equal parts, and the same weekday table decides which part belongs to Rahu. On a night of 12 hours, the parts are again 90 minutes each.
+
+In practice the night window is consulted far less often, because most signings, departures and openings happen in daylight. It matters mainly for events that genuinely start after dark — a late-night journey, a night-shift opening, a ceremony fixed for the small hours. If your panchang lists a night window and your printed table does not, that is the reason: the two traditions print different amounts of detail, not different methods. Our [guide to Rahu Kaal vs Yamaganda vs Gulika](/blog/rahu-kaal-vs-yamaganda-gulika-kaalam) compares the daytime windows in full, and the same eight-part arithmetic runs all three.
+
+## Four calculation mistakes to avoid
+
+**Using clock hours instead of sunrise-anchored parts.** The eight parts are measured from sunrise, not from midnight and not from 6:00 in the morning. A part that starts "at 7:30" on a textbook day starts at 7:54 on a day when the Sun rises at 6:24. Anchor every count at the actual sunrise.
+
+**Using another city's sunrise.** Sunrise moves with longitude and latitude. A window computed for Delhi is not the window for Chennai on the same date, even though the weekday is the same. Use the sunrise where the activity happens.
+
+**Assuming ninety minutes.** The window is one eighth of the daylight, and the daylight changes with the season. Near the equinoxes it is close to ninety minutes; in summer it is longer and in winter shorter. Check the length, do not assume it.
+
+**Guessing the weekday slot.** The sequence is not a rotation — Sunday jumps to the 8th part and Saturday steps back to the 3rd. Do not extrapolate from one day to the next; use the table, or the mnemonic, every time.
+
+## A note on what the calculation does and does not say
+
+The arithmetic is exact and checkable: given a sunrise, a sunset and a weekday, anyone can reproduce the window. What the arithmetic does not do is predict outcomes. Rahu Kaal is a traditional planning caution, a convention for choosing a start time when a choice exists. It does not say that an event held inside the window will fail, and it does not ban the whole day. The mistakes people actually make with Rahu Kaal are rarely arithmetic — they are the myths about what the window means, which our [Rahu Kaal mistakes guide](/blog/rahu-kaal-mistakes-myths-new-beginnings) takes up one by one. Learn the calculation here, keep the meaning in proportion there, and the almanac becomes a planning tool instead of a source of worry. For the rest of the day's timing — the good windows as well as the avoided ones — the [Daily Panchang](/tools/daily-panchang) and the [Choghadia](/tools/choghadia) calculator complete the picture.
+
+**Q: What is the fastest way to find today's Rahu Kaal?**
+A: Use the [Rahu Kaal Calculator](/tools/rahu-kaal) for your city and date — it takes the local sunrise and sunset and applies the weekday table. By hand, take the sunrise-to-sunset gap, divide by eight, and count to your weekday's part: Sunday 8th, Monday 2nd, Tuesday 7th, Wednesday 5th, Thursday 6th, Friday 4th, Saturday 3rd.
+
+**Q: Why does Rahu Kaal fall at a different time in another city on the same day?**
+A: The window hangs on local sunrise and sunset, so a city further east or west starts its daylight at another clock time. Its eight parts therefore begin and end differently, shifting the Rahu Kaal window by the same amount.
+
+**Q: Is Rahu Kaal always 90 minutes long?**
+A: No. It is one eighth of the daylight, so it is close to ninety minutes only when daylight is close to twelve hours. Longer summer days stretch it past a hundred minutes; shorter winter days compress it below eighty.
+
+**Q: Does Rahu Kaal use the same weekday table everywhere in India?**
+A: The weekday slot table — Sunday 8th, Monday 2nd, Tuesday 7th, Wednesday 5th, Thursday 6th, Friday 4th, Saturday 3rd — is the standard table used across Indian panchangs. What changes by region is the sunrise definition and the ayanamsa, which can shift the window by a few minutes, not the slot.
+
+**Q: How is Rahu Kaal different from Yamaganda and Gulika Kaal?**
+A: All three divide the same daylight into the same eight parts, but each takes a different part on each weekday. Rahu Kaal is the most widely observed of the three. Our [comparison guide](/blog/rahu-kaal-vs-yamaganda-gulika-kaalam) gives the full three-column table and a worked example where all three windows fall on one day.`,
+  },
+
+  // BLOG 51
+  {
+    id: "blog-51",
+    title: "Rahu Kaal Mistakes: 7 Myths About New Beginnings",
+    slug: "rahu-kaal-mistakes-myths-new-beginnings",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "rahu-kaal",
+    metaDescription: "Seven Rahu Kaal mistakes that spoil good planning: treating it as a whole-day ban, using another city's timings, and misunderstanding what 'starting' means.",
+    image: "/blog/rahu-kaal-mistakes.jpg",
+    createdAt: new Date("2026-11-11"),
+    updatedAt: new Date("2026-11-11"),
+    content: `> **Executive Overview**: Most Rahu Kaal mistakes are not mistakes of arithmetic. They are mistakes of meaning: treating a 90-minute window as a ban on the whole day, applying it to work that is already under way, using another city's timings, misunderstanding what counts as a "new beginning", and panicking when the timing cannot move. Each of the seven mistakes below has a concrete example and a fix, so the custom works for you instead of worrying you. Start from today's actual window on the [Rahu Kaal Calculator](/tools/rahu-kaal) and check your habits against the list.
+
+Rahu Kaal is a small thing — roughly one eighth of the daylight, about ninety minutes on a typical day. The worry around it is often a large thing: whole days written off, journeys cancelled, signings delayed by a week, families arguing over a ninety-minute window as if it decided the outcome. The gap between the small window and the large worry is where the mistakes live. None of them requires believing or disbelieving the tradition. They only require reading it as it is actually written: a caution about choosing a start time, when a choice exists, for a new beginning. Our guide to [how Rahu Kaal is calculated](/blog/how-rahu-kaal-is-calculated-sunrise-weekday) covers the arithmetic; this guide covers the seven ways people misread what the arithmetic means.
+
+## Mistake 1: treating Rahu Kaal as a ban on the whole day
+
+This is the commonest error and the one that does the most damage, because it turns a ninety-minute caution into a twelve-hour paralysis. A family hears that Rahu Kaal falls on Tuesday afternoon and decides Tuesday is a bad day altogether — no signing, no travel, no purchase, no first day at work. But Rahu Kaal is one part in eight. On a Tuesday with sunrise at 6:00 and sunset at 6:00, it runs from 3:00 to 4:30 in the afternoon, and the other seven parts — 6:00 in the morning to 3:00 in the afternoon, and 4:30 to 6:00 in the evening — are untouched by it.
+
+Worked example: a couple plans to register a property on a Tuesday. The registrar's office is open from 10:00 in the morning to 5:00 in the evening. Rahu Kaal runs 3:00 to 4:30. The couple has two clean windows — the whole morning, and the last half hour of the day — and only one window to avoid. The family that cancels the whole Tuesday has thrown away seven eighths of a usable day for a reason the tradition never gave.
+
+**The fix:** always read the window as a start time and an end time, never as a day. Ask "which ninety minutes?" before you ask anything else, and plan around that interval the way you would plan around a lunch break. Check the exact window for your city on the [Rahu Kaal Calculator](/tools/rahu-kaal) rather than carrying a vague "Tuesday afternoon" in your head.
+
+## Mistake 2: applying it to everything you do
+
+The second mistake is scope. Rahu Kaal concerns beginnings — first steps. People who follow the custom mainly postpone signing agreements, launching a venture, making a major purchase, starting a journey or holding an opening ceremony. Work already under way, routine meetings, study, cooking, ordinary household tasks and everyday errands usually continue without any adjustment.
+
+Yet the worry spreads. A student refuses to sit for an exam that happens to fall inside the window, although the exam is not a beginning they chose — it is a scheduled event, fixed by others, and the preparation began months ago. An office worker will not send an email during the window, although the email continues a conversation that started last week. A shopkeeper will not open the till for a sale, although the shop opened hours earlier.
+
+**The fix:** ask one question — "am I starting something, or continuing something?" If the thing is already under way, Rahu Kaal has nothing to say about it in the traditional reading. If it is genuinely a first step — the first signature, the first transaction, the first departure — then the window matters, and only then. The [Daily Panchang](/tools/daily-panchang) lists the day's other limbs alongside the window, which helps keep the custom in its proper, narrow place.
+
+## Mistake 3: using the printed table for your city
+
+The printed table — Monday 7:30 to 9:00, Tuesday 3:00 to 4:30, Sunday 4:30 to 6:00 — is a calculation for a day with sunrise at 6:00 and sunset at 6:00. It is a reasonable approximation near the equinoxes and a poor one in deep summer and winter, and it is wrong by the sunrise difference between cities all year round.
+
+Worked example: a woman in Chennai plans a signing for 9:10 on a Monday, using the printed table's 7:30-to-9:00 window, and believes she is safely outside it. But Chennai's sunrise that day is 6:24, not 6:00, so the real window runs 7:54 to 9:24 — and 9:10 falls inside it. She planned carefully, using a real table, and still landed in the window, because the table was computed for a sunrise her city never has.
+
+**The fix:** compute from the day's actual sunrise and sunset for your city, or check the [Rahu Kaal Calculator](/tools/rahu-kaal), which does exactly that. Our [calculation guide](/blog/how-rahu-kaal-is-calculated-sunrise-weekday) works the arithmetic through with three fully checked examples, including this Monday case. A printed table is fine for a rough sense of the day; it is not fine for a boundary decision.
+
+## Mistake 4: confusing "starting" with "doing"
+
+This mistake is subtler, and it catches careful people. The custom says: do not *start* something important during Rahu Kaal. But what counts as starting? The answer matters, because it decides whether a whole day of work must stop or only one moment must move.
+
+Tradition treats the beginning as the first decisive act: the signature on the agreement, not the reading of the draft; the first payment, not the discussion of the price; the departure from the house, not the packing of the bags; the laying of the foundation stone, not the delivery of the bricks. A journey that left at 8:00 in the morning does not become a new beginning at 3:00 in the afternoon because the traveller is still on the road. A business that opened last month does not re-open every morning.
+
+The confusion usually runs in one direction: people treat *doing* as *starting*, and so they stop work that is already under way. It can also run the other way: a person signs the agreement at 2:55, five minutes before the window, and believes the beginning is safely outside it — but the signing was the beginning, and if the signature lands at 3:05 it is inside. The fix is the same in both directions: identify the single decisive act, put a clock time on it, and keep that act outside the window.
+
+**The fix:** name the decisive act before you plan the day. Write it down — "the signature", "the first payment", "the departure" — and schedule that act, not the whole activity, around the window. Everything else can proceed.
+
+![A calm family living room in the evening, a couple relaxing with tea](/blog/in-rahu-kaal-mistakes-1.jpg)
+
+## Mistake 5: believing an event inside the window is doomed
+
+This is the mistake that causes the most distress, and the tradition itself does not support it. Rahu Kaal is a planning caution, not a prediction. It does not say that an event held inside the window will fail, and it does not say that a person who travels then will come to harm. It says that, when you have a choice about when to begin, this is a less favoured time to choose.
+
+Yet the belief persists, fed by hindsight. A venture begun inside the window later struggles, and the window gets the blame — although ventures struggle for ordinary reasons, and the thousands of ventures begun inside the window that did perfectly well are never counted, because nobody remembers a non-event. The belief also creates a cruel trap: a family that cannot move a timing — a hospital admission, a flight fixed by an airline, a court date — spends the day in dread over something they could not change, which is the opposite of what a planning custom is for.
+
+**The fix:** keep the custom in its lane. It is a tie-breaker for a free choice, not a verdict on a fixed one. If the timing cannot move, proceed calmly; tradition itself treats unavoidable activity calmly, and many families simply begin with a small prayer or shift a symbolic first step earlier. What you do inside the window matters far more than the window itself. If the worry is persistent and distressing, that is a sign to talk to a knowledgeable astrologer or a trusted elder, not to rearrange your life around ninety minutes.
+
+## Mistake 6: checking Rahu Kaal and ignoring the rest of the day
+
+Rahu Kaal is one limb of a much larger day. A person who checks only the avoided window and ignores everything else is planning with one eighth of the information. The same panchang that lists Rahu Kaal also lists the tithi, the nakshatra, the yoga and the karana, and the same tradition offers Abhijit Muhurat — a midday window traditionally read as victorious over all doshas — and the choghadia, which divides the day into quality-graded hours and offers several good windows daily.
+
+Worked example: a shopkeeper avoids Rahu Kaal on Friday morning, 10:30 to 12:00, and opens the shop at 12:05 — inside a Rog choghadia, traditionally read as poor for beginnings, and under a Vyatipata yoga, traditionally read as unfavourable. The shopkeeper dodged the one window they knew and walked straight into two they did not. The opposite error is just as common: a person waits out Rahu Kaal and then begins in the first minute after it ends, without checking whether the hour that follows is any better.
+
+**The fix:** read the day whole. Use the [Daily Panchang](/tools/daily-panchang) for the five limbs, the [Choghadia](/tools/choghadia) calculator for the good hours, and the [Abhijit Muhurat Finder](/tools/abhijit-muhurat) for the midday victory window. Rahu Kaal tells you what to avoid; the rest of the day tells you what to choose instead. Our [comparison guide](/blog/rahu-kaal-vs-yamaganda-gulika-kaalam) adds the other two avoided windows, Yamaganda and Gulika Kaal, so the picture is complete.
+
+## Mistake 7: using the wrong day's window
+
+The Vedic day begins at sunrise, not at midnight. That single fact causes a quiet, common error: the window for Tuesday belongs to the day that begins at Tuesday's sunrise, and a person who checks the time at 1:00 in the morning on Wednesday is still, in the Vedic reckoning, inside Tuesday until the Sun rises.
+
+This matters for anything planned in the small hours — a night journey, a late ceremony, a flight at 2:00 in the morning. The traveller who looks up "Wednesday's Rahu Kaal" at 1:00 a.m. on Wednesday and plans around it is using the wrong day's window, because the Vedic Wednesday has not begun. The same confusion runs the other way for dates: a festival or a fast dated by the tithi can fall on a different civil date than the wall calendar suggests, for exactly the same sunrise reason. Our guide to [panchang mistakes](/blog/panchang-mistakes-shubh-timing-traps) takes up the tithi version of this error in full.
+
+**The fix:** for anything between midnight and sunrise, use the previous day's window. For anything after sunrise, use the current day's. When in doubt, check the [Rahu Kaal Calculator](/tools/rahu-kaal) with the date of the sunrise that begins the day you mean, not the date on the clock.
+
+![A hand holding a phone over a desk with a paper diary and a cup of chai](/blog/in-rahu-kaal-mistakes-2.jpg)
+
+## The habit that replaces all seven
+
+The seven mistakes share one root: treating Rahu Kaal as bigger than it is — bigger than ninety minutes, bigger than beginnings, bigger than a planning caution. The habit that replaces them is small and boring, which is why it works: check the window for your city and date, note its start and end, keep the single decisive act outside it, and carry on with everything else exactly as planned.
+
+That is also how the custom was meant to be used. Millions of people glance at the window while arranging an ordinary weekday, much as they might check a train timetable: they look, they nudge an appointment where nudging is easy, and they carry on. The almanac is a planning tool, not a source of dread, and it stays a planning tool exactly as long as it is read at its true size. Learn the calculation in our [step-by-step guide](/blog/how-rahu-kaal-is-calculated-sunrise-weekday), compare the three avoided windows in our [Rahu Kaal vs Yamaganda vs Gulika guide](/blog/rahu-kaal-vs-yamaganda-gulika-kaalam), and let the rest of the day belong to the work itself.
+
+**Q: Does Rahu Kaal really ban the whole day?**
+A: No. It is one eighth of the daylight — about ninety minutes on a typical day. The other seven parts are untouched by it. Plan around the window's start and end times, not around the day.
+
+**Q: Can I continue work that is already under way during Rahu Kaal?**
+A: Yes, in the traditional reading. The custom concerns beginnings — the first signature, the first payment, the first departure. Work already under way, routine meetings and ordinary tasks continue normally.
+
+**Q: What counts as a "new beginning" for Rahu Kaal?**
+A: The first decisive act: signing an agreement, launching a venture, making a major purchase, starting a journey or holding an opening ceremony. Identify that single act and keep it outside the window; the preparation around it is not the beginning.
+
+**Q: What should I do if an important event falls inside Rahu Kaal and cannot move?**
+A: Proceed calmly. The custom concerns choosing a start time when a choice exists; it does not say an event held then will fail. Many families begin with a small prayer or shift a symbolic first step earlier, and tradition treats unavoidable activity calmly.
+
+**Q: Is Rahu Kaal the only inauspicious window I need to check?**
+A: No. The same day also carries Yamaganda and Gulika Kaal, and the panchang lists tithi, nakshatra, yoga and karana alongside them. Use the [Daily Panchang](/tools/daily-panchang) and the [Choghadia](/tools/choghadia) calculator to read the whole day, and our [comparison guide](/blog/rahu-kaal-vs-yamaganda-gulika-kaalam) for the three avoided windows together.`,
+  },
+
+  // BLOG 52
+  {
+    id: "blog-52",
+    title: "Rahu Kaal vs Yamaganda vs Gulika: Which Window Matters?",
+    slug: "rahu-kaal-vs-yamaganda-gulika-kaalam",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "rahu-kaal",
+    metaDescription: "Rahu Kaal, Yamaganda and Gulika Kaal compared: the same eight-part day, three different weekday slots, one worked example and which window actually matters.",
+    image: "/blog/rahu-kaal-comparison.jpg",
+    createdAt: new Date("2026-11-11"),
+    updatedAt: new Date("2026-11-11"),
+    content: `> **Executive Overview**: Rahu Kaal, Yamaganda and Gulika Kaal are three windows cut from the same day by the same method — divide the daylight into eight equal parts — but each takes a different part on each weekday. Rahu Kaal is the most widely observed and concerns new beginnings; Yamaganda is tied to Yama and is treated with extra caution for health and money matters in some families; Gulika Kaal is the subtlest, traditionally read as a time when actions repeat, so it is avoided for loans and favoured for some purchases. On a standard 6:00-to-6:00 day the three never overlap, so a day always has clean hours. The full table and one worked Wednesday are below. For today's exact windows in your city, start with the [Rahu Kaal Calculator](/tools/rahu-kaal).
+
+Open a South Indian panchang and you will find three avoided windows listed for the day, not one. A North Indian panchang often lists only the first. The three are Rahu Kaal, Yamaganda and Gulika Kaal, and the confusion they cause is understandable: three similar names, three similar lengths, three windows on the same day, all computed the same way. They are not three names for one thing, and they are not three different methods. They are one method applied three times, with a different weekday slot each time. Once you see the shared method and the three slot tables side by side, the whole system becomes readable at a glance — and you can stop worrying that you have missed a fourth window hiding somewhere in the day.
+
+## One method, three windows
+
+All three windows are cut from the same daylight by the same arithmetic. Take the interval from sunrise to sunset, divide it into eight equal parts, and assign one part to each window according to the weekday. The parts are laid end to end from sunrise: part 1 starts at sunrise, part 8 ends at sunset.
+
+That shared method is why the three windows are always the same length on a given day — each is one eighth of the daylight — and why they never overlap on a standard day. With eight parts and three windows, five parts of the day are always free of all three. The system is, in effect, a way of labelling three eighths of the day and leaving five eighths clean.
+
+It is also why a single calculation serves all three. Learn to divide the daylight into eight parts once — our guide to [how Rahu Kaal is calculated](/blog/how-rahu-kaal-is-calculated-sunrise-weekday) works it through with three fully checked examples — and you can find any of the three windows by looking up its slot in the table below. The [Rahu Kaal Calculator](/tools/rahu-kaal) gives the Rahu window for your city and date; the table below extends the same arithmetic to the other two.
+
+## The three tables side by side
+
+The tables below are built on the standard textbook day — sunrise 6:00 in the morning, sunset 6:00 in the evening, each part exactly 90 minutes — so the slot numbers and the clock times can be read together. On a real day the parts stretch or shrink with the daylight, and the clock times shift, but the slot numbers never change. Use the slots; recompute the clock times from your own sunrise and sunset.
+
+| Weekday | Rahu Kaal | Yamaganda | Gulika Kaal |
+|---|---|---|---|
+| Sunday | 8th · 4:30–6:00 PM | 5th · 12:00–1:30 PM | 7th · 3:00–4:30 PM |
+| Monday | 2nd · 7:30–9:00 AM | 4th · 10:30 AM–12:00 PM | 6th · 1:30–3:00 PM |
+| Tuesday | 7th · 3:00–4:30 PM | 3rd · 9:00–10:30 AM | 5th · 12:00–1:30 PM |
+| Wednesday | 5th · 12:00–1:30 PM | 2nd · 7:30–9:00 AM | 4th · 10:30 AM–12:00 PM |
+| Thursday | 6th · 1:30–3:00 PM | 1st · 6:00–7:30 AM | 3rd · 9:00–10:30 AM |
+| Friday | 4th · 10:30 AM–12:00 PM | 7th · 3:00–4:30 PM | 2nd · 7:30–9:00 AM |
+| Saturday | 3rd · 9:00–10:30 AM | 6th · 1:30–3:00 PM | 1st · 6:00–7:30 AM |
+
+Read the table down a column and the pattern appears. Rahu Kaal runs Sunday 8, Monday 2, Tuesday 7, Wednesday 5, Thursday 6, Friday 4, Saturday 3 — the sequence every panchang reader learns first, helped by the mnemonic "Mother Saw Father Wearing The Turban Suddenly". Yamaganda runs Sunday 5, Monday 4, Tuesday 3, Wednesday 2, Thursday 1, Friday 7, Saturday 6 — a descending run from Sunday to Thursday, then a jump. Gulika Kaal runs Sunday 7, Monday 6, Tuesday 5, Wednesday 4, Thursday 3, Friday 2, Saturday 1 — a clean descending run through the whole week. The three tables are different, but each is fixed, and none of them is a guess.
+
+Two things in the table deserve a second look. First, on Thursday, Yamaganda takes the very first part of the day, 6:00 to 7:30 in the morning — the earliest window in the whole week. Second, on Saturday, Gulika Kaal also takes the first part, 6:00 to 7:30. A person who rises early on those days and begins something in the first hour is inside a window they may not have known existed, which is exactly why the full table matters and not only the Rahu column.
+
+![A sundial on a pale stone plinth in a quiet garden at golden hour](/blog/in-rahu-kaal-comparison-1.jpg)
+
+## Worked example: one Wednesday, all three windows
+
+Take a Wednesday with sunrise at 6:00 in the morning and sunset at 6:00 in the evening. Daylight is 720 minutes, so each part is 90 minutes. Counting from sunrise: part 1 runs 6:00 to 7:30, part 2 runs 7:30 to 9:00, part 3 runs 9:00 to 10:30, part 4 runs 10:30 to 12:00, part 5 runs 12:00 to 1:30, part 6 runs 1:30 to 3:00, part 7 runs 3:00 to 4:30, part 8 runs 4:30 to 6:00.
+
+Wednesday's slots are Rahu Kaal 5th, Yamaganda 2nd, Gulika Kaal 4th. So on this day:
+
+- **Yamaganda** runs 7:30 to 9:00 in the morning.
+- **Gulika Kaal** runs 10:30 in the morning to 12:00 noon.
+- **Rahu Kaal** runs 12:00 noon to 1:30 in the afternoon.
+
+Three windows, none overlapping, and the day still offers clean hours: 6:00 to 7:30 in the morning, 9:00 to 10:30, and the whole afternoon from 1:30 to 6:00. A signing fixed for 2:00 in the afternoon avoids all three; a signing fixed for 11:00 in the morning falls inside Gulika Kaal but outside the other two; a signing fixed for 8:00 in the morning falls inside Yamaganda only.
+
+The method checks out against real published timings, too. Take Tuesday 10 November 2026 in Tiruchirappalli, where sunrise was 6:42 in the morning and sunset 5:01 in the evening: the daylight is 619 minutes, each part about 77 minutes, and counting to Tuesday's slots gives Rahu Kaal 2:26 to 3:44 in the afternoon, Yamaganda 9:16 to 10:34 in the morning, and Gulika Kaal 11:51 in the morning to 1:09 in the afternoon — the same windows the published panchang lists for that city and date. The arithmetic is the same everywhere; only the sunrise and the city change.
+
+## What each window is traditionally for
+
+The three windows share a method, but they do not share a meaning. Each is tied to a different figure, and the tradition reads each one differently.
+
+**Rahu Kaal — the shadow's window.** Rahu is the eclipse point, the shadow planet of the tradition, and its window is the one most widely observed across India. It concerns new beginnings: signings, launches, major purchases, departures, openings. It is the window the [Rahu Kaal Calculator](/tools/rahu-kaal) reports, the window most panchangs print first, and the window most families actually check. If you observe only one of the three, this is the one.
+
+**Yamaganda — Yama's window.** Yamaganda is tied to Yama, the lord of death, and it carries the heaviest name of the three. In practice it is treated as a caution for health-related decisions and money matters in the families that observe it — medical procedures, hospital admissions, large financial commitments. Some households are stricter about Yamaganda than about Rahu Kaal for those specific purposes, and more relaxed about it for everything else. It is worth noting that the fear the name invites is not what the tradition prescribes: like Rahu Kaal, Yamaganda is a planning caution about choosing a time, not a prediction about what will happen inside it.
+
+**Gulika Kaal — the repeating window.** Gulika, sometimes linked with Mandi in classical texts, is the subtlest of the three. The traditional reading is that actions begun in Gulika Kaal tend to repeat — so it is avoided for loans and debts, which nobody wants repeated, and in some readings favoured for purchases and acquisitions, which people do want repeated. That makes Gulika Kaal the only one of the three with a genuinely two-sided reading, and the one where regional practice varies most. South Indian almanacs list it routinely; many North Indian panchangs omit it altogether, which is why readers outside the south often meet it for the first time in a comparison like this one.
+
+## Which window actually matters?
+
+For most people, on most days, the honest answer is: Rahu Kaal, and only Rahu Kaal — and even that, only for a genuine new beginning, and only when a choice exists. That is the window with the widest observance, the clearest rule, and the most consistent printing across panchangs. The other two matter in proportion to how strictly your family or region observes them: if your household has always avoided Yamaganda for medical decisions, observe it for those; if your almanac lists Gulika Kaal and you are taking a loan, observe it for that.
+
+The practical mistake is the opposite one: stacking all three avoidances into a single day and concluding that no hour is usable. The three windows together cover three eighths of the daylight — about four and a half hours on a twelve-hour day — which leaves five eighths, about seven and a half hours, free of all three. On the Wednesday above, the whole afternoon from 1:30 is clean. A day with no usable hours is a sign that the windows are being misread, not that the day is unusable. Our [Rahu Kaal mistakes guide](/blog/rahu-kaal-mistakes-myths-new-beginnings) takes up the seven ways that misreading happens, beginning with the commonest: treating a ninety-minute window as a ban on the whole day.
+
+There is also a counterweight that the avoidance tables never show. Abhijit Muhurat, the midday victory window, is traditionally read as overcoming all doshas, and it falls around midday on most days — overlapping, on some weekdays, with a window you are avoiding. A person who will not begin anything in Rahu Kaal but will begin in Abhijit is not contradicting themselves; they are using the tradition's own hierarchy, in which a strongly favourable window outweighs an unfavourable one. Check it on the [Abhijit Muhurat Finder](/tools/abhijit-muhurat) alongside the avoided windows, and read the whole day on the [Daily Panchang](/tools/daily-panchang) before deciding.
+
+## How the three windows relate to choghadia
+
+One more comparison clears up a frequent confusion. Choghadia also divides the day into eight parts, but it is a different system with a different purpose. Where Rahu Kaal, Yamaganda and Gulika Kaal each mark one part to avoid, choghadia grades every part — Amrit, Shubh and Labh as favourable, Rog, Kaal and Udveg as unfavourable — and its order changes by weekday in a different pattern. The two systems can be used together: pick a good choghadia that does not overlap any of the three avoided windows, and you have the tradition's fullest answer to "when should I begin?" The [Choghadia](/tools/choghadia) calculator gives the day's graded hours, and the [Hora Timing Calculator](/tools/hora-timing) adds the planetary hour for the same purpose at a finer grain. Used together, the four tools describe the day completely; used alone, any one of them describes only a part of it.
+
+![Three separate patches of sunlight on a stone courtyard floor](/blog/in-rahu-kaal-comparison-2.jpg)
+
+## Reading the day whole
+
+The three windows are a small, exact system: one method, three slot tables, five clean parts of the day left over. Learn the method once, keep the three tables somewhere you can reach them, and the almanac stops being a list of fears and becomes what it was meant to be — a timetable. Check today's Rahu Kaal on the [Rahu Kaal Calculator](/tools/rahu-kaal), read the rest of the day on the [Daily Panchang](/tools/daily-panchang), and begin the things that matter in the hours the day itself leaves open.
+
+**Q: Are Rahu Kaal, Yamaganda and Gulika Kaal the same thing?**
+A: No. They share one method — divide the daylight into eight equal parts — but each takes a different part on each weekday. Rahu Kaal is the most widely observed; Yamaganda is tied to Yama; Gulika Kaal is tied to Gulika, son of Saturn in the tradition. The full three-column table is above.
+
+**Q: Which of the three windows should I actually observe?**
+A: For most people, Rahu Kaal for new beginnings is enough. Observe Yamaganda for health and money decisions if your family or region does, and Gulika Kaal for loans if your almanac lists it. Stacking all three avoidances still leaves five eighths of the day free.
+
+**Q: Do the three windows ever overlap?**
+A: On a standard day they never overlap, because each takes a different one of the eight parts. The three windows together cover three eighths of the daylight, leaving five eighths clean. If your timings show an overlap, one of the slot tables has been misread.
+
+**Q: Why does my North Indian panchang list only Rahu Kaal?**
+A: Regional practice varies. South Indian almanacs routinely list all three windows; many North Indian panchangs print only Rahu Kaal. The method and the slot tables are the same where the windows are listed; the difference is how much detail the almanac prints, not a different tradition.
+
+**Q: What is Abhijit Muhurat, and does it cancel these windows?**
+A: Abhijit Muhurat is a midday window traditionally read as victorious over all doshas, including the avoided windows. In the tradition's own hierarchy, a strongly favourable window outweighs an unfavourable one. Check it on the [Abhijit Muhurat Finder](/tools/abhijit-muhurat) alongside the avoided windows for the full picture.`,
+  },
 ];

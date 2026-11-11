@@ -56,4 +56,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "how-to-read-todays-panchang-tithi-nakshatra", title: "How to Read Today's Panchang: Tithi to Karana" },
   { slug: "how-panchang-calculated-sunrise-place-time", title: "How Panchang Is Calculated: Sunrise, Place & Time" },
   { slug: "panchang-mistakes-shubh-timing-traps", title: "Panchang Mistakes: 7 Traps in Picking Shubh Timings" },
+  { slug: "how-rahu-kaal-is-calculated-sunrise-weekday", title: "How Rahu Kaal Is Calculated: Sunrise, Weekday & Day-Parts" },
+  { slug: "rahu-kaal-mistakes-myths-new-beginnings", title: "Rahu Kaal Mistakes: 7 Myths About New Beginnings" },
+  { slug: "rahu-kaal-vs-yamaganda-gulika-kaalam", title: "Rahu Kaal vs Yamaganda vs Gulika: Which Window Matters?" },
 ];
