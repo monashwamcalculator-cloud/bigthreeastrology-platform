@@ -5,8 +5,8 @@ import { ToolSections } from "@/components/tool-guide";
 import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Vedic Dasha & Mahadasha Timeline Calculator",
-  description: "Explore the 120-year Vimshottari Mahadasha planetary periods shaping your career, wealth, and destiny. Free — no sign-up, no download needed.",
+  title: "Vimshottari Dasha Calculator | Mahadasha Timeline & Dates",
+  description: "Free Vimshottari dasha calculator — your 120-year Mahadasha timeline with dates, your current period and what each planet brings. No sign-up.",
   path: "/tools/dasha-calculator"
 });
 
