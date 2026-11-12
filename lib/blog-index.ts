@@ -59,4 +59,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "how-rahu-kaal-is-calculated-sunrise-weekday", title: "How Rahu Kaal Is Calculated: Sunrise, Weekday & Day-Parts" },
   { slug: "rahu-kaal-mistakes-myths-new-beginnings", title: "Rahu Kaal Mistakes: 7 Myths About New Beginnings" },
   { slug: "rahu-kaal-vs-yamaganda-gulika-kaalam", title: "Rahu Kaal vs Yamaganda vs Gulika: Which Window Matters?" },
+  { slug: "big-three-birth-time-rising-sign-calculation", title: "Why Birth Time Changes Your Rising Sign" },
+  { slug: "big-three-combinations-how-to-read-your-trio", title: "Big Three Combinations: Reading Your Trio" },
+  { slug: "big-three-mistakes-cusp-birth-time-traps", title: "Big Three Mistakes: Cusps & Birth-Time Traps" },
 ];
