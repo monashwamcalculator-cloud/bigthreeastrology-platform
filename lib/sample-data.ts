@@ -1406,7 +1406,7 @@ Air Moons feel through thought and conversation. Naming a feeling is often the f
 
 Water Moons feel deeply and intuitively. Emotion is not an event; it is the climate.
 
-**Moon in Cancer** is the Moon at home: protective, nostalgic and profoundly attached to home and family. You remember who needed what and when, and you heal others by feeding, sheltering and listening. The watch-out is taking everything personally: other people's moods are not always about you, even when you feel them as if they were.
+**Moon in Cancer** is the Moon at home: protective, nostalgic and deeply attached to home and family. You remember who needed what and when, and you heal others by feeding, sheltering and listening. The watch-out is taking everything personally: other people's moods are not always about you, even when you feel them as if they were.
 
 **Moon in Scorpio** is the Moon in fall, and its depth is its power. You feel intensely, privately and with remarkable memory, and you need loyalty and honesty above all. You can transform through experiences that would break a lighter placement. The watch-out is suspicion: guarding your feelings so tightly that no one can reach them leaves you alone with them.
 
@@ -2181,7 +2181,7 @@ If you do not know yours yet, the [Pluto Sign Calculator](/tools/pluto-sign) wil
 
 ## What Pluto means in astrology
 
-Pluto is the modern ruler of Scorpio and is associated with the underworld in myth: not evil, but depth. Where Pluto sits in a chart, astrologers look for intensity, control issues, buried material, and the capacity for profound change. Pluto transits are famously described as the universe's renovation project: whatever is rotten gets torn down, whether you cooperate or not, and something more honest gets built in its place.
+Pluto is the modern ruler of Scorpio and is associated with the underworld in myth: not evil, but depth. Where Pluto sits in a chart, astrologers look for intensity, control issues, buried material, and the capacity for deep change. Pluto transits are famously described as the universe's renovation project: whatever is rotten gets torn down, whether you cooperate or not, and something more honest gets built in its place.
 
 This is why Pluto has a fearsome reputation it does not entirely deserve. Yes, Pluto periods can coincide with crisis, loss, power struggles and endings. But they also coincide with healing, empowerment and rebirth — the therapy that finally works, the business rebuilt after collapse, the relationship that becomes honest after a painful truth. Pluto's question is always: what is real here, and what are you clinging to that is already dead?
 
@@ -2226,7 +2226,7 @@ Working with Pluto personally means one practice above all: telling the truth to
 
 Consider two people born in 1990, both with Pluto in Scorpio. One is a psychotherapist who helps clients face trauma and rebuild — a textbook Pluto-in-Scorpio vocation, turning depth into healing. The other is a financial journalist who investigates hidden debt and corporate power, dragging secrets into daylight. Same generational signature, different arenas.
 
-Now add houses. If the therapist has Pluto in the 12th house, her work happens in the hidden realm itself: the unconscious, the private consulting room, the things people cannot say aloud. If the journalist has Pluto in the 10th house, his work is public: exposure, reputation, and the transformation of institutions. The sign gave them the same question — what power is hidden, and what happens when it is faced? — and the house gave them different stages. Reading Pluto alongside your [Moon sign](/tools/moon-sign) for emotional patterns and your [Mars sign](/tools/mars-sign) for how you act on desire rounds out the picture of how transformation actually moves through your life.
+Now add houses. If the therapist has Pluto in the 12th house, her work happens in that hidden world itself: the unconscious, the private consulting room, the things people cannot say aloud. If the journalist has Pluto in the 10th house, his work is public: exposure, reputation, and the transformation of institutions. The sign gave them the same question — what power is hidden, and what happens when it is faced? — and the house gave them different stages. Reading Pluto alongside your [Moon sign](/tools/moon-sign) for emotional patterns and your [Mars sign](/tools/mars-sign) for how you act on desire rounds out the picture of how transformation actually moves through your life.
 
 ## Pluto and power in everyday life
 
@@ -2310,7 +2310,7 @@ Chiron in Gemini wounds communication: feeling unheard, misunderstood, or afraid
 
 Chiron in Leo wounds self-expression and recognition: stage fright of the soul, the fear of shining and being judged for it. The gift is generous, joyful creativity that gives others permission to be seen. Chiron in Virgo wounds perfection and usefulness: the feeling of never being good enough, healthy enough, or helpful enough. The gift is precise, humble service — healing through attention to detail without demanding perfection.
 
-Chiron in Libra wounds relationship: people-pleasing, fear of conflict, or the sense that love must be earned by disappearing. The gift is fair, honest partnership — modelling boundaries that keep love intact. Chiron in Scorpio wounds trust and intimacy: betrayal, loss, or the fear of being truly known. The gift is profound psychological honesty and the ability to sit with others in their darkest places without flinching.
+Chiron in Libra wounds relationship: people-pleasing, fear of conflict, or the sense that love must be earned by disappearing. The gift is fair, honest partnership — modelling boundaries that keep love intact. Chiron in Scorpio wounds trust and intimacy: betrayal, loss, or the fear of being truly known. The gift is a deep psychological honesty and the ability to sit with others in their darkest places without flinching.
 
 Chiron in Sagittarius wounds meaning and belief: a crisis of faith, a philosophy that collapsed, or feeling like an outsider to every belief system. The gift is wisdom earned the hard way — teaching that honours doubt instead of papering over it. Chiron in Capricorn wounds achievement and authority: feeling like an impostor at work, or carrying a father's (or authority figure's) impossible standard. The gift is grounded mastery and mentoring others without the same harshness.
 
@@ -2495,7 +2495,7 @@ Lilith in Gemini is the silenced voice: words, wit or curiosity that were mocked
 
 Lilith in Leo is the forbidden spotlight: creativity and pride that were called vain or attention-seeking, and a gift for radiant, generous self-expression once applause stops being the point. Lilith in Virgo is the imperfect body and the messy truth: a body, a routine or a standard that never measured up, and a gift for honest, embodied service that refuses perfectionism's shame.
 
-Lilith in Libra is the inconvenient boundary: the "no" that broke the peace, the anger that ruined the harmony, and a gift for fair, honest relationship that does not require self-erasure. Lilith in Scorpio is the taboo depth: sexuality, power, grief and intensity that were called dark or dangerous, and a gift for profound intimacy and psychological truth once nothing has to be hidden.
+Lilith in Libra is the inconvenient boundary: the "no" that broke the peace, the anger that ruined the harmony, and a gift for fair, honest relationship that does not require self-erasure. Lilith in Scorpio is the taboo depth: sexuality, power, grief and intensity that were called dark or dangerous, and a gift for deep intimacy and psychological truth once nothing has to be hidden.
 
 Lilith in Sagittarius is the heretical belief: a faith, philosophy or truth that did not fit the tribe, and a gift for independent wisdom that questions dogma without needing to win the argument. Lilith in Capricorn is the unruly ambition: authority, success or control that others tried to take from you, and a gift for self-made power built on your own terms rather than borrowed approval.
 
@@ -2612,7 +2612,7 @@ First, the nakshatra. Taurus runs from 0 to 30 degrees, and Rohini covers 10°�
 
 Second, the pada. Rohini's four padas are 10°–13°20' (pada 1), 13°20'–16°40' (pada 2), 16°40'–20° (pada 3) and 20°–23°20' (pada 4). A Moon at 18° falls in pada 3. Each pada maps to a navamsa sign and refines the reading — the same nakshatra in a different pada is read with a different flavour, which is one reason two Rohini natives can feel quite different.
 
-Third, the dasha balance. The Moon has 5°20' left to travel in Rohini (23°20' minus 18°). That is 5.333 degrees out of Rohini's full 13.333-degree span, exactly 0.4 of the nakshatra. Rohini is ruled by the Moon, whose dasha lasts 10 years, so the Moon dasha balance at birth is 0.4 × 10 = 4 years. After those 4 years, Mars dasha (7 years) follows, then Rahu, and so on in the fixed order. One Moon position thus unlocks the whole timing sequence — and you can check the same arithmetic in the [Dasha Calculator](/tools/dasha-calculator), which builds your full timeline from your birth Moon.
+Third, the dasha balance. The Moon has 5°20' left to travel in Rohini (23°20' minus 18°). That is 5.333 degrees out of Rohini's full 13.333-degree span, exactly 0.4 of the nakshatra. Rohini is ruled by the Moon, whose dasha lasts 10 years, so the Moon dasha balance at birth is 0.4 × 10 = 4 years. After those 4 years, Mars dasha (7 years) follows, then Rahu, and so on in the fixed order. One Moon position thus opens up the whole timing sequence — and you can check the same arithmetic in the [Dasha Calculator](/tools/dasha-calculator), which builds your full timeline from your birth Moon.
 
 If you do not know your Moon's sidereal position yet, the [Nakshatra Finder](/tools/nakshatra) works it out from your birth date, time and place. Birth time matters more here than for Sun-sign work: the Moon moves about 13 degrees a day, roughly half a degree an hour, so a few hours of error can shift the nakshatra near a boundary.
 
@@ -2648,7 +2648,7 @@ Four: there is no hierarchy of good and bad birth stars. Pushya's reputation as 
 
 Start with the temperament description, but do not stop there. Read your Moon sign alongside it — the sign is the landscape, the nakshatra is the weather station inside it. Then check your dasha: your birth nakshatra's ruler tells you which planetary chapter you opened life in, and the balance tells you how long it ran. Finally, if marriage matching is on your mind, look at gana, nadi and yoni together rather than any one factor alone; a single mismatch has never been the whole story of a relationship.
 
-Your nakshatra is the smallest named unit of Vedic astrology and, paradoxically, the one that unlocks the most of the chart. Learn it once, and the rest of the system — dashas, matching, even naming — starts to join up.
+Your nakshatra is the smallest named unit of Vedic astrology and, paradoxically, the one that opens up the most of the chart. Learn it once, and the rest of the system — dashas, matching, even naming — starts to join up.
 
 ## Frequently asked questions
 
