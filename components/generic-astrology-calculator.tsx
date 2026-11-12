@@ -13,6 +13,59 @@ const ZODIAC_SIGNS = [
   "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"
 ];
 
+// Per-sign reading text, written individually for each sign (traditional
+// traits + a practical suggestion) so no two signs share result wording.
+const SIGN_READINGS: Record<string, { profile: string; advice: string }> = {
+  Aries: {
+    profile: "In traditional astrology, Aries is the first fire sign — linked with courage, initiative and a habit of acting first and asking questions later.",
+    advice: "Aries energy works best with a clear target. Pick one thing each morning, start it before you talk yourself out of it, and let the rest of the day follow that lead."
+  },
+  Taurus: {
+    profile: "Traditionally, Taurus is a fixed earth sign, tied to patience, persistence and a deep appreciation of comfort, good food and the natural world.",
+    advice: "Slow, steady routines suit you. Keep your mornings unhurried, spend a little time outdoors, and finish what you start before adding anything new."
+  },
+  Gemini: {
+    profile: "Gemini is Mercury's mutable air sign in the traditional picture — curious, quick with words, and happiest when it is learning something new.",
+    advice: "Your mind moves fast, so give it somewhere useful to go: write the idea down, make the call, ask the question. Short bursts of focus beat one long, restless stretch."
+  },
+  Cancer: {
+    profile: "In traditional astrology, Cancer is the Moon's own sign, associated with home, memory and a protective instinct toward the people it loves.",
+    advice: "You do your best work when home feels settled. Tidy one corner, check in on the people you love, and save your quietest hour for the task that matters most."
+  },
+  Leo: {
+    profile: "Leo is ruled by the Sun in traditional astrology, and it shows: warmth, pride in one's work and a natural pull toward the spotlight.",
+    advice: "Let yourself be seen today. Share the work you are proud of, dress like you mean it, and put your energy into making something rather than waiting for applause."
+  },
+  Virgo: {
+    profile: "Traditionally, Virgo is Mercury's earth sign — precise, practical and quietly devoted to doing things properly and being useful.",
+    advice: "Small fixes are your superpower. Make the list, clear the desk, sort the one drawer that has been bothering you — a tidy system frees up more energy than you'd expect."
+  },
+  Libra: {
+    profile: "In the traditional scheme, Libra is Venus's cardinal air sign, linked with fairness, diplomacy and an eye for beauty and balance.",
+    advice: "Balance comes from choosing, not pleasing. Decide the one thing that is fair to everyone — including you — and let the rest of the day arrange itself around it."
+  },
+  Scorpio: {
+    profile: "Scorpio is a fixed water sign in traditional astrology — intense, private and determined, with a talent for seeing what others leave unsaid.",
+    advice: "Keep your plans close and your focus closer. Work in private, dig into the one problem others avoid, and don't waste energy explaining yourself to people who aren't listening."
+  },
+  Sagittarius: {
+    profile: "Traditionally, Sagittarius is Jupiter's fire sign: honest, restless and philosophical, always looking for the bigger picture or the next horizon.",
+    advice: "You need room to move. Learn something new, take the longer route, plan the trip — a day with a horizon in it always treats you better than one spent boxed in."
+  },
+  Capricorn: {
+    profile: "In traditional astrology, Capricorn is Saturn's cardinal earth sign — disciplined, ambitious and patient enough to build things that last.",
+    advice: "Play the long game, as usual. One practical step toward the big goal, done properly, is worth more than a week of busywork — and you already know which step it is."
+  },
+  Aquarius: {
+    profile: "Aquarius is a fixed air sign in the traditional picture, tied to independent thinking, strong principles and a soft spot for the underdog.",
+    advice: "Follow the odd idea. Talk to someone outside your usual circle, try the unfamiliar tool or route, and let your independent streak solve the problem in its own way."
+  },
+  Pisces: {
+    profile: "Traditionally, Pisces is Jupiter's mutable water sign — compassionate and imaginative, with feelings that run deep and quiet.",
+    advice: "Protect your quiet. Music, water, a walk without your phone — whatever refills you, do it first, and let the practical things queue up behind it."
+  }
+};
+
 export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorProps) {
   const [name, setName] = useState("");
   const [dob, setDob] = useState("1995-06-15");
@@ -27,14 +80,15 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
     // sign — a traditional-interpretation guide, not an ephemeris calculation.
     const nameSeed = (name.length + selectedZodiac.length + tool.slug.length) % 12;
     const computedSign = ZODIAC_SIGNS[nameSeed] || selectedZodiac;
+    const reading = SIGN_READINGS[computedSign] || SIGN_READINGS[selectedZodiac];
 
     return {
       sign: computedSign,
       element: ["Fire ♈", "Earth ♉", "Air ♊", "Water ♋"][nameSeed % 4],
       score: 82 + (nameSeed * 1.5),
       verdict: `Cosmic Resonance Reflection for ${tool.name}`,
-      analysis: `This ${tool.name} reading is themed on ${computedSign} — the sign highlighted by your name profile and zodiac selection. In traditional astrology, ${computedSign} energy is linked with intuition, strategic focus, and spiritual grace. Treat this reading as a reflection guide.`,
-      advice: `Focus your daily energy on positive alignment, practice mindfulness during key transits, and leverage your natural ${computedSign} strengths.`
+      analysis: `This ${tool.name} reading is themed on ${computedSign} — the sign highlighted by your name profile and zodiac selection. ${reading.profile} Treat this reading as a reflection guide.`,
+      advice: reading.advice
     };
   }, [name, selectedZodiac, tool]);
 
