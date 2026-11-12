@@ -13,7 +13,7 @@ export const metadata: Metadata = buildMetadata({
 export default function DestinyNumberPage() {
   return (
     <div className="py-6 space-y-6">
-      <ToolPageHeader slug="destiny-number" title="Destiny Number Calculator — Expression Number" intro="Calculate your Destiny (Expression) Number from your full birth name using Chaldean math, and discover the talents you are meant to express." />
+      <ToolPageHeader slug="destiny-number" title="Destiny Number Calculator — Expression Number" intro="Calculate your Destiny (Expression) Number from your full birth name using Chaldean math, and find the talents you are meant to express." />
       <DestinyNumberCalculator />
       <ToolSections slug="destiny-number" />
     </div>

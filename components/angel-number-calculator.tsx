@@ -82,7 +82,7 @@ export function AngelNumberCalculator() {
         <div className="badge badge-gold mb-3"> Angel Numbers & Cosmic Frequency</div>
         <h2 className="font-display text-3xl font-bold gradient-text-gold">Angel Number Decoder & Frequency Guide</h2>
         <p className="text-[#3A5747] text-sm mt-1">
-          Decode recurring number sequences (111, 222, 444, 777, 888) and unlock cosmic manifestation guidance.
+          Decode recurring number sequences (111, 222, 444, 777, 888) and see what each one is traditionally said to mean.
         </p>
       </div>
 

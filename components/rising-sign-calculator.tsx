@@ -38,7 +38,7 @@ export function RisingSignCalculator() {
         <div className="badge badge-emerald mb-2"> Lagna & First Impressions</div>
         <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text">Rising Sign (Ascendant) Reader</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
-          Select your Rising sign to unlock your physical aura, first impressions, and Ascendant ruling planet.
+          Select your Rising sign to see your physical aura, first impressions, and Ascendant ruling planet.
         </p>
       </div>
 

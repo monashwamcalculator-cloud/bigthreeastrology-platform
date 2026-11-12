@@ -25,7 +25,7 @@ export default function LoveCompatibilityPage() {
     <div className="space-y-10 py-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
-      <ToolPageHeader slug="love-compatibility" title="Zodiac Love Matcher" intro="Discover the cosmic chemistry, elemental synergy, and relationship potential between you and your partner." />
+      <ToolPageHeader slug="love-compatibility" title="Zodiac Love Matcher" intro="See the cosmic chemistry, elemental synergy, and relationship potential between you and your partner." />
 
       <LoveCompatibilityCalculator />
       <ToolSections slug="love-compatibility" />
@@ -44,7 +44,7 @@ export default function LoveCompatibilityPage() {
 
         <h3>Beyond Sun Signs</h3>
         <p>
-          For the most profound compatibility analysis, combine your Sun sign match with your **Moon sign** (emotional compatibility) and **Rising sign** (lifestyle pacing).
+          For the deepest compatibility analysis, combine your Sun sign match with your **Moon sign** (emotional compatibility) and **Rising sign** (lifestyle pacing).
         </p>
       </section>
     </div>

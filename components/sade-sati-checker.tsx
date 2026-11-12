@@ -175,7 +175,7 @@ export function SadeSatiChecker() {
         <div className="badge badge-emerald mb-3"> Saturn Transit & Shani Remedy</div>
         <h2 className="font-display text-3xl font-bold gradient-text">Sade Sati & Saturn Phase Checker</h2>
         <p className="text-[#3A5747] text-sm mt-1">
-          Check if your Moon Sign is undergoing Shani Sade Sati (7.5-year cycle) and unlock authentic Vedic remedies.
+          Check if your Moon Sign is undergoing Shani Sade Sati (7.5-year cycle) and see the traditional Vedic remedies for it.
         </p>
       </div>
 

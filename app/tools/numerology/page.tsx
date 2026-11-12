@@ -39,7 +39,7 @@ export default function NumerologyPage() {
 
         <h3>How Is the Life Path Number Calculated?</h3>
         <p>
-          Your Life Path Number is derived by adding together all the digits of your full birth date (Month, Day, and Year) and reducing them down to a single digit between 1 and 9. The only exceptions are the Master Numbers: **11, 22, and 33**, which possess elevated spiritual frequencies and are kept intact.
+          Your Life Path Number is derived by adding together all the digits of your full birth date (Month, Day, and Year) and reducing them down to a single digit between 1 and 9. The only exceptions are the Master Numbers: **11, 22, and 33**, which are said to carry a higher spiritual frequency and are kept intact.
         </p>
 
         <h3>What Is Name Expression Numerology?</h3>

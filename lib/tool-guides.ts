@@ -440,7 +440,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Use the result in Kundali Milan matching and to understand your dasha sequence.",
     ],
     resultMeaning: [
-      "Your nakshatra describes instinctive nature — the layer of personality that shows under stress and in private. Pushya is the nourisher, Magha carries ancestral authority, Rohini is the sensual creator, Hasta the skilled maker. The ruling planet of your nakshatra also starts your Vimshottari dasha count, so this one result unlocks your whole timing map.",
+      "Your nakshatra describes instinctive nature — the layer of personality that shows under stress and in private. Pushya is the nourisher, Magha carries ancestral authority, Rohini is the sensual creator, Hasta the skilled maker. The ruling planet of your nakshatra also starts your Vimshottari dasha count, so this one result opens up your whole timing map.",
     ],
     faqs: [
       {
@@ -2922,7 +2922,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
     faqs: [
       {
         question: "What is the difference between birthday number and life path number?",
-        answer: "The birthday figure uses only the day of the month and describes one ready-made talent. The life path uses day, month and year together and outlines wider life direction and lessons. One names a tool in your hand; the other describes the journey that tool gets used on."
+        answer: "The birthday figure uses only the day of the month and describes one ready-made talent. The life path uses day, month and year together and outlines wider life direction and lessons. One names a tool in your hand; the other describes the path that tool gets used on."
       },
       {
         question: "Do I need my birth month or year for this calculation?",
