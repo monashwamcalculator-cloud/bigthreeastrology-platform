@@ -48,7 +48,7 @@ export default async function BlogPage() {
         <div className="badge badge-gold mb-2"> Educational Astrology &amp; Timing Guides</div>
         <h1 className="text-4xl md:text-5xl font-display font-bold gradient-text-gold animate-fade-in">Astrology &amp; Cosmic Guides</h1>
         <p className="text-[#43584A] text-base sm:text-lg max-w-2xl mx-auto animate-slide-up">
-          In-depth guides to unlock your Big Three signs, predict your future spouse, match Kundalis, and master daily auspicious timing.
+          In-depth guides to your Big Three signs, your future spouse, Kundli matching, and daily auspicious timing — explained step by step.
         </p>
       </div>
 

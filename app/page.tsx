@@ -322,7 +322,7 @@ export default function HomePage() {
             Mastering Your Astrological & Numerological Blueprint
           </h2>
           <p className="text-xs sm:text-sm leading-relaxed text-[rgba(46,61,51,0.92)]">
-            Astrology and numerology are ancient symbolic frameworks designed to foster profound self-awareness, psychological clarity, and timing mastery. At BIGThreeAstrology, we combine classic Western Tropical astrology with authentic Vedic Sidereal Jyotish and Pythagorean/Chaldean numerology systems.
+            Astrology and numerology are ancient symbolic frameworks that people use to understand themselves better, think more clearly, and get their timing right. At BIGThreeAstrology, we combine classic Western Tropical astrology with authentic Vedic Sidereal Jyotish and Pythagorean/Chaldean numerology systems.
           </p>
         </div>
 
