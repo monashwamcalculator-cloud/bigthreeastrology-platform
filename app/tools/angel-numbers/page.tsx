@@ -6,7 +6,7 @@ import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Angel Number Decoder & Cosmic Frequency Guide",
-  description: "Decode 111, 222, 333, 444, 555, 777, 888 angel numbers and unlock manifestation frequencies. Free and instant, with the method explained — no sign-up.",
+  description: "Decode 111, 222, 333, 444, 555, 777, 888 angel numbers and what each sequence is said to mean. Free and instant, with the method explained — no sign-up.",
   path: "/tools/angel-numbers"
 });
 

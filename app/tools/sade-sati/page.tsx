@@ -6,7 +6,7 @@ import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Sade Sati Phase Checker & Saturn Remedies",
-  description: "Check your Moon Sign for Shani Sade Sati transit phase and unlock authentic Vedic remedies. Free and instant, with the method explained — no sign-up.",
+  description: "Check your Moon Sign for Shani Sade Sati transit phase and see the traditional Vedic remedies. Free and instant, with the method explained — no sign-up.",
   path: "/tools/sade-sati"
 });
 
