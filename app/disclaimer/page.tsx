@@ -32,21 +32,21 @@ export default function DisclaimerPage() {
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">1. Self-Awareness & Guidance Purpose</h2>
           <p>
-            The calculations, planetary placements, 36 Gunas Kundali match scores, Choghadia Muhurat timings, Sade Sati phases, and numerology readings provided on BIGThreeAstrology are intended solely for personal self-awareness, entertainment, and educational guidance.
+            Everything you get from this site — the calculations, planetary placements, 36 Gunas Kundali match scores, Choghadia Muhurat timings, Sade Sati phases and numerology readings — is meant for your own self-awareness, learning and entertainment. Nothing more, nothing less.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">2. No Professional Advice</h2>
           <p>
-            Astrological insights should never replace professional financial, medical, legal, or psychological counseling. Users are encouraged to exercise personal judgment and consult licensed professionals for life decisions.
+            Please do not treat an astrological reading as professional advice. Money, health, legal matters and your mental wellbeing deserve qualified people who know your situation. Talk to a licensed professional for life&apos;s big decisions — and always use your own judgement.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">3. Contact Us</h2>
           <p>
-            If you have questions regarding this disclaimer, email us at:{" "}
+            Questions about this disclaimer? Email us at:{" "}
             <a href="mailto:asbusiness276@gmail.com" className="text-[#075433] font-bold hover:underline">
               asbusiness276@gmail.com
             </a>.

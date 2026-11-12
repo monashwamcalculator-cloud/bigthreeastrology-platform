@@ -32,28 +32,28 @@ export default function TermsPage() {
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">1. Acceptance of Terms</h2>
           <p>
-            By accessing and using BIGThreeAstrology (<strong>https://bigthreeastrology.online</strong>), you agree to be bound by these Terms and Conditions. If you do not agree with any part of these terms, you should discontinue using the website.
+            By using BIGThreeAstrology (<strong>https://bigthreeastrology.online</strong>), you accept these Terms and Conditions. If any part of them does not work for you, please do not use the website.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">2. Free Educational & Entertainment Service</h2>
           <p>
-            BIGThreeAstrology provides 100+ interactive astrology and numerology calculators for personal, educational, self-awareness, and entertainment purposes. Calculator outputs do not constitute professional legal, financial, medical, or psychological advice.
+            Our 100+ interactive astrology and numerology calculators are here for personal use — learning, self-awareness and entertainment. What a calculator tells you is not professional advice, and it is no substitute for a lawyer, a financial adviser, a doctor or a therapist.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">3. Intellectual Property Rights</h2>
           <p>
-            All website design, logos, custom calculator engines, text content, and UI components are the exclusive property of BIGThreeAstrology. You may share report snapshots for personal or social media use with attribution.
+            Everything on this website — the design, logos, our custom calculator engines, the written content and the interface — belongs to BIGThreeAstrology. You are welcome to share snapshots of your results for personal use or on social media, as long as you credit us.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2 className="text-xl font-display font-semibold text-[#042F2A]">4. Support & Inquiries</h2>
           <p>
-            For questions regarding these Terms and Conditions, please contact us at:{" "}
+            Questions about these terms? Please email us at:{" "}
             <a href="mailto:asbusiness276@gmail.com" className="text-[#075433] font-bold hover:underline">
               asbusiness276@gmail.com
             </a>.
