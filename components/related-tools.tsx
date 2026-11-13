@@ -28,7 +28,13 @@ export function getRelatedTools(tool: ToolDefinition, count = 6): ToolDefinition
 const BLOG_OVERRIDES: Record<string, string[]> = {
   "lifepath-compatibility": ["life-path-number-compatibility-guide"],
   "destiny-number": ["life-path-number-compatibility-guide"],
-  numerology: ["life-path-number-compatibility-guide"],
+  // Numerology cluster (blogs 56-58, 13 Nov 2026): rail otherwise shows only
+  // the older compatibility guide; override points it at the first two
+  // cluster blogs (blog 58 reached via siblings).
+  numerology: [
+    "how-numerology-calculated-core-numbers",
+    "numerology-core-numbers-life-path-expression-soul-urge",
+  ],
   "spouse-predictor": [
     "spouse-appearance-astrology-guide",
     "future-spouse-prediction-vedic-astrology",

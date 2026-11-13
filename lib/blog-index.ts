@@ -62,4 +62,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "big-three-birth-time-rising-sign-calculation", title: "Why Birth Time Changes Your Rising Sign" },
   { slug: "big-three-combinations-how-to-read-your-trio", title: "Big Three Combinations: Reading Your Trio" },
   { slug: "big-three-mistakes-cusp-birth-time-traps", title: "Big Three Mistakes: Cusps & Birth-Time Traps" },
+  { slug: "how-numerology-calculated-core-numbers", title: "How Numerology Is Calculated: The Core Numbers" },
+  { slug: "numerology-core-numbers-life-path-expression-soul-urge", title: "Life Path vs Expression vs Soul Urge: Core Numbers" },
+  { slug: "numerology-mistakes-birth-name-reduction-traps", title: "Numerology Mistakes: 7 Traps That Change Your Number" },
 ];
