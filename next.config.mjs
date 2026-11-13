@@ -20,6 +20,76 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/tools/love-compatibility-calculator',
+        destination: '/tools/love-compatibility',
+        permanent: true,
+      },
+      {
+        source: '/tools/jupiter-sign-calculator',
+        destination: '/tools/jupiter-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/chiron-sign-calculator',
+        destination: '/tools/chiron',
+        permanent: true,
+      },
+      {
+        source: '/tools/moon-sign-calculator',
+        destination: '/tools/moon-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/sun-sign-calculator',
+        destination: '/tools/sun-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/saturn-sign-calculator',
+        destination: '/tools/saturn-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/mars-sign-calculator',
+        destination: '/tools/mars-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/rising-sign-calculator',
+        destination: '/tools/rising-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/mercury-sign-calculator',
+        destination: '/tools/mercury-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/venus-sign-calculator',
+        destination: '/tools/venus-sign',
+        permanent: true,
+      },
+      {
+        source: '/tools/big-three-calculator',
+        destination: '/tools/big-three',
+        permanent: true,
+      },
+      {
+        source: '/tools/big-three-sign-calculator',
+        destination: '/tools/big-three',
+        permanent: true,
+      },
+      {
+        source: '/blog/vimshottari-dasha-explained',
+        destination: '/blog/vimshottari-dasha-explained-planetary-periods',
+        permanent: true,
+      },
+      {
+        source: '/blog/vimshottari-dasha-calculator-guide',
+        destination: '/blog/vimshottari-dasha-explained-planetary-periods',
+        permanent: true,
+      },
+      {
         source: '/love-compatibility-calculator',
         destination: '/tools/love-compatibility',
         permanent: true,

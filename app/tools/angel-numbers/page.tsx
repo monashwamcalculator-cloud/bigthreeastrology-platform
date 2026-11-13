@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Angel Number Decoder & Cosmic Frequency Guide",
+  title: "Angel Number Calculator & Decoder | 111, 222, 333 Meanings",
   description: "Decode 111, 222, 333, 444, 555, 777, 888 angel numbers and what each sequence is said to mean. Free and instant, with the method explained — no sign-up.",
   path: "/tools/angel-numbers"
 });
