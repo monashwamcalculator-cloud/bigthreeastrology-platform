@@ -6178,4 +6178,290 @@ A: Read the whole set together before doubting the arithmetic. Our post on [Life
 
 Check your own numbers now with the [Numerology Calculator](/tools/numerology) — Life Path from your birth date, Expression from your full birth name — and run them through the checklist above before you read them.`,
   },
+  // BLOG 59
+  {
+    id: "blog-59",
+    title: "Big Three Compatibility: Compare Sun, Moon & Rising in a Pair",
+    slug: "love-compatibility-big-three-sun-moon-rising",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "love-compatibility",
+    metaDescription: "Compare Sun, Moon and Rising pair by pair: the three-pair compatibility method, two worked couples, and where the Sun-sign score fits.",
+    image: "/blog/love-compatibility-big-three-guide.jpg",
+    createdAt: new Date("2026-11-14"),
+    updatedAt: new Date("2026-11-14"),
+    content: `> **Executive Overview**: A Sun-sign match compares one layer of two people. Real compatibility compares three: Sun with Sun, Moon with Moon, and Rising with Rising.
+> The [Love Compatibility Calculator](/tools/love-compatibility) gives you the first layer — a Sun-sign score from elemental harmony. This post shows how to run the other two pairs with the [Big Three Calculator](/tools/big-three), read all three together, and know which pair matters most for the question you are actually asking.
+>
+> Two worked couples below make the method concrete: one pair that looks easy on every axis but one, and one pair where all three axes pull in opposite directions — and why the second couple is not doomed.
+
+The fastest compatibility reading you can get is a Sun-sign score. Pick two signs, get a percentage. Our [Love Compatibility Calculator](/tools/love-compatibility) does exactly that: it compares the two Sun signs through their elements — Fire, Earth, Air and Water — and returns a score with a short reading. Leo with Sagittarius, two Fire signs, comes out at 92% with a "Double Fire Element Connection" note. It is a fair first impression, and it is also only one third of the picture.
+
+The reason is simple. A Sun sign describes one thing: the direction a person is growing in, what they want to be recognised for, how they make big choices. It says nothing about what they need in order to feel safe at home, and nothing about the style they bring into a room on an ordinary Tuesday. Those two things are the Moon sign and the Rising sign — and in a relationship, they are usually the things that decide whether two people can actually live together, not just admire each other.
+
+So the working method is three comparisons, not one:
+
+- **Sun with Sun** — shared direction. Do you want the same kind of life, and do you admire the way the other person goes after it?
+- **Moon with Moon** — emotional safety. When one of you is tired, upset or overwhelmed, does the other person's instinctive response soothe or irritate?
+- **Rising with Rising** — daily pace. Do you move through ordinary days at a compatible speed, with compatible habits around time, space and other people?
+
+Each pair is read on its own first, then the three are weighed together. That order matters: a couple can have a wonderful Sun pair and a difficult Moon pair, and the relationship will feel wonderful on holiday and difficult on a bad week. The score alone cannot tell you that. The three pairs can.
+
+## How to read one pair
+
+Every pair is read the same way, using the distance between the two signs on the zodiac wheel. Signs are 30 degrees apart, so the distance between any two signs is always a multiple of 30 degrees, and each distance has a traditional reading:
+
+- **Same sign (0 degrees).** Instant recognition. You operate the same way, which is restful — and which can also mean you share the same blind spots.
+- **Trine (120 degrees, four signs apart).** The easiest distance. Same element, different expression: Leo and Sagittarius are both Fire, but Leo performs and Sagittarius explores. Energy flows without translation.
+- **Sextile (60 degrees, two signs apart).** Friendly elements — Fire with Air, Earth with Water. The pair has to make a small effort to understand each other, and the effort usually pays off.
+- **Square (90 degrees, three signs apart).** Friction. The two signs want different things at the same time, in the same place. Squares are where couples do their real work — and where they grow, if they name the tension instead of blaming each other for it.
+- **Opposition (180 degrees, six signs apart).** The mirror. Strong attraction, because each person carries what the other lacks — and a standing negotiation, because each person also finds the other's way of doing things slightly wrong.
+
+Elements decide the flavour: Fire with Air is easy, Earth with Water is easy, same element is easy. Fire with Earth, Fire with Water, Air with Earth and Air with Water all need translation. None of these distances is a verdict on its own. A square on the Moon pair and a trine on the Sun pair is a very different relationship from a square on the Sun pair and a trine on the Moon pair — which is why the pairs are read separately before they are combined.
+
+To run the comparison you need both people's Big Three. The [Big Three Calculator](/tools/big-three) gives Sun, Moon and Rising from a birth date, time and place — Western or Vedic (Lahiri sidereal) — and our guide to [how to read your Big Three](/blog/how-to-read-big-three) explains what each of the three means on its own. You need a birth time for the Rising sign; without one, run the Sun and Moon pairs only, and do not guess a Rising sign. A guessed Rising sign is worse than a missing one, because it invents a daily-pace reading that was never there.
+
+## Worked couple 1: two easy pairs, one working axis
+
+Maya: Sun Leo, Moon Cancer, Rising Sagittarius. Arjun: Sun Sagittarius, Moon Taurus, Rising Gemini.
+
+**Sun with Sun — Leo with Sagittarius, trine (120 degrees).** Both Fire. Maya's Leo wants to be seen and to create; Arjun's Sagittarius wants to explore and to learn. They admire each other's direction, and neither has to explain why their ambitions matter. This is the pair the [Love Compatibility Calculator](/tools/love-compatibility) sees: Leo with Sagittarius is its 92% example, and the score is fair for this layer.
+
+**Moon with Moon — Cancer with Taurus, sextile (60 degrees).** Water with Earth, a friendly combination. Maya's Cancer Moon needs closeness and reassurance; Arjun's Taurus Moon needs steadiness and physical comfort. When Maya is upset she wants to be held and talked to; Arjun's instinct is to stay, make tea, and wait. Those instincts fit. This is the pair that decides whether the relationship survives a bad week, and here it is easy.
+
+**Rising with Rising — Sagittarius with Gemini, opposition (180 degrees).** This is the working axis. Maya's Sagittarius Rising enters a room expansively — big plans, big talk, always one more idea. Arjun's Gemini Rising enters a room curiously — many small conversations, quick changes of subject, always one more person to meet. They are attracted to exactly this difference, and they also trip over it: Maya finds Arjun scattered, Arjun finds Maya overbearing. The opposition is not a flaw; it is the place where the couple has to keep negotiating, out loud, instead of assuming the other person is being difficult.
+
+Read together: two easy pairs and one working axis. The relationship feels natural in its direction and its emotional life, and its daily pace needs conscious adjustment. That is a good, honest summary — and it is a summary no single percentage can give, because a single percentage has to average the easy and the difficult into one number and throw away which is which.
+
+![A couple looking at a printed birth chart together over tea](/blog/in-love-compatibility-big-three-1.jpg)
+
+## Worked couple 2: three oppositions — and why it is not doomed
+
+Priya: Sun Aries, Moon Capricorn, Rising Virgo. Rohan: Sun Libra, Moon Cancer, Rising Pisces.
+
+**Sun with Sun — Aries with Libra, opposition (180 degrees).** Both cardinal signs, opposite ends of the same axis. Priya's Aries wants to decide and act; Rohan's Libra wants to weigh and agree. The attraction is real — each carries the decisiveness or the diplomacy the other lacks — and so is the negotiation: every joint decision is a small exercise in meeting halfway.
+
+**Moon with Moon — Capricorn with Cancer, opposition (180 degrees).** Priya's Capricorn Moon copes with stress by getting organised and getting on with it; Rohan's Cancer Moon copes by retreating into closeness and needing reassurance. Under pressure, Priya's instinct looks cold to Rohan, and Rohan's instinct looks clingy to Priya. This is the hardest pair of the three, because it governs the bad weeks.
+
+**Rising with Rising — Virgo with Pisces, opposition (180 degrees).** Priya's Virgo Rising runs the day on lists and order; Rohan's Pisces Rising runs the day on mood and flow. The kitchen, the calendar and the front door are all small negotiations.
+
+A Sun-sign-only reading would call Aries with Libra a decent match — opposites attract — and stop there. The three-pair reading says something more useful: this couple has strong chemistry and real work on every axis at once. That is not a prediction of failure. Some of the longest relationships are exactly this shape, because oppositions force two people to keep learning each other's language instead of coasting. But it is a relationship that needs the work named early: how do we decide, how do we comfort each other when stressed, and how do we run a day together. A couple that answers those three questions deliberately will do better than a couple with three easy pairs who never ask them.
+
+## How to weigh the three pairs
+
+There is no formula that turns three pairs into one score, and any calculator that offers one is hiding its assumptions. What you can do is weigh them by the question you are asking:
+
+- **Can we live together day to day?** The Moon pair matters most, then the Rising pair. Emotional safety and daily pace are what a shared life is made of.
+- **Do we want the same life?** The Sun pair matters most. Shared direction keeps a couple together through the years when the daily details change.
+- **Are we attracted to each other?** The Sun pair and the Rising pair — direction and first impression — with the Moon pair deciding whether the attraction survives familiarity. For the attraction layer specifically, the [Venus Sign Calculator](/tools/venus-sign) and the [Moon Sign Calculator](/tools/moon-sign) add the love-language and emotional-needs detail this method does not cover.
+
+A useful rule: read the hardest pair first. If the Moon pair is a square or an opposition, that is where the relationship will be tested, whatever the Sun pair says. If the Moon pair is easy and the Sun pair is hard, the couple will feel safe together and argue about direction — a much easier problem to solve than the reverse.
+
+![A couple talking closely on a sofa in warm evening light](/blog/in-love-compatibility-big-three-2.jpg)
+
+## What the three-pair method cannot do
+
+It is still only three points from two charts, and honest astrology says so. It does not see houses — whether your partner's planets fall in your 7th house of partnership or your 12th house of hidden things. It does not see Venus and Mars contacts, which govern attraction more directly than any of the three. It does not see timing: a difficult transit or a dasha period can strain any pairing for a season, and a good transit can smooth one. And in the Vedic frame, it does not replace [Kundali Milan](/tools/kundali-milan), which scores 36 gunas across eight factors including Nadi and Bhakoot — a different, wider system that our [Kundali Milan guide](/blog/vedic-kundali-milan-36-guna-guide) explains in full.
+
+The method also has one hard limit: it needs birth times. The Rising sign moves about one degree every four minutes, so a birth time that is off by half an hour moves the Rising sign by seven or eight degrees — enough to change the sign near a boundary. If either person's birth time is unknown, use the Sun and Moon pairs only and say so. Two honest pairs beat three invented ones.
+
+## Putting it together
+
+Run the [Love Compatibility Calculator](/tools/love-compatibility) first, for the Sun-sign layer and its score. Then run the [Big Three Calculator](/tools/big-three) for both people, compare the three pairs using the distances above, and read the hardest pair first. If you want the same method applied to one person instead of two, our post on [Big Three combinations](/blog/big-three-combinations-how-to-read-your-trio) shows how the three signs combine inside a single chart. And if the score you got raises more questions than it answers, our post on [what a compatibility score hides](/blog/love-compatibility-score-what-it-hides) works through the five things no percentage can see — and our post on [Sun-sign compatibility mistakes](/blog/love-compatibility-mistakes-sun-sign-verdicts) lists the seven verdicts that mislead couples.
+
+**Q: Do I need birth times for both people to use this method?**
+A: For the full method, yes — the Rising sign needs a birth time, and it moves fast, about one degree every four minutes. Without a birth time for one person, compare Sun with Sun and Moon with Moon only. Those two pairs still tell you most of what matters: shared direction and emotional safety. Do not guess a Rising sign.
+
+**Q: What if we have the same Rising sign?**
+A: Same-sign Rising pairs share a daily style — the same pace, the same habits around time and other people. That is restful, and it can also mean you share the same blind spots about daily life. It is one easy pair, not a verdict on the whole relationship; read it next to the Sun and Moon pairs.
+
+**Q: Can two people have the same Big Three?**
+A: In principle yes, and in practice it is very rare — it needs the same birth date, nearly the same birth time and a nearby birthplace. If it happens, the comparison is all same-sign pairs: deep recognition, and the same blind spots in both people. The relationship then depends heavily on the rest of the chart, which this method does not cover.
+
+**Q: Our Sun pair is great but our Moon pair is hard. Which one wins?**
+A: Neither wins outright — they govern different parts of the relationship. A great Sun pair with a hard Moon pair usually feels wonderful on good days and difficult on bad weeks, because the Moon pair governs stress and closeness. Read the Moon pair first, name what each person needs when upset, and the Sun pair's shared direction gives you a reason to do that work.
+
+**Q: Does the Vedic system change the three pairs?**
+A: The method is the same, but the signs shift: Vedic (Lahiri sidereal) signs run about 24 degrees behind Western (tropical) signs, so the same person can have a different Sun, Moon or Rising sign in each system. Use one system for both people — do not mix a Western chart for one person with a Vedic chart for the other. The [Big Three Calculator](/tools/big-three) lets you switch between the two.
+
+Run the Sun-sign layer on the [Love Compatibility Calculator](/tools/love-compatibility), then compare all three pairs — and read the hardest pair first, because that is where the relationship is actually decided.
+`,
+  },
+  // BLOG 60
+  {
+    id: "blog-60",
+    title: "What Your Love Compatibility Score Hides (and What to Read Instead)",
+    slug: "love-compatibility-score-what-it-hides",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "love-compatibility",
+    metaDescription: "A love compatibility score is a Sun-sign snapshot, not a verdict. What it leaves out — Moon needs, Venus attraction, timing — and how to read the rest.",
+    image: "/blog/love-compatibility-score-guide.jpg",
+    createdAt: new Date("2026-11-14"),
+    updatedAt: new Date("2026-11-14"),
+    content: `> **Executive Overview**: A compatibility percentage measures one thing — how easily two Sun signs get along by element and sign distance.
+> It does not see Moon signs, Venus and Mars contacts, communication, timing, or the houses where one person's planets fall in the other's chart. This post works through the five things a score hides, with a worked example of two couples who share the same 92% score and have very different relationships — and a three-step way to read your own result properly.
+>
+> The score is a useful first impression. The mistake is treating it as the whole reading.
+
+Type two Sun signs into the [Love Compatibility Calculator](/tools/love-compatibility) and you get a percentage and a short reading. Leo with Sagittarius returns 92% — "Double Fire Element Connection". Taurus with Cancer returns a high score too, on the same logic: same or friendly elements, shared rhythm. A low number — say a Fire sign with a Water sign — comes back with a warning about friction and a growth tip.
+
+All of that is true, as far as it goes. The problem is what "as far as it goes" leaves out. A Sun-sign score compares two points from two charts. A birth chart has ten planets, twelve houses, and the aspects between them. The score is a snapshot of the weather on one layer; the relationship lives in all the layers underneath. This post is about those layers — what the number hides, why two couples with the same score can feel completely different, and how to read the rest without needing a full synastry course.
+
+## The same score, two different couples
+
+Take the tool's own example: Leo with Sagittarius, 92%. Now imagine two couples with exactly that Sun-sign pairing.
+
+**Couple one.** She is Sun Leo, Moon Cancer. He is Sun Sagittarius, Moon Taurus. Their Moon pair is Cancer with Taurus — Water with Earth, a sextile at 60 degrees, two signs apart. When she is upset she wants closeness and reassurance; his instinct is to stay nearby, be steady, and wait. Their emotional weather is easy. The 92% feels true in daily life: the relationship is warm, the bad weeks are short, and the friction that exists sits mostly in the Rising-sign layer, where their daily styles differ.
+
+**Couple two.** She is Sun Leo, Moon Scorpio. He is Sun Sagittarius, Moon Aquarius. Their Moon pair is Scorpio with Aquarius — a square at 90 degrees, three signs apart. When she is upset she wants depth, honesty and full attention, now; his instinct is to step back, think, and give space. Each person's coping style reads to the other as the opposite of care: she feels abandoned, he feels crowded. Their emotional weather is stormy even though their Sun signs are the same as couple one's.
+
+Same 92%. Different relationships. The score cannot distinguish them, because the score never looks at the Moon. And the Moon pair is the layer that decides whether a couple can live together — what each person needs when tired, upset or overwhelmed. A high Sun-sign score with a hard Moon pair feels wonderful on holiday and difficult on a bad week. A middling Sun-sign score with an easy Moon pair often feels ordinary on a first date and quietly solid for years. If you want the full comparison, our post on [Big Three compatibility](/blog/love-compatibility-big-three-sun-moon-rising) shows how to compare Sun, Moon and Rising pair by pair.
+
+![Two people in quiet conversation at a kitchen table at dusk](/blog/in-love-compatibility-score-1.jpg)
+
+## The five things a score hides
+
+**1. Moon needs — the emotional layer.** This is the biggest omission, and the one in the example above. The Moon governs what you need in order to feel safe: closeness or space, words or quiet, routine or spontaneity. Two people can share a Sun-sign trine and still fail each other every evening if their Moons are square. The [Moon Sign Calculator](/tools/moon-sign) gives both Moons; compare them with the same distance rules as the Sun pair — same sign, trine, sextile, square, opposition — and read the Moon pair before you read anything else about living together.
+
+**2. Venus and Mars contacts — the attraction layer.** A Sun-sign score says nothing about desire. In traditional synastry, attraction lives mostly in Venus and Mars: her Venus with his Mars, his Venus with her Mars, and where each person's Venus falls in the other's chart. This is why people are often drawn to someone with a low Sun-sign score — their Venus may fall in your sign, or your Mars signs may ignite, and the score cannot see either contact. The [Venus Sign Calculator](/tools/venus-sign) covers the love-language half of this; Mars signs work the same way for drive and desire.
+
+**3. Mercury — whether you can actually talk.** A couple can adore each other and still fail at the ordinary business of a relationship: deciding, planning, apologising, explaining what hurt. That business is Mercury. Mercury signs in the same element talk easily; Mercury signs square to each other misunderstand each other in patterned ways — one person hears criticism where the other meant a question. A Sun-sign score never mentions Mercury, which is why some high-scoring couples still report that they "can't communicate".
+
+**4. Timing — the season the score is taken in.** A percentage is timeless; a relationship is not. A difficult Saturn transit or a hard dasha period can strain any pairing for a season, and a supportive period can smooth one. Two couples with the same score, read in different years, are in different weather. The score does not know what year it is. Neither does it know how long the couple has been together: the friction a score flags in year one is often the exact friction a couple has already learned to handle by year five.
+
+**5. Houses — where one person's planets land in the other's chart.** This is the layer most Sun-sign readings never reach. If your partner's Sun falls in your 7th house of partnership, the relationship is central to your sense of self. If it falls in your 12th house, the connection may feel private, confusing or hard to name. Same signs, same score, different houses — different experience. House overlays need full charts with birth times, which is also why a score built from Sun signs alone cannot include them.
+
+## Why high scores hide complacency — and low scores hide growth
+
+There is a second, subtler thing a score hides: what it does to the people who read it. A high score tells a couple they are compatible, and compatible couples sometimes stop doing the work. The [Love Compatibility Calculator](/tools/love-compatibility) guide puts it plainly: a 62% match with understood friction routinely outlasts a 95% match taken for granted. The 95% couple assumes the ease will hold on its own; the 62% couple names its differences early — around affection styles, money, conflict habits — and builds habits around them. The score measures natural ease. It does not measure effort, and effort is what carries a relationship through the years when ease runs thin.
+
+Low scores hide the opposite error. A low number can make a couple brace for failure, or make one person quietly keep a mental exit open. But low-score pairings succeed all the time, usually for the same reason high-score pairings fail: the score measures the starting point, not the destination. Fire with Water is hard because Fire wants movement and Water wants depth; a couple that learns to give each other both — movement and depth, at different times — has a wider relationship than a couple that never had to learn. The work is real, and the score is right that the work exists. What the score cannot say is whether the two people are willing to do it.
+
+![An empty chair by a rainy window with two cups of tea](/blog/in-love-compatibility-score-2.jpg)
+
+## How to read your own score properly
+
+Three steps, in order:
+
+**Step 1 — Take the score for what it is.** Run the [Love Compatibility Calculator](/tools/love-compatibility) for the two Sun signs. Read the percentage as a measure of Sun-sign ease: shared direction, similar energy, natural admiration. A high number means the two of you want the same kind of life. A low number means you will have to translate more often. Neither number is a verdict.
+
+**Step 2 — Read the layers the score cannot see.** Run the [Big Three Calculator](/tools/big-three) for both people and compare the three pairs — Sun with Sun, Moon with Moon, Rising with Rising. Read the hardest pair first, because that is where the relationship will be tested. Then check the [Venus Sign Calculator](/tools/venus-sign) for love language and the [Moon Sign Calculator](/tools/moon-sign) for emotional needs. If you want the Vedic side as well, [Kundali Milan](/tools/kundali-milan) scores 36 gunas across eight factors — a wider system than any Sun-sign percentage.
+
+**Step 3 — Ask what the score is hiding in your case.** A high score with a difficult Moon pair means: protect the emotional layer deliberately, because the Sun-sign ease will tempt you to skip that work. A low score with an easy Moon pair means: the daily life is solid, and the friction is mostly about direction and pace, which are negotiable. A low score everywhere means: name the three friction points — direction, feelings, daily pace — and decide together whether the work is worth it. That decision is yours, not the calculator's.
+
+## When a score is genuinely useful
+
+None of this makes the score useless. It is useful in exactly three situations. First, as a first impression: two strangers, a first date, a quick check of whether the energy is naturally easy. Second, as a diagnostic: if a relationship feels hard and the score is high, the difficulty is probably in a layer the score cannot see — start with the Moon pair. Third, as a language: the score gives a couple words for what is easy and what needs work, which is often the hardest part of the conversation. A percentage is a bad verdict and a good starting point. Use it as the starting point.
+
+**Q: My score is 45%. Does that mean we should break up?**
+A: No. The score measures how easily two Sun signs get along — one layer of two charts. A 45% Sun-sign score with an easy Moon pair and shared values can be a solid relationship; a 95% score with a hard Moon pair and no communication can fail. Read the Moon pair and the Venus signs before drawing any conclusion, and remember the score cannot see effort, which is what carries relationships.
+
+**Q: We scored 95% but we fight all the time. Is the calculator wrong?**
+A: The calculator is right about the layer it measures and silent about the rest. A high Sun-sign score with frequent fights usually means the friction is in a hidden layer — most often the Moon pair (different needs under stress) or Mercury (misunderstood communication). Compare the three pairs with the [Big Three Calculator](/tools/big-three) and read the hardest pair first.
+
+**Q: Can a low score change over time?**
+A: The score itself does not change — the two Sun signs are fixed. What changes is everything the score cannot see: the couple learns each other's Moon needs, builds communication habits, and the friction the score flags becomes familiar instead of surprising. Timing changes too; a hard transit passes. The relationship changes; the percentage stays where it was.
+
+**Q: Is the Moon pair really more important than the Sun pair?**
+A: For living together, yes — the Moon governs emotional safety, which is what daily life is made of. For shared direction and long-term purpose, the Sun pair matters more. There is no single "most important" pair; there is the pair that matters most for the question you are asking. Ask the question first, then read the pair.
+
+**Q: Should I check compatibility before a first date?**
+A: As a curiosity, yes; as a filter, no. A Sun-sign score is a reasonable first impression and a terrible gatekeeper — it cannot see the Moon, Venus or Mercury layers that decide whether two people actually enjoy each other. Meet the person, then run the deeper comparison if it matters.
+
+Run your pair through the [Love Compatibility Calculator](/tools/love-compatibility), then read what it hides — starting with the Moon pair, because that is where most relationships are actually decided. And before you trust any verdict the score suggests, check it against the [seven Sun-sign mistakes](/blog/love-compatibility-mistakes-sun-sign-verdicts) — most wrong readings fail at least one of them.
+`,
+  },
+  // BLOG 61
+  {
+    id: "blog-61",
+    title: "Sun-Sign Compatibility Mistakes: 7 Verdicts That Mislead Couples",
+    slug: "love-compatibility-mistakes-sun-sign-verdicts",
+    category: "Vedic Jyotish & Timing",
+    toolSlug: "love-compatibility",
+    metaDescription: "Seven Sun-sign compatibility mistakes: reading one sign as the whole relationship, cusp confusion, Vedic–Western mix-ups, and panic over a low score.",
+    image: "/blog/love-compatibility-mistakes-guide.jpg",
+    createdAt: new Date("2026-11-14"),
+    updatedAt: new Date("2026-11-14"),
+    content: `> **Executive Overview**: Most wrong compatibility readings are not wrong about the signs — they are wrong about what one sign can say.
+> A Sun sign is one point in a chart of ten planets. Treating it as the whole relationship produces seven predictable mistakes: reading one sign as the whole person, treating a score as a verdict, cusp confusion, mixing Western and Vedic signs, inventing a Rising sign without a birth time, blaming a bad month on the pairing, and trusting horoscope-column verdicts.
+>
+> Each mistake below comes with its correction, so you can check your own reading against the [Love Compatibility Calculator](/tools/love-compatibility) and know exactly which part of it to trust.
+
+Sun-sign compatibility is the most read — and the most misread — corner of astrology. It is easy to see why: two signs, one score, an instant answer. It is also easy to see where it goes wrong, because the mistakes repeat. The same seven errors show up in almost every bad compatibility reading, whether it comes from a newspaper column, a social media post, or a well-meaning friend. They are listed below in the order they cause the most damage, with the correction for each one.
+
+## Mistake 1: reading one sign as the whole person
+
+This is the root mistake, and the other six grow out of it. The Sun sign describes identity and direction — what a person wants to grow toward and be recognised for. It does not describe what they need in order to feel safe (the Moon), how they enter a room (the Rising sign), how they love (Venus), or how they argue (Mercury and Mars). A couple who are "incompatible" by Sun sign can be deeply compatible by Moon sign, and a couple who are "perfect" by Sun sign can be miserable together because their Moons are square.
+
+The correction is the three-pair method: compare Sun with Sun, Moon with Moon and Rising with Rising, and read the hardest pair first. Our post on [Big Three compatibility](/blog/love-compatibility-big-three-sun-moon-rising) works through the method with two worked couples, including one pair whose Sun signs look ideal while the Moon pair does the real damage. The [Love Compatibility Calculator](/tools/love-compatibility) gives the Sun-sign layer honestly — a score from elemental harmony — and its own guide says the same thing: the percentage is a starting point, not a verdict, because real synastry layers many contacts the score cannot see.
+
+## Mistake 2: treating the score as a verdict
+
+A percentage looks like a fact. It is not. It is a measurement of one thing — how easily two Sun signs get along by element and sign distance — expressed in a form that feels like a grade. People then read the grade the way they read exam results: above 80 means pass, below 50 means fail, and the relationship is over.
+
+The correction is to read the number as weather, not climate. A 62% match with understood friction routinely outlasts a 95% match taken for granted, because the 62% couple names its differences early and builds habits around them, while the 95% couple assumes the ease will hold on its own. Effort is invisible to the score and decisive in the relationship. If your score is low, the useful question is not "should we break up" but "which layer is hard, and are we willing to work on it" — which is exactly what our post on [what a compatibility score hides](/blog/love-compatibility-score-what-it-hides) works through, layer by layer.
+
+## Mistake 3: cusp confusion — "I was born on the cusp, so I am two signs"
+
+If you were born on the day the Sun changes sign — around 20 March for Aries, 22 November for Sagittarius, and so on — you may have been told you are "on the cusp" and therefore a blend of two signs. This is a misunderstanding of how signs work. The Sun is in exactly one sign at any moment. Being born on a changeover day means your sign depends on the exact time you were born and the year — 20 March can be Pisces in one year and Aries in another, because the Sun's ingress shifts slightly from year to year.
+
+The correction is to calculate, not to guess. Enter your birth date and time in the [Big Three Calculator](/tools/big-three) or the [Sun Sign Calculator](/tools/sun-sign) and read the sign it returns; the calculator uses the actual Sun position, not the newspaper date ranges. And note the date ranges themselves: the Sun enters Aries around 20 or 21 March, not on a fixed calendar date, so any source that gives a single fixed cusp date is already approximating.
+
+## Mistake 4: mixing Western and Vedic signs in one reading
+
+This is the quietest mistake, because it looks like no mistake at all. Western astrology uses the tropical zodiac, tied to the seasons. Vedic astrology uses the sidereal zodiac, tied to the fixed stars. The two zodiacs have drifted apart by about 24 degrees — the ayanamsa — so the same person has a different Sun sign in each system. The Sun at 15 degrees Leo in a Western chart sits near 21 degrees Cancer in a Vedic chart. The Moon and Rising signs shift by the same amount.
+
+The mistake is to take one person's Western Sun sign and the other person's Vedic Sun sign and compare them as if they were the same kind of measurement. They are not, and the comparison is meaningless — the pair is being judged on two different rulers. The correction is simple and absolute: use one system for both people. The [Big Three Calculator](/tools/big-three) lets you switch between Western and Vedic (Lahiri sidereal); pick one and keep both charts in it. The same rule applies to [Kundali Milan](/tools/kundali-milan), which is a Vedic system — its Moon signs must come from sidereal positions, not from a Western chart.
+
+![A brass astrolabe and zodiac wheel on a wooden desk beside an old book](/blog/in-love-compatibility-mistakes-1.jpg)
+
+## Mistake 5: inventing a Rising sign without a birth time
+
+The Rising sign is the fastest-moving point in the chart — about one degree every four minutes. That means a birth time that is off by half an hour moves the Rising sign by seven or eight degrees, enough to change the sign entirely near a boundary. Yet compatibility readings routinely include a Rising sign for someone whose birth time is unknown, guessed from a rounded hour or from "morning" or "evening".
+
+A guessed Rising sign is worse than a missing one, because it invents a daily-pace reading that was never there, and the couple then treats the invention as information. The correction: if either person's birth time is unknown, compare Sun with Sun and Moon with Moon only, and say so. Two honest pairs beat three invented ones. If the birth time can be recovered — from a birth certificate, a hospital record, or a family member who was present — use the recorded time; do not round it to the nearest hour, because rounding by half an hour can move the Rising sign by seven degrees.
+
+## Mistake 6: blaming a bad month on the pairing
+
+Every relationship has bad months. The mistake is to read a bad month as evidence that the pairing itself is wrong — to run the [Love Compatibility Calculator](/tools/love-compatibility), see a middling score, and conclude the score explains the fight. Usually it does not. A difficult Saturn transit, a hard dasha period, a stressful move or a bereavement can strain any pairing for a season, and a supportive period can smooth one. The score is timeless; the bad month is not.
+
+The correction is to separate the pairing from the season. If the relationship was easy for two years and hard for two months, the pairing did not change — the weather did. Ask what changed recently: a transit, a dasha shift, a life event. If the difficulty is new and the pairing is old, the pairing is probably not the problem. If the difficulty is the same argument repeating for years, then it is the pairing's friction — most often a Moon pair or Mercury problem — and the fix is in the layer the score cannot see, not in the score itself.
+
+## Mistake 7: trusting horoscope-column verdicts
+
+"Aries and Cancer never work." "Scorpio and Gemini are doomed." Newspaper and social-media compatibility lists hand out verdicts by Sun-sign pair, and they are the least reliable compatibility readings in existence — for a simple reason: they are written for twelve signs, not for two people. A list that says Leo and Aquarius are a great match has not met either person. It does not know their Moons, their Venuses, their birth times, or their histories. It is entertainment with the shape of an answer.
+
+The correction is to treat sign-pair lists as a starting point and nothing more. They describe the average weather between two sign energies, which is genuinely useful as a first impression. They cannot describe your relationship, because your relationship is not an average — it is two specific charts, and the specific parts (Moon pair, Venus contacts, houses) are exactly the parts a list cannot see. Run the [Love Compatibility Calculator](/tools/love-compatibility) for the Sun-sign layer, then do the three-pair comparison for the rest. A list can tell you that Fire and Water need translation. Only your two charts can tell you whether the two of you are willing to do the translating.
+
+![A couple laughing together while walking in a park in autumn](/blog/in-love-compatibility-mistakes-2.jpg)
+
+## A quick checklist before you trust a compatibility reading
+
+Run any reading — a score, a list, a friend's opinion — through these five questions. A reading that fails two or more of them is not a reading; it is a guess wearing a percentage.
+
+1. **Does it use more than the Sun signs?** If it compares only Sun signs, it has read one third of the picture.
+2. **Does it say which system it uses?** Western and Vedic signs differ by about 24 degrees. A reading that does not say is mixing rulers.
+3. **Does it need birth times, and say so when they are missing?** A Rising sign without a birth time is invented.
+4. **Does it separate the pairing from the season?** A bad month is usually weather, not climate.
+5. **Does it leave room for effort?** A reading that treats a score as a verdict has mistaken a starting point for a destination.
+
+If a reading passes all five, it is worth listening to — including the reading in this cluster: the [three-pair method](/blog/love-compatibility-big-three-sun-moon-rising), the [five hidden layers](/blog/love-compatibility-score-what-it-hides), and the score itself, read properly.
+
+**Q: I was born on 21 March. Am I Aries or Pisces?**
+A: It depends on the year and the exact time you were born, because the Sun enters Aries around 20 or 21 March and the ingress shifts slightly each year. There is no fixed cusp date and no "blend" of two signs — the Sun is in exactly one sign at any moment. Enter your birth date and time in the [Sun Sign Calculator](/tools/sun-sign) and read the sign it returns.
+
+**Q: My partner and I have a low score but we are happy. Is the calculator wrong?**
+A: The calculator is right about the layer it measures — Sun-sign ease — and silent about the rest. A low Sun-sign score with an easy Moon pair, good communication and shared values is a solid relationship. The score measures the starting point, not the destination, and it cannot see effort. If you are happy, trust the happiness over the percentage.
+
+**Q: Can I use my Western Sun sign with my partner's Vedic Moon sign?**
+A: No — never mix systems in one comparison. Western (tropical) and Vedic (sidereal) signs differ by about 24 degrees, so the same person has different signs in each. Pick one system and keep both people's charts in it, for every planet you compare.
+
+**Q: I don't know my birth time. Can I still check compatibility?**
+A: Yes, for two of the three pairs: Sun with Sun and Moon with Moon need only the birth date. The Rising-sign pair needs a birth time, so leave it out rather than guessing. Two honest pairs are more useful than three pairs with one invented.
+
+**Q: A horoscope site says our signs are "never compatible". Should I worry?**
+A: No. Sign-pair lists describe average weather between two sign energies, not your relationship — they have not met either of you and cannot see your Moon signs, Venus contacts or houses. Use the list as a first impression, then run the [Love Compatibility Calculator](/tools/love-compatibility) and the three-pair comparison for the actual reading.
+
+Check your own pair on the [Love Compatibility Calculator](/tools/love-compatibility) — then check the reading against the five questions above before you believe any of it.
+`,
+  },
 ];

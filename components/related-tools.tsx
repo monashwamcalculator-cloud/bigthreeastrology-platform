@@ -35,14 +35,13 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "how-numerology-calculated-core-numbers",
     "numerology-core-numbers-life-path-expression-soul-urge",
   ],
-  // Love-compatibility (traffic sprint, 13 Nov 2026): the default slug
-  // filter needs "lovecompatibility" inside a blog slug, which no post
-  // has yet; override points the rail at the two partner-compatibility
-  // guides that already link to this tool (the dedicated cluster follows
-  // on 14 Nov and this entry is then re-pointed at its first two posts).
+  // Love-compatibility cluster (blogs 59-61, 14 Nov 2026): the default slug
+  // filter needs "lovecompatibility" inside a blog slug; all three cluster
+  // slugs carry it, but the override pins the rail at the first two cluster
+  // blogs (blog 61 reached via siblings).
   "love-compatibility": [
-    "spouse-appearance-astrology-guide",
-    "big-three-combinations-how-to-read-your-trio",
+    "love-compatibility-big-three-sun-moon-rising",
+    "love-compatibility-score-what-it-hides",
   ],
   "spouse-predictor": [
     "spouse-appearance-astrology-guide",

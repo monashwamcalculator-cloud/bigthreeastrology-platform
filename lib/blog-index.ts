@@ -65,4 +65,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "how-numerology-calculated-core-numbers", title: "How Numerology Is Calculated: The Core Numbers" },
   { slug: "numerology-core-numbers-life-path-expression-soul-urge", title: "Life Path vs Expression vs Soul Urge: Core Numbers" },
   { slug: "numerology-mistakes-birth-name-reduction-traps", title: "Numerology Mistakes: 7 Traps That Change Your Number" },
+  { slug: "love-compatibility-big-three-sun-moon-rising", title: "Big Three Compatibility: Compare Sun, Moon & Rising in a Pair" },
+  { slug: "love-compatibility-score-what-it-hides", title: "What Your Love Compatibility Score Hides (and What to Read Instead)" },
+  { slug: "love-compatibility-mistakes-sun-sign-verdicts", title: "Sun-Sign Compatibility Mistakes: 7 Verdicts That Mislead Couples" },
 ];
