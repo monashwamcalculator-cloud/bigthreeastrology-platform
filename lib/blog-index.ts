@@ -68,4 +68,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "love-compatibility-big-three-sun-moon-rising", title: "Big Three Compatibility: Compare Sun, Moon & Rising in a Pair" },
   { slug: "love-compatibility-score-what-it-hides", title: "What Your Love Compatibility Score Hides (and What to Read Instead)" },
   { slug: "love-compatibility-mistakes-sun-sign-verdicts", title: "Sun-Sign Compatibility Mistakes: 7 Verdicts That Mislead Couples" },
+  { slug: "rising-sign-calculation-two-hour-rule", title: "How Your Rising Sign Is Calculated: The 2-Hour Rule Explained" },
+  { slug: "rising-sign-vedic-lagna-vs-western-rising", title: "Vedic Lagna vs Western Rising: Same Point, Different Chart" },
+  { slug: "sade-sati-three-phases-rising-peak-setting", title: "Sade Sati Phases: Rising, Peak & Setting — How to Read Yours" },
 ];
