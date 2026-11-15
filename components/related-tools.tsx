@@ -69,6 +69,15 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "how-to-read-todays-panchang-tithi-nakshatra",
     "how-panchang-calculated-sunrise-place-time",
   ],
+  // Rising-sign cluster (blogs 62-63, 15 Nov 2026): the default slug
+  // filter would show the older meaning post (blog 16) + blog 62; override
+  // pins the rail at the two completion-day blogs (blog 16 reached via
+  // siblings). Sade-sati needs no override: the default filter already
+  // shows the two existing cluster blogs, blog 64 reached via siblings.
+  "rising-sign": [
+    "rising-sign-calculation-two-hour-rule",
+    "rising-sign-vedic-lagna-vs-western-rising",
+  ],
 };
 
 export function getRelatedBlogSlugs(tool: ToolDefinition): string[] {
