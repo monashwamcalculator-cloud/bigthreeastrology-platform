@@ -5,8 +5,8 @@ import { ToolSections } from "@/components/tool-guide";
 import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Free Vedic Kundali Matching by Date of Birth & Time | 36 Guna Milan",
-  description: "Check Vedic Kundali Matching for marriage: calculate the 36 Ashta Koota Guna Milan score for boy and girl with birth date, time and place — free and instant.",
+  title: "Free Kundli Matching (Kundali Milan) by Date of Birth | 36 Guna Milan",
+  description: "Check Kundli matching (Vedic Kundali Milan) for marriage: calculate the 36 Ashta Koota Guna Milan score from birth date, time and place — free and instant.",
   path: "/tools/kundali-milan"
 });
 

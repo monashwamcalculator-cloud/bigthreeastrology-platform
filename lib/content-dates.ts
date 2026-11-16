@@ -18,7 +18,7 @@ export const SITE_REVIEW_DATE = "2026-10-29";
 export const TOOL_UPDATED_AT: Record<string, string> = {
   "moon-phase": "2026-10-30",
   "angel-numbers": "2026-11-02",
-  "kundali-milan": "2026-11-02",
+  "kundali-milan": "2026-11-16",
   // Phase B enrichment batch 1 (2 Nov 2026)
   "neptune-sign": "2026-11-02",
   "saturn-sign": "2026-11-02",
@@ -46,7 +46,7 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "spirit-animal": "2026-11-02",
   "gemstone": "2026-11-02",
   // Phase B enrichment batches 4-5 + GSC striking-distance pulls (2 Nov 2026)
-  "vertex": "2026-11-02",
+  "vertex": "2026-11-16",
   "horoscope": "2026-11-02",
   "in-laws-compatibility": "2026-11-02",
   "pitra-dosha": "2026-11-02",
@@ -62,7 +62,7 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "jupiter-sign": "2026-11-02",
   "chakra-balance": "2026-11-02",
   "leadership-astrology": "2026-11-02",
-  "dhan-yoga-calculator": "2026-11-02",
+  "dhan-yoga-calculator": "2026-11-16",
   "lifepath-compatibility": "2026-11-02",
   // Phase B enrichment batches 6-7 (2 Nov 2026)
   "shadow-work": "2026-11-02",
@@ -88,7 +88,7 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "2nd-11th-house-money": "2026-11-02",
   "abhijit-muhurat": "2026-11-02",
   "freelance-corporate-astrology": "2026-11-02",
-  "moon-sign": "2026-11-02",
+  "moon-sign": "2026-11-16",
   "marriage-age": "2026-11-02",
   "master-numbers": "2026-11-02",
   "midheaven": "2026-11-02",
