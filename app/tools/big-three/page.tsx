@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Big Three Astrology Calculator | Sun Moon Rising Signs",
+  title: "Big Three Calculator | Sun, Moon & Rising Signs",
   description: "Calculate your Sun, Moon, and Rising (Ascendant) signs with Western Tropical and Vedic Sidereal options. Free — no sign-up, no download needed.",
   path: "/tools/big-three"
 });

@@ -5,7 +5,7 @@ import { ToolSections } from "@/components/tool-guide";
 import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Venus Sign Calculator | Love Language & Attraction Style",
+  title: "Free Venus Sign Calculator | Love Style & Attraction",
   description: "Calculate your Venus sign placement to uncover your romantic attraction style and love language. With the method explained, free and instant.",
   path: "/tools/venus-sign"
 });
