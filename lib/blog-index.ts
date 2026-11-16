@@ -71,4 +71,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "rising-sign-calculation-two-hour-rule", title: "How Your Rising Sign Is Calculated: The 2-Hour Rule Explained" },
   { slug: "rising-sign-vedic-lagna-vs-western-rising", title: "Vedic Lagna vs Western Rising: Same Point, Different Chart" },
   { slug: "sade-sati-three-phases-rising-peak-setting", title: "Sade Sati Phases: Rising, Peak & Setting — How to Read Yours" },
+  { slug: "venus-sign-house-element-love-reading", title: "Venus Sign by House & Element: Reading Your Love Style" },
+  { slug: "venus-retrograde-birth-meaning-love-money", title: "Venus Retrograde Birth: What It Means for Love & Money" },
+  { slug: "choghadia-vs-hora-vs-panchang-timing", title: "Choghadia vs Hora vs Panchang: Pick the Right Timing Tool" },
 ];
