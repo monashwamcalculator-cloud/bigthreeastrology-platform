@@ -78,6 +78,15 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "rising-sign-calculation-two-hour-rule",
     "rising-sign-vedic-lagna-vs-western-rising",
   ],
+  // Venus-sign cluster (blogs 65-66, 16 Nov 2026): the default slug
+  // filter would show the older meaning post (blog 12) + blog 65; override
+  // pins the rail at the two completion-day blogs (blog 12 reached via
+  // siblings). Choghadia needs no override: the default filter already
+  // shows the two existing cluster blogs, blog 67 reached via siblings.
+  "venus-sign": [
+    "venus-sign-house-element-love-reading",
+    "venus-retrograde-birth-meaning-love-money",
+  ],
 };
 
 export function getRelatedBlogSlugs(tool: ToolDefinition): string[] {
