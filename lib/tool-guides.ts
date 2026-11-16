@@ -163,7 +163,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
   "kundali-milan": {
     guideTitle: "Kundali Milan: How the 36 Guna Score Works",
     guide: [
-      "Kundali Milan (also called Guna Milan or Kundali matching) compares the Moon signs and nakshatras of two people across eight traditional tests called Ashtakoota, which add up to a maximum of 36 points (gunas). It has been the standard first step of Vedic marriage matching for centuries: a score of 18 or above is traditionally considered acceptable, 25 or above is good, and 32 or above is excellent.",
+      "Kundali Milan — the system most people search for as Kundli matching, and also called Guna Milan or horoscope matching — compares the Moon signs and nakshatras of two people across eight traditional tests called Ashtakoota, which add up to a maximum of 36 points (gunas). It has been the standard first step of Vedic marriage matching for centuries: a score of 18 or above is traditionally considered acceptable, 25 or above is good, and 32 or above is excellent.",
       "The eight kootas are Varna (1 point, spiritual outlook), Vashya (2, mutual influence), Tara (3, wellbeing and longevity), Yoni (4, physical and intimate compatibility), Graha Maitri (5, mental friendship), Gana (6, temperament), Bhakoot (7, family welfare and prosperity) and Nadi (8, health and progeny). Nadi carries the most weight — when both partners share the same Nadi it creates Nadi Dosha, traditionally cancelled in several situations, such as when the nakshatra or its quarter (pada) differs.",
       "A complete match is always read together with the full birth charts: Manglik (Mangala) Dosha, the strength of the 7th house, and the dashas running at the time of marriage all modify the picture. Treat the guna score as a strong first filter, not a final verdict on a relationship.",
       "North India uses this eight-koota system (Ashtakoota, 36 points). South India traditionally uses Dashakoota, a ten-factor system that adds Mahendra and Rajju to the same core — so a South Indian match report may quote a different total and still be describing the same couple. This calculator scores the Ashtakoota eight.",
@@ -208,6 +208,11 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
         question: "Does this calculator check Mangal Dosha (Manglik status)?",
         answer:
           "No — this tool scores only the Ashtakoota guna milan. Mangal Dosha (Manglik status) is a separate check read from Mars in the Lagna and Moon charts, and it changes with birth time because the Lagna shifts roughly every two hours. A complete marriage reading weighs the guna score together with Manglik status, the 7th house and current dasha periods.",
+      },
+      {
+        question: "Is Kundli matching the same as Kundali Milan?",
+        answer:
+          "Yes. Kundli is the everyday spelling of Kundali, so Kundli matching, Kundali Milan, Guna Milan and horoscope matching all name the same Vedic system — the Ashtakoota comparison of two Moon charts, scored out of 36 gunas. That is exactly what this calculator runs.",
       },
     ],
   },
