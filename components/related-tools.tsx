@@ -87,6 +87,15 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "venus-sign-house-element-love-reading",
     "venus-retrograde-birth-meaning-love-money",
   ],
+  // Horoscope cluster (blogs 68-70, 17 Nov 2026): the default slug
+  // filter would show two older "mistakes" posts whose slugs also contain
+  // "horoscope" (moon-sign + sun-sign mistakes) and none of the cluster
+  // blogs; override pins the rail at the first two cluster blogs
+  // (blog 70 reached via siblings).
+  "horoscope": [
+    "how-daily-horoscope-calculated-transits",
+    "how-to-read-daily-horoscope-useful",
+  ],
 };
 
 export function getRelatedBlogSlugs(tool: ToolDefinition): string[] {
