@@ -74,4 +74,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "venus-sign-house-element-love-reading", title: "Venus Sign by House & Element: Reading Your Love Style" },
   { slug: "venus-retrograde-birth-meaning-love-money", title: "Venus Retrograde Birth: What It Means for Love & Money" },
   { slug: "choghadia-vs-hora-vs-panchang-timing", title: "Choghadia vs Hora vs Panchang: Pick the Right Timing Tool" },
+  { slug: "how-daily-horoscope-calculated-transits", title: "How a Daily Horoscope Is Actually Calculated" },
+  { slug: "how-to-read-daily-horoscope-useful", title: "How to Read Your Daily Horoscope So It Helps" },
+  { slug: "daily-horoscope-mistakes-sun-sign-traps", title: "Daily Horoscope Mistakes: 8 Traps to Avoid" },
 ];
