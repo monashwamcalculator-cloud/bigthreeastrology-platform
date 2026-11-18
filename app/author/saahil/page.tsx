@@ -108,7 +108,7 @@ export default function AuthorPage() {
         </div>
         <div className="text-center mt-8">
           <Link href="/tools" className="btn-glow px-8 py-3 text-sm font-bold inline-block">
-            Explore 100 Free Calculators
+            Explore 100+ Free Calculators
           </Link>
         </div>
       </section>

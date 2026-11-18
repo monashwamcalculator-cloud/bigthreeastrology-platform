@@ -6,7 +6,7 @@ import { AUTHOR } from "@/lib/author";
 
 export const metadata: Metadata = buildMetadata({
   title: "About Us | BIGThreeAstrology Platform",
-  description: "Learn about BIGThreeAstrology's mission to provide 100 free, accurate Vedic and Western astrology calculators globally. Meet the founder, Saahil.",
+  description: "Learn about BIGThreeAstrology's mission to provide 100+ free, accurate Vedic and Western astrology calculators globally. Meet the founder, Saahil.",
   path: "/about"
 });
 
@@ -19,7 +19,7 @@ export default function AboutPage() {
         name: "About Us | BIGThreeAstrology Platform",
         url: absoluteUrl("/about"),
         description:
-          "Learn about BIGThreeAstrology's mission to provide 100 free, accurate Vedic and Western astrology calculators globally. Meet the founder, Saahil.",
+          "Learn about BIGThreeAstrology's mission to provide 100+ free, accurate Vedic and Western astrology calculators globally. Meet the founder, Saahil.",
         isPartOf: { "@type": "WebSite", name: "BIGThreeAstrology", url: absoluteUrl("/") },
         about: { "@id": absoluteUrl("/#organization") }
       },
@@ -43,7 +43,7 @@ export default function AboutPage() {
         <div className="badge badge-emerald"> About BIGThreeAstrology</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">Empowering Self-Awareness Through Astrology</h1>
         <p className="text-[#3A5747] text-lg max-w-2xl mx-auto">
-          Providing 100 free, instant calculators combining Western Tropical and Vedic Sidereal Jyotish systems.
+          Providing 100+ free, instant calculators combining Western Tropical and Vedic Sidereal Jyotish systems.
         </p>
       </div>
 
@@ -60,7 +60,7 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-display font-bold text-[#075433] pt-4 border-t border-emerald-500/20">Why Choose BIGThreeAstrology?</h2>
         <ul className="list-disc pl-6 space-y-2 text-sm text-[#2C473F]">
-          <li><strong>100 Free Tools:</strong> Comprehensive suite covering planetary placements, Kundali Milan, Numerology, and Tarot.</li>
+          <li><strong>100+ Free Tools:</strong> Comprehensive suite covering planetary placements, Kundali Milan, Numerology, and Tarot.</li>
           <li><strong>Global Timezone Support:</strong> Auto-suggesting location geocoding for cities across India and worldwide.</li>
           <li><strong>100% Privacy Protection:</strong> Your birth details are calculated locally on your browser and never stored on private servers.</li>
           <li><strong>Official Support:</strong> Reach our editorial team anytime at <a href="mailto:asbusiness276@gmail.com" className="text-[#075433] underline font-bold">asbusiness276@gmail.com</a>.</li>
@@ -117,7 +117,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-display font-bold text-[#042F2A] mb-6 text-center">Frequently Asked Questions</h2>
         <div className="grid gap-3">
           <div className="glass-card-hover p-4 rounded-xl">
-            <h3 className="text-sm font-semibold text-[#256b42] mb-1">Are all 100 calculators on BIGThreeAstrology really free?</h3>
+            <h3 className="text-sm font-semibold text-[#256b42] mb-1">Are all 100+ calculators on BIGThreeAstrology really free?</h3>
             <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">Yes! Every calculator—from the Big Three and Spouse Predictor to Kundali Milan—is 100% free with no hidden charges.</p>
           </div>
           <div className="glass-card-hover p-4 rounded-xl">

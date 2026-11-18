@@ -211,7 +211,7 @@ export default async function BlogPostPage({ params }: Props) {
           ← Back to All Articles
         </Link>
         <Link href="/tools/big-three" className="btn-glow w-full sm:w-auto text-center px-6 py-3">
-          Explore 100 Calculators &amp; Tools →
+          Explore 100+ Calculators &amp; Tools →
         </Link>
       </div>
     </div>

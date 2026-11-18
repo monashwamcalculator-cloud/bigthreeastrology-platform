@@ -102,7 +102,7 @@ export default function HomePage() {
         name: `Do I need to register or pay to access these ${TOOL_COUNT} calculators?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: "No! All 100 calculators on BIGThreeAstrology are 100% free, instant, and accessible without mandatory account registration or paywalls."
+          text: "No! All 100+ calculators on BIGThreeAstrology are 100% free, instant, and accessible without mandatory account registration or paywalls."
         }
       }
     ]
