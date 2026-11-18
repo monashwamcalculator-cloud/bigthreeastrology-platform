@@ -96,6 +96,18 @@ const BLOG_OVERRIDES: Record<string, string[]> = {
     "how-daily-horoscope-calculated-transits",
     "how-to-read-daily-horoscope-useful",
   ],
+  // Manglik-dosha cluster (blogs 71-72, 18 Nov 2026): the default slug
+  // filter would show the older meaning post (blog 28) + blog 71; override
+  // pins the rail at the two completion-day blogs (blog 28 reached via
+  // siblings).
+  "manglik-dosha": [
+    "manglik-dosha-mars-houses-1-4-7-8-12",
+    "manglik-dosha-myths-partial-strong-28",
+  ],
+  // Dhan-yoga cluster (blog 73, 18 Nov 2026): the default slug filter
+  // needs "dhanyogacalculator" inside a blog slug, which no slug contains;
+  // override is required for the rail to show the post at all.
+  "dhan-yoga-calculator": ["dhan-yoga-meaning-wealth-combinations"],
 };
 
 export function getRelatedBlogSlugs(tool: ToolDefinition): string[] {

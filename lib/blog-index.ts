@@ -77,4 +77,8 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "how-daily-horoscope-calculated-transits", title: "How a Daily Horoscope Is Actually Calculated" },
   { slug: "how-to-read-daily-horoscope-useful", title: "How to Read Your Daily Horoscope So It Helps" },
   { slug: "daily-horoscope-mistakes-sun-sign-traps", title: "Daily Horoscope Mistakes: 8 Traps to Avoid" },
+  { slug: "manglik-dosha-mars-houses-1-4-7-8-12", title: "Mars in the 1st, 4th, 7th, 8th & 12th Houses: Your Manglik Reading" },
+  { slug: "manglik-dosha-myths-partial-strong-28", title: "Manglik Dosha Myths: Partial vs Strong, the Age-28 Claim & Remedies" },
+  { slug: "dhan-yoga-meaning-wealth-combinations", title: "Dhan Yoga Meaning: The Vedic Wealth Combinations in Your Chart" },
+
 ];
