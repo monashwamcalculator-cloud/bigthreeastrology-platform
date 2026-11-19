@@ -27,7 +27,13 @@ export function getRelatedTools(tool: ToolDefinition, count = 6): ToolDefinition
 
 const BLOG_OVERRIDES: Record<string, string[]> = {
   "lifepath-compatibility": ["life-path-number-compatibility-guide"],
-  "destiny-number": ["life-path-number-compatibility-guide"],
+  // Destiny-number cluster (blogs 74-76, 19 Nov 2026): the default slug
+  // filter would show the older compatibility guide; override pins the rail
+  // at the first two cluster blogs (blog 76 reached via siblings).
+  "destiny-number": [
+    "destiny-number-calculation-chaldean-name-math",
+    "destiny-number-meanings-1-9-master-numbers",
+  ],
   // Numerology cluster (blogs 56-58, 13 Nov 2026): rail otherwise shows only
   // the older compatibility guide; override points it at the first two
   // cluster blogs (blog 58 reached via siblings).

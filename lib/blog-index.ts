@@ -81,4 +81,7 @@ export const BLOG_INDEX: Array<{ slug: string; title: string }> = [
   { slug: "manglik-dosha-myths-partial-strong-28", title: "Manglik Dosha Myths: Partial vs Strong, the Age-28 Claim & Remedies" },
   { slug: "dhan-yoga-meaning-wealth-combinations", title: "Dhan Yoga Meaning: The Vedic Wealth Combinations in Your Chart" },
 
+  { slug: "destiny-number-calculation-chaldean-name-math", title: "How to Calculate Your Destiny Number: Chaldean Name Math, Step by Step" },
+  { slug: "destiny-number-meanings-1-9-master-numbers", title: "Destiny Numbers 1-9 & Master Numbers 11, 22, 33: What Each Means" },
+  { slug: "destiny-number-mistakes-life-path-name-changes", title: "Destiny Number Mistakes: Life Path Mix-Ups & Name-Change Traps" },
 ];
