@@ -118,6 +118,8 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "life-path-number": "2026-11-03",
   // Road to 100 BUILD #2 — Kundli (Janam Kundli) generator (3 Nov 2026)
   kundli: "2026-11-03",
+  // GSC-query optimization (21 Nov 2026) — nakshatra title/meta aligned to real queries
+  "nakshatra": "2026-11-21",
 };
 
 export function toolLastModified(slug: string): Date {
