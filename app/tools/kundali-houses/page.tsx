@@ -5,8 +5,8 @@ import { ToolSections } from "@/components/tool-guide";
 import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
-  title: "12 Kundali Houses (Bhavas) Explorer & Lagna Snapshot",
-  description: "Explore the 12 sacred houses (Bhavas) of your birth chart to understand wealth, career, health, and spiritual destiny. Free — no sign-up needed.",
+  title: "Kundli Chart Houses (Bhavas) Explorer | 12 Houses & Lagna",
+  description: "Use the free Kundli Chart Houses explorer to read the 12 Bhavas of your birth chart — wealth, career, marriage, health and more. No sign-up needed.",
   path: "/tools/kundali-houses"
 });
 

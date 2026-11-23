@@ -6,7 +6,7 @@ import { ToolPageHeader } from "@/components/tool-page-header";
 
 export const metadata: Metadata = buildMetadata({
   title: "Expression & Destiny Number Calculator | Chaldean Math",
-  description: "Calculate your Expression Destiny Number using Chaldean and Pythagorean name numerology. Free and instant, with the method explained — no sign-up.",
+  description: "Calculate your Expression Destiny Number using Chaldean name numerology. Free and instant, with the method explained — no sign-up.",
   path: "/tools/destiny-number"
 });
 
