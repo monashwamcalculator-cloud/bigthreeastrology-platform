@@ -79,7 +79,7 @@ export const TOOL_UPDATED_AT: Record<string, string> = {
   "personal-year": "2026-11-02",
   "10th-house-career": "2026-11-02",
   "baby-name-numerology": "2026-11-02",
-  "karmic-relationship": "2026-11-02",
+  "karmic-relationship": "2026-11-26",
   "workplace-astrology": "2026-11-02",
   // Phase B enrichment batches 8-9 (2 Nov 2026)
   "destiny-number": "2026-11-23",
