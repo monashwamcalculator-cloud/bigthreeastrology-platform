@@ -17,7 +17,7 @@ export const SITE_REVIEW_DATE = "2026-10-29";
 
 export const TOOL_UPDATED_AT: Record<string, string> = {
   "moon-phase": "2026-10-30",
-  "angel-numbers": "2026-11-02",
+  "angel-numbers": "2026-11-27",
   "kundali-milan": "2026-11-16",
   // Phase B enrichment batch 1 (2 Nov 2026)
   "neptune-sign": "2026-11-02",
