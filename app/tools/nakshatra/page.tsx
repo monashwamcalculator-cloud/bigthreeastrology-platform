@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function NakshatraPage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="nakshatra" title="Nakshatra Calculator — Find Your Birth Star" intro="Find your Janma Nakshatra among the 27 Vedic lunar mansions, with its ruling deity, symbol, gana and core temperament." />
       <NakshatraFinder />
       <ToolSections slug="nakshatra" />

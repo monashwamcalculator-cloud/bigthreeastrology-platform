@@ -23,7 +23,7 @@ export default function NumerologyPage() {
   };
 
   return (
-    <div className="space-y-10 py-8">
+    <div className="py-6 space-y-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
       <ToolPageHeader slug="numerology" title="Free Numerology Calculator" intro="Uncover the hidden mathematical frequencies governing your life path, character, and destiny." />

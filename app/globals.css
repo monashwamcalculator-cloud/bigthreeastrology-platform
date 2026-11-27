@@ -364,3 +364,24 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* Buttons must always feel clickable */
 button { cursor: pointer; }
+
+/* Layout P4: keyboard focus visibility + anchor offset for the sticky header */
+:focus-visible {
+  outline: 2px solid #08745a;
+  outline-offset: 2px;
+}
+
+html {
+  scroll-padding-top: 96px;
+}
+
+/* Layout P4: gate CSS animations and transitions for reduced-motion users
+   (the canvas background already freezes its own static frame separately) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

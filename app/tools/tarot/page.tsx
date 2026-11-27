@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function TarotPage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="tarot" title="Daily Tarot Reading — 3-Card Past, Present & Future Spread" intro="Draw three tarot cards for a free daily reading on love, career and spiritual direction — past, present and future, instantly revealed." />
       <TarotReader />
       <ToolSections slug="tarot" />

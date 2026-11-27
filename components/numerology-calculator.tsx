@@ -203,7 +203,7 @@ export function NumerologyCalculator() {
       {activeTab === "lifepath" ? (
         <div>
           <div className="text-center mb-6">
-            <h3 className="font-display text-2xl font-bold gradient-text-deep">Life Path Number Calculator</h3>
+            <h2 className="font-display text-2xl font-bold gradient-text-deep">Life Path Number Calculator</h2>
             <p className="text-[#43584A] text-sm mt-1">
               Your Life Path Number is the most important number in your numerology chart, revealing your life purpose and innate destiny.
             </p>
@@ -226,7 +226,7 @@ export function NumerologyCalculator() {
                 <div className="text-6xl font-display font-extrabold gradient-text-deep mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-white border border-[rgba(8,116,90,0.3)]">
                   {lifePathResult.number}
                 </div>
-                <h4 className="text-2xl font-display font-bold text-[#042F2A] mb-2">{lifePathResult.details.title}</h4>
+                <h3 className="text-2xl font-display font-bold text-[#042F2A] mb-2">{lifePathResult.details.title}</h3>
                 <div className="badge badge-deep mb-4">{lifePathResult.details.keyword}</div>
                 <p className="text-[#2C473F] leading-relaxed text-left md:text-center mb-6">
                   {lifePathResult.details.summary}
@@ -267,7 +267,7 @@ export function NumerologyCalculator() {
       ) : (
         <div>
           <div className="text-center mb-6">
-            <h3 className="font-display text-2xl font-bold gradient-text-deep">Name Numerology (Expression Number)</h3>
+            <h2 className="font-display text-2xl font-bold gradient-text-deep">Name Numerology (Expression Number)</h2>
             <p className="text-[#43584A] text-sm mt-1">
               Convert your full name into Pythagorean numerology frequency to discover how you express your natural talents to the world.
             </p>
@@ -291,7 +291,7 @@ export function NumerologyCalculator() {
                 <div className="text-6xl font-display font-extrabold gradient-text mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-white border border-accent-cyan/30">
                   {expressionResult.number}
                 </div>
-                <h4 className="text-2xl font-display font-bold text-[#042F2A] mb-2">{expressionResult.details.title}</h4>
+                <h3 className="text-2xl font-display font-bold text-[#042F2A] mb-2">{expressionResult.details.title}</h3>
                 <div className="badge mb-4">{expressionResult.details.keyword}</div>
                 <p className="text-[#2C473F] leading-relaxed text-left md:text-center mb-6">
                   {expressionResult.details.summary}

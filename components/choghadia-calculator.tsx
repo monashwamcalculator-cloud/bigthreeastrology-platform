@@ -160,7 +160,7 @@ export function ChoghadiaCalculator() {
                     {detail.type}
                   </span>
                 </div>
-                <h4 className="text-lg font-display font-bold text-[#042F2A] mb-1">{detail.name}</h4>
+                <h3 className="text-lg font-display font-bold text-[#042F2A] mb-1">{detail.name}</h3>
                 <p className="text-xs text-[#2C473F] leading-relaxed mb-3">{detail.meaning}</p>
               </div>
               <div className="text-[10px] font-mono text-[#075433] border-t border-emerald-500/20 pt-2">

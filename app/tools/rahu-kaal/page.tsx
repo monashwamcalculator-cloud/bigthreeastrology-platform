@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function RahuKaalPage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="rahu-kaal" title="Rahu Kaal Today — Timings & Shubh Muhurat Tracker" intro="Check today's Rahu Kaal timing for your day of the week and plan important work outside this inauspicious window." />
       <RahuKaalTracker />
       <ToolSections slug="rahu-kaal" />

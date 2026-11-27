@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function BrandNumerologyPage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="brand-numerology" title="Brand & Business Name Numerology Analyzer" intro="Analyze your brand or business name with the Chaldean method and check whether its vibration supports growth, money and reputation." />
       <BrandNumerologyCalculator />
       <ToolSections slug="brand-numerology" />

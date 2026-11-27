@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function ChoghadiaPage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="choghadia" title="Choghadia Today — Shubh, Labh & Amrit Muhurat Timings" intro="Check today's day and night Choghadia timings before starting travel, business, purchases or any important work — updated for every sunrise and sunset." />
       <ChoghadiaCalculator />
       <ToolSections slug="choghadia" />

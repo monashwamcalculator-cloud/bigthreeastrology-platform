@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function SadeSatiPage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="sade-sati" title="Sade Sati Checker — Saturn Phase & Remedies" intro="Check whether you are running Shani Sade Sati, which phase you are in, how long it lasts, and the practical remedies for each phase." />
       <SadeSatiChecker />
       <ToolSections slug="sade-sati" />

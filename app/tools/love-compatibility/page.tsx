@@ -22,7 +22,7 @@ export default function LoveCompatibilityPage() {
   };
 
   return (
-    <div className="space-y-10 py-8">
+    <div className="py-6 space-y-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toolSchema) }} />
       
       <ToolPageHeader slug="love-compatibility" title="Zodiac Love Matcher" intro="See the cosmic chemistry, elemental synergy, and relationship potential between you and your partner." />

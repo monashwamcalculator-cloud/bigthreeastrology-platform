@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function HoroscopePage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="horoscope" title="Daily Horoscope — Today's Cosmic Energy Reading" intro="Read today's horoscope energy meter for love, career, money and mood, tuned to your zodiac sign." />
       <DailyHoroscope />
       <ToolSections slug="horoscope" />

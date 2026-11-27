@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function VenusSignPage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="venus-sign" title="Venus Sign Calculator — Love Language & Attraction" intro="Discover your Venus sign and decode your love language, attraction style, tastes in beauty, money and relationships." />
       <VenusCalculator />
       <ToolSections slug="venus-sign" />

@@ -41,7 +41,7 @@ export default function DynamicToolPage({ params }: Props) {
   }
 
   return (
-    <div className="py-6 space-y-8">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug={tool.slug} title={tool.name} />
       <ToolCalculatorIsland tool={tool} />
       <ToolSections slug={tool.slug} />

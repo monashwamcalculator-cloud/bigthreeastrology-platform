@@ -111,7 +111,7 @@ export function LoveCompatibilityCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
-        <h3 className="font-display text-3xl font-bold gradient-text-deep">Zodiac Love Compatibility Matcher</h3>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Zodiac Love Compatibility Matcher</h2>
         <p className="text-[#43584A] text-sm mt-2 max-w-xl mx-auto">
           Select your sign and your partner's sign to reveal your romantic match percentage, elemental harmony, and key relationship dynamics.
         </p>

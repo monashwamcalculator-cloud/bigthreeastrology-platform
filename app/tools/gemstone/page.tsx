@@ -12,7 +12,7 @@ export const metadata: Metadata = buildMetadata({
 
 export default function GemstonePage() {
   return (
-    <div className="py-8 space-y-6">
+    <div className="py-6 space-y-6">
       <ToolPageHeader slug="gemstone" title="Gemstone Finder — Vedic Ratna Recommendation" intro="Find the gemstone (Ratna) recommended for your Lagna and planetary strengths, with the correct metal, finger, weight and mantra." />
       <GemstoneFinder />
       <ToolSections slug="gemstone" />
