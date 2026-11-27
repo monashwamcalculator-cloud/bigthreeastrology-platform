@@ -78,3 +78,32 @@ export function extractFaqs(markdown: string): FaqItem[] {
 
   return items.slice(0, 8);
 }
+
+/**
+ * Remove the FAQ section from a post's markdown so the page can render the
+ * extracted Q&As as cards instead of raw prose (Layout P1, 27 Nov 2026).
+ * Mirrors extractFaqs' section detection: an H2 (or a standalone H3) whose
+ * text matches FAQ_HEADING starts the section; the next H2 ends it.
+ */
+export function stripFaqSection(markdown: string): string {
+  const lines = (markdown ?? "").split("\n");
+  const out: string[] = [];
+  let inFaq = false;
+
+  for (const line of lines) {
+    const h2 = line.match(/^##\s+(.*)/);
+    const h3 = line.match(/^###\s+(.*)/);
+
+    if (h2) {
+      inFaq = FAQ_HEADING.test(h2[1]);
+      if (inFaq) continue; // drop the FAQ heading itself
+    } else if (h3 && !inFaq && FAQ_HEADING.test(h3[1])) {
+      inFaq = true;
+      continue;
+    }
+
+    if (!inFaq) out.push(line);
+  }
+
+  return out.join("\n");
+}

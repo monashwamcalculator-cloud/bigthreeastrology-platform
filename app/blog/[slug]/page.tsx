@@ -11,7 +11,7 @@ import { SAMPLE_BLOG_POSTS } from "@/lib/sample-data";
 import { BlogCard, toBlogCardPost } from "@/components/blog-card";
 import { AuthorBio } from "@/components/author-bio";
 import { AUTHOR } from "@/lib/author";
-import { extractFaqs } from "@/lib/faq-extract";
+import { extractFaqs, stripFaqSection } from "@/lib/faq-extract";
 
 type Props = { params: { slug: string } };
 
@@ -47,8 +47,16 @@ export default async function BlogPostPage({ params }: Props) {
   }
   if (!post) notFound();
 
+  const postFaqs = extractFaqs(post.content ?? "");
+  // When the post has a real FAQ section, it renders as cards below the
+  // article instead of raw prose — so strip it from the markdown here (it
+  // must never appear twice). The FAQPage schema below is built from the
+  // same extracted pairs, keeping schema and visible content in step.
+  const renderContent =
+    postFaqs.length >= 2 ? stripFaqSection(post.content ?? "") : (post.content ?? "");
+
   // Process Markdown with remark-gfm for tables, callouts, and clean HTML
-  const processed = await remark().use(remarkGfm).use(html).process(post.content);
+  const processed = await remark().use(remarkGfm).use(html).process(renderContent);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -66,7 +74,6 @@ export default async function BlogPostPage({ params }: Props) {
     },
     mainEntityOfPage: absoluteUrl(`/blog/${post.slug}`)
   };
-  const postFaqs = extractFaqs(post.content ?? "");
   const faqSchema = postFaqs.length >= 2 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -185,10 +192,28 @@ export default async function BlogPostPage({ params }: Props) {
         )}
 
         {/* Rendered Markdown Content with Rich Formatting */}
-        <div 
+        <div
           className="prose max-w-none"
-          dangerouslySetInnerHTML={{ __html: processed.toString() }} 
+          dangerouslySetInnerHTML={{ __html: processed.toString() }}
         />
+
+        {/* FAQ cards — the same extracted Q&As the FAQPage schema above
+            describes, in the tool pages' card design (Layout P1) */}
+        {postFaqs.length >= 2 && (
+          <section className="mt-10">
+            <h2 className="text-xl sm:text-2xl font-display font-bold text-[#042F2A] mb-4">
+              Frequently Asked Questions
+            </h2>
+            <div className="grid gap-3">
+              {postFaqs.map((faq, idx) => (
+                <div key={idx} className="glass-card-hover p-4 rounded-xl">
+                  <h3 className="text-sm font-semibold text-[#256b42] mb-1">{faq.question}</h3>
+                  <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">{faq.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
       </article>
 
       <AuthorBio />
