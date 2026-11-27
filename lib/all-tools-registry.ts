@@ -453,12 +453,12 @@ export const MASTER_TOOLS_LIST: ToolDefinition[] = [
     icon: "saturn",
     shortDesc: "Saturn 7.5-year transit phase & Shanti remedies.",
     metaTitle: "Sade Sati Phase & Saturn Transit Checker",
-    metaDesc: "Check if you are under Saturn's 7.5-year Sade Sati transit (1st, 2nd, or 3rd Dhaiya) and view Vedic remedies. Free — no sign-up, no download needed.",
+    metaDesc: "Check if you are under Saturn's 7.5-year Sade Sati transit (rising, peak, or setting phase) and view Vedic remedies. Free — no sign-up, no download needed.",
     badge: " Shani Transit",
     educationalTitle: "Navigating Saturn's Cosmic Purification",
     educationalContent: "Sade Sati transits across the sign before, on, and after your natal Moon, teaching discipline and maturity.",
     faqs: [
-      { question: "What is the peak phase of Sade Sati?", answer: "The 2nd Dhaiya (when Saturn transits directly over your Moon sign)." }
+      { question: "What is the peak phase of Sade Sati?", answer: "The 2nd phase (when Saturn transits directly over your Moon sign)." }
     ]
   },
   {

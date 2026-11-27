@@ -27,9 +27,9 @@ const JUPITER_DATABASE: Record<string, JupiterData> = {
 const ZODIAC_LIST = Object.keys(JUPITER_DATABASE);
 
 export function JupiterTransitCalculator() {
-  const [userSign, setUserSign] = useState("Cancer");
+  const [userSign, setUserSign] = useState("Leo");
 
-  const result = useMemo(() => JUPITER_DATABASE[userSign] || JUPITER_DATABASE["Cancer"], [userSign]);
+  const result = useMemo(() => JUPITER_DATABASE[userSign] || JUPITER_DATABASE["Leo"], [userSign]);
 
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
