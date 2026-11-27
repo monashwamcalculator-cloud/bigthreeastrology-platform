@@ -68,6 +68,9 @@ export function Cosmic3DBackground() {
 
     // 3D Render Loop (Lightweight & Smooth 60fps)
     const render = () => {
+      // Layout P2 guard: in the static frame (mobile / reduced-motion) the
+      // planets sit behind the H1 zone at phone widths — draw them faint.
+      const planetAlpha = staticOnly ? 0.22 : 1;
       // Clear canvas with space background
       ctx.fillStyle = "#fafaf6";
       ctx.fillRect(0, 0, width, height);
@@ -113,7 +116,7 @@ export function Cosmic3DBackground() {
       glowGrad.addColorStop(0.5, "rgba(46, 125, 79, 0.12)");
       glowGrad.addColorStop(1, "rgba(0, 0, 0, 0)");
       ctx.fillStyle = glowGrad;
-      ctx.globalAlpha = 0.9;
+      ctx.globalAlpha = 0.9 * planetAlpha;
       ctx.beginPath();
       ctx.arc(saturnX, saturnY, saturnRadius * 2.2, 0, Math.PI * 2);
       ctx.fill();
@@ -128,7 +131,7 @@ export function Cosmic3DBackground() {
       bodyGrad.addColorStop(0.8, "#2e7d4f");
       bodyGrad.addColorStop(1, "#16402b");
       ctx.fillStyle = bodyGrad;
-      ctx.globalAlpha = 1;
+      ctx.globalAlpha = planetAlpha;
       ctx.beginPath();
       ctx.arc(saturnX, saturnY, saturnRadius, 0, Math.PI * 2);
       ctx.fill();
