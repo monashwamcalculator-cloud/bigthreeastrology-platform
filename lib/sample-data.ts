@@ -861,6 +861,8 @@ Because the D9 measures the strength and maturity of what the D1 promises — it
 
 ---
 
+**A note on signs:** this guide counts Saturn returns by sidereal (Vedic) sign position, the same basis as our Saturn Return Calculator. Transiting Saturn has been in sidereal Pisces since 29 March 2025 and moves into Aries around June 2027 — so readers whose natal Saturn is in Pisces are the ones inside a return right now.
+
 ## 1. What Is a Saturn Return, in Simple Words?
 
 Saturn is the slowest visible planet used in personal astrology. It spends about two and a half years in each zodiac sign and needs close to **29.5 years** to travel through all twelve signs and return to its starting point — your natal Saturn position.
@@ -2295,10 +2297,10 @@ Chiron's orbit is highly elliptical, so its stays in each sign vary wildly. Thes
 | Chiron in Virgo | 1993 – 1995 |
 | Chiron in Libra | 1995 – 1997 |
 | Chiron in Scorpio | 1997 – 1999 |
-| Chiron in Sagittarius | 1999 – 2005 |
-| Chiron in Capricorn | 2005 – 2010 |
-| Chiron in Aquarius | 2010 – 2011 |
-| Chiron in Pisces | 2011 – 2018/19 |
+| Chiron in Sagittarius | 1999 – 2001 |
+| Chiron in Capricorn | 2001 – 2005 |
+| Chiron in Aquarius | 2005 – 2010 |
+| Chiron in Pisces | 2010 – 2018/19 |
 
 Notice the pattern: the generation born with Chiron in Aries in the late 1960s and 1970s shares a wound around identity and the right to exist, while the current Chiron in Aries generation (born roughly 2019–2027) is growing up with the same theme in a very different world. The sign describes the flavour of the wound; the house and the rest of the chart describe where it lands in your life.
 
@@ -2707,7 +2709,7 @@ The full Vimshottari cycle runs 120 years, divided among nine planets in a fixed
 | 8 | Saturn | 19 years |
 | 9 | Mercury | 17 years |
 
-Add them up — 7 + 20 + 6 + 10 + 7 + 18 + 16 + 19 + 17 — and you get exactly 120. Venus offers the longest chapter at 20 years; the Sun and Mars are among the shortest at 6 and 7. When one cycle ends, it starts again from Ketu, so a long life can run through the sequence more than once.
+Add them up — 7 + 20 + 6 + 10 + 7 + 18 + 16 + 19 + 17 — and you get exactly 120. Venus offers the longest chapter at 20 years; the Sun and Mars are among the shortest at 6 and 7. The nine periods run in one fixed order — Ketu, Venus, Sun, Moon, Mars, Rahu, Jupiter, Saturn, Mercury — and then loop back to Ketu, so a long life can run through the sequence more than once; where you personally enter the loop is set by your birth nakshatra.
 
 Each ruler colours its years in the traditional reading: Jupiter periods with study, teaching and guidance; Saturn periods with duty, patience and slow consolidation; Rahu periods with ambition and unfamiliar territory; Mercury periods with learning and analysis; Mars periods with initiative and drive; Ketu periods with detachment and inward turning; Moon periods with home and emotional life; Venus periods with relationship, comfort and creativity; Sun periods with visibility, authority and self-definition. These are themes and emphases, not guaranteed events — a distinction that matters, and one this guide returns to below.
 
@@ -3005,7 +3007,7 @@ A practical point often missed: Bhakoot, like every Milan factor, is Moon-sign b
 
 ## Manglik dosha beside Milan: the separate check
 
-Manglik dosha asks whether Mars sits in the 1st, 2nd, 4th, 7th, 8th or 12th house from the Lagna, the Moon or Venus — the houses most connected with partnership, temperament and longevity themes. It is a real and widely used check, but it lives outside Ashtakoota, and that separation protects families from two opposite errors: dismissing a Manglik question because "the Milan score was high," and rejecting a match because "the Milan failed" when Mars was the actual issue.
+Manglik dosha asks whether Mars sits in the 1st, 4th, 7th, 8th or 12th house from the Lagna, the Moon or Venus — the houses most connected with partnership, temperament and longevity themes. (Some regional traditions also count the 2nd house; the five-house list is the widely used standard this site follows.) It is a real and widely used check, but it lives outside Ashtakoota, and that separation protects families from two opposite errors: dismissing a Manglik question because "the Milan score was high," and rejecting a match because "the Milan failed" when Mars was the actual issue.
 
 Two facts from the site's own tooling matter here. First, the [Kundali Milan Calculator](/tools/kundali-milan) does not check Manglik dosha — its honest FAQ says so plainly — so a Milan report from this site neither confirms nor clears a Manglik question; that check needs its own reading, covered in the [Manglik Dosha guide](/blog/manglik-dosha-meaning-checks-cancellations). Second, the classical cancellations for Manglik dosha are better attested than the Nadi and Bhakoot lists: Mars in its own signs (Aries, Scorpio) or exaltation (Capricorn), Mars aspected by a strong Jupiter, Mars in Jupiter-ruled signs, and a comparably placed Mars in the partner's chart are all frequently cited, with schools again weighting them differently. A substantial proportion of charts qualify as Manglik from at least one reference point, which is itself a reason not to panic: a flag that common cannot be a rare curse.
 
@@ -4489,7 +4491,7 @@ Here are five birth dates worked through end to end, in the same format the calc
 
 **Example 4 — 30 September 1990 → Life Path 4, with karmic debt 13.** Month 9 (already single). Day 30 → 3 + 0 = 3. Year 1990 → 1 + 9 + 9 + 0 = 19 → 1 + 9 = 10 → 1 + 0 = 1. Add the roots: 9 + 3 + 1 = 13. Thirteen is a karmic debt number, so it is flagged — and then reduced: 1 + 3 = 4. **Life Path 4, karmic debt 13.** The flag does not change the Life Path; it adds a layer to the reading, explained in the [mistakes guide](/blog/life-path-number-mistakes-reduction-karmic-debt).
 
-**Example 5 — 11 November 2009 → Life Path 33 (master number).** Month 11 — kept. Day 11 — kept. Year 2009 → 2 + 0 + 0 + 9 = 11 — kept. Add the roots: 11 + 11 + 11 = 33 — a master number, so it stops here. **Life Path 33.** The rarest result in the system, and the only way to reach it is with master numbers in all three components — which is why it is worth checking the arithmetic twice when you see it.
+**Example 5 — 11 November 2009 → Life Path 33 (master number).** Month 11 — kept. Day 11 — kept. Year 2009 → 2 + 0 + 0 + 9 = 11 — kept. Add the roots: 11 + 11 + 11 = 33 — a master number, so it stops here. **Life Path 33.** The rarest result in the system. This example reaches it with master numbers in all three components, but that is not the only route — 9 + 22 + 2 also lands on 33 with just one master component — which is why it is worth checking the arithmetic twice when you see it.
 
 A summary table of all five, for quick reference:
 
@@ -4916,7 +4918,7 @@ A tithi is an angular event, not a clock event. It lasts while the Moon gains 12
 
 **Yoga — the combined quality.** Yoga comes from adding the Sun and Moon longitudes together and dividing the sum into 27 steps of 13 degrees 20 minutes, giving 27 yogas with names like Priti, Siddhi, Shubha and Vyatipata. Where the nakshatra uses the Moon alone, the yoga uses the two luminaries together, so it describes the combined quality of the day rather than a position. Some yogas are traditionally read as favourable for beginnings — Siddhi, Shubha, Shukla — and a few, notably Vyatipata and Vaidhriti, as days to keep beginnings modest. Treat these as the tradition's reading of the day's quality, not as a verdict on everything you do.
 
-**Karana — half a tithi.** A karana is simply half a tithi, the time the Moon needs to gain 6 degrees on the Sun, so a lunar month holds 60 karanas. Most karanas repeat in a fixed cycle of seven — Bava, Balava, Kaulava, Taitila, Gara, Vanija and Vishti — and four are fixed to particular halves: Kimstughna opens the month, Shakuni and Chatushpada close it. The one to know by name is Vishti, also called Bhadra: tradition treats it as unsuitable for auspicious beginnings, so a panchang that shows Bhadra running is telling you to wait for the next karana before starting something new.
+**Karana — half a tithi.** A karana is simply half a tithi, the time the Moon needs to gain 6 degrees on the Sun, so a lunar month holds 60 karanas. Most karanas repeat in a fixed cycle of seven — Bava, Balava, Kaulava, Taitila, Gara, Vanija and Vishti — and four are fixed to particular halves: Kimstughna opens the month, and Shakuni, Chatushpada and Naga close it. The one to know by name is Vishti, also called Bhadra: tradition treats it as unsuitable for auspicious beginnings, so a panchang that shows Bhadra running is telling you to wait for the next karana before starting something new.
 
 ![A hand marking tithi and nakshatra rows on a printed panchang calendar page](/blog/in-panchang-reading-1.jpg)
 
@@ -5552,7 +5554,7 @@ The same logic explains why the calculator needs a proper timezone conversion. A
 
 Put the three speeds together and you get a practical error budget.
 
-- **Sun sign:** you can be wrong by a whole day and usually still be right, unless you were born within about a degree of a sign change. A birth time error never matters.
+- **Sun sign:** you can be wrong by a whole day and usually still be right, unless you were born within about a degree of a sign change. A birth time error almost never matters — only on the ingress day itself can a few hours move the Sun across the boundary.
 - **Moon sign:** you can be wrong by several hours and usually still be right. The danger zone is a window of roughly half a day either side of a Moon sign change. If your birth time is uncertain by more than a few hours and your Moon sits near a boundary, verify it.
 - **Rising sign:** you can afford about 4 minutes per degree of safety. A 15-minute error moves the Ascendant by nearly 4 degrees; a 30-minute error moves it by about 7.5 degrees. If your Rising sign sits more than 8 degrees from a boundary, even a rounded "around 6 pm" birth time is probably safe. If it sits within a few degrees of a boundary, the exact minute matters.
 
@@ -5744,7 +5746,7 @@ The honest approach is narrower but real. Without a birth time, the Sun sign sta
 
 A birth certificate records local clock time. A chart needs the absolute moment, which means converting that clock time to UTC — and the conversion is where quiet errors creep in. The commonest is daylight saving. A birth at 14:30 in London in July is 13:30 UTC, because Britain is on summer time; the same clock reading in January is 14:30 UTC. A one-hour daylight-saving error moves the Ascendant by about 15 degrees — half a sign — and can flip the Moon sign on a boundary day.
 
-The same trap catches historical births. Timezones have changed: India standardised on IST (UTC+5:30) in 1947, but earlier local times varied by city, and several countries have moved their clocks by 30 or 60 minutes for political reasons. If a chart for an older relative looks wrong, check the timezone history for that place and year before doubting the astrology. The [Big Three Calculator](/tools/big-three) handles the conversion from the city you pick — which is one more reason to pick the real birth city from the suggestions rather than typing a country name.
+The same trap catches historical births. Timezones have changed: India standardised on IST (UTC+5:30) in 1906, but earlier local times varied by city, and several countries have moved their clocks by 30 or 60 minutes for political reasons. If a chart for an older relative looks wrong, check the timezone history for that place and year before doubting the astrology. The [Big Three Calculator](/tools/big-three) handles the conversion from the city you pick — which is one more reason to pick the real birth city from the suggestions rather than typing a country name.
 
 ## Mistake 5: mixing tropical and sidereal
 
@@ -6957,7 +6959,7 @@ Venus has just finished a retrograde. On 3 October 2026 it appeared to stop in t
 
 ## 1. What retrograde actually is
 
-Retrograde is an optical effect, not a reversal. Venus orbits the Sun inside Earth's orbit, and about every 584 days Earth laps it on the inside track. During the weeks around that lapping — the inferior conjunction, when Venus passes between Earth and the Sun — Venus appears from Earth to slow down, stop, and move backwards against the stars. It never actually reverses. It only looks that way, in the same way a slower car appears to move backwards when you overtake it on a motorway.
+Retrograde is an optical effect, not a reversal. Venus orbits the Sun inside Earth's orbit, and about every 584 days Venus laps Earth on that inside track. During the weeks around that lapping — the inferior conjunction, when Venus passes between Earth and the Sun — Venus appears from Earth to slow down, stop, and move backwards against the stars. It never actually reverses. It only looks that way — much as a car overtaking you on a bend can seem, for a moment, to drift backwards against the landscape behind it.
 
 The numbers are fixed by the orbit. The full cycle from one inferior conjunction to the next is about 584 days, and the retrograde stretch lasts about 41 to 42 days. Divide the two and you get the share of births with a retrograde Venus:
 
@@ -7148,7 +7150,7 @@ On a Wednesday with the same 6:00–18:00 day, the choghadia starts with Labh (M
 
 Now look at the overlaps. The **Amrit choghadia, 7:30–9:00**, sits exactly inside Yamaganda. Amrit is the finest choghadia for almost any beginning — and on this Wednesday it is also Yama's window. The **Shubh choghadia, 10:30–12:00**, sits exactly inside Gulika Kaal. And the **Rog choghadia, 12:00–13:30**, coincides exactly with Rahu Kaal — the one case where all three systems agree, and it is an agreement to avoid.
 
-The rule that resolves these conflicts is simple and traditional: **an avoided window wins over a favourable one**. Do not start in Yamaganda because the choghadia is Amrit, and do not start in Gulika Kaal because the choghadia is Shubh. The systems are not voting; the avoidance is a veto. What Wednesday still offers is clean time: Labh 6:00–7:30 before Yamaganda begins, and the whole afternoon from 13:30, when Udveg ends and Char opens at 15:00. A signing fixed for 2:00 in the afternoon avoids all three windows; a signing fixed for 11:00 falls inside Gulika Kaal but outside Rahu Kaal — and the honest advice is to move it, not to argue that Shubh choghadia cancels Gulika.
+The rule that resolves these conflicts is simple and traditional: **an avoided window wins over a favourable one**. Do not start in Yamaganda because the choghadia is Amrit, and do not start in Gulika Kaal because the choghadia is Shubh. The systems are not voting; the avoidance is a veto. What Wednesday still offers is clean time: Labh 6:00–7:30 before Yamaganda begins, and the whole afternoon from 15:00, once Udveg ends and Char opens. A signing fixed for 2:00 in the afternoon avoids all three windows; a signing fixed for 11:00 falls inside Gulika Kaal but outside Rahu Kaal — and the honest advice is to move it, not to argue that Shubh choghadia cancels Gulika.
 
 ## 6. Which tool for which question
 
@@ -7442,7 +7444,7 @@ Here is the situation. In India, daily predictions — rashifal — are traditio
 It often does not fit because the two systems do not even agree on which sign you are. Western astrology uses the tropical zodiac, tied to the seasons; Vedic astrology uses the sidereal zodiac, tied to the fixed stars, and the two are now about 24 degrees apart. Take today, 17 November 2026:
 
 - **Tropical Sun: 25 degrees 09 minutes Scorpio** — so a Western column calls you Scorpio if you were born in late October or November
-- **Sidereal Sun: about 1 degree Libra** — the same Sun, measured from the stars instead of the seasons
+- **Sidereal Sun: about 1 degree Scorpio** — the same Sun, measured from the stars instead of the seasons
 - **Tropical Moon: 25 degrees 15 minutes Aquarius** at noon UTC
 - **Sidereal Moon: still in Capricorn in the morning**, crossing into Aquarius only around 10:00 UTC
 
@@ -7493,7 +7495,7 @@ The fix is proportion. During a retrograde, double-check the details, back up th
 
 This trap is trap 1's quieter sibling, and it catches people who read both systems. You check your Western Sun sign in the morning, your Vedic Moon sign at lunch, and a Chinese zodiac post in the evening — and by the end of the day you have three different signs, three different readings, and no idea which one to believe.
 
-The systems are not interchangeable. Western tropical signs are measured from the March equinox; Vedic sidereal signs are measured from the stars, about 24 degrees apart. A planet at 25 degrees Scorpio tropically is at about 1 degree Libra sidereally. Mixing the two in a single reading is like converting half your measurements from miles and half from kilometres and wondering why the totals do not add up.
+The systems are not interchangeable. Western tropical signs are measured from the March equinox; Vedic sidereal signs are measured from the stars, about 24 degrees apart. A planet at 25 degrees Scorpio tropically is at about 1 degree Scorpio sidereally. Mixing the two in a single reading is like converting half your measurements from miles and half from kilometres and wondering why the totals do not add up.
 
 The fix: pick one system for daily reading and stay with it for a month. Western readers should use Rising, Moon, Sun in that order; Vedic readers should use the Moon sign (rashi) and the day's panchang. Comparing the systems is interesting — the calculation post does exactly that for 17 November — but comparing them is not the same as reading them, and a day read in two systems at once is a day read in neither.
 
@@ -7506,7 +7508,7 @@ The moment a column promises a specific event — a meeting, a windfall, a messa
 Fix the eight traps and the same column you have been dismissing for years starts working — not because the sky changed, but because you are finally reading the right sky, for the right sign, in the right system, at the right time of day.
 
 **Q: Why does my horoscope never match my Vedic rashi?**
-A: Because most English columns are Western Sun-sign readings, while Vedic daily predictions (rashifal) are read by Moon sign (rashi) — and the two systems are about 24 degrees apart. On 17 November 2026 the tropical Sun is at 25 degrees Scorpio while the sidereal Sun is at about 1 degree Libra. Find your Moon sign on the [Moon Sign Calculator](/tools/moon-sign) and read rashifal for that sign.
+A: Because most English columns are Western Sun-sign readings, while Vedic daily predictions (rashifal) are read by Moon sign (rashi) — and the two systems are about 24 degrees apart. On 17 November 2026 the tropical Sun is at 25 degrees Scorpio while the sidereal Sun is at about 1 degree Scorpio. Find your Moon sign on the [Moon Sign Calculator](/tools/moon-sign) and read rashifal for that sign.
 
 **Q: I was born on 22 November. Am I Scorpio or Sagittarius?**
 A: It depends on the exact hour of your birth. In 2026 the Sun enters Sagittarius at 07:23 UTC on 22 November — born before that moment, you are Scorpio; after it, Sagittarius. Date-only tables cannot answer this. Run your exact birth time through the [Big Three Calculator](/tools/big-three).
@@ -7878,7 +7880,7 @@ KAPOOR: K=2, A=1, P=8, O=7, O=7, R=2. That adds to 27.
 
 Whole-name total: 12 + 27 = 39. Reduce: 3 + 9 = 12, and 12 is not a master number, so reduce once more: 1 + 2 = 3. Sanjay Kapoor's Destiny number is **3**.
 
-This example is worth keeping beside the first one, because the tool page's own guide works this same name through the Pythagorean table and lands on 11. Same name, same spelling, different table, different number — 3 here, 11 there. Neither calculation is wrong arithmetic; they are answers from two different systems. If you are comparing your number with a friend's, or with a book, the first question to ask is always which table was used.
+This example is worth keeping beside the first one, because the same name worked through the Pythagorean table — the table our general Numerology Calculator uses — lands on 11 instead. Same name, same spelling, different table, different number — 3 here, 11 there. Neither calculation is wrong arithmetic; they are answers from two different systems. If you are comparing your number with a friend's, or with a book, the first question to ask is always which table was used.
 
 ## Worked example 3: Priya Nair — a clean Master Number 22
 
@@ -8142,7 +8144,7 @@ If you genuinely have no middle name — none was given at birth — then calcul
 
 ## Trap 4: mixing the Chaldean and Pythagorean tables
 
-This is the trap that produces the most confident wrong answers, because the arithmetic still works perfectly — it just belongs to no system. The Chaldean table and the Pythagorean table assign different values to several letters, and the [calculation post](/blog/destiny-number-calculation-chaldean-name-math) prints both tables in full. The Chaldean table runs 1 to 8 with no 9; the Pythagorean table runs 1 to 9 in repeating order. Eleven letters carry different values across the two tables — F, G, H, O, P, U, V, W, X, Y and Z — and the full side-by-side comparison is in the calculation post.
+This is the trap that produces the most confident wrong answers, because the arithmetic still works perfectly — it just belongs to no system. The Chaldean table and the Pythagorean table assign different values to several letters, and the [calculation post](/blog/destiny-number-calculation-chaldean-name-math) prints both tables in full. The Chaldean table runs 1 to 8 with no 9; the Pythagorean table runs 1 to 9 in repeating order. Sixteen letters carry different values across the two tables — F, G, H, I, O, P, Q, R, S, T, U, V, W, X, Y and Z — and the full side-by-side comparison is in the calculation post.
 
 Mixing them halfway — Chaldean values for the first name, Pythagorean for the last, because you looked one of them up wrong — produces a number that no system would give you. And even using one table consistently but the wrong one for the tool you are comparing against produces a mismatch that looks like an error. The three names worked letter by letter in the [calculation post](/blog/destiny-number-calculation-chaldean-name-math) show the scale of it: Sanjay Kapoor is **3** on this site's Chaldean calculator and **11** on the Pythagorean method the tool page's guide walks through; Sahil Sharma is **11** here and **1** there; Priya Nair is **22** here and **3** there.
 
