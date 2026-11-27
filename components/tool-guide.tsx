@@ -92,20 +92,20 @@ export function ToolSections({ slug }: { slug: string }) {
       />
 
       <section className="glass-card p-5 sm:p-8 max-w-4xl mx-auto rounded-2xl space-y-4">
-        <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text-gold">
+        <h2 className="text-xl sm:text-2xl font-display font-bold gradient-text-deep">
           {guide.guideTitle}
         </h2>
         {guide.guide.map((para, i) => (
-          <p key={i} className="text-sm sm:text-[15px] text-[#33463a] leading-relaxed">
+          <p key={i} className="text-sm sm:text-[15px] text-cosmic-body leading-relaxed">
             {para}
           </p>
         ))}
 
         <div className="border-t border-[#dee6da] pt-4">
-          <h3 className="text-base font-semibold text-[#16402b] mb-2">
+          <h3 className="text-base font-semibold text-cosmic-deep mb-2">
             How to Use the {tool.name}
           </h3>
-          <ol className="list-decimal pl-5 text-sm text-[#33463a] space-y-1.5 leading-relaxed">
+          <ol className="list-decimal pl-5 text-sm text-cosmic-body space-y-1.5 leading-relaxed">
             {guide.steps.map((step, i) => (
               <li key={i}>{step}</li>
             ))}
@@ -114,11 +114,11 @@ export function ToolSections({ slug }: { slug: string }) {
 
         {guide.resultMeaning.length > 0 && (
           <div className="border-t border-[#dee6da] pt-4">
-            <h3 className="text-base font-semibold text-[#16402b] mb-2">
+            <h3 className="text-base font-semibold text-cosmic-deep mb-2">
               What Your Result Means
             </h3>
             {guide.resultMeaning.map((para, i) => (
-              <p key={i} className="text-sm sm:text-[15px] text-[#33463a] leading-relaxed mb-2">
+              <p key={i} className="text-sm sm:text-[15px] text-cosmic-body leading-relaxed mb-2">
                 {para}
               </p>
             ))}
@@ -128,14 +128,14 @@ export function ToolSections({ slug }: { slug: string }) {
 
       {faqs.length > 0 && (
         <section className="max-w-4xl mx-auto">
-          <h3 className="text-xl font-display font-bold text-center text-[#16402b] mb-4">
+          <h3 className="text-xl font-display font-bold text-center text-cosmic-deep mb-4">
             Frequently Asked Questions
           </h3>
           <div className="grid gap-3">
             {faqs.map((faq, idx) => (
               <div key={idx} className="glass-card-hover p-4 rounded-xl">
-                <h4 className="text-sm font-semibold text-[#256b42] mb-1">{faq.question}</h4>
-                <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">{faq.answer}</p>
+                <h4 className="text-sm font-semibold text-cosmic-mid mb-1">{faq.question}</h4>
+                <p className="text-cosmic-body text-xs sm:text-sm leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>

@@ -19,7 +19,13 @@ const config: Config = {
           400: "#7fbfa9",
           300: "#a9ead1",
           200: "#cdeadd",
-          100: "#dff5ec"
+          100: "#dff5ec",
+          // Promoted from arbitrary values (Layout P3, 27 Nov 2026):
+          // guide-shell heading green, guide body ink, mid green, leaf green.
+          deep: "#16402b",
+          body: "#33463a",
+          mid: "#256b42",
+          leaf: "#2e7d4f"
         },
         accent: {
           coral: "#ff754d",

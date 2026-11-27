@@ -106,8 +106,8 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("western")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "western"
-                ? "bg-[#2e7d4f] text-[#042F2A] font-bold shadow-lg border border-[#2e7d4f]"
-                : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
+                ? "bg-cosmic-leaf text-[#042F2A] font-bold shadow-lg border border-cosmic-leaf"
+                : "bg-white text-cosmic-body border border-[#dee6da] hover:bg-[#eaf1e6]"
             }`}
           >
              Western (Tropical)
@@ -116,8 +116,8 @@ export function BigThreeCalculator() {
             onClick={() => setSystem("vedic")}
             className={`px-4 py-2 rounded-xl text-xs font-semibold tracking-wide uppercase transition-all ${
               system === "vedic"
-                ? "bg-[#2e7d4f] text-[#042F2A] font-bold shadow-lg border border-[#2e7d4f]"
-                : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
+                ? "bg-cosmic-leaf text-[#042F2A] font-bold shadow-lg border border-cosmic-leaf"
+                : "bg-white text-cosmic-body border border-[#dee6da] hover:bg-[#eaf1e6]"
             }`}
           >
              Vedic / Indian (Sidereal)
@@ -125,7 +125,7 @@ export function BigThreeCalculator() {
         </div>
 
         <div className="text-center mb-8">
-          <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Global Cosmic Blueprint</h2>
+          <h2 className="font-display text-3xl font-bold gradient-text-deep">Discover Your Global Cosmic Blueprint</h2>
           <p className="mt-2 text-[#2C473F] text-sm">
             Enter your birth date, time (with AM/PM), and location worldwide.
           </p>
@@ -201,7 +201,7 @@ export function BigThreeCalculator() {
         {result && (
           <div className="mt-10 border-t border-emerald-500/30 pt-8 animate-slide-up">
             <div className="text-center mb-6">
-              <span className="badge badge-gold mb-2">
+              <span className="badge badge-deep mb-2">
                 {system === "vedic" ? "Vedic / Indian Jyotish Chart" : "Western Tropical Chart"}
               </span>
               <h3 className="text-xl font-semibold gradient-text">

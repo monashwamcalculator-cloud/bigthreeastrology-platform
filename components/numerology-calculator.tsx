@@ -203,7 +203,7 @@ export function NumerologyCalculator() {
       {activeTab === "lifepath" ? (
         <div>
           <div className="text-center mb-6">
-            <h3 className="font-display text-2xl font-bold gradient-text-gold">Life Path Number Calculator</h3>
+            <h3 className="font-display text-2xl font-bold gradient-text-deep">Life Path Number Calculator</h3>
             <p className="text-[#43584A] text-sm mt-1">
               Your Life Path Number is the most important number in your numerology chart, revealing your life purpose and innate destiny.
             </p>
@@ -223,11 +223,11 @@ export function NumerologyCalculator() {
             <div className="mt-8 border-t border-cosmic-700/50 pt-8 animate-slide-up">
               <div className="glass-card-hover p-6 md:p-8 text-center max-w-2xl mx-auto border-[rgba(8,116,90,0.4)]">
                 <div className="text-xs font-semibold uppercase tracking-widest text-[#08745A] mb-2">Your Life Path Number</div>
-                <div className="text-6xl font-display font-extrabold gradient-text-gold mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-white border border-[rgba(8,116,90,0.3)]">
+                <div className="text-6xl font-display font-extrabold gradient-text-deep mb-3 animate-pulse-glow inline-block px-6 py-2 rounded-2xl bg-white border border-[rgba(8,116,90,0.3)]">
                   {lifePathResult.number}
                 </div>
                 <h4 className="text-2xl font-display font-bold text-[#042F2A] mb-2">{lifePathResult.details.title}</h4>
-                <div className="badge badge-gold mb-4">{lifePathResult.details.keyword}</div>
+                <div className="badge badge-deep mb-4">{lifePathResult.details.keyword}</div>
                 <p className="text-[#2C473F] leading-relaxed text-left md:text-center mb-6">
                   {lifePathResult.details.summary}
                 </p>
@@ -267,7 +267,7 @@ export function NumerologyCalculator() {
       ) : (
         <div>
           <div className="text-center mb-6">
-            <h3 className="font-display text-2xl font-bold gradient-text-gold">Name Numerology (Expression Number)</h3>
+            <h3 className="font-display text-2xl font-bold gradient-text-deep">Name Numerology (Expression Number)</h3>
             <p className="text-[#43584A] text-sm mt-1">
               Convert your full name into Pythagorean numerology frequency to discover how you express your natural talents to the world.
             </p>

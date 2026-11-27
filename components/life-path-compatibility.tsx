@@ -100,7 +100,7 @@ export function LifePathCompatibilityCalculator() {
         <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold block mb-1">
           Life Path {lifePath1} + Life Path {lifePath2}
         </span>
-        <div className="text-4xl font-display font-extrabold gradient-text-gold mb-2">
+        <div className="text-4xl font-display font-extrabold gradient-text-deep mb-2">
           {result.score}% Compatibility
         </div>
         <p className="text-sm font-bold text-[#042F2A] mb-4">{result.verdict}</p>

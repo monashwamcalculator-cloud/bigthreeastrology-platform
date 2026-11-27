@@ -137,11 +137,11 @@ function ComponentRow({
 }) {
   return (
     <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3 py-2 border-b border-[#dee6da] last:border-0">
-      <span className="text-xs font-semibold uppercase tracking-wider text-[#256b42] sm:w-24 shrink-0">
+      <span className="text-xs font-semibold uppercase tracking-wider text-cosmic-mid sm:w-24 shrink-0">
         {label}
       </span>
-      <span className="text-sm text-[#33463a] leading-relaxed">
-        <strong className="text-[#16402b]">{raw}</strong>
+      <span className="text-sm text-cosmic-body leading-relaxed">
+        <strong className="text-cosmic-deep">{raw}</strong>
         {reduction.lines.length > 0 ? (
           <>
             {" → "}
@@ -151,7 +151,7 @@ function ComponentRow({
         ) : (
           " is already a single digit → "
         )}
-        <strong className="text-[#16402b]">root {reduction.value}</strong>
+        <strong className="text-cosmic-deep">root {reduction.value}</strong>
       </span>
     </div>
   );
@@ -175,8 +175,8 @@ export function LifePathNumberCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2">Pythagorean Birth-Date Math — Every Step Shown</div>
-        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">
+        <div className="badge badge-deep mb-2">Pythagorean Birth-Date Math — Every Step Shown</div>
+        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-deep">
           Life Path Number Calculator
         </h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
@@ -204,7 +204,7 @@ export function LifePathNumberCalculator() {
             <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold block mb-1">
               Your Life Path Number
             </span>
-            <div className="text-6xl font-display font-extrabold gradient-text-gold mb-2">
+            <div className="text-6xl font-display font-extrabold gradient-text-deep mb-2">
               {parsed.result.lifePath}
             </div>
             <p className="text-base font-bold text-[#042F2A]">{meaning.title}</p>
@@ -233,16 +233,16 @@ export function LifePathNumberCalculator() {
           </div>
 
           <div className="glass-card p-5 rounded-xl">
-            <h3 className="text-sm font-display font-bold text-[#16402b] mb-2">
+            <h3 className="text-sm font-display font-bold text-cosmic-deep mb-2">
               How Your Number Was Calculated
             </h3>
             <ComponentRow label="Month" raw={String(parsed.month)} reduction={parsed.result.month} />
             <ComponentRow label="Day" raw={String(parsed.day)} reduction={parsed.result.day} />
             <ComponentRow label="Year" raw={String(parsed.year)} reduction={parsed.result.year} />
-            <p className="text-sm text-[#33463a] leading-relaxed pt-3">
+            <p className="text-sm text-cosmic-body leading-relaxed pt-3">
               Add the three roots: {parsed.result.month.value} + {parsed.result.day.value} +{" "}
               {parsed.result.year.value} ={" "}
-              <strong className="text-[#16402b]">{parsed.result.componentSum}</strong>
+              <strong className="text-cosmic-deep">{parsed.result.componentSum}</strong>
               {parsed.result.final.lines.length > 0 ? (
                 <>
                   {" → "}
@@ -252,7 +252,7 @@ export function LifePathNumberCalculator() {
               ) : (
                 " — already a single digit → "
               )}
-              <strong className="text-[#16402b]">
+              <strong className="text-cosmic-deep">
                 Life Path {parsed.result.lifePath}
               </strong>
             </p>
@@ -260,18 +260,18 @@ export function LifePathNumberCalculator() {
 
           {parsed.result.karmicDebt !== null && (
             <div className="glass-card p-5 rounded-xl border-l-4 border-[#08745A]">
-              <h3 className="text-sm font-display font-bold text-[#16402b] mb-1">
+              <h3 className="text-sm font-display font-bold text-cosmic-deep mb-1">
                 Karmic Debt Pattern: {parsed.result.karmicDebt}/
                 {parsed.result.lifePath}
               </h3>
-              <p className="text-sm text-[#33463a] leading-relaxed">
+              <p className="text-sm text-cosmic-body leading-relaxed">
                 Your three roots added up to {parsed.result.karmicDebt} before the final
                 reduction — one of the four karmic debt numbers (13, 14, 16, 19). Numerologists
                 read this as a specific lesson carried into this life, worked through the{" "}
                 {parsed.result.lifePath} path. See what yours asks of you in the{" "}
                 <Link
                   href="/tools/karmic-debt-number"
-                  className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]"
+                  className="text-cosmic-mid underline decoration-[#a9ead1] underline-offset-2 hover:text-cosmic-deep"
                 >
                   Karmic Debt Number Calculator
                 </Link>
@@ -281,15 +281,15 @@ export function LifePathNumberCalculator() {
           )}
 
           <div className="glass-card p-5 rounded-xl">
-            <h3 className="text-sm font-display font-bold text-[#16402b] mb-2">
+            <h3 className="text-sm font-display font-bold text-cosmic-deep mb-2">
               Where to Go Next
             </h3>
-            <ul className="text-sm text-[#33463a] leading-relaxed space-y-1.5">
+            <ul className="text-sm text-cosmic-body leading-relaxed space-y-1.5">
               <li>
                 • Compare two Life Path numbers in the{" "}
                 <Link
                   href="/tools/lifepath-compatibility"
-                  className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]"
+                  className="text-cosmic-mid underline decoration-[#a9ead1] underline-offset-2 hover:text-cosmic-deep"
                 >
                   Life Path Compatibility Matcher
                 </Link>{" "}
@@ -299,7 +299,7 @@ export function LifePathNumberCalculator() {
                 • Add your name numbers with the{" "}
                 <Link
                   href="/tools/destiny-number"
-                  className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]"
+                  className="text-cosmic-mid underline decoration-[#a9ead1] underline-offset-2 hover:text-cosmic-deep"
                 >
                   Destiny Number Calculator
                 </Link>{" "}
@@ -309,7 +309,7 @@ export function LifePathNumberCalculator() {
                 • See what this year asks of you in the{" "}
                 <Link
                   href="/tools/personal-year"
-                  className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]"
+                  className="text-cosmic-mid underline decoration-[#a9ead1] underline-offset-2 hover:text-cosmic-deep"
                 >
                   Personal Year Calculator
                 </Link>
@@ -319,7 +319,7 @@ export function LifePathNumberCalculator() {
                 • Prefer one combined reading? The{" "}
                 <Link
                   href="/tools/numerology"
-                  className="text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]"
+                  className="text-cosmic-mid underline decoration-[#a9ead1] underline-offset-2 hover:text-cosmic-deep"
                 >
                   Numerology Calculator
                 </Link>{" "}
@@ -340,16 +340,16 @@ export function LifePathNumberCalculator() {
       )}
 
       <div className="max-w-3xl mx-auto mt-8">
-        <h3 className="text-base font-display font-bold text-center text-[#16402b] mb-3">
+        <h3 className="text-base font-display font-bold text-center text-cosmic-deep mb-3">
           All Life Path Numbers at a Glance
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {GLANCE_ORDER.map((n) => (
             <div key={n} className="glass-card-hover p-3 rounded-xl text-center">
-              <span className="font-display font-extrabold text-lg gradient-text-gold">
+              <span className="font-display font-extrabold text-lg gradient-text-deep">
                 {n}
               </span>
-              <p className="text-[11px] text-[#33463a] leading-snug mt-1">
+              <p className="text-[11px] text-cosmic-body leading-snug mt-1">
                 {LIFE_PATH_MEANINGS[n].short}
               </p>
             </div>

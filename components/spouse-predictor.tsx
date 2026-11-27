@@ -133,8 +133,8 @@ export function SpousePredictor() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3"> Soulmate & Spouse Insights</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Spouse & Future Partner Predictor</h2>
+        <div className="badge badge-deep mb-3"> Soulmate & Spouse Insights</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Spouse & Future Partner Predictor</h2>
         <p className="text-[#3A5747] text-sm mt-1">
           Select your Sun sign or 7th House Ruler to reveal your future spouse's personality, appearance, and meeting place.
         </p>

@@ -63,9 +63,8 @@ function FooterColumn({ title, links }: { title: string; links: { name: string; 
 export function SiteFooter() {
   return (
     <footer
-      className="theme-dark mt-16"
+      className="mt-16 bg-cosmic-deep"
       style={{
-        backgroundColor: "#16402b",
         backgroundImage:
           "radial-gradient(rgba(255,255,255,0.16) 1px, transparent 1.4px), radial-gradient(rgba(126,212,146,0.13) 1px, transparent 1.4px)",
         backgroundSize: "26px 26px, 42px 42px",

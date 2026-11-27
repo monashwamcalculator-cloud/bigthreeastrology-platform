@@ -95,8 +95,8 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden max-w-3xl mx-auto border-[rgba(8,116,90,0.35)] bg-white">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2">{tool.badge}</div>
-        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">{tool.name}</h2>
+        <div className="badge badge-deep mb-2">{tool.badge}</div>
+        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-deep">{tool.name}</h2>
         <p className="text-[rgba(61,82,69,0.92)] text-xs sm:text-sm mt-1">{tool.shortDesc}</p>
       </div>
 
@@ -151,7 +151,7 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
         <div className="text-xs uppercase tracking-widest text-[#075433] font-semibold mb-1">
           {tool.name} Report
         </div>
-        <div className="text-3xl font-display font-extrabold gradient-text-gold mb-1">
+        <div className="text-3xl font-display font-extrabold gradient-text-deep mb-1">
           {result.score}% Synergy
         </div>
         <p className="text-sm font-bold text-[#042F2A] mb-4">{result.verdict}</p>

@@ -317,9 +317,9 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
             <li
               key={idx}
               onClick={() => handleSelect(city)}
-              className="px-4 py-2.5 text-xs sm:text-sm text-[#33463a] hover:bg-[#eaf1e6] hover:text-[#16402b] cursor-pointer transition-colors flex items-center gap-2 font-medium"
+              className="px-4 py-2.5 text-xs sm:text-sm text-cosmic-body hover:bg-[#eaf1e6] hover:text-cosmic-deep cursor-pointer transition-colors flex items-center gap-2 font-medium"
             >
-              <span className="text-[#2e7d4f] text-xs"></span> {city}
+              <span className="text-cosmic-leaf text-xs"></span> {city}
             </li>
           ))}
         </ul>

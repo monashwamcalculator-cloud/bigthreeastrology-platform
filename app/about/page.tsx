@@ -117,12 +117,12 @@ export default function AboutPage() {
         <h2 className="text-2xl font-display font-bold text-[#042F2A] mb-6 text-center">Frequently Asked Questions</h2>
         <div className="grid gap-3">
           <div className="glass-card-hover p-4 rounded-xl">
-            <h3 className="text-sm font-semibold text-[#256b42] mb-1">Are all 100+ calculators on BIGThreeAstrology really free?</h3>
-            <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">Yes! Every calculator—from the Big Three and Spouse Predictor to Kundali Milan—is 100% free with no hidden charges.</p>
+            <h3 className="text-sm font-semibold text-cosmic-mid mb-1">Are all 100+ calculators on BIGThreeAstrology really free?</h3>
+            <p className="text-cosmic-body text-xs sm:text-sm leading-relaxed">Yes! Every calculator—from the Big Three and Spouse Predictor to Kundali Milan—is 100% free with no hidden charges.</p>
           </div>
           <div className="glass-card-hover p-4 rounded-xl">
-            <h3 className="text-sm font-semibold text-[#256b42] mb-1">How can I contact the BIGThreeAstrology team?</h3>
-            <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">You can email our official team directly at <a href="mailto:asbusiness276@gmail.com" className="text-[#256b42] underline">asbusiness276@gmail.com</a>.</p>
+            <h3 className="text-sm font-semibold text-cosmic-mid mb-1">How can I contact the BIGThreeAstrology team?</h3>
+            <p className="text-cosmic-body text-xs sm:text-sm leading-relaxed">You can email our official team directly at <a href="mailto:asbusiness276@gmail.com" className="text-cosmic-mid underline">asbusiness276@gmail.com</a>.</p>
           </div>
         </div>
       </section>

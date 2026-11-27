@@ -111,7 +111,7 @@ export function LoveCompatibilityCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
-        <h3 className="font-display text-3xl font-bold gradient-text-gold">Zodiac Love Compatibility Matcher</h3>
+        <h3 className="font-display text-3xl font-bold gradient-text-deep">Zodiac Love Compatibility Matcher</h3>
         <p className="text-[#43584A] text-sm mt-2 max-w-xl mx-auto">
           Select your sign and your partner's sign to reveal your romantic match percentage, elemental harmony, and key relationship dynamics.
         </p>
@@ -161,12 +161,12 @@ export function LoveCompatibilityCalculator() {
           </div>
 
           <div className="flex items-center justify-center gap-4 my-4">
-            <div className="text-6xl font-display font-extrabold gradient-text-gold animate-pulse-glow px-6 py-3 rounded-2xl bg-white border border-[rgba(8,116,90,0.4)]">
+            <div className="text-6xl font-display font-extrabold gradient-text-deep animate-pulse-glow px-6 py-3 rounded-2xl bg-white border border-[rgba(8,116,90,0.4)]">
               {matchResult.score}%
             </div>
           </div>
 
-          <div className="badge badge-gold text-sm px-4 py-1.5 mb-6">{matchResult.elementDesc}</div>
+          <div className="badge badge-deep text-sm px-4 py-1.5 mb-6">{matchResult.elementDesc}</div>
 
           <div className="space-y-4 text-left border-t border-cosmic-700/40 pt-6">
             <div>

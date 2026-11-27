@@ -152,8 +152,8 @@ export function ChironCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3"> Chiron (The Wounded Healer) Calculator</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Soul Healing & Spiritual Gift</h2>
+        <div className="badge badge-deep mb-3"> Chiron (The Wounded Healer) Calculator</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Discover Your Soul Healing & Spiritual Gift</h2>
         <p className="text-[#43584A] text-sm mt-1">
           Chiron points to your deepest core wound and the unique spiritual healing gift you bring to the world.
         </p>

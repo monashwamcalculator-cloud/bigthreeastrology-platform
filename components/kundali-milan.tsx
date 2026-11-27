@@ -302,8 +302,8 @@ export function KundaliMilanCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
-        <div className="badge badge-gold mb-3"> Vedic Ashta Koota 36 Guna Milan System</div>
-        <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Authentic Kundali Matching</h2>
+        <div className="badge badge-deep mb-3"> Vedic Ashta Koota 36 Guna Milan System</div>
+        <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-deep">Authentic Kundali Matching</h2>
         <p className="mt-2 text-[#2C473F] text-sm max-w-xl mx-auto">
           Enter exact birth details (date, time with AM/PM, and place) of the Boy and Girl to calculate the 36 Guna Milan score with traditional Vedic calculations.
         </p>
@@ -508,13 +508,13 @@ export function KundaliMilanCalculator() {
               Groom: {boyHour}:{boyMinute} {boyPeriod} ({boyPlace || "N/A"}) | Bride: {girlHour}:{girlMinute} {girlPeriod} ({girlPlace || "N/A"})
             </p>
             {boyMoon && girlMoon && (
-              <p className="text-xs text-[#33463a] mb-4">
+              <p className="text-xs text-cosmic-body mb-4">
                 Groom: Moon in {boyMoon.moonSign}, {boyMoon.nakshatra.name} nakshatra (pada {boyMoon.pada}) | Bride: Moon in {girlMoon.moonSign}, {girlMoon.nakshatra.name} nakshatra (pada {girlMoon.pada})
               </p>
             )}
 
             <div className="flex flex-col items-center justify-center my-4">
-              <div className="text-6xl font-display font-extrabold gradient-text-gold animate-pulse-glow px-8 py-3 rounded-2xl bg-white border border-[rgba(8,116,90,0.4)] mb-3">
+              <div className="text-6xl font-display font-extrabold gradient-text-deep animate-pulse-glow px-8 py-3 rounded-2xl bg-white border border-[rgba(8,116,90,0.4)] mb-3">
                 {matchResult.totalGuna} <span className="text-2xl font-normal text-[#3A5747]">/ 36 Gunas</span>
               </div>
               <div className={`px-4 py-2 rounded-xl text-sm font-semibold border ${matchResult.verdictColor}`}>

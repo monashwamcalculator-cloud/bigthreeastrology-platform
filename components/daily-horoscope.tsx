@@ -133,7 +133,7 @@ export function DailyHoroscope() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <h3 className="font-display text-3xl font-bold gradient-text-gold">Daily Cosmic Horoscope</h3>
+        <h3 className="font-display text-3xl font-bold gradient-text-deep">Daily Cosmic Horoscope</h3>
         <p className="text-[#43584A] text-sm mt-1">Select your Zodiac sign for today's daily cosmic guidance, energy meter, and lucky numbers.</p>
       </div>
 

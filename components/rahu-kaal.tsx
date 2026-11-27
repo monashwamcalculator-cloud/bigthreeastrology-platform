@@ -80,8 +80,8 @@ export function RahuKaalTracker() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3"> Daily Panchang & Vedic Timing</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Rahu Kaal & Shubh Muhurat Tracker</h2>
+        <div className="badge badge-deep mb-3"> Daily Panchang & Vedic Timing</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Rahu Kaal & Shubh Muhurat Tracker</h2>
         <p className="text-[#43584A] text-sm mt-1">
           Check daily Rahu Kaal (inauspicious time to avoid), Abhijit Muhurat (golden success window), and Amrit Kaal timings.
         </p>

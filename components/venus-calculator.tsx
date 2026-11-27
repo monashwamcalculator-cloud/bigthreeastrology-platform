@@ -130,8 +130,8 @@ export function VenusCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">♀ Venus Sign (Shukra) Calculator</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Love Language & Romance Sign</h2>
+        <div className="badge badge-deep mb-3">♀ Venus Sign (Shukra) Calculator</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Discover Your Love Language & Romance Sign</h2>
         <p className="text-[#43584A] text-sm mt-1">
           Venus governs your attraction style, romantic desires, aesthetic tastes, and how you show affection.
         </p>

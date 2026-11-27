@@ -130,8 +130,8 @@ export function MercuryCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3">☿ Mercury Sign (Budh) Calculator</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Discover Your Mind & Communication Style</h2>
+        <div className="badge badge-deep mb-3">☿ Mercury Sign (Budh) Calculator</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Discover Your Mind & Communication Style</h2>
         <p className="text-[#43584A] text-sm mt-1">
           Mercury governs how you think, process information, speak, negotiate, and solve problems.
         </p>

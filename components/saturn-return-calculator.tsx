@@ -40,8 +40,8 @@ export function SaturnReturnCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2"> Major Life Milestone Transits</div>
-        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">Saturn Return Calculator</h2>
+        <div className="badge badge-deep mb-2"> Major Life Milestone Transits</div>
+        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-deep">Saturn Return Calculator</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Explore the 29.5-year Saturn Return milestones that redefine your career, maturity, and life legacy.
         </p>

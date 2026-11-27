@@ -45,7 +45,7 @@ export function StatsCounter() {
       {stats.map((stat, index) => (
         <div key={index} className={`glass-card-hover p-8 text-center animate-slide-up ${stat.delay}`}>
           <div className="mb-4 flex justify-center"><CosmicIcon name={stat.icon} className="w-10 h-10" /></div>
-          <h3 className="text-4xl md:text-5xl font-display font-bold gradient-text-gold mb-2">
+          <h3 className="text-4xl md:text-5xl font-display font-bold gradient-text-deep mb-2">
             <Counter endValue={stat.endValue} suffix={stat.suffix} />
           </h3>
           <p className="text-[#43584A] font-medium">{stat.label}</p>

@@ -120,15 +120,15 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-white/70 to-[#eaf1e6]/90 pointer-events-none" />
 
         <div className="z-10 flex flex-col items-center animate-fade-in max-w-4xl">
-          <div className="badge badge-gold mb-4 animate-slide-up text-xs py-1 px-3">
+          <div className="badge badge-deep mb-4 animate-slide-up text-xs py-1 px-3">
              {TOOL_COUNT} Free Astrology & Numerology Tools — 100% Instant & No Sign-up
           </div>
           
           <h1 className="font-display text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight animate-slide-up leading-tight">
             <span className="text-[#042F2A] drop-shadow-md">Uncover Your </span>
-            <span className="gradient-text-gold">Cosmic Identity</span>
+            <span className="gradient-text-deep">Cosmic Identity</span>
             <br />
-            <span className="gradient-text-gold">& Vedic Destiny</span>
+            <span className="gradient-text-deep">& Vedic Destiny</span>
           </h1>
           
           <p className="max-w-2xl text-sm sm:text-base text-[rgba(46,61,51,0.92)] mb-6 animate-slide-up leading-relaxed">
@@ -185,7 +185,7 @@ export default function HomePage() {
       <section className="glass-card p-4 md:p-6 max-w-6xl mx-auto rounded-2xl bg-white border-[rgba(8,116,90,0.35)] overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="space-y-3 text-left">
-            <div className="badge badge-gold"> Viral High-Demand Tool</div>
+            <div className="badge badge-deep"> Viral High-Demand Tool</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-[#042F2A] leading-tight">
               Future Spouse & Soulmate Predictor
             </h2>
@@ -216,8 +216,8 @@ export default function HomePage() {
       <section className="stars-bg rounded-2xl p-5 md:p-8 shadow-2xl relative overflow-hidden border border-[rgba(8,116,90,0.45)] bg-white">
         <div className="relative z-10">
           <div className="text-center mb-6">
-            <div className="badge badge-gold mb-2"> {TOOL_COUNT}-in-1 Interactive Suite</div>
-            <h2 className="text-2xl md:text-3xl font-display font-bold gradient-text-gold mb-1">Cosmic Tools & Calculators Suite</h2>
+            <div className="badge badge-deep mb-2"> {TOOL_COUNT}-in-1 Interactive Suite</div>
+            <h2 className="text-2xl md:text-3xl font-display font-bold gradient-text-deep mb-1">Cosmic Tools & Calculators Suite</h2>
             <p className="text-[#43584A] text-xs sm:text-sm max-w-xl mx-auto">
               Select any tool category below to calculate your astrological snapshot instantly.
             </p>
@@ -242,7 +242,7 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-3 text-left order-1 md:order-2">
-            <div className="badge badge-gold"> Authentic Jyotish Wisdom</div>
+            <div className="badge badge-deep"> Authentic Jyotish Wisdom</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-[#042F2A] leading-tight">
               36 Guna Kundali Milan & Choghadia Timing
             </h2>
@@ -270,7 +270,7 @@ export default function HomePage() {
       <section className="glass-card p-5 md:p-8 max-w-6xl mx-auto rounded-2xl bg-white border-[rgba(8,116,90,0.35)] overflow-hidden relative">
         <div className="grid md:grid-cols-2 gap-6 items-center">
           <div className="space-y-3 text-left">
-            <div className="badge badge-gold"> Sacred Frequency & Numerology</div>
+            <div className="badge badge-deep"> Sacred Frequency & Numerology</div>
             <h2 className="text-xl sm:text-3xl font-display font-bold text-[#042F2A] leading-tight">
               Pythagorean & Chaldean Brand Numerology
             </h2>
@@ -319,7 +319,7 @@ export default function HomePage() {
       {/* 9. Compact Educational Manual Section */}
       <section className="glass-card p-5 md:p-8 max-w-4xl mx-auto rounded-2xl shadow-xl bg-white border-[rgba(8,116,90,0.35)] space-y-6">
         <div>
-          <h2 className="text-xl sm:text-3xl font-display font-bold gradient-text-gold mb-3">
+          <h2 className="text-xl sm:text-3xl font-display font-bold gradient-text-deep mb-3">
             Mastering Your Astrological & Numerological Blueprint
           </h2>
           <p className="text-xs sm:text-sm leading-relaxed text-[rgba(46,61,51,0.92)]">
@@ -385,7 +385,7 @@ export default function HomePage() {
 
 
       {/* 12. Virality & Social Share CTA Banner */}
-      <section className="theme-dark relative overflow-hidden rounded-2xl p-6 md:p-8 text-center bg-gradient-to-r from-[#102e20] via-[#16402b] to-[#16402b] border border-[#16402b]">
+      <section className="relative overflow-hidden rounded-2xl p-6 md:p-8 text-center bg-gradient-to-r from-[#102e20] via-cosmic-deep to-cosmic-deep border border-cosmic-deep">
         <div className="absolute inset-0 stars-bg opacity-40" />
         <div className="relative z-10 flex flex-col items-center">
           <span className="mb-2 flex justify-center"><CosmicIcon name="sparkle" className="w-9 h-9" /></span>

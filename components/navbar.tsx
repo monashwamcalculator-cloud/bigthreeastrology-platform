@@ -61,7 +61,7 @@ export function Navbar() {
             />
           </div>
           <span className="font-display text-xl md:text-2xl font-bold tracking-tight">
-            <span className="gradient-text-gold transition-all duration-300 group-hover:brightness-125">BIGThree</span>
+            <span className="gradient-text-deep transition-all duration-300 group-hover:brightness-125">BIGThree</span>
             <span className="text-[#042F2A]">Astrology</span>
           </span>
         </Link>

@@ -43,7 +43,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.gradient-text-gold {
+.gradient-text-deep {
   background: linear-gradient(135deg, #042f2a 0%, #075433 40%, #08745a 75%, #3fa07f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -190,7 +190,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border: 1px solid rgba(8, 116, 90, 0.4);
 }
 
-.badge-gold {
+.badge-deep {
   background: #042f2a;
   color: #ffffff;
   border: 1px solid #042f2a;

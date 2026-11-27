@@ -137,7 +137,7 @@ export function RelatedTools({ tool }: { tool: ToolDefinition }) {
 
   return (
     <section className="max-w-4xl mx-auto">
-      <h3 className="text-xl font-display font-bold text-center text-[#16402b] mb-4">
+      <h3 className="text-xl font-display font-bold text-center text-cosmic-deep mb-4">
         Related Calculators
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
@@ -147,13 +147,13 @@ export function RelatedTools({ tool }: { tool: ToolDefinition }) {
             href={`/tools/${rel.slug}`}
             className="glass-card-hover p-4 rounded-xl flex flex-col items-center text-center group"
           >
-            <span className="w-10 h-10 rounded-full bg-[#eaf1e6] border border-[#cfe0cb] flex items-center justify-center mb-2">
+            <span className="w-10 h-10 rounded-full bg-cosmic-100 border border-cosmic-200 flex items-center justify-center mb-2">
               <CosmicIcon name={rel.slug} className="w-5 h-5" />
             </span>
-            <span className="text-xs font-display font-bold text-[#1e2b22] group-hover:text-[#256b42] transition-colors">
+            <span className="text-xs font-display font-bold text-cosmic-950 group-hover:text-cosmic-mid transition-colors">
               {rel.name}
             </span>
-            <span className="text-[11px] text-[#52796f] mt-1 leading-snug">
+            <span className="text-[11px] text-[#2C473F] mt-1 leading-snug">
               {rel.shortDesc}
             </span>
           </Link>
@@ -162,7 +162,7 @@ export function RelatedTools({ tool }: { tool: ToolDefinition }) {
 
       {blogs.length > 0 && (
         <div className="mt-5 glass-card p-5 rounded-xl">
-          <h4 className="text-sm font-display font-bold text-[#16402b] mb-2">
+          <h4 className="text-sm font-display font-bold text-cosmic-deep mb-2">
             Go Deeper: Read the Guide
           </h4>
           <ul className="space-y-1.5">
@@ -170,7 +170,7 @@ export function RelatedTools({ tool }: { tool: ToolDefinition }) {
               <li key={post.slug}>
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="text-sm text-[#256b42] underline decoration-[#a9ead1] underline-offset-2 hover:text-[#16402b]"
+                  className="text-sm text-cosmic-mid underline decoration-[#a9ead1] underline-offset-2 hover:text-cosmic-deep"
                 >
                   {post.title}
                 </Link>

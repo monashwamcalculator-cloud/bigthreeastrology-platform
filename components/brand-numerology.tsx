@@ -57,8 +57,8 @@ export function BrandNumerologyCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3"> Chaldean Name & Brand Numerology</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Brand & Name Numerology Analyzer</h2>
+        <div className="badge badge-deep mb-3"> Chaldean Name & Brand Numerology</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Brand & Name Numerology Analyzer</h2>
         <p className="text-[#3A5747] text-sm mt-1">
           Calculate the Chaldean numerology vibration of your personal name, company title, or brand name.
         </p>

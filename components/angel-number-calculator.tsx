@@ -79,8 +79,8 @@ export function AngelNumberCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3"> Angel Numbers & Cosmic Frequency</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Angel Number Decoder & Frequency Guide</h2>
+        <div className="badge badge-deep mb-3"> Angel Numbers & Cosmic Frequency</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Angel Number Decoder & Frequency Guide</h2>
         <p className="text-[#3A5747] text-sm mt-1">
           Decode recurring number sequences (111, 222, 444, 777, 888) and see what each one is traditionally said to mean.
         </p>

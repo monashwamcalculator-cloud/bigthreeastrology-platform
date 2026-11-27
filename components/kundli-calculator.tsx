@@ -156,7 +156,7 @@ export function KundliCalculator() {
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="absolute inset-0 stars-bg opacity-30 pointer-events-none" />
       <div className="relative z-10">
-        <p className="text-center text-[11px] uppercase tracking-[0.2em] font-semibold text-[#256b42] mb-6">
+        <p className="text-center text-[11px] uppercase tracking-[0.2em] font-semibold text-cosmic-mid mb-6">
           Vedic Birth Chart — Sidereal (Lahiri)
         </p>
 
@@ -237,7 +237,7 @@ export function KundliCalculator() {
         {chart ? (
           <div className="mt-10 border-t border-emerald-500/30 pt-8 animate-slide-up">
             <div className="text-center mb-6">
-              <span className="badge badge-gold mb-2">Janam Kundli — Rashi (D1) Chart</span>
+              <span className="badge badge-deep mb-2">Janam Kundli — Rashi (D1) Chart</span>
               <h3 className="text-xl font-semibold gradient-text">
                 {name || "Your"} Kundli {birthLocation ? `(${birthLocation})` : ""}
               </h3>
@@ -268,20 +268,20 @@ export function KundliCalculator() {
                 { label: "Sun Sign", value: `${chart.grahas[0].sign} ${formatDegree(chart.grahas[0].degreeInSign)}`, note: "Sidereal Sun — often one sign behind the Western one" },
               ].map((item) => (
                 <div key={item.label} className="glass-card-hover p-4 rounded-xl text-center">
-                  <div className="text-[11px] uppercase tracking-widest font-semibold text-[#256b42] mb-1">{item.label}</div>
-                  <div className="text-base font-display font-bold text-[#16402b]">{item.value}</div>
+                  <div className="text-[11px] uppercase tracking-widest font-semibold text-cosmic-mid mb-1">{item.label}</div>
+                  <div className="text-base font-display font-bold text-cosmic-deep">{item.value}</div>
                   <p className="text-[11px] text-[#52796f] mt-1 leading-snug">{item.note}</p>
                 </div>
               ))}
             </div>
 
             <div className="glass-card p-5 rounded-xl max-w-4xl mx-auto mt-6 overflow-x-auto">
-              <h3 className="text-sm font-display font-bold text-[#16402b] mb-3">
+              <h3 className="text-sm font-display font-bold text-cosmic-deep mb-3">
                 Planetary Positions (Sidereal)
               </h3>
-              <table className="w-full text-sm text-[#33463a]">
+              <table className="w-full text-sm text-cosmic-body">
                 <thead>
-                  <tr className="text-left text-xs uppercase tracking-wide text-[#256b42] border-b border-[#dee6da]">
+                  <tr className="text-left text-xs uppercase tracking-wide text-cosmic-mid border-b border-[#dee6da]">
                     <th className="py-2 pr-3 font-semibold">Graha</th>
                     <th className="py-2 pr-3 font-semibold">Sign</th>
                     <th className="py-2 pr-3 font-semibold">Degree</th>
@@ -311,20 +311,20 @@ export function KundliCalculator() {
             </div>
 
             <div className="glass-card p-5 rounded-xl max-w-4xl mx-auto mt-6">
-              <h3 className="text-sm font-display font-bold text-[#16402b] mb-2">
+              <h3 className="text-sm font-display font-bold text-cosmic-deep mb-2">
                 Where to Go Next with This Kundli
               </h3>
               <div className="flex flex-wrap gap-2">
-                <Link href="/tools/kundali-milan" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                <Link href="/tools/kundali-milan" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-cosmic-deep hover:bg-[#dff5ec] transition-colors">
                   Match this Kundli
                 </Link>
-                <Link href="/tools/nakshatra" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                <Link href="/tools/nakshatra" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-cosmic-deep hover:bg-[#dff5ec] transition-colors">
                   Nakshatra Finder
                 </Link>
-                <Link href="/tools/dasha-calculator" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                <Link href="/tools/dasha-calculator" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-cosmic-deep hover:bg-[#dff5ec] transition-colors">
                   Vimshottari Dasha Calculator
                 </Link>
-                <Link href="/tools/big-three" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors">
+                <Link href="/tools/big-three" className="px-4 py-2 rounded-full border border-[#a9ead1] bg-[#eaf7f0] text-sm font-semibold text-cosmic-deep hover:bg-[#dff5ec] transition-colors">
                   Big Three (Western View)
                 </Link>
               </div>
@@ -345,7 +345,7 @@ export function KundliCalculator() {
           </div>
         ) : (
           <div className="mx-auto w-full max-w-[520px] aspect-square rounded-2xl border-2 border-dashed border-[#a9ead1] bg-white/50 flex items-center justify-center p-6 text-center">
-            <p className="text-sm text-[#33463a] leading-relaxed">
+            <p className="text-sm text-cosmic-body leading-relaxed">
               {birthDate && !place
                 ? "One more detail: pick your birth city from the suggestions above. Your Lagna — the sign your whole chart is built on — comes from the exact birth moment at that place, so the Kundli appears as soon as the city is selected."
                 : "Enter your birth date, time and city above and your Janam Kundli appears instantly — Lagna, all nine grahas in their houses, and your Moon nakshatra. Free, with no sign-up."}

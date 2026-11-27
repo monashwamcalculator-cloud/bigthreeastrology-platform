@@ -207,8 +207,8 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="grid gap-3">
               {postFaqs.map((faq, idx) => (
                 <div key={idx} className="glass-card-hover p-4 rounded-xl">
-                  <h3 className="text-sm font-semibold text-[#256b42] mb-1">{faq.question}</h3>
-                  <p className="text-[#33463a] text-xs sm:text-sm leading-relaxed">{faq.answer}</p>
+                  <h3 className="text-sm font-semibold text-cosmic-mid mb-1">{faq.question}</h3>
+                  <p className="text-cosmic-body text-xs sm:text-sm leading-relaxed">{faq.answer}</p>
                 </div>
               ))}
             </div>

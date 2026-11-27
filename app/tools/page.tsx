@@ -42,7 +42,7 @@ export default function ToolsHubPage() {
       />
       <div className="text-center space-y-4 max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-display font-bold">
-          All {MASTER_TOOLS_LIST.length} Free <span className="gradient-text-gold">Astrology Calculators</span>
+          All {MASTER_TOOLS_LIST.length} Free <span className="gradient-text-deep">Astrology Calculators</span>
         </h1>
         <p className="text-[rgba(61,82,69,0.92)] text-sm md:text-base leading-relaxed">
           Every BIGThreeAstrology tool in one place — Vedic Jyotish, Western birth-chart calculators,
@@ -60,7 +60,7 @@ export default function ToolsHubPage() {
           <a
             key={group.key}
             href={`#${group.key}`}
-            className="px-4 py-1.5 rounded-full border border-[#d4e2dd] bg-white text-xs font-semibold text-[#16402b] hover:bg-[#dff5ec] transition-colors"
+            className="px-4 py-1.5 rounded-full border border-[#d4e2dd] bg-white text-xs font-semibold text-cosmic-deep hover:bg-[#dff5ec] transition-colors"
           >
             {group.name}
           </a>

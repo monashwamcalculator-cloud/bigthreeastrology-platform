@@ -127,7 +127,7 @@ export function ChoghadiaCalculator() {
           <button
             onClick={() => setTimeMode("Day")}
             className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              timeMode === "Day" ? "bg-[#2e7d4f] text-[#042F2A] shadow-md" : "text-[#43584a]"
+              timeMode === "Day" ? "bg-cosmic-leaf text-[#042F2A] shadow-md" : "text-[#43584a]"
             }`}
           >
             ☀ Day Choghadia
@@ -135,7 +135,7 @@ export function ChoghadiaCalculator() {
           <button
             onClick={() => setTimeMode("Night")}
             className={`px-4 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              timeMode === "Night" ? "bg-[#2e7d4f] text-[#042F2A] shadow-md" : "text-[#43584a]"
+              timeMode === "Night" ? "bg-cosmic-leaf text-[#042F2A] shadow-md" : "text-[#43584a]"
             }`}
           >
              Night Choghadia

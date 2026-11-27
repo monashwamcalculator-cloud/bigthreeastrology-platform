@@ -159,8 +159,8 @@ export function GemstoneFinder() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-3"> Vedic Planetary Remedies (Ratna Vigyan)</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-gold">Lucky Gemstone & Mantra Finder</h2>
+        <div className="badge badge-deep mb-3"> Vedic Planetary Remedies (Ratna Vigyan)</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Lucky Gemstone & Mantra Finder</h2>
         <p className="text-[#43584A] text-sm mt-1">
           Discover your authentic planetary gemstone (Ratna), recommended wearing finger, metal, and sacred Vedic mantra.
         </p>

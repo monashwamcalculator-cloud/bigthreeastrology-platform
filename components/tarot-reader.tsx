@@ -126,8 +126,8 @@ export function TarotReader() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-8">
-        <div className="badge badge-gold mb-3"> 3-Card Cosmic Tarot Spread</div>
-        <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-gold">Daily Intuitive Tarot Guidance</h2>
+        <div className="badge badge-deep mb-3"> 3-Card Cosmic Tarot Spread</div>
+        <h2 className="font-display text-3xl md:text-4xl font-bold gradient-text-deep">Daily Intuitive Tarot Guidance</h2>
         <p className="mt-2 text-[#2C473F] text-sm max-w-xl mx-auto">
           Shuffle the sacred cosmic deck to reveal your 3-card reading: Past Influences, Present Energy, and Future Outlook.
         </p>
@@ -159,16 +159,16 @@ export function TarotReader() {
               { title: "3. Future Outlook ", card: drawnCards[2], meaning: drawnCards[2].futureMeaning }
             ].map((slot, idx) => (
               <div key={idx} className="glass-card-hover p-6 border-[rgba(8,116,90,0.3)] flex flex-col items-center text-center bg-white">
-                <span className="text-xs uppercase tracking-widest font-semibold text-[#256b42] mb-3">{slot.title}</span>
+                <span className="text-xs uppercase tracking-widest font-semibold text-cosmic-mid mb-3">{slot.title}</span>
                 <div className="text-6xl mb-3 drop-shadow-md animate-pulse-glow">{slot.card.imageEmoji}</div>
                 <h4 className="text-xl font-display font-bold text-[#042F2A] mb-2">{slot.card.name}</h4>
-                <span className="text-xs px-3 py-1 rounded-full bg-[#eaf1e6] border border-[#cfe0cb] text-[#33463a] mb-4">
+                <span className="text-xs px-3 py-1 rounded-full bg-[#eaf1e6] border border-[#cfe0cb] text-cosmic-body mb-4">
                   {slot.card.arcana} Arcana
                 </span>
 
                 <div className="flex flex-wrap justify-center gap-1 mb-4">
                   {slot.card.keywords.map((kw, i) => (
-                    <span key={i} className="text-[10px] px-2 py-0.5 rounded bg-[#eaf1e6] text-[#256b42] border border-[#cfe0cb]">
+                    <span key={i} className="text-[10px] px-2 py-0.5 rounded bg-[#eaf1e6] text-cosmic-mid border border-[#cfe0cb]">
                       {kw}
                     </span>
                   ))}

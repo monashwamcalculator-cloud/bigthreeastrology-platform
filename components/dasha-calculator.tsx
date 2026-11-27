@@ -117,18 +117,18 @@ export function DashaCalculator() {
       <div className="max-w-3xl mx-auto mb-10">
         <div className="grid gap-4 sm:grid-cols-2 mb-4">
           <div>
-            <label className="text-xs font-medium text-[#33463a] pl-1 mb-1 block">Birth Date *</label>
+            <label className="text-xs font-medium text-cosmic-body pl-1 mb-1 block">Birth Date *</label>
             <input type="date" className="input-cosmic" value={birthDate} onChange={(e) => setBirthDate(e.target.value)} />
           </div>
           <div>
-            <label className="text-xs font-medium text-[#33463a] pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
+            <label className="text-xs font-medium text-cosmic-body pl-1 mb-1 block">Birth Time (12-Hr AM/PM)</label>
             <div className="flex items-center gap-1">
               <select className="input-cosmic" value={hour} onChange={(e) => setHour(e.target.value)}>
                 {Array.from({ length: 12 }, (_, i) => (i + 1).toString()).map((hh) => (
                   <option key={hh} value={hh}>{hh}</option>
                 ))}
               </select>
-              <span className="text-[#33463a] font-bold">:</span>
+              <span className="text-cosmic-body font-bold">:</span>
               <select className="input-cosmic" value={minute} onChange={(e) => setMinute(e.target.value)}>
                 {ALL_MINUTES.map((mm) => (
                   <option key={mm} value={mm}>{mm}</option>
@@ -136,7 +136,7 @@ export function DashaCalculator() {
               </select>
               <button
                 onClick={() => setPeriod(period === "AM" ? "PM" : "AM")}
-                className="px-3 py-2 rounded-lg bg-[#2e7d4f] text-[#042F2A] text-xs font-bold border border-[#2e7d4f]"
+                className="px-3 py-2 rounded-lg bg-cosmic-leaf text-[#042F2A] text-xs font-bold border border-cosmic-leaf"
               >
                 {period}
               </button>
@@ -144,14 +144,14 @@ export function DashaCalculator() {
           </div>
         </div>
         <div className="mb-4">
-          <label className="text-xs font-medium text-[#33463a] pl-1 mb-1 block">Birth Place (select from suggestions for your timezone)</label>
+          <label className="text-xs font-medium text-cosmic-body pl-1 mb-1 block">Birth Place (select from suggestions for your timezone)</label>
           <CityAutocomplete value={place} onChange={setPlace} onPlaceSelect={setPlaceInfo} placeholder="Type e.g., Delhi, Mumbai, NY" />
         </div>
 
         {timeline && (
           <div className="animate-slide-up">
-            <p className="text-sm text-[#33463a] text-center mb-3">
-              Moon nakshatra at birth: <strong className="text-[#16402b]">{timeline.nakshatraName}</strong> — your
+            <p className="text-sm text-cosmic-body text-center mb-3">
+              Moon nakshatra at birth: <strong className="text-cosmic-deep">{timeline.nakshatraName}</strong> — your
               dasha sequence starts with its ruling planet. The first period is the <em>balance</em> of that
               mahadasha remaining at birth.
             </p>
@@ -164,8 +164,8 @@ export function DashaCalculator() {
                     onClick={() => setSelectedPlanetIndex(p.planetIndex)}
                     className={`flex items-center justify-between gap-3 px-4 py-2.5 rounded-xl border text-left transition-all ${
                       isCurrent
-                        ? "bg-[#2e7d4f] text-[#042F2A] border-[#2e7d4f] shadow-md"
-                        : "bg-white text-[#33463a] border-[#dee6da] hover:bg-[#eaf1e6]"
+                        ? "bg-cosmic-leaf text-[#042F2A] border-cosmic-leaf shadow-md"
+                        : "bg-white text-cosmic-body border-[#dee6da] hover:bg-[#eaf1e6]"
                     }`}
                   >
                     <span className="font-display font-bold text-sm">
@@ -190,7 +190,7 @@ export function DashaCalculator() {
       </div>
 
       <div className="border-t border-[#dee6da] pt-6">
-        <h3 className="text-center text-sm font-semibold uppercase tracking-widest text-[#256b42] mb-4">
+        <h3 className="text-center text-sm font-semibold uppercase tracking-widest text-cosmic-mid mb-4">
           Explore the 9 Mahadashas
         </h3>
         <div className="flex flex-wrap justify-center gap-2 mb-8">
@@ -200,8 +200,8 @@ export function DashaCalculator() {
               onClick={() => setSelectedPlanetIndex(idx)}
               className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition-all ${
                 selectedPlanetIndex === idx
-                  ? "bg-[#2e7d4f] text-[#042F2A] font-bold shadow-lg border border-[#2e7d4f]"
-                  : "bg-white text-[#33463a] border border-[#dee6da] hover:bg-[#eaf1e6]"
+                  ? "bg-cosmic-leaf text-[#042F2A] font-bold shadow-lg border border-cosmic-leaf"
+                  : "bg-white text-cosmic-body border border-[#dee6da] hover:bg-[#eaf1e6]"
               }`}
             >
               {dasha.planet.split(" ")[0]}

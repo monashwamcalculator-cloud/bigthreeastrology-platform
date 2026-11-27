@@ -52,8 +52,8 @@ export function DestinyNumberCalculator() {
   return (
     <section className="glass-card p-5 md:p-6 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-gold mb-2"> Chaldean Name Math</div>
-        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-gold">Destiny & Expression Number Calculator</h2>
+        <div className="badge badge-deep mb-2"> Chaldean Name Math</div>
+        <h2 className="font-display text-2xl md:text-3xl font-bold gradient-text-deep">Destiny & Expression Number Calculator</h2>
         <p className="text-sky-200 text-xs sm:text-sm mt-1">
           Enter your full birth name to calculate your Expression / Destiny Number and career path vibration.
         </p>
@@ -74,7 +74,7 @@ export function DestinyNumberCalculator() {
         <span className="text-xs uppercase tracking-widest text-sky-300 font-semibold block mb-1">
           Expression Destiny Number
         </span>
-        <div className="text-5xl font-display font-extrabold gradient-text-gold mb-2">
+        <div className="text-5xl font-display font-extrabold gradient-text-deep mb-2">
           Number {expressionNum}
         </div>
         <p className="text-base font-bold text-[#042F2A] mb-4">{data.title}</p>
