@@ -107,7 +107,7 @@ Find your exact Sun, Moon and Rising signs now with the [Big Three Calculator](/
     slug: "future-spouse-prediction-vedic-astrology",
     category: "Birth Chart & Planets",
     toolSlug: "spouse-predictor",
-    metaDescription: "Learn how to predict your future spouse in Vedic astrology. Discover how the 7th house, Venus, Jupiter, and Darakaraka reveal your partner's traits.",
+    metaDescription: "Learn how to predict your future spouse in Vedic astrology. Discover how the 7th house, Venus, and Jupiter reveal your partner's traits.",
     image: "/blog/spouse-predictor-guide.jpg",
     createdAt: new Date("2026-08-02"),
     updatedAt: new Date("2026-10-29"),
@@ -783,7 +783,7 @@ Use them, don't waste them. These windows are traditionally fine for routine, ph
     image: "/blog/navamsha-d9-chart-marriage-destiny.jpg",
     createdAt: new Date("2026-08-05"),
     updatedAt: new Date("2026-10-29"),
-    content: `> **Executive Overview**: If your main birth chart (D1) is the tree, the **Navamsha (D9) chart** is the fruit — the divisional chart Vedic astrology uses to judge marriage, a spouse's qualities, and whether the promises in your birth chart actually mature. This guide explains how the D9 is calculated, what vargottama really means, and how to read the D9 *alongside* your D1 rather than instead of it. Start by exploring the houses of your main chart in our free **[Kundali Houses Explorer](/tools/kundali-houses)**.
+    content: `> **Executive Overview**: If your main birth chart (D1) is the tree, the **Navamsha (D9) chart** is the fruit — the divisional chart Vedic astrology uses to judge marriage, a spouse's qualities, and whether the promises in your birth chart actually mature. This guide explains how the D9 is calculated, what vargottama really means, and how to read the D9 *alongside* your D1 rather than instead of it. Start by casting your own D9 in our free **[Navamsha Chart Calculator](/tools/navamsha)**.
 
 Ask a Vedic astrologer about marriage and they will not stop at your birth chart. They will draw a second, smaller chart beside it: the Navamsha, built by dividing every sign into nine equal parts. The D9 answers the questions the D1 only raises — not *whether* a planet promises something, but how strong that promise is, and not just *that* you will marry, but what the marriage and the spouse are actually like from the inside. If you want your own chart in front of you while you read, open our free [Navamsha Calculator](/tools/navamsha).
 
@@ -7906,7 +7906,7 @@ Longer names often need two rounds of reduction, and that is normal. The rule is
 
 If you run your name through three different Destiny calculators and get three different numbers, the calculators are probably not broken. They are probably using different methods, and this subject has two live choices that change the answer.
 
-**The table: Chaldean or Pythagorean.** The Pythagorean table runs 1 to 9 in repeating order: A=1, B=2, C=3, D=4, E=5, F=6, G=7, H=8, I=9, J=1, K=2, L=3, M=4, N=5, O=6, P=7, Q=8, R=9, S=1, T=2, U=3, V=4, W=5, X=6, Y=7, Z=8. It is the table most modern books teach, and it is the table the guide on this site's own [Destiny calculator page](/tools/destiny-number) walks through step by step. The calculator itself, however, runs the Chaldean table shown above. So the same name can give two different numbers even inside this one site, depending on whether you follow the calculator or the guide by hand. That is an inconsistency on the site's side, stated plainly here rather than smoothed over: the numbers below show exactly how far apart the two systems can sit.
+**The table: Chaldean or Pythagorean.** The Pythagorean table runs 1 to 9 in repeating order: A=1, B=2, C=3, D=4, E=5, F=6, G=7, H=8, I=9, J=1, K=2, L=3, M=4, N=5, O=6, P=7, Q=8, R=9, S=1, T=2, U=3, V=4, W=5, X=6, Y=7, Z=8. It is the table most modern books teach. This site's [Destiny calculator](/tools/destiny-number) and its guide both run the Chaldean table shown above, so a hand calculation from this post matches the tool exactly; the Pythagorean numbers below are there because books and other sites use that table, and they show exactly how far apart the two systems can sit.
 
 - Sahil Sharma: Chaldean 29 → **11**; Pythagorean 46 → 10 → **1**.
 - Sanjay Kapoor: Chaldean 39 → 12 → **3**; Pythagorean 47 → **11**.
@@ -8146,7 +8146,7 @@ If you genuinely have no middle name — none was given at birth — then calcul
 
 This is the trap that produces the most confident wrong answers, because the arithmetic still works perfectly — it just belongs to no system. The Chaldean table and the Pythagorean table assign different values to several letters, and the [calculation post](/blog/destiny-number-calculation-chaldean-name-math) prints both tables in full. The Chaldean table runs 1 to 8 with no 9; the Pythagorean table runs 1 to 9 in repeating order. Sixteen letters carry different values across the two tables — F, G, H, I, O, P, Q, R, S, T, U, V, W, X, Y and Z — and the full side-by-side comparison is in the calculation post.
 
-Mixing them halfway — Chaldean values for the first name, Pythagorean for the last, because you looked one of them up wrong — produces a number that no system would give you. And even using one table consistently but the wrong one for the tool you are comparing against produces a mismatch that looks like an error. The three names worked letter by letter in the [calculation post](/blog/destiny-number-calculation-chaldean-name-math) show the scale of it: Sanjay Kapoor is **3** on this site's Chaldean calculator and **11** on the Pythagorean method the tool page's guide walks through; Sahil Sharma is **11** here and **1** there; Priya Nair is **22** here and **3** there.
+Mixing them halfway — Chaldean values for the first name, Pythagorean for the last, because you looked one of them up wrong — produces a number that no system would give you. And even using one table consistently but the wrong one for the tool you are comparing against produces a mismatch that looks like an error. The three names worked letter by letter in the [calculation post](/blog/destiny-number-calculation-chaldean-name-math) show the scale of it: Sanjay Kapoor is **3** on this site's Chaldean calculator and **11** on the Pythagorean method the calculation post walks through; Sahil Sharma is **11** here and **1** there; Priya Nair is **22** here and **3** there.
 
 The fix is dull and complete: pick one table, print it, and check every letter against it before you add. If you are comparing your number with a book or another site, find out which table it uses first — a disagreement between two systems is not a mistake by either side, and a number only means something inside the system that produced it.
 

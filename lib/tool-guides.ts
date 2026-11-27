@@ -226,7 +226,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
   "spouse-predictor": {
     guideTitle: "Spouse Prediction in Astrology: What Your Chart Indicates",
     guide: [
-      "In Vedic astrology, your future spouse is read mainly from the 7th house of your birth chart, its ruling planet, the position of Venus (for men) and Jupiter (for women), and the planet placed in or aspecting the 7th house. The spouse predictor combines these traditional indicators with your Moon nakshatra to describe the likely nature, appearance themes and meeting circumstances of your partner.",
+      "In Vedic astrology, your future spouse is read mainly from the 7th house of your birth chart, its ruling planet, the position of Venus (for men) and Jupiter (for women), and the planet placed in or aspecting the 7th house. In this tool, those indications are read from your Moon sign — the sign-level form of the classical method — to describe the likely nature, appearance themes and meeting circumstances of your partner.",
       "Western astrology reads the same themes through the sign on the Descendant (the 7th house cusp) and Venus and Mars placements. Both systems agree on one point: the chart describes tendencies and the type of person you attract and commit to — it does not produce a photograph or a name.",
       "Use the reading as a reflective guide: notice which described qualities you genuinely value, and treat timing indications (such as the dasha periods astrologers watch for marriage) as themes rather than fixed dates.",
     ],
@@ -444,6 +444,9 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Your nakshatra is the lunar mansion the Moon occupied at your birth — the oldest layer of Vedic astrology, older than the twelve-sign zodiac in Indian practice. The Moon's sidereal position is divided into 27 nakshatras of 13 degrees 20 minutes each, and each nakshatra is divided into four padas (quarters) that fine-tune the reading.",
       "The nakshatra is not a decorative detail: it decides your Vimshottari dasha sequence (the planetary periods that time major life chapters), it is the basis of Kundali Milan matching through gana, nadi and yoni, and each nakshatra carries its own deity, symbol, ruling planet and temperament. Two people with the same Moon sign but different nakshatras — say Cancer Moon in Pushya versus Ashlesha — are read very differently by a Vedic astrologer.",
       "Traditionally the Moon's nakshatra is found from its sidereal (Lahiri) longitude at the exact birth moment, which is why the finder asks for date and time. If your Moon sits within about a degree of a nakshatra boundary, an ephemeris-grade chart can refine the result.",
+      "The full set of 27, in order from 0° sidereal Aries — each spans 13°20′, and the Vimshottari ruler sequence (Ketu, Venus, Sun, Moon, Mars, Rahu, Jupiter, Saturn, Mercury) repeats three times through the list. First cycle: Ashwini (Aries 0°00′–13°20′, Ketu, the Ashwini Kumaras), Bharani (Aries 13°20′–26°40′, Venus, Yama), Krittika (Aries 26°40′–Taurus 10°00′, Sun, Agni), Rohini (Taurus 10°00′–23°20′, Moon, Brahma), Mrigashira (Taurus 23°20′–Gemini 6°40′, Mars, Soma), Ardra (Gemini 6°40′–20°00′, Rahu, Rudra), Punarvasu (Gemini 20°00′–Cancer 3°20′, Jupiter, Aditi), Pushya (Cancer 3°20′–16°40′, Saturn, Brihaspati), Ashlesha (Cancer 16°40′–30°00′, Mercury, the Nagas).",
+      "Second cycle: Magha (Leo 0°00′–13°20′, Ketu, the Pitris), Purva Phalguni (Leo 13°20′–26°40′, Venus, Bhaga), Uttara Phalguni (Leo 26°40′–Virgo 10°00′, Sun, Aryaman), Hasta (Virgo 10°00′–23°20′, Moon, Savitar), Chitra (Virgo 23°20′–Libra 6°40′, Mars, Vishwakarma), Swati (Libra 6°40′–20°00′, Rahu, Vayu), Vishakha (Libra 20°00′–Scorpio 3°20′, Jupiter, Indra-Agni), Anuradha (Scorpio 3°20′–16°40′, Saturn, Mitra), Jyeshtha (Scorpio 16°40′–30°00′, Mercury, Indra).",
+      "Third cycle: Mula (Sagittarius 0°00′–13°20′, Ketu, Nirriti), Purva Ashadha (Sagittarius 13°20′–26°40′, Venus, Apas), Uttara Ashadha (Sagittarius 26°40′–Capricorn 10°00′, Sun, the Vishvadevas), Shravana (Capricorn 10°00′–23°20′, Moon, Vishnu), Dhanishta (Capricorn 23°20′–Aquarius 6°40′, Mars, the Vasus), Shatabhisha (Aquarius 6°40′–20°00′, Rahu, Varuna), Purva Bhadrapada (Aquarius 20°00′–Pisces 3°20′, Jupiter, Aja Ekapada), Uttara Bhadrapada (Pisces 3°20′–16°40′, Saturn, Ahirbudhnya), Revati (Pisces 16°40′–30°00′, Mercury, Pushan).",
     ],
     steps: [
       "Enter your birth date and your exact birth time — the Moon moves about 13 degrees a day, so the time matters.",
@@ -453,6 +456,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
     ],
     resultMeaning: [
       "Your nakshatra describes instinctive nature — the layer of personality that shows under stress and in private. Pushya is the nourisher, Magha carries ancestral authority, Rohini is the sensual creator, Hasta the skilled maker. The ruling planet of your nakshatra also starts your Vimshottari dasha count, so this one result opens up your whole timing map.",
+      "A worked example ties the pieces together. Suppose the Moon sits at 18° sidereal Taurus. Rohini spans Taurus 10°00′–23°20′, so the birth star is Rohini; the Moon is 8° into it, which falls in the third pada, since each pada is 3°20′. Rohini's ruler is the Moon itself, so the life opens in Moon dasha — and because the Moon had already crossed 8° of Rohini's 13°20′, only the remaining 5°20′ counts: 40% of the Moon's 10-year period, about 4 years of Moon dasha remaining at birth, before Mars dasha begins.",
     ],
     faqs: [
       {
@@ -870,7 +874,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Sun-sign-only matching is the shallow version because the Sun says more about identity than daily companionship. Two people with supposedly incompatible Sun signs often have beautifully matched Moons or Mercurys and become lifelong friends, while a perfect Sun pairing can struggle if their social needs differ. Use Sun signs as a starting hint, then look deeper: the 11th house for the shape of your social life, the Moon for comfort, Mercury for conversation and Venus for shared pleasures. That fuller picture explains real friendships far better."
     ],
     steps: [
-      "Enter your birth date in the matcher, and add your friend's birth date if you know it.",
+      "Enter your own birth date in the matcher; the reading is drawn from your sign and its social style.",
       "Review the summary shown, noting comments about shared energy, communication or social style.",
       "Compare the result with real life — easy topics, recurring misunderstandings, how you show up for each other.",
       "Use this guide to check the deeper factors yourself: Moon, Mercury and Venus signs, 11th house sign, and your elements."
@@ -1400,7 +1404,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "A worked example makes this concrete. Pair a Capricorn founder with a Virgo founder and both are Earth signs. Capricorn typically brings structure, finance and patience; Virgo brings systems, detail and quality control. Together they form an operations powerhouse: realistic plans, clean books and low drama. Their shared blind spot is double caution. Launches can be slow, offers can be under-priced, and both may say no to visibility. The useful advice is not to become different people, but to deliberately add Fire functions, such as a firm launch deadline, a sales target, or an advisor with strong Fire emphasis."
     ],
     steps: [
-      "Enter both partners birth details and generate the compatibility reading for the pair.",
+      "Enter your birth details to generate the reading for your sign's working style, then compare it with your partner's using the Saturn and Mercury checks in this guide.",
       "Read the Saturn and Mercury links first, for commitment, duty, communication and decision speed.",
       "Compare the element balance and note which elements are strong and which are missing.",
       "Use the findings to agree roles, money terms and a regular decision meeting in writing."
@@ -1482,8 +1486,8 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "The syllables follow a fixed order. Ashwini's four padas give Chu, Che, Cho and La. Bharani gives Li, Lu, Le and Lo. Krittika gives A, I, U and E, and Rohini gives O, Va, Vi and Vu. A worked example shows how a hint is formed: if the relevant placement falls in Rohini pada 2, the syllable is Va, which points to names beginning with the V sound, such as Varun, Vaishnavi, Vanessa or Victor across different languages. The syllable is a sound, not a strict letter rule, and scripts adapt it, so Va may appear as Wa in some spellings."
     ],
     steps: [
-      "Enter your birth details so the relevant nakshatra and pada placements can be identified.",
-      "Read the pada syllable linked to the partnership side of the chart.",
+      "Select your Sun sign from the buttons above — no birth details are needed.",
+      "Read the starting letters the tool links with your sign, and the meeting-energy note that comes with them.",
       "Note the starting sounds it suggests, including common spelling variations of the same sound.",
       "Treat the result as a light hint and compare it, if you wish, with names already in your life."
     ],
@@ -1563,7 +1567,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Your own sign describes the parenting you offer almost without thinking: how quickly you act, how you soothe, how you set limits and how you show pride. No style is better than another. The useful question is whether your default comfort matches what your child's Moon actually asks for, or whether it lands slightly off target. When the two differ, small translations usually matter far more than big changes in personality, rules or family routines at home. Noticing that gap early also prevents a common misunderstanding, where a child who simply needs a different kind of comfort is mistaken for being difficult, distant or deliberately uncooperative at home."
     ],
     steps: [
-      "Enter your child's birth date to find the Moon sign, and add your own sign for your parenting style.",
+      "Enter your child's birth date and read the result as your child's comfort style, then check your own sign's parenting style in the guide below.",
       "Read your child's elemental needs first, before looking at the fit between you.",
       "Notice one place where your instinctive response and your child's comfort style differ.",
       "Try the suggested translation for a week, then watch what actually soothes your child fastest."
@@ -2727,8 +2731,8 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Counting around the wheel gives a fixed pattern worth learning: Aries rising puts Capricorn tenth, Taurus puts Aquarius, Gemini puts Pisces, Cancer puts Aries, Leo puts Taurus and Virgo puts Gemini. Continuing onward, Libra rises to Cancer tenth, Scorpio to Leo, Sagittarius to Virgo, Capricorn to Libra, Aquarius to Scorpio and Pisces to Sagittarius, each pairing carrying its own working temperament. Notice how the tenth sign always stands in a steady structural relationship to its rising sign, which is why astrologers treat this pairing as a backbone of the chart rather than a random label attached afterward to a birth time."
     ],
     steps: [
-      "Enter your birth date, time and place, then confirm the Ascendant sign the calculator returns before reading further.",
-      "Count ten signs forward including the Ascendant itself to verify the tenth house sign shown in your result.",
+      "Enter your birth date above to get your sign's career reading, then work through the classical 10th-house checks below with your own chart.",
+      "Count ten signs forward from your Ascendant, including the Ascendant itself, to find your tenth house sign.",
       "Identify the ruling planet of that tenth sign and note which house that planet occupies in your chart.",
       "List any planets sitting inside the tenth house, since they add strong flavours to the career picture described."
     ],
@@ -3047,7 +3051,7 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Most charts show a mixture rather than a pure type, and that mixture is itself informative. Someone might thrive with one anchor employer for years, then move toward independent clients later, or run both side by side. Read the balance across houses as a preference signal about autonomy, routine, income rhythm and appetite for finding your own work. A near-even balance is common among contractors, consultants employed through agencies, and professionals whose employed role already grants unusual freedom over projects, clients and working hours, making the formal label matter less than the actual autonomy, variety and responsibility they experience week after week."
     ],
     steps: [
-      "Enter your birth date, exact birth time and birthplace to generate your chart houses accurately.",
+      "Enter your birth date above to get your sign's work-style reading; the guide below then shows how astrologers weigh the houses for freelance versus corporate leanings.",
       "Note which houses the guide highlights most strongly on the freelance and corporate sides.",
       "Compare that pattern honestly against jobs where you actually felt energised or drained.",
       "Use the leaning as one input alongside skills, savings and current market demand."
@@ -3768,8 +3772,8 @@ export const TOOL_GUIDES: Record<string, ToolGuide> = {
       "Different blends produce noticeably different lists. A chart led by Mercury tends to surface information handling, teaching through explanation and commercial problem solving. A Saturn-led chart leans toward building, compliance and long projects. A Mars-led chart often highlights operations, engineering support or competitive environments, while a Jupiter-led chart frequently names education, advisory work and roles that organise knowledge for other people to use. Venus-led blends frequently bring forward design, hospitality, beauty and client-facing craft, Moon-led blends point toward care, food, property and work paced by public demand, and Rahu-influenced blends often add technology, foreign markets or unconventional industries where rapid change is treated as normal rather than threatening."
     ],
     steps: [
-      "Enter your birth date, birth time and birthplace so the ascendant and house positions can be placed correctly.",
-      "Check that the rising sign shown matches a chart you already trust before reading the career list.",
+      "Enter your birth date above to get your sign's career directions; if you know your rising sign, weigh the list against it as well.",
+      "If you have a chart you already trust, compare its rising-sign career themes with the list before choosing.",
       "Read the ranked directions from top to bottom, noting the reason attached to each suggestion.",
       "Save two or three directions that overlap with subjects you already enjoy studying or practising."
     ],
