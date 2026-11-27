@@ -62,7 +62,7 @@ export default function AboutPage() {
         <ul className="list-disc pl-6 space-y-2 text-sm text-[#2C473F]">
           <li><strong>100+ Free Tools:</strong> Comprehensive suite covering planetary placements, Kundali Milan, Numerology, and Tarot.</li>
           <li><strong>Global Timezone Support:</strong> Auto-suggesting location geocoding for cities across India and worldwide.</li>
-          <li><strong>100% Privacy Protection:</strong> Your birth details are calculated locally on your browser and never stored on private servers.</li>
+          <li><strong>Privacy Protection:</strong> Your birth details are calculated either right in your browser or in temporary server memory — they are never stored.</li>
           <li><strong>Official Support:</strong> Reach our editorial team anytime at <a href="mailto:asbusiness276@gmail.com" className="text-[#075433] underline font-bold">asbusiness276@gmail.com</a>.</li>
         </ul>
       </div>

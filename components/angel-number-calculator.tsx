@@ -7,65 +7,56 @@ type AngelNumber = {
   title: string;
   cosmicMeaning: string;
   actionGuidance: string;
-  frequencyHz: string;
 };
 
 const ANGEL_DATABASE: Record<string, AngelNumber> = {
   "111 / 1111": {
     code: "111 / 1111",
-    title: "Instant Portal of Manifestation",
-    cosmicMeaning: "Your thoughts are materializing rapidly into physical reality. The universe is taking a snapshot of your current mindset.",
-    actionGuidance: "Focus strictly on desired goals, maintain high intentions, and avoid worrying about doubts.",
-    frequencyHz: "111 Hz (Divine Initiation)"
+    title: "New Beginnings & Focused Intention",
+    cosmicMeaning: "Traditionally read as a prompt to notice what you are thinking about when the sequence appears, and to aim that attention deliberately — a beginning to act on, not a guarantee. Treat it as a cue to set one clear intention.",
+    actionGuidance: "Name one goal clearly, take the first small step toward it today, and let the rest follow."
   },
   "222 / 2222": {
     code: "222 / 2222",
     title: "Divine Balance & Sacred Trust",
     cosmicMeaning: "Everything is unfolding in perfect timing. Trust that seeds planted behind the scenes are taking root.",
-    actionGuidance: "Stay patient, nurture ongoing partnerships, and maintain emotional harmony.",
-    frequencyHz: "222 Hz (Harmony & Peace)"
+    actionGuidance: "Stay patient, nurture ongoing partnerships, and maintain emotional harmony."
   },
   "333 / 3333": {
     code: "333 / 3333",
     title: "Ascended Master Protection",
     cosmicMeaning: "Spiritual guides and higher masters surround you, encouraging creative self-expression and growth.",
-    actionGuidance: "Speak your authentic truth, share your talents, and trust divine spiritual backing.",
-    frequencyHz: "333 Hz (Creative Alignment)"
+    actionGuidance: "Speak your authentic truth, share your talents, and trust divine spiritual backing."
   },
   "444 / 4444": {
     code: "444 / 4444",
     title: "Angelic Shield & Solid Foundation",
     cosmicMeaning: "You are surrounded by protective guardian angels. Physical structural stability is taking shape.",
-    actionGuidance: "Keep building disciplined habits; your hard work is backed by divine protection.",
-    frequencyHz: "444 Hz (Angelic Protection)"
+    actionGuidance: "Keep building disciplined habits; your hard work is backed by divine protection."
   },
   "555 / 5555": {
     code: "555 / 5555",
     title: "Massive Positive Life Shift",
     cosmicMeaning: "Major transformative changes are entering your life, clearing outdated energy to make space for freedom.",
-    actionGuidance: "Embrace the shifts with an open heart; let go of comfort zones.",
-    frequencyHz: "528 Hz (Transformation & Miracles)"
+    actionGuidance: "Embrace the shifts with an open heart; let go of comfort zones."
   },
   "777 / 7777": {
     code: "777 / 7777",
     title: "Divine Fortune & Spiritual Reward",
     cosmicMeaning: "Luck and spiritual blessings are flowing into your life. You are aligned with your highest soul timeline.",
-    actionGuidance: "Expect miraculous synchronicities and celebrate your spiritual evolution.",
-    frequencyHz: "777 Hz (Spiritual Light)"
+    actionGuidance: "Expect miraculous synchronicities and celebrate your spiritual evolution."
   },
   "888 / 8888": {
     code: "888 / 8888",
     title: "Financial Abundance & Wealth Loop",
     cosmicMeaning: "Infinite financial flow and karmic reward for past diligent effort.",
-    actionGuidance: "Prepare for financial growth, practice gratitude, and share prosperity.",
-    frequencyHz: "888 Hz (Infinite Abundance)"
+    actionGuidance: "Prepare for financial growth, practice gratitude, and share prosperity."
   },
   "999 / 9999": {
     code: "999 / 9999",
     title: "Sacred Cycle Completion",
     cosmicMeaning: "An important chapter of your life is coming to a natural, peaceful conclusion.",
-    actionGuidance: "Release old emotional attachments and prepare for your next soul mission.",
-    frequencyHz: "963 Hz (Crown Activation)"
+    actionGuidance: "Release old emotional attachments and prepare for your next soul mission."
   }
 };
 
@@ -79,8 +70,8 @@ export function AngelNumberCalculator() {
   return (
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
-        <div className="badge badge-deep mb-3"> Angel Numbers & Cosmic Frequency</div>
-        <h2 className="font-display text-3xl font-bold gradient-text-deep">Angel Number Decoder & Frequency Guide</h2>
+        <div className="badge badge-deep mb-3"> Angel Numbers & Traditional Meanings</div>
+        <h2 className="font-display text-3xl font-bold gradient-text-deep">Angel Number Decoder & Meaning Guide</h2>
         <p className="text-[#3A5747] text-sm mt-1">
           Decode recurring number sequences (111, 222, 444, 777, 888) and see what each one is traditionally said to mean.
         </p>
@@ -108,10 +99,6 @@ export function AngelNumberCalculator() {
             <span className="text-xs uppercase tracking-widest text-[#075433] font-semibold">Recurring Sequence</span>
             <h3 className="text-2xl md:text-3xl font-display font-bold text-[#042F2A] mt-1">{result.code}</h3>
           </div>
-          <div className="text-right">
-            <span className="text-xs text-[#075433]">Resonance Frequency</span>
-            <div className="text-sm font-display font-bold text-[#075433]">{result.frequencyHz}</div>
-          </div>
         </div>
 
         <div className="space-y-4 text-left">
@@ -125,7 +112,7 @@ export function AngelNumberCalculator() {
 
           <div className="p-4 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
             <h4 className="text-xs font-semibold uppercase tracking-wider text-[#075433] mb-1">
-               Recommended Manifestation Action
+               Suggested Action Step
             </h4>
             <p className="text-sm font-semibold text-[#042F2A]">{result.actionGuidance}</p>
           </div>

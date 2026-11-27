@@ -43,7 +43,7 @@ export default function ContactPage() {
         <div className="badge badge-emerald"> Contact & Support</div>
         <h1 className="text-4xl sm:text-5xl font-display font-bold gradient-text">We'd Love to Hear From You</h1>
         <p className="text-[#3A5747] text-base sm:text-lg">
-          Have feedback, feature requests, or technical questions about our 100 astrology calculators?
+          Have feedback, feature requests, or technical questions about our 102 astrology calculators?
         </p>
       </div>
 
@@ -56,7 +56,7 @@ export default function ContactPage() {
         </div>
 
         <p className="text-xs text-[#3D5C46] leading-relaxed max-w-md mx-auto">
-          We reply to all legitimate user inquiries within 24 to 48 business hours.
+          We reply to all legitimate user inquiries within 24 to 48 hours.
         </p>
       </div>
 

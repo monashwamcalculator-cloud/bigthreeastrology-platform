@@ -67,7 +67,7 @@ const GEMSTONE_DATABASE: Record<string, GemstoneData> = {
     metal: "Copper or Gold",
     finger: "Ring Finger (Anamika)",
     mantra: "Om Hraam Hreem Hroum Sah Suryaya Namah",
-    benefits: "Bestows magnetic royal authority, career fame, strong immunity, and executive respect.",
+    benefits: "Bestows magnetic royal authority, career fame, and executive respect.",
     emoji: ""
   },
   Virgo: {

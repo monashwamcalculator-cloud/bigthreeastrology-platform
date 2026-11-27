@@ -134,7 +134,7 @@ export function DailyHoroscope() {
     <section className="glass-card p-6 md:p-8 animate-fade-in relative overflow-hidden">
       <div className="text-center mb-6">
         <h3 className="font-display text-3xl font-bold gradient-text-deep">Daily Cosmic Horoscope</h3>
-        <p className="text-[#43584A] text-sm mt-1">Select your Zodiac sign for today's daily cosmic guidance, energy meter, and lucky numbers.</p>
+        <p className="text-[#43584A] text-sm mt-1">Select your Zodiac sign for today's daily cosmic guidance and lucky numbers.</p>
       </div>
 
       {/* Sign Selector Pills */}
@@ -160,10 +160,6 @@ export function DailyHoroscope() {
           <div>
             <span className="text-xs uppercase tracking-widest text-[#08745A] font-semibold">Today's Vibe for {selectedSign}</span>
             <h4 className="text-2xl font-display font-bold text-[#042F2A] mt-1">{horoscope.vibe}</h4>
-          </div>
-          <div className="text-right">
-            <span className="text-xs text-[#3A5747] font-medium">Cosmic Energy</span>
-            <div className="text-2xl font-display font-bold text-accent-emerald">{horoscope.energy}%</div>
           </div>
         </div>
 

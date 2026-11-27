@@ -66,6 +66,12 @@ export default async function BlogPage() {
           <Link href="/tools/choghadia" className="font-bold text-[#075433] underline underline-offset-2 hover:text-[#08745A]">Daily Choghadia Muhurat</Link>, and{" "}
           <Link href="/tools/sade-sati" className="font-bold text-[#075433] underline underline-offset-2 hover:text-[#08745A]">Sade Sati Phase Checker</Link>.
         </p>
+        <p className="text-sm text-[rgba(46,61,51,0.92)] leading-relaxed mt-4">
+          Every guide here follows the same rule as our calculators: the method is shown, not hidden. Vedic topics — Kundali Milan, Sade Sati, nakshatras and dashas — are worked on sidereal positions with the Lahiri ayanamsa; Western topics — the Big Three, transits and synastry — use the tropical zodiac, and each article says which system it is using and why. Worked examples are calculated in full, so you can check the arithmetic yourself before trusting a word of the interpretation.
+        </p>
+        <p className="text-sm text-[rgba(46,61,51,0.92)] leading-relaxed mt-4">
+          New readers usually start with the Big Three — Sun, Moon and Rising — then move to the matching guides before the timing ones. If you are here for one specific question, the fastest way in is through the tool itself: every calculator page carries its own step-by-step guide, and every guide links back to the calculator it explains.
+        </p>
       </section>
     </div>
   );
