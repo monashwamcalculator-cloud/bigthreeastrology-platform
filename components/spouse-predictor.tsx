@@ -136,7 +136,7 @@ export function SpousePredictor() {
         <div className="badge badge-deep mb-3"> Soulmate & Spouse Insights</div>
         <h2 className="font-display text-3xl font-bold gradient-text-deep">Spouse & Future Partner Predictor</h2>
         <p className="text-[#3A5747] text-sm mt-1">
-          Select your Sun sign or 7th House Ruler to reveal your future spouse's personality, appearance, and meeting place.
+          Select your Moon sign (Janma Rashi) to reveal the spouse profile tradition links with it — personality, appearance themes, and likely meeting place.
         </p>
       </div>
 
@@ -190,14 +190,10 @@ export function SpousePredictor() {
             <p className="text-[#2C473F] text-sm leading-relaxed">{result.meetingPlace}</p>
           </div>
 
-          <div className="grid grid-cols-2 gap-3 pt-2 border-t border-emerald-500/20">
+          <div className="pt-2 border-t border-emerald-500/20">
             <div className="p-3 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
               <span className="text-xs text-[#075433] block">Lucky First Initials</span>
               <span className="text-base font-display font-bold text-[#042F2A]">{result.luckyInitials}</span>
-            </div>
-            <div className="p-3 rounded-xl bg-[#DFF5EC] border border-emerald-500/30">
-              <span className="text-xs text-[#075433] block">Soul Alignment Score</span>
-              <span className="text-base font-display font-bold text-[#075433]">{result.compatibilityScore}</span>
             </div>
           </div>
         </div>

@@ -85,8 +85,7 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
     return {
       sign: computedSign,
       element: ["Fire ♈", "Earth ♉", "Air ♊", "Water ♋"][nameSeed % 4],
-      score: 82 + (nameSeed * 1.5),
-      verdict: `Cosmic Resonance Reflection for ${tool.name}`,
+      verdict: `Reflection reading — ${computedSign}`,
       analysis: `This ${tool.name} reading is themed on ${computedSign} — the sign highlighted by your name profile and zodiac selection. ${reading.profile} Treat this reading as a reflection guide.`,
       advice: reading.advice
     };
@@ -152,7 +151,7 @@ export function GenericAstrologyCalculator({ tool }: GenericAstrologyCalculatorP
           {tool.name} Report
         </div>
         <div className="text-3xl font-display font-extrabold gradient-text-deep mb-1">
-          {result.score}% Synergy
+          {result.sign}
         </div>
         <p className="text-sm font-bold text-[#042F2A] mb-4">{result.verdict}</p>
 
