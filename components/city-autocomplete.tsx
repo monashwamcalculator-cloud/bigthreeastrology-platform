@@ -190,6 +190,9 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
   const [isLoading, setIsLoading] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const debounceTimer = useRef<NodeJS.Timeout | null>(null);
+  // The suggestion list may only open after the user has actually interacted
+  // with the field — never on mount from a pre-filled value.
+  const interactedRef = useRef(false);
 
   useEffect(() => {
     const trimmed = value.trim();
@@ -204,7 +207,7 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
       city.toLowerCase().includes(trimmed.toLowerCase())
     );
     setSuggestions(localMatches);
-    setIsOpen(localMatches.length > 0);
+    setIsOpen(interactedRef.current && localMatches.length > 0);
 
     // 2. Dynamic Global Fetch via OpenStreetMap Nominatim API
     if (debounceTimer.current) clearTimeout(debounceTimer.current);
@@ -230,7 +233,7 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
             // Merge local and API cities without duplicates
             const combined = Array.from(new Set([...localMatches, ...apiCities]));
             setSuggestions(combined);
-            setIsOpen(combined.length > 0);
+            setIsOpen(interactedRef.current && combined.length > 0);
           }
         }
       } catch (err) {
@@ -290,8 +293,9 @@ export function CityAutocomplete({ value, onChange, onPlaceSelect, placeholder =
           type="text"
           className="input-cosmic w-full text-[#042F2A] placeholder-[rgba(46,61,51,0.45)] pr-8"
           value={value}
-          onChange={(e) => { onChange(e.target.value); onPlaceSelect?.(null); }}
+          onChange={(e) => { interactedRef.current = true; onChange(e.target.value); onPlaceSelect?.(null); }}
           onFocus={() => {
+            interactedRef.current = true;
             if (value.trim().length >= 2 && suggestions.length > 0) {
               setIsOpen(true);
             }

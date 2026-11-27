@@ -119,6 +119,11 @@ body {
   transition: all 0.25s ease;
 }
 
+/* Default width for form controls — zero specificity, so explicit width utilities (e.g. w-1/3) still win */
+:where(.input-cosmic, input, select, textarea) {
+  width: 100%;
+}
+
 .input-cosmic:focus, input:focus, select:focus, textarea:focus {
   border-color: #08745a !important;
   box-shadow: 0 0 0 3px rgba(8, 116, 90, 0.18) !important;

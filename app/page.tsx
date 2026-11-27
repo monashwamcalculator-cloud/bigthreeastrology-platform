@@ -148,6 +148,7 @@ export default function HomePage() {
 
       {/* 2. Quick Access Featured Cards Grid */}
       <section className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-2.5 sm:gap-3 max-w-6xl mx-auto px-1">
+        <h2 className="sr-only">Quick Access Calculators</h2>
         {[
           { name: "Big Three Calculator", desc: "Sun, Moon & Rising Signs", icon: "zodiac", link: "/tools/big-three" },
           { name: "Spouse Predictor", desc: "Soulmate Features & Initials", icon: "spouse", link: "/tools/spouse-predictor" },
@@ -316,7 +317,7 @@ export default function HomePage() {
       </section>
 
       {/* 9. Compact Educational Manual Section */}
-      <section className="glass-card p-5 md:p-8 prose max-w-4xl mx-auto rounded-2xl shadow-xl bg-white border-[rgba(8,116,90,0.35)] space-y-6">
+      <section className="glass-card p-5 md:p-8 max-w-4xl mx-auto rounded-2xl shadow-xl bg-white border-[rgba(8,116,90,0.35)] space-y-6">
         <div>
           <h2 className="text-xl sm:text-3xl font-display font-bold gradient-text-gold mb-3">
             Mastering Your Astrological & Numerological Blueprint

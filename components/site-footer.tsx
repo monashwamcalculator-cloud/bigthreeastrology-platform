@@ -18,7 +18,7 @@ const categories = [
   { name: "Numerology & Name Math", href: "/tools#numerology" },
   { name: "Tarot & Soul Guidance", href: "/tools#guidance" },
   { name: "Synastry & Relationships", href: "/tools#synastry" },
-  { name: "Career & Wealth Astrology", href: "/tools#career" },
+  { name: "Career & Financial Astrology", href: "/tools#career" },
   { name: "All 100+ Free Tools", href: "/tools" },
 ];
 

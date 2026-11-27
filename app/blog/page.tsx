@@ -56,7 +56,7 @@ export default async function BlogPage() {
 
       <AdSlot label="Blog content ad slot" />
 
-      <section className="glass-card p-6 md:p-10 mt-12 prose max-w-none bg-white border-[rgba(8,116,90,0.35)]">
+      <section className="glass-card p-6 md:p-10 mt-12 max-w-none bg-white border-[rgba(8,116,90,0.35)]">
         <h2 className="text-2xl sm:text-3xl font-display font-bold gradient-text-gold">Astrology Learning Hub &amp; Practical Guides</h2>
         <p className="text-sm text-[rgba(46,61,51,0.92)] leading-relaxed">
           The BIGThreeAstrology blog is built to answer real questions with practical clarity. Our articles map directly to our 100+ tools—including our{" "}

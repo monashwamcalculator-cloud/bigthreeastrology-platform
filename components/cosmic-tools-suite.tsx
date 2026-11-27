@@ -8,13 +8,14 @@ import { CosmicIcon } from "@/components/cosmic-icons";
 export function CosmicToolsSuite() {
   const [activeCategory, setActiveCategory] = useState<string>("planetary");
 
+  const countFor = (key: string) => MASTER_TOOLS_LIST.filter((tool) => tool.category === key).length;
   const categories = [
-    { key: "planetary", name: "Birth Chart & Planets (20)", iconType: "zodiac" },
-    { key: "vedic", name: "Vedic Jyotish & Timing (20)", iconType: "vedic" },
-    { key: "numerology", name: "Numerology & Name Math (20)", iconType: "numerology" },
-    { key: "guidance", name: "Tarot & Soul Guidance (15)", iconType: "tarot" },
-    { key: "synastry", name: "Synastry & Relationships (15)", iconType: "spouse" },
-    { key: "career", name: "Career & Wealth Astrology (10)", iconType: "saturn" }
+    { key: "planetary", name: `Birth Chart & Planets (${countFor("planetary")})`, iconType: "zodiac" },
+    { key: "vedic", name: `Vedic Jyotish & Timing (${countFor("vedic")})`, iconType: "vedic" },
+    { key: "numerology", name: `Numerology & Name Math (${countFor("numerology")})`, iconType: "numerology" },
+    { key: "guidance", name: `Tarot & Soul Guidance (${countFor("guidance")})`, iconType: "tarot" },
+    { key: "synastry", name: `Synastry & Relationships (${countFor("synastry")})`, iconType: "spouse" },
+    { key: "career", name: `Career & Financial Astrology (${countFor("career")})`, iconType: "saturn" }
   ];
 
   const filteredTools = MASTER_TOOLS_LIST.filter((tool) => tool.category === activeCategory);
@@ -29,7 +30,7 @@ export function CosmicToolsSuite() {
             onClick={() => setActiveCategory(cat.key)}
             className={`cursor-pointer px-3.5 py-2.5 rounded-xl font-display font-bold text-xs sm:text-sm transition-all duration-300 flex items-center gap-2 ${
               activeCategory === cat.key
-                ? "bg-gradient-to-r from-[#3b8a5c] via-[#2e7d4f] to-[#256b42] text-[#042F2A] shadow-lg shadow-emerald-900/30 border border-[#2e7d4f]"
+                ? "bg-gradient-to-r from-[#3b8a5c] via-[#2e7d4f] to-[#256b42] text-white shadow-lg shadow-emerald-900/30 border border-[#2e7d4f]"
                 : "text-[#43584a] hover:text-[#16402b] hover:bg-[#eaf1e6] border border-transparent"
             }`}
           >
@@ -64,7 +65,7 @@ export function CosmicToolsSuite() {
       <div className="text-center pt-2">
         <p className="text-xs text-[rgba(7,84,51,0.8)] font-semibold flex items-center justify-center gap-1.5">
           <CosmicIcon name="zodiac" className="w-4 h-4" />
-          <span>Showing {MASTER_TOOLS_LIST.length} Authentic Astrological, Vedic & Numerology Calculators</span>
+          <span>Showing {filteredTools.length} of {MASTER_TOOLS_LIST.length} calculators</span>
         </p>
       </div>
     </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { CityAutocomplete, type PlaceInfo } from "@/components/city-autocomplete";
 import { moonLongitude, nakshatraOf, signOf, toSidereal } from "@/lib/astro-engine";
 
@@ -283,6 +283,11 @@ export function KundaliMilanCalculator() {
     return calculateKundaliMatch(boyMoon, girlMoon);
   }, [boyMoon, girlMoon]);
 
+  const resultRef = useRef<HTMLDivElement>(null);
+  const scrollToResult = () => {
+    resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   const handleShare = async () => {
     if (!matchResult) return;
     const text = ` Vedic Kundali Milan Report \n Boy: ${boyName || "Groom"} (${boyPlace || "India"}) - ${boyHour}:${boyMinute} ${boyPeriod}\n Girl: ${girlName || "Bride"} (${girlPlace || "India"}) - ${girlHour}:${girlMinute} ${girlPeriod}\n Total Score: ${matchResult.totalGuna} / 36 Gunas\n Verdict: ${matchResult.verdict}\n\nCheck authentic Kundali Matching free at BIGThreeAstrology!`;
@@ -302,12 +307,15 @@ export function KundaliMilanCalculator() {
         <p className="mt-2 text-[#2C473F] text-sm max-w-xl mx-auto">
           Enter exact birth details (date, time with AM/PM, and place) of the Boy and Girl to calculate the 36 Guna Milan score with traditional Vedic calculations.
         </p>
+        <p className="mt-2 text-xs text-[#5f7a63]">
+          No button needed — your score is calculated automatically as soon as both birth dates are entered.
+        </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-8">
         {/* Boy Form */}
-        <div className="glass-card-hover p-6 border-[#bcd0e6] bg-white">
-          <h3 className="text-lg font-display font-semibold text-[#1d6fb8] mb-4 flex items-center gap-2">
+        <div className="glass-card-hover p-6 border-[#D4E2DD] bg-white">
+          <h3 className="text-lg font-display font-semibold text-[#075433] mb-4 flex items-center gap-2">
             <span></span> Groom's Details (Ladka)
           </h3>
           <div className="space-y-4">
@@ -470,8 +478,27 @@ export function KundaliMilanCalculator() {
         </div>
       </div>
 
+      {/* Auto-calculation bar: the match computes itself once both birth dates exist —
+          this bar tells the user so, and scrolls to the result when there is one. */}
+      <div className="rounded-2xl border border-[rgba(8,116,90,0.35)] bg-[#DFF5EC] px-5 py-4 text-center">
+        {matchResult ? (
+          <>
+            <button type="button" onClick={scrollToResult} className="btn-glow">
+              Match Kundali — See Your 36 Guna Score
+            </button>
+            <p className="mt-2 text-xs text-[#3A5747]">
+              Your score updates automatically whenever the birth details above change.
+            </p>
+          </>
+        ) : (
+          <p className="text-sm font-semibold text-[#075433]">
+            Enter both birth dates — your 36 Guna score appears here automatically, no button needed.
+          </p>
+        )}
+      </div>
+
       {matchResult && (
-        <div className="mt-10 border-t border-emerald-500/30 pt-8 animate-slide-up">
+        <div ref={resultRef} className="mt-10 scroll-mt-28 border-t border-emerald-500/30 pt-8 animate-slide-up">
           <div className="glass-card-hover p-6 md:p-8 text-center max-w-3xl mx-auto border-[rgba(8,116,90,0.4)] relative overflow-hidden">
             <div className="text-xs uppercase tracking-widest font-semibold text-[#3A5747] mb-1">Vedic Kundali Matching Result</div>
             <h3 className="text-xl font-display font-bold text-[#042F2A] mb-2">
